@@ -83,3 +83,12 @@ node_modules/
 backup-*/
 *.orig
 *.rej
+
+# ── 10. 工作区快照式“增量包”（2026-11-05 补：时点改用 git tag 表达）────
+# 这类目录是把整个工作区复制一份，通常含 .planning/、user_logs/、ament build.log，
+# 体积 9~250 MB，且带 300+ 字符深路径（Windows 上 checkout 会失败）。
+# 历史时点请用 `git tag -a v0.x-YYYYMMDD`；包本体留在磁盘/移动硬盘，
+# 只在 docs/evidence-index.md 登记一行（包名 / 体积 / SHA256 / 位置）。
+outputs/**/Hunter_increment_*/
+outputs/**/项目增量/
+

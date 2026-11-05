@@ -1,12 +1,16 @@
 #!/bin/sh
-# pre-commit：拦截过大的暂存文件
+# pre-commit：拦截不该入库的文件
 #
-# 默认规则：
-#   > 5 MB  → 拒绝提交
-#   > 1 MB  → 警告（放行，但提示）
-#   扩展名 vhdx / vdi / vmdk / iso → 一律拒绝（这类文件不可能是 5 MB 以内）
+# 只检查“本次提交”涉及的文件（新增 A / 修改 M / 改名 R / 复制 C），
+# 不检查已入库的全部文件 —— 否则历史里已有的长路径文件会让之后每一次提交都无法通过。
 #
-# 阈值可用环境变量覆盖：HOOK_MAX_BYTES / HOOK_WARN_BYTES
+# 拒绝规则：
+#   暂存 blob > 5 MB                     → 拒绝（> 1 MB 仅警告）
+#   扩展名 vhdx / vdi / vmdk / iso       → 一律拒绝
+#   路径字符数 > 200                      → 拒绝（Windows 上 clone / checkout 会失败）
+#   路径含 Hunter_increment_ / 项目增量/  → 拒绝（工作区快照式增量包）
+#
+# 阈值可用环境变量覆盖：HOOK_MAX_BYTES / HOOK_WARN_BYTES / HOOK_MAX_PATH
 # 确有需要时绕过：git commit --no-verify  或  ALLOW_LARGE_FILES=1 git commit -m "..."
 #
 # 安装（每台机器克隆后执行一次）：
@@ -16,22 +20,33 @@ set -u
 
 LIMIT=${HOOK_MAX_BYTES:-5242880}
 WARN=${HOOK_WARN_BYTES:-1048576}
+MAXPATH=${HOOK_MAX_PATH:-200}
 
 if [ -n "${ALLOW_LARGE_FILES:-}" ]; then
-  echo "pre-commit: ALLOW_LARGE_FILES 已设置，跳过体积检查"
+  echo "pre-commit: ALLOW_LARGE_FILES 已设置，跳过检查"
   exit 0
 fi
 
 list=$(mktemp) || exit 0
 trap 'rm -f "$list"' EXIT INT TERM
 
-# 只检查已暂存的 blob；用暂存区里的 blob 哈希取真实体积（不是工作区文件大小）
-git ls-files -s | awk -F'\t' '{ split($1, a, " "); print a[2] "|" $2 }' > "$list"
+git -c core.quotepath=false diff --cached --name-only --diff-filter=ACMR > "$list" 2>/dev/null || exit 0
+
+# UTF-8 字符数：统计“非续位字节”(<0x80 或 >=0xC0)，不依赖 locale 设置
+char_len() {
+  printf '%s' "$1" | od -An -v -tu1 \
+    | tr -s ' \n' '\n\n' \
+    | awk 'NF && ($1 < 128 || $1 >= 192) { n++ } END { print n + 0 }'
+}
 
 fail=0
-while IFS='|' read -r sha path; do
-  [ -n "$sha" ] || continue
-  size=$(git cat-file -s "$sha" 2>/dev/null) || size=0
+count=0
+while IFS= read -r path; do
+  [ -n "$path" ] || continue
+  count=$((count + 1))
+
+  # 体积：取暂存区 blob 的真实字节数（不是工作区文件大小）
+  size=$(git cat-file -s ":$path" 2>/dev/null) || size=0
   if [ "$size" -gt "$LIMIT" ]; then
     fail=1
     human=$(awk -v s="$size" 'BEGIN { printf "%.2f", s / 1048576 }')
@@ -40,22 +55,39 @@ while IFS='|' read -r sha path; do
     human=$(awk -v s="$size" 'BEGIN { printf "%d", s / 1024 }')
     echo "  WARN  $path  ${human} KB  (接近上限，确认它真的该入库)"
   fi
+
+  case "$path" in
+    *.vhdx|*.vdi|*.vmdk|*.iso)
+      fail=1
+      echo "  FAIL  $path  虚拟磁盘/镜像一律不入库"
+      ;;
+  esac
+
+  chars=$(char_len "$path")
+  if [ "$chars" -gt "$MAXPATH" ]; then
+    fail=1
+    echo "  FAIL  $path  ${chars} 字符（上限 ${MAXPATH}，Windows 上会 checkout 失败）"
+  fi
+
+  case "$path" in
+    *Hunter_increment_*|*项目增量/*)
+      fail=1
+      echo "  FAIL  $path  属于工作区快照式增量包，不入库（时点用 git tag 表达）"
+      ;;
+  esac
 done < "$list"
 
-# 虚拟磁盘镜像：不管多大都拦
-blocked=$(git ls-files -s | awk -F'\t' '{ print $2 }' | grep -Ei '\.(vhdx|vdi|vmdk|iso)$' || true)
-if [ -n "$blocked" ]; then
-  fail=1
-  echo "  FAIL  以下虚拟磁盘/镜像文件不允许入库："
-  echo "$blocked" | sed 's/^/        /'
+if [ "$count" -eq 0 ]; then
+  exit 0
 fi
 
 if [ "$fail" -ne 0 ]; then
   cat <<'EOT'
 
-pre-commit: 有文件超过大小限制，提交已阻止。
+pre-commit: 提交已阻止（具体文件见上面的 FAIL 行）。
 
-  这些通常是点云、数据集、构建产物、虚拟磁盘 —— 它们属于"磁盘上保留、不入库"。
+  ── 如果是“文件太大” ──
+  这些通常是点云、数据集、构建产物、虚拟磁盘 —— 属于“磁盘上保留、不入库”。
 
   1) 补 .gitignore（推荐，源头解决）：
          echo "maps/" >> .gitignore
@@ -68,6 +100,19 @@ pre-commit: 有文件超过大小限制，提交已阻止。
 
   4) 确认无误、就是要强行提交：
          git commit --no-verify
+
+  ── 如果是“路径太长” ──
+  这类文件在别人的 Windows 机器上 clone / checkout 会直接失败，不是体积问题。
+  缩短目录名或层级，而不是开 core.longpaths 硬闯（对方未必开了）。
+
+  ── 如果是“工作区快照式增量包” ──
+  不要再把整个工作区复制一份入库。冻结时点用 tag：
+
+         git tag -a v0.2-20261031 -m "10-31 对账节点"
+         git push --tags
+
+  包本体留在磁盘 / 移动硬盘 / 网盘，只在 docs/evidence-index.md 里登记一行
+  （包名、体积、SHA256、存放位置），别人需要时按记录去取。
 
 EOT
   exit 1
