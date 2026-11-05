@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "model_name": "hz_hunter_full",
+  "camera_model": {
+    "source": "camera_source",
+    "source_stream": "D435i color 640x480 mapping configuration",
+    "rendering": "Ogre1 centered square-pixel approximation",
+    "fx": 606.7595825195312,
+    "fy": 606.7595825195312,
+    "cx": 320.0,
+    "cy": 240.0,
+    "depth_uses_color_approximation": true,
+    "mounting_extrinsics_verified": false
+  },
+  "artifacts": {
+    "scene": {
+      "path": "sim/scenes/hz_hunter_full.sdf",
+      "sha256": "c5e0a0e7a999be8eec129a2ccde388947dc748458e4878eabfb141fbb8f44c40"
+    },
+    "gui": {
+      "path": "sim/scenes/hz_hunter_full_gui.config",
+      "sha256": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc"
+    }
+  },
+  "inputs": {
+    "converted_sdf": {
+      "path": "outputs/hunter_model_upgrade_20261030/references/ament/hunter_full.converted.sdf",
+      "sha256": "1b4b34efdfd05f505f96b3233d8b81741687e223aad100edd9d6aea6b142fbda"
+    },
+    "conversion_urdf": {
+      "path": "outputs/hunter_model_upgrade_20261030/references/ament/hunter_full_lump_input.urdf",
+      "sha256": "52d2ea1b499864063e329ca212cef25e3292ce6ae46143258f252d48a43ffdec"
+    },
+    "urdf": {
+      "path": "sim/hz_hunter_full_description/urdf/hunter_full.urdf",
+      "sha256": "7050e9b11d861ef9d5792691363e76f2e274a94e72924cc3d5b790d69070132e"
+    },
+    "source_manifest": {
+      "path": "sim/hz_hunter_full_description/source_manifest.json",
+      "sha256": "335c5f20cd4221651897f995acfebdd18a20adc63140c6b56aa3b59a9640565a"
+    },
+    "geometry_report": {
+      "path": "sim/hz_hunter_full_description/geometry_report.json",
+      "sha256": "905f060951607d641272c2d05c9af95103d1d65dc24ccd8bfa054bad701c33e3"
+    },
+    "camera_source": {
+      "path": "robot_assets/car_sensor_config_20261030/camera_d435i_640x480.yaml",
+      "sha256": "790333f3aa749400429f27d0fa0838662dc8c65e5ad6e64b96dfa9de8d183daf"
+    },
+    "mapping_source": {
+      "path": "robot_assets/car_sensor_config_20261030/xt32_ch104_d435i.yaml",
+      "sha256": "bd5a59683e9ed914fab81af13af0306a75ab13d5091ce2e3465dad5fea93cb9e"
+    },
+    "source_vio": {
+      "path": "robot_assets/car_sensor_config_20261030/source/vio.cpp",
+      "sha256": "5786aeca9a26c796953430d471d5428279a5590c084b07dc945647aa88048911"
+    },
+    "source_livmapper": {
+      "path": "robot_assets/car_sensor_config_20261030/source/LIVMapper.cpp",
+      "sha256": "1bbdae25fde516032de59371364960481f569fa67f21ab16fb7d6d07034409f8"
+    },
+    "source_ch104": {
+      "path": "robot_assets/car_sensor_config_20261030/source/ch104_imu_pub_legacy.py",
+      "sha256": "abcb19913c42d5133913b72754b2515f9740223a1726af6840c8651fc7f9ed52"
+    }
+  },
+  "meshes": [
+    {
+      "path": "meshes/chassis/base_link.stl",
+      "uri": "file:///mnt/f/rob-memory/sim/hz_hunter_full_description/meshes/chassis/base_link.stl",
+      "sha256": "f1d21d0a1d52a9f1e42b91f2a5ee847e0bad71afdf4cc60749cdf92c78042638"
+    },
+    {
+      "path": "meshes/chassis/front_left_wheel_link.stl",
+      "uri": "file:///mnt/f/rob-memory/sim/hz_hunter_full_description/meshes/chassis/front_left_wheel_link.stl",
+      "sha256": "c0e938b3140b755e49350222f5c38375fa99ea6c5f4c3384f4cfbbc3181c22d5"
+    },
+    {
+      "path": "meshes/chassis/front_right_wheel_link.stl",
+      "uri": "file:///mnt/f/rob-memory/sim/hz_hunter_full_description/meshes/chassis/front_right_wheel_link.stl",
+      "sha256": "6b92e06f9db14cbed62379e3619b017787b603df2a26e31e14ed3c2032d89d3d"
+    },
+    {
+      "path": "meshes/chassis/front_steer_bar_link.stl",
+      "uri": "file:///mnt/f/rob-memory/sim/hz_hunter_full_description/meshes/chassis/front_steer_bar_link.stl",
+      "sha256": "89d0eb127ba67ed0876873080f04da1c1a587747d097de78322bcc7e7a5773d0"
+    },
+    {
+      "path": "meshes/chassis/rear_axle_detail_link.stl",
+      "uri": "file:///mnt/f/rob-memory/sim/hz_hunter_full_description/meshes/chassis/rear_axle_detail_link.stl",
+      "sha256": "cb4c7aaeeb77056d2cd8f903cb480ad594d0e1550a3066f0b1b4459e7a5d8fd6"
+    },
+    {
+      "path": "meshes/chassis/rear_left_wheel_link.stl",
+      "uri": "file:///mnt/f/rob-memory/sim/hz_hunter_full_description/meshes/chassis/rear_left_wheel_link.stl",
+      "sha256": "6c912207b50d48a1b5b74bb68c0be696cdf6a6e0f227deb949aac27c74c40f85"
+    },
+    {
+      "path": "meshes/chassis/rear_right_wheel_link.stl",
+      "uri": "file:///mnt/f/rob-memory/sim/hz_hunter_full_description/meshes/chassis/rear_right_wheel_link.stl",
+      "sha256": "d06fd72a84df26f205a657cc3f560563312677591b4d81add0b961a78f6cbe70"
+    },
+    {
+      "path": "meshes/upfit/ARS548.STL",
+      "uri": "file:///mnt/f/rob-memory/sim/hz_hunter_full_description/meshes/upfit/ARS548.STL",
+      "sha256": "5350178d525c3f57828c1f820c572136ba1efcbbfe36ba01c00486727bdd8597"
+    },
+    {
+      "path": "meshes/upfit/assembly.STL",
+      "uri": "file:///mnt/f/rob-memory/sim/hz_hunter_full_description/meshes/upfit/assembly.STL",
+      "sha256": "ddd0fe5993af16aa1ee67845aca76170d21ef31e3fcce5fafed98458aa67f34c"
+    },
+    {
+      "path": "meshes/upfit/d435.dae",
+      "uri": "file:///mnt/f/rob-memory/sim/hz_hunter_full_description/meshes/upfit/d435.dae",
+      "sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78"
+    },
+    {
+      "path": "meshes/upfit/G60.STL",
+      "uri": "file:///mnt/f/rob-memory/sim/hz_hunter_full_description/meshes/upfit/G60.STL",
+      "sha256": "08adf459e9c2a79f2247169886aab8559e1632f22177db764635602d8105fb12"
+    },
+    {
+      "path": "meshes/upfit/XT32.STL",
+      "uri": "file:///mnt/f/rob-memory/sim/hz_hunter_full_description/meshes/upfit/XT32.STL",
+      "sha256": "8fd7cf0485509c97ca499ab0c7a3aaef5e43242b836cbd23395451577d06b64f"
+    }
+  ],
+  "conversion": {
+    "method": "Fortress ign sdf -p on a copy with preserveFixedJoint tags removed",
+    "original_urdf_unchanged": true,
+    "rsp_links": 19,
+    "physical_links": 7,
+    "active_joints": 6
+  },
+  "render_engine": "ogre",
+  "gui_start_paused": true,
+  "transport_topics": {
+    "command": "/hz_sim/full/cmd_vel",
+    "odom": "/hz_sim/full/odom",
+    "tf": "/hz_sim/full/tf",
+    "joint_states": "/hz_sim/full/joint_states",
+    "lidar_scan": "/hz_sim/full/lidar",
+    "lidar_points": "/hz_sim/full/lidar/points",
+    "camera_rgb": "/hz_sim/full/camera/image",
+    "camera_depth": "/hz_sim/full/camera/depth_image",
+    "camera_info": "/hz_sim/full/camera/camera_info",
+    "imu": "/hz_sim/full/imu"
+  },
+  "sensor_pose_source": "pinned personal mapping profile and nominal lidar body mount; checked against URDF and optical/engine convention",
+  "uncalibrated": true,
+  "limitations": [
+    "Masses, inertia/collision approximations and IMU mounting are engineering assumptions.",
+    "RGB uses source horizontal focal length with centered square pixels; RGBD depth shares that approximation.",
+    "Offline generation and validation do not claim runtime sensor, ROS or GUI acceptance."
+  ]
+}

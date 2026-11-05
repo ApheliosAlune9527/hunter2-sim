@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-16",
+  "scope": "documentation_and_local_fixture_only",
+  "robot_live_transfer_test": false,
+  "roles": 15,
+  "bash_commands": 10,
+  "powershell_commands": 10,
+  "bash_syntax": "PASS",
+  "powershell_51_syntax": "PASS",
+  "exact_windows_guide_workflow": "PASS",
+  "input_pcd_files": 2,
+  "input_points": 3,
+  "raw_points": 3,
+  "preview_points": 2,
+  "raw_records_preserved": true,
+  "repeated_unpack_refused": true,
+  "bad_hash_refused": true
+}

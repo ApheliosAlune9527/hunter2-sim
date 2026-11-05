@@ -1,0 +1,32 @@
+127.0.0.1 - - [16/Oct/2026 21:07:32] "GET /viewer.html HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:07:32] "GET /vendor/three.module.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:07:32] "GET /vendor/RoomEnvironment.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:07:32] "GET /vendor/OrbitControls.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:07:32] "GET /vendor/GLTFLoader.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:07:32] "GET /vendor/BufferGeometryUtils.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:07:33] "GET /floral-ring-v01.glb HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:07:33] code 404, message File not found
+127.0.0.1 - - [16/Oct/2026 21:07:33] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [16/Oct/2026 21:10:02] "GET /viewer.html?revision=2 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:10:02] "GET /vendor/OrbitControls.js HTTP/1.1" 304 -
+127.0.0.1 - - [16/Oct/2026 21:10:02] "GET /vendor/GLTFLoader.js HTTP/1.1" 304 -
+127.0.0.1 - - [16/Oct/2026 21:10:02] "GET /vendor/RoomEnvironment.js HTTP/1.1" 304 -
+127.0.0.1 - - [16/Oct/2026 21:10:02] "GET /vendor/three.module.js HTTP/1.1" 304 -
+127.0.0.1 - - [16/Oct/2026 21:10:02] "GET /vendor/BufferGeometryUtils.js HTTP/1.1" 304 -
+127.0.0.1 - - [16/Oct/2026 21:10:02] "GET /floral-ring-v01.glb HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:12:38] "GET /viewer.html?revision=3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:12:38] "GET /vendor/three.module.js HTTP/1.1" 304 -
+127.0.0.1 - - [16/Oct/2026 21:12:38] "GET /vendor/OrbitControls.js HTTP/1.1" 304 -
+127.0.0.1 - - [16/Oct/2026 21:12:38] "GET /vendor/RoomEnvironment.js HTTP/1.1" 304 -
+127.0.0.1 - - [16/Oct/2026 21:12:38] "GET /vendor/GLTFLoader.js HTTP/1.1" 304 -
+127.0.0.1 - - [16/Oct/2026 21:12:38] "GET /vendor/BufferGeometryUtils.js HTTP/1.1" 304 -
+127.0.0.1 - - [16/Oct/2026 21:12:38] "GET /floral-ring-v01.glb HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:15:40] "GET /viewer.html?revision=3 HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:15:41] "GET /vendor/three.module.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:15:41] "GET /vendor/OrbitControls.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:15:41] "GET /vendor/RoomEnvironment.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:15:41] "GET /vendor/GLTFLoader.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:15:41] "GET /vendor/BufferGeometryUtils.js HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:15:41] "GET /floral-ring-v01.glb HTTP/1.1" 200 -
+127.0.0.1 - - [16/Oct/2026 21:15:42] code 404, message File not found
+127.0.0.1 - - [16/Oct/2026 21:15:42] "GET /favicon.ico HTTP/1.1" 404 -

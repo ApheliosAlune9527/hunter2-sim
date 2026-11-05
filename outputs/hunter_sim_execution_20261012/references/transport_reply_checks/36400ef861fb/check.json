@@ -1,0 +1,33 @@
+{
+  "robot_or_physics_loaded": false,
+  "velocity_published": false,
+  "user_window_targeted": false,
+  "cases": [
+    {
+      "mode": "warmup-required",
+      "ok": true,
+      "native_exit_code": 0,
+      "read_requests": 1,
+      "control_requests": 1,
+      "error": ""
+    },
+    {
+      "mode": "delay-first-read",
+      "ok": true,
+      "native_exit_code": 0,
+      "read_requests": 2,
+      "control_requests": 1,
+      "error": ""
+    },
+    {
+      "mode": "reject-read",
+      "ok": true,
+      "native_exit_code": 1,
+      "read_requests": 1,
+      "control_requests": 0,
+      "error": "Read-only reply handshake rejected; no world control request sent"
+    }
+  ],
+  "report_directory": "/mnt/f/rob-memory/outputs/hunter_sim_execution_20261012/references/transport_reply_checks/36400ef861fb",
+  "ok": true
+}

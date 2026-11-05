@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-15",
+  "targets": [
+    {
+      "path": "E:\\robot_lab\\hz_ws_最终交付_20261015",
+      "directory": true
+    },
+    {
+      "path": "E:\\robot_lab\\hz_ws_最终交付_20261015_完整包.zip",
+      "directory": false
+    },
+    {
+      "path": "E:\\robot_lab\\hz_ws_FAST-LIVO2_启动命令_20261015.txt",
+      "directory": false
+    },
+    {
+      "path": "E:\\robot_lab\\hz_ws_FAST-LIVO2_ROS2实时日志启动_20261015.txt",
+      "directory": false
+    },
+    {
+      "path": "F:\\rob-memory\\outputs\\hz_mapping_final_20261015",
+      "directory": true
+    },
+    {
+      "path": "F:\\rob-memory\\outputs\\startup_commands_20261015",
+      "directory": true
+    },
+    {
+      "path": "F:\\rob-memory\\outputs\\mapping_rerun_guide_20261011",
+      "directory": true
+    },
+    {
+      "path": "F:\\rob-memory\\hz_mapping_tools_20261011\\完整建图流程.md",
+      "directory": false
+    },
+    {
+      "path": "F:\\rob-memory\\hz_mapping_tools_20261011\\hz_ws_简洁启动命令清单.txt",
+      "directory": false
+    },
+    {
+      "path": "F:\\rob-memory\\hz_mapping_tools_20261011\\hz_ws_ROS2启动命令清单_离线版.txt",
+      "directory": false
+    }
+  ],
+  "protected_sha256": {
+    "F:\\rob-memory\\hz_mapping_tools_20261011\\pcd_export.py": "2067444b2dd9ec8f69b421eed688a8377dee59ada12bcacdba6e4ca729ee07a1",
+    "F:\\rob-memory\\maps\\lab_20261011\\lab_20261011_155236_369289\\merged\\map_raw.pcd": "a57844447f23c2c02cd30f101aaf622ae86eb8a1cd207b684a940fa464d06441",
+    "F:\\rob-memory\\hz_mapping_tools_20261011\\hz_mapping_session.py": "76422832047f32056a08dde99a5da8b372f2db560e4a5d26dd76888657eada5e",
+    "F:\\rob-memory\\hz_mapping_tools_20261011\\download_map.ps1": "13aa69e50885165a074fdbc990e8b1a68a0430aeeb44ab12e26ed75e7da3c863",
+    "E:\\robot_lab\\建图导航.txt": "fe32233467efacf99eed0d67419e929c297dade8bc79128bd0c652197b3458ce",
+    "F:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\deliverables\\本周进展_Hunter小车建图复现.pptx": "569c1628747fa4adf882e17f40a497b6a3dd9ae7b2c79fc8f5067d38c7c49aa3",
+    "F:\\rob-memory\\outputs\\raw_pcd_preview_lab155236_20261013\\map_raw_lab_clear_4k.png": "cfa1b9d0d25fbf9767195c2bff4fc01b4fcae7a057c66beccf805e3926f955d4"
+  },
+  "map_counts": {
+    "lab_20261011_141011_768151": 5274,
+    "lab_20261011_155236_369289": 5245
+  },
+  "latest_files": {
+    "hz_mapping_tools.zip": {
+      "bytes": 11570,
+      "sha256": "c62919992ce9a77fb5c60d5d1c1ddb35cfabfef780121979e0a049d1dc0e0204"
+    },
+    "hz_mapping_tools.zip.sha256": {
+      "bytes": 87,
+      "sha256": "5e1f191ef09682ef492b3c44e3aa27014581fbac2377a5ed9abe1efc4cd67daf"
+    },
+    "pcd_export.py": {
+      "bytes": 8216,
+      "sha256": "2067444b2dd9ec8f69b421eed688a8377dee59ada12bcacdba6e4ca729ee07a1"
+    },
+    "下载地图.ps1": {
+      "bytes": 2509,
+      "sha256": "43d43df3e5c34a5e226bbb02028bb34f4d0ab2f7cd635ce20498b8c7015ea416"
+    },
+    "安装建图工具.ps1": {
+      "bytes": 2976,
+      "sha256": "4e656f147c06e4450f9af2db01a48ca9b9e25671ad09282b5d4170d172d8f9d2"
+    },
+    "建图使用说明.txt": {
+      "bytes": 18730,
+      "sha256": "619e784a1935feb6f3bad83311b6028e6902232336f2dfb6b1a4105ec8735f23"
+    },
+    "校验资料/审阅源码.zip": {
+      "bytes": 53251,
+      "sha256": "c0041e705d2f0af9c427d6dedf62054952c391e62915a8674b4564fd57d30429"
+    },
+    "校验资料/验证报告.txt": {
+      "bytes": 1462,
+      "sha256": "45609c76922e6c05761cfd9739ae915a4c119b9f843b1f8095a1c2065e159971"
+    }
+  }
+}

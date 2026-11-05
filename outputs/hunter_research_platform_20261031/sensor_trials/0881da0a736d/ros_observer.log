@@ -1,0 +1,2 @@
+1793866828.032216 [74]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+{"ok": false, "motion_published": false, "samples": {}, "error": "ValueError('Missing/non-progressing ROS stream: clock')"}

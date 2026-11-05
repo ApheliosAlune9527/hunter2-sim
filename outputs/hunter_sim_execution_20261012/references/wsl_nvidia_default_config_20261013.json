@@ -1,0 +1,22 @@
+{
+  "checked_date_local": "2026-10-13",
+  "user_request": "Make the dedicated NVIDIA GPU the default",
+  "distribution": "Ubuntu-22.04",
+  "linux_user": "aphelios",
+  "config_path": "/home/aphelios/.bashrc",
+  "windows_access_path": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\aphelios\\.bashrc",
+  "setting": "export MESA_D3D12_DEFAULT_ADAPTER_NAME=NVIDIA",
+  "scope": "Mesa D3D12 graphics applications launched from new interactive Bash terminals",
+  "backup_path": "F:\\rob-memory\\wsl\\backups\\bashrc_before_nvidia_20261013_d524402a.bak",
+  "before_sha256": "342099da4dd28c394d3f8782d90d7465cb2eaa611193f8f378d6918261cb9bb8",
+  "backup_sha256": "342099da4dd28c394d3f8782d90d7465cb2eaa611193f8f378d6918261cb9bb8",
+  "after_sha256": "86e62a948e9a98a27f10e8ee99400cae642458eb8f035ffde258922b66d8da0f",
+  "fresh_shell_verification": "passed_after_unsetting_inherited_variable_and_starting_new_interactive_Bash",
+  "fresh_shell_setting": "NVIDIA",
+  "verified_renderer": "D3D12 (NVIDIA GeForce RTX 3050 Laptop GPU)",
+  "verified_accelerated": true,
+  "verified_opengl_core_version": "4.2",
+  "verification_log": "F:\\rob-memory\\outputs\\hunter_sim_execution_20261012\\references\\user_logs\\wsl_nvidia_default_check_20261013.txt",
+  "current_user_terminal_activation": "export_executed_by_user_without_error_20261013",
+  "robot_processes_started": false
+}

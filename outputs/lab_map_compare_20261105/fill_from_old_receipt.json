@@ -1,0 +1,21 @@
+{
+  "rule": "old map free mapped into new frame, where new map is unknown",
+  "alignment": {
+    "rotation_deg": -7,
+    "shift_cells": [
+      16.0,
+      -1.0
+    ],
+    "shift_m": [
+      0.8,
+      -0.05
+    ]
+  },
+  "only_above_y_m": 12.0,
+  "cells_to_fill": 2849,
+  "cells_removed_fake_wall": 504,
+  "outputs": {
+    "overlay": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\lab_odom_06_mismatch.png",
+    "filled": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\lab_odom_06_filled.pgm"
+  }
+}

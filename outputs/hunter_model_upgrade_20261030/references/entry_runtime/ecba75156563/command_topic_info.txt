@@ -1,0 +1,1 @@
+No publishers on topic [/hz_sim/full/cmd_vel]

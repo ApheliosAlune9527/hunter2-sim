@@ -1,0 +1,82 @@
+[
+  {
+    "path": "sim/tools/build_hunter_full_description.py",
+    "sha256": "98b9ac1f3d6125c48694c55e2cc8aad7a46818f275bc0494edbf5e1f07594460"
+  },
+  {
+    "path": "sim/tools/test_hunter_full_model.py",
+    "sha256": "06c0596d30cd67d07061ac57e9397e49181304eff45d577b5f50b0febd843bd9"
+  },
+  {
+    "path": "sim/tools/build_hunter_full_scene.py",
+    "sha256": "135b4d410f21c11f3d0d6cc6b55deeeed17f303a75e2c0af872320a19e3047ca"
+  },
+  {
+    "path": "sim/tools/check_hunter_full_scene.py",
+    "sha256": "1c45a4559ebf323164ddf97b22b5d022d7e9a9a20d13d2efeb15ceb9e9784bf5"
+  },
+  {
+    "path": "sim/tools/test_hunter_full_scene.py",
+    "sha256": "dea56de0bd3e26a3c2b378bbe0037f95eb8363c9679cc3e251155d7a635216e3"
+  },
+  {
+    "path": "sim/tools/check_full_entry.py",
+    "sha256": "58fab9bfa403e52fdc9ab4c5b5f08ea9a1c4ce5d226bd10e3f45398565a35908"
+  },
+  {
+    "path": "sim/tools/hunter_full_entry_manifest.json",
+    "sha256": "1b50248e9a032d3fd85f0102624a622c3d867856b0836fafed4bdbb5c3b193e0"
+  },
+  {
+    "path": "sim/README.md",
+    "sha256": "4c04e655fe7e9b09a8c0d69d6868cab84fda4980c3c3934a04fdddde4c572d2e"
+  },
+  {
+    "path": "sim/hz_hunter_full_description/README.md",
+    "sha256": "c4327b327b2ef2b4209978f5cd060f0e42e670cc27dcb2cf8a666c43549b4188"
+  },
+  {
+    "path": "sim/hz_hunter_full_description/SOURCE_NOTICE.md",
+    "sha256": "a12f54f082764c5602cdc334bca04f9925196a6f164d80477803e10d907723a1"
+  },
+  {
+    "path": "sim/hz_hunter_full_description/package.xml",
+    "sha256": "ee8d5fc820bfa2c91ba1b35481b8e2fb7444c3b43b1f133ed4b3fac6063dbc08"
+  },
+  {
+    "path": "sim/hz_hunter_full_description/CMakeLists.txt",
+    "sha256": "d654680916c21d6f0b505188793a35f45f0ffa4bcd5b0c262cdca566432c8584"
+  },
+  {
+    "path": "sim/hz_hunter_full_description/source_manifest.json",
+    "sha256": "ed25683ac9c8acbf42222476afe89cf9fa6f4be984ade673f3dd40563b6fd7f8"
+  },
+  {
+    "path": "sim/hz_hunter_full_description/geometry_report.json",
+    "sha256": "a0f973a6dd0dc88d288863c3aa45592c0dea88ea783e54730e07af5be5cf0e5d"
+  },
+  {
+    "path": "sim/hz_hunter_full_description/urdf/hunter_full.urdf",
+    "sha256": "2010c1874b0c2bf1b35696394b4f90f8c7488f3eaade649d7cda19fb196310fe"
+  },
+  {
+    "path": "sim/scenes/hz_hunter_full.sdf",
+    "sha256": "e7cb471bfd1c0a3496ac59072ba5214239216b1b71e8bcb3317a28e234b4d74d"
+  },
+  {
+    "path": "sim/scenes/hz_hunter_full_manifest.json",
+    "sha256": "00010d730416b8fd2727595fe7cc1381aba7237ec77c5e9aca432732078bf57c"
+  },
+  {
+    "path": "sim/scenes/hz_hunter_full_gui.config",
+    "sha256": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc"
+  },
+  {
+    "path": "outputs/hunter_model_upgrade_20261030/references/ament/hunter_full_lump_input.urdf",
+    "sha256": "b77e8cff67c4deb3105e4dcb00a731f618f859b2be95455f67b28ea0aa5511d7"
+  },
+  {
+    "path": "outputs/hunter_model_upgrade_20261030/references/ament/hunter_full.converted.sdf",
+    "sha256": "84ac4ef56988c8bedef64bb49c5b37ee8ebe0920104747773e60142856d44734"
+  }
+]

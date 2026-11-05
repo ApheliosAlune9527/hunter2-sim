@@ -1,0 +1,81 @@
+car@car-NUC15JNKU7X4:~/桌面$ grep -nE 'hunter_base|hunter\.launch|hunter_description|xt32\.launch|hunter_nav_odom_ws/install' /home/car/.bash_history | tail -n 80
+919:source ~/hunter_nav_odom_ws/install/setup.bash
+922:ros2 launch hunter_description display.launch.py
+927:source ~/hunter_nav_odom_ws/install/setup.bash
+934:source ~/hunter_nav_odom_ws/install/setup.bash
+941:source ~/hunter_nav_odom_ws/install/setup.bash
+948:source ~/hunter_nav_odom_ws/install/setup.bash
+951:ros2 launch robot_bringup hunter.launch.py
+1048:sed -n '1,220p' /home/car/robot_bringup_ws/src/robot_bringup/launch/hunter.launch.py
+1050:sed -n '1,240p' /home/car/hunter2.0_ws/install/hunter_base/share/hunter_base/launch/hunter_base.launch.py
+1053:pgrep -afi 'hesai_ros_driver_node|xt32_direct_node|ch104|realsense|rs_launch|fastlivo|hunter_base_node|teleop|nav2|component_container'
+1556:rg --files -g '*.urdf' -g '*.xacro' -g '*.yaml' -g '*.launch.py' -g 'package.xml' /home/car/hunter_nav_odom_ws/src/hunter_description /home/car/hunter_nav_odom_ws/src/robot_bringup
+1557:sed -n '1,200p' /home/car/hunter_nav_odom_ws/src/robot_bringup/launch/hunter.launch.py
+1559:find /home/car/hunter_nav_odom_ws/src/hunter_description /home/car/hunter_nav_odom_ws/src/robot_bringup -maxdepth 4 -type f \( -name '*.urdf' -o -name '*.xacro' -o -name '*.yaml' -o -name '*.launch.py' -o -name 'package.xml' \)
+1560:sed -n '1,200p' /home/car/hunter_nav_odom_ws/src/hunter_base/launch/hunter_base.launch.py
+1562:sed -n '1,240p' /home/car/hunter_nav_odom_ws/src/hunter_description/urdf/hunter.urdf.xacro
+1563:grep -rInE --include='*.cpp' --include='*.hpp' --include='*.h' 'cmd_vel|create_subscription|SetMotionCommand|linear\.x|angular\.z|simulated_robot|control_rate' /home/car/hunter_nav_odom_ws/src/hunter_base
+1565:sed -n '1,240p' /home/car/hunter_nav_odom_ws/src/hunter_description/urdf/hunter.urdf.xacro
+1567:sed -n '1,240p' /home/car/hunter_nav_odom_ws/src/hunter_description/urdf/assembly.urdf.xacro
+1568:sed -n '1,400p' /home/car/hunter_nav_odom_ws/src/hunter_base/include/hunter_base/hunter_messenger.hpp
+1570:sed -n '1,240p' /home/car/hunter_nav_odom_ws/src/hunter_base/src/hunter_base_ros.cpp
+1571:head -n 220 /home/car/hunter_nav_odom_ws/src/hunter_base/include/hunter_base/hunter_params.hpp /home/car/hunter_nav_odom_ws/src/hunter_base/include/hunter_base/bicycle_model.hpp /home/car/hunter_nav_odom_ws/src/hunter_description/urdf/common_properties.xacro
+1582:sed -n '1,220p' /home/car/hunter_nav_odom_ws/src/hunter_description/launch/display.launch.py
+1601:source ~/hunter_nav_odom_ws/install/setup.bash
+1604:ros2 launch hunter_description display.launch.py
+1608:source ~/hunter_nav_odom_ws/install/setup.bash
+1611:ros2 launch robot_bringup hunter.launch.py
+1618:source ~/hunter_nav_odom_ws/install/setup.bash
+1638:source ~/hunter_nav_odom_ws/install/setup.bash
+1644:source ~/hunter_nav_odom_ws/install/setup.bash
+1656:du -sh /home/car/hunter_nav_odom_ws/src/hunter_description /home/car/hunter_nav_odom_ws/src/hunter_base /home/car/hunter_nav_odom_ws/src/hunter_nav_odom
+1657:head -n 180 /home/car/hunter_nav_odom_ws/src/hunter_description/package.xml /home/car/hunter_nav_odom_ws/src/hunter_base/package.xml /home/car/hunter_nav_odom_ws/src/hunter_nav_odom/package.xml
+1665:(   export_dir=$(mktemp -d /home/car/hz_sim_assets_20261012_XXXXXX) || exit 1;   tar -czf "$export_dir/hunter_reference.tar.gz"     -C /home/car/hunter_nav_odom_ws/src     hunter_description hunter_base hunter_nav_odom &&   tar -tzf "$export_dir/hunter_reference.tar.gz" >/dev/null &&   sha256sum "$export_dir/hunter_reference.tar.gz" &&   du -h "$export_dir/hunter_reference.tar.gz"; )
+1795:source ~/hunter_nav_odom_ws/install/setup.bash
+1802:source ~/hunter_nav_odom_ws/install/setup.bash
+1912:source ~/hunter_nav_odom_ws/install/setup.bash
+1917:source ~/hunter_nav_odom_ws/install/setup.bash
+1920:ros2 launch robot_bringup hunter.launch.py
+1923:source ~/hunter_nav_odom_ws/install/setup.bash
+1929:source ~/hunter_nav_odom_ws/install/setup.bash
+1936:source ~/hunter_nav_odom_ws/install/setup.bash
+1939:ros2 launch hunter_description display.launch.py
+car@car-NUC15JNKU7X4:~/桌面$ cat /home/car/hunter_nav_odom_ws/src/robot_bringup/launch/hunter.launch.py
+import os
+
+from ament_index_python.packages import get_package_share_directory
+from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.substitutions import LaunchConfiguration
+
+
+def generate_launch_description():
+    publish_odom_tf_arg = DeclareLaunchArgument(
+        'publish_odom_tf',
+        default_value='true',
+        description='Whether Hunter publishes odom to base_link TF'
+    )
+
+    launch_file = os.path.join(
+        get_package_share_directory('hunter_base'),
+        'launch',
+        'hunter_base.launch.py',
+    )
+
+    hunter_driver = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(launch_file),
+        launch_arguments={
+            'port_name': 'can0',
+            'robot_model': 'hunter2',
+            'odom_frame': 'odom',
+            'base_frame': 'base_link',
+            'odom_topic_name': 'odom',
+            'publish_odom_tf': LaunchConfiguration('publish_odom_tf'),
+        }.items(),
+    )
+
+    return LaunchDescription([
+        publish_odom_tf_arg,
+        hunter_driver,
+    ])

@@ -1,0 +1,12 @@
+test_ambiguous_or_remote_service_is_refused (test_straight_trial.StraightTrialChecks) ... ok
+test_check_mode_does_not_publish_or_advance (test_straight_trial.StraightTrialChecks) ... ok
+test_step_timeout_is_not_retried_and_triggers_stop_and_pause (test_straight_trial.StraightTrialChecks) ... ok
+test_stop_failure_still_attempts_to_pause (test_straight_trial.StraightTrialChecks) ... ok
+test_success_uses_only_the_fixed_steps_and_clears_then_pauses (test_straight_trial.StraightTrialChecks) ... ok
+test_unpaused_world_is_refused_before_any_motion (test_straight_trial.StraightTrialChecks) ... ok
+test_wrong_topic_and_physics_step_are_refused (test_straight_trial.StraightTrialChecks) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.051s
+
+OK

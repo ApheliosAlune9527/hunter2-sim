@@ -1,0 +1,7 @@
+{
+  "completed_at": "2026-10-31T20:08:58.505859+08:00",
+  "exit_code": 0,
+  "output": "操作成功完成。 \r\n",
+  "distribution": "Ubuntu-22.04",
+  "disk": "D:\\rob-memory\\wsl\\Ubuntu22.04\\ext4.vhdx"
+}

@@ -1,0 +1,65 @@
+已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / NVIDIA。
+name of display: :0
+display: :0  screen: 0
+direct rendering: Yes
+Extended renderer info (GLX_MESA_query_renderer):
+    Vendor: Microsoft Corporation (0xffffffff)
+    Device: D3D12 (NVIDIA GeForce RTX 3050 Laptop GPU) (0xffffffff)
+    Version: 23.2.1
+    Accelerated: yes
+    Video memory: 12019MB
+    Unified memory: no
+    Preferred profile: core (0x1)
+    Max core profile version: 4.2
+    Max compat profile version: 4.2
+    Max GLES1 profile version: 1.1
+    Max GLES[23] profile version: 3.1
+OpenGL vendor string: Microsoft Corporation
+OpenGL renderer string: D3D12 (NVIDIA GeForce RTX 3050 Laptop GPU)
+OpenGL core profile version string: 4.2 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.4
+OpenGL core profile shading language version string: 4.20
+OpenGL core profile context flags: (none)
+OpenGL core profile profile mask: core profile
+
+OpenGL version string: 4.2 (Compatibility Profile) Mesa 23.2.1-1ubuntu3.1~22.04.4
+OpenGL shading language version string: 4.20
+OpenGL context flags: (none)
+OpenGL profile mask: compatibility profile
+
+OpenGL ES profile version string: OpenGL ES 3.1 Mesa 23.2.1-1ubuntu3.1~22.04.4
+OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.10
+
+MESA_D3D12_DEFAULT_ADAPTER_NAME=NVIDIA
+ROS_DOMAIN_ID=73
+WAYLAND_DISPLAY=wayland-0
+DISPLAY=:0
+LD_LIBRARY_PATH=/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib
+XDG_RUNTIME_DIR=/run/user/1000
+IGN_PARTITION=hz_sim_aphelios_73
+crw-rw-rw- 1 root root 10, 258 Oct 14 12:20 /dev/dxg
+
+/dev/dri/:
+total 0
+crw-rw---- 1 root video  226,   0 Oct 14 12:20 card0
+crw-rw---- 1 root render 226, 128 Oct 14 12:20 renderD128
+uid=1000(aphelios) gid=1000(aphelios) groups=1000(aphelios),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev)
+/dev/dxg
+78485ec00000-784865312000 r-xp 00000000 08:30 11643                      /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1
+784865312000-784865b30000 r--p 06711000 08:30 11643                      /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1
+784865b30000-784865b76000 rw-p 06f2f000 08:30 11643                      /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1
+784865c00000-784865c96000 r--p 00000000 08:30 11824                      /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+784865c96000-784866f96000 r-xp 00096000 08:30 11824                      /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+784866f96000-784867a82000 r--p 01396000 08:30 11824                      /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+784867a82000-784867b09000 r--p 01e81000 08:30 11824                      /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+784867b09000-784867b1b000 rw-p 01f08000 08:30 11824                      /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so
+784867e7d000-784867e96000 r--p 00000000 08:30 11134                      /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+784867e96000-784867ed5000 r-xp 00019000 08:30 11134                      /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+784867ed5000-784867eeb000 r--p 00058000 08:30 11134                      /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+784867eeb000-784867eee000 r--p 0006d000 08:30 11134                      /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+784867eee000-784867eef000 rw-p 00070000 08:30 11134                      /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+784887c2a000-784887c2d000 r--p 00000000 08:30 11636                      /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+784887c2d000-784887c48000 r-xp 00003000 08:30 11636                      /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+784887c48000-784887c4b000 r--p 0001e000 08:30 11636                      /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+784887c4b000-784887c4c000 ---p 00021000 08:30 11636                      /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+784887c4c000-784887c4d000 r--p 00021000 08:30 11636                      /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+784887c4d000-784887c4e000 rw-p 00022000 08:30 11636                      /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0

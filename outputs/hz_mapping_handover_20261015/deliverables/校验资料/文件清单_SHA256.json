@@ -1,0 +1,40 @@
+{
+  "files": {
+    "hz_mapping_tools.zip": {
+      "bytes": 11570,
+      "sha256": "c62919992ce9a77fb5c60d5d1c1ddb35cfabfef780121979e0a049d1dc0e0204"
+    },
+    "hz_mapping_tools.zip.sha256": {
+      "bytes": 87,
+      "sha256": "5e1f191ef09682ef492b3c44e3aa27014581fbac2377a5ed9abe1efc4cd67daf"
+    },
+    "pcd_export.py": {
+      "bytes": 8216,
+      "sha256": "2067444b2dd9ec8f69b421eed688a8377dee59ada12bcacdba6e4ca729ee07a1"
+    },
+    "下载地图.ps1": {
+      "bytes": 2509,
+      "sha256": "43d43df3e5c34a5e226bbb02028bb34f4d0ab2f7cd635ce20498b8c7015ea416"
+    },
+    "安装建图工具.ps1": {
+      "bytes": 2976,
+      "sha256": "4e656f147c06e4450f9af2db01a48ca9b9e25671ad09282b5d4170d172d8f9d2"
+    },
+    "建图使用说明.txt": {
+      "bytes": 27351,
+      "sha256": "714ba973a1f26aac098e2a28283efe281ec26505f4f8f5aaf45ead1160d82e7c"
+    },
+    "校验资料/审阅源码.zip": {
+      "bytes": 57616,
+      "sha256": "15538c1ee8cf535c5d65da79ccd70a18c4f236310c49f9f71c459f2b9535f721"
+    },
+    "校验资料/验证报告.txt": {
+      "bytes": 2201,
+      "sha256": "fb8de22a01bdfe6850110e16362e790faec2e73a74c695b1c5998d70a83e36b5"
+    }
+  },
+  "robot_runtime_verified": false,
+  "robot_install_and_doctor_verified": true,
+  "robot_mapping_roles_verified": false,
+  "robot_map_return_verified": false
+}

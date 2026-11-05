@@ -1,0 +1,57 @@
+{
+  "distro": "Ubuntu-22.04",
+  "user": "aphelios",
+  "kernel": "6.18.54.1-microsoft-standard-WSL2",
+  "os_release": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.5 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy\n",
+  "versions": {
+    "exit_code": 0,
+    "stdout": "6.18.0\n6.9.0\n6.6.4\n11.4.2\n",
+    "stderr": ""
+  },
+  "graphics": {
+    "exit_code": 0,
+    "stdout": "name of display: :0\ndisplay: :0  screen: 0\ndirect rendering: Yes\nExtended renderer info (GLX_MESA_query_renderer):\n    Vendor: Microsoft Corporation (0xffffffff)\n    Device: D3D12 (NVIDIA GeForce RTX 3050 Laptop GPU) (0xffffffff)\n    Version: 23.2.1\n    Accelerated: yes\n    Video memory: 12019MB\n    Unified memory: no\n    Preferred profile: core (0x1)\n    Max core profile version: 4.2\n    Max compat profile version: 4.2\n    Max GLES1 profile version: 1.1\n    Max GLES[23] profile version: 3.1\nOpenGL vendor string: Microsoft Corporation\nOpenGL renderer string: D3D12 (NVIDIA GeForce RTX 3050 Laptop GPU)\nOpenGL core profile version string: 4.2 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.4\nOpenGL core profile shading language version string: 4.20\nOpenGL core profile context flags: (none)\nOpenGL core profile profile mask: core profile\n\nOpenGL version string: 4.2 (Compatibility Profile) Mesa 23.2.1-1ubuntu3.1~22.04.4\nOpenGL shading language version string: 4.20\nOpenGL context flags: (none)\nOpenGL profile mask: compatibility profile\n\nOpenGL ES profile version string: OpenGL ES 3.1 Mesa 23.2.1-1ubuntu3.1~22.04.4\nOpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.10\n\n",
+    "stderr": ""
+  },
+  "plugins": {
+    "sensors": [
+      "libignition-gazebo-sensors-system.so",
+      "libignition-gazebo6-sensors-system.so",
+      "libignition-gazebo6-sensors-system.so.6.18.0",
+      "libignition-gazebo6-sensors-system.so.6"
+    ],
+    "imu": [
+      "libignition-gazebo6-imu-system.so.6",
+      "libignition-gazebo6-imu-system.so",
+      "libignition-gazebo6-imu-system.so.6.18.0",
+      "libignition-gazebo-imu-system.so"
+    ],
+    "pose-publisher": [
+      "libignition-gazebo6-pose-publisher-system.so.6",
+      "libignition-gazebo6-pose-publisher-system.so.6.18.0",
+      "libignition-gazebo6-pose-publisher-system.so",
+      "libignition-gazebo-pose-publisher-system.so"
+    ],
+    "joint-state": [
+      "libignition-gazebo6-joint-state-publisher-system.so.6",
+      "libignition-gazebo6-joint-state-publisher-system.so.6.18.0",
+      "libignition-gazebo-joint-state-publisher-system.so",
+      "libignition-gazebo6-joint-state-publisher-system.so"
+    ],
+    "ackermann": [
+      "libignition-gazebo-ackermann-steering-system.so",
+      "libignition-gazebo6-ackermann-steering-system.so.6.18.0",
+      "libignition-gazebo6-ackermann-steering-system.so.6",
+      "libignition-gazebo6-ackermann-steering-system.so"
+    ]
+  },
+  "ros_gz_bridge": true,
+  "ros_ign_bridge": false,
+  "processes": {
+    "exit_code": 0,
+    "stdout": "    321     320 bash            /bin/bash --noprofile --norc -c source /mnt/f/rob-memory/wsl/hz_sim_env.bash >/dev/null && python3 -B /mnt/f/rob-memory/outputs/hunter_model_upgrade_20261030/inspect_environment.py 2>&1\n    366       1 systemd         /lib/systemd/systemd --user\n    367     366 (sd-pam)        (sd-pam)\n    379     322 bash            -bash\n    404     321 python3         python3 -B /mnt/f/rob-memory/outputs/hunter_model_upgrade_20261030/inspect_environment.py\n    418     404 ps              ps -u aphelios -o pid=,ppid=,comm=,args=\n",
+    "stderr": ""
+  },
+  "vehicle_started": false,
+  "motion_commands_sent": false
+}

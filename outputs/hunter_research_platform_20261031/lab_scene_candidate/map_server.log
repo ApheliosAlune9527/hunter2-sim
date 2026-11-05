@@ -1,0 +1,27 @@
+1793450541.653991 [74] map_server: selected interface "lo" is not multicast-capable: disabling multicast
+[INFO] [1793450541.661878488] [hz_sim.research.map_check_6fe4617ef2e3.map_server]: 
+	map_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1793450541.662231424] [hz_sim.research.map_check_6fe4617ef2e3.map_server]: Creating
+[INFO] [1793450541.854806634] [hz_sim.research.map_check_6fe4617ef2e3.map_server]: Configuring
+[INFO] [1793450541.855230453] [map_io]: Loading yaml file: /mnt/d/rob-memory/outputs/hunter_research_platform_20261031/lab_scene_candidate/navigation_map.yaml
+[INFO] [1793450541.857132079] [map_io]: resolution: 0.05
+[INFO] [1793450541.857475960] [map_io]: origin[0]: -18.8
+[INFO] [1793450541.857822421] [map_io]: origin[1]: -29.95
+[INFO] [1793450541.858138082] [map_io]: origin[2]: 0
+[INFO] [1793450541.858446693] [map_io]: free_thresh: 0.196
+[INFO] [1793450541.858757604] [map_io]: occupied_thresh: 0.65
+[INFO] [1793450541.859076145] [map_io]: mode: trinary
+[INFO] [1793450541.859441066] [map_io]: negate: 0
+[INFO] [1793450541.860460809] [map_io]: Loading image_file: /mnt/d/rob-memory/outputs/hunter_research_platform_20261031/lab_scene_candidate/navigation_map.pgm
+[INFO] [1793450541.945118453] [map_io]: Read map /mnt/d/rob-memory/outputs/hunter_research_platform_20261031/lab_scene_candidate/navigation_map.pgm: 1337 X 738 map @ 0.05 m/cell
+[INFO] [1793450541.951143631] [hz_sim.research.map_check_6fe4617ef2e3.map_server]: Activating
+[INFO] [1793450541.952363455] [hz_sim.research.map_check_6fe4617ef2e3.map_server]: Creating bond (map_server) to lifecycle manager.
+[INFO] [1793450542.156857693] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1793450542.157242339] [hz_sim.research.map_check_6fe4617ef2e3.map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[INFO] [1793450542.157575740] [hz_sim.research.map_check_6fe4617ef2e3.map_server]: Deactivating
+[INFO] [1793450542.157903837] [hz_sim.research.map_check_6fe4617ef2e3.map_server]: Destroying bond (map_server) to lifecycle manager.
+[INFO] [1793450542.168362420] [hz_sim.research.map_check_6fe4617ef2e3.map_server]: Cleaning up
+[INFO] [1793450542.168804157] [hz_sim.research.map_check_6fe4617ef2e3.map_server]: Destroying bond (map_server) to lifecycle manager.
+[INFO] [1793450542.170372282] [hz_sim.research.map_check_6fe4617ef2e3.map_server]: Destroying

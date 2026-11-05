@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "fixture": "/mnt/d/rob-memory/outputs/hunter_research_platform_20261031/lab_scene_candidate/lab_scene_with_vehicle.sdf",
+  "world": "hz_lab_155236_vehicle",
+  "partition": "hz_sim_aphelios_73_lab_vehicle_b2155668124e",
+  "sdf_valid": true,
+  "sdf_check_stdout": "Valid.",
+  "requested_pose": {
+    "x_m": 6.8,
+    "y_m": -2.3,
+    "z_m": 0.165,
+    "yaw_rad": 0.0
+  },
+  "authored_scene_z_m": 0.167,
+  "contact_height_m": 0.165,
+  "z_choice_reason": "Wheel contact radius 0.165 m; the production scene authors 0.167 m and the model settles 2 mm after a reset.",
+  "removed_robot_plugins": [
+    "ignition::gazebo::systems::AckermannSteering",
+    "ignition::gazebo::systems::JointStatePublisher"
+  ],
+  "appended_lab_models": [
+    "floor",
+    "observed_obstacles"
+  ],
+  "motion_published": false,
+  "physics_run_requested": false,
+  "hardware_driver_started": false,
+  "created_pid": 395,
+  "world_control_service": true,
+  "model_list_raw": "Requesting state for world [hz_lab_155236_vehicle]...\n\nAvailable models:\n    - hz_hunter_full\n    - floor\n    - observed_obstacles",
+  "models": [
+    "floor",
+    "hz_hunter_full",
+    "observed_obstacles"
+  ],
+  "robot_model_present": true,
+  "pose_before_reset_raw": "Requesting state for world [hz_lab_155236_vehicle]...\n\nModel: [4]\n  - Name: hz_hunter_full\n  - Pose [ XYZ (m) ] [ RPY (rad) ]:\n    [6.800000 -2.300000 0.165000]\n    [0.000000 -0.000000 0.000000]",
+  "pose_before_reset": {
+    "x": 6.8,
+    "y": -2.3,
+    "z": 0.165,
+    "roll": 0.0,
+    "pitch": -0.0,
+    "yaw": 0.0
+  },
+  "pose_paused_repeat": {
+    "x": 6.8,
+    "y": -2.3,
+    "z": 0.165,
+    "roll": 0.0,
+    "pitch": -0.0,
+    "yaw": 0.0
+  },
+  "reset_service_output": "data: true",
+  "pose_after_reset_raw": "Requesting state for world [hz_lab_155236_vehicle]...\n\nModel: [4]\n  - Name: hz_hunter_full\n  - Pose [ XYZ (m) ] [ RPY (rad) ]:\n    [6.801160 -2.300000 0.165000]\n    [0.000000 -0.000000 0.000000]",
+  "pose_after_reset": {
+    "x": 6.80116,
+    "y": -2.3,
+    "z": 0.165,
+    "roll": 0.0,
+    "pitch": -0.0,
+    "yaw": 0.0
+  },
+  "pose_after_second_reset_raw": "Requesting state for world [hz_lab_155236_vehicle]...\n\nModel: [4]\n  - Name: hz_hunter_full\n  - Pose [ XYZ (m) ] [ RPY (rad) ]:\n    [6.802610 -2.300000 0.165000]\n    [0.000000 -0.000000 0.000000]",
+  "pose_after_second_reset": {
+    "x": 6.80261,
+    "y": -2.3,
+    "z": 0.165,
+    "roll": 0.0,
+    "pitch": -0.0,
+    "yaw": 0.0
+  },
+  "set_pose_service_output": [
+    "data: true",
+    "data: true"
+  ],
+  "pose_after_set_pose": {
+    "x": 6.80098,
+    "y": -2.3,
+    "z": 0.165,
+    "roll": 0.0,
+    "pitch": -0.0,
+    "yaw": 0.0
+  },
+  "pose_after_second_set_pose": {
+    "x": 6.80098,
+    "y": -2.3,
+    "z": 0.165,
+    "roll": 0.0,
+    "pitch": -0.0,
+    "yaw": 0.0
+  },
+  "paused_repeat_delta_m": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "world_is_stopped": true,
+  "reset_delta_m": {
+    "x": 0.00116,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "reset_is_identical": false,
+  "reset_repeat_delta_m": {
+    "x": 0.00145,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "reset_is_repeatable": false,
+  "placement_error_m": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "placement_matches_request": true,
+  "settle_from_authored_m": {
+    "x": 0.00116,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "set_pose_error_m": {
+    "x": 0.00098,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "set_pose_matches_authored": false,
+  "set_pose_repeat_delta_m": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "set_pose_is_repeatable": true,
+  "set_pose_constant_bias_m": {
+    "x": 0.00098,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "reset_all_accumulates": true,
+  "owned_process_group_closed": true,
+  "gazebo_error_lines": [],
+  "gazebo_error_count": 0
+}

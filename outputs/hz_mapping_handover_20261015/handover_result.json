@@ -1,0 +1,14 @@
+{
+  "folder": "E:\\robot_lab\\FAST-LIVO2建图使用包",
+  "guide": "E:\\robot_lab\\FAST-LIVO2建图使用包\\建图使用说明.txt",
+  "zip": "E:\\robot_lab\\FAST-LIVO2建图使用包.zip",
+  "zip_bytes": 87645,
+  "zip_sha256": "cef01e44d00e39f2ba036b0b006441bfab936f2168775c8fe6943d8a175f845d",
+  "tests": 38,
+  "files": 9,
+  "robot_runtime": "installation_and_doctor_passed; mapping_not_verified",
+  "guide_updated": "2026-10-16: ToDesk is default for installation and map return; SSH is optional",
+  "operational_files_unchanged": true,
+  "old_outputs_removed": 10,
+  "cleanup_method": "Windows Recycle Bin"
+}

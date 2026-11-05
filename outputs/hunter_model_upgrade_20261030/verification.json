@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "date_local": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "scope": "full CAD geometry, articulated joint structure, stationary sensor/ROS verification, default paused entry and owned-process cleanup",
+  "independent_reviews": "all three tasks spec and quality PASS; final integration quality PASS",
+  "offline_tests": {
+    "geometry": 10,
+    "scene": 25,
+    "ros_interfaces": 5,
+    "entry": 24
+  },
+  "current_entry_seal": {
+    "sealed_files": 13,
+    "sealed_paths": [
+      "sim/tools/start_hunter_full_scene.ps1",
+      "sim/tools/start_hunter_full_scene.bash",
+      "sim/tools/start_control_scene_logged.ps1",
+      "sim/tools/start_control_scene_logged.bash",
+      "sim/tools/full_scene_session.py",
+      "sim/tools/check_full_entry.py",
+      "sim/tools/seal_full_entry.py",
+      "sim/tools/check_ros_isolation.py",
+      "sim/tools/check_hunter_full_scene.py",
+      "sim/tools/check_full_ros_interfaces.py",
+      "sim/launch/hunter_full_ros.launch.py",
+      "sim/config/hunter_full_bridge.yaml",
+      "wsl/hz_sim_env.bash"
+    ]
+  },
+  "sha256": {
+    "sim/tools/hunter_full_entry_manifest.json": "dd4eec6f9e9d3299ab7c40fba3c46e9b77d58d7e2a412d5da40ff11418052840",
+    "sim/scenes/hz_hunter_full.sdf": "c280d908e20224eea0a52ba9b2d4116fe9c484c8df05c502d1bd113ea9aaa991",
+    "sim/scenes/hz_hunter_full_gui.config": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc",
+    "sim/scenes/hz_hunter_full_manifest.json": "9e1947afb3409a1e293b7e2192d5d8bf506d2980209e594773e8641f0fbe8c89",
+    "sim/hz_hunter_full_description/source_manifest.json": "ed25683ac9c8acbf42222476afe89cf9fa6f4be984ade673f3dd40563b6fd7f8",
+    "sim/hz_hunter_full_description/urdf/hunter_full.urdf": "2010c1874b0c2bf1b35696394b4f90f8c7488f3eaade649d7cda19fb196310fe"
+  },
+  "evidence": {
+    "ament": "references/ament/check.json",
+    "stationary_full_sensors": "references/full_sensors/84f73c45b8fb/check.json",
+    "final_paused_entry": "references/entry_runtime/ecba75156563/check.json",
+    "final_session": "references/user_logs/20261030T072354Z_210c628c6f53/session.json",
+    "powershell_check": "references/entry/powershell_check_final.txt"
+  },
+  "sim_time_ns_during_final_preview": 0,
+  "ros_command_publishers": 0,
+  "owned_process_groups_closed": true,
+  "verification_shutdown": "SIGINT sent by the verification script to its own entry; exit130 expected; no user key press implied",
+  "real_vehicle_started": false,
+  "motion_commands_published_this_turn": false,
+  "limitations": [
+    "no driving test this turn; joint/controller configuration verified structurally",
+    "engineering mass/inertia/contact and nominal sensor extrinsics, not measured calibration",
+    "paint, wheel-cover and some shell details are not a photo-identical reconstruction",
+    "ARS548/GNSS retain appearance and TF only, no dedicated sensor output",
+    "sensor fixture uses a static model with control plugins removed; it does not validate dynamic odometry",
+    "this is the model/sensor acceptance scene, not the expanded laboratory map"
+  ]
+}

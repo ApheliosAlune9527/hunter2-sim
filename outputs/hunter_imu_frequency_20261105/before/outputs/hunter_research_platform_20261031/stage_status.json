@@ -1,0 +1,41 @@
+{
+  "current_stage": 3,
+  "map_choice": {
+    "source": "lab_20261011_155236_369289",
+    "confirmed_by_user": true
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "status": "restored_and_verified"
+    },
+    {
+      "stage": 2,
+      "status": "initial_component_and_short_motion_checks_passed",
+      "long_duration_and_dynamic_ros_mapping_verified": false
+    },
+    {
+      "stage": 3,
+      "status": "collision_candidate_prepared",
+      "navigation_ready": false
+    },
+    {
+      "stage": 4,
+      "status": "not_implemented"
+    },
+    {
+      "stage": 5,
+      "status": "not_started"
+    },
+    {
+      "stage": 6,
+      "status": "future_scope_not_decided"
+    }
+  ],
+  "hardware_motion_authorized": false,
+  "next_work": [
+    "Refine traversable-space evidence and orientation-aware footprint",
+    "Integrate the complete vehicle into the selected lab scene",
+    "Build repeatable localization/navigation tasks before reinforcement learning"
+  ]
+}

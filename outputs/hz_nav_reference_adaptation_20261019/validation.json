@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-19",
+  "source": "Car-provided files, reconstructed only when original SHA256 matches",
+  "files": {
+    "bringup_launch.py": {
+      "source_sha256": "91460eb80d7b5d0bbb72eb5ac52bad6439ae2175c31be86c8ec256fd4bbee3c6",
+      "adapted_sha256": "63cca248e6aedeb7e3ffbd25c59e914480fd1d309b6d75aaf34bfdcee55bc6ab",
+      "bytes": 8278,
+      "verification": {
+        "python_3_10_syntax": "passed",
+        "node_and_component_declarations": "unchanged",
+        "group_and_loading_actions": "unchanged apart from verified child source paths",
+        "velocity_remappings": "unchanged",
+        "lifecycle_node_list": "in child files",
+        "changed_launch_argument_defaults": [
+          "autostart",
+          "namespace",
+          "params_file",
+          "use_namespace"
+        ],
+        "tf_endpoints": [
+          [
+            "/tf",
+            "/tf"
+          ],
+          [
+            "/tf_static",
+            "/tf_static"
+          ]
+        ]
+      }
+    },
+    "localization_launch.py": {
+      "source_sha256": "13d9ac3c7c27cba61570501f1ea41dafd63f8e3a08962f803f6281e426d995c2",
+      "adapted_sha256": "dc9a38d77e266168571d787c541aa8c32d7161d228416ca7af1efb414ac8f433",
+      "bytes": 7491,
+      "verification": {
+        "python_3_10_syntax": "passed",
+        "node_and_component_declarations": "unchanged",
+        "group_and_loading_actions": "unchanged",
+        "velocity_remappings": "unchanged",
+        "lifecycle_node_list": "unchanged",
+        "changed_launch_argument_defaults": [],
+        "tf_endpoints": [
+          [
+            "/tf",
+            "/tf"
+          ],
+          [
+            "/tf_static",
+            "/tf_static"
+          ]
+        ]
+      }
+    },
+    "navigation_launch.py": {
+      "source_sha256": "11438a4bc65def4a3d5805919e82bc52ff6008ee6d1fd7c5dd90a29c2f50f56f",
+      "adapted_sha256": "6fdafb77d0cc296fcdfb9f249fe0cb920ad25f0040837f79d20afa49edb06432",
+      "bytes": 11158,
+      "verification": {
+        "python_3_10_syntax": "passed",
+        "node_and_component_declarations": "unchanged",
+        "group_and_loading_actions": "unchanged",
+        "velocity_remappings": "unchanged",
+        "lifecycle_node_list": "unchanged",
+        "changed_launch_argument_defaults": [],
+        "tf_endpoints": [
+          [
+            "/tf",
+            "/tf"
+          ],
+          [
+            "/tf_static",
+            "/tf_static"
+          ]
+        ]
+      }
+    }
+  },
+  "archive": {
+    "name": "nav2_launch_personal.tar.gz",
+    "sha256": "91a0667a68a9f7bfa84cc0fe7daf6fcdfd26248d3a31dc164d1d0426333ba3b6",
+    "members": [
+      "bringup_launch.py",
+      "localization_launch.py",
+      "navigation_launch.py"
+    ]
+  },
+  "car_runtime_validation": "not performed; only static validation on Windows",
+  "configuration_status": "car nav2_params.yaml still original; topic/path adaptations pending",
+  "chassis": "not started; source enables commanded mode and releases brake"
+}

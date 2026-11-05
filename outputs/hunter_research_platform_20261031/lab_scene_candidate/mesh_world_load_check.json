@@ -1,0 +1,11 @@
+{
+  "created_pid": 401,
+  "partition": "hz_sim_aphelios_73_lab_load_f0f15757d1af",
+  "robot_present": false,
+  "motion_published": false,
+  "physics_play_requested": false,
+  "ok": true,
+  "world_control_service_available": true,
+  "owned_process_group_closed": true,
+  "gazebo_error_lines": []
+}

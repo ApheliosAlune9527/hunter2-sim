@@ -1,0 +1,57 @@
+[INFO] [launch]: All log files can be found below /home/aphelios/.ros/log/2026-11-05-16-22-26-924018-PC-20260817VDLU-1351
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [parameter_bridge-1]: process started with pid [1368]
+[INFO] [robot_state_publisher-2]: process started with pid [1370]
+[INFO] [pointcloud_to_laserscan_node-3]: process started with pid [1372]
+[pointcloud_to_laserscan_node-3] 1793866947.022832 [74] pointcloud: selected interface "lo" is not multicast-capable: disabling multicast
+[robot_state_publisher-2] 1793866947.023682 [74] robot_stat: selected interface "lo" is not multicast-capable: disabling multicast
+[parameter_bridge-1] 1793866947.052752 [74] parameter_: selected interface "lo" is not multicast-capable: disabling multicast
+[robot_state_publisher-2] [WARN] [1793866947.053056152] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-2] [INFO] [1793866947.053121177] [hz_sim.full.state_publisher]: got segment ars548_link
+[robot_state_publisher-2] [INFO] [1793866947.053145271] [hz_sim.full.state_publisher]: got segment assembly_link
+[robot_state_publisher-2] [INFO] [1793866947.053149931] [hz_sim.full.state_publisher]: got segment base_link
+[robot_state_publisher-2] [INFO] [1793866947.053153385] [hz_sim.full.state_publisher]: got segment camera_bottom_screw_frame
+[robot_state_publisher-2] [INFO] [1793866947.053156894] [hz_sim.full.state_publisher]: got segment camera_link
+[robot_state_publisher-2] [INFO] [1793866947.053160240] [hz_sim.full.state_publisher]: got segment camera_optical_frame
+[robot_state_publisher-2] [INFO] [1793866947.053163553] [hz_sim.full.state_publisher]: got segment front_left_steering_link
+[robot_state_publisher-2] [INFO] [1793866947.053166769] [hz_sim.full.state_publisher]: got segment front_left_wheel_link
+[robot_state_publisher-2] [INFO] [1793866947.053170886] [hz_sim.full.state_publisher]: got segment front_right_steering_link
+[robot_state_publisher-2] [INFO] [1793866947.053175980] [hz_sim.full.state_publisher]: got segment front_right_wheel_link
+[robot_state_publisher-2] [INFO] [1793866947.053180249] [hz_sim.full.state_publisher]: got segment front_steer_bar_link
+[robot_state_publisher-2] [INFO] [1793866947.053185203] [hz_sim.full.state_publisher]: got segment gnss_link
+[robot_state_publisher-2] [INFO] [1793866947.053189342] [hz_sim.full.state_publisher]: got segment hesai_lidar
+[robot_state_publisher-2] [INFO] [1793866947.053192600] [hz_sim.full.state_publisher]: got segment hunter_link
+[robot_state_publisher-2] [INFO] [1793866947.053195707] [hz_sim.full.state_publisher]: got segment imu_link
+[robot_state_publisher-2] [INFO] [1793866947.053198814] [hz_sim.full.state_publisher]: got segment rear_axle_detail_link
+[robot_state_publisher-2] [INFO] [1793866947.053201997] [hz_sim.full.state_publisher]: got segment rear_left_wheel_link
+[robot_state_publisher-2] [INFO] [1793866947.053205104] [hz_sim.full.state_publisher]: got segment rear_right_wheel_link
+[robot_state_publisher-2] [INFO] [1793866947.053208167] [hz_sim.full.state_publisher]: got segment reference_base_link
+[pointcloud_to_laserscan_node-3] [INFO] [1793866947.230980522] [hz_sim.full.scan_converter]: Got a subscriber to laserscan, starting pointcloud subscriber
+[parameter_bridge-1] [INFO] [1793866948.149403900] [hz_sim.full.sensor_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[parameter_bridge-1] [INFO] [1793866948.150245839] [hz_sim.full.sensor_bridge]: Creating GZ->ROS Bridge: [/hz_sim/full/lidar/points (ignition.msgs.PointCloudPacked) -> /hz_sim/full/lidar/points (sensor_msgs/msg/PointCloud2)] (Lazy 0)
+[parameter_bridge-1] [INFO] [1793866948.151554946] [hz_sim.full.sensor_bridge]: Creating GZ->ROS Bridge: [/hz_sim/full/camera/image (ignition.msgs.Image) -> /hz_sim/full/camera/image (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-1] [INFO] [1793866948.152343439] [hz_sim.full.sensor_bridge]: Creating GZ->ROS Bridge: [/hz_sim/full/camera/depth_image (ignition.msgs.Image) -> /hz_sim/full/camera/depth_image (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-1] [INFO] [1793866948.153058357] [hz_sim.full.sensor_bridge]: Creating GZ->ROS Bridge: [/hz_sim/full/camera/camera_info (ignition.msgs.CameraInfo) -> /hz_sim/full/camera/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[parameter_bridge-1] [INFO] [1793866948.153822946] [hz_sim.full.sensor_bridge]: Creating GZ->ROS Bridge: [/hz_sim/full/imu (ignition.msgs.IMU) -> /hz_sim/full/imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-1] [INFO] [1793866948.154647981] [hz_sim.full.sensor_bridge]: Creating GZ->ROS Bridge: [/hz_sim/full/joint_states (ignition.msgs.Model) -> /hz_sim/full/joint_states (sensor_msgs/msg/JointState)] (Lazy 0)
+[parameter_bridge-1] [INFO] [1793866948.155405797] [hz_sim.full.sensor_bridge]: Creating GZ->ROS Bridge: [/hz_sim/full/odom (ignition.msgs.Odometry) -> /hz_sim/full/odom (nav_msgs/msg/Odometry)] (Lazy 0)
+[parameter_bridge-1] [INFO] [1793866948.157407212] [hz_sim.full.sensor_bridge]: Creating GZ->ROS Bridge: [/hz_sim/full/tf (ignition.msgs.Pose_V) -> /hz_sim/full/tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[pointcloud_to_laserscan_node-3] [INFO] [1793866955.738068345] [hz_sim.full.scan_converter]: No subscribers to laserscan, shutting down pointcloud subscriber
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [pointcloud_to_laserscan_node-3]: sending signal 'SIGINT' to process[pointcloud_to_laserscan_node-3]
+[INFO] [robot_state_publisher-2]: sending signal 'SIGINT' to process[robot_state_publisher-2]
+[INFO] [parameter_bridge-1]: sending signal 'SIGINT' to process[parameter_bridge-1]
+[pointcloud_to_laserscan_node-3] [INFO] [1793866962.361903744] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [parameter_bridge-1]: process has finished cleanly [pid 1368]
+[robot_state_publisher-2] [INFO] [1793866962.361907508] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-1] [INFO] [1793866962.361932378] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[pointcloud_to_laserscan_node-3] [INFO] [1793866962.364477523] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-2] [INFO] [1793866962.365180009] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ERROR] [pointcloud_to_laserscan_node-3]: process[pointcloud_to_laserscan_node-3] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [robot_state_publisher-2]: process[robot_state_publisher-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [pointcloud_to_laserscan_node-3]: sending signal 'SIGTERM' to process[pointcloud_to_laserscan_node-3]
+[INFO] [robot_state_publisher-2]: sending signal 'SIGTERM' to process[robot_state_publisher-2]
+[pointcloud_to_laserscan_node-3] [INFO] [1793866960.708614446] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-2] [INFO] [1793866960.709268112] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [pointcloud_to_laserscan_node-3]: process has finished cleanly [pid 1372]
+[INFO] [robot_state_publisher-2]: process has finished cleanly [pid 1370]

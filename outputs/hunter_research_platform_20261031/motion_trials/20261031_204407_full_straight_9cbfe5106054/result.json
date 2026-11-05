@@ -1,0 +1,170 @@
+{
+  "profile": "full_straight",
+  "token": "9cbfe5106054",
+  "partition": "hz_sim_aphelios_73_motion_9cbfe5106054",
+  "speed_m_s": 0.1,
+  "angular_velocity_rad_s": -0.08,
+  "sensors_enabled": true,
+  "ros_actuation_bridge": false,
+  "uses_ros_api": false,
+  "experiment_sha256": {
+    "sim/experiments/full_motion/run.py": "c3ad0288d98108ffa487826747e2d3be0d5e5c948106208e6b17e1c0955cd2f5",
+    "sim/experiments/full_motion/transport.cc": "9544c064fb4588faec5638625877ef2e4e5ea455b5b823db021f154fddd2facc",
+    "outputs/hunter_research_platform_20261031/bin/full_motion_transport": "d458de9eb6d127433088a8425286bd5a84559efdf4314a24d904a907985bec6b"
+  },
+  "source_scene": {
+    "status": "PASS",
+    "world": "hz_hunter_full",
+    "model": "hz_hunter_full",
+    "physical_links": 7,
+    "active_joints": 6,
+    "visual_meshes": 12,
+    "total_mass_kg": 75.87700000000001,
+    "world_plugins": 5,
+    "model_plugins": 2,
+    "sensors": [
+      "camera",
+      "imu",
+      "lidar"
+    ],
+    "sensor_poses_from_base_link": {
+      "lidar": [
+        0.539,
+        0.0,
+        0.525,
+        0.0,
+        -0.0,
+        1.570796326795
+      ],
+      "camera": [
+        0.6439999999999985,
+        0.015000000000010857,
+        0.47500000000000003,
+        0.0,
+        -4.8965888601467475e-12,
+        3.102575454202261e-13
+      ],
+      "imu": [
+        0.5390000000000114,
+        -0.11,
+        0.463,
+        0.0,
+        -0.0,
+        1.570796326795
+      ]
+    },
+    "command_topic": "/hz_sim/full/cmd_vel",
+    "joint_states_topic": "/hz_sim/full/joint_states",
+    "gui_render_engine": "ogre",
+    "gui_start_paused": true,
+    "runtime_verified": false,
+    "ros_bridge": false,
+    "hardware_driver": false,
+    "concerns": [
+      "Mass, collision proxies and mounting transforms retain uncalibrated engineering assumptions.",
+      "This offline gate does not establish runtime sensor, ROS, or GUI behavior."
+    ],
+    "sha256": {
+      "scene": "0c4f63f0f531a636767073bd89a7dd3271184dfa32d393d254e2939a85d32385",
+      "gui": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc",
+      "manifest": "a1e1ceb018c9644fc40a49bc22499b10665814a62e22c87eef7d1d6a97e7f1de",
+      "inputs": {
+        "converted_sdf": "03daabfd6c89a683e1fa6b77e0f5bd18f9d24beb59766d1a9976d9f9d5de2ed0",
+        "conversion_urdf": "5fb7fa1ef8c8cc280d0824198f6f1ced8d858b41a1d8c4ef9333903ef1c5ab0e",
+        "urdf": "24f4f2c7bd46e3e39b61d4b25d58ff12853f1623821c0927607bd7f6059fcea2",
+        "source_manifest": "b97a3803569e25544e772852b74df4b5f6e95d71076fd3aec8525a0c9eb1ed6b",
+        "geometry_report": "78f0ab3f006b43bf9f8a6dda47cb815ab50efe9b037882123bfc5cbc11f77be1",
+        "camera_source": "790333f3aa749400429f27d0fa0838662dc8c65e5ad6e64b96dfa9de8d183daf",
+        "mapping_source": "bd5a59683e9ed914fab81af13af0306a75ab13d5091ce2e3465dad5fea93cb9e",
+        "source_vio": "5786aeca9a26c796953430d471d5428279a5590c084b07dc945647aa88048911",
+        "source_livmapper": "1bbdae25fde516032de59371364960481f569fa67f21ab16fb7d6d07034409f8",
+        "source_ch104": "abcb19913c42d5133913b72754b2515f9740223a1726af6840c8651fc7f9ed52"
+      }
+    }
+  },
+  "world_sha256": "a2ab89d29c46e2de62f334c242c9d12f80b019687bfc265b0de55c16044861de",
+  "state": "completed",
+  "created_server_pid": 422,
+  "transport_exit_code": 0,
+  "result": {
+    "checks": {
+      "forward_displacement": true,
+      "finite_pose": true,
+      "upright_height": true,
+      "brake": true,
+      "odom_distance_consistent": true,
+      "wheel_rotation": true,
+      "steering_limits": true,
+      "odom_yaw_consistent": true,
+      "direction": true,
+      "native_sensors_during_motion": true
+    },
+    "passed": true,
+    "forward_m": 0.17494999099898437,
+    "lateral_m": 1.2624037478763755e-11,
+    "yaw_change_rad": 1.5057727622043127e-10,
+    "odom_yaw_change_rad": 1.499916916690156e-10,
+    "steering_angles_rad": [
+      6.16621501019471e-10,
+      6.166214980569354e-10
+    ],
+    "odom_distance_m": 0.17414999999798259,
+    "final_odom_speed_m_s": 0,
+    "wheel_angular_velocities_rad_s": [
+      0.6060605977424515,
+      0.6060605980896006,
+      0.6060606058759165,
+      0.6060606062425792
+    ],
+    "odom_may_overestimate_when_wheels_slip": false
+  },
+  "native_sensors": {
+    "ok": true,
+    "lidar": {
+      "count": 2,
+      "bytes": 0,
+      "width": 23040,
+      "height": 0,
+      "finite": 10690,
+      "stamp_ns": 100000000,
+      "frame": "hz_sim/full/hesai_lidar"
+    },
+    "points": {
+      "count": 2,
+      "bytes": 737280,
+      "width": 720,
+      "height": 32,
+      "finite": 0,
+      "stamp_ns": 100000000,
+      "frame": "hz_sim/full/hesai_lidar"
+    },
+    "rgb": {
+      "count": 2,
+      "bytes": 921600,
+      "width": 640,
+      "height": 480,
+      "finite": 0,
+      "stamp_ns": 200000000,
+      "frame": "hz_sim/full/camera_optical_frame"
+    },
+    "depth": {
+      "count": 2,
+      "bytes": 1228800,
+      "width": 640,
+      "height": 480,
+      "finite": 0,
+      "stamp_ns": 200000000,
+      "frame": "hz_sim/full/camera_optical_frame"
+    },
+    "imu": {
+      "count": 11,
+      "bytes": 0,
+      "width": 0,
+      "height": 0,
+      "finite": 0,
+      "stamp_ns": 200000000,
+      "frame": "hz_sim/full/imu_link"
+    }
+  },
+  "owned_server_stopped": true
+}

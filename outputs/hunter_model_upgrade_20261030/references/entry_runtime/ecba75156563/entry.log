@@ -1,0 +1,8 @@
+已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / NVIDIA。
+1793345032.350097 [73]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+通过：个人 ROS 域 73，CycloneDDS 实际选择 127.0.0.1。
+检查节点已退出；未发布运动指令，未启动底盘驱动。
+记录：/home/aphelios/hz_sim_ws/reports/ros_isolation_latest.json
+正在打开 HUNTER 完整模型；默认暂停，本轮请勿点击播放。
+日志（UTF-8）：/mnt/f/rob-memory/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53
+完整模型会话已收尾；记录：/mnt/f/rob-memory/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/session.json

@@ -1,0 +1,34 @@
+{
+  "source": "user_pasted_read_only_robot_output",
+  "recorded_on": "2026-10-13",
+  "session_record": {
+    "source_path": "/home/car/hz_ws/maps/hz_active_session.json",
+    "content": {
+      "run_dir": "/home/car/hz_ws/maps/lab_20261013_122621_218871"
+    }
+  },
+  "historical_export_records": [
+    {
+      "source_path": "/home/car/hz_ws/maps/lab_20261011_155236_369289/previous_export.json",
+      "content": {
+        "format": "hz_mapping_pcd_v1",
+        "run_name": "lab_20261011_141011_768151",
+        "archive_path": "/home/car/hz_ws/maps/lab_20261011_141011_768151.tar.gz",
+        "sha256": "a038d3e2afd8432abafe0e9f339e1c1c6953b9acc247b7e3818b08b97399c6d6",
+        "total_points": 6607960,
+        "pcd_files": 5274
+      }
+    },
+    {
+      "source_path": "/home/car/hz_ws/maps/lab_20261011_163220_590621/previous_export.json",
+      "content": {
+        "format": "hz_mapping_pcd_v1",
+        "run_name": "lab_20261011_155236_369289",
+        "archive_path": "/home/car/hz_ws/maps/lab_20261011_155236_369289.tar.gz",
+        "sha256": "29a7d050865948dfb2387c86b2292310162983891269d45e44d1dd7faf6dc434",
+        "total_points": 16290495,
+        "pcd_files": 5245
+      }
+    }
+  ]
+}

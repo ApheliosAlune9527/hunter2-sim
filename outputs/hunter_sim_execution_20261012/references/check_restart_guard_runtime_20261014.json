@@ -1,0 +1,14 @@
+{
+  "check_only": true,
+  "expected_restart_refusal_observed": true,
+  "exit_code": 1,
+  "motion_journal_preserved": true,
+  "journal_sha256": "550D8432FC518E34874D089BC37F7E8DAC591133181046AD9E76E808ECFBEBC0",
+  "velocity_published": false,
+  "physics_steps_requested": false,
+  "user_denies_manual_interruption": true,
+  "interruption_source": "unconfirmed",
+  "tests_passed": 9,
+  "stdout": "已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / NVIDIA。\n{\"world\": \"hz_hunter_control\", \"command_topic\": \"/hz_sim/cmd_vel\", \"odom_topic\": \"/hz_sim/odom\", \"tf_topic\": \"/hz_sim/tf\", \"minimum_turning_radius_m\": 1.669156096106059, \"maximum_inner_steering_rad\": 0.44394872512048306, \"maximum_rear_wheel_speed_rad_s\": 2.1476896462891375, \"ros_bridge\": false, \"hardware_driver\": false, \"gui_render_engine\": \"ogre\"}\n记录：/home/aphelios/hz_sim_ws/reports/straight_20261014_155742_b79d674e/check.json\n测试前检查未通过，未发送速度：上次运动测试中断，需先结束你自己的仿真并重新打开，再开始新测试\n请先打开个人Gazebo控制场景并保持暂停，再回传结果。\n",
+  "wsl_notice": "wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理。\r\n"
+}

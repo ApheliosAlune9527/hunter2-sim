@@ -1,0 +1,9 @@
+{
+  "format": "hz_virtual_motion_authorization_v1",
+  "date_local": "2026-10-14",
+  "user_message": "允许虚拟车低速运动测试",
+  "scope": "personal WSL / Gazebo low-speed virtual motion tests",
+  "real_robot_authorized": false,
+  "first_test": "0.10 m/s target for 2 simulation seconds, zero target for 1 simulation second, then paused",
+  "physical_driver_and_ros_bridge_excluded": true
+}

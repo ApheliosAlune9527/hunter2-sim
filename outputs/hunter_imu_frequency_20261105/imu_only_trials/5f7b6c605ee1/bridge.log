@@ -1,0 +1,3 @@
+1793867330.236269 [74] parameter_: selected interface "lo" is not multicast-capable: disabling multicast
+[INFO] [1793867330.242248137] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/hz_sim/imu_bench/t5f7b6c605ee1/imu (ignition.msgs.IMU) -> /hz_sim/imu_bench/t5f7b6c605ee1/imu (sensor_msgs/msg/Imu)] (Lazy 0)
+[INFO] [1793867335.594723029] [rclcpp]: signal_handler(SIGINT/SIGTERM)

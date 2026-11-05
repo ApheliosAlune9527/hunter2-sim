@@ -1,0 +1,138 @@
+已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / Radeon RX 9070 XT。
+完整模型入口检查通过；仅检查环境、文件、安装包和库，未启动 ROS 或 Gazebo。
+{
+  "status": "PASS",
+  "check_only": true,
+  "environment": {
+    "WSL_DISTRO_NAME": "Ubuntu-22.04",
+    "ROS_DISTRO": "humble",
+    "ROS_DOMAIN_ID": "73",
+    "ROS_LOCALHOST_ONLY": "1",
+    "RMW_IMPLEMENTATION": "rmw_cyclonedds_cpp",
+    "IGN_PARTITION": "hz_sim_aphelios_73",
+    "IGN_IP": "127.0.0.1"
+  },
+  "entry": {
+    "sealed_files": 14,
+    "sealed_paths": [
+      "sim/tools/start_hunter_full_scene.ps1",
+      "sim/tools/start_hunter_full_scene.bash",
+      "sim/tools/start_control_scene_logged.ps1",
+      "sim/tools/start_control_scene_logged.bash",
+      "sim/tools/full_scene_session.py",
+      "sim/tools/check_full_entry.py",
+      "sim/tools/seal_full_entry.py",
+      "sim/tools/check_ros_isolation.py",
+      "sim/tools/check_hunter_full_scene.py",
+      "sim/tools/hunter_sensor_profile.py",
+      "sim/tools/check_full_ros_interfaces.py",
+      "sim/launch/hunter_full_ros.launch.py",
+      "sim/config/hunter_full_bridge.yaml",
+      "wsl/hz_sim_env.bash"
+    ]
+  },
+  "package_share": "/home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description",
+  "package": {
+    "source_outputs": 18,
+    "installed_outputs": 17,
+    "not_installed_build_files": [
+      "CMakeLists.txt"
+    ],
+    "source_manifest_equal": true,
+    "installed_symlink_source_root": "/home/aphelios/hz_sim_ws/src/hz_hunter_full_description",
+    "installed_targets_require_same_relative_path": true
+  },
+  "ros_packages": {
+    "ros_gz_bridge": "/opt/ros/humble/share/ros_gz_bridge",
+    "robot_state_publisher": "/opt/ros/humble/share/robot_state_publisher",
+    "pointcloud_to_laserscan": "/opt/ros/humble/share/pointcloud_to_laserscan"
+  },
+  "installed_libraries": {
+    "sensors": "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo6-sensors-system.so",
+    "imu": "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo6-imu-system.so",
+    "physics": "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo6-physics-system.so",
+    "user-commands": "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo6-user-commands-system.so",
+    "scene-broadcaster": "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo6-scene-broadcaster-system.so",
+    "ackermann-steering": "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo6-ackermann-steering-system.so",
+    "joint-state-publisher": "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo6-joint-state-publisher-system.so",
+    "ogre": "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering6-ogre.so"
+  },
+  "scene": {
+    "status": "PASS",
+    "world": "hz_hunter_full",
+    "model": "hz_hunter_full",
+    "physical_links": 7,
+    "active_joints": 6,
+    "visual_meshes": 12,
+    "total_mass_kg": 75.87700000000001,
+    "world_plugins": 5,
+    "model_plugins": 2,
+    "sensors": [
+      "camera",
+      "imu",
+      "lidar"
+    ],
+    "sensor_poses_from_base_link": {
+      "lidar": [
+        0.539,
+        0.0,
+        0.525,
+        0.0,
+        -0.0,
+        1.570796326795
+      ],
+      "camera": [
+        0.6439999999999985,
+        0.015000000000010857,
+        0.47500000000000003,
+        0.0,
+        -4.8965888601467475e-12,
+        3.102575454202261e-13
+      ],
+      "imu": [
+        0.5390000000000114,
+        -0.11,
+        0.463,
+        0.0,
+        -0.0,
+        1.570796326795
+      ]
+    },
+    "command_topic": "/hz_sim/full/cmd_vel",
+    "joint_states_topic": "/hz_sim/full/joint_states",
+    "gui_render_engine": "ogre",
+    "gui_start_paused": true,
+    "runtime_verified": false,
+    "ros_bridge": false,
+    "hardware_driver": false,
+    "concerns": [
+      "Mass, collision proxies and mounting transforms retain uncalibrated engineering assumptions.",
+      "This offline gate does not establish runtime sensor, ROS, or GUI behavior."
+    ],
+    "sha256": {
+      "scene": "0c4f63f0f531a636767073bd89a7dd3271184dfa32d393d254e2939a85d32385",
+      "gui": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc",
+      "manifest": "a1e1ceb018c9644fc40a49bc22499b10665814a62e22c87eef7d1d6a97e7f1de",
+      "inputs": {
+        "converted_sdf": "03daabfd6c89a683e1fa6b77e0f5bd18f9d24beb59766d1a9976d9f9d5de2ed0",
+        "conversion_urdf": "5fb7fa1ef8c8cc280d0824198f6f1ced8d858b41a1d8c4ef9333903ef1c5ab0e",
+        "urdf": "24f4f2c7bd46e3e39b61d4b25d58ff12853f1623821c0927607bd7f6059fcea2",
+        "source_manifest": "b97a3803569e25544e772852b74df4b5f6e95d71076fd3aec8525a0c9eb1ed6b",
+        "geometry_report": "78f0ab3f006b43bf9f8a6dda47cb815ab50efe9b037882123bfc5cbc11f77be1",
+        "camera_source": "790333f3aa749400429f27d0fa0838662dc8c65e5ad6e64b96dfa9de8d183daf",
+        "mapping_source": "bd5a59683e9ed914fab81af13af0306a75ab13d5091ce2e3465dad5fea93cb9e",
+        "source_vio": "5786aeca9a26c796953430d471d5428279a5590c084b07dc945647aa88048911",
+        "source_livmapper": "1bbdae25fde516032de59371364960481f569fa67f21ab16fb7d6d07034409f8",
+        "source_ch104": "abcb19913c42d5133913b72754b2515f9740223a1726af6840c8651fc7f9ed52"
+      }
+    }
+  },
+  "interfaces": {
+    "bridge_count": 9,
+    "direction": "GZ_TO_ROS",
+    "actuation_bridge": false
+  },
+  "started_ros_or_gazebo": false,
+  "runtime_verified": false,
+  "motion_commands_sent": false
+}

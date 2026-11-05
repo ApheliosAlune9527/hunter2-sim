@@ -1,0 +1,21 @@
+{
+  "checked_date_local": "2026-10-13",
+  "release_tag": "1.3.0",
+  "release_url": "https://github.com/ros-infrastructure/ros-apt-source/releases/tag/1.3.0",
+  "asset_name": "ros2-apt-source_1.3.0.jammy_all.deb",
+  "asset_url": "https://github.com/ros-infrastructure/ros-apt-source/releases/download/1.3.0/ros2-apt-source_1.3.0.jammy_all.deb",
+  "asset_size_bytes": 4538,
+  "local_path": "F:\\rob-memory\\wsl\\downloads\\ros2-apt-source_1.3.0.jammy_all.deb",
+  "sha256": "110b9a462d55252decb8b7c816f61c2ba0d9890ce5fb93ac504e97cae5860d76",
+  "github_asset_digest": "sha256:110b9a462d55252decb8b7c816f61c2ba0d9890ce5fb93ac504e97cae5860d76",
+  "github_digest_matched": true,
+  "installation_status": "installed_and_ros_repository_refresh_confirmed_by_user_output",
+  "installed_version": "1.3.0~jammy",
+  "repository_index_url": "http://packages.ros.org/ros2/ubuntu/dists/jammy/InRelease",
+  "repository_refresh_download_reported": "3772 kB in 7s",
+  "package_metadata_read_only_checked": true,
+  "package_name": "ros2-apt-source",
+  "package_version": "1.3.0~jammy",
+  "package_architecture": "all",
+  "package_contents_read_only_checked": true
+}

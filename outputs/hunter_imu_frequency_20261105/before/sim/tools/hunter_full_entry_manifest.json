@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "sim/tools/start_hunter_full_scene.ps1",
+      "sha256": "b244d49a810c2dd1050524d2e2c478a88975157d0af305abcf1641341e2e9446"
+    },
+    {
+      "path": "sim/tools/start_hunter_full_scene.bash",
+      "sha256": "6a9d7d112d31d43fd1dcad4b093f24972229e3e8fd7111cf79fb50dda8ee9d14"
+    },
+    {
+      "path": "sim/tools/start_control_scene_logged.ps1",
+      "sha256": "fd0d773b363beea9633c7bd0dcdd43b420b64077ae061e48afc6097caddfe8a4"
+    },
+    {
+      "path": "sim/tools/start_control_scene_logged.bash",
+      "sha256": "b3539752723db030543682dd166ffb9506dc1527638ea3dea4f49886737e412e"
+    },
+    {
+      "path": "sim/tools/full_scene_session.py",
+      "sha256": "52b0d812c4a8fb25ed2b3fe962469a43a007b759875b0c0e8f5e703fdf7fc93a"
+    },
+    {
+      "path": "sim/tools/check_full_entry.py",
+      "sha256": "c35b46eb2136dcc592f9587cd1b955b49289a8b8c39c7d4cc032c6003f2629f2"
+    },
+    {
+      "path": "sim/tools/seal_full_entry.py",
+      "sha256": "7eb56c6bc00482dc87e3d31424a4305de3fe57cf98862526f9e265f52bf8682f"
+    },
+    {
+      "path": "sim/tools/check_ros_isolation.py",
+      "sha256": "a41b90c3e36661b7207152e28adc66b41a1d5db1070340cea1af51bd4dc181d4"
+    },
+    {
+      "path": "sim/tools/check_hunter_full_scene.py",
+      "sha256": "2f71eeed46e488ea3e08b311c0feca98e412842cbed06e4dd034a7c5c394e6a2"
+    },
+    {
+      "path": "sim/tools/hunter_sensor_profile.py",
+      "sha256": "f3080eceb760d68aaa77ae66e66f02f51662a473e70408dbe64d57da814e4e5a"
+    },
+    {
+      "path": "sim/tools/check_full_ros_interfaces.py",
+      "sha256": "be1300defc6c37327051e46450074887060b5de35ca517a462034aab88760439"
+    },
+    {
+      "path": "sim/launch/hunter_full_ros.launch.py",
+      "sha256": "2bd5ef0b0ea0027a8798d827f52735c0e014636595678c09e50d0a6910b84587"
+    },
+    {
+      "path": "sim/config/hunter_full_bridge.yaml",
+      "sha256": "921e4a113c5fedb09c968d75017831641977bc94ff46897b2fb8cbe0af74955c"
+    },
+    {
+      "path": "wsl/hz_sim_env.bash",
+      "sha256": "9e4fa2b7b9bfa734c7e717fa3dfd67a9721993324465ebb0b3f5eb08db4da56e"
+    }
+  ]
+}

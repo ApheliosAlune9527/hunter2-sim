@@ -1,0 +1,27 @@
+# 检查发现
+
+- 用户选择“检查地图并生成清晰预览”。
+- 输入目录：F:/rob-memory/maps/lab_20261011/lab_20261011_155236_369289。
+- validation.json 声明 5,245 个 PCD、16,290,495 个点；scans_pos.json 有 5,245 行、7 列。
+- raw PCD 为 260,648,077 字节；15 cm 预览为 46,564 点。实际结构复核待完成。
+- 配置使用 /lidar_points、/imu/data、/camera/camera/color/image_raw；保存 interval=1；gravity_align_en=false。
+- 旧检查脚本写死上一轮目录和 ROI，不能直接执行；本轮采用新分析脚本与新坐标选择。
+- Python 的 NumPy、SciPy、Matplotlib、Pillow 已可用；Open3D、Plotly 不可用。此次静态科学绘图无需新增依赖。
+- 分块编号 1–5245 连续，数量与点数吻合，完整合并载荷 SHA256 与按编号串联的分块完全相同。所有原始 XYZ 有限。
+- 15 cm 预览的体素键无重复，覆盖原始数据全部 0.15 m 有点网格。
+- 5 cm 平均点云 384,312 点；20 cm 邻域中含自身不足 3 点的轻度过滤移除 259 个体素点，得到 384,053 点。
+- 起止估计位置差 0.27388 m，姿态差 14.3038°；本轮没有实际起止标记测量，不能据此判定返回误差。
+- 最大相邻姿态位移 0.08156 m、旋转 2.4934°；四元数范数在 0.99999934–1.00000069。
+- 记录覆盖约 428.2 s；图像日志时间步长约 0.06672 s，日志所见图像时间无逆序；IMU 时间无逆序。
+- 算法日志只有启动时的一次图像丢弃和一次 IMU 初始化重置；相机有库版本不一致提醒及停止时 SIGINT 超时升级 SIGTERM。
+- 全范围图可辨认长条实验室；外围有成片结构和少量孤立点。新轮房间长轴接近 X 方向，旧轮 ROI 不适用。
+- 本轮绘图用 −12° 水平旋转的 U/V 坐标，PCD 坐标不变；主体图范围 U[-3.1,20.5]、V[-7.8,2.8]、Z[-1.1,3.85] m。
+- 地面拟合倾角 0.86286°；车体相对拟合地面高度中央 95% 范围 2.193 cm，原始 Z 变化不能直接视为高度漂移。
+- 三个初始大框为多峰分布，95% 宽度 37.18/33.24/16.89 cm；不把混合框宽度判为全图精度。
+- 对 45 个固定小框测试，44 个测得；分别选择每个带最小宽度的局部示例：1.9915、1.8352、2.2166 cm。已明确选取偏向局部平整片段，只作局部说明。
+- 所有测得小框中，宽度小于 5 cm 的数量为左端12/18、右端3/9、长边3/17。保留全部候选结果，避免用最佳片段概括全部表面。
+- 长边选中片段起止均有观察（7145/4265 点），法向中位数差 5.17 mm；另外两片段无起止配对。
+- 复核通过：5,259 输入文件处理前后内容与修改时间一致；5,256 归档文件与解压内容哈希一致；15 个独立网格均值复算吻合；10 张 PNG 格式与尺寸验证通过。
+- Windows CloudCompare 位于 C:/Program Files/CloudCompare/CloudCompare.exe；安装 CHANGELOG 首项为 2.13.2，存在 QPCL_IO_PLUGIN.dll。
+- 2026-10-11 命令行读取四份点云成功：15 cm 预览 46,564、5 cm 平均 384,312、轻度去噪 384,053、完整原始 16,290,495 点。关闭自动保存，测试未写回点云。
+- 官方参考：Shortcuts（https://www.cloudcompare.org/doc/wiki/index.php/Shortcuts）、Entity properties（https://www.cloudcompare.org/doc/wiki/index.php/Entity_properties）、Render to File（https://www.cloudcompare.org/doc/wiki/index.php/Render_to_File）、鼠标与交互抽稀说明（https://www.cloudcompare.org/doc/qCC/Documentation_CloudCompare_version_2_1_eng.pdf）。Z 缩放到选中对象；Colors 可切换 RGB；图片从 Display 菜单导出。

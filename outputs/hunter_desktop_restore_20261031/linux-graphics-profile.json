@@ -1,0 +1,7 @@
+{
+  "profile": "/home/aphelios/.bashrc",
+  "backup": "/mnt/d/rob-memory/outputs/hunter_desktop_restore_20261031/linux-dotfiles/bashrc.before-desktop-gpu",
+  "before_sha256": "86e62a948e9a98a27f10e8ee99400cae642458eb8f035ffde258922b66d8da0f",
+  "after_sha256": "fded94196221e8d69b2121c956fba517a01e18e560f7ecf5c18b01844b9cc4d7",
+  "only_gpu_selection_changed": true
+}

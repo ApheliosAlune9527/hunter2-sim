@@ -1,0 +1,164 @@
+{
+  "voxel_size_m": 0.05,
+  "working_points": 314984,
+  "denoised_points": 314712,
+  "isolation_removed_points": 272,
+  "isolation_radius_m": 0.2,
+  "minimum_neighbor_points_including_self": 3,
+  "core_visualization_bounds": [
+    [
+      -2.5,
+      8
+    ],
+    [
+      -4,
+      19
+    ],
+    [
+      -1.1,
+      3.5
+    ]
+  ],
+  "core_points": 293057,
+  "peripheral_points": 21927,
+  "plane_patches": [
+    {
+      "name": "floor",
+      "bounds": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          -0.85,
+          -0.5
+        ]
+      ],
+      "raw_points": 146976,
+      "voxel_points": 28039,
+      "normal": [
+        -0.016442209232501153,
+        -0.006614014315924505,
+        0.9998429419514765
+      ],
+      "offset": 0.7160638036108616,
+      "residual_quantiles_m": [
+        -0.011904302928982521,
+        -0.0033661685888946857,
+        0.0003276054110900595,
+        0.004231712450475322,
+        0.07653808113565685
+      ],
+      "central_95_percent_width_m": 0.08844238406463938,
+      "within_3cm_fraction": 0.9197828216851731,
+      "within_5cm_fraction": 0.9454536795123013
+    },
+    {
+      "name": "near_wall",
+      "bounds": [
+        [
+          -0.5,
+          3.5
+        ],
+        [
+          -3.12,
+          -2.85
+        ],
+        [
+          -0.3,
+          1.0
+        ]
+      ],
+      "raw_points": 1294165,
+      "voxel_points": 2543,
+      "normal": [
+        -0.03910497566679198,
+        0.9992349693026682,
+        -0.0005263086500695834
+      ],
+      "offset": 2.9700273164462208,
+      "residual_quantiles_m": [
+        -0.01694149452658511,
+        -0.010578856083081956,
+        -0.0060672323670747375,
+        0.0010989939288417183,
+        0.10771249489307574
+      ],
+      "central_95_percent_width_m": 0.12465398941966085,
+      "within_3cm_fraction": 0.8540448860848501,
+      "within_5cm_fraction": 0.8893247769797514
+    },
+    {
+      "name": "far_wall",
+      "bounds": [
+        [
+          0,
+          5
+        ],
+        [
+          17.85,
+          18.25
+        ],
+        [
+          0.1,
+          2.1
+        ]
+      ],
+      "raw_points": 163308,
+      "voxel_points": 7632,
+      "normal": [
+        -0.03317822398686624,
+        0.9994482100613468,
+        0.0015750740449332955
+      ],
+      "offset": -17.92248282232505,
+      "residual_quantiles_m": [
+        -0.16699781910921824,
+        -0.05546440555310639,
+        -0.002503241621022667,
+        0.003096279759033038,
+        0.015154150055458785
+      ],
+      "central_95_percent_width_m": 0.18215196916467702,
+      "within_3cm_fraction": 0.7097325299434198,
+      "within_5cm_fraction": 0.7411700590295638
+    }
+  ],
+  "start_end_same_wall": [
+    {
+      "period": "start",
+      "chunks": [
+        1,
+        350
+      ],
+      "points": 99577,
+      "wall_signed_median_m": -0.0069543924745456565,
+      "wall_signed_quantiles_m": [
+        -0.017137066869711413,
+        0.10867377379342846
+      ]
+    },
+    {
+      "period": "end",
+      "chunks": [
+        4925,
+        5274
+      ],
+      "points": 96989,
+      "wall_signed_median_m": -0.004701495710331738,
+      "wall_signed_quantiles_m": [
+        -0.016543208970798993,
+        0.10344034309733943
+      ]
+    }
+  ],
+  "floor_normal_tilt_from_z_deg": 1.0154847668664586,
+  "points_below_floor_more_than_015m_in_core": 806,
+  "smoothed_trajectory_length_m": 40.475923622173966,
+  "estimated_start_end_orientation_difference_deg": 1.9243537425444603,
+  "note": "Plane patch thickness is a surface consistency measure, not ground-truth accuracy. Endpoint differences are not a measured loop-closure error."
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "Source": "F:\\rob-memory\\outputs\\map_inspection_lab_155236_20261011\\lab_rgb_view.png",
+    "File": "10_第二次建图_实验室主体预览.png",
+    "SHA256": "D627E3C21CB090F584F72AFC50C09B51FFFD3F936078279F41E654D8C58278C0",
+    "Dataset": "lab_20261011_155236_369289",
+    "Display": "Existing 5 cm RGB voxel-mean preview"
+  },
+  {
+    "Source": "F:\\rob-memory\\outputs\\map_inspection_lab_155236_20261011\\full_rgb_view.png",
+    "File": "10b_第二次建图_完整扫描范围.png",
+    "SHA256": "5263DA717923901F7B6451780561DAB7D9835A316C0777E7433930FD377130B6",
+    "Dataset": "lab_20261011_155236_369289",
+    "Display": "Existing 5 cm RGB voxel-mean preview"
+  }
+]

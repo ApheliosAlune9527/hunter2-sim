@@ -1,0 +1,29 @@
+test_bash_refuses_before_environment_and_legacy_redirects (__main__.FullEntryTests.test_bash_refuses_before_environment_and_legacy_redirects) ... ok
+test_cleanup_incomplete_receipt_and_console_report_failure (__main__.FullEntryTests.test_cleanup_incomplete_receipt_and_console_report_failure) ... ok
+test_cleanup_only_signals_owned_created_groups (__main__.FullEntryTests.test_cleanup_only_signals_owned_created_groups) ... ok
+test_disk_full_after_both_children_still_cleans_both_groups (__main__.FullEntryTests.test_disk_full_after_both_children_still_cleans_both_groups) ... ok
+test_disk_full_after_first_child_still_cleans_created_group (__main__.FullEntryTests.test_disk_full_after_first_child_still_cleans_created_group) ... ok
+test_entry_argument_contracts_do_not_invoke_programs (__main__.FullEntryTests.test_entry_argument_contracts_do_not_invoke_programs) ... ok
+test_environment_and_share_fail_closed (__main__.FullEntryTests.test_environment_and_share_fail_closed) ... ok
+test_existing_world_refuses_without_creating_or_signalling_processes (__main__.FullEntryTests.test_existing_world_refuses_without_creating_or_signalling_processes) ... ok
+test_final_receipt_failure_returns_failure_after_child_cleanup (__main__.FullEntryTests.test_final_receipt_failure_returns_failure_after_child_cleanup) ... ok
+test_fixed_paused_commands_and_existing_world_refusal (__main__.FullEntryTests.test_fixed_paused_commands_and_existing_world_refusal) ... ok
+test_installed_library_gate_only_reads_fixed_files (__main__.FullEntryTests.test_installed_library_gate_only_reads_fixed_files) ... ok
+test_installed_share_only_exempts_build_time_cmake (__main__.FullEntryTests.test_installed_share_only_exempts_build_time_cmake) ... ok
+test_installed_symlink_target_only_allows_same_relative_native_file (__main__.FullEntryTests.test_installed_symlink_target_only_allows_same_relative_native_file) ... ok
+test_manifest_accepts_only_the_fixed_set (__main__.FullEntryTests.test_manifest_accepts_only_the_fixed_set) ... ok
+test_manifest_install_copy_and_unsafe_outputs_rejected (__main__.FullEntryTests.test_manifest_install_copy_and_unsafe_outputs_rejected) ... ok
+test_manifest_rejects_content_change_and_malformed_hash (__main__.FullEntryTests.test_manifest_rejects_content_change_and_malformed_hash) ... ok
+test_manifest_rejects_missing_extra_duplicate_and_escape (__main__.FullEntryTests.test_manifest_rejects_missing_extra_duplicate_and_escape) ... ok
+test_partial_launch_failure_cleans_only_successfully_created_group (__main__.FullEntryTests.test_partial_launch_failure_cleans_only_successfully_created_group) ... ok
+test_powershell_bad_flags_are_rejected_before_wsl (__main__.FullEntryTests.test_powershell_bad_flags_are_rejected_before_wsl) ... ok
+test_repository_seal_is_current (__main__.FullEntryTests.test_repository_seal_is_current) ... ok
+test_ros_child_exit_is_detected_even_if_launch_parent_lives (__main__.FullEntryTests.test_ros_child_exit_is_detected_even_if_launch_parent_lives) ... ok
+test_source_or_install_change_and_missing_resource_rejected (__main__.FullEntryTests.test_source_or_install_change_and_missing_resource_rejected) ... ok
+test_symlink_install_checks_native_target_and_exact_bytes (__main__.FullEntryTests.test_symlink_install_checks_native_target_and_exact_bytes) ... ok
+test_windows_bash_rejects_dangerous_flags_before_any_source (__main__.FullEntryTests.test_windows_bash_rejects_dangerous_flags_before_any_source) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 1.405s
+
+OK

@@ -1,0 +1,10 @@
+mode: rule
+mixed-port: 57745
+bind-address: 127.0.0.1
+allow-lan: false
+external-controller: 127.0.0.1:57746
+find-process-mode: strict
+log-level: info
+rules:
+  - PROCESS-NAME,RustDesk.exe,DIRECT
+  - MATCH,GLOBAL

@@ -1,0 +1,60 @@
+{
+  "format": "hz_hunter_core_model_staging_v1",
+  "date_local": "2026-10-13",
+  "source": "F:/rob-memory/sim/hz_hunter_sim",
+  "destination": "/home/aphelios/hz_sim_ws/src/hz_hunter_sim",
+  "files": [
+    {
+      "relative_path": "CMakeLists.txt",
+      "sha256": "1e43de217a3de5498aca2222d063f49ec1392d4e4e848f560b20b48babf12b1e",
+      "copied_sha256": "1e43de217a3de5498aca2222d063f49ec1392d4e4e848f560b20b48babf12b1e",
+      "matches": true
+    },
+    {
+      "relative_path": "package.xml",
+      "sha256": "e38eedee6ca83c2d77ddf8b6747d7b6d14c4a0148facfaa9b82e0afa2d171068",
+      "copied_sha256": "e38eedee6ca83c2d77ddf8b6747d7b6d14c4a0148facfaa9b82e0afa2d171068",
+      "matches": true
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "f7f54ac63a0ddd289fa2d9a1d231b5c8fbdba2e172dc17ad9c48f8c7d58b758d",
+      "copied_sha256": "f7f54ac63a0ddd289fa2d9a1d231b5c8fbdba2e172dc17ad9c48f8c7d58b758d",
+      "matches": true
+    },
+    {
+      "relative_path": "urdf/hunter_core.urdf.xacro",
+      "sha256": "7cb6dce62daaee86e4c38c0c91094632bd1ed70a9c1e64ff6951c8f65fd0f658",
+      "copied_sha256": "7cb6dce62daaee86e4c38c0c91094632bd1ed70a9c1e64ff6951c8f65fd0f658",
+      "matches": true
+    }
+  ],
+  "copied_files_match": true,
+  "contains_controller": false,
+  "contains_hardware_driver": false,
+  "source_dimensions_nominal_not_measured": true,
+  "mass_and_box_geometry_are_assumptions": true,
+  "build_status": "confirmed_by_user_1_package_finished_2.34s",
+  "physics_runtime_status": "not_started",
+  "offline_checks": {
+    "xacro_exit_code": 0,
+    "urdf_validation_exit_code": 0,
+    "sdf_conversion_exit_code": 0,
+    "sdf_validation_exit_code": 0,
+    "urdf_link_count": 7,
+    "urdf_joint_count": 6,
+    "sdf_link_count": 7,
+    "sdf_joint_count": 6,
+    "wheel_spin_joints": 4,
+    "front_steering_joints": 2,
+    "positive_mass_and_principal_inertia_checked": true,
+    "principal_moment_triangle_inequalities_checked": true,
+    "initial_assumed_total_mass_kg": 60.0,
+    "controller_plugin_count": 0,
+    "physics_simulation_started": false,
+    "communication_isolation_runtime_verified": false
+  },
+  "installed_xacro_user_check": "Valid",
+  "installed_model_matches_precheck": true,
+  "installed_model_sha256": "cdd43bf1a687426e3292945c5f5a46eb4453f0e2cdf1cceeb8ea597108c611e1"
+}

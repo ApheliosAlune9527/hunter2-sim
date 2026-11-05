@@ -1,0 +1,12 @@
+{
+  "source_map": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\lab_odom_06_new.pgm",
+  "filled_map": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\lab_odom_06_filled.pgm",
+  "box_m": [
+    1.3,
+    4.4,
+    14.8,
+    18.5
+  ],
+  "cells_changed_unknown_to_free": 2753,
+  "note": "Manual free-space annotation requested by the user for the top pocket; the original map is unchanged. Only unknown cells inside the box changed."
+}

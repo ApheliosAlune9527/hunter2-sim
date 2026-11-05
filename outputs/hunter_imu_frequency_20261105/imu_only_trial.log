@@ -1,0 +1,2 @@
+1793867312.516066 [74]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+{"ok": false, "all_models_static": true, "robot_control_plugins": [], "hardware_driver_started": false, "motion_published": false, "ros_domain": 74, "partition": "hz_imu_bench_4a33ac20d24f", "topic": "/hz_sim/imu_bench/4a33ac20d24f/imu", "children": [], "error": "InvalidTopicNameException(\"Invalid topic name: topic name token must not start with a number:\\n  '/hz_sim/imu_bench/4a33ac20d24f/imu'\\n                     ^\")", "cleanup_complete": true}

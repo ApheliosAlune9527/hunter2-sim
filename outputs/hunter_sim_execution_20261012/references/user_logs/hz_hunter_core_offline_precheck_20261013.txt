@@ -1,0 +1,2 @@
+已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / NVIDIA。
+Valid.

@@ -1,0 +1,10 @@
+{
+  "world": "hz_hunter_control",
+  "gui_engine": "ogre",
+  "physics_play_requested": false,
+  "velocity_published": false,
+  "error": "尚未看到兼容渲染器加载日志",
+  "owned_launcher_exit_code": 0,
+  "owned_test_process_closed": true,
+  "report_directory": "/mnt/f/rob-memory/outputs/hunter_sim_execution_20261012/references/render_checks/0dd654eed5"
+}

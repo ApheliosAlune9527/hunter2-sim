@@ -1,0 +1,18 @@
+test_control_scene (unittest.loader._FailedTest) ... ERROR
+
+======================================================================
+ERROR: test_control_scene (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_control_scene
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/unittest/loader.py", line 154, in loadTestsFromName
+    module = __import__(module_name)
+  File "/mnt/f/rob-memory/sim/tools/test_control_scene.py", line 8, in <module>
+    from check_control_scene import validate_world
+ModuleNotFoundError: No module named 'check_control_scene'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (errors=1)

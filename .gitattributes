@@ -1,0 +1,30 @@
+# 换行与二进制约定（2026-11-05 建仓）
+#
+# 本项目代码在 WSL/Ubuntu 里运行（ROS 2 / Gazebo / Python），仓库内文本
+# 一律存 LF，避免 Windows 侧 core.autocrlf=true 把整仓改成 CRLF 后
+# 在 Linux 上出现 "/usr/bin/env: 'python3\r': No such file" 这类故障。
+* text=auto eol=lf
+
+# Windows 原生脚本保留 CRLF
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# 二进制：不做任何换行转换，也不参与 diff
+*.pcd   binary
+*.stl   binary
+*.STL   binary
+*.dae   binary
+*.glb   binary
+*.npz   binary
+*.vhdx  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gz    binary
+*.zip   binary
+*.pdf   binary
+*.pptx  binary
+*.docx  binary
+*.so    binary
+*.pyc   binary

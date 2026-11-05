@@ -1,0 +1,54 @@
+{
+  "format": "hunter_reference_urdf_check_v1",
+  "date_local": "2026-10-13",
+  "user_build_summary": "2 packages finished [0.63s]",
+  "user_xacro_output": "/home/aphelios/hz_sim_ws/reports/hunter_reference.urdf",
+  "file_bytes": 7349,
+  "sha256": "ef9a6f5d2d267c73ad3bff3c4556796e8acbe5c0afbf7e7eca54fc5a5cb2a491",
+  "link_count": 10,
+  "joint_count": 9,
+  "fixed_joint_count": 9,
+  "movable_joint_count": 0,
+  "root_link": "base_link",
+  "connected_tree": true,
+  "unique_mesh_count": 8,
+  "installed_mesh_files": [
+    {
+      "uri": "package://hunter_description/meshes/ARS548.STL",
+      "exists": true
+    },
+    {
+      "uri": "package://hunter_description/meshes/assembly.STL",
+      "exists": true
+    },
+    {
+      "uri": "package://hunter_description/meshes/G60.STL",
+      "exists": true
+    },
+    {
+      "uri": "package://hunter_description/meshes/hunter_2_0.STL",
+      "exists": true
+    },
+    {
+      "uri": "package://hunter_description/meshes/PiPER_plate.STL",
+      "exists": true
+    },
+    {
+      "uri": "package://hunter_description/meshes/PIPER.STL",
+      "exists": true
+    },
+    {
+      "uri": "package://hunter_description/meshes/XT32.STL",
+      "exists": true
+    },
+    {
+      "uri": "package://realsense2_description/meshes/d435.dae",
+      "exists": true
+    }
+  ],
+  "inertial_link_count": 1,
+  "physics_suitable_as_is": false,
+  "camera_inertia_source_comment": "not reliable; should not be used for modeling",
+  "vehicle_dimensions_or_mass_measured": false,
+  "robot_programs_started": false
+}

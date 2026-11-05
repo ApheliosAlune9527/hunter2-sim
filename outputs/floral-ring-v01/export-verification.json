@@ -1,0 +1,20 @@
+{
+  "file": "floral-ring-v01-id17mm.stl",
+  "watertight": true,
+  "consistent_winding": true,
+  "solid_components": 1,
+  "positive_volume": true,
+  "all_finite": true,
+  "triangles": 88414,
+  "dimensions_mm": [
+    20.834,
+    11.535,
+    30.302
+  ],
+  "bore_diameter_range_mm": [
+    16.99872,
+    17.00113
+  ],
+  "glb_meshes": 75,
+  "raw_visual_parts_inside_nominal_bore": []
+}

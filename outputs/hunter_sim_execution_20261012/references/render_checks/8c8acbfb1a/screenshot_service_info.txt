@@ -1,0 +1,2 @@
+Service providers [Address, Request Message Type, Response Message Type]:
+  tcp://127.0.0.1:33287, ignition.msgs.StringMsg, ignition.msgs.Boolean

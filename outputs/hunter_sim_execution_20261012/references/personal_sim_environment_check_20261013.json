@@ -1,0 +1,29 @@
+{
+  "format": "hunter_personal_sim_environment_check_v1",
+  "checked_date_local": "2026-10-13",
+  "user_environment_output_received": {
+    "ROS_DISTRO": "humble",
+    "ROS_DOMAIN_ID": "73",
+    "ROS_LOCALHOST_ONLY": "1",
+    "RMW_IMPLEMENTATION": "rmw_cyclonedds_cpp",
+    "MESA_D3D12_DEFAULT_ADAPTER_NAME": "NVIDIA",
+    "CYCLONEDDS_URI": "not present in returned output"
+  },
+  "environment_file": "F:/rob-memory/wsl/hz_sim_env.bash",
+  "wsl_source_path": "/mnt/f/rob-memory/wsl/hz_sim_env.bash",
+  "syntax_check_exit_code": 0,
+  "fresh_shell_load_exit_code": 0,
+  "fresh_shell": "bash --noprofile --norc",
+  "fresh_shell_output": "已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / NVIDIA。\nhumble\n73\n1\nrmw_cyclonedds_cpp\nNVIDIA\nhz_sim_aphelios_73\n127.0.0.1",
+  "installed_cyclonedds_version": "0.10.5-2jammy.20260226.013234",
+  "runtime_communication_isolation_verified": false,
+  "gazebo_transport_network_isolation_verified": false,
+  "ros_nodes_started": false,
+  "dds_participants_started": false,
+  "gazebo_scene_started": false,
+  "robot_processes_started": false,
+  "accidental_use_guards": "present in file;negative runtime tests not completed",
+  "user_current_terminal_file_load": "confirmed_by_user_output_20261013",
+  "workspace_creation": "confirmed_user_realpath_home_aphelios_hz_sim_ws_and_readonly_directory_check",
+  "implementation_reference": "https://github.com/ros2/rmw_cyclonedds/blob/humble/rmw_cyclonedds_cpp/src/rmw_node.cpp"
+}

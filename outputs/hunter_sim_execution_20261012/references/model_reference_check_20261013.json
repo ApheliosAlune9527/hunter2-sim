@@ -1,0 +1,93 @@
+{
+  "asset_root": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5",
+  "literal_reference_count": 17,
+  "missing_references": [],
+  "dynamic_references": [],
+  "references": [
+    {
+      "source": "hunter_description\\urdf\\assembly.urdf.xacro",
+      "reference": "$(find realsense2_description)/urdf/_d435i.urdf.xacro",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\assembly.urdf.xacro",
+      "reference": "package://hunter_description/meshes/assembly.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\assembly.urdf.xacro",
+      "reference": "package://hunter_description/meshes/assembly.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\assembly.urdf.xacro",
+      "reference": "package://hunter_description/meshes/ARS548.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\assembly.urdf.xacro",
+      "reference": "package://hunter_description/meshes/ARS548.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\assembly.urdf.xacro",
+      "reference": "package://hunter_description/meshes/G60.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\assembly.urdf.xacro",
+      "reference": "package://hunter_description/meshes/G60.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\assembly.urdf.xacro",
+      "reference": "package://hunter_description/meshes/XT32.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\assembly.urdf.xacro",
+      "reference": "package://hunter_description/meshes/XT32.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\hunter.urdf.xacro",
+      "reference": "$(find hunter_description)/urdf/common_properties.xacro",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\hunter.urdf.xacro",
+      "reference": "$(find hunter_description)/urdf/assembly.urdf.xacro",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\hunter.urdf.xacro",
+      "reference": "package://hunter_description/meshes/hunter_2_0.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\hunter.urdf.xacro",
+      "reference": "package://hunter_description/meshes/hunter_2_0.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\hunter.urdf.xacro",
+      "reference": "package://hunter_description/meshes/PiPER_plate.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\hunter.urdf.xacro",
+      "reference": "package://hunter_description/meshes/PiPER_plate.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\hunter.urdf.xacro",
+      "reference": "package://hunter_description/meshes/PIPER.STL",
+      "exists": true
+    },
+    {
+      "source": "hunter_description\\urdf\\hunter.urdf.xacro",
+      "reference": "package://hunter_description/meshes/PIPER.STL",
+      "exists": true
+    }
+  ]
+}

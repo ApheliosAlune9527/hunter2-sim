@@ -1,0 +1,122 @@
+test_bash_refuses_before_environment_and_legacy_redirects (__main__.FullEntryTests.test_bash_refuses_before_environment_and_legacy_redirects) ... FAIL
+test_cleanup_only_signals_owned_created_groups (__main__.FullEntryTests.test_cleanup_only_signals_owned_created_groups) ... FAIL
+test_entry_argument_contracts_do_not_invoke_programs (__main__.FullEntryTests.test_entry_argument_contracts_do_not_invoke_programs) ... FAIL
+test_environment_and_share_fail_closed (__main__.FullEntryTests.test_environment_and_share_fail_closed) ... FAIL
+test_fixed_paused_commands_and_existing_world_refusal (__main__.FullEntryTests.test_fixed_paused_commands_and_existing_world_refusal) ... FAIL
+test_installed_share_only_exempts_build_time_cmake (__main__.FullEntryTests.test_installed_share_only_exempts_build_time_cmake) ... FAIL
+test_manifest_accepts_only_the_fixed_set (__main__.FullEntryTests.test_manifest_accepts_only_the_fixed_set) ... FAIL
+test_manifest_install_copy_and_unsafe_outputs_rejected (__main__.FullEntryTests.test_manifest_install_copy_and_unsafe_outputs_rejected) ... FAIL
+test_manifest_rejects_content_change_and_malformed_hash (__main__.FullEntryTests.test_manifest_rejects_content_change_and_malformed_hash) ... FAIL
+test_manifest_rejects_missing_extra_duplicate_and_escape (__main__.FullEntryTests.test_manifest_rejects_missing_extra_duplicate_and_escape) ... FAIL
+test_powershell_bad_flags_are_rejected_before_wsl (__main__.FullEntryTests.test_powershell_bad_flags_are_rejected_before_wsl) ... FAIL
+test_repository_seal_is_current (__main__.FullEntryTests.test_repository_seal_is_current) ... FAIL
+test_source_or_install_change_and_missing_resource_rejected (__main__.FullEntryTests.test_source_or_install_change_and_missing_resource_rejected) ... FAIL
+
+======================================================================
+FAIL: test_bash_refuses_before_environment_and_legacy_redirects (__main__.FullEntryTests.test_bash_refuses_before_environment_and_legacy_redirects)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+======================================================================
+FAIL: test_cleanup_only_signals_owned_created_groups (__main__.FullEntryTests.test_cleanup_only_signals_owned_created_groups)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+======================================================================
+FAIL: test_entry_argument_contracts_do_not_invoke_programs (__main__.FullEntryTests.test_entry_argument_contracts_do_not_invoke_programs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+======================================================================
+FAIL: test_environment_and_share_fail_closed (__main__.FullEntryTests.test_environment_and_share_fail_closed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+======================================================================
+FAIL: test_fixed_paused_commands_and_existing_world_refusal (__main__.FullEntryTests.test_fixed_paused_commands_and_existing_world_refusal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+======================================================================
+FAIL: test_installed_share_only_exempts_build_time_cmake (__main__.FullEntryTests.test_installed_share_only_exempts_build_time_cmake)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+======================================================================
+FAIL: test_manifest_accepts_only_the_fixed_set (__main__.FullEntryTests.test_manifest_accepts_only_the_fixed_set)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+======================================================================
+FAIL: test_manifest_install_copy_and_unsafe_outputs_rejected (__main__.FullEntryTests.test_manifest_install_copy_and_unsafe_outputs_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+======================================================================
+FAIL: test_manifest_rejects_content_change_and_malformed_hash (__main__.FullEntryTests.test_manifest_rejects_content_change_and_malformed_hash)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+======================================================================
+FAIL: test_manifest_rejects_missing_extra_duplicate_and_escape (__main__.FullEntryTests.test_manifest_rejects_missing_extra_duplicate_and_escape)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+======================================================================
+FAIL: test_powershell_bad_flags_are_rejected_before_wsl (__main__.FullEntryTests.test_powershell_bad_flags_are_rejected_before_wsl)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+======================================================================
+FAIL: test_repository_seal_is_current (__main__.FullEntryTests.test_repository_seal_is_current)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+======================================================================
+FAIL: test_source_or_install_change_and_missing_resource_rejected (__main__.FullEntryTests.test_source_or_install_change_and_missing_resource_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_full_entry.py", line 30, in setUp
+    self.assertIsNotNone(entry, 'Full entry guard must exist before launch')
+AssertionError: unexpectedly None : Full entry guard must exist before launch
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.002s
+
+FAILED (failures=13)

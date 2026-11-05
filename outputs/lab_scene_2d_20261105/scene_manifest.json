@@ -1,0 +1,31 @@
+{
+  "source_map": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\lab_odom_06_filled.pgm",
+  "source_map_sha256": "dd4f9c6543ec82f4aee02d366b3b0061dc4d605bf8de2a36f5cd4307c9b28aea",
+  "resolution_m": 0.05,
+  "origin_m": [
+    -5.09,
+    -4.89,
+    0.0
+  ],
+  "map_cells": {
+    "occupied": 5424,
+    "free": 44799,
+    "unknown": 61842
+  },
+  "wall_height_m": 2.4,
+  "wall_boxes": 2141,
+  "wall_mesh": "D:\\rob-memory\\outputs\\lab_scene_2d_20261105\\walls.stl",
+  "wall_mesh_sha256": "1f059b396615def43cc8d67fd79f78ba54cc57e9d4b07cd7de00efb3f4f7ac83",
+  "scene": "D:\\rob-memory\\outputs\\lab_scene_2d_20261105\\lab_scene_2d.sdf",
+  "world": "hz_lab_2d",
+  "vehicle_start": {
+    "x": -0.21,
+    "y": -0.77,
+    "z": 0.165,
+    "yaw": 0.0,
+    "source": "T1.0 chosen by user"
+  },
+  "generated": "2026-11-05",
+  "unknown_geometry": "none generated",
+  "notes": "Walls are the exact occupied cells extruded to WALL_HEIGHT; no furniture height information exists in a 2-D map. Floor is a plane, so physics still needs walls to block the vehicle."
+}

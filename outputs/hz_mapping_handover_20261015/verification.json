@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-16",
+  "robot_directory": "/home/car/hz_ws/hz_mapping_tools",
+  "scope": "offline_build_checks_and_separately_attributed_user_evidence",
+  "tests": {
+    "count": 38,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "python_310_syntax": [
+    "package/hz_diagnose.py",
+    "package/hz_launch_support.py",
+    "package/hz_mapping.launch.py",
+    "build_support/build_handover.py",
+    "build_support/installer.py",
+    "tests/fixtures/tools/hz_mapping_session.py",
+    "tests/fixtures/tools/pcd_export.py",
+    "tests/test_installer.py",
+    "tests/test_launch_adapter.py",
+    "tests/test_support.py"
+  ],
+  "powershell": {
+    "version": "5.1.26100.9444",
+    "results": [
+      {
+        "errors": 0,
+        "file": "下载地图.ps1"
+      },
+      {
+        "errors": 0,
+        "file": "安装建图工具.ps1"
+      }
+    ]
+  },
+  "bash_syntax": "PASS",
+  "real_zip_install_and_repeat": "PASS",
+  "check_only": "本地安装包 SHA256 校验通过：c62919992ce9a77fb5c60d5d1c1ddb35cfabfef780121979e0a049d1dc0e0204\n离线检查结束。",
+  "tampered_zip_refused": true,
+  "txt_roles": [
+    "camera",
+    "check",
+    "doctor",
+    "imu",
+    "lidar",
+    "mapping",
+    "merge",
+    "pack",
+    "prepare",
+    "preview",
+    "raw",
+    "rviz",
+    "status",
+    "stop",
+    "watch"
+  ],
+  "robot_zip_sha256": "c62919992ce9a77fb5c60d5d1c1ddb35cfabfef780121979e0a049d1dc0e0204",
+  "old_files_sha256": {
+    "F:\\rob-memory\\outputs\\hz_mapping_handover_20261015\\tests\\fixtures\\tools\\hz_mapping_session.py": "76422832047f32056a08dde99a5da8b372f2db560e4a5d26dd76888657eada5e",
+    "F:\\rob-memory\\outputs\\hz_mapping_handover_20261015\\tests\\fixtures\\tools\\pcd_export.py": "2067444b2dd9ec8f69b421eed688a8377dee59ada12bcacdba6e4ca729ee07a1"
+  },
+  "robot_install_and_runtime": {
+    "date": "2026-10-16",
+    "source": "user_supplied_robot_terminal_output",
+    "hostname": "car-NUC15JNKU7X4",
+    "installation_via_todesk": true,
+    "robot_zip_sha256": "c62919992ce9a77fb5c60d5d1c1ddb35cfabfef780121979e0a049d1dc0e0204",
+    "environment_source_passed": true,
+    "doctor_passed": true,
+    "package_prefixes": {
+      "fast_livo": "/home/car/hz_ws/install/fast_livo",
+      "hesai_ros_driver": "/home/car/hz_ws/install/hesai_ros_driver",
+      "realsense2_camera": "/home/car/d435i_ws/install/realsense2_camera"
+    },
+    "helper_hashes_match": true,
+    "ros_launch_api_compatible": true,
+    "active_run": "/home/car/hz_ws/maps/lab_20261013_195244_610187",
+    "active_pcd_count": 0,
+    "session_processes": {},
+    "doctor_exit": "clean",
+    "sensor_roles_verified": false,
+    "mapping_roles_verified": false,
+    "todesk_map_return_verified": false,
+    "note": "Verification of installation and doctor only; not evidence of new launch roles completing mapping."
+  },
+  "guide_command_verification": {
+    "date": "2026-10-16",
+    "scope": "documentation_and_local_fixture_only",
+    "robot_live_transfer_test": false,
+    "roles": 15,
+    "bash_commands": 10,
+    "powershell_commands": 10,
+    "bash_syntax": "PASS",
+    "powershell_51_syntax": "PASS",
+    "exact_windows_guide_workflow": "PASS",
+    "input_pcd_files": 2,
+    "input_points": 3,
+    "raw_points": 3,
+    "preview_points": 2,
+    "raw_records_preserved": true,
+    "repeated_unpack_refused": true,
+    "bad_hash_refused": true
+  }
+}

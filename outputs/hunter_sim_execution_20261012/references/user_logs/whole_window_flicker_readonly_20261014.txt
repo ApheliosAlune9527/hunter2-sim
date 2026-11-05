@@ -1,0 +1,62 @@
+已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / NVIDIA。
+sim_time {
+  sec: 3
+  nsec: 138000000
+}
+real_time {
+  sec: 4
+  nsec: 259544229
+}
+paused: true
+iterations: 3138
+real_time_factor: 0.6347
+
+12:20:59: DefaultWorkQueue('Root')::WorkerFunc - thread 7847677fe640 starting.
+12:20:59: DefaultWorkQueue('Root')::WorkerFunc - thread 784766ffd640 starting.
+12:20:59: DefaultWorkQueue('Root')::WorkerFunc - thread 7847667fc640 starting.
+12:20:59: DefaultWorkQueue('Root')::WorkerFunc - thread 784765ffb640 starting.
+12:20:59: Particle Renderer Type 'billboard' registered
+12:20:59: SceneManagerFactory for type 'BspSceneManager' registered.
+12:20:59: Registering ResourceManager for type BspLevel
+12:20:59: SceneManagerFactory for type 'OctreeSceneManager' registered.
+12:20:59: Parsing scripts for resource group Autodetect
+12:20:59: Finished parsing scripts for resource group Autodetect
+12:20:59: Creating resources for group Autodetect
+12:20:59: All done
+12:20:59: Parsing scripts for resource group Fonts
+12:20:59: Parsing script ignition-rendering.fontdef
+12:20:59: Finished parsing scripts for resource group Fonts
+12:20:59: Creating resources for group Fonts
+12:20:59: All done
+12:20:59: Parsing scripts for resource group General
+12:20:59: Parsing script distortion.material
+12:20:59: Parsing script picker.material
+12:20:59: Parsing script point_cloud_point.material
+12:20:59: Parsing script thermal.material
+12:20:59: Parsing script gpu_rays.material
+12:20:59: Parsing script gaussian_noise.material
+12:20:59: Parsing script pssm.material
+12:20:59: Parsing script gaussian_noise.compositor
+12:20:59: Parsing script thermal_camera.compositor
+12:20:59: Parsing script distortion.compositor
+12:20:59: Finished parsing scripts for resource group General
+12:20:59: Creating resources for group General
+12:20:59: All done
+12:20:59: Parsing scripts for resource group Internal
+12:20:59: Finished parsing scripts for resource group Internal
+12:20:59: Creating resources for group Internal
+12:20:59: All done
+12:20:59: Added resource location '/usr/share/ignition/ignition-rendering6/ogre/media/rtshaderlib150' of type 'FileSystem' to resource group 'General'
+12:20:59: Creating resource group ShaderGeneratorResourceGroup
+12:20:59: Added resource location '/home/aphelios/.ignition/rendering/ogre-rtshader/aphelios-rtshaderlibcache/' of type 'FileSystem' to resource group 'ShaderGeneratorResourceGroup'
+12:20:59: Added resource location '/usr/share/ignition/ignition-rendering6/media/materials/textures/com.png' of type 'FileSystem' to resource group 'General'
+12:20:59: Texture: spot_shadow_fade.png: Loading 1 faces(PF_R8G8B8,128x128x1) with 5 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+321 ign gazebo -v 3 --render-engine-gui ogre --gui-config /mnt/f/rob-memory/sim/scenes/hz_hunter_control_gui.config /mnt/f/rob-memory/sim/scenes/hz_hunter_control.sdf              
+418 ign gazebo server                                                                                                                                                               
+419 ign gazebo gui                                                                                                                                                                  
+MESA_D3D12_DEFAULT_ADAPTER_NAME=NVIDIA
+WAYLAND_DISPLAY=wayland-0
+DISPLAY=:0
+1791951692.8759349890 /home/aphelios/hz_sim_ws/reports/straight_20261014_122119_a6c94fe9/check.json
+1791948786.0022196240 /home/aphelios/hz_sim_ws/reports/straight_20261014_113303_d471cf61/check.json
+1791948102.1983404120 /home/aphelios/hz_sim_ws/reports/straight_20261014_112139_6704ba39/check.json

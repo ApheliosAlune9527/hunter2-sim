@@ -1,0 +1,225 @@
+{
+  "run": "lab_20261011_155236_369289",
+  "raw_points": 16290495,
+  "preview_points": 46564,
+  "pcd_files": 5245,
+  "pose_records": 5245,
+  "source_validation_matches": true,
+  "consecutive_ids": true,
+  "merged_payload_matches_chunks": true,
+  "merged_payload_sha256": "c1770c5f68b61baeaa41bafd5b4caa023e93731a5233f305087e3daa7ad55d1c",
+  "archive_sha256": "29a7d050865948dfb2387c86b2292310162983891269d45e44d1dd7faf6dc434",
+  "all_xyz_finite": true,
+  "raw_xyz_percentiles": {
+    "0": [
+      -18.26171875,
+      -29.428783416748047,
+      -3.1685311794281006
+    ],
+    "0.1": [
+      -7.247586744308472,
+      -20.258780513763426,
+      -0.8965982944965363
+    ],
+    "1": [
+      -6.429648580551148,
+      -18.92834674835205,
+      -0.6965057289600373
+    ],
+    "5": [
+      -3.0300227403640747,
+      -10.995011520385741,
+      -0.6793143332004548
+    ],
+    "25": [
+      -1.9460631608963013,
+      -7.00388240814209,
+      -0.2926037758588791
+    ],
+    "50": [
+      -0.09512241184711456,
+      -6.439384937286377,
+      0.4159972071647644
+    ],
+    "75": [
+      2.103400707244873,
+      -4.5890045166015625,
+      1.2401552200317383
+    ],
+    "95": [
+      16.111967086791992,
+      -1.7500632286071793,
+      2.2917250394821154
+    ],
+    "99": [
+      18.065151557922366,
+      0.935679436922077,
+      3.280179514884949
+    ],
+    "99.9": [
+      18.748372180938738,
+      1.9613943741321767,
+      3.546109822750096
+    ],
+    "100": [
+      47.5173225402832,
+      6.440117359161377,
+      5.291341304779053
+    ]
+  },
+  "rgb_black_fraction": 0.0,
+  "trajectory_start": [
+    -0.00202859,
+    -0.00164786,
+    0.00338686
+  ],
+  "trajectory_end": [
+    -0.255143,
+    0.102528,
+    -0.00607115
+  ],
+  "trajectory_bounds": [
+    [
+      -1.0766,
+      -7.67582,
+      -0.0318638
+    ],
+    [
+      17.2354,
+      0.2489,
+      0.268297
+    ]
+  ],
+  "trajectory_polyline_length_m": 53.13026526203091,
+  "smoothed_subsampled_trajectory_length_m": 46.894794960220736,
+  "endpoint_separation_m": 0.2738776520812675,
+  "endpoint_orientation_difference_deg": 14.303807724762727,
+  "step_percentiles_m": [
+    0.0014079966595687541,
+    0.041926174183503945,
+    0.07003844601541319,
+    0.08156195220327932
+  ],
+  "angular_step_percentiles_deg": [
+    0.039682898442113104,
+    0.7607109447466022,
+    1.735618215904453,
+    2.493418375882259
+  ],
+  "largest_translation_steps": [
+    {
+      "after_batch": 4044,
+      "distance_m": 0.08156195220327932
+    },
+    {
+      "after_batch": 4092,
+      "distance_m": 0.07997926588710355
+    },
+    {
+      "after_batch": 4112,
+      "distance_m": 0.07808968975633093
+    },
+    {
+      "after_batch": 4094,
+      "distance_m": 0.07672730510476712
+    },
+    {
+      "after_batch": 4120,
+      "distance_m": 0.07631870792282829
+    },
+    {
+      "after_batch": 4034,
+      "distance_m": 0.07627367338741463
+    },
+    {
+      "after_batch": 4126,
+      "distance_m": 0.07622810024157768
+    },
+    {
+      "after_batch": 4150,
+      "distance_m": 0.07593922792476894
+    }
+  ],
+  "quaternion_norm_range": [
+    0.9999993369006693,
+    1.0000006877497298
+  ],
+  "points_per_chunk": [
+    1.0,
+    3870.0,
+    4319.0,
+    5509.0
+  ],
+  "log_save_times_available": true,
+  "log_save_duration_s": 428.2051658630371,
+  "log_save_step_percentiles_s": [
+    0.07293224334716797,
+    0.14137216806411743,
+    0.15404268741607663,
+    0.18344926834106445
+  ],
+  "image_stamps_count": 6499,
+  "image_range": [
+    1791705195.661765,
+    1791705629.208749
+  ],
+  "image_stamp_step_percentiles_s": [
+    0.06671619415283203,
+    0.06674695014953613,
+    0.06677319765090943,
+    0.06681394577026367
+  ],
+  "image_stamp_nonpositive_steps": 0,
+  "imu_log_stamps_count": 42857,
+  "imu_range": [
+    1791705195.669103,
+    1791705624.261081
+  ],
+  "imu_log_stamp_nonpositive_steps": 0,
+  "no_point_lio_messages": 2,
+  "no_point_vio_messages": 2,
+  "reset_imu_messages": 1,
+  "shutdown_message_present": true,
+  "warnings": {
+    "mapping": {
+      "count": 2,
+      "first": [
+        "[ERROR] [1791705195.760114241] [laserMapping]: [ Data Cut ] Throw one image frame! ",
+        "[WARN] [1791705195.819464281] []: Reset ImuProcess"
+      ],
+      "last": [
+        "[ERROR] [1791705195.760114241] [laserMapping]: [ Data Cut ] Throw one image frame! ",
+        "[WARN] [1791705195.819464281] []: Reset ImuProcess"
+      ]
+    },
+    "camera": {
+      "count": 6,
+      "first": [
+        "[realsense2_camera_node-1] [WARN] [1791705188.471930846] [camera.camera]: ***************************************************",
+        "[realsense2_camera_node-1] [WARN] [1791705188.471933751] [camera.camera]: ** running with a different librealsense version **",
+        "[realsense2_camera_node-1] [WARN] [1791705188.471935808] [camera.camera]: ** than the one the wrapper was compiled with!   **",
+        "[realsense2_camera_node-1] [WARN] [1791705188.471938997] [camera.camera]: ***************************************************",
+        "[realsense2_camera_node-1] [WARN] [1791705188.642281003] [camera.camera]: re-enable the stream for the change to take effect.",
+        "[ERROR] [realsense2_camera_node-1]: process[realsense2_camera_node-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'"
+      ],
+      "last": [
+        "[realsense2_camera_node-1] [WARN] [1791705188.471930846] [camera.camera]: ***************************************************",
+        "[realsense2_camera_node-1] [WARN] [1791705188.471933751] [camera.camera]: ** running with a different librealsense version **",
+        "[realsense2_camera_node-1] [WARN] [1791705188.471935808] [camera.camera]: ** than the one the wrapper was compiled with!   **",
+        "[realsense2_camera_node-1] [WARN] [1791705188.471938997] [camera.camera]: ***************************************************",
+        "[realsense2_camera_node-1] [WARN] [1791705188.642281003] [camera.camera]: re-enable the stream for the change to take effect.",
+        "[ERROR] [realsense2_camera_node-1]: process[realsense2_camera_node-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'"
+      ]
+    },
+    "lidar": {
+      "count": 0,
+      "first": [],
+      "last": []
+    },
+    "imu": {
+      "count": 0,
+      "first": [],
+      "last": []
+    }
+  }
+}

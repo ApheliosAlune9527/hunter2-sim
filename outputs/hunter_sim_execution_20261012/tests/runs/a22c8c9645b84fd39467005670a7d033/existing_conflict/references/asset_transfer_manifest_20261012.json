@@ -1,0 +1,16 @@
+﻿{
+    "expected_robot_hostname":  "car-NUC15JNKU7X4",
+    "ssh_user":  "car",
+    "archives":  [
+                     {
+                         "filename":  "hunter_reference.tar.gz",
+                         "sha256":  "80647e22b7a39c3e09c14fba21f1b0abe785592636386207dbff4fee629ac2f2",
+                         "robot_path":  "/home/car/hz_sim_assets_20261012_pT9x29/hunter_reference.tar.gz"
+                     },
+                     {
+                         "filename":  "realsense_description_reference.tar.gz",
+                         "sha256":  "8622e274309f7c81c3f224e925300f6caaeaef1b0b9dd8e120abf64623bc2bc7",
+                         "robot_path":  "/home/car/hz_sim_camera_20261012_FPDj8X/realsense_description_reference.tar.gz"
+                     }
+                 ]
+}

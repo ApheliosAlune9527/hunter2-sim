@@ -1,0 +1,21 @@
+{
+  "namespace": "/hz_sim/research/map_check_6fe4617ef2e3",
+  "created_pid": 397,
+  "motion_published": false,
+  "navigation_goal_sent": false,
+  "ok": true,
+  "width": 1337,
+  "height": 738,
+  "resolution": 0.05000000074505806,
+  "origin_xy": [
+    -18.8,
+    -29.95
+  ],
+  "counts": {
+    "-1": 924944,
+    "100": 24731,
+    "0": 37031
+  },
+  "frame_id": "map",
+  "owned_server_stopped": true
+}

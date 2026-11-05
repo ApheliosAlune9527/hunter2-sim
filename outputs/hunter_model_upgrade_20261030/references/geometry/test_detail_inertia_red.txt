@@ -1,0 +1,23 @@
+test_ament_data_package_and_exact_model_identity (test_hunter_full_model.HunterFullModelTests.test_ament_data_package_and_exact_model_identity) ... ok
+test_cad_chassis_and_four_wheels_without_duplicate_steer_wheels (test_hunter_full_model.HunterFullModelTests.test_cad_chassis_and_four_wheels_without_duplicate_steer_wheels) ... ok
+test_fixed_revision_and_output_sha256_manifest (test_hunter_full_model.HunterFullModelTests.test_fixed_revision_and_output_sha256_manifest) ... ok
+test_four_independent_y_axis_roll_and_two_z_axis_steering (test_hunter_full_model.HunterFullModelTests.test_four_independent_y_axis_roll_and_two_z_axis_steering) ... ok
+test_local_wheel_geometry_is_centered_on_y_roll_axis (test_hunter_full_model.HunterFullModelTests.test_local_wheel_geometry_is_centered_on_y_roll_axis) ... ok
+test_no_arm_and_all_visual_assets_are_self_contained (test_hunter_full_model.HunterFullModelTests.test_no_arm_and_all_visual_assets_are_self_contained) ... ok
+test_positive_rigid_body_inertias_and_separate_simple_collisions (test_hunter_full_model.HunterFullModelTests.test_positive_rigid_body_inertias_and_separate_simple_collisions) ... ok
+test_real_bare_chassis_visual_envelope_matches_hunter_dimensions (test_hunter_full_model.HunterFullModelTests.test_real_bare_chassis_visual_envelope_matches_hunter_dimensions) ... ok
+test_reference_tf_and_actual_sensor_carriers_preserved (test_hunter_full_model.HunterFullModelTests.test_reference_tf_and_actual_sensor_carriers_preserved) ... ok
+test_visual_mass_centres_lie_inside_their_component_envelopes (test_hunter_full_model.HunterFullModelTests.test_visual_mass_centres_lie_inside_their_component_envelopes) ... FAIL
+
+======================================================================
+FAIL: test_visual_mass_centres_lie_inside_their_component_envelopes (test_hunter_full_model.HunterFullModelTests.test_visual_mass_centres_lie_inside_their_component_envelopes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 273, in test_visual_mass_centres_lie_inside_their_component_envelopes
+    self.assertGreaterEqual(centre[axis], envelope["min"][axis] - 1e-6,
+AssertionError: 0.0 not greater than or equal to 0.7440089716186523 : front_steer_bar_link mass centre lies outside its own geometry
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.515s
+
+FAILED (failures=1)

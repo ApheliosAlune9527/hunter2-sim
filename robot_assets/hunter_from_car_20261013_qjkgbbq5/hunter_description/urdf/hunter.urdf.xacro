@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<robot name="hunter" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find hunter_description)/urdf/common_properties.xacro"/>
+  <xacro:include filename="$(find hunter_description)/urdf/assembly.urdf.xacro"/>
+  <xacro:property name="M_PI" value="3.14159265359"/>
+
+  <link name="base_link"/>
+
+  <joint name="hunter_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="hunter_link"/>
+    <origin xyz="0 0 0.105" rpy="0 0 0"/>
+  </joint>
+
+  <link name="hunter_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://hunter_description/meshes/hunter_2_0.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="White"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://hunter_description/meshes/hunter_2_0.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <xacro:assembly parent="hunter_link" color="White" >
+    <origin xyz="0.214 0 0.265" rpy="0 0 0"/>
+  </xacro:assembly>
+
+  <joint name="piper_plate_joint" type="fixed">
+    <parent link="hunter_link"/>
+    <child link="piper_plate_link"/>
+    <origin xyz="-0.315 0 0.265" rpy="0 0 0"/>
+  </joint>
+
+  <link name="piper_plate_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://hunter_description/meshes/PiPER_plate.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="Black"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://hunter_description/meshes/PiPER_plate.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="piper_joint" type="fixed">
+    <parent link="piper_plate_link"/>
+    <child link="piper_link"/>
+    <origin xyz="-0.025 0 0.0065" rpy="0 0 0"/>
+  </joint>
+
+  <link name="piper_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="${M_PI/2} 0 ${M_PI/2}"/>
+      <geometry>
+        <mesh filename="package://hunter_description/meshes/PIPER.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="Black"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="${M_PI/2} 0 ${M_PI/2}"/>
+      <geometry>
+        <mesh filename="package://hunter_description/meshes/PIPER.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- <xacro:piper parent="hunter_link" color="White" >
+    <origin xyz="0.214 0 0.265" rpy="0 0 0"/>
+  </xacro:piper> -->
+
+</robot>

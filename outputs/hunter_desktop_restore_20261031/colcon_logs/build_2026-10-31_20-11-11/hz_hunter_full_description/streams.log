@@ -1,0 +1,60 @@
+[0.020s] Invoking command in '/home/aphelios/hz_sim_ws/build/hz_hunter_full_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aphelios/hz_sim_ws/src/hz_hunter_full_description -DCMAKE_INSTALL_PREFIX=/home/aphelios/hz_sim_ws/install/hz_hunter_full_description
+[0.217s] -- The C compiler identification is GNU 11.4.0
+[0.770s] -- The CXX compiler identification is GNU 11.4.0
+[1.224s] -- Detecting C compiler ABI info
+[1.367s] -- Detecting C compiler ABI info - done
+[1.371s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.372s] -- Detecting C compile features
+[1.374s] -- Detecting C compile features - done
+[1.375s] -- Detecting CXX compiler ABI info
+[1.521s] -- Detecting CXX compiler ABI info - done
+[1.524s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.526s] -- Detecting CXX compile features
+[1.527s] -- Detecting CXX compile features - done
+[1.530s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.624s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.734s] -- Configuring done
+[1.739s] -- Generating done
+[1.741s] -- Build files have been written to: /home/aphelios/hz_sim_ws/build/hz_hunter_full_description
+[1.743s] Invoked command in '/home/aphelios/hz_sim_ws/build/hz_hunter_full_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aphelios/hz_sim_ws/src/hz_hunter_full_description -DCMAKE_INSTALL_PREFIX=/home/aphelios/hz_sim_ws/install/hz_hunter_full_description
+[1.745s] Invoking command in '/home/aphelios/hz_sim_ws/build/hz_hunter_full_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aphelios/hz_sim_ws/build/hz_hunter_full_description -- -j16 -l16
+[1.766s] Invoked command in '/home/aphelios/hz_sim_ws/build/hz_hunter_full_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aphelios/hz_sim_ws/build/hz_hunter_full_description -- -j16 -l16
+[1.770s] Invoking command in '/home/aphelios/hz_sim_ws/build/hz_hunter_full_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aphelios/hz_sim_ws/build/hz_hunter_full_description
+[1.775s] -- Install configuration: ""
+[1.776s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/urdf
+[1.778s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/urdf/hunter_full.urdf
+[1.779s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes
+[1.780s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis
+[1.782s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/front_steer_bar_link.stl
+[1.783s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/rear_axle_detail_link.stl
+[1.784s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/rear_right_wheel_link.stl
+[1.786s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/base_link.stl
+[1.787s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/rear_left_wheel_link.stl
+[1.788s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/front_right_wheel_link.stl
+[1.790s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/front_left_wheel_link.stl
+[1.791s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/upfit
+[1.792s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/upfit/XT32.STL
+[1.794s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/upfit/G60.STL
+[1.795s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/upfit/ARS548.STL
+[1.855s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/upfit/d435.dae
+[1.875s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/upfit/assembly.STL
+[1.880s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/source_manifest.json
+[1.881s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/geometry_report.json
+[1.883s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/README.md
+[1.884s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/SOURCE_NOTICE.md
+[1.886s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/ament_index/resource_index/package_run_dependencies/hz_hunter_full_description
+[1.887s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/ament_index/resource_index/parent_prefix_path/hz_hunter_full_description
+[1.889s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/environment/ament_prefix_path.sh
+[1.890s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/environment/ament_prefix_path.dsv
+[1.892s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/environment/path.sh
+[1.894s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/environment/path.dsv
+[1.895s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/local_setup.bash
+[1.896s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/local_setup.sh
+[1.898s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/local_setup.zsh
+[1.900s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/local_setup.dsv
+[1.901s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/package.dsv
+[1.903s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/ament_index/resource_index/packages/hz_hunter_full_description
+[1.905s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/cmake/hz_hunter_full_descriptionConfig.cmake
+[1.906s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/cmake/hz_hunter_full_descriptionConfig-version.cmake
+[1.908s] -- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/package.xml
+[1.909s] Invoked command in '/home/aphelios/hz_sim_ws/build/hz_hunter_full_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aphelios/hz_sim_ws/build/hz_hunter_full_description

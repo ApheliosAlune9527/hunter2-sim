@@ -1,0 +1,5 @@
+已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / NVIDIA。
+1791895868.916222 [73]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+通过：个人 ROS 域 73，CycloneDDS 实际选择 127.0.0.1。
+检查节点已退出；未发布运动指令，未启动底盘驱动。
+记录：/home/aphelios/hz_sim_ws/reports/ros_isolation_latest.json

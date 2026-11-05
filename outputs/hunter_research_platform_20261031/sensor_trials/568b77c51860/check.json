@@ -1,0 +1,238 @@
+{
+  "ok": true,
+  "all_models_static": true,
+  "robot_control_plugins": [],
+  "velocity_published": false,
+  "partition": "hz_sim_aphelios_74_full_static_568b77c51860",
+  "ros_domain": "74",
+  "report_directory": "/mnt/d/rob-memory/outputs/hunter_research_platform_20261031/sensor_trials/568b77c51860",
+  "diagnostic_gravity_m_s2": [
+    1.2,
+    -0.7,
+    -9.81
+  ],
+  "hardware_driver_started": false,
+  "native_exit_code": 0,
+  "ros_exit_code": 0,
+  "native": {
+    "ok": true,
+    "lidar": {
+      "count": 2,
+      "bytes": 0,
+      "width": 23040,
+      "height": 0,
+      "finite": 10683,
+      "stamp_ns": 100000000,
+      "frame": "hz_sim/full/hesai_lidar"
+    },
+    "points": {
+      "count": 2,
+      "bytes": 737280,
+      "width": 720,
+      "height": 32,
+      "finite": 0,
+      "stamp_ns": 100000000,
+      "frame": "hz_sim/full/hesai_lidar"
+    },
+    "rgb": {
+      "count": 2,
+      "bytes": 921600,
+      "width": 640,
+      "height": 480,
+      "finite": 0,
+      "stamp_ns": 200000000,
+      "frame": "hz_sim/full/camera_optical_frame"
+    },
+    "depth": {
+      "count": 2,
+      "bytes": 1228800,
+      "width": 640,
+      "height": 480,
+      "finite": 0,
+      "stamp_ns": 200000000,
+      "frame": "hz_sim/full/camera_optical_frame"
+    },
+    "imu": {
+      "count": 21,
+      "bytes": 0,
+      "width": 0,
+      "height": 0,
+      "finite": 0,
+      "stamp_ns": 200000000,
+      "frame": "hz_sim/full/imu_link"
+    }
+  },
+  "ros": {
+    "ok": true,
+    "motion_published": false,
+    "samples": {
+      "clock": {
+        "count": 988,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 990000000
+      },
+      "imu": {
+        "count": 100,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 990000000,
+        "frame": "hz_sim/full/imu_link",
+        "rate_sim_hz": 100.20242914979757,
+        "rate_wall_hz": 13.806414798028438,
+        "min_interval_sim_ns": 8000000,
+        "max_interval_sim_ns": 10000000,
+        "acceleration_m_s2": [
+          0.7000000000001241,
+          1.1999999999999276,
+          9.81
+        ],
+        "angular_velocity_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "camera_info": {
+        "count": 5,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 800000000,
+        "frame": "hz_sim/full/camera_optical_frame",
+        "fx": 606.7595825195312,
+        "fy": 606.7595825195312,
+        "cx": 320.0,
+        "cy": 240.0
+      },
+      "depth": {
+        "count": 5,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 800000000,
+        "frame": "hz_sim/full/camera_optical_frame",
+        "width": 640,
+        "height": 480,
+        "encoding": "32FC1",
+        "finite_ranges": 165590,
+        "bytes": 1228800
+      },
+      "rgb": {
+        "count": 5,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 800000000,
+        "frame": "hz_sim/full/camera_optical_frame",
+        "width": 640,
+        "height": 480,
+        "encoding": "rgb8",
+        "bytes": 921600
+      },
+      "points": {
+        "count": 10,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 900000000,
+        "frame": "hz_sim/full/hesai_lidar",
+        "width": 720,
+        "height": 32,
+        "finite_points": 10683,
+        "bytes": 737280
+      },
+      "scan": {
+        "count": 10,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 900000000,
+        "frame": "hz_sim/full/base_link",
+        "bins": 720,
+        "finite_ranges": 87
+      }
+    },
+    "transforms_from_base_link": {
+      "hesai_lidar": {
+        "xyz_m": [
+          0.539,
+          0.0,
+          0.5249999999999999
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.7071067811865841,
+          0.7071067811865109
+        ]
+      },
+      "camera_optical_frame": {
+        "xyz_m": [
+          0.6439999999999984,
+          0.015000000000010859,
+          0.475
+        ],
+        "quaternion_xyzw": [
+          -0.4999999999988536,
+          0.4999999999986984,
+          -0.5000000000011466,
+          0.5000000000013016
+        ]
+      },
+      "imu_link": {
+        "xyz_m": [
+          0.5390000000000114,
+          -0.11,
+          0.46299999999999997
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.7071067811865841,
+          0.7071067811865109
+        ]
+      }
+    },
+    "mapping_relationships": {
+      "imu_from_lidar": {
+        "translation_m": [
+          0.11,
+          0.0,
+          0.062
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "camera_from_lidar": {
+        "translation_m": [
+          0.014999999999978282,
+          -0.050000000000514154,
+          -0.10499999999975827
+        ],
+        "rotation": [
+          [
+            -1.0,
+            -2.0682310711021442e-13,
+            2.524354896707238e-29
+          ],
+          [
+            1.0127206974610097e-24,
+            -4.8965276278067904e-12,
+            -1.0
+          ],
+          [
+            2.0682310711021442e-13,
+            -1.0,
+            4.896638650109253e-12
+          ]
+        ]
+      }
+    },
+    "ros_command_publishers": 0
+  },
+  "owned_processes_closed": true
+}

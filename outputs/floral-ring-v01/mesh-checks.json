@@ -1,0 +1,40 @@
+{
+  "status": "shape-study; not a casting production approval",
+  "units_for_stl": "mm",
+  "nominal_inner_diameter_mm": 17.0,
+  "watertight": true,
+  "consistent_winding": true,
+  "positive_volume": true,
+  "connected_components": 1,
+  "filled_enclosed_microvoids": 2,
+  "vertices": 44205,
+  "triangles": 88414,
+  "volume_mm3": 602.882,
+  "approximate_silver_weight_g_at_10_3_g_cm3": 6.21,
+  "bounds_mm": [
+    [
+      -10.417,
+      -6.887,
+      -10.15
+    ],
+    [
+      10.417,
+      4.648,
+      20.152
+    ]
+  ],
+  "overall_dimensions_mm": [
+    20.834,
+    11.535,
+    30.302
+  ],
+  "minimum_surface_vertex_radial_distance_mm": 8.5,
+  "manufacturing_checks_pending": [
+    "final wearer size",
+    "casting-house wall/clearance review",
+    "support placement",
+    "shrinkage allowance",
+    "finishing allowance",
+    "physical comfort and snagging review"
+  ]
+}

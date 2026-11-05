@@ -1,0 +1,11 @@
+已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / NVIDIA。
+sim_time {
+}
+real_time {
+}
+paused: true
+
+Service providers [Address, Request Message Type, Response Message Type]:
+  tcp://127.0.0.1:46709, ignition.msgs.WorldControl, ignition.msgs.Boolean
+11.4.2
+/usr/bin/g++

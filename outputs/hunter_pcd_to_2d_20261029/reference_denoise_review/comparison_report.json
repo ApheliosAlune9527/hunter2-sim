@@ -1,0 +1,29 @@
+{
+  "scope": "Offline diagnostic only; not running or modifying the full converter main; no new PGM/YAML or robot operation.",
+  "source": "F:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_nav_bringup_scripts\\pcd_to_2d_occupancy_denoise.py",
+  "source_car_paste_matches_reference": true,
+  "source_signature": {
+    "bytes": 5639,
+    "mtime_ns": 1789831952000601400,
+    "sha256": "ae1a07dbdbeb4289fe0faa957d40f3de7cc8a613f2d116bea13e184840b8deaf"
+  },
+  "functions_used_unchanged": [
+    "remove_small_components(occ,8)",
+    "dilate_occ(occ,0)"
+  ],
+  "min_hits": 2,
+  "input": "Original ground-evidence candidate obstacle hit counts, 0.10..1.50m from fitted floor, 0.05m XY grid.",
+  "occupied_before": 24731,
+  "occupied_after_hit_threshold": 21887,
+  "occupied_after_default_component_filter": 21507,
+  "removed_occupied_cells": 3224,
+  "removed_cells_reclassified": "unknown only, never free",
+  "original_candidate_free_cells_unchanged": true,
+  "input_signatures_unchanged": true,
+  "limitations": [
+    "Filtering small clusters cannot generally merge thick or displaced walls.",
+    "Removed clusters are not ground-truth-confirmed noise; real small obstacles may also be removed.",
+    "The complete car script still initializes every other cell as free and does not perform height filtering.",
+    "No native ROS map loading, localization, or motion test."
+  ]
+}

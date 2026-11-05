@@ -1,0 +1,20 @@
+{
+  "world": "hz_hunter_control",
+  "gui_engine": "ogre",
+  "physics_play_requested": false,
+  "velocity_published": false,
+  "paused_stat_received": true,
+  "screenshot_request_returncode": 0,
+  "screenshot_created": true,
+  "screenshot": "/mnt/f/rob-memory/outputs/hunter_sim_execution_20261012/references/render_checks/8c8acbfb1a/render.png",
+  "alive_at_check_end": true,
+  "owned_launcher_exit_code": 0,
+  "owned_test_process_closed": true,
+  "controller_subscription_logged": true,
+  "ogre_renderer_load_logged": true,
+  "report_directory": "/mnt/f/rob-memory/outputs/hunter_sim_execution_20261012/references/render_checks/8c8acbfb1a",
+  "ansi_stripped_parser_correction": true,
+  "screenshot_visually_checked": "grid_and_hz_hunter_core_visible",
+  "renderer_from_ogre_log": "D3D12 (NVIDIA GeForce RTX 3050 Laptop GPU)",
+  "simulation_time_snapshot_s": 0
+}

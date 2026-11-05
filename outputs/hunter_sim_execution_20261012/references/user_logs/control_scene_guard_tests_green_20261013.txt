@@ -1,0 +1,12 @@
+test_accepts_the_personal_scene (test_control_scene.ControlSceneChecks) ... ok
+test_launcher_rejects_run_flags_and_other_worlds (test_control_scene.ControlSceneChecks) ... ok
+test_offline_launcher_only_checks_files (test_control_scene.ControlSceneChecks) ... ok
+test_rejects_changed_limits_and_geometry (test_control_scene.ControlSceneChecks) ... ok
+test_rejects_default_or_shared_topics (test_control_scene.ControlSceneChecks) ... ok
+test_rejects_extra_plugins_and_external_models (test_control_scene.ControlSceneChecks) ... ok
+test_rejects_wrong_or_duplicate_joint_references (test_control_scene.ControlSceneChecks) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.889s
+
+OK

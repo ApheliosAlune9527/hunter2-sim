@@ -1,0 +1,17 @@
+test_ambiguous_or_remote_service_is_refused (test_straight_trial.StraightTrialChecks) ... ok
+test_check_mode_does_not_publish_or_advance (test_straight_trial.StraightTrialChecks) ... ok
+test_step_timeout_is_not_retried_and_triggers_stop_and_pause (test_straight_trial.StraightTrialChecks) ... ok
+test_stop_failure_still_attempts_to_pause (test_straight_trial.StraightTrialChecks) ... ok
+test_success_uses_only_the_fixed_steps_and_clears_then_pauses (test_straight_trial.StraightTrialChecks) ... ok
+test_unpaused_world_is_refused_before_any_motion (test_straight_trial.StraightTrialChecks) ... ok
+test_wrong_topic_and_physics_step_are_refused (test_straight_trial.StraightTrialChecks) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.027s
+
+OK
+已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / NVIDIA。
+{"world": "hz_hunter_control", "command_topic": "/hz_sim/cmd_vel", "odom_topic": "/hz_sim/odom", "tf_topic": "/hz_sim/tf", "minimum_turning_radius_m": 1.669156096106059, "maximum_inner_steering_rad": 0.44394872512048306, "maximum_rear_wheel_speed_rad_s": 2.1476896462891375, "ros_bridge": false, "hardware_driver": false, "gui_render_engine": "ogre"}
+记录：/home/aphelios/hz_sim_ws/reports/straight_20261014_113303_d471cf61/check.json
+测试前检查未通过，未发送速度：World service is missing or ambiguous
+请先打开个人Gazebo控制场景并保持暂停，再回传结果。

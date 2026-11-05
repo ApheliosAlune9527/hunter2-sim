@@ -1,0 +1,37 @@
+{
+  "format": "hz_map_archive_verification_v1",
+  "local_hash_checked_on": "2026-10-13",
+  "status": "matched_robot_and_export_records",
+  "selected_map_run": null,
+  "archives": [
+    {
+      "run_name": "lab_20261011_141011_768151",
+      "local_path": "F:/rob-memory/maps/lab_20261011/lab_20261011_141011_768151.tar.gz",
+      "robot_path": "/home/car/hz_ws/maps/lab_20261011_141011_768151.tar.gz",
+      "local_size_bytes": 95092096,
+      "robot_reported_size_bytes": 95092096,
+      "local_sha256": "a038d3e2afd8432abafe0e9f339e1c1c6953b9acc247b7e3818b08b97399c6d6",
+      "robot_sha256": "a038d3e2afd8432abafe0e9f339e1c1c6953b9acc247b7e3818b08b97399c6d6",
+      "hashes_match": true,
+      "export_record_path": "/home/car/hz_ws/maps/lab_20261011_155236_369289/previous_export.json",
+      "total_points": 6607960,
+      "pcd_files": 5274
+    },
+    {
+      "run_name": "lab_20261011_155236_369289",
+      "local_path": "F:/rob-memory/maps/lab_20261011/lab_20261011_155236_369289.tar.gz",
+      "robot_path": "/home/car/hz_ws/maps/lab_20261011_155236_369289.tar.gz",
+      "local_size_bytes": 236216255,
+      "robot_reported_size_bytes": 236216255,
+      "local_sha256": "29a7d050865948dfb2387c86b2292310162983891269d45e44d1dd7faf6dc434",
+      "robot_sha256": "29a7d050865948dfb2387c86b2292310162983891269d45e44d1dd7faf6dc434",
+      "hashes_match": true,
+      "export_record_path": "/home/car/hz_ws/maps/lab_20261011_163220_590621/previous_export.json",
+      "total_points": 16290495,
+      "pcd_files": 5245
+    }
+  ],
+  "baseline_candidate_map_run": "lab_20261011_155236_369289",
+  "reported_active_session_run_dir": "/home/car/hz_ws/maps/lab_20261013_122621_218871",
+  "active_session_export_verified": false
+}

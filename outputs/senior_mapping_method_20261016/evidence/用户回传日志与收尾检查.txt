@@ -1,0 +1,88 @@
+来源：用户在本聊天中实际回传的终端输出。此文件按主题摘录，并非整段原始终端录屏或当年原始日志文件的下载件。
+整理日期：2026-10-16。小车 car-NUC15JNKU7X4，Ubuntu / ROS 2 Humble。
+
+【目标地图完整元数据，用户 nl -ba 复查】
+image: lab_odom_06.pgm
+mode: trinary
+resolution: 0.05
+origin: [-1.31, -15.4, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.25
+
+【map_saver_cli_51439_1790088651853.log，用户 cat 回传】
+[INFO] [1790088651.991128178] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1790088651.991239985] [map_saver]: Creating
+[INFO] [1790088651.991292455] [map_saver]: Configuring
+[INFO] [1790088651.994410612] [map_saver]: Saving map from 'map' topic to '/home/car/hunter_nav_odom_ws/src/hunter_nav_odom/maps/lab_odom_06' file
+[WARN] [1790088651.994443055] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1790088651.994450830] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [1790088652.014714390] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [1790088652.015168752] [map_io]: Received a 287 X 469 map @ 0.05 m/pix
+[INFO] [1790088652.052143620] [map_io]: Writing map occupancy data to /home/car/hunter_nav_odom_ws/src/hunter_nav_odom/maps/lab_odom_06.pgm
+[INFO] [1790088652.052710815] [map_io]: Writing map metadata to /home/car/hunter_nav_odom_ws/src/hunter_nav_odom/maps/lab_odom_06.yaml
+[INFO] [1790088652.052783161] [map_io]: Map saved
+[INFO] [1790088652.052788369] [map_saver]: Map saved successfully
+[INFO] [1790088652.053127660] [map_saver]: Destroying
+
+【async_slam_toolbox_node_50809_1790088264908.log，用户 cat 回传】
+[INFO] [1790088265.037801741] [slam_toolbox]: Node using stack size 40000000
+[INFO] [1790088265.179077264] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[INFO] [1790088265.179175657] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[WARN] [1790088265.367162756] [slam_toolbox]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.5 m)
+[INFO] [1790088360.089670073] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+
+【async_slam_toolbox_node_50875_1790088361418.log，用户 cat 回传】
+[INFO] [1790088361.539098212] [slam_toolbox]: Node using stack size 40000000
+[INFO] [1790088361.674710585] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[INFO] [1790088361.674826071] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[WARN] [1790088361.869090817] [slam_toolbox]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.5 m)
+[INFO] [1790088483.848595019] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+
+【async_slam_toolbox_node_50995_1790088501442.log，用户 cat 回传】
+[INFO] [1790088501.562234867] [slam_toolbox]: Node using stack size 40000000
+[INFO] [1790088501.690052326] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[INFO] [1790088501.690441308] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[WARN] [1790088501.871744347] [slam_toolbox]: minimum laser range setting (0.0 m) exceeds the capabilities of the used Lidar (0.5 m)
+
+【pointcloud_to_laserscan_node_49978_1790088152701.log，用户 sed 回传】
+[INFO] [1790088265.171260311] [pointcloud_to_laserscan]: Got a subscriber to laserscan, starting pointcloud subscriber
+[INFO] [1790088360.111266781] [pointcloud_to_laserscan]: No subscribers to laserscan, shutting down pointcloud subscriber
+[INFO] [1790088361.714053891] [pointcloud_to_laserscan]: Got a subscriber to laserscan, starting pointcloud subscriber
+[INFO] [1790088483.890370174] [pointcloud_to_laserscan]: No subscribers to laserscan, shutting down pointcloud subscriber
+[INFO] [1790088501.738578454] [pointcloud_to_laserscan]: Got a subscriber to laserscan, starting pointcloud subscriber
+[WARN] [1790088696.038078987] [pointcloud_to_laserscan]: New subscription discovered on topic '/scan', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[INFO] [1790088941.631699684] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+
+【历史扫描转换命令】
+用户从 .bash_history 行 938、1622、1933 回传同一命令。没有附对应执行时间，不能当作 9 月 22 日逐字启动快照。以下只是历史记录，本次未执行：
+ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r cloud_in:=/lidar_points_direct -r scan:=/scan -p target_frame:=base_link -p transform_tolerance:=0.1 -p min_height:=0.10 -p max_height:=0.85 -p angle_min:=-3.14159 -p angle_max:=3.14159 -p angle_increment:=0.00872665 -p scan_time:=0.10 -p range_min:=0.50 -p range_max:=20.0 -p use_inf:=true
+
+【首轮历史文件搜索结果】
+搜索 /home/car/hunter_nav_odom_ws、/home/car/nav2_ws、/home/car/.ros、/tmp 中常见图/录包/临时参数文件，只返回：
+2026-10-16 16:13        2400  /tmp/launch_params_h90lcdm8
+2026-10-16 16:13          38  /tmp/launch_params_ib2i8ykn
+本轮未读取其内容，文件日期不能证明 9 月 22 日配置。
+
+【全 home 搜索与历史】
+原始回传完整另存 车端home搜索与命令历史_用户原始附件.txt。408 个文件命中均为 Anaconda 测试数据，未返回目标位姿图、录包和匹配的轨迹文件。历史命中只见进程检查和本轮读取文件的命令，没有当晚 SLAM 运行命令。
+
+【最后一轮检查：用户原始输出】
+car@car-NUC15JNKU7X4:~/桌面$ find /home/car -maxdepth 3 -type f \
+  \( -name '*bash_history*' -o -name '*zsh_history*' \) \
+  -printf '%TY-%Tm-%Td %TH:%TM  %10s  %p\n' 2>/dev/null | sort
+2026-10-16 19:14      109498  /home/car/.bash_history
+car@car-NUC15JNKU7X4:~/桌面$ grep -rInE --binary-files=without-match \
+  'slam_toolbox|mapper_params_online|slam_params_file|serialize_map' \
+  /home/car/hunter_nav_odom_ws/src \
+  /home/car/nav2_ws/scripts \
+  /home/car/nav2_ws/src \
+  /home/car/robot_bringup_ws/src \
+  /home/car/桌面 /home/car/.bashrc \
+  2>/dev/null | head -n 80
+/home/car/hunter_nav_odom_ws/src/hunter_nav_odom/config/mapper_params_online_sync.yaml:1:slam_toolbox:
+/home/car/hunter_nav_odom_ws/src/hunter_nav_odom/config/mapper_params_online_sync.yaml.bak_before_maprate:1:slam_toolbox:
+/home/car/nav2_ws/src/xt32_nav_bringup/config/slam_toolbox_online.yaml:1:slam_toolbox:

@@ -1,0 +1,78 @@
+{
+  "reported_on": "2026-10-19",
+  "artifact": "F:/rob-memory/outputs/hz_nav_preparation_20261018/03_base_odom.launch.py",
+  "car_destination": "/home/car/hz_nav_ws/launch/03_base_odom.launch.py",
+  "sha256": "440280204bf1215775cce1ba2e834e7a4eed1fdd18da413795c6843be4a49b53",
+  "bytes": 2800,
+  "static_validation": {
+    "python_syntax": "pass",
+    "configuration_contract": "pass",
+    "node_count": 1,
+    "package": "hunter_base",
+    "executable": "hunter_base_node",
+    "namespace": "/hz_nav",
+    "condition": "IfCondition(connect_chassis)",
+    "connect_chassis_default": "false",
+    "allowed_argument_values": ["false", "true"],
+    "expected_package_prefix": "/home/car/hunter2.0_ws/install/hunter_base",
+    "odom_topic": "/hz_nav/odom",
+    "odom_frame": "odom",
+    "base_frame": "base_link",
+    "publish_odom_tf": true,
+    "simulated_robot": false,
+    "velocity_remap": ["/cmd_vel", "/hz_nav/blocked_cmd_vel"],
+    "status_remap": ["/hunter_status", "/hz_nav/hunter_status"],
+    "tf_remapping": "none; preserve global /tf and /tf_static",
+    "external_launch_or_shell": "none"
+  },
+  "driver_evidence": {
+    "source_attachment": "C:/Users/Aphelios/.codex/attachments/d291f7eb-dd9d-480b-99e3-78a3a4515624/已粘贴的文本.txt",
+    "hunter_base_ros_cpp_sha256": "a921409877e33403dceae4da6e07c40cef091a207740096cde7cd60f13691063",
+    "hunter_messenger_hpp_sha256": "544c06aa29477986a17567c58982b06a5f869c482a88520d47a4cec5fea25fc2",
+    "observed_logic": "Connect followed by EnableCommandedMode; current source has no explicit ReleaseBrake call. Absolute /cmd_vel subscription; configurable odometry topic and TF publication.",
+    "limitation": "Source inspection does not prove installed binary equivalence, live brake state, or actual feedback validity."
+  },
+  "car_evidence": {
+    "reported_on": "2026-10-19",
+    "sha256": "440280204bf1215775cce1ba2e834e7a4eed1fdd18da413795c6843be4a49b53",
+    "hash_matches_artifact": true,
+    "ros_show_args": "pass",
+    "argument": "connect_chassis",
+    "default": "false",
+    "choices": ["false", "true"],
+    "scope": "Parameter parsing only; driver not started or connected.",
+    "can_interface_snapshot": {
+      "name": "can0",
+      "flags": ["NOARP", "UP", "LOWER_UP", "ECHO"],
+      "link_state": "UP",
+      "controller_state": "ERROR-ACTIVE",
+      "bitrate": 500000,
+      "sample_point": 0.875,
+      "bus_errors": 0,
+      "bus_off": 0,
+      "rx_bytes": 110768784,
+      "rx_packets": 13880431,
+      "rx_errors": 0,
+      "rx_dropped": 13880431,
+      "tx_bytes": 0,
+      "tx_packets": 0,
+      "tx_errors": 0,
+      "interpretation": "Interface state and cumulative counters only. RX dropped means received but not processed; equality to RX packets has not been explained. Actual chassis feedback and command-mode behavior remain untested."
+    },
+    "isolated_topic_discovery": {
+      "topic": "/hz_nav/blocked_cmd_vel",
+      "method": "ros2 topic info -v --no-daemon --spin-time 5 in domain 88/Fast DDS",
+      "result": "Unknown topic",
+      "scope": "No endpoint discovered for this topic in that window; not a guarantee about future publishers."
+    }
+  },
+  "preparation_only": {
+    "ros_parameter_parsing_on_car": "pass",
+    "car_transfer_hash": "pass",
+    "can_interface_read_only_status": "snapshot received; UP, 500000 bit/s, ERROR-ACTIVE; functional chassis communication not validated",
+    "isolated_velocity_topic_publisher_count": "topic not discovered during five-second query; no numeric endpoint count returned",
+    "human_approval_and_onsite_supervision": "User explicitly remains remote with nobody onsite; keep hardware disconnected. Presence answer does not authorize startup.",
+    "hardware_runtime": "not executed",
+    "important": "Velocity remapping is ROS wiring isolation. Enabling the driver still changes hardware command mode; it is not a read-only chassis driver or a physical safety interlock."
+  }
+}

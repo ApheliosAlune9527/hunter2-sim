@@ -1,0 +1,15 @@
+{
+  "issue": "Receipt write errors could skip owned process-group cleanup",
+  "red_tests": 23,
+  "red_failures": 3,
+  "green_tests": 24,
+  "green_failures": 0,
+  "fix": "Always clean owned process groups before final receipt persistence; handle final write failure with exit 1 and explicit stderr message",
+  "changed_files": [
+    "sim/tools/full_scene_session.py",
+    "sim/tools/test_full_entry.py",
+    "sim/tools/hunter_full_entry_manifest.json"
+  ],
+  "entry_manifest_sha256": "dd4eec6f9e9d3299ab7c40fba3c46e9b77d58d7e2a412d5da40ff11418052840",
+  "runtime_verified_by_this_agent": false
+}

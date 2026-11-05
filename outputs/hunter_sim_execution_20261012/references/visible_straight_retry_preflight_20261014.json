@@ -1,0 +1,16 @@
+{
+  "mode": "check",
+  "preflight_passed": true,
+  "paused": true,
+  "sim_time": {
+    "sec": "0",
+    "nsec": 0
+  },
+  "publishers": 0,
+  "velocity_published": false,
+  "current_server_uuid": "aa5daf82-4808-444f-819e-0d55173ddc2b",
+  "previous_failed_server_uuid": "5e319216-dca4-4446-875b-3564c261591f",
+  "current_server_is_fresh": true,
+  "ready_for_authorized_visible_straight": true,
+  "report_path": "/home/aphelios/hz_sim_ws/reports/straight_20261014_133421_c28a9b84/check.json"
+}

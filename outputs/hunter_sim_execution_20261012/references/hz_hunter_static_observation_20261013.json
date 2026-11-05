@@ -1,0 +1,19 @@
+{
+  "format": "hz_hunter_static_observation_v1",
+  "date_local": "2026-10-13",
+  "world": "hz_hunter_preview",
+  "user_feedback_original": "没有穿模 飘逸 翻倒 问题",
+  "user_feedback_interpreted": "用户观察未见穿模、漂移或翻倒",
+  "result": "qualitative_observation_passed",
+  "screenshot": {
+    "path": "F:/rob-memory/outputs/hunter_sim_execution_20261012/references/gazebo_static_observation_2d5b3dc0_20261013.png",
+    "bytes": 33873,
+    "sha256": "7709da057467c524e7d049599f50be3fe2852c0dbc17489e4757b6131a791bf4",
+    "source_copy_matches": true
+  },
+  "exact_simulation_duration_measured": false,
+  "drift_distance_measured": false,
+  "attitude_change_measured": false,
+  "dynamics_calibrated": false,
+  "real_robot_motion_authorized": false
+}

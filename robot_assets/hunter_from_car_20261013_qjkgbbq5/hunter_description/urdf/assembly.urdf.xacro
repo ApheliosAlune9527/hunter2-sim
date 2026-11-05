@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find realsense2_description)/urdf/_d435i.urdf.xacro"/>
+
+  <xacro:macro name="assembly" params="parent color *origin">
+    <joint name="assembly_joint" type="fixed">
+      <xacro:insert_block name="origin"/>
+      <parent link="${parent}"/>
+      <child link="assembly_link"/>
+    </joint>
+
+    <link name="assembly_link">
+      <visual>
+        <origin xyz="0 -0.115 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hunter_description/meshes/assembly.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="${color}"/>
+      </visual>
+      <collision>
+        <origin xyz="0 -0.115 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hunter_description/meshes/assembly.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="ars548_joint" type="fixed">
+      <parent link="assembly_link"/>
+      <child link="ars548_link"/>
+      <origin xyz="0.13815 0 0.16" rpy="0 0 0"/>
+    </joint>
+
+    <link name="ars548_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hunter_description/meshes/ARS548.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="FlatBlack"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hunter_description/meshes/ARS548.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="gnss_joint" type="fixed">
+      <parent link="assembly_link"/>
+      <child link="gnss_link"/>
+      <origin xyz="-0.074 0 0.291" rpy="0 0 0"/>
+    </joint>
+
+    <link name="gnss_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hunter_description/meshes/G60.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="FlatBlack"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://hunter_description/meshes/G60.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="lidar_joint" type="fixed">
+      <parent link="assembly_link"/>
+      <child link="hesai_lidar"/>
+      <origin xyz="0 0 0.32" rpy="0 0 ${M_PI/2}"/>
+    </joint>
+
+    <link name="hesai_lidar">
+      <visual>
+        <origin xyz="0 0 0" rpy="${M_PI/2} 0 ${M_PI/2}"/>
+        <geometry>
+          <mesh filename="package://hunter_description/meshes/XT32.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="DarkGrey"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="${M_PI/2} 0 ${M_PI/2}"/>
+        <geometry>
+          <mesh filename="package://hunter_description/meshes/XT32.STL" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <xacro:sensor_d435i parent="assembly_link">
+      <origin xyz="0.10805 0 0.2635" rpy="0 0 0"/>
+    </xacro:sensor_d435i>
+
+  </xacro:macro>
+
+</robot>

@@ -1,0 +1,35 @@
+{
+  "map": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\lab_odom_06_new.pgm",
+  "origin": [
+    -5.09,
+    -4.89,
+    0.0
+  ],
+  "resolution": 0.05,
+  "candidates": [
+    {
+      "row": 358,
+      "col": 132,
+      "x_m": 1.535,
+      "y_m": 0.435,
+      "clearance_m": 2.25,
+      "label": "A"
+    },
+    {
+      "row": 332,
+      "col": 124,
+      "x_m": 1.135,
+      "y_m": 1.735,
+      "clearance_m": 1.85,
+      "label": "B"
+    },
+    {
+      "row": 373,
+      "col": 117,
+      "x_m": 0.785,
+      "y_m": -0.315,
+      "clearance_m": 1.55,
+      "label": "C"
+    }
+  ]
+}

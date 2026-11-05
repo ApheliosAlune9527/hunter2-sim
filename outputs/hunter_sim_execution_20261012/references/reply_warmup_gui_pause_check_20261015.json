@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "operation": "pause",
+  "velocity_published": false,
+  "steps_requested": 0,
+  "user_world_iterations_before": 2000,
+  "result": {
+    "ok": true,
+    "rpc_warmup_completed": true,
+    "rpc_warmup_attempts": 1,
+    "stats": {
+      "sim_time": {
+        "sec": "2",
+        "nsec": 0
+      },
+      "real_time": {
+        "sec": "2",
+        "nsec": 524576739
+      },
+      "paused": true,
+      "iterations": "2000",
+      "model_count": 0,
+      "real_time_factor": 0.9998
+    }
+  },
+  "motion_journal_preserved": true,
+  "stdout": "{\"ok\":true,\"rpc_warmup_completed\":true,\"rpc_warmup_attempts\":1,\"stats\":{\"sim_time\":{\"sec\":\"2\",\"nsec\":0},\"real_time\":{\"sec\":\"2\",\"nsec\":524576739},\"paused\":true,\"iterations\":\"2000\",\"model_count\":0,\"real_time_factor\":0.9998}}\n",
+  "wsl_notice": "wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理。\r\n"
+}

@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "updated_package_files": [
+    "geometry_report.json",
+    "README.md",
+    "urdf/hunter_full.urdf",
+    "source_manifest.json"
+  ],
+  "build_exit_code": 0,
+  "sdf_check_output": "Valid.",
+  "physical_links": 7,
+  "active_joints": 6,
+  "simulator_started": false,
+  "hardware_driver_started": false,
+  "velocity_published": false
+}

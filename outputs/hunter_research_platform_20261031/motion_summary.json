@@ -1,0 +1,342 @@
+{
+  "assessment_version": 2,
+  "trials": [
+    {
+      "run": "20261031_202907_straight_851ac49554b0",
+      "profile": "straight",
+      "raw_record_passed": true,
+      "assessment_v2": {
+        "checks": {
+          "forward_displacement": true,
+          "finite_pose": true,
+          "upright_height": true,
+          "brake": true,
+          "odom_distance_consistent": true,
+          "wheel_rotation": true,
+          "steering_limits": true,
+          "odom_yaw_consistent": true,
+          "direction": true
+        },
+        "passed": true,
+        "forward_m": 0.5749499886299618,
+        "lateral_m": 1.600045078127143e-10,
+        "yaw_change_rad": 5.6145903092342e-10,
+        "odom_yaw_change_rad": 5.624429547940814e-10,
+        "steering_angles_rad": [
+          6.490274673350988e-10,
+          6.490274687901869e-10
+        ],
+        "odom_distance_m": 0.5739499999970508,
+        "final_odom_speed_m_s": 0,
+        "wheel_angular_velocities_rad_s": [
+          0.6060605977336184,
+          0.6060605980984636,
+          0.6060606058759147,
+          0.6060606062425808
+        ],
+        "odom_may_overestimate_when_wheels_slip": false
+      },
+      "fixed_profile_angular_command_rad_s": 0,
+      "legacy_metadata_angular_field_differs": false,
+      "owned_server_stopped": true,
+      "owned_process_groups_closed": null,
+      "result_file": "outputs/hunter_research_platform_20261031/motion_trials/20261031_202907_straight_851ac49554b0/result.json"
+    },
+    {
+      "run": "20261031_202950_left_9e710e076deb",
+      "profile": "left",
+      "raw_record_passed": true,
+      "assessment_v2": {
+        "checks": {
+          "forward_displacement": true,
+          "finite_pose": true,
+          "upright_height": true,
+          "brake": true,
+          "odom_distance_consistent": true,
+          "wheel_rotation": true,
+          "steering_limits": true,
+          "odom_yaw_consistent": true,
+          "direction": true,
+          "ackermann_inner_outer_order": true
+        },
+        "passed": true,
+        "forward_m": 0.5585017733101898,
+        "lateral_m": 0.07620488710145729,
+        "yaw_change_rad": 0.2862440181189028,
+        "odom_yaw_change_rad": 0.302901526573125,
+        "steering_angles_rad": [
+          0.4428460822640632,
+          0.31766088634393186
+        ],
+        "odom_distance_m": 0.571512472901902,
+        "final_odom_speed_m_s": 1.099120794378905e-13,
+        "wheel_angular_velocities_rad_s": [
+          0.5608852407789972,
+          0.7073928210903969,
+          0.4962246634646617,
+          0.7158965486189918
+        ],
+        "odom_may_overestimate_when_wheels_slip": false
+      },
+      "fixed_profile_angular_command_rad_s": 0.08,
+      "legacy_metadata_angular_field_differs": false,
+      "owned_server_stopped": true,
+      "owned_process_groups_closed": null,
+      "result_file": "outputs/hunter_research_platform_20261031/motion_trials/20261031_202950_left_9e710e076deb/result.json"
+    },
+    {
+      "run": "20261031_203009_right_e32fbeb9bee8",
+      "profile": "right",
+      "raw_record_passed": true,
+      "assessment_v2": {
+        "checks": {
+          "forward_displacement": true,
+          "finite_pose": true,
+          "upright_height": true,
+          "brake": true,
+          "odom_distance_consistent": true,
+          "wheel_rotation": true,
+          "steering_limits": true,
+          "odom_yaw_consistent": true,
+          "direction": true,
+          "ackermann_inner_outer_order": true
+        },
+        "passed": true,
+        "forward_m": 0.5585143966077986,
+        "lateral_m": -0.07620684466047975,
+        "yaw_change_rad": -0.286247582219162,
+        "odom_yaw_change_rad": -0.3029015264284366,
+        "steering_angles_rad": [
+          -0.31766088634162254,
+          -0.442846082260742
+        ],
+        "odom_distance_m": 0.5715124729033556,
+        "final_odom_speed_m_s": 1.099120794378905e-13,
+        "wheel_angular_velocities_rad_s": [
+          0.7073928930769591,
+          0.5608853420381893,
+          0.7158965486190317,
+          0.49622466346459765
+        ],
+        "odom_may_overestimate_when_wheels_slip": false
+      },
+      "fixed_profile_angular_command_rad_s": -0.08,
+      "legacy_metadata_angular_field_differs": false,
+      "owned_server_stopped": true,
+      "owned_process_groups_closed": null,
+      "result_file": "outputs/hunter_research_platform_20261031/motion_trials/20261031_203009_right_e32fbeb9bee8/result.json"
+    },
+    {
+      "run": "20261031_203026_straight_66eb5fd92cb8",
+      "profile": "straight",
+      "raw_record_passed": true,
+      "assessment_v2": {
+        "checks": {
+          "forward_displacement": true,
+          "finite_pose": true,
+          "upright_height": true,
+          "brake": true,
+          "odom_distance_consistent": true,
+          "wheel_rotation": true,
+          "steering_limits": true,
+          "odom_yaw_consistent": true,
+          "direction": true
+        },
+        "passed": true,
+        "forward_m": 0.5749499886299618,
+        "lateral_m": 1.600045078127143e-10,
+        "yaw_change_rad": 5.6145903092342e-10,
+        "odom_yaw_change_rad": 5.624429547940814e-10,
+        "steering_angles_rad": [
+          6.490274673350988e-10,
+          6.490274687901869e-10
+        ],
+        "odom_distance_m": 0.5739499999970508,
+        "final_odom_speed_m_s": 0,
+        "wheel_angular_velocities_rad_s": [
+          0.6060605977336184,
+          0.6060605980984636,
+          0.6060606058759147,
+          0.6060606062425808
+        ],
+        "odom_may_overestimate_when_wheels_slip": false
+      },
+      "fixed_profile_angular_command_rad_s": 0,
+      "legacy_metadata_angular_field_differs": false,
+      "owned_server_stopped": true,
+      "owned_process_groups_closed": null,
+      "result_file": "outputs/hunter_research_platform_20261031/motion_trials/20261031_203026_straight_66eb5fd92cb8/result.json"
+    },
+    {
+      "run": "20261031_203312_collision_ed93cd07e8c3",
+      "profile": "collision",
+      "raw_record_passed": false,
+      "assessment_v2": {
+        "checks": {
+          "forward_displacement": true,
+          "finite_pose": true,
+          "upright_height": true,
+          "brake": true,
+          "steering_limits": true,
+          "odom_yaw_consistent": true,
+          "direction": true,
+          "barrier_stops_body": true,
+          "no_barrier_penetration": true
+        },
+        "passed": true,
+        "forward_m": 0.48500001132675064,
+        "lateral_m": 2.9378444596939456e-10,
+        "yaw_change_rad": -3.722098301729859e-11,
+        "odom_yaw_change_rad": 9.594536899264758e-10,
+        "steering_angles_rad": [
+          6.489421402262427e-10,
+          6.489107520409388e-10
+        ],
+        "odom_distance_m": 0.9717499996828666,
+        "final_odom_speed_m_s": 0,
+        "wheel_angular_velocities_rad_s": [
+          4.3954233698920153e-16,
+          -6.468739796204256e-16,
+          0.6060606054854658,
+          0.6060606058523552
+        ],
+        "odom_may_overestimate_when_wheels_slip": true
+      },
+      "fixed_profile_angular_command_rad_s": 0,
+      "legacy_metadata_angular_field_differs": true,
+      "owned_server_stopped": true,
+      "owned_process_groups_closed": null,
+      "result_file": "outputs/hunter_research_platform_20261031/motion_trials/20261031_203312_collision_ed93cd07e8c3/result.json"
+    },
+    {
+      "run": "20261031_203522_collision_944917303676",
+      "profile": "collision",
+      "raw_record_passed": true,
+      "assessment_v2": {
+        "checks": {
+          "forward_displacement": true,
+          "finite_pose": true,
+          "upright_height": true,
+          "brake": true,
+          "steering_limits": true,
+          "odom_yaw_consistent": true,
+          "direction": true,
+          "barrier_stops_body": true,
+          "no_barrier_penetration": true
+        },
+        "passed": true,
+        "forward_m": 0.48500001132675064,
+        "lateral_m": 2.9378444596939456e-10,
+        "yaw_change_rad": -3.722098301729859e-11,
+        "odom_yaw_change_rad": 9.594536899264758e-10,
+        "steering_angles_rad": [
+          6.489421402262427e-10,
+          6.489107520409388e-10
+        ],
+        "odom_distance_m": 0.9717499996828666,
+        "final_odom_speed_m_s": 0,
+        "wheel_angular_velocities_rad_s": [
+          4.3954233698920153e-16,
+          -6.468739796204256e-16,
+          0.6060606054854658,
+          0.6060606058523552
+        ],
+        "odom_may_overestimate_when_wheels_slip": true
+      },
+      "fixed_profile_angular_command_rad_s": 0,
+      "legacy_metadata_angular_field_differs": true,
+      "owned_server_stopped": true,
+      "owned_process_groups_closed": null,
+      "result_file": "outputs/hunter_research_platform_20261031/motion_trials/20261031_203522_collision_944917303676/result.json"
+    },
+    {
+      "run": "20261031_204407_full_straight_9cbfe5106054",
+      "profile": "full_straight",
+      "raw_record_passed": true,
+      "assessment_v2": {
+        "checks": {
+          "forward_displacement": true,
+          "finite_pose": true,
+          "upright_height": true,
+          "brake": true,
+          "odom_distance_consistent": true,
+          "wheel_rotation": true,
+          "steering_limits": true,
+          "odom_yaw_consistent": true,
+          "direction": true,
+          "native_sensors_during_motion": true
+        },
+        "passed": true,
+        "forward_m": 0.17494999099898437,
+        "lateral_m": 1.2624037478763755e-11,
+        "yaw_change_rad": 1.5057727622043127e-10,
+        "odom_yaw_change_rad": 1.499916916690156e-10,
+        "steering_angles_rad": [
+          6.16621501019471e-10,
+          6.166214980569354e-10
+        ],
+        "odom_distance_m": 0.17414999999798259,
+        "final_odom_speed_m_s": 0,
+        "wheel_angular_velocities_rad_s": [
+          0.6060605977424515,
+          0.6060605980896006,
+          0.6060606058759165,
+          0.6060606062425792
+        ],
+        "odom_may_overestimate_when_wheels_slip": false
+      },
+      "fixed_profile_angular_command_rad_s": 0,
+      "legacy_metadata_angular_field_differs": true,
+      "owned_server_stopped": true,
+      "owned_process_groups_closed": null,
+      "result_file": "outputs/hunter_research_platform_20261031/motion_trials/20261031_204407_full_straight_9cbfe5106054/result.json"
+    },
+    {
+      "run": "20261031_204535_straight_19a81d7325ee",
+      "profile": "straight",
+      "raw_record_passed": true,
+      "assessment_v2": {
+        "checks": {
+          "forward_displacement": true,
+          "finite_pose": true,
+          "upright_height": true,
+          "brake": true,
+          "odom_distance_consistent": true,
+          "wheel_rotation": true,
+          "steering_limits": true,
+          "odom_yaw_consistent": true,
+          "direction": true
+        },
+        "passed": true,
+        "forward_m": 0.5749499886299618,
+        "lateral_m": 1.600045078127143e-10,
+        "yaw_change_rad": 5.6145903092342e-10,
+        "odom_yaw_change_rad": 5.624429547940814e-10,
+        "steering_angles_rad": [
+          6.490274673350988e-10,
+          6.490274687901869e-10
+        ],
+        "odom_distance_m": 0.5739499999970508,
+        "final_odom_speed_m_s": 0,
+        "wheel_angular_velocities_rad_s": [
+          0.6060605977336184,
+          0.6060605980984636,
+          0.6060606058759147,
+          0.6060606062425808
+        ],
+        "odom_may_overestimate_when_wheels_slip": false
+      },
+      "fixed_profile_angular_command_rad_s": 0,
+      "legacy_metadata_angular_field_differs": false,
+      "owned_server_stopped": true,
+      "owned_process_groups_closed": true,
+      "result_file": "outputs/hunter_research_platform_20261031/motion_trials/20261031_204535_straight_19a81d7325ee/result.json"
+    }
+  ],
+  "audit_notes": [
+    "Original trials and telemetry are retained, including the first collision result marked failed.",
+    "That collision criterion incorrectly required passive front wheels to keep rotating against a barrier; v2 checks body stopping/nonpenetration and records wheel slip instead.",
+    "Early collision/full_straight metadata mistakenly listed -0.08 rad/s although their fixed transport profiles commanded zero; corrected metadata are separated from original records.",
+    "Turn tests demonstrate direction/inner-outer steering and odometry consistency; they do not establish exact angular-command tracking or calibrated dynamics."
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "source": "F:\\rob-memory\\maps\\lab_20261011\\lab_20261011_155236_369289\\merged\\map_raw.pcd",
+  "source_points": 16290495,
+  "source_bytes": 260648077,
+  "source_sha256_before": "a57844447f23c2c02cd30f101aaf622ae86eb8a1cd207b684a940fa464d06441",
+  "source_sha256_after": "a57844447f23c2c02cd30f101aaf622ae86eb8a1cd207b684a940fa464d06441",
+  "source_unchanged": true,
+  "source_open_mode": "read-only numpy memmap",
+  "nonfinite_xyz": 0,
+  "header": {
+    "VERSION": [
+      "0.7"
+    ],
+    "FIELDS": [
+      "x",
+      "y",
+      "z",
+      "rgb"
+    ],
+    "SIZE": [
+      "4",
+      "4",
+      "4",
+      "4"
+    ],
+    "TYPE": [
+      "F",
+      "F",
+      "F",
+      "U"
+    ],
+    "COUNT": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "WIDTH": [
+      "16290495"
+    ],
+    "HEIGHT": [
+      "1"
+    ],
+    "VIEWPOINT": [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    "POINTS": [
+      "16290495"
+    ],
+    "DATA": [
+      "binary"
+    ]
+  },
+  "input_uvz_bounds_m": [
+    [
+      -18.638463973999023,
+      46.9508056640625
+    ],
+    [
+      -30.476137161254883,
+      13.336288452148438
+    ],
+    [
+      -3.1685311794281006,
+      5.291341304779053
+    ]
+  ],
+  "display_rotation_about_z_deg": -12,
+  "output_views": [
+    {
+      "file": "F:\\rob-memory\\outputs\\raw_pcd_preview_lab155236_20261013\\map_raw_lab_clear_4k.png",
+      "resolution": [
+        3840,
+        2160
+      ],
+      "elevation_deg": 50,
+      "azimuth_deg": -75,
+      "camera_framing_uvz_m": [
+        [
+          -3.1,
+          20.5
+        ],
+        [
+          -7.8,
+          2.8
+        ],
+        [
+          -1.1,
+          3.85
+        ]
+      ],
+      "source_points_projected": 16290495,
+      "points_inside_view": 15993445,
+      "occupied_pixels_before_sprites": 1195655,
+      "displayed_pixels": 2550194,
+      "point_display_size_px": 5,
+      "full_source_rgb_samples_verified": 256,
+      "rgb_is_original_without_averaging": true,
+      "source_sampling": "none",
+      "visibility": "orthographic depth buffer; nearest original point per pixel",
+      "output_sha256": "cfa1b9d0d25fbf9767195c2bff4fc01b4fcae7a057c66beccf805e3926f955d4",
+      "seconds": 6.024
+    }
+  ],
+  "data_edits": [],
+  "voxel_downsampling": false,
+  "denoising": false,
+  "geometry_reconstruction": false,
+  "generative_image_model_used": false,
+  "note": "All original points are projected for every view; camera framing and normal pixel occlusion determine visibility. No new PCD is written."
+}

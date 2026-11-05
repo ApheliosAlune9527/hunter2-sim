@@ -1,0 +1,84 @@
+# rob-memory 个人工作区：只对"可审计的文本"做版本控制
+#
+# 干跑结果（2026-11-04，git 2.34.1 in WSL，仓库建在 /tmp，未提交）：
+#   纳入 1,090 文件 / 17.7 MiB；磁盘实际 12,696 文件 / 12.7 GB。
+#   其余 11,606 文件、约 12.68 GB 仅排除出版本库，**不删除、不移动**。
+#
+# 取舍说明：本文件只管"什么进 git"，与磁盘占用无关。
+# 若要更轻，可再删去下方 *.png/*.jpg/*.jpeg 三行（+约 98 MB 图片）。
+
+# ── 1. WSL 虚拟磁盘（8.28 GB）──────────────────────────────────────────
+# 已注册发行版的活动磁盘，按注册表 BasePath 定位；移动/改名会使
+# `wsl -d Ubuntu-22.04` 直接失效，只能通过 wsl --export/--import 迁移。
+wsl/Ubuntu22.04/
+wsl/downloads/
+wsl/backups/
+
+# ── 2. 历史知识库（3.5 GB，只作参考，不强制复用）──────────────────────
+# 内含上游 FAST-LIO2 仓库自带的 .git（约 130 MB pack）：根目录 init 时
+# 会把它当成 embedded repo（gitlink），一并排除可彻底避免。
+# 其中 spark_fast_lio/PCD/scans_*.pcd 约 2.9 GB 是上游示例数据，
+# 上游自己的 .gitignore 亦已排除，不属于本项目成果。
+knowledge_base/
+
+# ── 3. 点云采集原始数据（1.08 GB，10,564 个 PCD 帧）───────────────────
+# 车端可重新导出，且会话目录内已有 map_raw.pcd / validation.json 汇总。
+maps/
+
+# ── 4. 第三方 vendored 依赖（可 pip 重装）─────────────────────────────
+# tmp/floral-ring-tools/python/{trimesh,manifold3d,rtree} + __pycache__
+tmp/floral-ring-tools/
+
+# ── 5. 构建中间产物 ────────────────────────────────────────────────────
+# outputs/hunter_nav2_append_20261027/.build/source.json + combined.json
+# 两项即 35 MB，占全部纳入体积的 65%，属 PPT 构建缓存。
+**/.build/
+
+# ── 6. 通用二进制与可再生成物 ─────────────────────────────────────────
+*.vhdx
+*.msi
+*.deb
+*.pcd
+*.gz
+*.zip
+*.stl
+*.STL
+*.dae
+*.glb
+*.npz
+*.pyc
+*.pyd
+*.so
+*.pptx
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+__pycache__/
+
+# ── 明确保留 ───────────────────────────────────────────────────────────
+# *.md  *.json  *.txt  *.log  *.py  *.h  *.sdf  *.xacro  *.ps1  *.yaml
+# *.bash  *.xml  *.sha256  *.csv  *.sh  *.inc  *.cmd  *.rviz  *.config
+# 其中 *.log（159 个）与 *.json（195 个）是本项目的主要证据载体，必须入库。
+
+# ── 7. 操作系统 / 编辑器垃圾（2026-11-05 建仓时补充）───────────────────
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*.tmp
+.vscode/
+.idea/
+*.code-workspace
+
+# ── 8. Python 虚拟环境与依赖（可重建）──────────────────────────────────
+.venv/
+venv/
+env/
+node_modules/
+
+# ── 9. 本地备份/补丁残留（2026-11-05 建仓时补充）───────────────────────
+backup-*/
+*.orig
+*.rej

@@ -1,0 +1,475 @@
+﻿FAST-LIVO2 建图使用说明
+通过 ToDesk 安装、启动、保存，并在 Windows 查看地图
+
+适用对象：从未操作过这套建图系统的人。
+适用平台：car-NUC15JNKU7X4 小车，car 账户，ROS 2 Humble，现有个人工作区 /home/car/hz_ws。
+传感器：XT32 雷达、CH104 IMU、D435i 相机。
+默认场景：你的 Windows 与小车不在同一网络，通过 ToDesk 操作小车。
+默认流程：ToDesk 传安装包 → Ubuntu 安装及预检 → 启动建图 → 正常停止并打包 → ToDesk 传回地图 → Windows 校验和查看。
+
+第一次使用：从第 1 节开始，第 2 节安装成功一次即可。
+已安装且 doctor 通过：以后每次实车建图从第 3 节开始。
+只查看已经下载的地图：直接看第 12 节。
+只有需要直接 SSH 传输并且网络已互通时，才使用第 14 节的可选方法。
+
+验证进度（2026-10-16）：用户已在指定小车上完成 ToDesk 传包、安装、加载环境及 doctor 预检。
+新的传感器启动、建图、监测、地图回传入口仍需按后续步骤实测；预检通过不等于完整建图已验证。
+两次历史地图及师兄工程继续保留，本说明使用已有算法、驱动和参数。
+遇到“停止”“失败”、红色错误或与本文明显不同的输出，停在当前步，保留输出后核对。
+
+
+========== 1. 先分清在哪里操作 ==========
+
+【ToDesk 文件传输窗口】用于在 Windows 与小车之间传文件。
+Linux 设备使用文件传输窗口；不要套用仅适用于 Windows 之间的拖拽或文件复制粘贴方法。
+ToDesk 官方说明：https://todesk.com/helpcenter/questions-147.html
+不同版本的入口可能叫“文件传输”或“互传文件”；找不到入口时先确认当前版本界面。
+
+【小车 Ubuntu 终端】是在 ToDesk 远程看到的小车桌面里按 Ctrl+Alt+T 打开的窗口。
+安装、传感器、建图和小车上的打包命令都在这里执行。
+
+【Windows PowerShell】是你自己 Windows 电脑上的命令窗口。
+默认流程中只用于地图传回后的校验、解包和合并，不需要先登录小车 SSH。
+
+ToDesk 能控制桌面，不代表 Windows 能直接连接小车的实验室内网 IP。
+本默认流程不要求查 IP、配置 VPN 或运行 Windows 的 SSH 安装脚本。
+需要查 IP 或使用 SSH 时，单独看第 14 节，不与默认步骤混用。
+
+本文“终端 0、1、2……”只是窗口编号，不是命令内容。
+只复制命令本身，不复制“作用”“预期”等说明，也不复制 car@...$、PS ...> 这样的提示符。
+每条命令按回车执行；报错就先停下。正在运行的驱动和算法占用各自终端，另开窗口输入下一组命令。
+
+共享平台请先确认当前轮到你使用传感器；本工具遇到占用会停止，不关闭其他人的程序。
+实车采集需要现场有人负责遥控和停车。异地只做安装或预检时，完成第 2 节后可以结束。
+
+
+========== 2. 首次使用：ToDesk 传包，在 Ubuntu 安装 ==========
+
+2.1【Windows】完整解压“FAST-LIVO2建图使用包.zip”。
+打开文件夹，应看到本 TXT、hz_mapping_tools.zip、pcd_export.py 和两个可选 PS1 文件。
+外层 ZIP 用于分发整套资料；本节要传的是文件夹内的 hz_mapping_tools.zip。
+保留内层 ZIP 原样，安装器会自动处理；不用自己解压到小车工作区。
+
+2.2【小车 Ubuntu】先确认主机和已有个人工具：
+hostname
+作用：核对当前小车主机名。
+预期：car-NUC15JNKU7X4。名字不同则停下。
+
+ls -ld /home/car/hz_ws /home/car/hz_ws/scripts/hz_mapping_session.py /home/car/hz_ws/scripts/pcd_export.py
+作用：确认个人工作区和两个原有工具存在。
+预期：工作区显示为实际目录、属于 car，两个工具显示为文件；缺失或指向外部目录时先核对。
+
+2.3【小车 Ubuntu】准备唯一的接收目录，依次执行：
+hzReceiveDir=$(mktemp -d /home/car/hz_ws/todesk_install_XXXXXXXX)
+作用：在个人工作区新建接收目录，将路径保存到当前终端的 hzReceiveDir 变量。正常时没有输出。
+
+printf '%s\n' "$hzReceiveDir"
+作用：显示新建目录，供 ToDesk 文件传输时填写。
+预期：/home/car/hz_ws/todesk_install_ 后面带一串随机字符。
+
+保持这个 Ubuntu 终端打开，后面的安装命令继续在同一个窗口执行。
+hzReceiveDir 变量只在这个窗口里有效。目录必须使用你实际打印的路径，不照抄历史随机名称。
+
+2.4【ToDesk 文件传输窗口】将 Windows 工具文件夹内的 hz_mapping_tools.zip，传到上一步实际打印的小车目录。
+例如 Windows 文件可能位于 E:\robot_lab\FAST-LIVO2建图使用包\hz_mapping_tools.zip；以你的实际文件位置为准。
+选择远端目标目录时使用 /home/car/hz_ws/todesk_install_...，文件名保持 hz_mapping_tools.zip。
+等待传输显示完成，再回到刚才的 Ubuntu 终端。
+
+sha256sum "$hzReceiveDir/hz_mapping_tools.zip"
+作用：检查小车收到的安装包内容是否完整。
+本版预期校验值：
+c62919992ce9a77fb5c60d5d1c1ddb35cfabfef780121979e0a049d1dc0e0204
+必须逐字一致才继续。不一致或找不到文件时先核对传输路径，停止安装。
+
+2.5【同一个小车 Ubuntu 终端】给安装器准备规定格式的临时入口：
+hzInstallZip="/home/car/hz_ws/.hz_mapping_upload_$(python3 -B -c 'import uuid; print(uuid.uuid4().hex)').zip"
+作用：生成唯一的临时安装文件名并保存到变量。正常时没有输出。
+
+ln -T -- "$hzReceiveDir/hz_mapping_tools.zip" "$hzInstallZip"
+作用：给同一份安装包增加临时名字，不覆盖同名文件。正常时没有输出；若报错，停下。
+
+python3 -B "$hzInstallZip" --sha256 c62919992ce9a77fb5c60d5d1c1ddb35cfabfef780121979e0a049d1dc0e0204
+作用：核对安装包和原有工具版本，新增 /home/car/hz_ws/hz_mapping_tools。
+预期：出现“安装内容核对通过”，以及“本次临时上传包已移除”。
+原接收目录中的 ZIP 仍保留；这里只移除临时入口。
+已有目标内容相同会核对后通过，内容不同则停止，不覆盖已有工程或地图。
+
+2.6【小车 Ubuntu】加载环境并预检：
+source /home/car/hz_ws/hz_mapping_tools/hz_env.sh
+作用：加载 ROS、相机驱动和个人工作区，设置通信与日志位置。正常时通常没有输出。
+
+ros2 launch "$hzLaunch" role:=doctor
+作用：检查软件包来源、已有工具 SHA256、ROS launch API、配置及设备权限。
+预期包路径：
+  fast_livo          → /home/car/hz_ws/install/fast_livo
+  hesai_ros_driver   → /home/car/hz_ws/install/hesai_ros_driver
+  realsense2_camera  → /home/car/d435i_ws/install/realsense2_camera
+预期结尾：出现“预检通过”，进程正常退出并回到提示符。
+如果提示已有 PCD 或活动轮次，按输出核对；不要为了预检反复执行 prepare。
+预检不启动采集，也不能代替后面的数据频率和实际落盘检查。
+
+你已经完成安装和 doctor 通过后，不必再重复第 2 节。下次实车建图直接从第 3 节开始。
+
+
+========== 3. 每次建图：Ubuntu 终端 0 准备新一轮 ==========
+
+从此节到第 10 节，所有命令都在小车 Ubuntu 终端执行。
+先用遥控器让小车停稳。在 Ubuntu 打开一个终端，作为“终端 0”。
+
+source /home/car/hz_ws/hz_mapping_tools/hz_env.sh
+作用：加载 ROS、相机和个人工作区环境，设置本次通信与日志位置。
+预期：正常时可能没有输出，直接返回提示符。出现“预检停止”等错误则不继续。
+
+ros2 launch "$hzLaunch" role:=status
+作用：查看本个人会话中正在运行的传感器和建图进程。
+预期：没有进程时状态内容为 {}；有进程时会列出角色和 PID。
+前后附带 ROS 的 INFO 行是正常启动信息，关注中间的状态内容。
+
+ros2 launch "$hzLaunch" role:=stop
+作用：正常结束上次尚未退出的个人传感器和建图进程。
+预期：提示相关进程已退出，返回终端提示符。即使原来没有进程，也可正常执行。
+stop 只停止程序，不控制小车运动，车辆必须先用遥控器停稳。
+
+ros2 launch "$hzLaunch" role:=prepare
+作用：建立新的地图轮次目录，复制本轮参数，设置分批保存，并连接本轮 PCD 输出目录。
+预期：打印“新一轮目录：/home/car/hz_ws/maps/lab_日期_时间”，并显示 interval=1。
+
+记住这次打印的目录，就是本轮地图的位置。不需要自己给命令填写日期。
+每轮 prepare 只执行一次。执行成功后，继续启动传感器，不要反复执行 prepare。
+如果开始后需要重来：先停车、stop，再 prepare 新一轮；旧成果留在旧目录。
+
+
+========== 4. Ubuntu 终端 1、2、3：分别启动传感器 ==========
+
+【新开终端 1：雷达】
+source /home/car/hz_ws/hz_mapping_tools/hz_env.sh
+ros2 launch "$hzLaunch" role:=lidar
+作用：启动个人工程中的 XT32 驱动，发布 /lidar_points。
+预期：看到初始化、连接成功及接收点云的实际日志。保持此终端打开。
+
+【新开终端 2：IMU】
+source /home/car/hz_ws/hz_mapping_tools/hz_env.sh
+ros2 launch "$hzLaunch" role:=imu
+作用：读取 /dev/ch104 串口，使用 115200 波特率，发布 /imu/data。
+预期：看到“成功打开串口”。之后可能没有连续日志，以第 5 节频率检查为准。
+
+【新开终端 3：相机】
+source /home/car/hz_ws/hz_mapping_tools/hz_env.sh
+ros2 launch "$hzLaunch" role:=camera
+作用：启动 D435i，仅开启 640×480、15Hz 彩色图像。
+预期：看到彩色流配置和“RealSense Node Is Up!”。保持此终端打开。
+
+三类节点的实际输出都会显示在各自终端，同时写到本轮目录的 lidar.log、imu.log、camera.log。
+相机或 IMU 启动后不持续刷日志，不等于没有数据。下一节检查数据流。
+
+
+========== 5. 回 Ubuntu 终端 0：检查三路数据 ==========
+
+先检查雷达：
+ros2 topic info /lidar_points
+作用：检查点云话题类型和发布者。
+预期：sensor_msgs/msg/PointCloud2，Publisher count: 1。
+
+ros2 topic hz /lidar_points
+作用：连续测量点云接收频率。
+预期：average rate 接近 10。显示数行后，在这个检查终端按一次 Ctrl+C，返回提示符。
+
+再检查 IMU：
+ros2 topic info /imu/data
+作用：检查 IMU 话题类型和发布者。
+预期：sensor_msgs/msg/Imu，Publisher count: 1。
+
+ros2 topic hz /imu/data
+作用：连续测量 IMU 接收频率。
+预期：average rate 接近 100。显示数行后按 Ctrl+C。
+
+最后检查相机：
+ros2 topic info /camera/camera/color/image_raw
+作用：检查图像话题类型和发布者。
+预期：sensor_msgs/msg/Image，Publisher count: 1。
+
+ros2 topic hz /camera/camera/color/image_raw
+作用：连续测量图像接收频率。
+预期：average rate 接近 15。显示数行后按 Ctrl+C。
+
+这里只在终端 0 停止频率检查，终端 1、2、3 中的驱动继续保持运行。
+启动算法前 Subscription count 为 0 可以正常出现。
+频率不是完全不变的整数，短时小幅波动正常；持续没有输出、明显异常或发布者不止一个时，先核对驱动，不进入移动采集。
+
+
+========== 6. Ubuntu 终端 4：启动建图 ==========
+
+新开终端 4，保持小车静止：
+source /home/car/hz_ws/hz_mapping_tools/hz_env.sh
+ros2 launch "$hzLaunch" role:=mapping
+作用：使用本轮配置启动 FAST-LIVO2，终端显示算法日志，并将点云持续分批保存。
+保持此终端打开。初始阶段给算法时间完成初始化，暂时不移动小车。
+
+回终端 0，依次检查保存设置：
+ros2 param get /laserMapping pcd_save.pcd_save_en
+作用：确认启用了点云保存。
+预期：Boolean value is: True。
+
+ros2 param get /laserMapping pcd_save.interval
+作用：确认启用当前分批保存间隔。
+预期：Integer value is: 1。
+
+interval=1 表示采用算法已有的保存计数间隔，满足保存条件且点云非空时写一个编号 PCD。
+它不是每 1 秒保存，也不是每个雷达 UDP 包保存。
+本轮建图只启动一次。如果启动失败或中途结束，先 stop，再 prepare 新一轮，不删除旧 PCD 或 mapping.log 来重启。
+
+
+========== 7. Ubuntu 终端 5：打开 RViz ==========
+
+新开终端 5：
+source /home/car/hz_ws/hz_mapping_tools/hz_env.sh
+ros2 launch "$hzLaunch" role:=rviz
+作用：打开本轮可视化配置，查看实时点云和轨迹。
+预期：RViz 正常打开，Fixed Frame 为 camera_init，能看到当前点云。
+
+RViz 中显示最近一段时间的点云，停车后画面主要显示附近环境是可能的。
+是否保存成功以第 8 节的 PCD 数量和结束后的 check 为准；整轮地图通过第 10、12 节查看。
+
+
+========== 8. Ubuntu 终端 6：持续查看保存状态 ==========
+
+新开终端 6：
+source /home/car/hz_ws/hz_mapping_tools/hz_env.sh
+ros2 launch "$hzLaunch" role:=watch
+作用：每 5 秒刷新可用内存、磁盘剩余、已落盘 PCD 数量和建图 PID。
+
+保持小车静止约 30 秒，确认：
+  1. 建图 PID 不是“无”。
+  2. PCD 数量从 0 变成正数，并继续增加。
+  3. 终端没有提示停止采集。
+三项正常后，再用遥控器缓慢移动小车，经过需要建图的区域，平缓转弯。
+传感器、建图、RViz、监测的终端都保持打开。
+
+若监测提示停止采集、建图退出、内存不足或磁盘不足，立即遥控停车，先核对终端输出。
+监测程序会按既有规则停止个人会话，但不会替你刹车。
+
+
+========== 9. 建图结束：回 Ubuntu 终端 0 正常停止 ==========
+
+先遥控停车，停稳后依次执行：
+ros2 launch "$hzLaunch" role:=stop
+作用：按顺序结束个人传感器和建图程序，等待写盘和退出。
+预期：相关进程已退出。不要在等待时反复按 Ctrl+C 或直接关闭全部窗口。
+
+ros2 launch "$hzLaunch" role:=status
+作用：再次确认个人会话状态。
+预期：状态内容为 {}。若仍列出节点，保留输出核对，暂不继续归档。
+
+ros2 launch "$hzLaunch" role:=check
+作用：检查本轮编号 PCD 的文件结构、字段和长度，统计文件数与总点数。
+预期：打印“结构检查通过”，且 PCD 文件数和点数均大于 0。
+结构检查通过表示文件可被后续处理；地图几何质量还需要看实际地图。
+
+
+========== 10. Ubuntu 合并、查看并打包本轮地图 ==========
+
+继续在终端 0，依次执行：
+ros2 launch "$hzLaunch" role:=merge
+作用：将本轮分片按数字编号合成完整 PCD，并生成抽稀预览。
+预期：完成后打印 raw_points、preview_points、raw、preview 及输出路径。
+合并可能暂时没有输出，等待它完成并返回提示符。
+
+生成文件在本轮目录的 merged 文件夹：
+  map_raw.pcd             保留各分片原始点的完整地图
+  map_preview_015m.pcd    每 0.15m 网格保留一个点的轻量预览
+合并只是拼接已经配准到同一坐标系的点记录，不会重新做配准或回环优化。
+
+ros2 launch "$hzLaunch" role:=preview
+作用：打开本轮完整采集范围的抽稀点云，便于快速查看整体形状。
+预期：出现点云查看窗口。查看完关闭该窗口，等待返回终端提示符。
+
+ros2 launch "$hzLaunch" role:=pack
+作用：打包本轮原始分片、配置、日志和校验信息，生成地图传回 Windows 时使用的校验记录。
+预期：打印 archive_path、sha256、total_points、pcd_files。
+这些信息属于本轮数据，请保留。看到成功输出后，按第 11 节通过 ToDesk 传回地图。
+
+每轮 merge、pack 各成功执行一次即可。以后查看同一地图直接打开已有文件。
+如果提示输出已存在，不把该提示当成新一次成功；也不要删除原始数据去强行重做。
+完成第 11 节的本轮传输和校验后，下一轮采集回第 3 节，重新 stop、prepare，再启动三类传感器与建图。
+
+
+========== 11. ToDesk 传回地图，在 Windows 校验和合并 ==========
+
+本节适用于第 10 节 pack 已成功的本轮地图。先完成本轮传输，再开始下一轮 prepare。
+pack 会生成本轮 lab_...tar.gz，以及 /home/car/hz_ws/maps/latest_export.json。
+归档包含分片、配置、日志和校验信息，不包含小车上的 merged；Windows 会用分片重新合并。
+
+11.1【小车 Ubuntu】确认这次要传的地图记录：
+cat /home/car/hz_ws/maps/latest_export.json
+作用：显示最近一次 pack 成功的轮次、归档位置、SHA256、点数和 PCD 数量。
+预期：run_name 与本轮一致，archive_path 指向 /home/car/hz_ws/maps/lab_...tar.gz。
+记录 archive_path 和 sha256。若文件不存在或不是本轮，先核对 pack，不传错轮次。
+
+11.2【Windows】打开解压后的工具文件夹，在资源管理器地址栏输入 powershell 并回车。
+下面所有带 .\ 的命令都在这个工具文件夹内的 PowerShell 执行。
+
+python.exe --version
+作用：确认 Windows 的 Python 可运行。
+预期：Python 3.10 或更高。若弹出商店或没有版本号，先配置 Python，再重新打开窗口核对。
+安装说明：https://docs.python.org/zh-cn/3/using/windows.html
+本地点云处理只用 Python 标准库，无需额外安装点云库。
+
+$hzMapReceive = Join-Path $env:USERPROFILE ('Documents\HunterMaps\receive_' + [guid]::NewGuid().ToString('N'))
+作用：生成本次地图接收目录，将它保存到当前 PowerShell 的变量中。正常时没有输出。
+
+New-Item -ItemType Directory -Path $hzMapReceive | Select-Object -ExpandProperty FullName
+作用：新建并显示接收目录，避免与已有地图重名。
+预期：打印 Windows 文档目录下 HunterMaps\receive_... 的完整路径。
+保持这个 PowerShell 窗口打开，后续继续使用其中的变量。
+
+11.3【ToDesk 文件传输窗口】从小车传回两个文件，目标选择上一步 Windows 实际打印的目录：
+  文件一：第 11.1 节 archive_path 指向的本轮 lab_...tar.gz。
+  文件二：/home/car/hz_ws/maps/latest_export.json。
+等待两个文件都传完，保留小车上的原始分片和归档。
+这一步使用 ToDesk 文件传输，不执行 下载地图.ps1，也不需要输入小车 IP。
+
+11.4【刚才的 Windows PowerShell】读取本轮记录并校验：
+$hzMapMeta = Get-Content -LiteralPath (Join-Path $hzMapReceive 'latest_export.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+作用：读取刚传回的 JSON，将轮次和校验值保存到变量。正常时没有输出。
+
+$hzMapMeta | Format-List run_name,archive_path,sha256,total_points,pcd_files
+作用：显示记录内容，与小车端第 11.1 节核对。
+预期：轮次、SHA256、点数和文件数与小车输出一致；缺字段或轮次不同先停下。
+
+$hzArchive = Join-Path $hzMapReceive ($hzMapMeta.run_name + '.tar.gz')
+作用：定位刚传回的本轮归档。正常时没有输出。
+
+(Get-FileHash -LiteralPath $hzArchive -Algorithm SHA256).Hash -eq $hzMapMeta.sha256
+作用：比较 Windows 收到的归档与小车记录的 SHA256。
+预期：True。若为 False 或报错，停止，不解包；保留小车原文件并核对传输。
+
+11.5【同一个 Windows PowerShell】校验后安全解包：
+python.exe -B ".\pcd_export.py" unpack "$hzArchive" "$hzMapReceive" --sha256 "$($hzMapMeta.sha256)"
+作用：再次检查归档 SHA256，检查解包路径和 PCD 结构，将地图解包到接收目录。
+预期：打印本轮 lab_... 文件夹的完整路径；报错则停下。
+
+$hzLocalRun = Join-Path $hzMapReceive $hzMapMeta.run_name
+作用：保存本轮解包目录，供下一条合并命令使用。正常时没有输出。
+
+python.exe -B ".\pcd_export.py" merge "$hzLocalRun\pcd" "$hzLocalRun\merged"
+作用：合并本轮分片，在 Windows 生成完整原始点云与抽稀预览。
+预期：打印 raw_points、preview_points、raw、preview，raw_points 与记录的 total_points 一致。
+目标文件已存在时会拒绝覆盖。成功后直接查看，不反复合并。
+
+explorer.exe "$hzLocalRun\merged"
+作用：打开本轮 merged 文件夹，里面应有 map_raw.pcd 和 map_preview_015m.pcd。
+
+重新打开 PowerShell 后，上面的变量不会保留；已经接收、解包成功的地图可以直接用资源管理器找到并打开。
+如中途失败，先保留输出和接收目录，不删除地图或原始数据来重试。
+完成后，下次采集从第 3 节开始；本地地图按不同 receive_... 和 lab_... 目录分别保留。
+
+
+========== 12. Windows 用 CloudCompare 查看完整地图 ==========
+
+打开 CloudCompare，点击 File → Open（文件 → 打开）。
+进入第 11 节最后打开的本轮 merged 文件夹。
+先打开 map_preview_015m.pcd 快速查看整体范围；需要密集细节时再打开 map_raw.pcd。
+如果出现 PCD 字段导入确认，保持识别出的 XYZ 和颜色字段后确认。
+使用鼠标旋转、缩放视图；画面看不全时，使用显示全部/适配视图功能重新显示整幅点云。
+
+两种文件都来自本轮采集范围，区别是点数密度。raw 点更多，加载和旋转更耗资源。
+已有地图可在 Windows 离线查看，此时不需要启动小车、传感器或 RViz。
+同一套操作可用于后续各轮采集，所有数据按轮次分别保存。
+
+
+========== 13. 常见情况，如何处理 ==========
+
+1. “source ... No such file or directory”
+   第 2 节安装尚未成功，或复制错了路径。先核对安装输出，再使用新命令。
+
+2. “ros2: command not found”或提示先 source 环境
+   在当前 Ubuntu 终端执行第 3 节的 source 命令。每个新终端都需要加载一次。
+
+3. 雷达、相机或 IMU 的启动终端不再刷屏
+   先在终端 0 用第 5 节的 ros2 topic hz 检查数据，不凭刷屏多少判断是否正常。
+
+4. 频率检查一直运行，无法输入下一条
+   在频率检查的终端按 Ctrl+C；只停止这条检查，不关闭其他驱动窗口。
+
+5. 提示端口占用、多个发布者或同类节点已运行
+   先停车，核对个人 status 与当前使用情况，不启动第二份驱动，不关闭其他人的程序。
+
+6. 提示本轮已有 PCD 或 mapping.log
+   本轮已用过。先 stop，确认旧成果保留，再 prepare 新轮次。
+
+7. RViz 只看到小车附近的点云
+   这是实时显示范围的可能表现。先检查 PCD 数量是否持续增加，结束后合并并查看完整 PCD。
+
+8. 无 PCD、check 失败、merge 或 pack 报错
+   保持停车，保留本轮目录和日志，停止后续处理，将完整输出交给维护者核对。
+
+9. 要看更密集的地图
+   Windows 打开 map_raw.pcd；小车上也可在已合并后运行：
+   ros2 launch "$hzLaunch" role:=raw
+   作用：用小车上的点云查看器打开本轮原始密集地图。关闭窗口后返回终端。
+
+10. 要重新核对工具和环境
+    在已加载环境的 Ubuntu 终端执行：
+    ros2 launch "$hzLaunch" role:=doctor
+    作用：核对包来源、已有工具版本、配置、设备权限和活动目录。
+    预期：预检通过。它不替代第 5 节的数据检查或实际建图。
+
+11. ToDesk、NoMachine 或网络中途断开，重新连接后怎么办
+    先遥控停车，在 Ubuntu 新终端执行下面两条：
+    source /home/car/hz_ws/hz_mapping_tools/hz_env.sh
+    ros2 launch "$hzLaunch" role:=status
+    作用：先确认原来的节点是否还在运行。
+    不要直接重复启动或连续 prepare。若决定重新开始，先 stop，再核对并保存旧轮次数据，之后 prepare 新轮次。
+
+每次完成的标志：正常停止 → 状态为空 → PCD 检查通过 → 合并成功 → 打包成功 → ToDesk 传回及 Windows 校验成功 → 地图能打开。
+从启动到结束都以本 TXT 为操作入口；“校验资料”文件夹仅用于保存测试与文件校验记录。
+
+
+========== 14. 可选：已能直接 SSH 访问小车时使用 ==========
+
+本节仅适用于 Windows 与小车处于可互通的局域网，或已经具备可用路由 / VPN 的情况。
+默认 ToDesk 流程不需要执行本节，也不要求另外安装 VPN 软件。
+.ps1 是 Windows PowerShell 脚本。本包保留两个脚本，供直接 SSH 连接可用时选择。
+ToDesk 已安装并预检成功的用户，不必再运行 SSH 安装脚本。
+
+14.1【小车 Ubuntu】查当前地址：
+hostname -I
+作用：显示当前 IP，I 是大写字母。多个地址正常，不能随便选一个就认为 Windows 可访问。
+
+ip -4 -br address
+作用：按网卡显示 IPv4。选择能从 Windows 访问的实际网络地址，只填 IP，不填 /24 等前缀或端口。
+192.168.8.100 是本系统雷达专用网卡地址，通常不作为 Windows 远程连接地址。
+
+14.2【Windows 工具文件夹中的 PowerShell】先检查 SSH 客户端：
+Get-Command ssh.exe,scp.exe
+作用：确认连接与传输命令可用。
+缺少程序时参考：https://learn.microsoft.com/zh-cn/windows-server/administration/openssh/openssh_install_firstuse
+
+$hzRobotIp = Read-Host '输入刚在小车上查到且可访问的 IPv4 地址'
+作用：等待输入并保存地址。上面整行原样复制，不替换引号里的提示文字。
+回车执行后，在新出现的冒号后填写实际 IP，再按一次回车。
+看到 PS ...> 提示符恢复后，再执行下面的端口测试。
+
+Test-NetConnection -ComputerName $hzRobotIp -Port 22
+作用：测试 TCP 22 连接。预期 TcpTestSucceeded 为 True；这还没有完成 SSH 握手和登录。
+
+ssh -o ConnectTimeout=10 "car@$hzRobotIp" hostname
+作用：实际连接小车并核对主机名。
+按 SSH 提示核对主机密钥、输入 car 账户密码；密码不显示字符属于正常现象。
+预期返回 car-NUC15JNKU7X4。只有这条成功，才继续本节的安装或下载。
+
+如果出现 Connection closed、banner exchange 超时、连接失败或其他主机名，停在此处。
+ToDesk 能连不代表该 IP 的 SSH 可达；显示 Meta / 198.18.0.1 时，连接经过代理虚拟网卡，True 不能代替真实 SSH 验证。
+本次异地网络遇到这个问题时，回第 2、11 节使用 ToDesk 文件传输即可，不需要为建图修改小车共享网络配置。
+
+14.3【仅首次安装，且 SSH 主机名核对成功】在 Windows 工具文件夹的 PowerShell 执行：
+powershell -NoProfile -ExecutionPolicy Bypass -File ".\安装建图工具.ps1"
+作用：通过 SSH 上传新增工具、安装并在小车执行 doctor。
+程序询问地址时填写上面已经验证的 IP。
+预期：安装及环境预检完成。脚本在“没有连到指定的小车，停止安装”处失败时，尚未进入上传。
+
+14.4【仅本轮 pack 成功后，且 SSH 可用】需要自动下载时，在 Windows 执行：
+powershell -NoProfile -ExecutionPolicy Bypass -File ".\下载地图.ps1" -RobotIp $hzRobotIp
+作用：通过 SSH 读取最近导出记录、下载归档、校验、解包并合并。
+预期：下载、SHA256 校验和合并完成；默认保存到 Windows 文档目录的 HunterMaps。
+本方法与第 11 节二选一；已经成功传回、合并的同一份地图直接查看，不需要换方法再做一遍。

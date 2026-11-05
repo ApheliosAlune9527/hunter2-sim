@@ -1,0 +1,19 @@
+Loading plugin library file [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo6-ackermann-steering-system.so.6.18.0]
+Loader State
+	Known Interfaces: 4
+		ignition::gazebo::v6::System
+		ignition::gazebo::v6::ISystemPreUpdate
+		ignition::gazebo::v6::ISystemPostUpdate
+		ignition::gazebo::v6::ISystemConfigure
+	Known Plugins: 1
+		[ignition::gazebo::v6::systems::AckermannSteering]
+			has 2 aliases:
+				[gz::sim::systems::AckermannSteering]
+				[ignition::gazebo::systems::AckermannSteering]
+			implements 4 interfaces:
+				ignition::gazebo::v6::ISystemConfigure
+				ignition::gazebo::v6::ISystemPostUpdate
+				ignition::gazebo::v6::ISystemPreUpdate
+				ignition::gazebo::v6::System
+
+

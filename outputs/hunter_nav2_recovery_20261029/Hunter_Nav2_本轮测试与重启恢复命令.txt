@@ -1,0 +1,558 @@
+Hunter Nav2：本轮测试与重启恢复命令
+整理日期：2026-10-29
+适用主机：car@car-NUC15JNKU7X4，Ubuntu / ROS 2 Humble
+个人导航空间：/home/car/hz_nav_ws
+
+用途
+----
+下次小车重启、本人旧程序已结束后，按第一部分把系统恢复到待机。
+到“启动到待机完成”就先停下，回到聊天继续。
+第二部分是手动选择的规划、移动、取消、相机和备份命令。
+不要把整份 TXT 一次粘贴进终端，也不要把本轮旧坐标当下次目标。
+
+快速顺序：传感器 -> 底盘 -> Nav2 -> 检查终端启用定位组
+然后：RViz 设置本次初始位姿 -> 检查终端启用导航组 -> 待机。
+常驻窗口为“传感器、底盘、Nav2、RViz”；另外留一个“检查终端”。
+相机是可选项，需要画面时再打开。
+
+文中的命令全部在“ToDesk 中的小车 Ubuntu 终端”执行。
+Windows 只用来阅读本文件；不在 Windows PowerShell 运行下面的 ROS 命令。
+缩进的几行是一个完整命令块；反斜杠 \ 表示续行。
+如果某个窗口的对应程序还在运行，就保留它，不重复启动。
+
+本轮继续复用师兄的底盘驱动、地图、Smac 规划器、RPP 控制器和 no_spin 行为树。
+个人文件已经准备好，不再复制原工程、不重新编译、不重做标定或建图。
+Nav2 当前唯一启动入口：
+/home/car/hz_nav_ws/launch/bringup_launch.py
+参数用 config/nav2_params.yaml；不要混用早期的 nav2.yaml 或 02/03/04 试验入口。
+
+实车影响
+--------
+“底盘窗口”的启动会启用电脑控制并释放制动。
+真实导航命令会让车移动，原行为树恢复时可能以 0.05 米/秒执行目标距离 0.30 米的倒退。
+这些步骤只有在你明确决定本次操作、现场有人可遥控或急停接管时才执行。
+遥控器保持开机、摇杆中立；车头和车尾都需要留出活动空间。
+/hz_nav/blocked_cmd_vel 现在已经连接真实底盘，名字中的 blocked 不表示隔离。
+这套控制器的期望跟踪线速度为 0.10 米/秒，不是所有行为统一的硬性限速。
+
+
+==================== 第一部分：重启后启动到待机 ====================
+
+1. 每个新终端先加载通用环境
+-------------------------
+传感器、底盘、Nav2、检查、RViz、ROS 相机窗口，都先执行这一段：
+
+    source /opt/ros/humble/setup.bash &&
+    export ROS_DOMAIN_ID=88 RMW_IMPLEMENTATION=rmw_fastrtps_cpp \
+      ROS_LOCALHOST_ONLY=0 \
+      ROS_HOME=/home/car/hz_nav_ws/.ros \
+      ROS_LOG_DIR=/home/car/hz_nav_ws/logs \
+      TMPDIR=/home/car/hz_nav_ws/logs \
+      PYTHONDONTWRITEBYTECODE=1
+
+下面所有 ROS 命令都保留 env -u FASTRTPS_DEFAULT_PROFILES_FILE。
+它仅让本次启动的进程不使用那份共享 XML，不修改 .bashrc 或共享配置。
+仅给查询命令加前缀，不会改变之前已经启动的旧进程。
+不要使用 use_robot 别名替代本页环境。
+
+
+2. 新开“传感器窗口”：模型 TF、XT32、点云转扫描
+-------------------------------------------
+先执行第 1 节通用环境，再执行：
+
+    source /home/car/hesai_xt32_ws/install/setup.bash &&
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      ros2 launch /home/car/hz_nav_ws/launch/01_sensors.launch.py
+
+保持这个窗口运行。
+可见日志名：robot_state_publisher、hesai_ros_driver_node、pointcloud_to_laserscan_node。
+本入口只启动模型 TF、雷达及转换节点，没有底盘控制节点。
+
+本轮实际数据链：
+XT32 -> /hz_nav/lidar_points，frame 为 hesai_lidar
+点云转扫描 -> /hz_nav/scan，frame 为 base_link
+
+转换节点按需工作；暂时没人订阅 scan 时暂停点云订阅属于正常现象。
+不同时启动另一套 xt32_direct_node 或第二套 Hesai 驱动。
+
+
+3. 新开“底盘窗口”：真实里程计
+---------------------------
+会连接 can0、启用电脑控制并释放制动；现场条件满足后才执行。
+先执行第 1 节通用环境，再执行：
+
+    source /home/car/hunter_nav_odom_ws/install/setup.bash &&
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      ros2 run hunter_base hunter_base_node --ros-args \
+        -r __ns:=/hz_nav \
+        -p use_sim_time:=false \
+        -p port_name:=can0 \
+        -p robot_model:=hunter2 \
+        -p simulated_robot:=false \
+        -p odom_frame:=odom \
+        -p base_frame:=base_link \
+        -p odom_topic_name:=/hz_nav/odom \
+        -p publish_odom_tf:=true \
+        -r /cmd_vel:=/hz_nav/blocked_cmd_vel \
+        -r /hunter_status:=/hz_nav/hunter_status
+
+保持这个窗口运行。
+可见日志：Hunter 2.0、AGX_V2、Using CAN bus to talk with the robot。
+Commanded mode enabled, brake released 表示已切控制状态并释放制动。
+
+它提供 /hz_nav/odom，以及 odom -> base_link 的动态 TF。
+底盘重启后里程计从新原点开始；零里程计位置不等于地图中的停车位置。
+本页不修改 CAN 配置、不重启系统服务。
+
+TF 分工：map -> odom 由 AMCL 提供；odom -> base_link 由底盘驱动提供；
+base_link -> hesai_lidar 等固定安装关系由 robot_state_publisher 提供。
+AMCL 结合静态二维地图、实时 scan 和里程计，估计车在地图中的位置。
+
+
+4. 新开“Nav2 窗口”：加载当前个人导航入口
+--------------------------------------
+先执行第 1 节通用环境，再执行：
+
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      ros2 launch /home/car/hz_nav_ws/launch/bringup_launch.py \
+        namespace:=hz_nav \
+        use_namespace:=true \
+        slam:=False \
+        map:=/home/car/hz_nav_ws/maps/lab_odom_06_nav.yaml \
+        params_file:=/home/car/hz_nav_ws/config/nav2_params.yaml \
+        use_sim_time:=false \
+        autostart:=false
+
+保持这个窗口运行。
+可见日志：component_container_isolated、Loaded node '/hz_nav/...'。
+等 map_server、amcl、两组 lifecycle_manager 和导航组件加载出来再继续。
+autostart=false，所以“组件已加载”还不等于“两组已启用”。
+如果长时间只有容器启动一行，先按文末排障处理，不继续反复启动。
+
+
+5. 新开“检查终端”：启用地图与定位组
+----------------------------------
+先执行第 1 节通用环境。
+这个窗口后续反复使用；命令执行完返回提示符是正常的。
+
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 30s ros2 service call \
+        /hz_nav/lifecycle_manager_localization/manage_nodes \
+        nav2_msgs/srv/ManageLifecycleNodes '{command: 0}'
+
+预期：success=True。
+这会启用 map_server 和 AMCL；只在本次新启动时调用一次。
+如果这组已经启用，不再重复 STARTUP，也不用逐个 configure/activate。
+
+
+6. 新开“RViz 窗口”：加载已保存显示，再设置本次初始位姿
+-----------------------------------------------------
+先执行第 1 节通用环境，再执行：
+
+    source /home/car/hunter_nav_odom_ws/install/setup.bash &&
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      ros2 run rviz2 rviz2 \
+        -d /home/car/hz_nav_ws/rviz/lab_odom_06_map_view.rviz \
+        --ros-args -r __ns:=/hz_nav \
+        -r /initialpose:=/hz_nav/initialpose
+
+保持启动 RViz 的终端运行。
+
+在 RViz 操作：
+(1) Fixed Frame 保持 map。
+(2) 点击工具栏 2D Pose Estimate。
+(3) 在地图中找到实体小车本次实际停车处。
+(4) 从车身中心对应位置拖出箭头，箭头指向真实车头方向，松开鼠标。
+
+不要照抄昨天或本轮测试记录中的旧初始坐标。
+也不用等图外白色车模先进入地图；初值就是用来建立地图位置关系的。
+
+在当前没有导航目标的启动流程里，2D Pose Estimate 只发送定位初值，
+本身不发送速度或导航目标。屏幕上模型换位是估计变化。
+不要在正在行驶的导航任务中随意重设初值。
+
+回到“检查终端”读取本次地图 TF：
+
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 6s ros2 run tf2_ros tf2_echo map base_link
+
+预期：后续连续出现 Translation / Rotation。
+刚开始短暂 Waiting for transform 不一定是故障，要看后面是否持续出有效值。
+RobotModel 各链接也应变为 Transform OK。
+如果整个查询期间始终 map 不存在，先解决定位，不向后执行真实导航。
+
+本次已保存的 RViz 显示：
+Map             /hz_nav/map
+RobotModel      /hz_nav/robot_description
+LaserScan       /hz_nav/scan
+Path            /hz_nav/plan
+LocalCostmap    /hz_nav/local_costmap/costmap
+Polygon         /hz_nav/local_costmap/published_footprint
+
+Map：Reliable / Transient Local。
+LaserScan：Best Effort / Volatile。
+没有新增显示时，不必每次重建这些项目。
+
+
+7. “检查终端”：原地定位更新一次，再启用导航组
+------------------------------------------
+先执行：
+
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 10s ros2 service call \
+        /hz_nav/request_nomotion_update std_srvs/srv/Empty '{}'
+
+预期：Empty_Response。它请求下一次扫描更新定位，不命令小车行驶。
+
+再执行：
+
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 60s ros2 service call \
+        /hz_nav/lifecycle_manager_navigation/manage_nodes \
+        nav2_msgs/srv/ManageLifecycleNodes '{command: 0}'
+
+预期：success=True。
+RViz 中应能显示局部代价地图和车体轮廓。
+导航组本次已经启用后，不重复此命令或逐节点激活。
+
+【启动到待机完成】
+执行到这里，传感器、底盘、地图、定位、Nav2 和 RViz 已按当前方案启用。
+系统仍需保持没有行驶目标；先留在待机状态，回聊天继续。
+下面的规划、移动等是按需要选择的后续操作，不是开机必跑步骤。
+
+
+==================== 第二部分：本轮用到的后续操作 ====================
+
+8. 重新选点与纯规划：不会执行路径跟踪
+-----------------------------------
+在“检查终端”读取本次 AMCL 估计：
+
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 10s ros2 topic echo /hz_nav/amcl_pose \
+        geometry_msgs/msg/PoseWithCovarianceStamped \
+        --qos-durability transient_local --qos-reliability reliable \
+        --once --field pose.pose
+
+再监听取点：
+
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 60s ros2 topic echo /clicked_point \
+        geometry_msgs/msg/PointStamped --once
+
+监听期间，在 RViz 点击红色图钉 Publish Point，
+选择车头附近、远离障碍代价区域的浅灰空旷点。
+得到 frame_id=map 的 X、Y。二维目标 Z 使用 0。
+取坐标用 Publish Point，不使用 2D Goal Pose。
+
+在同一个检查终端，先编辑并填写以下四个值，再执行这段赋值。
+空字符串是故意保留的：没有填写时，后面的命令不会发送目标。
+X、Y 来自这次选点；终点方向需要结合本次路线确定。
+像本轮短程测试，可先用本次 AMCL 的 orientation.z / orientation.w 作为方向参考，
+再看规划路线；转弯路线在聊天中确定终点朝向。
+
+    nav_goal_x=''
+    nav_goal_y=''
+    nav_goal_qz=''
+    nav_goal_qw=''
+
+填写时使用例如 nav_goal_x='本次实际数字' 的形式，
+但引号内必须替换成真实数字，不要保留说明文字。
+
+四个值填好后，调用原 GridBased 规划器：
+
+    test -n "$nav_goal_x" && test -n "$nav_goal_y" &&
+    test -n "$nav_goal_qz" && test -n "$nav_goal_qw" &&
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 30s ros2 action send_goal \
+        /hz_nav/compute_path_to_pose nav2_msgs/action/ComputePathToPose \
+        "{goal: {header: {frame_id: map}, pose: {position: {x: $nav_goal_x, y: $nav_goal_y, z: 0.0}, orientation: {z: $nav_goal_qz, w: $nav_goal_qw}}}, planner_id: GridBased, use_start: false}"
+
+预期：SUCCEEDED，RViz 出现绿色 Path。
+use_start=false 让规划器使用当前 TF 位置作为起点。
+纯规划成功不代表真实到点，也不保证整条路径一定全前进。
+Hunter 是阿克曼底盘；原配置允许路径倒车，不能要求像差速小车一样原地旋转。
+
+
+9. 真实移动前读取底盘反馈
+------------------------
+继续使用“检查终端”。下面只读取状态：
+
+    source /home/car/hunter_nav_odom_ws/install/setup.bash &&
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 8s ros2 topic echo /hz_nav/hunter_status \
+        hunter_msgs/msg/HunterStatus --once |
+      grep -E '^(linear_velocity|steering_angle|vehicle_state|control_mode|error_code):'
+
+本车 Hunter2 / AGX_V2 已核对的含义：
+control_mode=1：CAN 电脑控制。
+control_mode=3：遥控器控制。
+vehicle_state=0、error_code=0：本次正常状态。
+error_code=4：本车此前出现过遥控器失联保护，不能靠关闭遥控器进入自动控制。
+
+本次取消后读取到：线速度 0、转角 0、vehicle_state 0、control_mode 1、error_code 0。
+静止时也可能保留转向角，不能只凭转角判断车是否在移动。
+准备移动时由现场人员按已验证的遥控器方式选择电脑控制档，不猜开关位置。
+切换前先确保没有未结束的旧目标；不要自动重试保护状态下的行驶任务。
+
+
+10. 真实单目标导航：会让车移动
+-----------------------------
+只在本次选点、纯规划、现场接管条件及具体运动均确认后执行。
+确认车头、车尾活动空间，保持遥控器开机、可以随时急停。
+原行为树可能轮到倒车恢复，单次目标倒退距离 0.30 米，速度 0.05 米/秒。
+
+仍在填写了四个 nav_goal 变量的同一个“检查终端”执行：
+
+    test -n "$nav_goal_x" && test -n "$nav_goal_y" &&
+    test -n "$nav_goal_qz" && test -n "$nav_goal_qw" &&
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      ros2 action send_goal \
+        /hz_nav/navigate_to_pose nav2_msgs/action/NavigateToPose \
+        "{pose: {header: {frame_id: map}, pose: {position: {x: $nav_goal_x, y: $nav_goal_y, z: 0.0}, orientation: {z: $nav_goal_qz, w: $nav_goal_qw}}}, behavior_tree: /home/car/hz_nav_ws/config/navigate_no_spin.xml}" \
+        --feedback
+
+保留这个终端观察反馈。真实导航不用 timeout 包围。
+Goal accepted 表示受理，最终 SUCCEEDED / CANCELED / ABORTED 才是任务终态。
+SUCCEEDED 后也要结合现场位置和停车反馈确认。
+异常时先用遥控器或急停接管，不等聊天回复。
+
+
+11. 取消目标与确认停车
+---------------------
+方法 A：在正在发送该导航目标的客户端终端按一次 Ctrl+C。
+本轮实测显示 Canceling goal...、Goal canceled.，最终 CANCELED。
+观察实际返回；单独关窗口、停止一个查询命令不等于目标已取消或车辆已停稳。
+
+方法 B：另开“取消/检查终端”，先执行第 1 节通用环境，再执行：
+
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 10s ros2 service call \
+        /hz_nav/navigate_to_pose/_action/cancel_goal \
+        action_msgs/srv/CancelGoal \
+        '{goal_info: {goal_id: {uuid: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, stamp: {sec: 0, nanosec: 0}}}'
+
+它请求取消本人的 /hz_nav/navigate_to_pose 服务中的活动目标。
+仅用于已确认属于自己的这套会话。
+return_code=0 且 goals_canceling 非空表示接受取消；
+继续看原客户端最终 CANCELED，不能只用服务受理当作物理停止。
+
+取消后，用第 9 节的 HunterStatus 命令读反馈，
+并在现场确认实体小车完全停稳。这两项一起判断。
+主动取消的目标不自动重发，不通过切回电脑模式恢复一个尚未取消的旧目标。
+
+
+12. 可选：相机查看
+-----------------
+这套导航使用轮式里程计 + AMCL + XT32 扫描。
+D435i 相机和 CH104 IMU 都不是本轮恢复导航的必开项。
+相机不用于替代现场人员观察和接管。
+
+A. 独立 RealSense Viewer
+只想看相机画面，可在小车 Ubuntu 新开相机终端执行：
+
+    realsense-viewer
+
+如果本人 ROS 相机驱动已经运行：
+先在显示 RealSense Node Is Up 的“ROS 相机终端”按一次 Ctrl+C，
+等待返回提示符，再运行 Viewer，让驱动先释放相机。
+不要为了打开 Viewer 停掉雷达、底盘或 Nav2。
+Viewer 中开启 RGB Camera 的画面开关，具体界面有差异时发截图。
+只用 Viewer 不会自动向 ROS 发布图像。
+
+B. 需要 ROS 图像时
+关闭本人 Viewer 或停止它的采集，避免和 ROS 相机驱动争用设备。
+新开“ROS 相机终端”，先执行第 1 节通用环境，再执行：
+
+    source /home/car/d435i_ws/install/local_setup.bash &&
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      ros2 launch realsense2_camera rs_launch.py \
+        camera_namespace:=camera camera_name:=camera \
+        enable_color:=true rgb_camera.color_profile:=640x480x15 \
+        enable_depth:=false enable_infra1:=false enable_infra2:=false \
+        enable_gyro:=false enable_accel:=false \
+        pointcloud.enable:=false align_depth.enable:=false \
+        initial_reset:=false
+
+保持 ROS 相机终端运行。
+本轮实际启动成功日志：Color RGB8 / 640×480 / FPS 15、RealSense Node Is Up。
+这是配置与初始化证据，不是本轮实测接收频率。
+在 RViz 用 Add -> By topic -> /camera/camera/color/image_raw -> Image 显示；
+需要时用 Best Effort / Volatile。
+D435i 前向安装的视野有限；拖动三维点云视角不会拍出未观测的车身侧面。
+不移动相机安装位置，不改外参或标定。
+
+
+13. 备份个人配置与控制器运行参数
+-------------------------------
+仍在已加载第 1 节环境的“检查终端”执行：
+
+    nav_snapshot="/home/car/hz_nav_ws/logs/nav2_snapshot_$(date +%Y%m%d_%H%M%S)" &&
+    mkdir "$nav_snapshot" &&
+    cp -a /home/car/hz_nav_ws/{config,launch,maps,rviz} "$nav_snapshot/" &&
+    printf '配置已保存到：%s\n' "$nav_snapshot"
+
+必须在同一个终端接着执行，保留 nav_snapshot 变量：
+
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 20s ros2 param dump /hz_nav/controller_server \
+        --no-daemon --spin-time 3 \
+        > "$nav_snapshot/controller_runtime.yaml" &&
+    printf '控制器运行参数已保存\n'
+
+它只读节点、备份个人文件，不修改运行参数。
+先导出运行参数，再正常退出节点。
+这份快照包含个人配置、launch、地图副本、RViz 和控制器参数；
+本轮其他运行日志仍保留在 /home/car/hz_nav_ws/logs，不等于已打包全量日志。
+
+本次已收到成功回执的快照：
+/home/car/hz_nav_ws/logs/nav2_snapshot_20261029_193424
+控制器参数：
+/home/car/hz_nav_ws/logs/nav2_snapshot_20261029_193424/controller_runtime.yaml
+
+
+14. 正常退出本人会话：列出顺序，完整流程尚待实车验收
+---------------------------------------------------
+以下适用于已经按第一部分启用了两组的本人会话。
+先取消活动目标，读取零速并现场确认停稳，保持现场可接管。
+先完成需要的运行参数导出。程序退出不能替代机械停车或现场接管。
+
+在“检查终端”先关闭导航生命周期组：
+
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 60s ros2 service call \
+        /hz_nav/lifecycle_manager_navigation/manage_nodes \
+        nav2_msgs/srv/ManageLifecycleNodes '{command: 4}'
+
+预期：success=True。
+再关闭定位生命周期组：
+
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 30s ros2 service call \
+        /hz_nav/lifecycle_manager_localization/manage_nodes \
+        nav2_msgs/srv/ManageLifecycleNodes '{command: 4}'
+
+预期：success=True。
+然后分别在本人的窗口按一次 Ctrl+C，等待返回提示符：
+(1) Nav2 窗口。
+(2) RViz 窗口，必要时先 Ctrl+S 保存当前个人显示。
+(3) 现场已接管、车辆保持停稳的条件下，退出底盘窗口。
+(4) 传感器窗口。
+(5) 本人的 ROS 相机窗口；独立 Viewer 用它自己的关闭按钮退出。
+
+如关闭超时或出现异常，停在这一步，把该窗口日志贴回聊天。
+不连续猛按 Ctrl+C，不猜 PID，不用 pkill 清掉共用程序。
+本页没有系统关机、CAN 重配或系统服务重启命令。
+当前尚未收到本轮按上述完整顺序正常退出的回执，不标成已实测通过。
+
+
+==================== 遇到问题时再看，不是每次启动都要检查 ====================
+
+A. RobotModel 红色、小车在地图外
+Topic 收到模型、URDF parsed OK，但各链接 No transform to map：
+先确认第 5 节定位组已启动，再按本次真实车位做 2D Pose Estimate。
+不删除重加模型，不发布假的静态 map -> odom 或 odom -> base_link。
+
+需要区分缺哪一段时，在“检查终端”读：
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 6s ros2 run tf2_ros tf2_echo odom base_link
+
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 6s ros2 run tf2_ros tf2_echo map base_link
+
+如果 odom -> base_link 有值、map -> base_link 一直没有值，
+优先查 AMCL 初值和地图定位，不把模型文件当故障去改。
+如果两段都没有值，检查本人底盘是否在相同域和同一通信环境启动。
+
+B. Nav2 只有容器启动一行，节点/服务看不到
+所有窗口都应沿用本页 env -u FASTRTPS_DEFAULT_PROFILES_FILE。
+本轮共享 XML 设置为仅 SHM；统一以本页临时环境重启本人相关程序后恢复了通信。
+确切故障根因未进一步证实，不把它写成“共享内存损坏已修好”。
+不改共享 XML、不清 /dev/shm、不安装或升级共享依赖。
+不要叠加启动第二套 Nav2。
+
+需要查询时：
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      ros2 node list --no-daemon --spin-time 5
+
+C. Hesai 提示 load firetime error
+本轮出现该日志后，扫描仍已实际收到；这个问题本身尚未修复。
+不要随便换标定文件或拿其他型号 CSV 顶替。
+若本次需要确认扫描，只读一次：
+    env -u FASTRTPS_DEFAULT_PROFILES_FILE \
+      timeout 15s ros2 topic echo /hz_nav/scan sensor_msgs/msg/LaserScan \
+        --qos-reliability best_effort --qos-durability volatile \
+        --once --field header
+
+D. AMCL 队列满 / earlier than transform cache
+新初值或 TF 刚建立时可短暂出现；若随后持续有有效 TF，不反复重启。
+持续丢帧时先区分 odom TF 缺失、地图初值未设或通信环境不同。
+不直接改时钟参数，也不用假的静态 TF 消掉报错。
+
+E. RViz 报 GLSL sampler 错误
+本轮即使出现此日志，地图仍曾正常显示、Map 为 OK。
+先看实际画面和状态；有图时不因此重新建图。
+画面异常再回传截图，不在这里改显卡驱动。
+
+F. RealSense 提示 librealsense 版本不同
+本轮 Built 2.58.2、Running 2.58.3，同时实际完成初始化。
+保留这条记录；不因为警告擅自升级共享库。
+若没有图像，先确认 Viewer 与 ROS 驱动是否争用相机。
+
+G. 为什么有障碍时没有马上倒车？
+当前 no_spin 树保留了倒车恢复。
+导航持续失败后，恢复动作轮换清代价图、等待 5 秒、倒车；
+各轮之间会重新尝试导航，倒车也有碰撞检查。
+所以不能把“看到了障碍”直接等同于“立刻倒车”。
+本轮最后反馈恢复次数为 0，没有实测触发倒车恢复。
+
+
+==================== 本轮事实与继续位置 ====================
+
+已实际收到的回执：
+1. 本轮统一通信环境下，扫描、底盘 TF、地图 TF 恢复。
+2. 定位管理组和导航管理组 STARTUP 都返回 success=True。
+3. 本轮重新选点的 ComputePathToPose 返回 SUCCEEDED。
+4. 实际 NavigateToPose 运行，用户表示正常运行后主动 Ctrl+C；
+   客户端最终 CANCELED，不是本轮到点 SUCCEEDED。
+5. 取消后 HunterStatus：线速度 0、转角 0、vehicle 0、control 1、error 0；
+   用户现场明确“已经完全停稳”。
+6. 本轮配置快照和控制器参数导出已回传成功。
+7. ROS 相机初始化成功，用户口述前向画面可见。
+
+仅供追溯的本轮目标，不作为下次可直接运行的目标：
+map X=5.183518，Y=-10.800862，Z=0
+orientation z=0.2153766642，w=0.9765310505
+规划前所回位置至目标直线约 1.271 米，不是已测出的完整路径长。
+取消前最后反馈：累计约 20.14 秒，恢复次数 0，剩余距离约 1.146 米。
+该剩余距离不是最终停车误差，也不能据此宣称精确走了多少米。
+10 月 28 日另一次短距离到点导航曾 SUCCEEDED 并确认停稳，作为历史基线保留。
+
+还没有全部完成：
+- 运动中的障碍处理和倒车恢复的专门验收。
+- 按本页完整顺序正常退出、全部运行参数和本轮日志整包归档。
+- 按本文件从整车重启到待机的一次完整照单复验。
+- 使用你原来两次 FAST-LIVO2 地图的转换/定位/导航对照。
+本 TXT 整理的是当前测试和恢复方式，不表示整个导航方案已经全部完成。
+
+下次继续：
+按第一部分启动到待机、按本次真实车位设置初值。
+回聊天说明“已按 TXT 启动到待机”，并提供当时有异常的输出即可。
+无需重做师兄资产调查、文件复制、标定、建图或整套旧检查。
+不要恢复今天已经主动取消的旧任务。
+
+本文件可在 Windows 阅读。
+需要放到车端时，通过已走通的 ToDesk 文件传输，
+保存到 /home/car/hz_nav_ws/docs/，不要写入师兄工程或 /home/car/hz_ws。
+编制本文件本身没有关闭当前车端程序，也没有发送新运动目标。
+
+原生接口核对来源：
+ManageLifecycleNodes：STARTUP=0，SHUTDOWN=4
+https://github.com/ros-navigation/navigation2/blob/humble/nav2_msgs/srv/ManageLifecycleNodes.srv
+CancelGoal：全零 UUID + 零时间戳取消对应服务中的活动目标
+https://github.com/ros2/rcl_interfaces/blob/humble/action_msgs/srv/CancelGoal.srv
+本轮 CLI Ctrl+C 取消行为参考
+https://github.com/ros2/ros2cli/blob/humble/ros2action/ros2action/verb/send_goal.py
+参数导出
+https://github.com/ros2/ros2cli/blob/humble/ros2param/ros2param/verb/dump.py
+独立 RealSense Viewer 启动命令
+https://github.com/realsenseai/librealsense/blob/master/doc/distribution_linux.md

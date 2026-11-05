@@ -1,0 +1,76 @@
+{
+  "status": "candidate_only_not_applied",
+  "input_yaml": "robot_assets/car_sensor_config_20261030/xt32_ch104_d435i.yaml",
+  "input_sha256": "bd5a59683e9ed914fab81af13af0306a75ab13d5091ce2e3465dad5fea93cb9e",
+  "interpretation_basis": "User-provided current src/vio.cpp lines 30-59 and src/LIVMapper.cpp lines 188-209; full source hash not supplied yet",
+  "point_equations": {
+    "lidar_to_imu": "p_I = extrinsic_R * p_L + extrinsic_T",
+    "lidar_to_camera": "p_C = Rcl * p_L + Pcl"
+  },
+  "anchor": "Existing nominal hesai_lidar transform from exported robot model; not measured body calibration",
+  "candidate": {
+    "camera_optical": {
+      "xyz_m": [
+        0.6439999999999985,
+        0.015000000000010857,
+        0.47500000000000003
+      ],
+      "rotation": [
+        [
+          1.0341155355510722e-13,
+          0.0,
+          1.0
+        ],
+        [
+          -1.0,
+          0.0,
+          1.0341155355510722e-13
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ]
+    },
+    "mapping_imu": {
+      "xyz_m": [
+        0.5390000000000114,
+        -0.11,
+        0.463
+      ],
+      "rotation": [
+        [
+          -1.0341155355510722e-13,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          -1.0341155355510722e-13,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "camera_delta_from_current_simulation_mm": [
+    -13.650000000001604,
+    -2.4999999999891447,
+    -6.000000000000005
+  ],
+  "camera_delta_norm_mm": 15.118614354496565,
+  "camera_rotation_max_difference": 4.8965888601467475e-12,
+  "inverse_point_round_trip_max_error_m": 1.1102230246251565e-16,
+  "pending": [
+    "Confirm CH104 publisher frame and any axis conversion",
+    "Record current source file hashes",
+    "Verify source point-transform usage before applying to simulation"
+  ],
+  "runtime_modified": false,
+  "hardware_commands_sent": false
+}

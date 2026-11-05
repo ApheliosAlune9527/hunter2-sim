@@ -1,0 +1,40 @@
+{
+  "source": "read_only_local_checks",
+  "previous_recorded_address": "192.168.31.204",
+  "probes": [
+    {
+      "target": "192.168.31.204",
+      "mode": "default",
+      "tcp_connected": true,
+      "local_address": "198.18.0.1",
+      "error": "TimeoutError: timed out",
+      "seconds": 6.03
+    },
+    {
+      "target": "192.168.31.204",
+      "mode": "WLAN_only",
+      "tcp_connected": false,
+      "selected_interface": 21,
+      "error": "TimeoutError: timed out",
+      "seconds": 6.0
+    },
+    {
+      "target": "10.13.1.166",
+      "mode": "default",
+      "tcp_connected": true,
+      "local_address": "198.18.0.1",
+      "server_identification": "",
+      "seconds": 3.28
+    },
+    {
+      "target": "10.13.1.166",
+      "mode": "WLAN_only",
+      "tcp_connected": false,
+      "selected_interface": 21,
+      "error": "TimeoutError: timed out",
+      "seconds": 6.0
+    }
+  ],
+  "configuration_changes": false,
+  "robot_authentication_performed": false
+}

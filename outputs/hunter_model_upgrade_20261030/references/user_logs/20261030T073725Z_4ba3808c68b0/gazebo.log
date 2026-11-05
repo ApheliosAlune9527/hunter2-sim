@@ -1,0 +1,109 @@
+libGL: MESA-LOADER: dlopen(/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so)
+libGL: did not find extension DRI_Kopper version 1
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/aphelios/.drirc: No such file or directory.
+[1;32m[Msg] [0m[1;32mReceived world [[0m[1;32m/mnt/f/rob-memory/sim/scenes/hz_hunter_full.sdf[0m[1;32m] from the GUI.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mIgnition Gazebo Server v[0m[1;32m6.18.0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLoading SDF world file[[0m[1;32m/mnt/f/rob-memory/sim/scenes/hz_hunter_full.sdf[0m[1;32m].[0m
+[1;32m[Msg] [0m[1;32mServing entity system service on [[0m[1;32m/[0m[1;32mentity/system/add[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mCreate service on [[0m[1;32m/world/hz_hunter_full/create[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mRemove service on [[0m[1;32m/world/hz_hunter_full/remove[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/hz_hunter_full/set_pose[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/hz_hunter_full/set_pose_vector[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLight configuration service on [[0m[1;32m/world/hz_hunter_full/light_config[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPhysics service on [[0m[1;32m/world/hz_hunter_full/set_physics[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mSphericalCoordinates service on [[0m[1;32m/world/hz_hunter_full/set_spherical_coordinates[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mEnable collision service on [[0m[1;32m/world/hz_hunter_full/enable_collision[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mDisable collision service on [[0m[1;32m/world/hz_hunter_full/disable_collision[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/hz_hunter_full/visual_config[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/hz_hunter_full/wheel_slip[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mAckermannSteering subscribing to twist messages on [[0m[1;32m/hz_sim/full/cmd_vel[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLoaded level [[0m[1;32m3[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing world controls on [[0m[1;32m/world/hz_hunter_full[0m[1;32m/control], [[0m[1;32m/world/hz_hunter_full[0m[1;32m/control/state] and [[0m[1;32m/world/hz_hunter_full[0m[1;32m/playback/control][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing GUI information on [[0m[1;32m/world/hz_hunter_full[0m[1;32m/[0m[1;32mgui/info[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mWorld [[0m[1;32mhz_hunter_full[0m[1;32m] initialized with [[0m[1;32mhz_full_physics[0m[1;32m] physics profile.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing world SDF generation service on [[0m[1;32m/world/hz_hunter_full[0m[1;32m/[0m[1;32mgenerate_world_sdf[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing world names on [[0m[1;32m/gazebo/worlds[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource path add service on [[0m[1;32m/gazebo/resource_paths/add[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource path get service on [[0m[1;32m/gazebo/resource_paths/get[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource path resolve service on [[0m[1;32m/gazebo/resource_paths/resolve[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource paths published on [[0m[1;32m/gazebo/resource_paths[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServer control service on [[0m[1;32m/server_control[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mFound no publishers on /stats, adding root stats topic[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mFound no publishers on /clock, adding root clock topic[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mignition-rendering-ogre[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing scene information on [[0m[1;32m/world/hz_hunter_full[0m[1;32m/[0m[1;32mscene/info[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing graph information on [[0m[1;32m/world/hz_hunter_full[0m[1;32m/[0m[1;32mscene/graph[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing full state on [[0m[1;32m/world/hz_hunter_full[0m[1;32m/libGL: MESA-LOADER: dlopen(/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so)
+libGL: did not find extension DRI_Kopper version 1
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/aphelios/.drirc: No such file or directory.
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/aphelios/.drirc: No such file or directory.
+libGL: did not find extension DRI2_Flush version 1
+libGL: Can't open configuration file /etc/drirc: No such file or directory.
+libGL: Can't open configuration file /home/aphelios/.drirc: No such file or directory.
+libGL: did not find extension DRI2_Flush version 1
+[1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/Gazebo/GazeboDrawer.qml:242:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }[0m[1;33m[0m
+[1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/WorldStats/WorldStats.qml:53:3: QML RowLayout: Binding loop detected for property "x"[0m[1;33m[0m
+[1;32m[Msg] [0m[1;32mIgnition Gazebo GUI    v[0m[1;32m6.18.0[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading config [[0m[1;32m/mnt/f/rob-memory/sim/scenes/hz_hunter_full_gui.config[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32m3D View[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mMinimalScene[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libMinimalScene.so[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mScene Manager[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mGzSceneManager[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libGzSceneManager.so[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view controller topic advertised on [[0m[1;32m/gui/camera/view_control[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera reference visual topic advertised on [[0m[1;32m/gui/camera/view_control/reference_visual[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view control sensitivity advertised on [[0m[1;32m/gui/camera/view_control/sensitivity[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mInteractive view control[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mInteractiveViewControl[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libInteractiveViewControl.so[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing world control service [[0m[1;32m/world/hz_hunter_full/control[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/hz_hunter_full/stats[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld control[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mWorldControl[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libWorldControl.so[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/hz_hunter_full/stats[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld stats[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mWorldStats[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libWorldStats.so[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mScreenshot service on [[0m[1;32m/gui/screenshot[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mScreenshot[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mScreenshot[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libScreenshot.so[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mComponent inspector[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mComponentInspector[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libComponentInspector.so[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mEntity tree[0m[1;32m] to main window[0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mEntityTree[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libEntityTree.so[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing server control service [[0m[1;32m/server_control[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mignition-rendering-ogr[0m[1;32mstate[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing full state (async) on [[0m[1;32m/world/hz_hunter_full[0m[1;32m/[0m[1;32mstate_async[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPublishing scene information on [[0m[1;32m/world/hz_hunter_full/scene/info[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPublishing entity deletions on [[0m[1;32m/world/hz_hunter_full/scene/deletion[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPublishing state changes on [[0m[1;32m/world/hz_hunter_full/state[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPublishing pose messages on [[0m[1;32m/world/hz_hunter_full[0m[1;32m/[0m[1;32mpose/info[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPublishing dynamic pose messages on [[0m[1;32m/world/hz_hunter_full[0m[1;32m/[0m[1;32mdynamic_pose/info[0m[1;32m][0m[1;32m[0m
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+NodeShared::Publish() Error: Interrupted system call
+e[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mignition-rendering-ogre[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mignition-rendering-ogre[0m[1;32m][0m[1;32m[0m
+[1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mignition-rendering-ogre[0m[1;32m][0m[1;32m[0m

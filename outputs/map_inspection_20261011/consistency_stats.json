@@ -1,0 +1,135 @@
+{
+  "batch_log_duration_s": 432.06452226638794,
+  "first_departure_03m_time_s": 268.71849751472473,
+  "last_away_03m_time_s": 352.57964873313904,
+  "approximate_moving_loop_span_s": 83.8611512184143,
+  "time_note": "Times are ROS log wall timestamps nearest each save, not precision sensor timestamps.",
+  "estimated_height_above_fitted_floor_m_percentiles": [
+    0.6564911707228104,
+    0.6728772874135284,
+    0.7150902307515712,
+    0.7155491282525481,
+    0.7157201693994827,
+    0.7161295465189927,
+    0.7204406758380918
+  ],
+  "estimated_height_above_floor_central95_spread_m": 0.043252259105464375,
+  "flat_wall_patches": [
+    {
+      "name": "near_wall_flat_patch",
+      "bounds": [
+        [
+          -0.45,
+          -0.1
+        ],
+        [
+          -3.08,
+          -2.9
+        ],
+        [
+          0,
+          0.6
+        ]
+      ],
+      "raw_points": 130468,
+      "voxel_points": 159,
+      "normal": [
+        -0.0592464811551707,
+        0.9982363272927134,
+        -0.0037535774781873163
+      ],
+      "offset": 2.969132063299525,
+      "residual_quantiles_m": [
+        -0.0058095400104246405,
+        -0.0009201180536041464,
+        0.00169675379184131,
+        0.004058001960741353,
+        0.012529733941840603
+      ],
+      "central_95_percent_width_m": 0.018339273952265242,
+      "within_3cm_fraction": 0.9995631112609988,
+      "within_5cm_fraction": 0.9997393996995432
+    },
+    {
+      "name": "far_wall_flat_patch",
+      "bounds": [
+        [
+          1.3,
+          2.5
+        ],
+        [
+          17.85,
+          18.25
+        ],
+        [
+          1.2,
+          1.9
+        ]
+      ],
+      "raw_points": 12003,
+      "voxel_points": 561,
+      "normal": [
+        -0.020520844575414702,
+        0.9997854466167104,
+        0.002820579964557169
+      ],
+      "offset": -17.957006247660107,
+      "residual_quantiles_m": [
+        -0.015794544427515867,
+        -0.007235232558238991,
+        -0.002825955765434429,
+        0.0014018384505476433,
+        0.0104305301309159
+      ],
+      "central_95_percent_width_m": 0.026225074558431767,
+      "within_3cm_fraction": 0.9986669999166875,
+      "within_5cm_fraction": 1.0
+    }
+  ],
+  "start_wall_patch_points": 9274,
+  "end_wall_patch_points": 12904,
+  "start_wall_patch_median_residual_m": 0.0008261281472652371,
+  "end_wall_patch_median_residual_m": 0.003870795359312229,
+  "flat_wall_start_end_offset_m": 0.003044667212046992,
+  "local_floor_patches": [
+    {
+      "y_range_m": [
+        0,
+        4
+      ],
+      "candidate_voxels": 7303,
+      "within_3cm_fraction": 0.941393947692729,
+      "dominant_floor_median_signed_m": 0.0015364011133719435,
+      "dominant_floor_IQR_m": [
+        -0.0010415170309228117,
+        0.004156255754987959
+      ]
+    },
+    {
+      "y_range_m": [
+        5,
+        9
+      ],
+      "candidate_voxels": 10836,
+      "within_3cm_fraction": 0.7943890734588409,
+      "dominant_floor_median_signed_m": -0.002648914195377272,
+      "dominant_floor_IQR_m": [
+        -0.005601011806882744,
+        -7.273909028401859e-05
+      ]
+    },
+    {
+      "y_range_m": [
+        10,
+        14
+      ],
+      "candidate_voxels": 7189,
+      "within_3cm_fraction": 0.6952288218111002,
+      "dominant_floor_median_signed_m": 0.0005343248926578115,
+      "dominant_floor_IQR_m": [
+        -0.0032486436726677226,
+        0.0036298275538382274
+      ]
+    }
+  ]
+}

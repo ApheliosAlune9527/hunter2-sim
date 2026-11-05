@@ -1,0 +1,60 @@
+{"action": "created_verified_native_source", "source": "/mnt/d/rob-memory/sim/hz_hunter_full_description", "native_source": "/home/aphelios/hz_sim_ws/src/hz_hunter_full_description", "verified_files": 19, "copied_build_or_install_symlinks": false}
+Starting >>> hz_hunter_full_description
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aphelios/hz_sim_ws/build/hz_hunter_full_description
+-- Install configuration: ""
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/urdf
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/urdf/hunter_full.urdf
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/front_steer_bar_link.stl
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/rear_axle_detail_link.stl
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/rear_right_wheel_link.stl
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/base_link.stl
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/rear_left_wheel_link.stl
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/front_right_wheel_link.stl
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/chassis/front_left_wheel_link.stl
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/upfit
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/upfit/XT32.STL
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/upfit/G60.STL
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/upfit/ARS548.STL
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/upfit/d435.dae
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/meshes/upfit/assembly.STL
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/source_manifest.json
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/geometry_report.json
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/README.md
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/SOURCE_NOTICE.md
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/ament_index/resource_index/package_run_dependencies/hz_hunter_full_description
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/ament_index/resource_index/parent_prefix_path/hz_hunter_full_description
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/environment/ament_prefix_path.sh
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/environment/ament_prefix_path.dsv
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/environment/path.sh
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/environment/path.dsv
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/local_setup.bash
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/local_setup.sh
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/local_setup.zsh
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/local_setup.dsv
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/package.dsv
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/ament_index/resource_index/packages/hz_hunter_full_description
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/cmake/hz_hunter_full_descriptionConfig.cmake
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/cmake/hz_hunter_full_descriptionConfig-version.cmake
+-- Installing: /home/aphelios/hz_sim_ws/install/hz_hunter_full_description/share/hz_hunter_full_description/package.xml
+Finished <<< hz_hunter_full_description [1.92s]
+
+Summary: 1 package finished [2.18s]
+Full model data package built. No simulator or ROS node was started.

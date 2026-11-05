@@ -1,0 +1,14 @@
+[
+  {
+    "path": "sim/tools/README.md",
+    "original_sha256": "7abc7d9180b0338298a1a0c22765f103e38b32470e12514aa36e3360d8cabdf8",
+    "prepended_bytes": 1549,
+    "history_preserved_byte_for_byte": true
+  },
+  {
+    "path": "sim/scenes/README.md",
+    "original_sha256": "d00b450426357fcdfcf0ed29cd8b9a8db0994c8fab8bd08811152184d638acbd",
+    "prepended_bytes": 1338,
+    "history_preserved_byte_for_byte": true
+  }
+]

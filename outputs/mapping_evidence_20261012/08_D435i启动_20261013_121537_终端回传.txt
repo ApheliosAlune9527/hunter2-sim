@@ -1,0 +1,36 @@
+car@car-NUC15JNKU7X4:~/桌面$ export ROS_DOMAIN_ID=88 RMW_IMPLEMENTATION=rmw_fastrtps_cpp ROS_LOCALHOST_ONLY=0 ROS_HOME=/home/car/hz_ws/.ros ROS_LOG_DIR=/home/car/hz_ws/logs/ros PYTHONDONTWRITEBYTECODE=1 && source /opt/ros/humble/setup.bash && source /home/car/d435i_ws/install/local_setup.bash && source /home/car/hz_ws/install/local_setup.bash
+car@car-NUC15JNKU7X4:~/桌面$ ros2 launch realsense2_camera rs_launch.py camera_namespace:=camera camera_name:=camera enable_color:=true rgb_camera.color_profile:=640x480x15 enable_depth:=false enable_infra1:=false enable_infra2:=false enable_gyro:=false enable_accel:=false pointcloud.enable:=false align_depth.enable:=false initial_reset:=false 2>&1 | tee -a /home/car/hz_ws/maps/lab_20261012_142811_827684/camera.log
+[INFO] [launch]: All log files can be found below /home/car/hz_ws/logs/ros/2026-10-13-12-15-37-019566-car-NUC15JNKU7X4-68624
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: 🚀 Launching as Normal ROS Node
+[INFO] [realsense2_camera_node-1]: process started with pid [68644]
+[realsense2_camera_node-1] [INFO] [1791864937.199914788] [camera.camera]: RealSense ROS v4.58.2
+[realsense2_camera_node-1] [INFO] [1791864937.199982074] [camera.camera]: Built with LibRealSense v2.58.2
+[realsense2_camera_node-1] [INFO] [1791864937.199989198] [camera.camera]: Running with LibRealSense v2.58.3
+[realsense2_camera_node-1] [WARN] [1791864937.199994053] [camera.camera]: ***************************************************
+[realsense2_camera_node-1] [WARN] [1791864937.199998414] [camera.camera]: ** running with a different librealsense version **
+[realsense2_camera_node-1] [WARN] [1791864937.200003135] [camera.camera]: ** than the one the wrapper was compiled with!   **
+[realsense2_camera_node-1] [WARN] [1791864937.200007202] [camera.camera]: ***************************************************
+[realsense2_camera_node-1] [INFO] [1791864937.285645152] [camera.camera]: Device with serial number 109622075183 was found.
+[realsense2_camera_node-1] 
+[realsense2_camera_node-1] [INFO] [1791864937.285703358] [camera.camera]: Device with physical ID /sys/devices/pci0000:80/0000:80:14.0/usb2/2-5/2-5:1.0/video4linux/video0 was found.
+[realsense2_camera_node-1] [INFO] [1791864937.285707580] [camera.camera]: Device with name RealSense D435I was found.
+[realsense2_camera_node-1] [INFO] [1791864937.285777401] [camera.camera]: Device with port number 2-5 was found.
+[realsense2_camera_node-1] [INFO] [1791864937.285782128] [camera.camera]: Device USB type: 3.2
+[realsense2_camera_node-1] [INFO] [1791864937.285815355] [camera.camera]: getParameters...
+[realsense2_camera_node-1] [INFO] [1791864937.285932865] [camera.camera]: JSON file is not provided
+[realsense2_camera_node-1] [INFO] [1791864937.285938922] [camera.camera]: Device Name: RealSense D435I
+[realsense2_camera_node-1] [INFO] [1791864937.285941706] [camera.camera]: Device Serial No: 109622075183
+[realsense2_camera_node-1] [INFO] [1791864937.285944913] [camera.camera]: Device physical port: /sys/devices/pci0000:80/0000:80:14.0/usb2/2-5/2-5:1.0/video4linux/video0
+[realsense2_camera_node-1] [INFO] [1791864937.285947893] [camera.camera]: Device FW version: 5.17.0.10
+[realsense2_camera_node-1] [INFO] [1791864937.285950528] [camera.camera]: Device Product ID: 0x0B3A
+[realsense2_camera_node-1] [INFO] [1791864937.285952922] [camera.camera]: Sync Mode: Off
+[realsense2_camera_node-1] [INFO] [1791864937.367814940] [camera.camera]: Set ROS param depth_module.depth_profile to default: 848x480x30
+[realsense2_camera_node-1] [INFO] [1791864937.367981369] [camera.camera]: Set ROS param depth_module.infra_profile to default: 848x480x30
+[realsense2_camera_node-1] [WARN] [1791864937.370008906] [camera.camera]: re-enable the stream for the change to take effect.
+[realsense2_camera_node-1] [INFO] [1791864937.370167601] [camera.camera]: Set ROS param gyro_fps to default: 200
+[realsense2_camera_node-1] [INFO] [1791864937.370243440] [camera.camera]: Set ROS param accel_fps to default: 63
+[realsense2_camera_node-1] [INFO] [1791864937.371368055] [camera.camera]: Stopping Sensor: RGB Camera
+[realsense2_camera_node-1] [INFO] [1791864937.373528849] [camera.camera]: Starting Sensor: RGB Camera
+[realsense2_camera_node-1] [INFO] [1791864937.374593160] [camera.camera]: Open profile: stream_type: Color(0), Format: RGB8, Width: 640, Height: 480, FPS: 15
+[realsense2_camera_node-1] [INFO] [1791864937.375945653] [camera.camera]: RealSense Node Is Up!

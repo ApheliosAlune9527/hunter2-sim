@@ -1,0 +1,365 @@
+{
+  "format": "hunter_wsl_model_reference_import_v1",
+  "date_local": "2026-10-13",
+  "source": "F:/rob-memory/robot_assets/hunter_from_car_20261013_qjkgbbq5",
+  "destination": "/home/aphelios/hz_sim_ws/src",
+  "workspace_user_creation_confirmed": true,
+  "environment_file_user_load_confirmed": true,
+  "packages": [
+    "hunter_description",
+    "realsense2_description"
+  ],
+  "data_directories": [
+    "urdf",
+    "meshes"
+  ],
+  "wrapper_templates": "F:/rob-memory/sim/reference_packages",
+  "file_count": 42,
+  "all_copied_data_hashes_match": true,
+  "files": [
+    {
+      "package": "hunter_description",
+      "relative_path": "urdf/assembly.urdf.xacro",
+      "bytes": 3167,
+      "sha256": "9350f1a1bd44ee7ad607332bd2a095d020a49bd9caba48faa763988b0b6feb54",
+      "copied_sha256": "9350f1a1bd44ee7ad607332bd2a095d020a49bd9caba48faa763988b0b6feb54",
+      "matches": true
+    },
+    {
+      "package": "hunter_description",
+      "relative_path": "urdf/common_properties.xacro",
+      "bytes": 750,
+      "sha256": "114f2a5b39a4655633e76d5668fc563b91ce6e0bf48f64132e297b4d07fdd866",
+      "copied_sha256": "114f2a5b39a4655633e76d5668fc563b91ce6e0bf48f64132e297b4d07fdd866",
+      "matches": true
+    },
+    {
+      "package": "hunter_description",
+      "relative_path": "urdf/hunter.urdf.xacro",
+      "bytes": 2592,
+      "sha256": "fcff3324870fc7bf444177be2967db2a66497eb07b4c997076407f31267a12bf",
+      "copied_sha256": "fcff3324870fc7bf444177be2967db2a66497eb07b4c997076407f31267a12bf",
+      "matches": true
+    },
+    {
+      "package": "hunter_description",
+      "relative_path": "meshes/ARS548.STL",
+      "bytes": 51739584,
+      "sha256": "5350178d525c3f57828c1f820c572136ba1efcbbfe36ba01c00486727bdd8597",
+      "copied_sha256": "5350178d525c3f57828c1f820c572136ba1efcbbfe36ba01c00486727bdd8597",
+      "matches": true
+    },
+    {
+      "package": "hunter_description",
+      "relative_path": "meshes/assembly.STL",
+      "bytes": 3911284,
+      "sha256": "ddd0fe5993af16aa1ee67845aca76170d21ef31e3fcce5fafed98458aa67f34c",
+      "copied_sha256": "ddd0fe5993af16aa1ee67845aca76170d21ef31e3fcce5fafed98458aa67f34c",
+      "matches": true
+    },
+    {
+      "package": "hunter_description",
+      "relative_path": "meshes/D435i.STL",
+      "bytes": 1705184,
+      "sha256": "e982ca29d1a2225f58ad09fc91004a4a40dca684f538ae323f844602d938ba0b",
+      "copied_sha256": "e982ca29d1a2225f58ad09fc91004a4a40dca684f538ae323f844602d938ba0b",
+      "matches": true
+    },
+    {
+      "package": "hunter_description",
+      "relative_path": "meshes/G60.STL",
+      "bytes": 190684,
+      "sha256": "08adf459e9c2a79f2247169886aab8559e1632f22177db764635602d8105fb12",
+      "copied_sha256": "08adf459e9c2a79f2247169886aab8559e1632f22177db764635602d8105fb12",
+      "matches": true
+    },
+    {
+      "package": "hunter_description",
+      "relative_path": "meshes/hunter_2_0.STL",
+      "bytes": 472684,
+      "sha256": "afdf431df0bcc121d526f1d4dfb80df7a10f4ed6ae2b8473107760973a171e4b",
+      "copied_sha256": "afdf431df0bcc121d526f1d4dfb80df7a10f4ed6ae2b8473107760973a171e4b",
+      "matches": true
+    },
+    {
+      "package": "hunter_description",
+      "relative_path": "meshes/PiPER_plate.STL",
+      "bytes": 151684,
+      "sha256": "ccad6d79acd7ef65089af482f561fc423d7185cfdca542f07300f53ab017be77",
+      "copied_sha256": "ccad6d79acd7ef65089af482f561fc423d7185cfdca542f07300f53ab017be77",
+      "matches": true
+    },
+    {
+      "package": "hunter_description",
+      "relative_path": "meshes/PIPER.STL",
+      "bytes": 32309384,
+      "sha256": "e86e255eb50cc8184193bc30dbd9db6baf45ccd8ac13b66116bf5d0cd49ef85b",
+      "copied_sha256": "e86e255eb50cc8184193bc30dbd9db6baf45ccd8ac13b66116bf5d0cd49ef85b",
+      "matches": true
+    },
+    {
+      "package": "hunter_description",
+      "relative_path": "meshes/XT32.STL",
+      "bytes": 1536384,
+      "sha256": "8fd7cf0485509c97ca499ab0c7a3aaef5e43242b836cbd23395451577d06b64f",
+      "copied_sha256": "8fd7cf0485509c97ca499ab0c7a3aaef5e43242b836cbd23395451577d06b64f",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/_d405.urdf.xacro",
+      "bytes": 7282,
+      "sha256": "81118e87388c06e4cf1b3dc8b114096de21c1b235bd283dafad84d2bd97aebb1",
+      "copied_sha256": "81118e87388c06e4cf1b3dc8b114096de21c1b235bd283dafad84d2bd97aebb1",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/_d415.urdf.xacro",
+      "bytes": 6946,
+      "sha256": "8af3463c89eb788161bc596106113875b72647076357bb9c2adfd7d3c9e02cc5",
+      "copied_sha256": "8af3463c89eb788161bc596106113875b72647076357bb9c2adfd7d3c9e02cc5",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/_d435.urdf.xacro",
+      "bytes": 7527,
+      "sha256": "ae3f57e8d38b3a6d5cc9de059e4afe545e4b895717d638b75d2ad0642cfb7f1b",
+      "copied_sha256": "ae3f57e8d38b3a6d5cc9de059e4afe545e4b895717d638b75d2ad0642cfb7f1b",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/_d435i_imu_modules.urdf.xacro",
+      "bytes": 2118,
+      "sha256": "adde35b74c532d160a9346be2802d832a3d54967a54f81d994a70be1a71a6bda",
+      "copied_sha256": "adde35b74c532d160a9346be2802d832a3d54967a54f81d994a70be1a71a6bda",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/_d435i.urdf.xacro",
+      "bytes": 1395,
+      "sha256": "b16e710e95435e1dfb66316aa5c186b47cd6c4183b3dab8bf8940c801cc9d052",
+      "copied_sha256": "b16e710e95435e1dfb66316aa5c186b47cd6c4183b3dab8bf8940c801cc9d052",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/_d436.urdf.xacro",
+      "bytes": 8770,
+      "sha256": "fb5abf12bd45a2c69bff2dbe6ba6e2263d192dbab857fd269db5279d6b015866",
+      "copied_sha256": "fb5abf12bd45a2c69bff2dbe6ba6e2263d192dbab857fd269db5279d6b015866",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/_d455.urdf.xacro",
+      "bytes": 9173,
+      "sha256": "3b905cb1382faa477ffe92e3e61a00a05a502238e7bad8fe748f26530b4cf1d9",
+      "copied_sha256": "3b905cb1382faa477ffe92e3e61a00a05a502238e7bad8fe748f26530b4cf1d9",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/_d585.urdf.xacro",
+      "bytes": 10876,
+      "sha256": "be3440e6617b794761ed969b01174f82bcb230b40405810f89c279faaa65dcd9",
+      "copied_sha256": "be3440e6617b794761ed969b01174f82bcb230b40405810f89c279faaa65dcd9",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/_materials.urdf.xacro",
+      "bytes": 1213,
+      "sha256": "cd8a4b4ab488b57855318e68226329a80310ee45e3aa489dd75222f2c607d005",
+      "copied_sha256": "cd8a4b4ab488b57855318e68226329a80310ee45e3aa489dd75222f2c607d005",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/_r410.urdf.xacro",
+      "bytes": 5407,
+      "sha256": "caf35c226ddeea8c9dda470fbe94c332b24a041f9fa334495d209e706111a878",
+      "copied_sha256": "caf35c226ddeea8c9dda470fbe94c332b24a041f9fa334495d209e706111a878",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/_r430.urdf.xacro",
+      "bytes": 5363,
+      "sha256": "9e25ac474b160578488c700419f9d254d1470f469c2c0d59edbdc645766f3486",
+      "copied_sha256": "9e25ac474b160578488c700419f9d254d1470f469c2c0d59edbdc645766f3486",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/_usb_plug.urdf.xacro",
+      "bytes": 1798,
+      "sha256": "22531ecdc0b09aa3ab4408641432617b000618933e98dc2f488ac31b88c8ad79",
+      "copied_sha256": "22531ecdc0b09aa3ab4408641432617b000618933e98dc2f488ac31b88c8ad79",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/test_d405_camera.urdf.xacro",
+      "bytes": 437,
+      "sha256": "a0db6ae9ced56cd347be8f5909c598228860f7a1e5c6083af14b636087d28fc2",
+      "copied_sha256": "a0db6ae9ced56cd347be8f5909c598228860f7a1e5c6083af14b636087d28fc2",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/test_d415_camera.urdf.xacro",
+      "bytes": 585,
+      "sha256": "8b245348a9893cd7b732fade40458029c5506185716eb6a4f289deb81752d93e",
+      "copied_sha256": "8b245348a9893cd7b732fade40458029c5506185716eb6a4f289deb81752d93e",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/test_d435_camera.urdf.xacro",
+      "bytes": 586,
+      "sha256": "0964a39565f72a12645072503673f27545ab537680248e9f2958233c6df7ea8f",
+      "copied_sha256": "0964a39565f72a12645072503673f27545ab537680248e9f2958233c6df7ea8f",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/test_d435_multiple_cameras.urdf.xacro",
+      "bytes": 633,
+      "sha256": "b0a930b1da6841ebde9112265e99ccc88f843ae5b9b1c949ce5d1aac2a48ce57",
+      "copied_sha256": "b0a930b1da6841ebde9112265e99ccc88f843ae5b9b1c949ce5d1aac2a48ce57",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/test_d435i_camera.urdf.xacro",
+      "bytes": 444,
+      "sha256": "75fba55a572de8e8294566d07753c45237da21a77c0aad5737622e3b02941aab",
+      "copied_sha256": "75fba55a572de8e8294566d07753c45237da21a77c0aad5737622e3b02941aab",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/test_d436_camera.urdf.xacro",
+      "bytes": 586,
+      "sha256": "0ad49e7c3162cbe861963ba7e9d29b1bf9b507770f64d254196bcf9b294ea167",
+      "copied_sha256": "0ad49e7c3162cbe861963ba7e9d29b1bf9b507770f64d254196bcf9b294ea167",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/test_d455_camera.urdf.xacro",
+      "bytes": 437,
+      "sha256": "30ea95596301b2bc04ac543fdae5c0b361638a6f9028ef39304612b3ca2b3333",
+      "copied_sha256": "30ea95596301b2bc04ac543fdae5c0b361638a6f9028ef39304612b3ca2b3333",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/test_d585_camera.urdf.xacro",
+      "bytes": 823,
+      "sha256": "71ec3ba20e870b08ab205a1a5d270e26ed426973fa517f91551d0849e5b27c0d",
+      "copied_sha256": "71ec3ba20e870b08ab205a1a5d270e26ed426973fa517f91551d0849e5b27c0d",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/test_r410_camera.urdf.xacro",
+      "bytes": 437,
+      "sha256": "af36e887cfaee105a1ada097f5e0581a174384cf99ba2c6ed24b69dfbb7548f7",
+      "copied_sha256": "af36e887cfaee105a1ada097f5e0581a174384cf99ba2c6ed24b69dfbb7548f7",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "urdf/test_r430_camera.urdf.xacro",
+      "bytes": 437,
+      "sha256": "b1ba8cfe0f09bb7f2845e998e143ac561513dcdc5049b097e3935b77cecf4080",
+      "copied_sha256": "b1ba8cfe0f09bb7f2845e998e143ac561513dcdc5049b097e3935b77cecf4080",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "meshes/d405.stl",
+      "bytes": 194684,
+      "sha256": "a248f41149d12b28311829feecbe7a80cf1481fd05e0f5df2c4c7ecd556edd48",
+      "copied_sha256": "a248f41149d12b28311829feecbe7a80cf1481fd05e0f5df2c4c7ecd556edd48",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "meshes/d415.stl",
+      "bytes": 21258084,
+      "sha256": "5ffbe0d4b4ffee3133b4b55b1fa68c053e46d186f4a4d2b4c0174a89f423481c",
+      "copied_sha256": "5ffbe0d4b4ffee3133b4b55b1fa68c053e46d186f4a4d2b4c0174a89f423481c",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "meshes/d435.dae",
+      "bytes": 15782439,
+      "sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78",
+      "copied_sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "meshes/d436.dae",
+      "bytes": 15782439,
+      "sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78",
+      "copied_sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "meshes/d455.stl",
+      "bytes": 2558184,
+      "sha256": "47e8321db7cb42291810c69329ab10b601108d651dfcac28bfc12469fa142fa6",
+      "copied_sha256": "47e8321db7cb42291810c69329ab10b601108d651dfcac28bfc12469fa142fa6",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "meshes/d585.stl",
+      "bytes": 6997684,
+      "sha256": "18645ba1802a8711c03b8937c807e218831db25e6c69f7a1823090854fe463af",
+      "copied_sha256": "18645ba1802a8711c03b8937c807e218831db25e6c69f7a1823090854fe463af",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "meshes/l515.dae",
+      "bytes": 33208371,
+      "sha256": "ca7963e8472ba1c00ed9253df3a9600d23fd2a73a23fdb1e836fa0260aad811d",
+      "copied_sha256": "ca7963e8472ba1c00ed9253df3a9600d23fd2a73a23fdb1e836fa0260aad811d",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "meshes/plug_collision.stl",
+      "bytes": 11284,
+      "sha256": "fc210c929bba2c9cf3f4ec074d4e6a38549904e9a1eddee9661f34ef7c610f5f",
+      "copied_sha256": "fc210c929bba2c9cf3f4ec074d4e6a38549904e9a1eddee9661f34ef7c610f5f",
+      "matches": true
+    },
+    {
+      "package": "realsense2_description",
+      "relative_path": "meshes/plug.stl",
+      "bytes": 292334,
+      "sha256": "91a0bc6ec83fa24b5dcd4de0d1c0ed78032af2e7ed233b4b232bdbf906fea744",
+      "copied_sha256": "91a0bc6ec83fa24b5dcd4de0d1c0ed78032af2e7ed233b4b232bdbf906fea744",
+      "matches": true
+    }
+  ],
+  "imported_hardware_driver": false,
+  "imported_launch_files": false,
+  "imported_navigation_or_old_maps": false,
+  "build_status": "confirmed_by_user_2_packages_finished_0.63s",
+  "xacro_status": "user_completed_and_generated_urdf_checked",
+  "robot_programs_started": false,
+  "package_discovery_exit_code": 0,
+  "package_discovery_count": 2
+}

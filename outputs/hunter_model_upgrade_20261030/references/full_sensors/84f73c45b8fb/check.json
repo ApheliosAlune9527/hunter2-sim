@@ -1,0 +1,176 @@
+{
+  "ok": true,
+  "all_models_static": true,
+  "robot_control_plugins": [],
+  "velocity_published": false,
+  "partition": "hz_sim_aphelios_73_full_static_84f73c45b8fb",
+  "ros_domain": "73",
+  "report_directory": "/mnt/f/rob-memory/outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb",
+  "native_exit_code": 0,
+  "ros_exit_code": 0,
+  "native": {
+    "ok": true,
+    "lidar": {
+      "count": 2,
+      "bytes": 0,
+      "width": 23040,
+      "height": 0,
+      "finite": 10683,
+      "stamp_ns": 100000000,
+      "frame": "hz_sim/full/hesai_lidar"
+    },
+    "points": {
+      "count": 2,
+      "bytes": 737280,
+      "width": 720,
+      "height": 32,
+      "finite": 0,
+      "stamp_ns": 100000000,
+      "frame": "hz_sim/full/hesai_lidar"
+    },
+    "rgb": {
+      "count": 2,
+      "bytes": 921600,
+      "width": 640,
+      "height": 480,
+      "finite": 0,
+      "stamp_ns": 200000000,
+      "frame": "hz_sim/full/camera_optical_frame"
+    },
+    "depth": {
+      "count": 2,
+      "bytes": 1228800,
+      "width": 640,
+      "height": 480,
+      "finite": 0,
+      "stamp_ns": 200000000,
+      "frame": "hz_sim/full/camera_optical_frame"
+    },
+    "imu": {
+      "count": 12,
+      "bytes": 0,
+      "width": 0,
+      "height": 0,
+      "finite": 0,
+      "stamp_ns": 240000000,
+      "frame": "hz_sim/full/imu_link"
+    }
+  },
+  "ros": {
+    "ok": true,
+    "motion_published": false,
+    "samples": {
+      "imu": {
+        "count": 13,
+        "first_stamp_ns": 1000000,
+        "stamp_ns": 240000000,
+        "frame": "hz_sim/full/imu_link",
+        "acceleration_m_s2": [
+          0.0,
+          0.0,
+          9.81
+        ],
+        "angular_velocity_rad_s": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "clock": {
+        "count": 240,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 245000000
+      },
+      "camera_info": {
+        "count": 2,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 200000000,
+        "frame": "hz_sim/full/camera_optical_frame",
+        "fx": 467.74270306499267,
+        "fy": 467.74270306499267
+      },
+      "depth": {
+        "count": 2,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 200000000,
+        "frame": "hz_sim/full/camera_optical_frame",
+        "width": 640,
+        "height": 480,
+        "encoding": "32FC1",
+        "finite_ranges": 162615,
+        "bytes": 1228800
+      },
+      "rgb": {
+        "count": 2,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 200000000,
+        "frame": "hz_sim/full/camera_optical_frame",
+        "width": 640,
+        "height": 480,
+        "encoding": "rgb8",
+        "bytes": 921600
+      },
+      "points": {
+        "count": 2,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 100000000,
+        "frame": "hz_sim/full/hesai_lidar",
+        "width": 720,
+        "height": 32,
+        "finite_points": 10683,
+        "bytes": 737280
+      },
+      "scan": {
+        "count": 2,
+        "first_stamp_ns": 2000000,
+        "stamp_ns": 100000000,
+        "frame": "hz_sim/full/base_link",
+        "bins": 720,
+        "finite_ranges": 87
+      }
+    },
+    "transforms_from_base_link": {
+      "hesai_lidar": {
+        "xyz_m": [
+          0.539,
+          0.0,
+          0.5249999999999999
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.7071067811865841,
+          0.7071067811865109
+        ]
+      },
+      "camera_optical_frame": {
+        "xyz_m": [
+          0.6576500000000001,
+          0.0175,
+          0.481
+        ],
+        "quaternion_xyzw": [
+          -0.5,
+          0.49999999999755174,
+          -0.5,
+          0.5000000000024483
+        ]
+      },
+      "imu_link": {
+        "xyz_m": [
+          0.64591,
+          0.011980000000000001,
+          0.4861
+        ],
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "ros_command_publishers": 0
+  },
+  "owned_processes_closed": true
+}

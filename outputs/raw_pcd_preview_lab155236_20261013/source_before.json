@@ -1,0 +1,10 @@
+{
+  "source_path": "F:\\rob-memory\\maps\\lab_20261011\\lab_20261011_155236_369289\\merged\\map_raw.pcd",
+  "source_sha256": "A57844447F23C2C02CD30F101AAF622AE86EB8A1CD207B684A940FA464D06441",
+  "bytes": 260648077,
+  "last_write_time_utc": "2026-10-11T08:03:38.1421749Z",
+  "points": 16290495,
+  "payload_offset": 157,
+  "fields": "x y z rgb",
+  "data": "binary"
+}

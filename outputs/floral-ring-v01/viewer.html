@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>花簇戒指 · 造型初稿</title>
+  <style>
+    *{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#f3f0e8;color:#33382f;font-family:"Segoe UI","Microsoft YaHei",sans-serif}
+    body{height:100vh;overflow:hidden}#stage{position:absolute;inset:0}canvas{display:block;touch-action:none}
+    header{position:absolute;top:30px;left:38px;pointer-events:none}header .eyebrow{font-size:11px;letter-spacing:3px;color:#777b6b}
+    h1{font-family:Georgia,"Microsoft YaHei",serif;font-size:29px;font-weight:400;letter-spacing:2px;margin:12px 0 8px}
+    header p{margin:0;font-size:12px;letter-spacing:1px;color:#777b6b}
+    footer{position:absolute;bottom:27px;left:38px;right:38px;display:flex;align-items:end;justify-content:space-between;gap:20px;pointer-events:none}
+    #views{display:flex;gap:6px;pointer-events:auto}button{border:1px solid #cfcec1;background:#f9f7f0c9;padding:10px 18px;border-radius:24px;color:#626858;font:12px inherit;cursor:pointer;backdrop-filter:blur(8px)}button.active{background:#414b3b;color:#fff;border-color:#414b3b}button:focus-visible{outline:2px solid #414b3b;outline-offset:3px}
+    .note{text-align:right;font-size:11px;line-height:1.9;letter-spacing:.6px;color:#7b7e70}.note b{font-weight:500;color:#4e5848}
+    #status{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:13px;color:#707565}
+    #error{display:none;position:absolute;inset:45% 12%;text-align:center;font-size:14px;color:#7c423e}
+    .hidden{display:none!important}body.render-only header,body.render-only footer{display:none}
+    @media(max-width:600px){header{top:22px;left:22px}h1{font-size:22px}footer{bottom:22px;left:22px;right:22px;align-items:center;flex-direction:column}.note{text-align:center}button{padding:10px 15px}}
+  </style>
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+  <div id="stage" aria-label="可拖动旋转的花簇戒指三维造型"></div>
+  <header><div class="eyebrow">BOTANICAL STUDY / V01</div><h1>花簇戒指</h1><p>依照参考图重建 · 造型初稿</p></header>
+  <div id="status">正在载入三维模型…</div><div id="error" role="alert"></div>
+  <footer><div id="views"><button data-view="hero" class="active">斜视</button><button data-view="front">正面</button><button data-view="side">侧面</button><button data-view="back">背面</button></div><div class="note"><b>内径暂定 17 mm</b> · 圈号之后调整<br>拖动旋转 · 滚轮缩放</div></footer>
+  <script type="module">
+    import * as THREE from 'three';
+    import {OrbitControls} from './vendor/OrbitControls.js';
+    import {GLTFLoader} from './vendor/GLTFLoader.js';
+    import {RoomEnvironment} from './vendor/RoomEnvironment.js';
+    const stage=document.getElementById('stage');
+    const query=new URLSearchParams(location.search);
+    if(query.has('render'))document.body.classList.add('render-only');
+    const scene=new THREE.Scene();
+    scene.background=new THREE.Color('#f3f0e8');
+    const camera=new THREE.PerspectiveCamera(34,innerWidth/innerHeight,.1,500);
+    camera.up.set(0,0,1);
+    const renderer=new THREE.WebGLRenderer({antialias:true,alpha:false,preserveDrawingBuffer:true});
+    renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);
+    renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=.88;
+    renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+    stage.appendChild(renderer.domElement);
+    const pmrem=new THREE.PMREMGenerator(renderer);
+    const room=new RoomEnvironment();
+    scene.environment=pmrem.fromScene(room,.06).texture;
+    scene.environmentIntensity=.95;
+    const hemi=new THREE.HemisphereLight(0xfff9e9,0x7b7b70,.65);hemi.position.set(0,-10,30);scene.add(hemi);
+    const key=new THREE.DirectionalLight(0xfffbf0,2.4);key.position.set(-24,-30,45);key.castShadow=true;
+    key.shadow.mapSize.set(2048,2048);key.shadow.camera.left=-27;key.shadow.camera.right=27;key.shadow.camera.top=30;key.shadow.camera.bottom=-28;key.shadow.camera.near=.5;key.shadow.camera.far=120;key.shadow.bias=-.00008;key.shadow.normalBias=.035;key.shadow.radius=3.5;scene.add(key);
+    const rim=new THREE.DirectionalLight(0xe9f1ff,2.2);rim.position.set(22,13,28);scene.add(rim);
+    const fill=new THREE.DirectionalLight(0xfff9df,.7);fill.position.set(20,-10,3);scene.add(fill);
+    const floor=new THREE.Mesh(new THREE.PlaneGeometry(200,200),new THREE.ShadowMaterial({color:0x53594c,opacity:.16}));floor.position.z=-10.2;floor.receiveShadow=true;scene.add(floor);
+    const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(0,0,4.5);controls.enableDamping=true;controls.dampingFactor=.09;controls.minDistance=29;controls.maxDistance=130;controls.maxPolarAngle=Math.PI*.94;
+    const views={hero:[32,-60,30],front:[0,-70,18],side:[65,-7,20],back:[-30,60,26],top:[10,-30,70]};
+    function setView(view){const v=views[view]||views.hero;camera.position.set(...v);controls.target.set(0,0,4.7);controls.update();for(const btn of document.querySelectorAll('[data-view]'))btn.classList.toggle('active',btn.dataset.view===view);window.currentView=view;renderer.render(scene,camera)}
+    window.setRingView=setView;window.ringReady=false;
+    for(const btn of document.querySelectorAll('[data-view]'))btn.addEventListener('click',()=>setView(btn.dataset.view));
+    setView(query.get('view')||'hero');
+    new GLTFLoader().load('./floral-ring-v01.glb',gltf=>{
+      const root=gltf.scene;root.scale.setScalar(1000);root.traverse(obj=>{if(obj.isMesh){obj.castShadow=true;obj.receiveShadow=true;if(obj.material){obj.material.envMapIntensity=1.;obj.material.side=THREE.DoubleSide}}});scene.add(root);
+      window.ringObject=root;window.ringReady=true;document.getElementById('status').classList.add('hidden');renderer.render(scene,camera);
+    },undefined,err=>{console.error(err);document.getElementById('status').classList.add('hidden');const e=document.getElementById('error');e.style.display='block';e.textContent='模型载入失败。请通过本地预览地址打开此页面。';window.ringError=String(err)});
+    addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});
+    (function animate(){requestAnimationFrame(animate);controls.update();renderer.render(scene,camera)})();
+  </script>
+</body>
+</html>

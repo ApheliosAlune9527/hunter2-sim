@@ -1,0 +1,165 @@
+WSLg: 1.0.79
+Architecture: x86_64
+Built: 2026-06-25T17:27:16Z
+OS: Microsoft Azure Linux 3.0
+
+wslg:            6942bb534b537302a7a22617261d9274db3cfa37
+DirectX-Headers: v1.608.0
+FreeRDP:         c4030980b29322a9cb2190711a5fadeeeb8b6a33
+mesa:            23.1.0
+pulseaudio:      c33051f2296af748ac5cd13e51abfac4d129e4c7
+weston:          a7e35fdab455dce5774b43b8aff682f748307e31
+784867e7d000-784867e96000 r--p 00000000 08:30 11134                      /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+784867e96000-784867ed5000 r-xp 00019000 08:30 11134                      /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+784867ed5000-784867eeb000 r--p 00058000 08:30 11134                      /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+784867eeb000-784867eee000 r--p 0006d000 08:30 11134                      /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+784867eee000-784867eef000 rw-p 00070000 08:30 11134                      /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+784867f2e000-784867f35000 r--p 00000000 08:30 49601                      /usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-glx-integration.so
+784867f35000-784867f3d000 r-xp 00007000 08:30 49601                      /usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-glx-integration.so
+784867f3d000-784867f3f000 r--p 0000f000 08:30 49601                      /usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-glx-integration.so
+784867f3f000-784867f40000 ---p 00011000 08:30 49601                      /usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-glx-integration.so
+784867f40000-784867f41000 r--p 00011000 08:30 49601                      /usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-glx-integration.so
+784867f41000-784867f42000 rw-p 00012000 08:30 49601                      /usr/lib/x86_64-linux-gnu/qt5/plugins/xcbglintegrations/libqxcb-glx-integration.so
+784887c2a000-784887c2d000 r--p 00000000 08:30 11636                      /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+784887c2d000-784887c48000 r-xp 00003000 08:30 11636                      /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+784887c48000-784887c4b000 r--p 0001e000 08:30 11636                      /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+784887c4b000-784887c4c000 ---p 00021000 08:30 11636                      /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+784887c4c000-784887c4d000 r--p 00021000 08:30 11636                      /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+784887c4d000-784887c4e000 rw-p 00022000 08:30 11636                      /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+78488cc5e000-78488cc60000 r--p 00000000 08:30 49598                      /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so
+78488cc60000-78488cc61000 r-xp 00002000 08:30 49598                      /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so
+78488cc61000-78488cc62000 r--p 00003000 08:30 49598                      /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so
+78488cc62000-78488cc63000 r--p 00003000 08:30 49598                      /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so
+78488cc63000-78488cc64000 rw-p 00004000 08:30 49598                      /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so
+[12:20:54.675]     deleteAppProvider: 0
+[12:20:54.675]     associateWindowId: 0
+[12:20:54.675]     appId: ignition-gazebo6
+[12:20:54.675]     appGroup: (null)
+[12:20:54.675]     appExecPath: /usr/bin/ign gazebo --force-version 6
+[12:20:54.675]     appWorkingDir: (null)
+[12:20:54.675]     appDesc: Igniton Gazebo 6 (Ubuntu-22.04)
+[12:20:54.675]     appIcon: 0x7179d40870c0
+[12:20:54.675]     appProvider: (null)
+[12:20:54.675]     appWindowId: 0x0
+[12:20:54.675] rdp_rail_notify_app_list(): rdp_peer 0x625ad647c5f0
+[12:20:54.675]     inSync: 1
+[12:20:54.675]     syncStart: 0
+[12:20:54.675]     syncEnd: 0
+[12:20:54.675]     newAppId: 1
+[12:20:54.676]     deleteAppId: 0
+[12:20:54.676]     deleteAppProvider: 0
+[12:20:54.676]     associateWindowId: 0
+[12:20:54.676]     appId: debian-xterm
+[12:20:54.676]     appGroup: (null)
+[12:20:54.676]     appExecPath: xterm
+[12:20:54.676]     appWorkingDir: (null)
+[12:20:54.676]     appDesc: XTerm (Ubuntu-22.04)
+[12:20:54.676]     appIcon: 0x7179d4012100
+[12:20:54.676]     appProvider: (null)
+[12:20:54.676]     appWindowId: 0x0
+[12:20:54.676] rdp_rail_notify_app_list(): rdp_peer 0x625ad647c5f0
+[12:20:54.676]     inSync: 1
+[12:20:54.676]     syncStart: 0
+[12:20:54.676]     syncEnd: 0
+[12:20:54.676]     newAppId: 1
+[12:20:54.676]     deleteAppId: 0
+[12:20:54.676]     deleteAppProvider: 0
+[12:20:54.676]     associateWindowId: 0
+[12:20:54.676]     appId: linguist-qt5
+[12:20:54.676]     appGroup: (null)
+[12:20:54.676]     appExecPath: /usr/lib/qt5/bin/linguist 
+[12:20:54.676]     appWorkingDir: (null)
+[12:20:54.676]     appDesc: Qt 5 Linguist (Ubuntu-22.04)
+[12:20:54.676]     appIcon: 0x625ad642c830
+[12:20:54.676]     appProvider: (null)
+[12:20:54.676]     appWindowId: 0x0
+[12:20:54.676] rdp_rail_notify_app_list(): rdp_peer 0x625ad647c5f0
+[12:20:54.676]     inSync: 1
+[12:20:54.676]     syncStart: 0
+[12:20:54.676]     syncEnd: 0
+[12:20:54.676]     newAppId: 1
+[12:20:54.676]     deleteAppId: 0
+[12:20:54.676]     deleteAppProvider: 0
+[12:20:54.676]     associateWindowId: 0
+[12:20:54.676]     appId: designer-qt5
+[12:20:54.676]     appGroup: (null)
+[12:20:54.676]     appExecPath: /usr/lib/qt5/bin/designer 
+[12:20:54.676]     appWorkingDir: (null)
+[12:20:54.676]     appDesc: Qt 5 Designer (Ubuntu-22.04)
+[12:20:54.676]     appIcon: 0x7179d4038470
+[12:20:54.676]     appProvider: (null)
+[12:20:54.676]     appWindowId: 0x0
+[12:20:54.676] rdp_rail_notify_app_list(): rdp_peer 0x625ad647c5f0
+[12:20:54.676]     inSync: 1
+[12:20:54.676]     syncStart: 0
+[12:20:54.676]     syncEnd: 0
+[12:20:54.676]     newAppId: 1
+[12:20:54.676]     deleteAppId: 0
+[12:20:54.676]     deleteAppProvider: 0
+[12:20:54.676]     associateWindowId: 0
+[12:20:54.676]     appId: assistant-qt5
+[12:20:54.676]     appGroup: (null)
+[12:20:54.676]     appExecPath: /usr/lib/qt5/bin/assistant
+[12:20:54.676]     appWorkingDir: (null)
+[12:20:54.676]     appDesc: Qt 5 Assistant (Ubuntu-22.04)
+[12:20:54.676]     appIcon: 0x7179d4096ff0
+[12:20:54.676]     appProvider: (null)
+[12:20:54.676]     appWindowId: 0x0
+[12:20:54.676] rdp_rail_notify_app_list(): rdp_peer 0x625ad647c5f0
+[12:20:54.676]     inSync: 1
+[12:20:54.676]     syncStart: 0
+[12:20:54.676]     syncEnd: 1
+[12:20:54.676]     newAppId: 1
+[12:20:54.676]     deleteAppId: 0
+[12:20:54.676]     deleteAppProvider: 0
+[12:20:54.676]     associateWindowId: 0
+[12:20:54.676]     appId: debian-uxterm
+[12:20:54.676]     appGroup: (null)
+[12:20:54.676]     appExecPath: uxterm
+[12:20:54.676]     appWorkingDir: (null)
+[12:20:54.676]     appDesc: UXTerm (Ubuntu-22.04)
+[12:20:54.676]     appIcon: 0x7179d402f470
+[12:20:54.676]     appProvider: (null)
+[12:20:54.676]     appWindowId: 0x0
+[12:20:54.738] Pulse Audio Sink listener socket on /mnt/wslg/PulseAudioRDPSink
+[12:20:54.739] xfixes version: 6.0
+[12:20:54.750] created wm, root 1080
+[12:20:54.750] xfixes selection notify event: owner 2097153
+[12:20:54.750] our window, skipping
+[12:20:54.763] RDP Sink version (1 - 1)
+[12:20:58.626] rdp_rail_wake_handler is called on peer_ctx:0x625ad647c5f0
+[12:20:58.626] launching '/usr/libexec/weston-rdprail-shell'
+[12:20:58.682] !!!cursor role is added after creation - WindowId:0x1
+[12:20:58.703] rdp_rail_notify_app_list(): rdp_peer 0x625ad647c5f0
+[12:20:58.703]     inSync: 0
+[12:20:58.703]     syncStart: 0
+[12:20:58.703]     syncEnd: 0
+[12:20:58.703]     newAppId: 0
+[12:20:58.703]     deleteAppId: 0
+[12:20:58.703]     deleteAppProvider: 0
+[12:20:58.703]     associateWindowId: 1
+[12:20:58.703]     appId: Gazebo GUI
+[12:20:58.703]     appGroup: (null)
+[12:20:58.703]     appExecPath: (null)
+[12:20:58.703]     appWorkingDir: (null)
+[12:20:58.703]     appDesc: Gazebo GUI
+[12:20:58.703]     appIcon: (nil)
+[12:20:58.703]     appProvider: (null)
+[12:20:58.703]     appWindowId: 0x2
+[12:20:58.703] Client: ClientGetAppidReq: pid:419 appId:Gazebo GUI WindowId:0x2
+[12:21:01.976] Client: LanguageImeInfo: ProfileType: 1 (TF_PROFILETYPE_INPUTPROCESSOR)
+[12:21:01.976] Client: LanguageImeInfo: LanguageID: 0x804
+[12:21:01.976] Client: LanguageImeInfo: LanguageProfileCLSID: GUID_CHSIME : 81d4e9c9-1d3b-41bc-9e6c-4b40bf79e35e
+[12:21:01.976] Client: LanguageImeInfo: ProfileGUID: GUID_PROFILE_SIMPLEFAST : fa550b04-5ad7-411f-a5ac-ca038ec515d7
+[12:21:01.976] Client: LanguageImeInfo: KeyboardLayout: 0x0
+[12:21:16.837] xfixes selection notify event: owner 2097153
+[12:21:16.838] our window, skipping
+[12:21:16.839] selection request, CLIPBOARD, target TARGETS, property _QT_SELECTION
+[12:21:42.312] xfixes selection notify event: owner 2097153
+[12:21:42.313] our window, skipping
+[12:21:42.317] selection request, CLIPBOARD, target TARGETS, property _QT_SELECTION
+[12:24:25.044] xfixes selection notify event: owner 2097153
+[12:24:25.044] our window, skipping
+[12:24:25.049] selection request, CLIPBOARD, target TARGETS, property _QT_SELECTION
+libqt5gui5:amd64	5.15.3+dfsg-2ubuntu0.2
+libqt5quick5:amd64	5.15.3+dfsg-1

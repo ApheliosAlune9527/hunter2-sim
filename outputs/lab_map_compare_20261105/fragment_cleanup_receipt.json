@@ -1,0 +1,8 @@
+{
+  "rule": "occupied component whose whole 1-cell ring is free -> not a wall",
+  "region_y_min_m": 13.0,
+  "components_removed": 42,
+  "cells_removed": 174,
+  "remaining_occupied": 5527,
+  "preview": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\fragment_cleanup.png"
+}

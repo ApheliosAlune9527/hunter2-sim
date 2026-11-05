@@ -1,0 +1,8 @@
+{
+  "mode": "check",
+  "ok": false,
+  "velocity_published": false,
+  "preflight_refused": true,
+  "error": "上次运动测试中断，需先结束你自己的仿真并重新打开，再开始新测试",
+  "report_directory": "/home/aphelios/hz_sim_ws/reports/straight_20261014_154809_4711b93b"
+}

@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "source_sha256": "790333f3aa749400429f27d0fa0838662dc8c65e5ad6e64b96dfa9de8d183daf",
+  "requested": {
+    "fx": 606.7595825195312,
+    "fy": 606.700439453125,
+    "cx": 329.2454833984375,
+    "cy": 243.96548461914062
+  },
+  "world_all_static": true,
+  "robot_control_plugins": [],
+  "ros_or_hardware_started": false,
+  "motion_published": false,
+  "ign_partition": "hz_camera_probe_c8c29e6570ff",
+  "sdf_valid": true,
+  "camera_info_received": true,
+  "camera_info": "header {\n  stamp {\n    nsec: 2000000\n  }\n  data {\n    key: \"frame_id\"\n    value: \"hz_camera_probe/camera_optical_frame\"\n  }\n}\nwidth: 640\nheight: 480\ndistortion {\n  k: 0\n  k: 0\n  k: 0\n  k: 0\n  k: 0\n}\nintrinsics {\n  k: 606.75958251953125\n  k: 0\n  k: 329.2454833984375\n  k: 0\n  k: 606.700439453125\n  k: 243.96548461914062\n  k: 0\n  k: 0\n  k: 1\n}\nprojection {\n  p: 606.75958251953125\n  p: 0\n  p: 320\n  p: 0\n  p: 0\n  p: 606.75958251953125\n  p: 240\n  p: 0\n  p: 0\n  p: 0\n  p: 1\n  p: 0\n}\nrectification_matrix: 1\nrectification_matrix: 0\nrectification_matrix: 0\nrectification_matrix: 0\nrectification_matrix: 1\nrectification_matrix: 0\nrectification_matrix: 0\nrectification_matrix: 0\nrectification_matrix: 1\n\n",
+  "owned_server_closed": true
+}

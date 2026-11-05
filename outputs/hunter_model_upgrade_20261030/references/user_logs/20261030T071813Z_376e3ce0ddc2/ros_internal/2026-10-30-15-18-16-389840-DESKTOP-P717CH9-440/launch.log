@@ -1,0 +1,12 @@
+1793344696.3998919 [INFO] [launch]: All log files can be found below /mnt/f/rob-memory/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/ros_internal/2026-10-30-15-18-16-389840-DESKTOP-P717CH9-440
+1793344696.4026499 [INFO] [launch]: Default logging verbosity is set to INFO
+1793344696.5947025 [INFO] [parameter_bridge-1]: process started with pid [459]
+1793344696.5967605 [INFO] [robot_state_publisher-2]: process started with pid [461]
+1793344696.5983207 [INFO] [pointcloud_to_laserscan_node-3]: process started with pid [463]
+1793344705.5544484 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1793344705.5585053 [INFO] [pointcloud_to_laserscan_node-3]: sending signal 'SIGINT' to process[pointcloud_to_laserscan_node-3]
+1793344705.5615408 [INFO] [robot_state_publisher-2]: sending signal 'SIGINT' to process[robot_state_publisher-2]
+1793344705.5641050 [INFO] [parameter_bridge-1]: sending signal 'SIGINT' to process[parameter_bridge-1]
+1793344705.5655136 [INFO] [parameter_bridge-1]: process has finished cleanly [pid 459]
+1793344706.5785897 [INFO] [pointcloud_to_laserscan_node-3]: process has finished cleanly [pid 463]
+1793344706.5800402 [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 461]

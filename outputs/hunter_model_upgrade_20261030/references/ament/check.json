@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "build_exit_code": 0,
+  "sdf_check_exit_code": 0,
+  "sdf_check_output": "Valid.\n",
+  "physical_links": 7,
+  "active_joints": 6,
+  "simulator_started": false,
+  "hardware_driver_started": false,
+  "velocity_published": false
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hz_hunter_full_description</name>
+  <version>0.1.0</version>
+  <description>Self-contained articulated HUNTER 2.0 CAD and local sensor mounting description.</description>
+  <maintainer email="maintainer@example.invalid">Local simulation workspace</maintainer>
+  <license>TODO: upstream CAD license unresolved; see SOURCE_NOTICE.md</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

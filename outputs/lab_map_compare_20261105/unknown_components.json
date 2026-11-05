@@ -1,0 +1,60 @@
+{
+  "map": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\lab_odom_06_new.pgm",
+  "min_cells": 200,
+  "components": [
+    {
+      "label": "U1",
+      "id": 1,
+      "cells": 57333,
+      "bbox_cells": [
+        0,
+        240,
+        0,
+        464
+      ],
+      "bbox_m": [
+        -5.09,
+        6.96,
+        -4.89,
+        18.36
+      ],
+      "touches_map_border": true
+    },
+    {
+      "label": "U60",
+      "id": 60,
+      "cells": 3582,
+      "bbox_cells": [
+        131,
+        181,
+        179,
+        303
+      ],
+      "bbox_m": [
+        1.46,
+        4.01,
+        3.16,
+        9.41
+      ],
+      "touches_map_border": false
+    },
+    {
+      "label": "U40",
+      "id": 40,
+      "cells": 2981,
+      "bbox_cells": [
+        132,
+        185,
+        69,
+        167
+      ],
+      "bbox_m": [
+        1.51,
+        4.21,
+        9.96,
+        14.91
+      ],
+      "touches_map_border": false
+    }
+  ]
+}

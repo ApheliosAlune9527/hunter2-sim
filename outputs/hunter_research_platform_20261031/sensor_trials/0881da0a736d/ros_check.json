@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "motion_published": false,
+  "samples": {},
+  "error": "ValueError('Missing/non-progressing ROS stream: clock')"
+}

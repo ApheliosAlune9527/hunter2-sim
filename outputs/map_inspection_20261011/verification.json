@@ -1,0 +1,21 @@
+{
+  "merged_payload_matches_all_5274_chunks": true,
+  "raw_payload_sha256": "fd48f1c97500b8843b97cf07ed256d049be7b8a08719f1c0404a36544c3d797f",
+  "derived_files": [
+    {
+      "name": "map_working_005m.pcd",
+      "points": 314984,
+      "bytes": 5039897,
+      "nonfinite_coordinates": 0,
+      "sha256": "88d9e7d2d0515b6071e08eaac5ec9f2f15064b1389432cff3e98fd6d566d2203"
+    },
+    {
+      "name": "map_denoised_005m.pcd",
+      "points": 314712,
+      "bytes": 5035545,
+      "nonfinite_coordinates": 0,
+      "sha256": "fcccc880e5bd097a9be339ef9fa7e228182dcdc49c7a6a1af134b5e7c00e23ea"
+    }
+  ],
+  "denoised_records_are_exact_subset": true
+}

@@ -1,0 +1,33 @@
+{
+  "format": "hz_first_virtual_motion_proposal_v1",
+  "date_local": "2026-10-13",
+  "status": "authorized_and_prepared_awaiting_user_visible_trial",
+  "execution_environment": "personal WSL Ubuntu-22.04 / Gazebo hz_hunter_control",
+  "real_robot_driver": false,
+  "ros_bridge": false,
+  "command_topic": "/hz_sim/cmd_vel",
+  "target_linear_speed_m_s": 0.1,
+  "target_angular_speed_rad_s": 0,
+  "drive_duration_sim_s": 2.0,
+  "stop_and_observation_sim_s": 1.0,
+  "maximum_total_stepped_sim_s": 3.0,
+  "estimated_distance_m": 0.2,
+  "estimate_basis": "simple speed ramp with configured 0.20 m/s2 acceleration, not measured",
+  "execution_method_planned": "bounded simulation steps from paused world, clear velocity target and leave paused",
+  "test_helper_implementation": "implemented, compiled, refusal/cleanup tests and independent fixture passed",
+  "velocity_command_provided": true,
+  "velocity_command_sent": false,
+  "real_motion_authorized": false,
+  "authorization_scope_requested": "virtual low-speed motion checks only; first straight, later turning with disclosed bounds",
+  "authorization": {
+    "format": "hz_virtual_motion_authorization_v1",
+    "date_local": "2026-10-14",
+    "user_message": "允许虚拟车低速运动测试",
+    "scope": "personal WSL / Gazebo low-speed virtual motion tests",
+    "real_robot_authorized": false,
+    "first_test": "0.10 m/s target for 2 simulation seconds, zero target for 1 simulation second, then paused",
+    "physical_driver_and_ros_bridge_excluded": true
+  },
+  "fixture_motion_executed": true,
+  "user_visible_world_motion_executed": false
+}

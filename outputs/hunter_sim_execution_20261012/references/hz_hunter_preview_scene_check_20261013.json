@@ -1,0 +1,62 @@
+{
+  "format": "hz_hunter_paused_preview_scene_v1",
+  "date_local": "2026-10-13",
+  "world_file": "F:/rob-memory/sim/scenes/hz_hunter_preview.sdf",
+  "world_sha256": "6f1c39a576bd8160a6b703edcce5a55e701aa09128a7b0a504b4a223f7460265",
+  "gui_file": "F:/rob-memory/sim/scenes/hz_hunter_preview_gui.config",
+  "gui_sha256": "c222fbf73caf00b1ef5f1fb34c7a3b28ca1ee93178a8ef59049917361d9cec09",
+  "model_source": "personal hz_hunter_core_precheck.sdf; semantically identical to user-installed URDF",
+  "model_links": 7,
+  "model_joints": 6,
+  "vehicle_model_plugins": 0,
+  "gui_start_paused": true,
+  "launcher_uses_run_flag": false,
+  "ros_bridge_included": false,
+  "hardware_driver_included": false,
+  "old_lab_map_included": false,
+  "physics_or_gui_started": true,
+  "renderer_validation": "user_screenshot_confirms_rendered_ground_and_hz_hunter_core",
+  "sdf_validation_exit_code": 0,
+  "launcher_syntax_exit_code": 0,
+  "launcher_guard_tests_passed": 2,
+  "ros_guard_tests_passed": 4,
+  "user_gui_open_status": "confirmed_by_user_screenshot_20261013",
+  "screenshot_evidence": {
+    "path": "F:/rob-memory/outputs/hunter_sim_execution_20261012/references/gazebo_paused_preview_e5156ead_20261013.png",
+    "bytes": 566701,
+    "sha256": "065635903a9f4f6870051b0d02be09fb7e04caf8f6ec0d55ffc5c4c6190f43ed",
+    "source_copy_matches": true,
+    "world_name_visible": "hz_hunter_preview",
+    "model_name_visible": "hz_hunter_core",
+    "ground_visible": true,
+    "vehicle_rendered": true,
+    "ui_pause_evidence": "play triangle and 0.00 percent visible; consistent with paused state",
+    "physics_time_advanced_verified": false,
+    "physics_stability_verified": false,
+    "render_frame_rate_measured": false
+  },
+  "warnings_observed_in_screenshot": [
+    "Qt QML Connections implicit onFoo syntax deprecated",
+    "WorldStats RowLayout binding loop on x",
+    "Requested anti-aliasing level 8 unsupported; valid levels [0, 4]; renderer reports setting to 0"
+  ],
+  "user_static_observation": {
+    "format": "hz_hunter_static_observation_v1",
+    "date_local": "2026-10-13",
+    "world": "hz_hunter_preview",
+    "user_feedback_original": "没有穿模 飘逸 翻倒 问题",
+    "user_feedback_interpreted": "用户观察未见穿模、漂移或翻倒",
+    "result": "qualitative_observation_passed",
+    "screenshot": {
+      "path": "F:/rob-memory/outputs/hunter_sim_execution_20261012/references/gazebo_static_observation_2d5b3dc0_20261013.png",
+      "bytes": 33873,
+      "sha256": "7709da057467c524e7d049599f50be3fe2852c0dbc17489e4757b6131a791bf4",
+      "source_copy_matches": true
+    },
+    "exact_simulation_duration_measured": false,
+    "drift_distance_measured": false,
+    "attitude_change_measured": false,
+    "dynamics_calibrated": false,
+    "real_robot_motion_authorized": false
+  }
+}

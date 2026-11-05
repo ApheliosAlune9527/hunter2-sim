@@ -1,0 +1,13 @@
+{
+  "asset_root": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5",
+  "file_counts": {
+    "hunter_reference.tar.gz": 131,
+    "realsense_description_reference.tar.gz": 53
+  },
+  "packages": [
+    "hunter_base",
+    "hunter_description",
+    "hunter_nav_odom",
+    "realsense2_description"
+  ]
+}

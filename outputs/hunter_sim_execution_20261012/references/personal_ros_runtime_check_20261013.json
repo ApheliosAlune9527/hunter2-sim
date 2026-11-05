@@ -1,0 +1,19 @@
+{
+  "format": "hz_personal_ros_runtime_check_v1",
+  "checked_at_utc": "2026-10-13T12:51:08.976255+00:00",
+  "passed": true,
+  "username": "aphelios",
+  "wsl_distribution": "Ubuntu-22.04",
+  "ros_domain_id": 73,
+  "rmw_implementation": "rmw_cyclonedds_cpp",
+  "dds_selected_addresses": [
+    "127.0.0.1"
+  ],
+  "probe_node": "/hz_sim/isolation_probe_5afef8dd",
+  "probe_node_destroyed": true,
+  "trace_path": "/home/aphelios/hz_sim_ws/reports/ros_isolation_40c07b491e2c/cyclonedds.log",
+  "motion_commands_published": false,
+  "hardware_driver_started": false,
+  "os_network_sandbox_verified": false,
+  "scope": "This ROS context selected domain 73 and the loopback interface; not a network firewall or a Gazebo transport test."
+}

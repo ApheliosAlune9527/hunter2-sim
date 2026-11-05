@@ -1,0 +1,128 @@
+PS C:\Users\Aphelios> wsl.exe -d Ubuntu-22.04 -u aphelios --exec /usr/bin/env QSG_INFO=1 QT_LOGGING_RULES=qt.qpa.gl=true LIBGL_DEBUG=verbose /bin/bash /mnt/f/rob-memory/sim/tools/start_control_scene.bash 2>&1 | Tee-Object -FilePath 'F:\rob-memory\outputs\hunter_sim_execution_20261012\references\user_logs\gazebo_graphics_diagnostic_20261014.txt'
+wsl.exe : wsl: 纇Km0R localhost 鉔tM憂
+                                      FO*g\曄P0R WSL0NAT !j_
+                                                             N剉 WSL
+                                                                     所在位置 行:1 字符: 1
+                                                                                          + wsl.exe -d Ubuntu-22.04 -u aphelios --exec /usr/bin/env QSG_INFO=1 QT ...
+                                             + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                                                                        + CategoryInfo          : NotSpecified: (wsl: 纇Km0R..._
+                                                        N剉 WSL :String) [], RemoteException
+                                                                                                + FullyQualifiedErrorId : NativeCommandError
+
+                     N/ec localhost 鉔t0
+
+                                        宸插姞杞戒釜浜轰豢鐪熺幆澧冿細Humble / ROS 鍩?73 / 鏈満閫氫俊 / NVIDIA銆?{"world": "hz_hunter_control", "command_topic": "/hz_sim/cmd_vel", "odom_topic": "/hz_sim/odom", "tf_topic": "/hz_sim/tf", "minimum_turning_radius_m": 1.669156096106059, "maximum_inner_steering_rad": 0.44394872512048306, "maximum_rear_wheel_speed_rad_s": 2.1476896462891375, "ros_bridge": false, "hardware_driver": false, "gui_render_engine": "ogre"}
+1791955158.787937 [73]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+                                                                                                        閫氳繃锛氫釜浜?ROS 鍩?73锛孋ycloneDDS 瀹為檯閫夋嫨 127.0.0.1銆?妫€鏌ヨ妭鐐瑰凡閫€鍑猴紱鏈彂甯冭繍鍔ㄦ寚浠わ紝鏈惎鍔ㄥ簳鐩橀┍鍔ㄣ€?璁板綍锛?home/aphelios/hz_sim_ws/reports/ros_isolation_latest.json
+libGL: MESA-LOADER: dlopen(/usr/lib/x86_64-linux-gnu/dri/swrast_dri.so)
+                                                                       libGL: did not find extension DRI_Kopper version 1
+ libGL: Can't open configuration file /etc/drirc: No such file or directory.
+                                                                            libGL: Can't open configuration file /home/aphelios/.drirc: No such file or directory.
+                                          libGL: Can't open configuration file /etc/drirc: No such file or directory.
+                                                                                                                     libGL: Can't open configuration file /home/aphelios/.drirc: No such file or directory.
+                                                                                   libGL: did not find extension DRI2_Flush version 1
+             [GUI] [Wrn] [Application.cc:802] [QT] file::/Gazebo/GazeboDrawer.qml:242:3: QML Connections: Implicit
+                                                                                                                  ly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+                                                                                                                 [GUI] [Wrn] [Application.cc:802] [QT] file::/EntityContextMenuPlugin/EntityContextMenuPlugin.qml:56:5
+                                                                                              : QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function
+                                                                                              onFoo(<arguments>) { ... }
+                                                                                                                       [GUI] [Wrn] [Application.cc:802] [QT] file::/Spawn/Spawn.qml:32:3: QML Connections: Implicitly define
+                                                                                                    d onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }
+                                                                                          姝ｅ湪鎵撳紑涓汉 Gazebo 鎺у埗鍦烘櫙锛屽垵濮嬬姸鎬佷负鏆傚仠銆?鍙姞杞借櫄鎷熷悗杞┍鍔ㄤ笌鍓嶈疆杞悜锛涙湰鍏ュ彛涓嶅彂閫侀€熷害锛屾湭鎺ュ叆 ROS 妗ユ帴鎴栧疄杞﹂┍鍔ㄣ€?[Msg] Ignition Gazebo GUI    v6.18.0
+[GUI] [Msg] Loading config [/mnt/f/rob-memory/sim/scenes/hz_hunter_control_gui.config]
+[GUI] [Msg] Added plugin [3D View] to main window
+[GUI] [Msg] Loaded plugin [MinimalScene] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libMinimalScene.so]
+[GUI] [Msg] Added plugin [Entity Context Menu] to main window
+[GUI] [Msg] Loaded plugin [EntityContextMenuPlugin] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libEntityContextMenuPlugin.so]
+[GUI] [Msg] Added plugin [Scene Manager] to main window
+[GUI] [Msg] Loaded plugin [GzSceneManager] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libGzSceneManager.so]
+[GUI] [Msg] Camera view controller topic advertised on [/gui/camera/view_control]
+[GUI] [Msg] Camera reference visual topic advertised on [/gui/camera/view_control/reference_visual]
+[GUI] [Msg] Camera view control sensitivity advertised on [/gui/camera/view_control/sensitivity]
+[GUI] [Msg] Added plugin [Interactive view control] to main window
+[GUI] [Msg] Loaded plugin [InteractiveViewControl] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libInteractiveViewControl.so]
+[GUI] [Msg] Added plugin [Camera tracking] to main window
+[GUI] [Msg] Loaded plugin [CameraTracking] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libCameraTracking.so]
+[GUI] [Msg] Listening to stats on [/world/hz_hunter_control/stats]
+[GUI] [Msg] Added plugin [Marker Manager] to main window
+[GUI] [Msg] Loaded plugin [MarkerManager] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libMarkerManager.so]
+[GUI] [Msg] Added plugin [Select entities] to main window
+[GUI] [Msg] Loaded plugin [SelectEntities] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libSelectEntities.so]
+[GUI] [Msg] Added plugin [Spawn] to main window
+[GUI] [Msg] Loaded plugin [Spawn] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libSpawn.so]
+[GUI] [Msg] View as transparent service on [/gui/view/transparent]
+[GUI] [Msg] View as wireframes service on [/gui/view/wireframes]
+[GUI] [Msg] View center of mass service on [/gui/view/com]
+[GUI] [Msg] View inertia service on [/gui/view/inertia]
+[GUI] [Wrn] [Application.cc:802] [QT] file::/TransformControl/TransformControl.qml:104:3: QML Connect
+                                                                                                     ions: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<argum
+                                                                                                    ents>) { ... }
+                                                                                                                  [GUI] [Wrn] [Application.cc:802] [QT] file::/TransformControl/TransformControl.qml:99:3: QML Connecti
+                                                                                               ons: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<argume
+                                                                                              nts>) { ... }
+                                                                                                           [GUI] [Wrn] [Application.cc:802] [QT] file::/TransformControl/TransformControl.qml:94:3: QML Connecti
+                                                                                        ons: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<argume
+                                                                                       nts>) { ... }
+                                                                                                    [GUI] [Wrn] [Application.cc:802] [QT] file::/TransformControl/TransformControl.qml:89:3: QML Connecti
+                                                                                 ons: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<argume
+                                                                                nts>) { ... }
+                                                                                             [GUI] [Msg] View collisions service on [/gui/view/collisions]
+[GUI] [Msg] View joints service on [/gui/view/joints]
+[GUI] [Msg] View frames service on [/gui/view/frames]
+[GUI] [Msg] Added plugin [Visualization capabilities] to main window
+[GUI] [Msg] Loaded plugin [VisualizationCapabilities] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libVisualizationCapabilities.so]
+[GUI] [Msg] Using world control service [/world/hz_hunter_control/control]
+[GUI] [Msg] Listening to stats on [/world/hz_hunter_control/stats]
+[GUI] [Msg] Added plugin [World control] to main window
+[GUI] [Msg] Loaded plugin [WorldControl] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libWorldControl.so]
+[GUI] [Msg] Listening to stats on [/world/hz_hunter_control/stats]
+[GUI] [Msg] Added plugin [World stats] to main window
+[GUI] [Msg] Loaded plugin [WorldStats] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libWorldStats.so]
+[GUI] [Msg] Added plugin [Shapes] to main window
+[GUI] [Msg] Loaded plugin [Shapes] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libShapes.so]
+[GUI] [Msg] Added plugin [Lights] to main window
+[GUI] [Msg] Loaded plugin [Lights] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libLights.so]
+[GUI] [Msg] Added plugin [Transform control] to main window
+[GUI] [Msg] Loaded plugin [TransformControl] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libTransformControl.so]
+[GUI] [Msg] Screenshot service on [/gui/screenshot]
+[GUI] [Msg] Added plugin [Screenshot] to main window
+[GUI] [Msg] Loaded plugin [Screenshot] from path [/usr/lib/x86_64-linux-gnu/ign-gui-6/plugins/libScreenshot.so]
+[GUI] [Msg] Added plugin [Copy/Paste] to main window
+[GUI] [Msg] Loaded plugin [CopyPaste] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libCopyPaste.so]
+[GUI] [Msg] Added plugin [Component inspector] to main window
+[GUI] [Msg] Loaded plugin [ComponentInspector] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libComponentInspector.so]
+[GUI] [Msg] Added plugin [Entity tree] to main window
+[GUI] [Wrn] [Application.cc:802] [QT] file::/WorldStats/WorldStats.qml:53:3: QML RowLayout: Binding l
+                                                                                                     oop detected for property "x"
+          [GUI] [Msg] Loaded plugin [EntityTree] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-6/pl[Msg] Received world [/mnt/f/rob-memory/sim/scenes/hz_hunter_control.sdf] from the GUI.
+[Msg] Ignition Gazebo Server v6.18.0
+[Msg] Loading SDF world file[/mnt/f/rob-memory/sim/scenes/hz_hunter_control.sdf].
+[Msg] Serving entity system service on [/entity/system/add]
+[Msg] Create service on [/world/hz_hunter_control/create]
+[Msg] Remove service on [/world/hz_hunter_control/remove]
+[Msg] Pose service on [/world/hz_hunter_control/set_pose]
+[Msg] Pose service on [/world/hz_hunter_control/set_pose_vector]
+[Msg] Light configuration service on [/world/hz_hunter_control/light_config]
+[Msg] Physics service on [/world/hz_hunter_control/set_physics]
+[Msg] SphericalCoordinates service on [/world/hz_hunter_control/set_spherical_coordinates]
+[Msg] Enable collision service on [/world/hz_hunter_control/enable_collision]
+[Msg] Disable collision service on [/world/hz_hunter_control/disable_collision]
+[Msg] Material service on [/world/hz_hunter_control/visual_config]
+[Msg] Material service on [/world/hz_hunter_control/wheel_slip]
+[Msg] AckermannSteering subscribing to twist messages on [/hz_sim/cmd_vel]
+[Msg] Loaded level [3]
+[Msg] Serving world controls on [/world/hz_hunter_control/control], [/world/hz_hunter_control/control/state] and [/world/hz_hunter_control/playback/control]
+[Msg] Serving GUI information on [/world/hz_hunter_control/gui/info]
+[Msg] World [hz_hunter_control] initialized with [hz_physics] physics profile.
+[Msg] Serving world SDF generation service on [/world/hz_hunter_control/generate_world_sdf]
+[Msg] Serving world names on [/gazebo/worlds]
+[Msg] Resource path add service on [/gazebo/resource_paths/add].
+[Msg] Resource path get service on [/gazebo/resource_paths/get].
+[Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+[Msg] Resource paths published on [/gazebo/resource_paths].
+[Msg] Server control service on [/server_control].
+[Msg] Found no publishers on /stats, adding root stats topic
+[Msg] Found no publishers on /clock, adding root clock topic
+[Msg] Serving scene information on [/world/hz_hunter_control/scene/info]
+[Msg] Serving graph information on [/world/hz_hunter_control/scene/graph]
+[Msg] Serving full state on [/world/hz_hunter_control/state]

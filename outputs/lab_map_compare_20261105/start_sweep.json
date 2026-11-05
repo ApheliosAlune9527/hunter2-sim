@@ -1,0 +1,73 @@
+{
+  "map": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\lab_odom_06_new.pgm",
+  "origin": [
+    -5.09,
+    -4.89,
+    0.0
+  ],
+  "target_y_m": -0.32,
+  "view": [
+    -2.6,
+    2.6,
+    -3.0,
+    1.8
+  ],
+  "candidates": [
+    {
+      "label": "P1",
+      "row": 354,
+      "col": 140,
+      "x_m": 1.935,
+      "y_m": 0.635,
+      "clearance_m": 2.5
+    },
+    {
+      "label": "P2",
+      "row": 357,
+      "col": 134,
+      "x_m": 1.635,
+      "y_m": 0.485,
+      "clearance_m": 2.35
+    },
+    {
+      "label": "P3",
+      "row": 360,
+      "col": 129,
+      "x_m": 1.385,
+      "y_m": 0.335,
+      "clearance_m": 2.2
+    },
+    {
+      "label": "P4",
+      "row": 364,
+      "col": 125,
+      "x_m": 1.185,
+      "y_m": 0.135,
+      "clearance_m": 2.0
+    },
+    {
+      "label": "P5",
+      "row": 369,
+      "col": 118,
+      "x_m": 0.835,
+      "y_m": -0.115,
+      "clearance_m": 1.8
+    },
+    {
+      "label": "P6",
+      "row": 369,
+      "col": 115,
+      "x_m": 0.685,
+      "y_m": -0.115,
+      "clearance_m": 1.65
+    },
+    {
+      "label": "P7",
+      "row": 370,
+      "col": 109,
+      "x_m": 0.385,
+      "y_m": -0.165,
+      "clearance_m": 1.4
+    }
+  ]
+}

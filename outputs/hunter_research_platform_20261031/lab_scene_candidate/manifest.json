@@ -1,0 +1,36 @@
+{
+  "map_selection": "User confirmed 155236 on 2026-10-31",
+  "source_pcd": "D:\\rob-memory\\maps\\lab_20261011\\lab_20261011_155236_369289\\merged\\map_raw.pcd",
+  "source_pcd_sha256": "a57844447f23c2c02cd30f101aaf622ae86eb8a1cd207b684a940fa464d06441",
+  "source_occupancy_sha256": "8e7e37cb2a20fe4888af20434b56d80e4f4d8f188cd460b100eb6773ccbf0e8e",
+  "resolution_m": 0.05,
+  "origin_xy_m": [
+    -18.8,
+    -29.95
+  ],
+  "occupied_cells": 24731,
+  "free_floor_evidence_cells": 37031,
+  "unknown_cells": 924944,
+  "collision_boxes": 3037,
+  "occupied_mask_reproduced_exactly": true,
+  "unknown_changed_to_free": false,
+  "geometry_assumption": "Every observed occupied XY cell conservatively extruded from z=0 to 1.5m; not measured wall/object heights.",
+  "compact_mesh": {
+    "path": "D:\\rob-memory\\outputs\\hunter_research_platform_20261031\\lab_scene_candidate\\observed_obstacles.stl",
+    "sha256": "5b5149f4f1b4f5c5e42f80e0164bba86d9fc4e5c9fa2bb4c0ae42ca6cfc77bf0",
+    "triangles": 36444,
+    "sdf": "lab_collision_mesh_candidate.sdf",
+    "same_box_geometry": true
+  },
+  "conservative_all_yaw_footprint_radius_m": 0.95,
+  "safe_centre_cells": 1753,
+  "largest_safe_component_cells": 1228,
+  "largest_safe_component_area_m2": 3.0700000000000003,
+  "navigation_validated": false,
+  "localization_validated": false,
+  "status": "collision_geometry_candidate_requires_review",
+  "native_mesh_sdf_check": "Valid",
+  "mesh_world_load_verified": true,
+  "ros_map_load_verified": true,
+  "separate_box_sdf_check_exit_code": 9
+}

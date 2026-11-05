@@ -1,0 +1,9 @@
+{
+  "format": "hz_existing_helpers_v1",
+  "robot": "car-NUC15JNKU7X4",
+  "root": "/home/car/hz_ws",
+  "files": {
+    "scripts/hz_mapping_session.py": "76422832047f32056a08dde99a5da8b372f2db560e4a5d26dd76888657eada5e",
+    "scripts/pcd_export.py": "2067444b2dd9ec8f69b421eed688a8377dee59ada12bcacdba6e4ca729ee07a1"
+  }
+}

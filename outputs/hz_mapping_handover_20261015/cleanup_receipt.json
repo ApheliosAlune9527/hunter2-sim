@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-15",
+  "method": "Windows Recycle Bin",
+  "removed": [
+    {
+      "path": "E:\\robot_lab\\hz_ws_最终交付_20261015",
+      "directory": true
+    },
+    {
+      "path": "E:\\robot_lab\\hz_ws_最终交付_20261015_完整包.zip",
+      "directory": false
+    },
+    {
+      "path": "E:\\robot_lab\\hz_ws_FAST-LIVO2_启动命令_20261015.txt",
+      "directory": false
+    },
+    {
+      "path": "E:\\robot_lab\\hz_ws_FAST-LIVO2_ROS2实时日志启动_20261015.txt",
+      "directory": false
+    },
+    {
+      "path": "F:\\rob-memory\\outputs\\hz_mapping_final_20261015",
+      "directory": true
+    },
+    {
+      "path": "F:\\rob-memory\\outputs\\startup_commands_20261015",
+      "directory": true
+    },
+    {
+      "path": "F:\\rob-memory\\outputs\\mapping_rerun_guide_20261011",
+      "directory": true
+    },
+    {
+      "path": "F:\\rob-memory\\hz_mapping_tools_20261011\\完整建图流程.md",
+      "directory": false
+    },
+    {
+      "path": "F:\\rob-memory\\hz_mapping_tools_20261011\\hz_ws_简洁启动命令清单.txt",
+      "directory": false
+    },
+    {
+      "path": "F:\\rob-memory\\hz_mapping_tools_20261011\\hz_ws_ROS2启动命令清单_离线版.txt",
+      "directory": false
+    }
+  ],
+  "protected_originals_unchanged": true,
+  "historical_pcd_counts": {
+    "lab_20261011_141011_768151": 5274,
+    "lab_20261011_155236_369289": 5245
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "old": {
+    "name": "lab_odom_06 原件 (2026-09-22)",
+    "width_cells": 287,
+    "height_cells": 469,
+    "extent_m": [
+      14.35,
+      23.45
+    ],
+    "occupied": 5312,
+    "free": 47878,
+    "unknown": 81413,
+    "occupied_fraction_of_known": 0.0999,
+    "largest_free_component_m2": 117.88,
+    "occupied_density_per_m2": 13.28,
+    "origin": [
+      -1.31,
+      -15.4,
+      0.0
+    ]
+  },
+  "new": {
+    "name": "lab_odom_06 新版 (2026-11-01)",
+    "width_cells": 241,
+    "height_cells": 465,
+    "extent_m": [
+      12.05,
+      23.25
+    ],
+    "occupied": 5928,
+    "free": 41446,
+    "unknown": 64691,
+    "occupied_fraction_of_known": 0.1251,
+    "largest_free_component_m2": 101.98,
+    "occupied_density_per_m2": 14.82,
+    "origin": [
+      -5.09,
+      -4.89,
+      0.0
+    ]
+  },
+  "alignment": {
+    "search": "rotation -15..15 deg (1 deg step) + FFT translation",
+    "rotation_deg": -7,
+    "translation_cells": [
+      16,
+      -1
+    ],
+    "occupied_overlap_fraction": 0.3142,
+    "translation_m": [
+      0.8,
+      -0.05
+    ],
+    "coverage_of_new_walls_by_tolerance": {
+      "0cm": 0.2833,
+      "5cm": 0.5002,
+      "10cm": 0.6202,
+      "15cm": 0.6937,
+      "20cm": 0.749,
+      "25cm": 0.787,
+      "30cm": 0.8143
+    },
+    "caveat": "Walls are 1-2 cells thick, so exact overlap is dominated by residual registration error; read the tolerance table instead."
+  },
+  "note": "Separate slam_toolbox runs; map frames differ, so overlap is measured after centroid + principal-axis alignment, not from absolute coordinates.",
+  "preview": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\lab_odom_06_comparison.png"
+}

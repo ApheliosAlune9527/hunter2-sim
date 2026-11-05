@@ -1,0 +1,28 @@
+{
+  "expected_robot_hostname": "car-NUC15JNKU7X4",
+  "ssh_user": "car",
+  "transfer_status": "verified_and_extracted",
+  "archives": [
+    {
+      "filename": "hunter_reference.tar.gz",
+      "robot_path": "/home/car/hz_sim_assets_20261012_pT9x29/hunter_reference.tar.gz",
+      "reported_disk_usage": "34M",
+      "sha256": "d697c87912c82d1abc3f9141c170edb49959d9bc58bc03778aad112b65b0fa0c",
+      "local_received": true,
+      "local_path": "F:\\rob-memory\\outputs\\hunter_sim_execution_20261012\\references\\archives\\hunter_reference.tar.gz",
+      "local_size_bytes": 35110363,
+      "hash_verified_on": "2026-10-13"
+    },
+    {
+      "filename": "realsense_description_reference.tar.gz",
+      "robot_path": "/home/car/hz_sim_camera_20261012_FPDj8X/realsense_description_reference.tar.gz",
+      "reported_disk_usage": "26M",
+      "sha256": "97253d041d12c557eb03111d7b3c34e814b305f48d9949b6b5c2f371cd07f16e",
+      "local_received": true,
+      "local_path": "F:\\rob-memory\\outputs\\hunter_sim_execution_20261012\\references\\archives\\realsense_description_reference.tar.gz",
+      "local_size_bytes": 26907125,
+      "hash_verified_on": "2026-10-13"
+    }
+  ],
+  "asset_root": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5"
+}

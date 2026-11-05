@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "model_name": "hz_hunter_full",
+  "upstream": {
+    "repository": "https://github.com/agilexrobotics/ugv_gazebo_sim",
+    "branch_at_selection": "humble",
+    "commit": "9d7888affce35321c657c1c8528307f3115b9d41",
+    "license_note": "Upstream package.xml says TODO; no CAD license asserted or invented.",
+    "files": [
+      {
+        "repo_path": "hunter/hunter2_base/meshes/base_link.STL",
+        "url": "https://raw.githubusercontent.com/agilexrobotics/ugv_gazebo_sim/9d7888affce35321c657c1c8528307f3115b9d41/hunter/hunter2_base/meshes/base_link.STL",
+        "sha256": "2b3a9368436ee48505a9e48119f63be612407eb91a05a60e264248deded5f0cc",
+        "evidence_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/base_link.STL"
+      },
+      {
+        "repo_path": "hunter/hunter2_base/meshes/front_left_wheel_link.STL",
+        "url": "https://raw.githubusercontent.com/agilexrobotics/ugv_gazebo_sim/9d7888affce35321c657c1c8528307f3115b9d41/hunter/hunter2_base/meshes/front_left_wheel_link.STL",
+        "sha256": "a526ac8125c90f044c4977f659d050793a009197bb067ea9fe91c02b4cf9028a",
+        "evidence_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_left_wheel_link.STL"
+      },
+      {
+        "repo_path": "hunter/hunter2_base/meshes/front_right_wheel_link.STL",
+        "url": "https://raw.githubusercontent.com/agilexrobotics/ugv_gazebo_sim/9d7888affce35321c657c1c8528307f3115b9d41/hunter/hunter2_base/meshes/front_right_wheel_link.STL",
+        "sha256": "1a644b2ef550172ac8b255b84b6e30a39794fdf6680653698fdbee069beb91eb",
+        "evidence_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_right_wheel_link.STL"
+      },
+      {
+        "repo_path": "hunter/hunter2_base/meshes/front_steer_left_link.STL",
+        "url": "https://raw.githubusercontent.com/agilexrobotics/ugv_gazebo_sim/9d7888affce35321c657c1c8528307f3115b9d41/hunter/hunter2_base/meshes/front_steer_left_link.STL",
+        "sha256": "091c1b863b790224b9affe5003f0fa79190d37bf037c69ffac4aa6b8f872a31f",
+        "evidence_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_steer_left_link.STL"
+      },
+      {
+        "repo_path": "hunter/hunter2_base/meshes/front_steer_link.STL",
+        "url": "https://raw.githubusercontent.com/agilexrobotics/ugv_gazebo_sim/9d7888affce35321c657c1c8528307f3115b9d41/hunter/hunter2_base/meshes/front_steer_link.STL",
+        "sha256": "0299944ec73b0eff29b6d9887b4cb01ecce87d7a0a652a92ce6a8df783764c64",
+        "evidence_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_steer_link.STL"
+      },
+      {
+        "repo_path": "hunter/hunter2_base/meshes/front_steer_right_link.STL",
+        "url": "https://raw.githubusercontent.com/agilexrobotics/ugv_gazebo_sim/9d7888affce35321c657c1c8528307f3115b9d41/hunter/hunter2_base/meshes/front_steer_right_link.STL",
+        "sha256": "5ed51bb9cda08f6940439761abf24bdf6950e37f6579d99880c320fc9b294db9",
+        "evidence_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_steer_right_link.STL"
+      },
+      {
+        "repo_path": "hunter/hunter2_base/meshes/left_rear_link.STL",
+        "url": "https://raw.githubusercontent.com/agilexrobotics/ugv_gazebo_sim/9d7888affce35321c657c1c8528307f3115b9d41/hunter/hunter2_base/meshes/left_rear_link.STL",
+        "sha256": "93cc252596d2d82947997694fd38299ec4733a49992e54f6bbac1c75f1f7b80f",
+        "evidence_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/left_rear_link.STL"
+      },
+      {
+        "repo_path": "hunter/hunter2_base/meshes/rear_wheel_link.STL",
+        "url": "https://raw.githubusercontent.com/agilexrobotics/ugv_gazebo_sim/9d7888affce35321c657c1c8528307f3115b9d41/hunter/hunter2_base/meshes/rear_wheel_link.STL",
+        "sha256": "f7db6f63c3fb6f19385af49b4468d09cf23ff22ba807d39a87361e545f24bebc",
+        "evidence_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/rear_wheel_link.STL"
+      },
+      {
+        "repo_path": "hunter/hunter2_base/meshes/right_rear_link.STL",
+        "url": "https://raw.githubusercontent.com/agilexrobotics/ugv_gazebo_sim/9d7888affce35321c657c1c8528307f3115b9d41/hunter/hunter2_base/meshes/right_rear_link.STL",
+        "sha256": "220aba23b544d543b49305bd1ffc9b0f62223f2b38f88b6c8b738f4dcb00b996",
+        "evidence_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/right_rear_link.STL"
+      },
+      {
+        "repo_path": "hunter/hunter2_base/package.xml",
+        "url": "https://raw.githubusercontent.com/agilexrobotics/ugv_gazebo_sim/9d7888affce35321c657c1c8528307f3115b9d41/hunter/hunter2_base/package.xml",
+        "sha256": "142d5ae04f0b4225cfc79ba1802bfe89b5b6efe5fc0bd5cf6e0676ad897d5c11",
+        "evidence_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/package.xml"
+      },
+      {
+        "repo_path": "hunter/hunter2_base/urdf/hunter2_base.urdf",
+        "url": "https://raw.githubusercontent.com/agilexrobotics/ugv_gazebo_sim/9d7888affce35321c657c1c8528307f3115b9d41/hunter/hunter2_base/urdf/hunter2_base.urdf",
+        "sha256": "8cd98f8a5ae69b633798f1d808a7c913a4506e72c863ef11c266f21277383201",
+        "evidence_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/urdf/hunter2_base.urdf"
+      }
+    ]
+  },
+  "local_sources": [
+    {
+      "path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/hunter_description/meshes/D435i.STL",
+      "sha256": "e982ca29d1a2225f58ad09fc91004a4a40dca684f538ae323f844602d938ba0b",
+      "usage": "alternative local camera CAD, not displayed; the reference URDF uses d435.dae"
+    },
+    {
+      "path": "outputs/hunter_sim_execution_20261012/references/hunter_reference_20261013.urdf",
+      "sha256": "ef9a6f5d2d267c73ad3bff3c4556796e8acbe5c0afbf7e7eca54fc5a5cb2a491",
+      "usage": "local robot export; visual/TF/provenance source"
+    },
+    {
+      "path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/realsense2_description/urdf/_d435i_imu_modules.urdf.xacro",
+      "sha256": "adde35b74c532d160a9346be2802d832a3d54967a54f81d994a70be1a71a6bda",
+      "usage": "local robot export; visual/TF/provenance source"
+    },
+    {
+      "path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/realsense2_description/package.xml",
+      "sha256": "e37829a1a556feb50028b878823eced84a448b3d4e3a7e92af5770e50c76516f",
+      "usage": "local robot export; visual/TF/provenance source"
+    },
+    {
+      "path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/hunter_description/package.xml",
+      "sha256": "d77435e4852577b40c9767e68d9d231740c3a2cd577c37ab7931c3c963548c99",
+      "usage": "local robot export; visual/TF/provenance source"
+    },
+    {
+      "path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/hunter_description/meshes/assembly.STL",
+      "sha256": "ddd0fe5993af16aa1ee67845aca76170d21ef31e3fcce5fafed98458aa67f34c",
+      "usage": "local robot export; visual/TF/provenance source"
+    },
+    {
+      "path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/hunter_description/meshes/XT32.STL",
+      "sha256": "8fd7cf0485509c97ca499ab0c7a3aaef5e43242b836cbd23395451577d06b64f",
+      "usage": "local robot export; visual/TF/provenance source"
+    },
+    {
+      "path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/hunter_description/meshes/G60.STL",
+      "sha256": "08adf459e9c2a79f2247169886aab8559e1632f22177db764635602d8105fb12",
+      "usage": "local robot export; visual/TF/provenance source"
+    },
+    {
+      "path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/hunter_description/meshes/ARS548.STL",
+      "sha256": "5350178d525c3f57828c1f820c572136ba1efcbbfe36ba01c00486727bdd8597",
+      "usage": "local robot export; visual/TF/provenance source"
+    },
+    {
+      "path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/realsense2_description/meshes/d435.dae",
+      "sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78",
+      "usage": "local robot export; visual/TF/provenance source"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "d654680916c21d6f0b505188793a35f45f0ffa4bcd5b0c262cdca566432c8584"
+    },
+    {
+      "path": "geometry_report.json",
+      "sha256": "a0f973a6dd0dc88d288863c3aa45592c0dea88ea783e54730e07af5be5cf0e5d"
+    },
+    {
+      "path": "meshes/chassis/base_link.stl",
+      "sha256": "f1d21d0a1d52a9f1e42b91f2a5ee847e0bad71afdf4cc60749cdf92c78042638"
+    },
+    {
+      "path": "meshes/chassis/front_left_wheel_link.stl",
+      "sha256": "c0e938b3140b755e49350222f5c38375fa99ea6c5f4c3384f4cfbbc3181c22d5"
+    },
+    {
+      "path": "meshes/chassis/front_right_wheel_link.stl",
+      "sha256": "6b92e06f9db14cbed62379e3619b017787b603df2a26e31e14ed3c2032d89d3d"
+    },
+    {
+      "path": "meshes/chassis/front_steer_bar_link.stl",
+      "sha256": "89d0eb127ba67ed0876873080f04da1c1a587747d097de78322bcc7e7a5773d0"
+    },
+    {
+      "path": "meshes/chassis/rear_axle_detail_link.stl",
+      "sha256": "cb4c7aaeeb77056d2cd8f903cb480ad594d0e1550a3066f0b1b4459e7a5d8fd6"
+    },
+    {
+      "path": "meshes/chassis/rear_left_wheel_link.stl",
+      "sha256": "6c912207b50d48a1b5b74bb68c0be696cdf6a6e0f227deb949aac27c74c40f85"
+    },
+    {
+      "path": "meshes/chassis/rear_right_wheel_link.stl",
+      "sha256": "d06fd72a84df26f205a657cc3f560563312677591b4d81add0b961a78f6cbe70"
+    },
+    {
+      "path": "meshes/upfit/ARS548.STL",
+      "sha256": "5350178d525c3f57828c1f820c572136ba1efcbbfe36ba01c00486727bdd8597"
+    },
+    {
+      "path": "meshes/upfit/assembly.STL",
+      "sha256": "ddd0fe5993af16aa1ee67845aca76170d21ef31e3fcce5fafed98458aa67f34c"
+    },
+    {
+      "path": "meshes/upfit/d435.dae",
+      "sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78"
+    },
+    {
+      "path": "meshes/upfit/G60.STL",
+      "sha256": "08adf459e9c2a79f2247169886aab8559e1632f22177db764635602d8105fb12"
+    },
+    {
+      "path": "meshes/upfit/XT32.STL",
+      "sha256": "8fd7cf0485509c97ca499ab0c7a3aaef5e43242b836cbd23395451577d06b64f"
+    },
+    {
+      "path": "package.xml",
+      "sha256": "ee8d5fc820bfa2c91ba1b35481b8e2fb7444c3b43b1f133ed4b3fac6063dbc08"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c4327b327b2ef2b4209978f5cd060f0e42e670cc27dcb2cf8a666c43549b4188"
+    },
+    {
+      "path": "SOURCE_NOTICE.md",
+      "sha256": "a12f54f082764c5602cdc334bca04f9925196a6f164d80477803e10d907723a1"
+    },
+    {
+      "path": "urdf/hunter_full.urdf",
+      "sha256": "2010c1874b0c2bf1b35696394b4f90f8c7488f3eaade649d7cda19fb196310fe"
+    }
+  ],
+  "reference_urdf_canonical_sha256": "9e1112e0bbc029ff5d4de3966410e37531bf464c7ffb0aa59026450e1b86675b",
+  "normalization": "All output STL copies use metres; source wheel zero-pose rotations baked, bbox-centred, moved to nominal axle/track coordinates; local sensor assets byte copies.",
+  "excluded_assets": [
+    "front_steer_left_link.STL",
+    "front_steer_right_link.STL",
+    "hunter_2_0.STL",
+    "PIPER.STL",
+    "PiPER_plate.STL"
+  ],
+  "builder": "sim/tools/build_hunter_full_description.py; Python standard library; no upstream code executed"
+}

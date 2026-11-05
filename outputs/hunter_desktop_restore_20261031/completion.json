@@ -1,0 +1,46 @@
+{
+  "completed_at": "2026-10-31T20:18:13.616532+08:00",
+  "project": "D:\\rob-memory",
+  "linux_project": "/mnt/d/rob-memory",
+  "wsl_version": "3.0.3.0",
+  "ubuntu_version": "22.04.5",
+  "native_model_built": true,
+  "readonly_entry": "PASS",
+  "sdf_validation": "Valid",
+  "graphics_renderer": "D3D12 (AMD Radeon RX 9070 XT)",
+  "graphics_accelerated": true,
+  "windows_tests": {
+    "run": 74,
+    "passed": 73,
+    "skipped": 1
+  },
+  "linux_tests": {
+    "run": 74,
+    "passed": 72,
+    "skipped": 2
+  },
+  "simulation_started": false,
+  "motion_commands_sent": false,
+  "current_codex_database_replaced": false,
+  "wsl_checks": [
+    {
+      "arguments": [
+        "--list",
+        "--verbose"
+      ],
+      "exit_code": 0,
+      "stdout": "  NAME            STATE           VERSION\r\n* Ubuntu-22.04    Stopped         2\r\n"
+    },
+    {
+      "arguments": [
+        "-d",
+        "Ubuntu-22.04",
+        "--exec",
+        "/usr/bin/id",
+        "-un"
+      ],
+      "exit_code": 0,
+      "stdout": "aphelios\n"
+    }
+  ]
+}

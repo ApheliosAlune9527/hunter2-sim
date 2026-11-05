@@ -1,0 +1,140 @@
+{
+  "source_files_unchanged": true,
+  "verified_source_files": 5259,
+  "archive_member_content_matches_extracted_files": true,
+  "archive_verified_files": 5256,
+  "raw_points": 16290495,
+  "working_points": 384312,
+  "denoised_points": 384053,
+  "derived_payloads_match_saved_averages": true,
+  "independent_voxel_average_checks": [
+    {
+      "voxel_index": 0,
+      "original_points": 1,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 846,
+      "original_points": 3,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 51460,
+      "original_points": 3,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 79654,
+      "original_points": 6030,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 91001,
+      "original_points": 1,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 144928,
+      "original_points": 57,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 170867,
+      "original_points": 8,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 194172,
+      "original_points": 5,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 208572,
+      "original_points": 3,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 235254,
+      "original_points": 11,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 328239,
+      "original_points": 1,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 350760,
+      "original_points": 1,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 383268,
+      "original_points": 1,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 384184,
+      "original_points": 2,
+      "mean_xyz_max_error_m": 0.0
+    },
+    {
+      "voxel_index": 384311,
+      "original_points": 1,
+      "mean_xyz_max_error_m": 0.0
+    }
+  ],
+  "png_files_verified": [
+    {
+      "name": "flat_patch_locations.png",
+      "width": 3040,
+      "height": 1330
+    },
+    {
+      "name": "flat_patch_measurements.png",
+      "width": 3040,
+      "height": 1900
+    },
+    {
+      "name": "full_rgb_view.png",
+      "width": 2850,
+      "height": 1900
+    },
+    {
+      "name": "geometry_diagnostics.png",
+      "width": 2880,
+      "height": 1980
+    },
+    {
+      "name": "lab_rgb_reverse.png",
+      "width": 3360,
+      "height": 1890
+    },
+    {
+      "name": "lab_rgb_view.png",
+      "width": 3360,
+      "height": 1890
+    },
+    {
+      "name": "lab_top_view.png",
+      "width": 3040,
+      "height": 2280
+    },
+    {
+      "name": "overview_full_extent.png",
+      "width": 2550,
+      "height": 1870
+    },
+    {
+      "name": "roi_selection.png",
+      "width": 3040,
+      "height": 1330
+    },
+    {
+      "name": "wall_patch_measurements.png",
+      "width": 2880,
+      "height": 900
+    }
+  ],
+  "note": "Content verification does not certify geometric ground-truth accuracy."
+}

@@ -1,0 +1,10 @@
+{
+  "version": "v01-form-study",
+  "units": "mm",
+  "inner_diameter_mm": 17.0,
+  "sizing_status": "provisional: user requested shape preview first",
+  "minimum_petal_design_thickness_mm": 0.7,
+  "band_bottom_radial_thickness_mm": 1.65,
+  "band_bottom_width_mm": 2.8,
+  "reference": "codex-clipboard-90109d22-4b6e-480b-b525-5f916c4a3260.jpg"
+}

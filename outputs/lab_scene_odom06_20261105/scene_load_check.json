@@ -1,0 +1,43 @@
+{
+  "ok": true,
+  "scene": "/mnt/d/rob-memory/outputs/lab_scene_odom06_20261105/lab_scene_2d.sdf",
+  "world": "hz_lab_2d",
+  "partition": "hz_sim_aphelios_73_lab2d_e35975f2c64d",
+  "sdf_exit_code": 0,
+  "sdf_output": "Valid.",
+  "requested_start": {
+    "x": -0.21,
+    "y": -0.77,
+    "z": 0.165,
+    "yaw": 0.0,
+    "source": "T1.0 chosen by user"
+  },
+  "motion_published": false,
+  "physics_run_requested": false,
+  "created_pid": 412,
+  "world_control_service": true,
+  "models": [
+    "floor",
+    "hz_hunter_full",
+    "walls"
+  ],
+  "robot_model_present": true,
+  "pose_raw": "Requesting state for world [hz_lab_2d]...\n\nModel: [12]\n  - Name: hz_hunter_full\n  - Pose [ XYZ (m) ] [ RPY (rad) ]:\n    [-0.210000 -0.770000 0.165000]\n    [0.000000 -0.000000 0.000000]",
+  "pose": {
+    "x": -0.21,
+    "y": -0.77,
+    "z": 0.165,
+    "roll": 0.0,
+    "pitch": -0.0,
+    "yaw": 0.0
+  },
+  "placement_error_m": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "placement_matches": true,
+  "owned_process_group_closed": true,
+  "gazebo_error_lines": [],
+  "gazebo_error_count": 0
+}

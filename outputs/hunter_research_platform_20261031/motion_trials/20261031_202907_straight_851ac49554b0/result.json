@@ -1,0 +1,101 @@
+{
+  "profile": "straight",
+  "token": "851ac49554b0",
+  "partition": "hz_sim_aphelios_73_motion_851ac49554b0",
+  "speed_m_s": 0.1,
+  "angular_velocity_rad_s": 0,
+  "sensors_enabled": false,
+  "ros_actuation_bridge": false,
+  "uses_ros_api": false,
+  "source_scene": {
+    "status": "PASS",
+    "world": "hz_hunter_full",
+    "model": "hz_hunter_full",
+    "physical_links": 7,
+    "active_joints": 6,
+    "visual_meshes": 12,
+    "total_mass_kg": 75.87700000000001,
+    "world_plugins": 5,
+    "model_plugins": 2,
+    "sensors": [
+      "camera",
+      "imu",
+      "lidar"
+    ],
+    "sensor_poses_from_base_link": {
+      "lidar": [
+        0.539,
+        0.0,
+        0.525,
+        0.0,
+        -0.0,
+        1.570796326795
+      ],
+      "camera": [
+        0.6439999999999985,
+        0.015000000000010857,
+        0.47500000000000003,
+        0.0,
+        -4.8965888601467475e-12,
+        3.102575454202261e-13
+      ],
+      "imu": [
+        0.5390000000000114,
+        -0.11,
+        0.463,
+        0.0,
+        -0.0,
+        1.570796326795
+      ]
+    },
+    "command_topic": "/hz_sim/full/cmd_vel",
+    "joint_states_topic": "/hz_sim/full/joint_states",
+    "gui_render_engine": "ogre",
+    "gui_start_paused": true,
+    "runtime_verified": false,
+    "ros_bridge": false,
+    "hardware_driver": false,
+    "concerns": [
+      "Mass, collision proxies and mounting transforms retain uncalibrated engineering assumptions.",
+      "This offline gate does not establish runtime sensor, ROS, or GUI behavior."
+    ],
+    "sha256": {
+      "scene": "0c4f63f0f531a636767073bd89a7dd3271184dfa32d393d254e2939a85d32385",
+      "gui": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc",
+      "manifest": "a1e1ceb018c9644fc40a49bc22499b10665814a62e22c87eef7d1d6a97e7f1de",
+      "inputs": {
+        "converted_sdf": "03daabfd6c89a683e1fa6b77e0f5bd18f9d24beb59766d1a9976d9f9d5de2ed0",
+        "conversion_urdf": "5fb7fa1ef8c8cc280d0824198f6f1ced8d858b41a1d8c4ef9333903ef1c5ab0e",
+        "urdf": "24f4f2c7bd46e3e39b61d4b25d58ff12853f1623821c0927607bd7f6059fcea2",
+        "source_manifest": "b97a3803569e25544e772852b74df4b5f6e95d71076fd3aec8525a0c9eb1ed6b",
+        "geometry_report": "78f0ab3f006b43bf9f8a6dda47cb815ab50efe9b037882123bfc5cbc11f77be1",
+        "camera_source": "790333f3aa749400429f27d0fa0838662dc8c65e5ad6e64b96dfa9de8d183daf",
+        "mapping_source": "bd5a59683e9ed914fab81af13af0306a75ab13d5091ce2e3465dad5fea93cb9e",
+        "source_vio": "5786aeca9a26c796953430d471d5428279a5590c084b07dc945647aa88048911",
+        "source_livmapper": "1bbdae25fde516032de59371364960481f569fa67f21ab16fb7d6d07034409f8",
+        "source_ch104": "abcb19913c42d5133913b72754b2515f9740223a1726af6840c8651fc7f9ed52"
+      }
+    }
+  },
+  "world_sha256": "08bd9bb719731cbd2d7522b7b6485c311859736e1d722d7ece5a2caa003e5931",
+  "state": "completed",
+  "created_server_pid": 417,
+  "transport_exit_code": 0,
+  "result": {
+    "checks": {
+      "forward_displacement": true,
+      "finite_pose": true,
+      "upright_height": true,
+      "brake": true,
+      "odom_distance_consistent": true,
+      "direction": true
+    },
+    "passed": true,
+    "forward_m": 0.5749499886299618,
+    "lateral_m": 1.600045078127143e-10,
+    "yaw_change_rad": 5.6145903092342e-10,
+    "odom_distance_m": 0.5739499999970508,
+    "final_odom_speed_m_s": 0
+  },
+  "owned_server_stopped": true
+}

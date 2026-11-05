@@ -1,0 +1,33 @@
+{
+  "robot_or_physics_loaded": false,
+  "velocity_published": false,
+  "user_window_targeted": false,
+  "cases": [
+    {
+      "mode": "warmup-required",
+      "ok": false,
+      "native_exit_code": 1,
+      "read_requests": 0,
+      "control_requests": 1,
+      "error": "World control request failed or timed out"
+    },
+    {
+      "mode": "delay-first-read",
+      "ok": false,
+      "native_exit_code": 1,
+      "read_requests": 0,
+      "control_requests": 1,
+      "error": "World control request failed or timed out"
+    },
+    {
+      "mode": "reject-read",
+      "ok": false,
+      "native_exit_code": 1,
+      "read_requests": 0,
+      "control_requests": 1,
+      "error": "World control request failed or timed out"
+    }
+  ],
+  "report_directory": "/mnt/f/rob-memory/outputs/hunter_sim_execution_20261012/references/transport_reply_checks/9afb186b0bd3",
+  "ok": false
+}

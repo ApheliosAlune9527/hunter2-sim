@@ -1,0 +1,137 @@
+{
+  "created_on": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "purpose": "师兄 lab_odom_06 建图方法溯源；已证实部分与历史缺口分别记录",
+  "robot_hostname": "car-NUC15JNKU7X4",
+  "original_archive": {
+    "path": "F:\\rob-memory\\outputs\\hunter_sim_execution_20261012\\references\\archives\\hunter_reference.tar.gz",
+    "sha256": "d697c87912c82d1abc3f9141c170edb49959d9bc58bc03778aad112b65b0fa0c",
+    "hash_rechecked_this_turn": true
+  },
+  "archive_assets_checked_byte_for_byte": true,
+  "configured_slam_parameter_count": 54,
+  "parameter_backup_effective_differences": {
+    "map_update_interval": {
+      "current": 0.2,
+      "backup": 5.0
+    }
+  },
+  "map_image_dimensions": [
+    287,
+    469
+  ],
+  "map_pixel_values": [
+    0,
+    205,
+    254
+  ],
+  "full_historical_runtime_parameters_recovered": false,
+  "historical_trajectory_recovered": false,
+  "historical_successful_loop_closures_recovered": false,
+  "files": [
+    {
+      "type": "verified_robot_archive_asset",
+      "source": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\hunter_nav_odom\\maps\\lab_odom_06.pgm",
+      "archive_member": "hunter_nav_odom/maps/lab_odom_06.pgm",
+      "archive_member_mtime_asia_shanghai": "2026-09-22T22:50:52+08:00",
+      "destination": "F:\\rob-memory\\outputs\\senior_mapping_method_20261016\\reference_assets\\lab_odom_06.pgm",
+      "bytes": 134618,
+      "sha256": "4cb1dab38b73075f20bbd7a243bff91cfedcc77a31088722ba8ca1077fbcc2c6"
+    },
+    {
+      "type": "verified_robot_archive_asset",
+      "source": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\hunter_nav_odom\\maps\\lab_odom_06.yaml",
+      "archive_member": "hunter_nav_odom/maps/lab_odom_06.yaml",
+      "archive_member_mtime_asia_shanghai": "2026-09-22T22:50:52+08:00",
+      "destination": "F:\\rob-memory\\outputs\\senior_mapping_method_20261016\\reference_assets\\lab_odom_06.yaml",
+      "bytes": 129,
+      "sha256": "cdcbc9790e3f881747517e44a7dbd2731813e31fb0247c62f98debcc47c5984f"
+    },
+    {
+      "type": "verified_robot_archive_asset",
+      "source": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\hunter_nav_odom\\config\\mapper_params_online_sync.yaml",
+      "archive_member": "hunter_nav_odom/config/mapper_params_online_sync.yaml",
+      "archive_member_mtime_asia_shanghai": "2026-09-13T10:49:23+08:00",
+      "destination": "F:\\rob-memory\\outputs\\senior_mapping_method_20261016\\reference_assets\\mapper_params_online_sync.yaml",
+      "bytes": 2506,
+      "sha256": "aef9b7c3629f508bd1a868759076552b7e74a2003dd7990a3c6d06b70f273d4f"
+    },
+    {
+      "type": "verified_robot_archive_asset",
+      "source": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\hunter_nav_odom\\config\\mapper_params_online_sync.yaml.bak_before_maprate",
+      "archive_member": "hunter_nav_odom/config/mapper_params_online_sync.yaml.bak_before_maprate",
+      "archive_member_mtime_asia_shanghai": "2026-09-13T10:44:43+08:00",
+      "destination": "F:\\rob-memory\\outputs\\senior_mapping_method_20261016\\reference_assets\\mapper_params_online_sync.yaml.bak_before_maprate",
+      "bytes": 2506,
+      "sha256": "d921eee536482f7be1df1035b7cf6159011b410d62afecbb53b91fce11d0a274"
+    },
+    {
+      "type": "verified_robot_archive_asset",
+      "source": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\hunter_nav_odom\\launch\\base_sensors.launch.py",
+      "archive_member": "hunter_nav_odom/launch/base_sensors.launch.py",
+      "archive_member_mtime_asia_shanghai": "2026-07-12T21:37:05+08:00",
+      "destination": "F:\\rob-memory\\outputs\\senior_mapping_method_20261016\\reference_assets\\base_sensors.launch.py",
+      "bytes": 2166,
+      "sha256": "677b0647a780f6f8278a78eb918b97f5e8204e674cc894ce11495fa8a8b381e2"
+    },
+    {
+      "type": "user_attachment_verbatim",
+      "source": "C:\\Users\\Aphelios\\.codex\\attachments\\3c508c11-552e-441a-8fd2-8f8cb438cf90\\已粘贴的文本.txt",
+      "destination": "F:\\rob-memory\\outputs\\senior_mapping_method_20261016\\evidence\\车端home搜索与命令历史_用户原始附件.txt",
+      "bytes": 58575,
+      "sha256": "3c3807a28e1e3f24ed70c9662297f5ec5b048325ba5d1287071d3ac9cceae078"
+    },
+    {
+      "type": "user_attachment_verbatim",
+      "source": "C:\\Users\\Aphelios\\.codex\\attachments\\f4a0afdc-a613-4b72-b179-fc03d26ee9f0\\已粘贴的文本.txt",
+      "destination": "F:\\rob-memory\\outputs\\senior_mapping_method_20261016\\evidence\\历史入口与底盘包装launch_用户原始附件.txt",
+      "bytes": 5385,
+      "sha256": "d6ac8a3dd77906d401d2ca65abbbdb58ab38d1bec0880c711bf0bc7511c84f08"
+    },
+    {
+      "type": "user_attachment_verbatim",
+      "source": "C:\\Users\\Aphelios\\.codex\\attachments\\8d944a99-9a00-4f6a-854a-f179ba977416\\已粘贴的文本.txt",
+      "destination": "F:\\rob-memory\\outputs\\senior_mapping_method_20261016\\evidence\\底盘launch与里程计源码_用户原始附件.txt",
+      "bytes": 14239,
+      "sha256": "4fdbb91c45eb75a95f59ac8ff94a4d22f44b37754be093a286f262c0ca64833d"
+    }
+  ],
+  "generated_document": {
+    "path": "F:\\rob-memory\\outputs\\senior_mapping_method_20261016\\师兄二维建图方法_证据核实版.md",
+    "sha256": "756e33a8ca3cf5e7b801d78e1d306e1fca226cbf746a8413e0a57e0ba912b663",
+    "previous_sha256": "6c492a0767bf6dab8f9bf2bb4d320437698638c9083d6da105b9026e2de29da8"
+  },
+  "transcript_extract": {
+    "path": "F:\\rob-memory\\outputs\\senior_mapping_method_20261016\\evidence\\用户回传日志与收尾检查.txt",
+    "sha256": "00234bf8720a7544f215083e2ac4325c039b1e5cf521f5b5f8fd5fc9ddb14360",
+    "provenance": "按用户本聊天回传摘录，不是原始日志下载件"
+  },
+  "updated_on": "2026-10-18",
+  "runtime_map_validation": {
+    "validated_on": "2026-10-18",
+    "provenance": "User-reported robot command output in this chat; excerpt is not an original robot log download",
+    "node": "/hz_nav/map_server",
+    "topic": "/hz_nav/map",
+    "navigation_yaml": "/home/car/hz_nav_ws/maps/lab_odom_06_nav.yaml",
+    "free_thresh_original": 0.25,
+    "free_thresh_navigation": 0.196,
+    "counts_before": {
+      "unknown": 0,
+      "free": 129291,
+      "occupied": 5312,
+      "total": 134603
+    },
+    "counts_after": {
+      "unknown": 81413,
+      "free": 47878,
+      "occupied": 5312,
+      "total": 134603
+    },
+    "map_classification_result": "PASS",
+    "localization_or_navigation_tested": false,
+    "evidence_excerpt": {
+      "path": "F:\\rob-memory\\outputs\\senior_mapping_method_20261016\\evidence\\地图加载阈值验证_20261018.txt",
+      "sha256": "28d571c013482a2e745bd93d9307690bd0ad5285c61a6ce7a3211219226afa34"
+    }
+  }
+}

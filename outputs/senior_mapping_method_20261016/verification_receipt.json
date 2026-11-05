@@ -1,0 +1,23 @@
+{
+  "verified_on": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "result": "PASS",
+  "document": "F:\\rob-memory\\outputs\\senior_mapping_method_20261016\\师兄二维建图方法_证据核实版.md",
+  "sha256": "756e33a8ca3cf5e7b801d78e1d306e1fca226cbf746a8413e0a57e0ba912b663",
+  "checks": {
+    "embedded_map_yaml_matches_reference": true,
+    "embedded_full_slam_yaml_matches_reference": true,
+    "explicit_slam_parameters": 54,
+    "all_local_links_exist": 10,
+    "reference_and_attachment_hashes_match": 8,
+    "original_archive_hash_and_asset_bytes_match": true,
+    "historical_parameter_trajectory_loop_gaps_are_explicit": true,
+    "markdown_fences_balanced": true,
+    "utf8_readable_no_replacement_characters": true,
+    "original_map_free_thresh_preserved": 0.25,
+    "pixel_counts_match_reference": true,
+    "dated_followup_matches_user_reported_runtime_counts": true,
+    "runtime_evidence_excerpt_hash": "28d571c013482a2e745bd93d9307690bd0ad5285c61a6ce7a3211219226afa34"
+  },
+  "limitations": "Document and archive consistency verified locally. Map classification pass is based on actual robot output reported by the user. Missing historical records remain unresolved; localization and physical navigation have not been tested."
+}

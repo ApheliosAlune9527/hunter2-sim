@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.9">
+  <world name="hz_lab_155236_mesh_candidate">
+    <physics name="lab_physics" type="ignored">
+      <max_step_size>0.001</max_step_size>
+    </physics>
+    <gravity>0 0 -9.81</gravity>
+    <plugin filename="libignition-gazebo-physics-system.so" name="ignition::gazebo::systems::Physics" />
+    <plugin filename="libignition-gazebo-user-commands-system.so" name="ignition::gazebo::systems::UserCommands" />
+    <plugin filename="libignition-gazebo-scene-broadcaster-system.so" name="ignition::gazebo::systems::SceneBroadcaster" />
+    <light name="sun" type="directional">
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>.9 .9 .9 1</diffuse>
+      <direction>-.5 -.3 -1</direction>
+    </light>
+    <model name="floor">
+      <static>true</static>
+      <link name="floor">
+        <collision name="floor_collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>200 200</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="floor_visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>200 200</size>
+            </plane>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    <model name="observed_obstacles">
+      <static>true</static>
+      <link name="body">
+        <collision name="collision">
+          <geometry>
+            <mesh>
+              <uri>file:///mnt/d/rob-memory/outputs/hunter_research_platform_20261031/lab_scene_candidate/observed_obstacles.stl</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <mesh>
+              <uri>file:///mnt/d/rob-memory/outputs/hunter_research_platform_20261031/lab_scene_candidate/observed_obstacles.stl</uri>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

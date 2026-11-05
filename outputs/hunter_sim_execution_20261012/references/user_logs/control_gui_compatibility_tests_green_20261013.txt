@@ -1,0 +1,37 @@
+test_accepts_the_personal_scene (test_control_scene.ControlSceneChecks) ... ok
+test_gui_requires_compatible_renderer_and_initial_pause (test_control_scene.ControlSceneChecks) ... ok
+test_launcher_rejects_run_flags_and_other_worlds (test_control_scene.ControlSceneChecks) ... ok
+test_offline_launcher_only_checks_files (test_control_scene.ControlSceneChecks) ... ok
+test_rejects_changed_limits_and_geometry (test_control_scene.ControlSceneChecks) ... ok
+test_rejects_default_or_shared_topics (test_control_scene.ControlSceneChecks) ... ok
+test_rejects_extra_plugins_and_external_models (test_control_scene.ControlSceneChecks) ... ok
+test_rejects_wrong_or_duplicate_joint_references (test_control_scene.ControlSceneChecks) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.330s
+
+OK
+已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / NVIDIA。
+{"world": "hz_hunter_control", "command_topic": "/hz_sim/cmd_vel", "odom_topic": "/hz_sim/odom", "tf_topic": "/hz_sim/tf", "minimum_turning_radius_m": 1.669156096106059, "maximum_inner_steering_rad": 0.44394872512048306, "maximum_rear_wheel_speed_rad_s": 2.1476896462891375, "ros_bridge": false, "hardware_driver": false, "gui_render_engine": "ogre"}
+控制场景文件检查通过；未启动 ROS 节点或 Gazebo，未发送速度。
+Introspect Ignition topics
+Usage: /usr/libexec/gz/transport11/ign-transport-topic [OPTIONS]
+
+Options:
+  -h,--help                   Print this help message and exit
+  -v,--version                
+  -t,--topic TEXT             Name of a topic
+  -m,--msgtype TEXT           Type of message to publish
+  -d,--duration FLOAT Excludes: --num
+                              Duration (seconds) to run
+  -n,--num INT Excludes: --duration
+                              Number of messages to echo and then exit
+[Option Group: command]
+  Command to be executed
+  Options:
+    -l,--list                   
+    -i,--info Needs: --topic    
+    -e,--echo                   
+    --json-output               Output messages in JSON format
+    -p,--pub TEXT Needs: --topic --msgtype
+

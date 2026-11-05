@@ -1,0 +1,21 @@
+{
+  "voxel_size_m": 0.05,
+  "working_points": 384312,
+  "denoised_points": 384053,
+  "removed_isolated_points": 259,
+  "original_points_in_removed_cells": 440,
+  "isolation_radius_m": 0.2,
+  "minimum_neighbors_including_self": 3,
+  "preview_015m_unique_cells_and_full_coverage": true,
+  "derived_payload_bytes": [
+    6148992,
+    6144848
+  ],
+  "method": "Per occupied 5 cm voxel: mean XYZ, rounded mean RGB. No spatial crop.",
+  "occupancy_percentiles": [
+    1.0,
+    4.0,
+    56.0,
+    6030.0
+  ]
+}

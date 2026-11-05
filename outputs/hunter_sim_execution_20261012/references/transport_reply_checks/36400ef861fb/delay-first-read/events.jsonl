@@ -1,0 +1,3 @@
+{"operation":"read","number":1}
+{"operation":"read","number":2}
+{"operation":"control","reads_before_control":2,"multi_step":2000}

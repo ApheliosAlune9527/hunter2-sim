@@ -1,0 +1,1 @@
+{"ok":true,"stats":{"sim_time":{"sec":"3","nsec":0},"real_time":{"sec":"3","nsec":164230273},"paused":true,"iterations":"3000","model_count":0,"real_time_factor":0.9999}}

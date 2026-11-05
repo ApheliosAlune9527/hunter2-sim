@@ -1,0 +1,18 @@
+[
+  {
+    "Path": "F:\\rob-memory\\maps\\lab_20261011\\lab_20261011_155236_369289\\merged\\map_preview_015m.pcd",
+    "Hash": "B9833177879F03C77774FC0371865ADD81254F506855FE95D6CC3F2F6C20A1B7"
+  },
+  {
+    "Path": "F:\\rob-memory\\outputs\\map_inspection_lab_155236_20261011\\map_working_005m.pcd",
+    "Hash": "D1B03023AD5408BC8D6D5588055CA70FE69C7777E155880E7D3B7018E31C3ADA"
+  },
+  {
+    "Path": "F:\\rob-memory\\outputs\\map_inspection_lab_155236_20261011\\map_denoised_005m.pcd",
+    "Hash": "044133975AC14A758DC03FB838E5EDF23659CA11B2487B425EFD08A72E96F7D8"
+  },
+  {
+    "Path": "F:\\rob-memory\\maps\\lab_20261011\\lab_20261011_155236_369289\\merged\\map_raw.pcd",
+    "Hash": "A57844447F23C2C02CD30F101AAF622AE86EB8A1CD207B684A940FA464D06441"
+  }
+]

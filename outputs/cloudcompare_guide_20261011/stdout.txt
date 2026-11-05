@@ -1,0 +1,101 @@
+[17:11:31] [ccColorScalesManager] Found 0 custom scale(s) in persistent settings
+[17:11:31] [Plugin] Searching: C:/Program Files/CloudCompare/plugins
+[17:11:31] [MeshIO] Using Assimp 5.4 (10df90ec-HEAD)
+[17:11:31] 	Plugin found: Mesh I/O (MeshIO.dll)
+[17:11:31] 	Plugin found: 3DMASC (Q3DMASC_PLUGIN.dll)
+[17:11:31] 	Plugin found: Additional I/O (QADDITIONAL_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: Animation (QANIMATION_PLUGIN.dll)
+[17:11:31] 	Plugin found: AutoSeg (QAUTO_SEG_PLUGIN.dll)
+[17:11:31] 	Plugin found: CEA Virtual Broom (QBROOM_PLUGIN.dll)
+[17:11:31] 	Plugin found: CANUPO (QCANUPO_PLUGIN.dll)
+[17:11:31] 	Plugin found: Cloud layers (QCLOUDLAYERS_PLUGIN.dll)
+[17:11:31] 	Plugin found: Colorimetric Segmenter (QCOLORIMETRIC_SEGMENTER_PLUGIN.dll)
+[17:11:31] 	Plugin found: Compass (QCOMPASS_PLUGIN.dll)
+[17:11:31] 	Plugin found: Core I/O (QCORE_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: Cork (QCORK_PLUGIN.dll)
+[17:11:31] 	Plugin found: CSF Filter (QCSF_PLUGIN.dll)
+[17:11:31] 	Plugin found: CSV Matrix I/O (QCSV_MATRIX_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: DP (QDOT_PRODUCT_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: Draco (QDRACO_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: E57 (QE57_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: EDL Shader (QEDL_GL_PLUGIN.dll)
+[17:11:31] 	Plugin found: ELlipser (QELLIPSER_PLUGIN.dll)
+[17:11:31] 	Plugin found: Facet/fracture detection (QFACETS_PLUGIN.dll)
+[17:11:31] 	Plugin found: FBX (QFBX_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: Hough Normals Computation (QHOUGH_NORMALS_PLUGIN.dll)
+[17:11:31] 	Plugin found: Hidden Point Removal (QHPR_PLUGIN.dll)
+[17:11:31] 	Plugin found: Json RPC (Standard Plugin) (QJSON_RPC_PLUGIN.dll)
+[17:11:31] 	Plugin found: LAS (I/O Plugin) (QLAS_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: M3C2 Distance (QM3C2_PLUGIN.dll)
+[17:11:31] 	Plugin found: ManualSeg (QMANUAL_SEG_PLUGIN.dll)
+[17:11:31] 	Plugin found: Mesh Boolean (QMESH_BOOLEAN_PLUGIN.dll)
+[17:11:31] 	Plugin found: MPlane (QMPLANE_PLUGIN.dll)
+[17:11:31] 	Plugin found: PCD file I/O (QPCL_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: PCL wrapper (QPCL_PLUGIN.dll)
+[17:11:31] 	Plugin found: PCV / ShadeVis (QPCV_PLUGIN.dll)
+[17:11:31] 	Plugin found: Photoscan I/O (QPHOTOSCAN_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: PoissonRecon (QPOISSON_RECON_PLUGIN.dll)
+[17:11:31] 	Plugin found: RANSAC Shape Detection (QRANSAC_SD_PLUGIN.dll)
+[17:11:31] 	Plugin found: RDB2 (I/O Plugin) (QRDB_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: Riegl RDB I/O (QRIEGL_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: Surface of Revolution Analysis (QSRA_PLUGIN.dll)
+[17:11:31] 	Plugin found: SSAO Shader (QSSAO_GL_PLUGIN.dll)
+[17:11:31] 	Plugin found: Step file loader (I/O plugin) (QSTEP_IO_PLUGIN.dll)
+[17:11:31] 	Plugin found: TreeIso (QTREEISO_PLUGIN.dll)
+[17:11:31] [Plugin] Searching: C:/Users/Aphelios/AppData/Roaming/CCCorp/CloudCompare/plugins
+[17:11:31] [Plugin] Searching: C:/ProgramData/CCCorp/CloudCompare/plugins
+[17:11:31] [Plugin] Searching: C:/Program Files/CloudCompare/data/plugins
+[17:11:31] [Plugin] Searching: C:/Program Files/CloudCompare/data/CCCorp/CloudCompare/plugins
+[17:11:31] [Plugin][Mesh I/O] New file extensions registered: DAE GLTF IFC
+[17:11:31] [Plugin][Additional I/O] New file extensions registered: ICM OUT PN POLY POV PV SOI SX
+[17:11:31] [Plugin][Core I/O] New file extensions registered:  GEOREF MA OBJ OFF PDMS PTX SBF STL VTK
+[17:11:31] [Plugin][CSV Matrix I/O] New file extensions registered: CSV
+[17:11:31] [Plugin][DP] New file extensions registered: DP
+[17:11:31] [Plugin][Draco] New file extensions registered: DRC
+[17:11:31] [Plugin][E57] New file extensions registered: E57
+[17:11:31] [Plugin][FBX] New file extensions registered: FBX
+[17:11:31] [Plugin][LAS (I/O Plugin)] New file extensions registered: LAS
+[17:11:31] [Plugin][PCD file I/O] New file extensions registered: PCD
+[17:11:31] [Plugin][Photoscan I/O] New file extensions registered: PSZ
+[17:11:31] [Plugin][RDB2 (I/O Plugin)] New file extensions registered: RDB2
+[17:11:31] [Plugin][Riegl RDB I/O] New file extensions registered: RDS
+[17:11:31] [Plugin][Step file loader (I/O plugin)] New file extensions registered: STEP
+[17:11:31] [Global Shift] Max abs. coord = 1e+04 / max abs. diag = 1e+06
+[17:11:31] [SET LOG FILE]
+[17:11:31] [SET LOG FILE] finished in 0.00 s.
+[17:11:31] [AUTO SAVE STATE]
+[17:11:31] Auto-save is disabled
+[17:11:31] [AUTO SAVE STATE] finished in 0.01 s.
+[17:11:31] [LOAD]
+[17:11:31] Opening file: 'F:\rob-memory\maps\lab_20261011\lab_20261011_155236_369289\merged\map_preview_015m.pcd'
+[17:11:31] [PCL] PCD version: 1
+[17:11:31] [PCL] F:\rob-memory\maps\lab_20261011\lab_20261011_155236_369289\merged\map_preview_015m.pcd: 46564 points
+[17:11:31] [PCL] Reading uncompressed binary PCD file...
+[17:11:31] [I/O] File 'F:\rob-memory\maps\lab_20261011\lab_20261011_155236_369289\merged\map_preview_015m.pcd' loaded successfully
+[17:11:31] Found one cloud with 46564 points
+[17:11:31] [LOAD] finished in 0.06 s.
+[17:11:31] [LOAD]
+[17:11:31] Opening file: 'F:\rob-memory\outputs\map_inspection_lab_155236_20261011\map_working_005m.pcd'
+[17:11:31] [PCL] PCD version: 1
+[17:11:32] [PCL] F:\rob-memory\outputs\map_inspection_lab_155236_20261011\map_working_005m.pcd: 384312 points
+[17:11:32] [PCL] Reading uncompressed binary PCD file...
+[17:11:32] [I/O] File 'F:\rob-memory\outputs\map_inspection_lab_155236_20261011\map_working_005m.pcd' loaded successfully
+[17:11:32] Found one cloud with 384312 points
+[17:11:32] [LOAD] finished in 0.11 s.
+[17:11:32] [LOAD]
+[17:11:32] Opening file: 'F:\rob-memory\outputs\map_inspection_lab_155236_20261011\map_denoised_005m.pcd'
+[17:11:32] [PCL] PCD version: 1
+[17:11:32] [PCL] F:\rob-memory\outputs\map_inspection_lab_155236_20261011\map_denoised_005m.pcd: 384053 points
+[17:11:32] [PCL] Reading uncompressed binary PCD file...
+[17:11:32] [I/O] File 'F:\rob-memory\outputs\map_inspection_lab_155236_20261011\map_denoised_005m.pcd' loaded successfully
+[17:11:32] Found one cloud with 384053 points
+[17:11:32] [LOAD] finished in 0.11 s.
+[17:11:32] [LOAD]
+[17:11:32] Opening file: 'F:\rob-memory\maps\lab_20261011\lab_20261011_155236_369289\merged\map_raw.pcd'
+[17:11:32] [PCL] PCD version: 1
+[17:11:32] [PCL] F:\rob-memory\maps\lab_20261011\lab_20261011_155236_369289\merged\map_raw.pcd: 16290495 points
+[17:11:32] [PCL] Reading uncompressed binary PCD file...
+[17:11:35] [I/O] File 'F:\rob-memory\maps\lab_20261011\lab_20261011_155236_369289\merged\map_raw.pcd' loaded successfully
+[17:11:35] Found one cloud with 16290495 points
+[17:11:35] [LOAD] finished in 2.89 s.
+[17:11:35] Processed finished in 3.21 s.

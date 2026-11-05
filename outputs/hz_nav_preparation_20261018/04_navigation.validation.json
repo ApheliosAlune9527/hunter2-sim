@@ -1,0 +1,59 @@
+{
+  "artifact": "F:/rob-memory/outputs/hz_nav_preparation_20261018/04_navigation.launch.py",
+  "car_destination": "/home/car/hz_nav_ws/launch/04_navigation.launch.py",
+  "sha256": "0ecef665c20541705e4ef63f6ee1c0b5a0319d2127d492d2f872ef62a93f4ee8",
+  "bytes": 7022,
+  "static_checks": {
+    "python_3_10_syntax": "pass",
+    "server_specifications": "pass; seven standard Humble navigation servers",
+    "declared_processes": 8,
+    "namespace": "/hz_nav",
+    "autostart_default": false,
+    "autostart_parameter_type": "bool",
+    "yaml_node_selectors": 11,
+    "base_input_disjoint_from_navigation_outputs": true,
+    "external_launch_shell_or_hardware_nodes": "none",
+    "tf_remapping": "none; existing global /tf and /tf_static retained",
+    "existing_map_localization_and_sensors": "not launched or managed by this entry"
+  },
+  "managed_nodes": [
+    "controller_server",
+    "smoother_server",
+    "planner_server",
+    "behavior_server",
+    "bt_navigator",
+    "waypoint_follower",
+    "velocity_smoother"
+  ],
+  "velocity_flow": {
+    "controller_output": "/hz_nav/nav_cmd_vel_raw",
+    "smoother_input": "/hz_nav/nav_cmd_vel_raw",
+    "smoother_output": "/hz_nav/nav_cmd_vel",
+    "behavior_output": "/hz_nav/nav_cmd_vel",
+    "assisted_teleop_input": "/hz_nav/nav_cmd_vel_teleop",
+    "base_input_in_03_entry": "/hz_nav/blocked_cmd_vel",
+    "bridge_to_base": "absent",
+    "global_and_relative_cmd_vel_names": "both explicitly remapped"
+  },
+  "input_bindings": {
+    "odom": "/hz_nav/odom",
+    "goal_pose": "/hz_nav/goal_pose",
+    "map": "/hz_nav/map",
+    "scan": "/hz_nav/scan"
+  },
+  "preflight_guards": {
+    "configuration_and_logs": "check personal YAML, two XML files and logs directory",
+    "yaml": "validate eleven full node selectors, false use_sim_time, required topic/frame/BT bindings",
+    "packages": "require system /opt/ros/humble prefix for server, manager and required RPP/Smac/costmap packages",
+    "executables": "require all eight declared programs to exist before launch"
+  },
+  "sources": [
+    "https://github.com/ros-navigation/navigation2/blob/humble/nav2_bringup/launch/navigation_launch.py",
+    "https://github.com/ros-navigation/navigation2/blob/humble/nav2_controller/src/controller_server.cpp",
+    "https://github.com/ros-navigation/navigation2/blob/humble/nav2_behaviors/include/nav2_behaviors/timed_behavior.hpp",
+    "https://github.com/ros-navigation/navigation2/blob/humble/nav2_velocity_smoother/src/velocity_smoother.cpp",
+    "https://github.com/ros-navigation/navigation2/blob/humble/nav2_behaviors/plugins/assisted_teleop.cpp"
+  ],
+  "runtime_status": "Car transfer hash, ROS --show-args, package guards, startup and actual endpoint routing remain pending. Windows static checks do not execute ROS or validate runtime behavior.",
+  "human_status": "User remains remote with nobody onsite; do not enable chassis or send real movement goals."
+}

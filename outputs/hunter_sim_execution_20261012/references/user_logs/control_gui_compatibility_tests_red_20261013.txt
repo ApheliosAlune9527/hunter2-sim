@@ -1,0 +1,21 @@
+test_accepts_the_personal_scene (test_control_scene.ControlSceneChecks) ... ok
+test_gui_requires_compatible_renderer_and_initial_pause (test_control_scene.ControlSceneChecks) ... ERROR
+test_launcher_rejects_run_flags_and_other_worlds (test_control_scene.ControlSceneChecks) ... ok
+test_offline_launcher_only_checks_files (test_control_scene.ControlSceneChecks) ... ok
+test_rejects_changed_limits_and_geometry (test_control_scene.ControlSceneChecks) ... ok
+test_rejects_default_or_shared_topics (test_control_scene.ControlSceneChecks) ... ok
+test_rejects_extra_plugins_and_external_models (test_control_scene.ControlSceneChecks) ... ok
+test_rejects_wrong_or_duplicate_joint_references (test_control_scene.ControlSceneChecks) ... ok
+
+======================================================================
+ERROR: test_gui_requires_compatible_renderer_and_initial_pause (test_control_scene.ControlSceneChecks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/f/rob-memory/sim/tools/test_control_scene.py", line 29, in test_gui_requires_compatible_renderer_and_initial_pause
+    from check_control_scene import validate_gui
+ImportError: cannot import name 'validate_gui' from 'check_control_scene' (/mnt/f/rob-memory/sim/tools/check_control_scene.py)
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.868s
+
+FAILED (errors=1)

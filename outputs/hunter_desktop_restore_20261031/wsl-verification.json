@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-31T20:08:05.811861+08:00",
+  "checks": [
+    {
+      "arguments": [
+        "--version"
+      ],
+      "exit_code": 0,
+      "output": "WSL 版本: 3.0.3.0\r\n内核版本: 6.18.54.1-1\r\nWSLg 版本: 1.0.79\r\nMSRDC 版本: 1.2.7391\r\nDirect3D 版本: 1.611.1-81528511\r\nDXCore 版本: 10.0.26100.1-240331-1435.ge-release\r\nWindows 版本: 10.0.26200.8894\r\n"
+    },
+    {
+      "arguments": [
+        "--status"
+      ],
+      "exit_code": 0,
+      "output": "默认版本: 2\r\n当前计算机配置不支持 WSL1。\r\n若要使用 WSL1，请启用“Windows Subsystem for Linux”可选组件。\r\n"
+    },
+    {
+      "arguments": [
+        "--list",
+        "--verbose"
+      ],
+      "exit_code": 4294967295,
+      "output": "适用于 Linux 的 Windows 子系统没有已安装的分发。\r\n可按照以下说明安装分发来解决此问题:\r\n\r\n使用 'wsl.exe --list --online' 列出可用的分发\r\n和 'wsl.exe --install <Distro>' 进行安装。\r\n"
+    }
+  ]
+}

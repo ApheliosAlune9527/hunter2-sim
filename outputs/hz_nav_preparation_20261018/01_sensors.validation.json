@@ -1,0 +1,167 @@
+{
+  "verified_on": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "file": "F:\\rob-memory\\outputs\\hz_nav_preparation_20261018\\01_sensors.launch.py",
+  "sha256": "aaa4d398bdda0e08af923b5b12a5af3c44dec872ae671dde5d021e13aaea0efb",
+  "bytes": 2618,
+  "checks": {
+    "python_syntax": "PASS",
+    "node_packages": [
+      "robot_state_publisher",
+      "hesai_ros_driver",
+      "pointcloud_to_laserscan"
+    ],
+    "only_explicit_three_nodes": true,
+    "no_external_launch_or_shell_actions": true,
+    "node_namespace": "/hz_nav",
+    "scan_parameters_match_reviewed_historical_reference": true,
+    "scan_remappings": [
+      [
+        "cloud_in",
+        "/hz_nav/lidar_points"
+      ],
+      [
+        "scan",
+        "/hz_nav/scan"
+      ]
+    ],
+    "robot_description_typed_as_string": true
+  },
+  "status": "2026-10-19 map/TF/data reception checks and RViz LaserScan display PASS; screenshot shows 209 scan messages at 10.0 Hz, 720 points and Transform Ok. Next GUI steps add base_link axes and top-down view for geometric inspection. Firetime issue remains open; no chassis startup.",
+  "primary_sources": [
+    "https://github.com/ros2/launch_ros/blob/humble/ros2launch/ros2launch/command/launch.py",
+    "https://github.com/ros2/launch_ros/blob/humble/launch_ros/launch_ros/parameter_descriptions.py",
+    "https://github.com/ros-perception/pointcloud_to_laserscan/blob/humble/src/pointcloud_to_laserscan_node.cpp"
+  ],
+  "user_reported_robot_checks": {
+    "provenance": "User-pasted output in this chat; not direct remote tool execution",
+    "show_arguments": "PASS",
+    "transferred_sha256_matches": true,
+    "sensor_process_pids": [
+      539822,
+      539824,
+      539826
+    ],
+    "udp_and_ptc_connection": "Reported successful",
+    "angle_correction_read": "Reported successful",
+    "firetime_file_load": "FAILED; local catch clears load flag and returns",
+    "pointcloud_publisher_count": 1,
+    "pointcloud_publisher_qos": {
+      "reliability": "BEST_EFFORT",
+      "durability": "VOLATILE"
+    },
+    "probe_seconds": 10.0,
+    "probe_discovered_publishers": 1,
+    "probe_received_messages": 0,
+    "tf_data_check": "PASS: user tf2_echo received repeated base_link to hesai_lidar transform",
+    "scan_data_check": "PENDING",
+    "chassis_started": false,
+    "tf_translation_m": [
+      0.214,
+      0.0,
+      0.69
+    ],
+    "tf_rpy_deg": [
+      0.0,
+      0.0,
+      90.0
+    ],
+    "tf_check_scope": "Model TF communication only; no physical extrinsic calibration or localization validation"
+  },
+  "post_shutdown_recovery": {
+    "reported_on": "2026-10-18",
+    "timezone": "Asia/Shanghai",
+    "state": "Data reception and RViz scan display PASS; detailed geometric inspection and firetime issue remain open",
+    "previous_pids_apply_only_to_previous_session": true,
+    "guidance_delivery": "All remaining restart commands inline in chat at user request; no separate checklist file",
+    "launch_file_unchanged": true,
+    "preflight_reported_on": "2026-10-19",
+    "preflight_provenance": "User-pasted ps and ls output in this chat",
+    "preflight_related_process_matches": 0,
+    "preflight_required_files_listed": [
+      "/home/car/hz_nav_ws/config/hesai_xt32.yaml",
+      "/home/car/hz_nav_ws/config/hunter_nav.urdf",
+      "/home/car/hz_nav_ws/launch/01_sensors.launch.py",
+      "/home/car/hz_nav_ws/maps/lab_odom_06_nav.yaml",
+      "/home/car/hz_nav_ws/maps/lab_odom_06.pgm",
+      "/home/car/hz_nav_ws/rviz/lab_odom_06_map_view.rviz"
+    ],
+    "runtime_checks_reported_on": "2026-10-19",
+    "map_lifecycle": "configure and activate successful; active [3]",
+    "tf_translation_m": [
+      0.214,
+      0.0,
+      0.69
+    ],
+    "tf_rpy_deg": [
+      0.0,
+      0.0,
+      90.0
+    ],
+    "pointcloud_once_header": {
+      "sec": 1792377976,
+      "nanosec": 531986952,
+      "frame_id": "hesai_lidar"
+    },
+    "pointcloud_count_and_continuity": "PASS: nonempty first frame and 100 messages at observed 10.0 Hz",
+    "scan_data_check": "Numeric validity and continuity PASS: first frame 720/720 valid, 100 messages at 10.0 Hz; geometry PENDING",
+    "rviz_map_display_user_confirmed": "Visible; Map status Ok",
+    "rviz_glsl_error": "Same sampler-type error logged; display confirmed functional at observation",
+    "new_sensor_startup_log": {
+      "provenance": "User-pasted terminal two log on 2026-10-19",
+      "directory": "/home/car/hz_nav_ws/logs/2026-10-19-10-45-17-171321-car-NUC15JNKU7X4-99710",
+      "launch_pid": 99710,
+      "sensor_process_pids": [
+        99729,
+        99731,
+        99733
+      ],
+      "udp_and_ptc_connection": "Reported successful",
+      "angle_correction_read": "Reported successful",
+      "firetime_file_load": "FAILED: Open firetime file failed; existing configuration retained",
+      "scan_subscription_start_sec": 1792378293.2273448,
+      "scan_subscription_stop_sec": 1792378303.3443158,
+      "scan_subscription_interpretation": "Normal demand-driven pointcloud subscription; no process exit shown"
+    },
+    "sensor_probe_first_messages": {
+      "provenance": "User-pasted callback output in chat on 2026-10-19; final summary not provided",
+      "pointcloud": {
+        "frame_id": "hesai_lidar",
+        "points": 128000,
+        "data_bytes": 3328000
+      },
+      "scan": {
+        "frame_id": "base_link",
+        "rays": 720,
+        "valid_rays": 720,
+        "valid_min_m": 0.5840747356414795,
+        "valid_max_m": 11.167805671691895
+      },
+      "final_counts_and_rates": {
+        "provenance": "User-pasted final lines of the same probe on 2026-10-19",
+        "cloud_messages": 100,
+        "cloud_received_hz": 10.0,
+        "scan_messages": 100,
+        "scan_received_hz": 10.0,
+        "scope": "Approximately ten-second probe, not long-term stability or full navigation validation"
+      },
+      "geometry_and_ground_self_filtering": "PENDING"
+    },
+    "rviz_scan_display": {
+      "provenance": "User screenshots 65e0d05c and 73cd62dc in chat on 2026-10-19",
+      "status": "Ok",
+      "messages": 209,
+      "observed_hz": 10.0,
+      "displayed_points": 720,
+      "transform": "Ok",
+      "topic": "/hz_nav/scan",
+      "reliability": "Best Effort",
+      "durability": "Volatile",
+      "style": "Points",
+      "size_pixels": 3,
+      "rendered_scan": "Visible",
+      "fixed_frame_setting": "Not included in cropped screenshots",
+      "self_filtering_and_geometry": "Pending origin and view reference, then physical interpretation"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-16",
+  "source": "user_supplied_robot_terminal_output",
+  "hostname": "car-NUC15JNKU7X4",
+  "installation_via_todesk": true,
+  "robot_zip_sha256": "c62919992ce9a77fb5c60d5d1c1ddb35cfabfef780121979e0a049d1dc0e0204",
+  "environment_source_passed": true,
+  "doctor_passed": true,
+  "package_prefixes": {
+    "fast_livo": "/home/car/hz_ws/install/fast_livo",
+    "hesai_ros_driver": "/home/car/hz_ws/install/hesai_ros_driver",
+    "realsense2_camera": "/home/car/d435i_ws/install/realsense2_camera"
+  },
+  "helper_hashes_match": true,
+  "ros_launch_api_compatible": true,
+  "active_run": "/home/car/hz_ws/maps/lab_20261013_195244_610187",
+  "active_pcd_count": 0,
+  "session_processes": {},
+  "doctor_exit": "clean",
+  "sensor_roles_verified": false,
+  "mapping_roles_verified": false,
+  "todesk_map_return_verified": false,
+  "note": "Verification of installation and doctor only; not evidence of new launch roles completing mapping."
+}

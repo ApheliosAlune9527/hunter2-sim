@@ -1,0 +1,7 @@
+{
+  "action": "created_verified_native_source",
+  "source": "/mnt/d/rob-memory/sim/hz_hunter_full_description",
+  "native_source": "/home/aphelios/hz_sim_ws/src/hz_hunter_full_description",
+  "verified_files": 19,
+  "copied_build_or_install_symlinks": false
+}

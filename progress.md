@@ -1,0 +1,513 @@
+# 调查进度
+
+## 2026-10-16（Asia/Shanghai）
+
+- 已按用户单步回传完成主机/进程/ROS 环境只读检查，找到两个参考工作区。
+- 用户确认旧 nav2_ws 地图过时，指定先找师兄地图，优先 2026-09-21～2026-10-11；找到 lab_odom_06，用户确认扩建后的实验室范围。
+- 已对照保存日志、异步 SLAM 日志、历史扫描转换命令及底盘现存源码，恢复核心链路；全部证据及边界见 findings.md。
+- YAML free_thresh 在初次粘贴中缺行，带行号复查确认完整，已排除源文件缺字段的问题。
+- 源码 base_sensors 与历史扫描命令参数不一致，已明确不能混用历史事实和当前文件。
+- 用户最新要求：继续核实完整参数、路线及有效回环，核实后保存方法 Markdown，然后比较侧边聊天方案；原 Nav2 复现后续再继续。
+- 已读取 planning-with-files-zh 技能；创建三份本地调查工作文件。它们不是最终方法文档。
+- 本地工作区未发现根/父目录 AGENTS.md 和原规划文件；已有知识库、地图、机器人导出资产等目录，下一步清点。
+- 已列出相关聊天，尚未读取候选方案；没有向其他聊天发送消息。
+- Python/python3 暂未从 PATH 找到；技能恢复脚本存在，待定位应用依赖解释器后运行。没有安装或升级任何依赖。
+- 尚无可证明当晚完整 SLAM 参数、唯一采集轨迹或有效回环次数的原始记录；继续调查，不标记完成。
+- 已清点本地相关资料：发现 2026-10-13 的 Hunter 导出包、知识库配置副本和用户 10 月 11 日地图检查数据。严格区分来源，未将用户轨迹误用为师兄轨迹。
+- 已取得两份候选聊天的最近回合，原始工具返回过长，下一步只提取相关正文及分页元信息。
+- 已通过应用依赖找到 Python 并运行技能的 session-catchup.py，正常退出、无恢复输出；未安装依赖。
+- 已核对实车导出包清单与 tar 成员时间。SLAM 参数及其备份均早于目标建图（9 月 13 日）；有效差异为地图刷新间隔 0.2/5.0，已记入 findings.md，仍不当作实际加载证明。
+- 本地已导出资料未找到目标日期的位姿图、录包、实际 SLAM 启动实参或成功回环证据；下一步需要用户在车端执行最小只读查找，等待回传。
+- 收到用户首轮车端查找与前两次 SLAM 日志：在两个参考工作区、.ros、/tmp 内只返回今天的两个 launch_params；未返回历史位姿图/录包。三次 SLAM 日志均只见相同启动指纹/量程提醒（前两次另有退出记录），没有成功回环记录，不能推断没有回环。
+- 下一轮只读搜索将扩大到车端 /home/car 的其他目录，并检查残留的 SLAM 启动/保存/录包命令；等待用户按单步模式回传。
+- 已收到扩大搜索附件并在本地完整过滤核查：408 条文件结果全部为 Anaconda 测试 .data，没有匹配的建图轨迹/位姿图/录包。历史命中只见进程检查和本轮 cat/grep/find，没有原 SLAM 启动命令。
+- 已向用户解释 *.data 产生无关测试数据的问题。后续不重复宽泛文件搜索，改查脚本入口和历史备份；如果仍无新记录，就按证据边界归档方法及无法恢复的历史细节。
+- 用户最后一次入口检查仅返回当前 .bash_history 和三份 YAML 节点声明，没有旧历史备份或明确 SLAM 启动入口。已告知将据现有证据形成方法文档，历史缺口保留，不声称原路线和回环次数已恢复。
+- 用户已澄清侧边聊天方案为 FAST-LIVO 三维点云转二维栅格，并配套定位；无需进一步遍历其他聊天。
+- 开始制作最终 Markdown 和参考配置副本；已读取并说明使用 verification-before-completion，保存后核对内容、参数一致性、地图元数据和文件链接。
+- 已保存师兄二维建图方法证据核实版 Markdown 和参考资产/原始附件；原导出包哈希及资产成员内容重新核对通过。
+- 最终文档验证通过：54 项配置嵌入一致、地图 YAML 一致、9 个文件链接有效、8 份参考/附件哈希一致。验证回执已保存，实际历史全量参数/路线/成功回环仍明确为未恢复。
+- 文档完成后开始讨论用户贴出的 FAST-LIVO→二维栅格方案；定位方式可与地图来源分别选择。建议先做现有二维图的 Nav2 基线，再用自己的转换图对照，待用户决定。
+- 用户已选定先师兄地图、后个人 FAST-LIVO2 地图的导航复现顺序，并强调当前不在小车旁，所有可能移动的命令必须预警。
+- 已确认并记录：底盘驱动连接 CAN 后会进入控制模式并解除制动；现阶段不启动，先推进只读、个人工程和静态验证。
+- 重新读取本地 Nav2 配置，确认 AMCL/RPP/Smac Hybrid 参考链路；读取 brainstorming 技能用于后续实现前梳理，当前只给状态探查步骤，不修改或运行小车工程。
+- 下一步刷新当前共享进程及个人导航目录存在性，避免沿用几小时前的“无业务节点、目录不存在”状态。
+- 收到用户新回传：ps 关键词筛查无匹配行；个人 /home/car/hz_nav_ws 仍不存在。
+- 下一步提供两条纯文件命令：建立个人目录结构、以不覆盖方式复制师兄地图。尚未执行，等待用户回传后再验证副本。
+- 已读参考行为树，发现 no_spin 入口仍有 BackUp 恢复动作；后续静态验证将隔离包括恢复行为在内的速度出口，不因无 Spin 放宽限制。
+- 用户已完成个人目录创建与地图复制，cp -nv 回传两个目标路径；未启动任何 ROS 节点或底盘，车端副本内容校验仍待执行。
+- 下一步给出 sha256sum 对照和 nav2_map_server 安装索引查询，两条均只读，等待真实回传。
+- 用户已回传地图原件/副本 SHA256，两组完全一致且与本地归档一致；map_server share 路径确认为 /opt/ros/humble/share/nav2_map_server。
+- 已只读核对 Humble 地图服务生命周期与参数。下一步仅启动 /hz_nav/map_server，日志存入个人目录；保持终端运行，等待回传后再配置和激活。没有底盘/雷达/控制器启动授权或动作。
+- 用户截图确认终端一的 /hz_nav/map_server 已启动，停在生命周期等待与 Creating；未见报错，尚未配置或读图。
+- 下一步新开终端二，显式准备 Humble 环境并在域 88、Fast DDS 下 configure 个人地图服务，等回传后再激活；不涉及底盘控制。
+- 用户回传终端二 configure 成功（Transitioning successful）。下一步激活 /hz_nav/map_server，并订阅一次地图元数据核对实际消息；终端一保持运行，无底盘动作。
+- 用户回传 activate 成功，且收到 /hz_nav/map 元数据：287×469、约0.05m、原点与方向均与原图一致；地图加载/发布元数据检查通过。
+- 下一步新开终端三启动 RViz 查看地图，先等待界面截图再设置显示；终端一保持地图服务，终端二保留操作检查。定位和实车导航尚未执行。
+- 用户已打开 RViz 并回传界面：固定帧 ARS_548，只有旧点云/检测显示项，没有 Map。下一步在本次 RViz 界面中设置 map 并添加 /hz_nav/map，不保存覆盖原默认配置，不下发目标。
+- 用户已设置 map 并添加 /hz_nav/map 的 Map；出现 No map received。已基于“CLI transient_local 可收到、RViz 后订阅”定位到持久性设置这一优先检查项，未宣称故障已解决。
+- 下一步展开 Map 自己的 Topic 设置，使用 Transient Local/Reliable 并观察回传；不修改 TF、原工程或硬件状态。
+- 新截图确认上方 MarkerArray 被改成 Transient Local，而目标 Map 的 Durability 仍为 Volatile，Reliability 已为 Reliable。已明确指出 Map 对应行，只需改这一个持久性设置并回传验证。
+- 用户已正确修改 Map 持久性，截图显示地图且 Map/Transform OK；地图显示问题验证解决。
+- 核对地图三类像素及 Humble map_io 实现后发现：灰度205在 free_thresh=0.25 下预期会被当作空闲。已向用户说明，下一步只读统计当前 ROS 栅格三类数量确认，不推进定位/规划或移动。
+- 本地原图像素计数已保存：0=5312，205=81413，254=47878。车端当前分类仍待回传；个人配置尚未调整，原件和副本都未改。
+- 用户实际回传 unknown=0、free=129291、occupied=5312、total=134603，确认了灰色区域被并入空闲。已记录为修正前基线。
+- 计划在个人 maps 目录独占新建 lab_odom_06_nav.yaml，只改 free_thresh=0.196，并显示 diff；保留原始复制件和共享原件。尚未在车端生成或加载新文件，分类修复待验证。
+- 已读并说明使用 test-driven-development，以真实计数作修正前后检查，不增加无关单元测试或改动核心算法。
+- 用户独占创建导航 YAML 被 FileExistsError 保护中止；diff 确认现存 _nav.yaml 正好只改了 free_thresh=0.196，文件内容可复用，未发生覆盖。原始与导航 YAML 均无末尾换行，不是故障。
+- 下一步在终端一停止本人的地图服务，以 _nav.yaml 重启，然后终端二 configure；等待用户实际回传后激活并重复计数。尚不宣称修复通过。
+- 用户明确要求“先暂停明天再接着做”，已暂停推进并保存停点。已发出地图服务重启和 configure 指导，但用户尚未回传执行结果；不认定已运行。明天恢复时先确认现有终端/节点状态，再接续新 YAML 加载及分类验收；本轮没有小车端操作或运动。
+
+## 2026-10-18（Asia/Shanghai）
+
+- 用户明确要求继续，恢复暂停前的地图分类验证。已读取三份记录，保留原顺序及运动预警要求，不重新开展师兄方法调查。
+- 先给出两项只读检查：当前 ROS/机器人相关进程，以及个人 lab_odom_06_nav.yaml 内容；等待回传后选择复用或重启本人的地图服务。暂停前发出的重启/configure 命令仍无已执行证据。
+- 用户回传相关进程筛查无输出，导航 YAML 七项内容正确且 free_thresh=0.196。现在从未运行个人地图节点的状态接续，不要求 Ctrl+C 或停止其他进程。
+- 下一步仅在终端一 source Humble、以 _nav.yaml 启动 /hz_nav/map_server；等实际启动回传后再配置和激活。不运行底盘/传感器/控制器。
+- 用户回传终端一启动成功：入口明确为 lab_odom_06_nav.yaml，/hz_nav/map_server 输出生命周期等待与 Creating，未见异常。尚未收到 configure/activate 或新分类计数，不宣称修正通过。
+- 下一步保持终端一，新开终端二 source Humble 并在域88/Fast DDS、个人日志目录下 configure /hz_nav/map_server，等待回传。
+- 用户回传 configure 得到 Transitioning successful；终端一日志明确读取 lab_odom_06_nav.yaml、free_thresh=0.196、occupied_thresh=0.65、trinary、negate=0、原点[-1.31,-15.4,0]，成功读入同一 PGM 的287×469格、0.05m/cell。新配置加载通过，分类验收仍待实际消息。
+- 下一步仅 activate 个人地图服务，并用相同可靠/持久订阅统计 unknown/free/occupied/total；预期81413/47878/5312/134603。激活对象只为地图服务，不涉及底盘或导航控制器。
+- 用户回传 activate 成功，实际计数 unknown=81413、free=47878、occupied=5312、total=134603，与预期完全一致；确认灰格恢复为未知，地图加载/分类修正验收通过。粘贴尾部有显示乱码但正常计数已打印，没有报告运行异常，不另行追查显示残片。
+- 已更新师兄方法文档第11节，区分历史原阈值0.25与本次个人导航调整0.196；保存用户回传的阈值验证摘录，刷新来源清单和验证回执。归档哈希、5份资产原包内容、8份参考/附件、54项参数嵌入、10个文件链接、UTF-8及围栏均验证通过；文档SHA256为756e33a8ca3cf5e7b801d78e1d306e1fca226cbf746a8413e0a57e0ba912b663。
+- 下一步恢复终端三的 RViz，等界面回传再设置地图与视角、保存个人配置。实际定位、规划、控车及导航仍未开展。
+- 用户回传 RViz 截图 codex-clipboard-5b6603b5-d54f-4abe-a1e2-b7832b437d0d.png：已打开，旧 Fixed Frame=ARS_548，只有 Grid、PointCloud2、MarkerArray，没有 Map，视角 Orbit。下一步只改 Fixed Frame=map 并添加 /hz_nav/map 的 Map，明确设置该 Map 的 Reliable/Transient Local，防止再次误改上方 MarkerArray；显示尚未验证或保存。
+- 用户新截图 codex-clipboard-97edcc79-0bf6-4a67-b322-3f61155e7c89.png 已显示地图：Map Status=Ok，Topic=/hz_nav/map，Reliable/Transient Local，resolution=0.05、width=287；顶部仍有 Fixed Frame 的 map 无数据提醒，当前未建立机器人 TF 链，不启动硬件或添加虚假 TF 消除提醒。
+- 下一步只清理本次窗口的旧 PointCloud2/MarkerArray 显示项，并通过左上 File→Save Config As 保存个人 lab_odom_06_map_view.rviz；尚未保存或核对，不能把右侧 Views 的 Save 按钮当作保存完整配置。
+- 用户回答“保存了”，报告个人 RViz 配置已保存；尚未回传文件内容，显示项清理及保存路径/配置值仍需只读核对。下一步在终端二显示文件详情与前200行，不重启 RViz 或修改文件。
+- 已读取附件95864648-681c-42fa-bf60-024199f8cf6f：ls确认个人RViz文件5.3K、10月18日12:11保存；YAML解析核对Fixed Frame=map，Map=/hz_nav/map，Reliable/Transient Local，显示项仅Grid/Map，静态看图配置核对通过。
+- 同一文件的SetInitialPose、SetGoal、PublishPoint仍为/initialpose、/goal_pose、/clicked_point全局绝对话题；接入个人定位/导航前需匹配个人接口，不把命名空间当作绝对话题重映射。当前没有使用目标工具或运行控制器。
+- 下一步两项只读包路径查询：hunter_description、hesai_ros_driver。已清点本地参考导出，含hunter_description模型与launch、底盘源码，无robot_bringup或Hesai导出目录；传感器实际入口需以车端安装路径及文件为准。
+- 用户确认 hunter_description 解析到 /home/car/hunter2.0_ws/install/hunter_description/share/hunter_description；hesai_ros_driver 解析到 /home/car/hesai_xt32_ws/install/hesai_ros_driver/share/hesai_ros_driver。
+- 本地参考的 display.launch.py 使用 hunter.urdf.xacro，assembly.urdf.xacro 只定义 assembly 宏，不能直接假定它是完整模型入口；当前实际包来自另一工作区，需要读取车端主模型而非盲用历史 base_sensors 中的 assembly 路径。
+- 下一步给两条只读命令：cat 实际 hunter.urdf.xacro，find -L 雷达包 share 下的 Python/YAML 文件。使用 -L 避免 colcon 符号链接安装导致遗漏清单，不启动任何 launch。
+- 用户回传实际 hunter.urdf.xacro：根base_link，hunter_joint固定xyz(0,0,0.105)，assembly实例相对hunter_link为(0.214,0,0.265)，包含common_properties和assembly文件；另有机械臂外观固定连接，当前文件没有启动控制程序。模型尚未展开或运行。
+- 雷达包清单只有常规launch/start.py、兼容入口launch/dashing_start.py、config/config.yaml三项。下一步两条只读命令读取实际assembly、以及start.py/config.yaml（多文件head分源显示），先检查雷达frame、点云话题和配置，未启动驱动。
+- 已读取并解析附件fcbc48d0-8d56-405a-9bd5-67cf9e2b780a：assembly的lidar_joint固定平移(0,0,0.32)、yaw=M_PI/2、子帧hesai_lidar；结合主模型对应base_link→hesai_lidar平移(0.214,0,0.69)、yaw=pi/2，这是模型值，尚非物理标定或实测TF。
+- 实际start.py仅启动hesai_ros_driver_node和额外RViz；yaml_config和config_path参数行都被注释。不能认定刚读到的安装配置就是默认实际加载路径；下一步确认源码的配置参数后用个人入口显式传入。
+- 配置YAML本地解析通过：source_type=1、device_ip=192.168.8.32、UDP2368/PTC9347、transform_flag=false、use_timestamp_type=1、frame=hesai_lidar、点云=/lidar_points、send_point_cloud_ros=true；PTC standby_mode/speed均-1。没有启动硬件。
+- 下一步给两项只读检查：配置路径相关源码上下文搜索，以及pointcloud_to_laserscan包路径。拟在个人空间准备驱动配置、模型和扫描转换入口，保持现有地图/RViz窗口。
+- 已读附件14e461eb-a192-497e-b007-041b6e19cf1e：hesai_ros_driver_node.cc的ROS2分支行89明确declare_parameter<string>(config_path,""), 非空时替换默认路径，行99交给YAML::LoadFile；默认PROJECT_PATH/config/config.yaml。显式配置路径的源码契约已确认，实际二进制运行仍待日志验收。
+- 用户查询pointcloud_to_laserscan share为/opt/ros/humble/share/pointcloud_to_laserscan，无需安装或升级系统包。
+- 下一步只在个人config目录独占新建hesai_xt32.yaml，源为已检查的安装config.yaml，5个ROS话题加/hz_nav前缀，保持frame、设备连接、时间戳和驱动/标定参数。使用open('x')防覆盖并由diff验收；尚未在车端生成或启动。
+- 已在本地用原始附件配置验证该最小替换：5个字段恰好各命中一次，修改后YAML可解析且深比较仅这5项变化，全部driver参数与原配置相同。
+- 用户回传Created: /home/car/hz_nav_ws/config/hesai_xt32.yaml，并diff确认正好5个ROS话题改为/hz_nav/下，frame及driver配置未变；该个人配置准备验收通过（12:34:11创建），尚未由驱动加载运行。
+- 下一步一个文件准备步骤：在终端二调用xacro展开实际hunter.urdf.xacro，先捕获/解析XML并检查base_link与hesai_lidar，再独占写个人config/hunter_nav.urdf，输出模型统计。stdout捕获、stderr保留，依赖或展开失败会直接显现且不创建空目标文件；不启动硬件。
+- 用户成功生成/home/car/hz_nav_ws/config/hunter_nav.urdf；输出Model:hunter、links:10、joints:9、Joint types:['fixed']，关键链接检查已通过。末尾粘贴显示有字符错位，但实际文件创建和统计成功，不把显示残片作为运行错误。
+- 已核对Humble官方ros2launch命令：支持绝对文件路径，--show-args分支只调用参数打印而非launch_a_launch_file；ParameterValue(value_type=str)用于机器人描述。官方pointcloud_to_laserscan源码确认参数名、SensorDataQoS及有scan订阅者才接收点云的行为。
+- Windows已生成F:/rob-memory/outputs/hz_nav_preparation_20261018/01_sensors.launch.py，2618字节；仅robot_state_publisher、hesai_ros_driver、pointcloud_to_laserscan三个显式节点，均/hz_nav，不包含外部launch或shell动作。显式config_path读取个人YAML，机器人描述读取个人URDF并强制str，点云/扫描/hardware cwd均采用个人空间接口与日志目录；scan高度0.10～0.85m、距离0.50～20m沿用历史转换命令，仍需实测过滤效果。
+- 本地Python语法、允许节点范围、无外部launch/shell动作、命名空间、历史扫描参数及话题映射检查通过；回执01_sensors.validation.json保存，SHA256=aaa4d398bdda0e08af923b5b12a5af3c44dec872ae671dde5d021e13aaea0efb。不将该静态检查称为ROS运行成功。
+- 下一步用户通过ToDesk把这一份launch文件传至个人launch目录，再在现有终端二--show-args解析并回传。尚未传输、未执行、未启动传感器或底盘；地图服务/RViz继续保留。
+- 用户已在车端以明确域88/Fast DDS/个人日志目录执行个人01_sensors.launch.py --show-args，正常输出Arguments标题及No arguments，返回提示符。说明文件已在目标路径可读取、ROS2模块及生成描述阶段解析通过，不代表传感器已启动或有实际数据。
+- 下一步仅两项只读检查：文件SHA256与本地受审版本一致性，以及最新相关进程；从上次无驱动筛查后已经过多轮准备，不直接假定仍无其他共用设备驱动。等回传后才实际启动个人传感器入口。
+- 用户回传车端launch SHA256为aaa4d398bdda0e08af923b5b12a5af3c44dec872ae671dde5d021e13aaea0efb，与本地受审文件完全一致。
+- 最新ps仅见本人地图服务（CLI64118/节点64143，pts/0）、RViz（CLI118727/节点118746，pts/2）、域88/Fast DDS的ros2-daemon76930（pts/1）；未见雷达、底盘、模型发布或扫描转换。无需停止任何进程。
+- 下一步在当前终端二实际运行个人01_sensors.launch.py，仅模型TF、XT32、扫描转换；保留终端一和三。此步骤属于静态感知验证，不含底盘驱动或运动发布；尚未收到实际启动日志，不宣称感知运行成功。
+- 用户13:05:44实际启动入口：日志目录/home/car/hz_nav_ws/logs/2026-10-18-13-05-44-772565-car-NUC15JNKU7X4-539803；RSP539822、Hesai539824、扫描转换539826。RSP读到全部10个模型段，雷达ROS/SDK均V2.0.12，UDP打开、PTC连接192.168.8.32:9347成功，init6_1 XTM1，角度校准从雷达读取成功。
+- 同一日志出现[FATAL]load firetime error: Open firetime file failed，之后仍有finish2及cpu version not support for gpu警告；尚不能断言已崩溃或无影响。按照遇错先排查，暂不继续定位/规划或改标定。
+- 本地已有资料未找到相同firetime报错记录。查询官方SDK v2.0.12：general_parser.h的LoadFiretimesFile在打开失败后catch打印FATAL、get_firetime_file_=false并return；udp6_1_parser.h在点计算中按该标志决定时序角度/时间修正。这是上游线索，本机general_parser行号与上游已有差异，需车端核对，不把它直接当本机证明。
+- 下一步新开终端四，用ps查看539822/539824/539826，再读本机general_parser.h 290～385行。均只读，不需要ROS环境，不停现有三个终端；firetimes_path在所保留配置中为空，暂不填入未验证文件。
+- 用户ps确认三个PID在运行5:33后仍存活：RSP539822 Sl+、Hesai539824 Rl+、转换539826 Sl+，父PID均539803；未退出。
+- 用户回传实际general_parser.h确认LoadFiretimesFile在打开失败后throw/catch，打印FATAL、get_firetime_file_=false、return，与已查上游分支行为一致。没有exit/abort；不能把“仍活着”当成校正加载成功或数据质量通过。
+- 下一步在已有终端四准备Humble环境，再以best_effort/volatile一次订阅/hz_nav/lidar_points的header，超时15秒；先确认实际点云输出，仍属于该异常的运行诊断，不跳到定位/规划或改标定。
+- 用户截图codex-clipboard-a2f39600-0e7d-4ba6-bb0f-953f2ca166f6.png确认终端四已source Humble并执行所给显式域/RMW/日志目录的15秒订阅；截图时没有消息，也没有返回提示符。只知仍在等待，不能据此声称完整15秒已超时或断定没有发布器。
+- 下一步等当前命令自然返回，再在终端四用--no-daemon --spin-time 5分别列出实际话题类型与节点，定位话题是否/hz_nav/lidar_points、是否有驱动节点可发现；不先改话题/QoS/标定或重启节点。
+- 用户无daemon图发现回传：/hz_nav/lidar_points=PointCloud2、/hz_nav/scan=LaserScan、/hz_nav/lidar_packets_loss=Hesai LossPacket；节点含/hz_nav/hesai_ros_driver_node、robot_state_publisher、xt32_to_scan及已知地图/RViz/2个TF监听节点。命名空间及消息类型与个人配置一致，不能由此证明消息正在发送。
+- 用户尚未明确说明前一次header是否完整15秒无消息；不把该细节补写为已确认超时。
+- 下一步查/hz_nav/lidar_points发布端详细QoS，并用10秒rclpy传感器QoS订阅统计实际消息数、前两帧元数据与Node.count_publishers。已核对Humble info支持--no-daemon及策略参数；Humble Subscription没有公开get_publisher_count方法，避免使用新版API，Node.count_publishers只是发现计数而非匹配计数。
+- 用户topic info -v确认发布者1：/hz_nav/hesai_ros_driver_node，BEST_EFFORT、VOLATILE、Infinite Lifespan/Deadline、Automatic Liveliness；此命令执行时订阅者0。与随后sensor_data订阅主要QoS相容，不能将之前未收到消息归为Reliable要求不匹配。
+- 用户10秒rclpy实际探针输出discovered_publishers:1、received_messages:0，且没有前两帧元数据。由此明确实际数据接收未通过，非仅截图尚在等待；探针的发现计数不称DDS匹配数。
+- 查询官方ROS驱动v2.0.12：source_driver_ros2.hpp中SendPointCloud直接publish(ToRosMsg)，ToRosMsg内会printf每帧raw/multi frame统计并flush；这可用于区分SDK回调与ROS数据传输，但本机代码已有差异可能（上游默认Publisher10为Reliable、实际为BestEffort），需读取本机版本。
+- 上游node_manager.cc的IsPlayEnded在PCAP播放完分支含全局pkill -f rviz2；不是要执行的参考命令，后续若涉及停止必须先核对本机实现及当前实时源分支，严禁照抄清理指令。当前source_type=1，未报告播放结束/全局清理。
+- 下一步两条只读诊断：终端四tf2_echo base_link hesai_lidar（6秒自动结束），以及find实际定位source_driver_ros2.hpp并读105～330行；不假定上游路径已在车端证实。保持其余运行窗口，保留现有标定和网络参数。
+- 用户转问RViz旧日志中的GLSL sampler冲突，随后给13:24当前截图。旧报错时间核对为12:06:31，此后12:07和当前截图均显示地图、Map Status: Ok；当前主要红字为Frame [map] does not exist。
+- 已核对Humble RViz updateFrames：固定帧缺失且无任何TF时Warn，已有其他TF时Error。现阶段模型已启动、地图定位尚未启动，与红字状态一致；不改固定帧或发布虚假定位TF，不声称图形错误已修复。
+- 按单步教学缩小下一步为仅一项：终端四6秒tf2_echo base_link hesai_lidar，验证模型小消息通信；发送路径源码检查仍保留为后续。现有地图、感知、RViz窗口保持运行，底盘未启动。
+- 用户实际TF回传通过：首次等待后连续5次读到base_link→hesai_lidar平移[0.214,0,0.690]米、yaw90°，与模型一致；静态时间0.0及6秒结束的信号日志均符合该检查。只标记模型TF通信通过，点云/扫描/定位仍待验收。
+- 下一步仅一条只读命令：find实际定位source_driver_ros2.hpp并读取105～330行。终端四操作，其余三个窗口继续运行，不重启或修改驱动。
+- 已读附件b6c3d205，确认本机PointCloud2发布器采用SensorDataQoS，SDK回调注册到SendPointCloud，先转换再publish；publish返回后已有[ROS_PUB_PROFILE]每约1秒统计及stdout刷新。本机实现与上游参考不同，不把源码存在当作实际二进制已执行证明。
+- 统计格式串带字面\\n，日志可能长行；下一步终端四限字节读取本次launch.log尾部，再限时订阅小体积/hz_nav/lidar_packets_loss一次。均只读，不停当前会话、不改驱动或标定；点云接收仍待解决。
+- 用户报告小车被关闭，需要重启，并要求说明恢复命令。此前发出的旧launch.log尾部和LossPacket订阅尚未回传，不认定已执行；原运行PID和状态不再作为当前会话依据。
+- 曾生成独立静态会话恢复命令文件，随后按用户要求删除。恢复顺序仍为开机状态/个人文件检查→地图启动→configure/activate→个人感知入口→加载已保存配置的RViz。保持既有四窗口分工，不启动底盘或Nav2，不重新建图/编译/修改配置。
+- 单步恢复先给终端四进程筛查与个人config/launch/maps/rviz目录清单；等待重启后真实输出再启动，避免自动运行或其他人进程造成重复。当前尚无本次开机及恢复执行证据。
+- 用户明确本次恢复命令只需直接展示在聊天中，不需要独立清单文件。已删除刚生成的清单并同步移除计划/验证回执中的文件引用；继续等待并单步恢复原任务。
+- 用户进一步明确“这个不用单步了，这个直接全部显示出来”。本次重启恢复改为在聊天中一次性给全命令，原有安全/共享空间边界继续适用；不再生成文件或要求逐轮等待输出。包括检查重复进程与个人文件、恢复地图及生命周期、感知入口、已保存RViz和基础TF/点云接收检查，仍无真实恢复回传。
+
+## 2026-10-19（Asia/Shanghai）
+
+- 用户实际回传开机后相关进程关键词筛查无匹配行；ls确认config/hesai_xt32.yaml（5.7K）、config/hunter_nav.urdf（7.3K）、launch/01_sensors.launch.py（2.6K）、maps/lab_odom_06_nav.yaml、maps/lab_odom_06.pgm（132K）、rviz/lab_odom_06_map_view.rviz（5.3K）均在，原始地图YAML也保留。
+- 恢复前进程/个人文件检查通过；不把这次ls当作重新核对内容或SHA256，不把旧会话TF和点云结果当作本次运行结果。尚未收到新地图/感知/RViz启动日志。
+- 按用户本次要求在聊天中一次性提供剩余恢复命令：终端一地图服务→终端四configure/activate→终端二个人感知→终端三已保存RViz→终端四地图状态、TF、点云header检查。不生成文件，底盘和Nav2继续不启动。
+- 用户已回传本次地图两次生命周期转换成功、active[3]、模型TF连续读数一致，并实际收到/hz_nav/lidar_points的一条header（1792377976.531986952，hesai_lidar）。确认本次不再是一次订阅完全无消息；尚未证明非空点数、连续频率或扫描通过。
+- RViz本次首条地图处理时再次出现同一GLSL sampler错误。已异步询问当前实际显示，用户明确“能看到地图，Map状态为Ok”；当前保留RViz设置继续感知数据验证，不安装/升级图形驱动。
+- 查到官方ros2/rviz issue463与该报错完全相同，原报告指出首帧报错但地图仍能显示。作为同类记录引用，不将外部用户经验当成本车根因或修复成功证据。
+- 下一步终端四只读订阅点云和扫描约10秒，输出实际接收次数、频率和第一帧基础质量信息；其余窗口保持运行，尚无本次感知启动完整日志/PID。此前发布路径/丢包小消息诊断命令未收到执行回传，不补写为已执行。
+- 用户回传探针首帧：scan frame=base_link，720条射线全部满足有限/量程条件，距离0.5840747356～11.1678056717米；cloud frame=hesai_lidar，128000点、3328000字节。实际非空点云大消息及扫描转换至少一次已确认。
+- 回传尚无cloud/scan最终messages与received Hz，也未见提示符；继续等待该探针结束后的末尾两行，不认定10秒连续频率通过，也不重发整个检查。用户粘贴尾部字符错位未伴随实际异常，不另行猜测报错。
+- 用户补齐终端二本次启动日志：目录2026-10-19-10-45-17-171321-car-NUC15JNKU7X4-99710；RSP99729、Hesai99731、转换99733。UDP/PTC及角度校准读取成功，firetime打开失败在本次再次确认，暂不改变标定配置。
+- 转换节点scan订阅开始/结束间隔约10.117秒，与探针订阅周期吻合；说明按需点云订阅启停，不解释为雷达退出。终端四最终消息数/频率仍未回传，下一步只要求贴出该窗口末尾几行（包括提示符或异常），不重复启动检查。
+- 用户补齐最终统计：cloud messages100/received Hz10.0，scan messages100/received Hz10.0；本次连续接收与扫描转换检查通过。没有新增报错，粘贴开头字符错位不影响完整正常结果。
+- 下一步转到现有RViz，只做两组临时显示设置：隐藏Map并固定base_link，添加/hz_nav/scan的LaserScan、Best Effort/Volatile、清晰Points显示；等截图后核对扫描几何与近车体误检。原保存的地图查看配置暂不覆盖，其他终端继续运行；未启动底盘、定位或Nav2。
+- 用户LaserScan配置截图显示Empty topic name，实际Topic参数为空，蓝色选中的是Status下的Topic报错行；Reliability仍Reliable、Durability Volatile，Points计数0。截图未包含Fixed Frame，暂不认定已切换。
+- 下一步只做两项具体GUI修正：真实Topic（Points下、Depth上）右侧填/hz_nav/scan回车，再将Reliability改Best Effort。等待新截图观察接收，不改驱动、TF或标定。
+- 用户两图确认LaserScan空话题/QoS问题已解决：Status Ok，209条/10.0Hz、720点、Transform Ok，所需话题及Points3px显示参数正确。白色扫描已经可见，不把原始分段形状误判为地图不全或已证实的车体误检。
+- 下一步只在当前RViz加base_link的Axes并切TopDownOrtho俯视、将视图X/Y置0建立原点参照，再要完整截图核对近车体点分布；其他窗口保持、不保存覆盖地图配置、不启动底盘/定位/Nav2。
+- 用户新图确认Map隐藏、LaserScan和Axes均Ok，base_link坐标轴及TopDownOrtho视图已建立。Views X/Y为相机平移，不能当作定位坐标。用户询问点状显示，已解释是当前720方向实时扫描及Points样式，历史地图只是未勾选显示，未修改地图文件。
+- 原点参照已可见，近处点来源仍需实物/后续对齐核对；不凭截图宣称自体过滤或物理标定全部通过。下一步转入并行的只读定位准备：终端四查询hunter_base和nav2_bringup实际包share路径，不启动底盘或Nav2。
+- 用户查询确认当前hunter_base来自hunter2.0_ws安装空间，nav2_bringup来自/opt/ros/humble。下一步按当前实际版本读取launch/参数，不将旧hunter_nav_odom_ws导出直接套到当前驱动。
+- 已只读解析本地导出nav2_params.yaml并计算SHA256=a349a980fc2b2315b6a564804b045b05c5ebec8d36dcf2d651baa3fd99e3e0b6（12599字节），保留RPP/SmacHybrid/AMCL及旧路径/话题/use_sim_time等适配点。车端文件是否相同待sha256sum回传。
+- 下一步终端四两条只读命令：find当前hunter_base share内Python/YAML并sed读取前220行；sha256sum师兄导航参数。其他窗口保持、不启动底盘/定位/Nav2，不生成额外清单。
+- 用户回传当前hunter2.0_ws底盘launch默认参数及类型转换，与已知odom/base_link、can0、hunter2、里程计TF默认开启契约一致；尚未据此启动驱动。
+- 车端Nav2参数SHA256与已归档12599字节副本完全匹配，可直接分析本地完整参数。当前参数参考已验收，历史9/22运行参数证据边界仍保留。
+- 已计算本地底盘三个关键源码和两份no_spin行为树的SHA256；参考源码含Twist角速度转内轮转角及CAN连接后解除制动，参考行为树有BackUp。当前实际版本仍需对照，下一步终端四只做两项文件哈希查询，避免贴长代码及误运行底盘。
+- 用户哈希回传：hunter_params.hpp和两份no_spin行为树完全匹配归档；hunter_base_ros.cpp（a9214098…）及hunter_messenger.hpp（544c06aa…）不匹配。已确认实际源码路径为hunter2.0_ws/src/hunter_ros2/hunter_base，暂不推断逻辑差异。
+- 按不匹配分支，下一步在终端四仅cat当前主程序和消息处理头文件两份源码，待真实内容后再判断cmd_vel语义、TF开关及底盘连接行为。其余窗口保持，不启动底盘，不修改共享源码或标定。
+- 已读附件d291f7eb并分离全文；源码哈希精确匹配车端回传。完整diff确认当前主程序删除显式ReleaseBrake但仍EnableCommandedMode；头文件删除两处motor_id范围检查，速度转换和里程计/TF主体未变。已更新当前版本结论，不把归档释放制动行为套在当前版本。
+- 已确认Twist角速度到内轮转角转换、反馈里程计积分、可控odom TF；驱动Run即使simulated_robot=true仍会连CAN，当前不运行。静态源码差异不等于实际二进制已经验证，不更改核心实现。
+- 按已授权的复用方案推进个人AMCL配置；读取writing-plans及验证/TDD参考，将必要文件和验证步骤放在现有计划中，不额外生成清单、不重新索取已授权常规文件准备许可。
+- 本地候选AMCL参数40项通过YAML往返解析/精确差异/原件不变检查，仅适配实车时间和/hz_nav话题及显式不设初始位姿。下一步给终端四元数据查询及个人amcl.yaml独占创建命令；车端尚未创建或启动AMCL。
+- 用户已完成AMCL/lifecycle_manager可执行程序查询及个人amcl.yaml独占创建，关键帧与话题符合已选方案；没有启动节点。
+- 已本地生成02_localization.launch.py，仅AMCL与其生命周期管理器、autostart默认false、保留全局TF、复用现有地图服务。语法及范围检查通过，SHA256=c0168408024f21923aaecb0dc54cb9d81f9dcc4c45836cd51c97e0ea257a4eb8。验证脚本初次对导入名单的拼接顺序断言失败，改为无序集合等价后完整重跑通过；不涉及修改运行入口逻辑。
+- 下一步用户只需将实际启动文件经ToDesk传至个人launch目录，终端四sha256sum及--show-args；其余三个窗口保持。此轮不启动AMCL/底盘，不发布运动命令，不建立虚假TF，不额外生成恢复清单。
+
+- 用户回传车端02_localization.launch.py --show-args成功，列出autostart且默认false；确认该步只解析，未启动AMCL。本次未贴sha256sum，不能记为车端字节哈希已验收。
+- 下一步仍在终端四先sha256sum；与预期一致后在同终端显式autostart:=false启动定位入口，保持地图/感知/RViz三窗口运行。等待哈希及实际启动日志，再检查参数/未配置状态；不接底盘、不激活定位、不发运动命令。
+
+- 用户回传定位入口SHA256=c0168408024f21923aaecb0dc54cb9d81f9dcc4c45836cd51c97e0ea257a4eb8，与交付文件一致。实际autostart:=false启动日志目录2026-10-19-12-47-43-157735-car-NUC15JNKU7X4-913577，AMCL913596、生命周期管理器913598；日志仅Creating/等待外部生命周期，未见报错。
+- 终端四现被定位入口占用。下一步新开终端五，仅查询/hz_nav/amcl生命周期和完整参数，原四窗口保持；实际状态和参数尚未回传，不先configure/activate或接入底盘。
+
+- 用户回传AMCL unconfigured[1]和完整参数；本地与已验哈希的参考适配40项逐项比较全部一致，保存运行快照amcl_unconfigured_20261019.yaml。额外声明参数保留，不改原配置；initial_pose为默认零且set_initial_pose=false，未建立真实定位。
+- 同时回传RViz旧日志：GLSL时间2026-10-19 10:45:49.642+08，scan QoS时间11:00:46.984+08，均早于AMCL12:47:43；QoS更早于后来LaserScan Ok/10Hz截图。解释历史警告，不把它当刚启动AMCL导致的故障；当前GUI尚无新截图。
+- 复核Humble官方AMCL：on_configure初始化订阅/TF/滤波器，不等于on_activate；scan使用sensor_data QoS，map用Reliable/Transient Local。下一步只configure并get，预期inactive[2]，等终端四新增日志；不连接底盘，不发布运动，不伪造odom或map TF。
+
+- 用户执行configure后返回Transitioning successful，随后实际get为inactive[2]；配置阶段通过，尚未激活。终端四新增日志未回传，不把生命周期成功当成AMCL已收到地图或已定位。
+- 下一步终端五只读本次launch.log前100行及ros2 node info /hz_nav/amcl；其他四个运行窗口保持。核对实际地图接收、scan/map/TF连接，仍不启动底盘、不发布运动或伪造TF。
+
+- 最新截图b08e21d0确认地图服务active[3]、AMCL inactive[2]，AMCL已收到287×469、0.050m/pix地图；扫描丢弃理由为queue full及stamp早于TF缓存，尚未证明根因。
+- 截图Creating时间为2026-10-19 19:00:22.909+08、configure19:00:38.737、地图收到19:00:38.753。管理器PID1193259不同于中午913598，原因和当前完整进程信息未知；中午日志路径/PID不继续当当前。此前node info未回传。
+- 下一步终端五只读节点清单和6秒odom→base_link TF；地图接收已过，不重复排查地图。官方AMCL扫描过滤目标为odom_frame_id_、队列10；时间缓存提示不单独证明系统时钟错误。其他运行窗口保持，不改TF或接CAN。
+- 本轮大段日志记录脚本被执行策略拒绝，未启动进程或写入；改用专用文件补丁记录证据，不改变车端操作。
+
+- 用户最新节点清单有十个各异名称，无重复AMCL、无底盘节点；三个transform_listener_impl名称不同，不能当作重复驱动。6秒tf2_echo持续提示odom frame不存在，没有任何变换值；确认AMCL缺少所需odom链路，未证明系统时钟错误或时间缓存提示的全部成因。
+- 再读当前车端源码附件，确认Connect后EnableCommandedMode、无显式ReleaseBrake；速度订阅绝对/cmd_vel，里程计话题和TF可由参数控制。未把归档ReleaseBrake行为套到当前版本，也未执行底盘。
+- 已准备个人03_base_odom.launch.py：默认connect_chassis=false且唯一底盘Node受IfCondition保护；固定速度重映射/hz_nav/blocked_cmd_vel、状态/hz_nav/hunter_status、里程计/hz_nav/odom及全局TF，校验当前hunter2.0_ws包来源。配置不等于只读硬件驱动，开启后仍切指令模式。
+- 本地语法及静态配置契约检查通过，2800字节，SHA256=440280204bf1215775cce1ba2e834e7a4eed1fdd18da413795c6843be4a49b53；03_base_odom.validation.json保存边界。未在车端解析或连接CAN。
+- 下一步仍仅ToDesk传文件、终端五校验哈希及--show-args；之后只读查接口和隔离话题发布者，再处理具体底盘启动授权。当前不询问抽象批准，不提供硬件启用命令，不生成额外清单文件。
+
+- 用户已实际回传03入口SHA256一致，ROS --show-args通过，connect_chassis默认false、choices false/true；包来源与日志目录检查在解析阶段通过，未启动底盘。
+- 已异步询问人员情况，用户明确“仍在远程，现场无人”。本阶段保持底盘不连接、无运动指令，真实定位/行驶等待现场接管条件。继续独立的只读检查及个人导航参数/入口准备，不因无法实车验证而放弃可完成工作。
+- 下一步终端五只读CAN接口详情/统计及隔离速度话题发布者，话题可能尚不存在；不配置或重启CAN，不发测试Twist，不激活AMCL。其余运行窗口保持，不生成额外清单文件。
+
+- 用户回传can0 UP/LOWER_UP、500000bit/s、ERROR-ACTIVE、总线/收发错误0；RX13880431、dropped13880431、TX0。仅记录接口累计快照，不当作底盘反馈验收。Linux官方rx_dropped定义为收到但未处理，不直接判定物理总线丢帧；本机具体成因未证实，不改接口。
+- 域88/Fast DDS无daemon5秒查询/hz_nav/blocked_cmd_vel为Unknown topic，仅代表当前未发现，底盘仍未启动，现场无人条件不变。
+- 已本地生成nav2.yaml和两份原样BT XML：11个节点选择器，23项只改时钟/个人话题/路径，控制规划参数保留；排除AMCL/map_server/map_saver/robot_state_publisher。源三文件哈希未变，YAML往返/精确差异白名单/XML检查通过，未在车端加载。
+- YAML10179字节、SHA256=9b1435e49c9aebed6fefd23588fe43fe28aa3be7a0c808a1d513ca6ed37e2139；XML哈希940b2123…及a5a45774…保持。两BT均有BackUp0.30m/0.05m/s，no_spin不能理解为无运动。
+- 下一步只传三文件并查哈希/格式，不启动Nav2或底盘。未来04入口需隔离controller/behavior/velocity_smoother全部速度路径；当前只有YAML准备，未验收运行隔离。
+- 本轮本地YAML/XML及差异已完整通过，传输后只核对三文件哈希，不再让用户重复同一格式测试；ROS实际加载留到后续04入口和节点参数验收，不把本地解析当作ROS加载证明。
+
+- 用户回传nav2.yaml及两份BT XML的车端SHA256，三项与交付记录全部一致；未加载/启动导航节点。
+- 已核对Humble标准速度通路：controller→smoother、behavior直接到最终速度；04入口保持该结构，分别转到/hz_nav/nav_cmd_vel_raw和/hz_nav/nav_cmd_vel，辅助遥控输入也私有。兼顾相对/绝对cmd_vel重映射，不把behavior漏接到全局速度，不将其改成经过平滑器的另一种控制行为。
+- 新04_navigation.launch.py为7022字节，SHA256=0ecef665c20541705e4ef63f6ee1c0b5a0319d2127d492d2f872ef62a93f4ee8。七个Nav2服务器+独立管理器、默认不自动激活，复用已有地图/AMCL/感知与全局TF；检查11节点配置选择器、关键接线和系统Humble包来源/程序存在，不含底盘、外部launch或shell。
+- Python3.10语法、静态规范、速度输出与03底盘输入不相交、三配置传输哈希校验通过。Windows无ROS环境，实际--show-args、包检查和运行端点尚待车端验证，未提供启动或运动命令。
+- 下一步仅传04文件、终端五hash及--show-args；其他窗口保持，不开启底盘或激活定位。实际节点待配置/参数/隔离验证在解析通过后分步进行，用户远程无人现场边界不变。
+
+- 用户指出推进自编启动文件偏离先探查师兄资产的重点；已明确承认启动编排属于助手新增，原地图、BT、参数及现有算法/驱动的复用与之区分。撤回继续传输/解析04的下一步，未删除文件或停止现有会话。
+- 重新读取既有历史/源码附件f4a0afdc、8d944a99及本地base_sensors.launch.py，确认原底盘入口包含关系；沿历史已出现的标准nav2_bringup/bringup_launch.py继续核对，不要求用户重复提供已有内容。
+- 用户再次贴出完整原任务（64ca7712）并要求重申。已全文读取，更新task_plan当前阶段与下一步：资产优先、必要最小个人适配、单步理解接口/数据流、保护共享工程和个人既有图、严格控车前置条件、最终独立导航与初学者TXT。此次仅重申任务，不照附件末尾重开阶段零，不发新的车端命令，不再堆新入口。
+
+- 用户要求继续，恢复资产优先的单步探查。下一步仅在车端空闲终端五读取已确认包路径下标准bringup_launch.py前260行，核对师兄历史使用入口的本机实现；没有执行启动、停止、生命周期或控车动作。等待完整真实输出，再决定是否需读取被包含的文件，不把上游版本内容代替车端现存文件。
+
+- 用户附件04fda6f8回传车端标准bringup_launch.py全文，确认默认非SLAM分支包含localization_launch.py、再包含navigation_launch.py，地图/参数/时间参数向下传递，默认组件模式和自动激活。这里只核实本机文件，未启动任何节点。
+- 下一步终端五两条只读命令分别读取localization_launch.py前280行及navigation_launch.py前400行，检查原入口的节点、生命周期、TF/速度接线及与现有个人会话重复风险；其他窗口保持，等待真实内容。自编04不推进，远程现场无人边界保持。
+
+- 附件d090dd77已读完车端两个子入口，定位2节点、导航7节点及两个生命周期管理器职责明确；参数重写、组件条件、TF和controller/smoother速度接线已记录。总入口和两子文件不包含底盘、传感器、模型或扫描转换，继续追外围原入口，不新写启动文件。
+- 下一步终端五仅sed读取.bash_history第910～955行，将已知历史Nav2命令前后的环境/硬件启动线索对应起来；只读不运行历史内容，其他会话保持，等待真实回传。现有地图/AMCL不重复创建，真实odom仍缺，未进行控车操作。
+
+- 用户回传910～955行实际是个人10/11地图的轨迹分析Python，读取步骤未命中目标。已说明直接沿用旧行号不可靠，不能把这段当作师兄原导航记录；不运行或修改它。
+- 下一步终端五仅按标准Nav2启动命令内容搜索当前历史并带15/10行上下文，等待实际匹配；其余窗口保持。未修改历史、系统、地图或运行状态。
+- 用户回传rg未安装，当前搜索未执行成功；不按终端提示安装共享系统软件。下一步同终端改用grep -n -B 15 -A 10及相同行首匹配表达式，等待输出；其他会话与文件保持。
+
+- grep成功返回当前历史626/1323/1608及上下文，确认Nav2配置记录、CycloneDDS/域88、原底盘独立入口，补齐xt32_direct_driver xt32_direct_node与/lidar_points_direct扫描链。没有执行打印出的CAN重启或任何启动命令；历史无日期，不认定为9/22完整实际顺序。
+- 下一步终端五两条只读检查：ls确认xt32_direct_ros2_ws及src/install目录，find列src包/源码/配置位置；等待当前目录真实输出后读取具体文件。现有Hesai/地图/AMCL/RViz保持，不启动direct驱动或改当前通信环境，04仍搁置。
+- 用户完成ls/find，确认direct工作区及src/install存在，找到一个节点C++源码及CMake/package.xml。下一步同终端两条cat分别读取节点全文和编译/依赖定义，等待真实内容；仅只读，不source overlay、不编译、不运行direct节点，不改变当前雷达会话。
+- 附件577008cf已读完，direct封装职责、6参数、26字节点及时间戳处理、外部SDK路径与编译依赖已记录；本层不做额外高度过滤或地图定位，SDK内部处理不做猜测。当前没有编译或运行验收，不按维护人字段认定作者。
+- 下一步终端五只读ls外部SDK目录，并在括号子shell临时source参考工作区后查询5个包的share来源；原终端/其他节点环境保持。当前Hesai照常、不启动direct、不改Cyclone/FastDDS、不启用底盘；04仍搁置。
+- 用户确认SDK目录存在；临时overlay查询明确底盘/模型/robot_bringup来自hunter_nav_odom_ws，direct来自xt32_direct_ros2_ws，Nav2仍为系统Humble。与之前hunter2.0来源分开记录，实际文件内容不凭路径差异猜测。
+- 已本地计算参考8文件指纹；下一步终端五cat参考安装空间的robot_bringup/hunter.launch.py，以及8项sha256sum对照（2 launch、3模型、3底盘源码），只有差异项才要求读全文。原会话保持，不运行硬件入口，不修改源码/模型/系统。
+- 用户重复贴出两次相同参考安装robot_bringup/hunter.launch.py，已确认原底盘包装入口的CAN/型号/odom/TF参数；8项哈希尚未回传。下一步终端五仅补sha256sum一条，不重复cat、不提前启动底盘或导航；当前会话保持。
+- 用户补齐8项哈希，与本地导出全部匹配；已依据确切参考源码复核：CAN连接成功即切控制模式并显式释放制动，simulated_robot/TF开关不能绕过。已向用户明确提醒，无人现场不运行原底盘入口，不把hunter2.0无ReleaseBrake的结论套用过来。
+- 原模型依赖与结构已基于匹配文件读清；下一步终端五一条子shell+xacro静态展开管道，仅输出模型节点/关节关系以验证当前依赖，等待真实输出。不启动节点、发布TF、连接底盘或修改参考文件；现有会话保持，04仍搁置。
+- 用户回传参考模型成功展开：10 link/9 fixed joint，base_link到hesai_lidar完整连接，无本次报错。只确认模型静态解析，不宣称真实定位或新TF运行通过。
+- 下一步终端五直接对系统原Nav2总入口使用--show-args，指定个人校正地图与师兄原参数、实时时钟及autostart=false；只解析/列参数，不启动任何节点、不增加自编入口。其他会话/通信设置保持，等待真实输出。
+- 用户回传原标准入口--show-args正常结束并列参；默认autostart=true是文件默认值，与本次显式false及仅查询行为区分，无自动激活发生。入口声明解析通过，未进行运行配置/TF/导航验收。
+- 下一步终端五两条文件准备命令：cp -nv完整师兄nav2_params.yaml到个人config/nav2_params.yaml，再只读sha256sum；不覆盖已有文件、不用旧拆分nav2.yaml冒充完整配置。原启动文件保持系统原件，后续仅处理必要个人适配，现有窗口/底盘未启用边界保持。
+- 用户完整参数副本创建及哈希核对通过（a349a980…）。下一步终端五两条命令原样复制系统Nav2三份launch到个人目录、对照系统及个人6项哈希；未适配副本暂不运行。
+- 已向用户说明复制理由为命名空间下原TF重映射与现有全局TF不同，需要在个人副本最小调整；保留原节点组织及核心参数，不继续自编04、不修改共享原件。现有会话保持，真实odom和现场控车条件仍缺。
+- 用户三份系统launch复制及6项哈希配对全部通过；已本地从附件还原出逐字相同原件，生成三份个人最小适配副本及完整diff，不从上游其他版本重写。
+- 本地Python3.10语法/AST保持条件与安全包成员检查通过，已阅读全文diff，打包3453字节；仅改全局TF、个人子文件及参数路径、默认个人命名空间/不自动激活。尚未车端解析或运行，个人完整参数文件仍a349a980…原始内容，后续需要必要话题/路径适配。
+- 下一步提供ToDesk适配包；用户传到hz_nav_ws后终端五先校验归档并解压仅三份个人launch，再查询3文件哈希；保持其他窗口，不启动节点、不接CAN、不改共享工程。传输结果尚待回传，04仍搁置。
+- 用户对重复传包提出质疑，已撤回上条传输/解压步骤，承认车端原样副本已齐，传包环节多余。改回车端副本原位、逐处说明的最小适配方式；本地包仅差异参考，不再作为当前部署路径。
+- 没有车端解压回传，不认定已更新或需要回滚；本轮只澄清及修正流程，不下发新的修改/启动命令、不删除现有文件、不停止会话。原资产优先、共享只读及远程无人边界继续保持。
+- 用户问现在执行什么：下一轮操作收敛为终端五直接编辑三份既有个人launch的TF目标（tf→/tf、tf_static→/tf_static），随后逐文件diff读取系统原件作比较。预期各两行差异，尚待真实回传；当前未执行车端修改、启动或底盘操作，不要求传任何文件。
+- 用户回传三份diff，各仅两行TF目标变化，文件差异验收通过；没有新节点或控车动作。下一步终端五直接给个人bringup加同目录路径并改localization/navigation两个包含引用，再diff展示累积差异。该编辑在匹配源上模拟验证、语法检查与差异审阅通过；尚待车端执行，不动SLAM原路径、默认值或算法参数，不传包。
+- 用户回传bringup实际diff，新变量与两个子入口路径变化准确，累积差异仅这些及前次TF两行，文件引用核对通过；未启动任何新节点。下一步终端五一条只读grep列个人完整nav2_params.yaml的话题与行为树路径，准备保留师兄调参、仅适配个人接线；不用旧拆分参数，不传包、不改共享原件，等待输出。
+- 2026-10-26用户补回参数11项grep，接线与原配置一致。下一步同终端两条命令：sed只改个人参数的6个BT目录/2个扫描话题/1个里程计话题，然后diff对照共享原件；相对话题保持。本地模拟9处替换与YAML解析/差异审阅通过，车端仍待执行回传。静态编辑不依赖旧运行快照，不启动节点、不接底盘、不传包，算法参数保持。
+- 用户补充多次中断且只执行终端五，未执行此前内容；上条参数修改状态和前四会话状态均不猜测。先搁置sed，说明静态文件操作不依赖其他ROS窗口；下一步两条只读ps/参数grep确认实际运行及接线，再决定恢复位置。保留已有资产与历史差异证据，不从头重做、不启动/停止节点或底盘。
+- 2026-10-27刷新回传：ps无输出，参数grep的6处BT旧目录/2个/scan/1个/odom均未适配；个人文件存在，当前未发现相关ROS进程。下一步当前终端继续9处引用sed及diff，仅文件准备，不先补跑前四窗口、不重建/传包、不启动或控车；等待车端差异，历史运行记录仅留作基线。
+- 用户实际回传个人参数完整diff，9处引用变化准确、其他算法数值无差异；文件适配这一步核对通过，未启动节点。下一步同一终端ls四项个人地图/BT资源，再在临时Humble环境中对个人标准bringup执行--show-args，显式个人namespace/地图/完整参数和autostart=false/use_sim_time=false/slam=False。等待资源与解析结果；不补跑前四窗口、不启底盘、不把参数默认值列表视为运行验证。
+- 用户回传四项资源在位、个人bringup --show-args正常列12参数；已解释默认autostart=true不等于执行自动激活。下一步当前终端真正启动个人标准Nav2组件，显式autostart=false/个人命名空间与参数、保留原composition=True，日志/ROS_HOME/临时参数留个人空间；预期unconfigured，待启动日志与下轮生命周期实查。命令不含底盘或传感器、不配置激活、不发布目标/速度，不重开旧前四程序；源码核对两个管理器均传递autostart。
+- 已全文读取启动附件bf9d4505：11个组件均Loaded于/hz_nav，容器157769，贴出日志无ERROR/FATAL，仅创建和等待外部生命周期切换。下一步保持启动窗口，新检查终端两条命令初始化会话环境并逐项get九主节点生命周期（各timeout6s），等待实际unconfigured[1]或异常结果；不据Loaded宣称地图发布/参数完整生效，不激活、不开硬件、不控车。
+- 用户再次给最终任务附件9924c0bb，已全文读完并对齐总目标/边界/交付，更新task_plan为完整Hunter Nav2独立复现与教学主线，显式加入真实接口/TF运动学、速度验证话题与端点隔离、最终单入口/TXT待办。此轮只回应目标澄清，不追加车端操作、不重启阶段零；九主节点状态仍待回传。保持复用原资产、共享只读、远程无人不控车，不将11组件Loaded或未来RViz路径当完成。
+- 用户九主节点状态实查全部unconfigured[1]、无失败；下一步检查终端只改个人navigation_launch的四处最终速度输出至新设/hz_nav/nav2_cmd_vel_test并diff，保留中间cmd_vel_nav输入/输出和全部算法参数。匹配源编辑模拟/重复无扩散/语法及差异审阅通过（未本地执行GNU sed），车端待回传；文件不会热更新已运行节点，之后才安排本人会话正常重启和实际端点验证。原启动窗口暂保留，不激活或控车。
+- 用户回传速度接线完整diff，恰好原TF两行+四行最终输出重映射，中间cmd_vel_nav链保留，文件差异核对通过；运行实例尚未更新。下一步检查终端一条只读ps刷新日志PID157684/157769的用户、父子关系、终端/时间及完整命令，先确认个人会话归属，再另行正常重启；本轮不停止进程、不发信号/速度、不激活，不把文件接线当实际隔离成功。
+- 用户ps确认两PID属此次个人会话：157684私有bringup、157769为其容器子进程，同car/pts/0/11:01:58且参数文件个人logs，归属核对通过。下一步原启动窗口pts/0一次Ctrl+C正常退出，返回提示符后同窗口ps复查两PID，等待退出日志与结果再启动新实例；当前未收到退出证据，不宣称已停止，不并行另起Nav2或控车。
+- 用户以10/20周报要求快速恢复；已只读检查PPTX全部六页及备注，对齐上周地图/雷达/AMCL基线与聊天后续九节点和4处测试出口文件证据。停止/重启未回传，当前运行状态重新待查；下一轮合并两条只读PS/关键接线grep，按实际结果直接恢复个人入口与端点验证，不重复复制/建图/全部旧验收、不按旧PID停进程、不编辑PPTX或控车。
+- 用户补贴关键接线均保留，并明确现车已重启无相关进程、要求快速开始少做检查；与所贴旧PS不一致之处按最新说明处理，不沿用旧PID发信号或反复追问。下一步直接给同一标准个人bringup一条autostart=false恢复命令，等待当前启动日志；不重做PS/文件审计，不连接底盘或发目标，实际端点/odom/TF及现场条件门槛仍保留。
+- 12:06恢复日志回传：新launch589110/容器589187、11条Loaded，但出现两条同名rosout发布器警告。按新异常做最小定位，下一轮两条只读PS（个人入口/容器）及no-daemon node list核实会话/节点重复，保留启动窗口；不重复文件审计、不先改配置/隐藏警告，不激活或控车，当前尚不判恢复或隔离成功。
+- 用户PS及no-daemon ROS图确认两套个人Nav2：157684→157769与589110→589187，全部/hz_nav名称各两份。重复实例根因已明确，已承认先前直接追加启动不妥；下一步当前检查终端仅SIGINT两个已确认的个人启动器，5秒后PS核四PID退出，等待结果后单例恢复。文件不改、不停daemon/其他会话、不强杀或提前启动第三套，不配置/激活或控车。
+- 用户实际SIGINT两启动器后，四PID快照仅余旧157684/157769（Sl+，car/pts/0），新589110/589187已退出；旧会话尚未确认退出。下一步只向已核对的旧容器157769直接SIGINT，再5秒后PS旧两PID，等实际结果；不判死锁、不连发启动器信号/强杀、不并行再起Nav2，仍不配置激活或控车。
+- 用户补发旧容器信号时进程已不存在，随后旧两PID的PS仅表头；此前新两PID也已退出，四个旧目标退出证据齐全。下一轮合并两条：一个空闲Ubuntu窗口仅一次autostart=false个人标准bringup恢复，另一个检查窗口no-daemon节点列表验证唯一，等待日志/节点输出后直接地图加载；不再发旧PID信号、查文件/哈希或重复九状态，不连接底盘或控车。
+- 用户新节点图全部/hz_nav名称各一份、仅/launch_ros_711833一个辅助节点，启动尾部正常创建等待；单例恢复及重复问题修复核对通过。下一步原Nav2窗口保留，检查终端一次source/export明确会话环境，再仅configure/activate地图服务器，回传结果与新增地图加载日志；不激活导航控制、不连底盘，不重复旧文件/九状态审计，实际地图发布及速度端点/odom/TF仍待。
+- 用户地图两转换成功，日志实际读到个人校正yaml/PGM、0.196阈值、287×469/0.05m、原点一致并Activating，当前地图加载激活通过。下一步复用上周已验证01感知入口，在新空闲Ubuntu窗口用一次自动pgrep防重复后启动三节点；原检查窗口单次BestEffort扫描header确认本轮数据，保留Nav2窗口。不重传/改文件、不跑历史统计脚本、不启底盘/目标，实际传感器恢复和速度端点/真实odom仍待。
+- 本轮RSP/Hesai/扫描三节点已启动，实际收到base_link扫描header1793076372.401381969，懒订阅取消正常；firetime空路径加载错误仍在但此帧可收到，保留未修与质量待验。已全文读附件39f45ce7，无新增故障；用户异步再次确认远程无人，底盘不启。下一步仅configure速度平滑器/行为服务器保持inactive，再topic info -v查专用测试出口的发布节点与0订阅，不发测试速度、不激活或越过真实odom/现场条件。
+- 用户两个configure成功，验证出口Twist共5发布端（平滑器1、同一行为服务器4）、0订阅，四种行为插件加载无Spin，当前两个最终速度路由与零消费者核验通过，未激活/发测试速度。下一步原检查终端只configure AMCL并node info核实际地图/扫描订阅，回传新增收图日志；只恢复inactive收图基线，不启底盘、不activate/设初始位姿或假TF，远程无人条件持续。
+- AMCL configure成功，实际订阅map/scan/initialpose均/hz_nav正确，未activate；当前只见TF过滤queue满/早于缓存丢帧，未贴Received地图行，不能称定位通过。下一步同检查终端仅6秒tf2_echo odom base_link及读取AMCL use_sim_time（预期False），先核里程计TF/时钟，按实际结果处理；不改原参数/时钟/标定，不补假TF或启底盘，远程无人门槛保持。
+- 用户本轮tf2_echo明确odom帧不存在，AMCL use_sim_time=False。定位依赖真实odom缺失已确认；不据queue/earlier警告去改时钟或校准。查官方Humble源码确认规划器configure加载代价地图/原算法，TF等待在costmap activate阶段；下一轮原Ubuntu检查终端先cleanup AMCL停止无效扫描等待，再仅configure planner_server验证原规划插件加载，实际结果待回传。保留Nav2/传感器窗口、远程无人底盘不开、不activate/求路径/发目标或速度，不造假TF、不重审既有文件。
+- 用户AMCL cleanup和planner_server configure均实际成功；原SmacPlannerHybrid GridBased加载、Reeds-Shepp模型/容差0.10与迭代设置日志已验，全局StaticLayer实际收到287×469/0.05m地图。查找表400调奇数为INFO，不改原算法。下一步原检查终端仅configure controller_server，再node info查中间速度路由/hz_nav/cmd_vel_nav及里程计输入，待RPP加载日志和接口结果；不激活、不发布目标/速度，不把插件配置/全局收图当定位或导航通过，现场无人底盘保持不开。
+- 用户controller_server configure成功；日志确认原RPP FollowPath及SimpleGoalChecker加载，NodeInfo订阅/hz_nav/odom、输出Twist至/hz_nav/cmd_vel_nav，FollowPath动作接口创建，未activate或控车。下一步同检查终端两项只读过滤param dump：规划器/控制器4个关键运动参数，局部代价地图frame/footprint和扫描标记/清除接线，待回传；不把配置/接口当收到odom或实时避障通过。保留Nav2/传感器窗口，现场无人底盘保持不开，不假TF/发目标/速度。
+- 用户本轮运行dump关键值1.6/0.25/false/true符合师兄配置，局部原footprint、odom/base_link及体素层/hz_nav/scan LaserScan和marking/clearing=true核对通过；顶层空observation_sources与层内scan区分，官方Humble按插件层名读取。当前仅配置验收，真实观测/避障未过。下一步同Ubuntu检查终端两条仅configure smoother_server、bt_navigator，等原平滑器及师兄BT加载结果，不activate/发目标；waypoint仍未配。Nav2/感知窗口保持，远程无人底盘不开，不改原参数或伪造TF。
+- 用户路径平滑器及BT导航器configure两次均成功，日志确认原SimpleSmoother加载、BT Configuring，尚无具体XML路径日志；未执行activate或导航。下一步原Ubuntu检查终端仅configure最后waypoint_follower，再过滤BT当前默认XML路径/odom话题/实时时钟参数，等实际结果；预期个人两个no_spin XML、/hz_nav/odom、false。不重复重启或文件审计，保留Nav2/感知窗口，缺真实odom/现场无人底盘不开，不能把软件静态配置当导航完成。
+- 用户最后waypoint configure成功，BT实际引用个人两个师兄no_spin XML、/hz_nav/odom、use_sim_time=false，当前Nav2组件软件配置/关键参数核验收束。七导航节点仅configure，地图active，AMCL已cleanup等真实odom；无实际规划/定位/避障/运动验收。本轮不再追加重复检查，保留Nav2/感知窗口。下一阶段先满足用户约定的现场接管和明确授权，再连接会EnableCommandedMode/ReleaseBrake的真实底盘；最新仍远程无人，当前不下发底盘启动/激活/目标/速度，不造假TF。全目标与最终TXT/个人地图对照仍待后续，从本检查点续接，不新建清单或自动化。
+- 10/28用户自行启动师兄真实hunter_base_node（can0/hunter2、sim=false、个人odom/状态命名空间、速度输入blocked_cmd_vel），日志明确已切Commanded Mode/ReleaseBrake；当前odom→base_link动态零TF可连续查到。用户已新确认本人在车旁能遥控/急停，旧无人前置失效；后续运动动作仍须原任务要求的说明与明确同意。核原源码确定消息/TF时间由节点更新，不能仅据零TF证明CAN反馈正常。下一轮原Ubuntu检查终端两项只读：准备个人环境/source参考overlay后info blocked_cmd_vel端点，读取一帧hunter_status六关键反馈；预期0发布/1底盘订阅，实际数据待回传。不重复驱动/全套审计，不发速度/目标或伪造TF，保留窗口后按反馈续接AMCL。
+- 10/28输入blocked_cmd_vel实际Twist/0发布/唯一订阅/hz_nav/hunter，基本反馈速度0、转角0、vehicle_state0、mode3、error0、电压25.3V。核官方SDK枚举：3是RC遥控、车辆状态0正常；当前实际模式以反馈为准，不把启动使能打印当CAN模式已生效，不改开关/模式。下一轮原检查终端仅有界AMCL configure成功后activate恢复定位，等真实转换和新收图/扫描日志，不重复全套审计/启动。保持现有三个窗口和输入隔离，无导航执行激活、目标或速度；初始位姿及完整mapTF待后续，用户现场可遥控/急停条件已具备。
+- 10/28 AMCL configure/activate均成功，扫描转换因订阅按需接点云，未见定位或mapTF验收。用户明确当前没有RViz窗口；下一步新开专用Ubuntu窗口复用个人lab_odom_06_map_view.rviz，显式/hz_nav命名空间和/initialpose→/hz_nav/initialpose，个人环境日志保持。等待地图截图/Fixed Frame=map后再指导现场初始位姿，不猜坐标、不激活导航执行或发目标/速度。保留底盘/Nav2/感知窗口，RC模式和输入隔离保持，现场可接管条件已确认。
+- 10/28新RViz截图回传：Fixed Frame=map、地图/hz_nav/map及Reliable/Transient Local均正确，但No map received/尺寸0，另map TF不存在。当前先排查地图消息缺失，不在空图设位姿、不沿用昨天active当今日证据，也不改QoS/FixedFrame/文件或造TF。下一轮原检查终端仅6秒lifecycle get map_server及10秒Transient Local/Reliable单次map info读取，按实际状态恢复；保留底盘/Nav2/感知/RViz窗口，现场可接管、不发控制指令。
+- 用户实查map_server unconfigured[1]、地图info超时无输出，当前未加载/发布地图的阻断点明确。用户补充重启过一次、旧终端全关，现在四可见窗口为检查/真实底盘/01感知/RViz；不把Oct27七节点配置继承到今天，也不据窗口数再开Nav2，现有地图节点服务确实存在。下一轮原检查终端仅有界configure成功后activate当前map_server，等待两次成功及地图截图；文件不改、硬件不重启、无位姿/目标/速度或模式切换。保留本轮新AMCL激活/输入隔离/反馈证据，后续按需最小恢复其他节点。
+- map_server两转换均成功，用户截图Map received/OK且地图完整可见、287×469/0.05m/原点一致，当前地图恢复通过。首次绘图GLSL sampler错误与官方RViz issue463同类，按本次可见图像继续，未声称修复/永远无害，不改系统；另map帧缺失属于未建立定位TF。已核Humble AMCL初始位姿未知时不更新pose/变换，下一步保持车静止，仅RViz 2D Pose Estimate按实际车位和车头拖箭头，再原检查终端6秒tf2_echo map base_link；等输出/截图后检激光对齐。四窗口/RC/输入隔离保持，不发导航目标/速度/假TF，不沿用重启前其他节点运行状态。
+- 用户表示只看到地图、没看到小车，当前6秒map→base_link仍map帧不存在，未完成初始定位。已承认上一步表述不清并解释需现场停车点/车头与地图对应、当前视图仅Grid/Map不含车辆模型。已异步问现场位置/朝向及能否认出门桌墙对应，待必要信息再指导2D Pose Estimate，不猜坐标/零点、不反复TF空查、不擅自全局定位或实车移动；保留四窗口/RC/隔离及全部已验证基线。
+- 用户实景照片及文本确认靠门停车，继而自行在地图下侧偏右墙内区域用红箭头指候选点，称“感觉像是在这里”。接受为待验证初始位置，不宣称精确；已异步仅追问红箭头是否也代表车头方向/按当前地图的实际朝向，待答再指导2D Pose Estimate，不默认沿红箭头或猜yaw。随后验证TF及激光与墙面重合，当前无定位成功、无目标/速度/模式变更，不追加重复检查或重新建图。
+- 用户最新图明确车头大概朝新箭头（画面上方略偏左），必要方向信息已具备；位置仍为先前门内候选区，新箭头下端作车体中心附近起点、尖端只参考朝向。下一轮仅手动2D Pose Estimate起点/拖动分别指定候选位置/确认朝向，保持静止，再原检查终端6秒map→base_link TF查询，等真实结果/截图后加模型与激光检对齐；不猜数值yaw，不重复追问或发导航目标/速度，四窗口/RC/隔离保持。
+- 用户初值发送INFO为map(4.35828,-10.7447,yaw0.209214rad)，随后TF map→base_link连续成功，约(4.300,-10.754)、yaw11.668度、时间递增，初始化发送/TF可达核验通过；不把两者小幅差异说成故障或实车移动，也不认定定位准确。下一步仅RViz添加RobotModel（Topic源、/hz_nav/robot_description、Reliable/Transient Local）和LaserScan（/hz_nav/scan、Best Effort/Volatile、Points3px，可红色），等包含左侧状态/地图的截图检模型及激光贴墙。官方Humble模型属性/持久QoS已核，四窗口/车静止/RC/隔离保持，未发目标/速度或改核心。
+- 新图RobotModel Ok且模型已显示，LaserScan选对/hz_nav/scan但Position/Color Transformer均空、总Status子项/Topic QoS收起，用户下拉点不开。核Humble PointCloudCommon空cloud_infos不会提供转换器选项，先查实际扫描输入而非乱点颜色或改系统。下一轮仅展开LaserScan下Status和Topic，回传消息/Points/Transform及Reliability/Durability；尚不认定QoS错误或数据已到。定位准确/激光对齐仍待，保留四窗口/静止/RC/隔离，无新控车动作。
+- 用户确认先前未设Reliability Policy，补设后扫描已有；改色时RViz窗口灰屏无响应。原请求强制关闭指导尚未给出车端命令，用户即自行关闭并改为只要求重新打开。下一步仅给原RViz个人配置启动一条命令，保持其他运行终端，保留默认颜色；窗口/地图待回传，未保存显示项可能需补回。没有在小车执行任何终止命令，不宣称灰屏根因已查明或已修复，不重复底盘/AMCL初始化，不发速度/目标。
+- 重开截图e7b407e5确认地图正常、Global Status/Fixed Frame/Map均Ok，左侧仅Grid与Map；用户问是否重画绿箭头。下一步说明先不用重设2D Pose Estimate，单独重启RViz不等于重启定位节点；只恢复RobotModel的Topic源及/hz_nav/robot_description，等车模后恢复LaserScan及Best Effort/Volatile。当前图无激光或模型不表示定位初值丢失，定位准确仍待贴墙检查，不发运动指令或重复后端启动。
+- 用户图cba5a0fe同时恢复车模与LaserScan：两Status Ok，/hz_nav/scan Best Effort/Volatile，XYZ与Intensity已填，白色扫描点可见，显示恢复通过。上方/右侧部分白点偏离黑色墙线，原因未确证，不跳至导航目标。已核Humble amcl_node.cpp的nomotionUpdateCallback仅force_update_=true且shouldUpdateFilter用该标记接受静止更新；下一步先Ctrl+S保存个人RViz，再请求/hz_nav/request_nomotion_update一次并回传输出和同视角图，不发速度、不变控制模式、不重复初始化或改算法/标定。
+- 用户request_nomotion_update返回Empty_Response；新图0ba2afea白点上方/右侧偏差仍可见，未据单张图判定改善量或根因。下一步仅以Transient Local/可靠读取/hz_nav/amcl_pose完整最近消息，核对header时间、pose与covariance，区分请求接收与实际产生新估计。已核Humble amcl_node.cpp 1424～1426行pose话题QoS为KeepLast(1)/TL/可靠，静止时不需要为读取数据再反复调用更新。无重设初值、修改参数/标定、导航激活或控车动作；保存RViz尚无单独明确回执，不将其写成已完成。
+- 用户最近AMCL位姿读取成功：stamp1793167366.378509998/map，x4.214486195794591/y-10.815699868940829，qz0.09002786158978322/qw0.9959392472121835；计算yaw10.33042度，X/Y/yaw方差0.15955202381017486/0.1999565103122336/0.05382264519446581，对应标准差0.39944m/0.44716m/13.29245度。比初始发送时刻晚2413s，确认存在较新的估计；标准差是滤波不确定度，不是物理误差或准确度验证。下一步一次固定3次静止更新、1s间隔、失败即停，再读取同消息并截图对比是否收紧/贴墙；根据新协方差证据作有界收敛观察，不无限重复、乱画初值或动硬件。无实车速度/目标/模式切换。
+- 用户3次静止更新全回Empty_Response，最新pose stamp1793167990.371155977/map，位置(4.124342430259703,-10.92239061767687)、qz0.08138659821320701/qw0.9966826082717015、yaw9.3365438度；对角方差0.08923967834829227/0.11906883248227018/0.037076478196846，标准差0.2987301m/0.3450635m/11.0324475度，比上轮约降25.2%/22.8%/17.0%。用户说稍贴近，图35ac69d7仍有上方/右侧偏差，未判定位精度通过；均值平移约0.13967m是估计变化，不能认定实车移动。停止这轮原地更新，继续独立静态规划准备；下一步仅查询现有/hz_nav/planner_server生命周期，按本次重启后真实状态继续，不重复整套检测或启动新Nav2，不下发导航/速度/模式命令。
+- 用户当前planner_server实查unconfigured[1]；下一步仅configure（30s客户端界限）成功后activate（20s界限）同一现有规划器，等两次状态转换实际回执，不沿用10/27已配置状态。官方Humble planner_server.cpp核on_configure加载全局代价地图/原插件并创建Path发布与两个ComputePath服务，on_activate启用这些及costmap；此步不启动控制器或发执行目标/速度。仅改进静态规划准备，保持定位精度待验、原窗口/RC/隔离及静止；超时后须看实际服务器状态而非盲目重复。
+- 用户回传planner_server configure/activate两次Transitioning successful，本次规划器生命周期启用通过，尚无路径计算或执行证据。下一步仅在既有RViz添加Path并订/hz_nav/plan，Reliable/Volatile、保持默认颜色；未发规划请求时显示空白/No path received正常。订阅准备好后再采集用户静态终点坐标，避免先计算再因Path发布Volatile而错过结果；此轮不发ComputePath/NavigateToPose/FollowPath，不开新Nav2或启用控制器/接通底盘速度，RC/隔离/静止保持，定位准确与完整导航仍待。
+- 用户图b13caa96确认Path Topic=/hz_nav/plan、Reliable/Volatile、Lines、Status Ok，尚未请求路径，准备通过。只读原附件95864648的RViz保存配置，证PublishPoint Single click=true且Topic.Value=/clicked_point（可靠/Volatile），不是随namespace自动变/hz_nav/clicked_point；当前启动仅initialpose有显式remap。下一步检查终端先60s监听/clicked_point，用户切RViz用红色Publish Point在车前约2～3m浅灰通道中间单击，等frame/map和坐标回传再构造纯ComputePath请求。当前实际点未选择，不猜坐标、不给2D Goal Pose/执行任务或底盘速度，保持其他终端/RC/隔离/静止；标题带*，最终视图保存仍未确认。
+- 用户实收/clicked_point：stamp1793169328.812270778、frame map、XY(5.203140735626221,-10.79544448852539)、Z0.0068340301513671875；与上一AMCL位置相距1.0862417m、方位6.71134度，近车头9.33654度，可先静态测短路径，不要求为建议2～3m重新选。已核官方Humble ComputePathToPose.action的goal/start/planner_id/use_start及Path/planning_time结果；下一步仅timeout30s原生action调用现/hz_nav/compute_path_to_pose、GridBased、use_start false，二维目标Z0、朝向沿用最近实际四元数，等待状态及Path画面。无导航执行/速度/模式命令，不改实现或造地图/TF，RC/隔离/静止和精度待验收保持。
+- 用户图bb4f728a实证ComputePathToPose完成状态SUCCEEDED，RViz /hz_nav/plan绿色短线可见，约1.1m的单次静态规划用例通过；末路径位姿可见frame map/stamp1793169762.992953578、XY约(5.215000154450536,-10.774999549612403)、qz0.08715574764090418/qw0.996194697663642，尚不解释小差异为故障，不当作实车执行/精度通过。下一步只configure现有controller_server（原控制器/局部代价地图）并读取node info过滤cmd_vel/odom/follow_path，待本轮回执和实际接口，不直接activate或发跟踪/导航目标/速度；遵循少检查、不重复规划或另开Nav2，保持RC/隔离/静止。官方Humble controller_server.cpp已核configure只建立接口，activate另行开启速度发布与跟踪动作。
+- 用户controller_server configure返回成功，实际过滤输出/hz_nav/odom nav_msgs/msg/Odometry、/hz_nav/cmd_vel_nav geometry_msgs/msg/Twist、/hz_nav/follow_path nav2_msgs/action/FollowPath，与原链路一致，当前未activate/接跟踪目标。下一步仅配置velocity_smoother并读取node info（保留Subscribers/Publishers标题及cmd_vel/odom行），确认cmd_vel_nav输入到nav2_cmd_vel_test最终输出，不强求OPEN_LOOP订odom；随后仍需当前最终测试出口/实车blocked入口端点计数核验，不能以名字代替完整隔离证明。无新速度/目标/模式命令，RC/其他终端/静止/隔离保持。
+- 用户velocity_smoother configure成功，node info明确Subscribers=/hz_nav/cmd_vel_nav、Publishers=/hz_nav/nav2_cmd_vel_test，两者Twist，当前原中间链与最终测试输出接线通过；OPEN_LOOP未列odom正常，不补改反馈模式。下一步只configure behavior_server并核cmd_vel及所有nav2动作接口，检查恢复输出是否也到测试话题、是否保持无Spin原配置。未激活或发恢复/跟踪/导航任务，最终0订阅及blocked入口0发布者仍待当前实查；保持其他终端/RC/静止/隔离。
+- 用户behavior_server configure成功，node info Publisher /hz_nav/nav2_cmd_vel_test，Action Servers四项assisted_teleop/backup/drive_on_heading/wait、无Spin；Publishers前的/hz_nav/cmd_vel_teleop属于输入段（过滤未保留Subscribers标题），非新增底盘输出，与原AssistedTeleop配置一致。下一步固定循环配置剩余smoother_server、bt_navigator、waypoint_follower并读BT四关键参数行，核仍使用个人no_spin XML与正确odom/实际时间，当前回执待返。不激活或发执行/恢复/速度，随后需刷新最终两话题隔离计数，其他终端/RC/静止保持。
+- 用户smoother_server、bt_navigator、waypoint_follower三次configure均成功；BT实际参数两个default_nav XML为个人config下navigate_no_spin.xml和navigate_through_poses_no_spin.xml、odom_topic=/hz_nav/odom、use_sim_time=false，符合原成熟参数的个人路径适配。本轮七导航节点已配置完成，只有planner明确active，其他尚未由本轮activate。下一步仅两条简洁topic info（no-daemon/spin3）查测试出口与blocked输入最新发布/订阅计数，期望5/0与0/1，避免重复verbose GID/QoS大输出；待回执才说当前完整隔离通过，不发执行/速度/模式命令。
+- 上轮在本地记录后、最终命令未交付即被用户中断；用户明确要求“不要测试这么多，直接复用师兄代码配置先让小车导航动一次”用于组会，又中断后说继续。按此实车优先指令减少后续静态检查，把这条请求视作当前短程实车导航授权，现场接管条件沿用10/28本人在场可遥控/急停，不再泛化询问。下一步直接一次activate其余六现有软件节点（planner已有active不重启），再只读一帧HunterStatus当前控制模式/静止/错误；旧RC3不能当CAN1。速度链仍隔离，这两命令未下发实际目标；后续接通前提醒真实运动与原BT失败时可能倒车，计划本次速度限0.10但尚未设置。未收新计数/activation/模式回执，不认定任何已过；不制作PPT或新清单，先落实一次真实导航及停车。
+- 用户本次HunterStatus为linear_velocity0.0/vehicle_state0/control_mode3/error_code0，六软件节点activate均Transitioning successful，现七导航节点全active、硬件仍RC模式。下一步限本次路径跟随期望速度0.10（动态参数），成功后新个人环境终端尝试现成topic_tools relay接测试出口到真实blocked输入，避免写控制程序/重启底盘打断odom。官方ROS topic_tools说明已核relay输入输出语法；Humble RPP activate注册dynamic callback，desired_linear_vel回调同时更新运行值与base值，支持此刻在线设置。实际安装/参数/转发回执待返，不能宣称已限速或接通。当前保持RC/中立、暂不切开关/下目标；真实输入接通前已提醒运动风险，后续CAN档位不猜、现场遥控/急停保持，原行为树可能倒车已告知。
+- 2026-10-28用户撤回赶实车的分支，说“继续按照我们的进度走”，重新贴三节点configure全成功及BT正确路径/odom/实时钟。限速/relay无执行回执，暂搁置；不将新贴configure误认全部当前active或全部inactive，旧activate事实保留。下一步返回原配置后隔离门槛，仅两条紧凑topic info列测试出口与blocked输入发布/订阅计数（预期5/0、0/1），确认此前未意外接通；不重复全套检查、不重启、不发目标/速度或切模式，现场条件沿用。当前接线确认后再按真实状态推进，不以状态显示认定实车完成。
+- 用户当前实查测试话题/hz_nav/nav2_cmd_vel_test为Publisher5/Subscription0，底盘blocked_cmd_vel为Publisher0/Subscription1，当前两端隔离证据通过，无relay接通。下一步同检查终端一个固定六节点循环逐一读生命周期，只有inactive才activate，active直接跳过，其余状态或失败即停止，避免重发已完成转换；planner不重复。此轮只开启现有软件，不发目标/速度、不改真实接线或模式、不重启，无实车行走/停车验收。
+- 用户六节点循环均显示“已激活，跳过”，本次实际状态已active，循环没有新转换；已直接解释for/case由助手写作标准命令批处理，导航本体仍官方Nav2及师兄成熟配置/地图/BT，个人副本必要适配与重写算法明确区分。用户要求继续单步，下一步只在检查终端准备Twist的原生echo --once监听，当前未发目标无输出正常，等用户确认已监听再从另终端发同点隔离导航并安排取消。此刻未收到新速度、执行结果或真实运动/停车证据，限速/relay仍搁置，不作完成宣称。
+- 用户确认监听已开，下一步新Ubuntu终端发原生NavigateToPose到先前约1.1m静态规划通过点，显式沿用个人no_spin XML；个人ROS环境保持，速度仍发测试出口而非真实blocked输入。已查官方Humble action定义确保pose/behavior_tree字段，并预查标准CancelGoal的零ID/时间取消语义；docs.ros.org被拒后改读ros2/rcl_interfaces原始源文件，未凭空猜取消接口。此轮先等目标接收与Twist回执后取消；若任务自行终止也按其实际终态记录，不将不动导致的进度失败当实车失败，不宣称到点/定位/停止通过。没有新配置、relay或控制模式变更。
+- 用户实际回传Goal accepted UUID76f8aa82cda942ceadf7942831bcfcea及最终测试出口Twist linear.x0.1/angular.z0.07210435155668074，其他分量0；目标接收与非零测试指令出现已实证。0.1是单条指令值，不能据此认定已设置desired_linear_vel或实车测得0.1m/s。下一步原监听终端原生CancelGoal服务仅取消本次已知UUID（字节解析校验生成），stamp0；等取消响应及原action客户端终态后继续，不能以服务接收就认定物理停车。目前接线仍隔离，无relay/模式更改，无真实到点或停车证据。
+- 用户CancelGoal实回return_code0、goals_canceling含同一UUID（接受时间1793177020.678344839），原导航客户端实际打印Result.result={}及Goal finished with status:CANCELED；本次隔离任务取消已确认，不再重复取消，也不据此宣称物理停车/实车导航到点。下一步仅在现有检查终端标准ros2 param set把FollowPath.desired_linear_vel设0.10，为后续现场低速验证准备；成熟原文件不改，当前速度入口隔离保持，接线/模式尚不动。动态设置仍待回执，不把前次单条0.1速度指令当参数设置证据。
+- 用户FollowPath.desired_linear_vel动态设置实际回Set parameter successful，本次成熟RPP期望速度0.10设置通过；未改原文件，不能推广为行为恢复或其他入口全部限速。下一步单条ros2 pkg executables topic_tools查询车上有无现成relay工具；若有可免底盘重启保留当前odom/定位，若无不装共享依赖，随后按既有成熟资产处理必要接线。此刻未接通relay、切模式或发新目标，底盘最近RC3事实保留，实车和停车验收仍待。
+- 用户topic_tools查询实际Package not found，随后重发桌面最初任务作为主线重申；已完整读3150token原文。未交付先前思考中的底盘重启/odom读取方案，未安装/启动转发或变更接线。保留现有实测进度，额外工具分支撤下，回到原阶段五尚缺局部障碍物显示/更新、车体地面误标和激光贴墙验收，阶段六仍须按方向/停止先于小目标导航推进；不把原文末尾首次阶段零要求当作重做全部阶段。下一步单条只读topic list并筛局部/全局costmap实际话题，待回传后当前RViz查看控制器障碍物数据；只复用现有节点，当前无控车动作/新目标，单步1～2条、共享只读、个人空间边界保持。
+- 用户topic list实际确认局部/全局costmap的OccupancyGrid、raw Costmap、OccupancyGridUpdate、footprint/Polygon及published_footprint/PolygonStamped和各transition_event；局部另有clearing_endpoints/PointCloud2、voxel_grid/VoxelGrid。下一步仅在已有RViz添加Map为LocalCostmap，订实际局部costmap与updates，costmap色表/Alpha0.5，Reliable/Transient Local按原生发布器通常设置，Fixed Frame保持map；当前未单独实查发布端QoS，不把默认配置当其现场证据。等状态与机器人周边截图，不启动新软件/改接线/切模式/发目标，不因话题存在宣称障碍物更新或避障通过。
+- 用户图6247426d确认LocalCostmap Status Ok，Topic=/hz_nav/local_costmap/costmap，订阅Reliable/Transient Local与Alpha0.5可见，Update Topic值前缀对应实际costmap_updates，机器人周围有青/紫色障碍物/膨胀区域，原静态Map/模型/激光均在。只确认数据可视化，不凭单图判原彩色点属车体/地面或实际定位正确。下一步车静止、隔离保持，在前方开阔处1.5～2m摆40～60cm高空纸箱，等数秒同视角RViz截图看新增占用；后续单独移走检验清除。本条没有新节点/参数/速度/目标/模式操作。
+- 用户回复“可以，我刚才试了”，随后的移除清除单项明确回复“能清除”；据用户现场报告记录静止下障碍物新增和清除更新通过，无新截图，不假装独立视证/频率测量，也不重复纸箱实验。下一步已有RViz Add原生Polygon，订实际列过的/hz_nav/local_costmap/published_footprint（PolygonStamped），显示原costmap碰撞足迹，待模型+轮廓截图核对车身/轮覆盖及附近本体误标。沿用已有节点和配置，此轮不改接线/模式/速度或发新目标，实车方向/停车/运动避障与到点仍待。
+- 用户图b68f5be5确认Polygon Status Ok、绿色闭合框与模型方向一致，四轮大部在框内；画面下方黑色突出部件似越过框，裁图没有Views/视角信息，不能判其物理对应、实际方向或轮廓完全覆盖通过。下一步只调现有RViz相机TopDownOrtho、Target Frame base_link、X/Y0并缩放，保持Fixed Frame map，等包含Views的全车/绿框截图，先排除透视再判断是否真实模型突出；不扩大footprint或隐藏部件。新图局部costmap读数resolution0.05、width60、height60，实际窗口3m×3m，已记录避免后续把2m距离误认为在本地窗口内。当前没有TF/驱动/模式/控制目标变更。
+- 用户854f973d截图为全图且车太小，已仅指导Scale200再截图，未改任何运行参数；最新c8ade678模型主车体及四轮在绿框内，左侧小黑色突出仍见、Views参数未入图。用户明确认为无问题并要求继续，接受其现场判断，保留原footprint，不再反复调视角，不夸大为实体附件精确测量/碰撞验证。下一步仅一帧/hz_nav/odom的pose.pose，为使用原底盘驱动重映射接速度前确认里程计参考点；底盘重启会重置积分，按实回判断定位衔接，不能假定目前仍全0。尚不停止任何会话、不连接速度/切模式或发新目标，topic_tools与新转发方案仍撤下，实车方向/停止优先于首个短导航目标。
+- 最新odom.pose.pose实回位置(-3.0043149625697723,0.2013547807616915,0)、qz=-0.06618098434757262/qw=0.9978076354241765，其余四元数0；非零，不能重启后假定旧AMCL map→odom仍适用。距odom原点约3.011m、yaw约-7.59度只是估计相对位移/方向，单帧不证明目前在动、自动运动或漂移；此前局部地图origin(-4.5,-1.3)也与以该位置为中心的3m窗口相符。下一步只读完整TL可靠amcl_pose作恢复参考，并问用户此次base启动后是否遥控/手推移动过；回答未动时须先查里程计一致性。旧目标约1.1m距离基于早先位姿，今后不得盲用该距离。未停底盘、改接线/模式/控制或发新目标。
+- 用户确认“移动过”；AMCL完整实回stamp1793179701.582624912/frame map、位置(3.955360590360869,-11.10353700481962,0)、四元数(0,0,0.08714195640390891,0.9961959041444104)，yaw9.998414度。36维cov除[0]=0.016060236862303512、[1]=[6]=-0.0024603815838375453、[7]=0.009158333211985337、[35]=0.01115469742259745外均0。作为重启软件后的初始定位参考保存，未当实测定位精度；旧终点现按均值相距约1.285254m，实际再选/确认后执行，不继续声称1.1m。
+- 接线方案明确修正为保持现有底盘/odom，仅改个人Nav2最终速度输出到现有blocked_cmd_vel输入并重启个人Nav2，避免非零odom清零及SDK重连切模式/释放制动；前述重启base建议不再执行。原Nav2参数/算法保留，先将运行中的0.10期望速度持久化至个人启动YAML，再做四处launch输出接线适配与diff复核；目前尚未改车端文件或任何运行接线。已只读本地匹配原资产确认desired_linear_vel:0.25在第149行，下一步车端仅sed该个人字段并grep回传，1～2条。官方Humble ManageLifecycleNodes.srv核STARTUP0、success布尔，留供之后全新未配置实例分组启动，当前全active不可重复STARTUP。AMCL恢复只用真实已记录位姿/协方差，不造静态TF；真实接通与控制/方向/停止按原始现场和授权规则，仍无物理运动/停车验收。
+- 用户实际完成个人nav2_params.yaml速度持久化，grep回149:desired_linear_vel:0.10，通过。下一步同检查终端仅改个人navigation_launch.py四处最终输出到现有base输入blocked_cmd_vel，并diff系统原只读文件，等完整差异；旧进程重映射已在启动时固定，这轮文件编辑不会接通真实速度。预期保留TF两行改动与内部cmd_vel_nav链，无新算法/插件/驱动。暂不重启任何进程/切模式/发目标，真实接通前按原任务做影响说明及授权，底盘不重启、定位快照仍待在Nav2重启后恢复。
+- 用户最新完整diff确认个人navigation_launch.py只有既有全局TF两行与四处最终速度改到/hz_nav/blocked_cmd_vel（behavior普通149/组件220附近、smoother普通180/组件239附近），内部cmd_vel_nav链保留，准备文件通过；系统原件2025-11-18只读，个人mtime2026-10-28 19:17:23。当前旧实例尚未加载，速度依旧隔离。下一步仅本人Nav2原启动终端（hz_nav_ws/launch/bringup_launch.py）Ctrl+C一次，等返回shell并回传末尾退出日志，所有底盘/传感器/RViz保持；地图服务器与AMCL随Nav2退出是计划内。等确切退出再新启autostart=false，不叠实例、不停止base、不过早启用真实速度，定位快照恢复与实际模式/接通授权留后续单步。
+- 用户退出时反复Ctrl+C，日志1793186740～6741多次again ignoring；最终launch明确容器SIGTERM后10秒未退出而升级SIGKILL，PID148296 exit -9（命令为/hz_nav/nav2_container及个人logs两份launch_params），该容器强制结束有证据，正常清理未过、启动器回提示符未见。下一步只在另一空闲检查终端定向ps确认个人bringup启动器和精确/hz_nav容器当前是否还在，避免重复实例/旧PID杀进程；不向已死148296补kill、不宽泛清ROS、不碰base/sensors/RViz。强制退出根因未定位，不把反复Ctrl+C归因为唯一原因或宣布已修；后续收尾可试先原生lifecycle manager SHUTDOWN再Ctrl+C并按实际验收。当前不新启/接速度/切模式或发目标。
+- 上轮仅本地笔记工具已完成，最终ps指令未交付即被中断；用户明确“已经都退出了，继续，不用确认”。接受其现场退出确认，不再下发退出ps或kill，不把该话自动扩展成无限控车权限。下一步直接原Nav2终端用已有个人bringup完整参数重启，明确autostart=false与原域88/FastDDS、个人ROS_HOME/LOG/TMP，保留底盘/odom/传感器/RViz；当前只加载未配置组件，等新启动尾部日志后先原生localization管理组启动、已保存AMCL快照恢复，再按原现场/授权顺序推进真实控制。未把强制退出当正常停车或宣布关闭超时已修复。
+- 用户新启动尾部日志1793187472.291～.299显示AMCL lifecycle Creating/等待激活，以及/hz_nav/amcl和localization生命周期管理器Loaded node；当前autostart=false新实例已加载所示组件，不据这几行声称导航组全部active。下一步保留启动窗口，原空闲检查终端一条原生manage_nodes(command0)启动定位组map_server+AMCL，等success=True再恢复之前地图位姿与cov；不重复逐节点激活/状态查询。官方Humble ManageLifecycleNodes.srv的STARTUP0已核（https://github.com/ros-navigation/navigation2/blob/humble/nav2_msgs/srv/ManageLifecycleNodes.srv），此轮没有目标/速度/模式命令，真实控制方向/停车尚待。
+- 2026-10-28后续实回：定位组STARTUP返回success=True；用户发布已保存的map初始位姿，随后tf2_echo连续输出map→base_link=(3.967,-11.112,0)、yaw10.018度（1793188530～8533），TF恢复通过；再由导航管理组STARTUP返回success=True。不据这些结果宣称实车运动/停车/定位精度通过，不重复启动两组。
+- 用户明确要求每45分钟回看原方案并从故障中断恢复，已用Codex原生线程heartbeat创建/更新45-hunter-nav2，状态ACTIVE；任务要求读原MD和最新进度、保留单步/共享只读/动作授权/现场接管，尊重主动暂停，无新变化保持安静，真实完成后暂停定时任务。不得把周期回看当后台控车授权。
+- 真实接线前后反馈实查：/hz_nav/blocked_cmd_vel为5发布/1订阅，已接底盘。一次状态为速度0、转角0、vehicle_state2/control_mode3/error_code4，先停止发运动目标并按系统化调试查协议。原hunter_messenger.hpp第125～127行直接转发SDK状态；厂家Hunter2.0中文协议明确vehicle2为系统异常、mode3遥控、低字节bit2遥控器失联保护(4=0x0004)，用户确认自行关闭遥控器；未按其他型号故障码猜测或清故障/重启底盘。
+- 用户随后自行打开遥控器，回传速度0、转角0、vehicle_state0/control_mode1/error_code0，最终话题仍5发布/1订阅；该反馈中故障消失、CAN模式恢复。下一步准备原生DriveOnHeading前进0.10m/速度0.05m/s/time_allowance5s，先具体说明影响并按原任务请求当次明确同意及现场接管，尚未给出或执行真实动作命令。官方Humble action定义及驱动实现已核target.y/z需0、target.x与speed同号，达距离/超时/碰撞检查失败会调用软件stopRobot；源码并不提供物理停车保证。后续仍要现场观察和底盘反馈确认，不写新控制代码、不新增依赖。来源：https://agilexrobotics.gitbook.io/hunter-2-0/3-shi-yong-yu-kai-fa-getting-started ，https://github.com/ros-navigation/navigation2/blob/humble/nav2_msgs/action/DriveOnHeading.action ，https://github.com/ros-navigation/navigation2/blob/humble/nav2_behaviors/include/nav2_behaviors/plugins/drive_on_heading.hpp 。
+- 2026-10-28用户对所说明的单次原生DriveOnHeading测试明确回复“同意”：沿车头前进约0.10m、speed=0.05m/s、time_allowance=5s，现场接管条件包含在该次确认中。将给出ToDesk小车Ubuntu原检查终端的一条原生action send_goal并等待实际输出/前进方向/停稳观察；不视为已发送、已运动或已停车，不扩大为任意目标、倒车或重复测试授权，不自动重发。其他Nav2/底盘/感知/RViz保持，软件结束后仍需现场观察和真实反馈验收。
+- 2026-10-28实车直行回执：首个原生DriveOnHeading目标471c42683e724b3abd4e94c37e227c47获接收，约前4s里程计距离为0，最后反馈0.0347105972468853m，total_elapsed_time=5.000216599s、终态ABORTED。用户报告确有慢速移动；助手只交付了需确认停稳的中间说明即被中断，未发送后续车端命令、取消、重试或参数修改，也无该轮后台工具运行。
+- 用户补充首次遥控器在手控模式，切到自动模式后自行重发同一0.10m/0.05m/s/5s动作。第二个目标1967c3e33cc34f2fbd6320b673250d11从前段即有持续距离增长，最后0.1044149100780487m，total_elapsed_time=2.200167681s、终态SUCCEEDED。把模式说明记作用户现场提供的首次延迟原因；不另猜马达最小速度、制动故障或盲调超时/速度。第二次是用户自行执行，不记作助手自动重试。
+- 当前判定：本次直行软件动作成功、用户见实车运动，里程计约10.4cm并非外部尺量精度；本次运动后的实际停稳、前进方向和底盘速度/状态仍待回传。下一步只读HunterStatus一次并请求用户现场确认方向及停稳；若仍在动先遥控/急停接管，不发新动作、不重复取消已终态目标、不重启底盘/导航或重设定位，不据SUCCEEDED宣称停车/接管/完整导航已过。定时回看应从此断点继续，不能重复已消耗的运动测试。
+- 2026-10-28用户回传本次直行后的HunterStatus：linear_velocity=0.0、steering_angle=0.0、vehicle_state=0、control_mode=3、error_code=0，并明确现场观察“朝着车头方向前进的，已经完全停稳”。本次原生直行方向及结束后停稳已由反馈+用户现场确认，范围仅此用例；不扩大为遥控接管/所有停车场景或完整导航已通过。当前mode3是手控正常状态，不作故障，保持该状态进行只规划步骤。
+- 下一步计划在ToDesk小车Ubuntu原检查终端调用原生ComputePathToPose，use_start=false从实时TF取起点，沿用之前用户选定map目标(5.203141,-10.795444,0)及qz0.0813865982/qw0.9966826083、原GridBased规划器；只生成/hz_nav/plan，不发NavigateToPose或FollowPath，不切模式。等最新规划终态及RViz绿线路径，避免把前次移动车辆前的路径直接当本次实车可执行路线。后续具体导航运动及原BT可能的倒车恢复仍需影响说明、现场接管和相应明确授权。
+- 2026-10-28已全文读取用户规划附件6b5cdfb4-16e6-4669-bfdd-436629a685c4/已粘贴的文本.txt(5722字节)：ComputePathToPose目标a891cf9dbaf949c89b5e5fa93863acd8，GridBased/use_start=false、目标(5.203141,-10.795444)、qz0.0813865982/qw0.9966826083，终态SUCCEEDED、planning_time=0.001441515s。返回15个map姿态点，起点(4.265000140294433,-11.074999554082751)、终点(5.215000154450536,-10.774999549612403)，逐段欧氏距离总和0.9981345690402417m，方向均向前、有轻微转向；终点与请求的小差异不作执行错误。截图ca9d431b显示车头前方细绿色线和原足迹/模型/局部代价图，不能只凭裁图认证实体全路径无障碍。
+- 已再次只读匹配原资产navigate_no_spin.xml：原RecoveryNode retries6、GridBased/FollowPath/清代价图、Wait5、BackUp backup_dist0.30/backup_speed0.05，无Spin。继续沿用个人原样XML，不自写导航/修改恢复树。下一步给出具体可审阅运动范围并请求用户同意切回自动模式、执行这个约1m目标的NavigateToPose；跟踪期望速度0.10m/s，原恢复树每次可能倒车0.30m/0.05m/s，须提醒前后空间和现场接管。当前仍为手控mode3，尚无此轮约1m导航授权或执行回执，不扩大此前10cm直行授权，不由定时任务启动/重复动作。
+- 2026-10-28用户对已说明的约0.998m目标导航明确回复“可以”，授权范围包括切回已验证自动模式及执行一次本目标NavigateToPose，正常跟踪期望0.10m/s、已告知原行为树每次可能BackUp0.30m/0.05m/s，现场前后空间/急停条件包含于确认。下一条交付最多两条原生命令：切自动后先读HunterStatus，需速度0、vehicle0/control1/error0才发约定map目标(5.203141,-10.795444)、qz0.0813865982/qw0.9966826083、个人navigate_no_spin.xml的NavigateToPose并显示反馈。状态不符则停在检查步回传，不重启、不自编控制器，不把GUI标签等同实回CAN模式。
+- 当前尚未收到本次导航goal接收/UUID/运动/终态回执；不能记为已到点，不由定时任务重复发目标。其他底盘/感知/RViz/Nav2窗口保持，若动作异常以现场遥控/急停接管；结束后按实际行动结果、底盘反馈和现场观察验收停车。
+- 2026-10-28定时回看：已重新读取原方案、task_plan、progress最新记录及findings历史。最新人类补充“直接给命令，不需要确认”发生在已明确授权该约1m导航之后；助手已交付单条原生NavigateToPose（目标5.203141/-10.795444、个人no_spin XML、--feedback），没有再给模式查询，也未直接操作小车。当前仍没有该导航的执行/接收UUID/结果回执；不能按旧笔记继续等待10cm停稳或重新做定位/生命周期，也不能重复发目标、取消或用等待时长猜故障。
+- 本次心跳仅校正已有本地计划与证据断点，并通过原生automation_update更新45-hunter-nav2的提示以动态读取最新回执，保留ACTIVE/45分钟/原线程与边界，去除陈旧的“初值尚未恢复”固定断点。已验证方向/一次停车及最新约0.998m规划，不新增实车验证结论。没有新的可操作车端结果，保持安静，等待原待回执步骤，方案未完成因此定时任务继续。
+- 2026-10-28用户回传本轮约1m NavigateToPose末尾反馈及Result：Goal finished with status: SUCCEEDED，result={}；无接收UUID，不编造。两帧navigation_time分别7.890149301/7.900171076s、number_of_recoveries均0，最后distance_remaining=0.3453383147716522、estimated_time_remaining=3.826463192s。此为终态前反馈，不按剩余非0判失败，也不将其等同最终停车误差。
+- 最后反馈header.stamp=1793191376.261452506、map位姿x5.021325149683336/y-10.844210104321972/z0、四元数(0,0,0.17694438369862978,0.9842208517794734)。软件导航动作成功已有证据；本次实体到点/停稳、运动后HunterStatus和模式尚未回传，不能沿用10cm直行那次速度0/停稳证明本次停车，不直接宣布完整方案或实车准确度验收完成。
+- 下一步仅在ToDesk小车Ubuntu原检查终端读一次HunterStatus，保留全部运行窗口并请用户补充是否到预期位置及完全停稳；若仍动优先现场遥控/急停。不再取消已SUCCEEDED任务、重发目标、改参数或重启。最新人类要求已授权动作直接给命令继续遵守，不重复权限确认；本条只读验收无新运动许可需求。后续障碍处理/目标取消与接管/正常结束、最终TXT及个人既有地图对照仍待。
+- 2026-10-28本次约1m Nav2任务的运动后验收：用户回传HunterStatus为linear_velocity=0.0、steering_angle=0.0、vehicle_state=0、control_mode=1、error_code=0，并明确“已经到达预期位置，已经完全停稳”。与此前NavigateToPose SUCCEEDED及最后恢复计数0相结合，确认师兄lab_odom_06上的首个低速单目标导航及结束后停稳用例实测通过；不再沿用“只软件成功/停车待返”，也不重复发同一目标或重复查询。
+- 该用例沿用原SmacHybrid/RPP/no_spin BT，个人期望跟踪0.10m/s，规划路径0.998134569m；最终反馈中的位姿/剩余距离不是最终停车误差，不据此认证厘米级精度、全场景避障、取消或遥控接管。实际驻车制动锁定未测，当前CAN1/零速不等于底盘退出。
+- 下一步只做已授权个人视图准备：现有RViz窗口获焦后Ctrl+S，沿用/home/car/hz_nav_ws/rviz/lab_odom_06_map_view.rviz，等待保存回执；不新增重复配置/启动入口，不动共享文件/参数/底盘或其他运行窗口。原保存文件曾仅有Map，后加RobotModel/LaserScan/Path/LocalCostmap/Polygon的最终保存尚未确认，先留住已成功的显示状态。其余实车取消/接管与障碍处理、正常关闭归档、最终TXT及个人地图对照仍未完成，定时任务继续。
+- 2026-10-28用户先反馈Ctrl+S无弹窗、不确定路径，未直接按已保存验收；已给两条只读ls/grep。实际回传/home/car/hz_nav_ws/rviz/lab_odom_06_map_view.rviz为9.6K、mtime2026-10-28 21:02；grep行55/76/157/185/212/233分别Map/RobotModel/LaserScan/Path/Map(局部代价图)/Polygon，话题为/hz_nav/map、map_updates、robot_description、scan、plan、local_costmap/costmap及updates、published_footprint，符合当前显示保存范围。保存核验通过，不再保留最终保存待办，也不让用户重启RViz重复证明或另存重复配置。
+- 下一步为原方案剩余的导航取消/遥控接管作准备：原检查终端timeout60s echo /clicked_point PointStamped --once，现有RViz Publish Point在车头前约1.5m空地单击，等实际frame和坐标。只取点、不发NavigateToPose、不改模式/速度，不重用已到达的旧目标作取消测试（会立即成功无法观察取消），保留所有原运行窗口。新目标取得后再规划/准备接管，已有一次基础到点停稳通过；运动障碍处理、取消/接管/正常退出、归档TXT和个人地图对照仍未全完成。
+- 2026-10-28用户Publish Point实回：header.frame_id=map、stamp1793193155.405251327；point x5.830411911010742/y-9.578376770019531/z-0.005340576171875。此为取消/接管测试的新候选目标，仅完成坐标采集，未规划或运动；二维候选goal取z0，不把点击平面微小负z当地形高度异常。
+- 下一步只调用原生ComputePathToPose，目标XY四舍五入为5.830412/-9.578377，候选终点朝向沿用最近已回传的车身qz0.17694438369862978/qw0.9842208517794734（是既有记录作为设计参考，不声称此刻重新实测），use_start=false由实时TF取起点，原GridBased不变。该点按上次位姿大约在侧前方，不能预先称为直线、前进-only或路径长恰1.5m；需看完整规划及绿线再判断转向/可能倒车/运动范围。此轮不发NavigateToPose/速度、不改模式，不重启原节点，等规划回执和完整路径截图后再准备中途取消。
+- 2026-10-28新候选点的纯规划：用户回传Goal finished with status SUCCEEDED及3be3d8a6截图，车头前方绿色路径可见、略弯，未给完整路径姿态/长度/goal UUID；不套用上次15点/0.998m或称必全前进。用户明确“没问题，继续”，按此前取消测试背景和最新直接给命令偏好推进，不再重复许可或状态循环。
+- 将交付最多两条主要原生操作，先由用户打开备用Ubuntu取消终端：原检查终端发新点NavigateToPose（新点XY5.830412/-9.578377、终点qz0.1769443837/qw0.9842208518、个人no_spin XML）；看到车开始走后立即在备用终端以显式Humble环境+ROS_DOMAIN_ID88/RMW_fastrtps及个人日志调用/hz_nav/navigate_to_pose/_action/cancel_goal，goal_info的UUID16个0且stamp0，仅作用本套已确认为个人会话的Nav动作服务。全零取消语义此前已核官方CancelGoal接口，不等用户手抄动态UUID延误取消。
+- 当前尚未执行或取得新的Nav UUID/取消回执；不宣称已开始、取消/停车或接管通过，不由定时任务自动重试/重发。仍沿用原路径跟随期望0.10m/s和BT，未写控制脚本/安装包/改参数；遥控器保持开机自动、现场异常立刻接管。收到return_code/goals_canceling、原客户端CANCELED或其他实际终态，以及现场停稳和后续速度反馈后才判断此用例。
+- 2026-10-28用户回传本次取消服务return_code0且goals_canceling含UUID字节[167,82,243,63,117,101,65,215,154,132,132,3,5,34,162,93]，换算为a752f33f756541d79a8484030522a25d；GoalInfo受理时间1793193951.079039621。原NavigateToPose最终CANCELED，软件取消验收有明确终态。重复贴出的相同反馈/Result不作两个不同任务。
+- 本次末帧feedback stamp1793193997.841487978、navigation_time46.770195375s、number_of_recoveries5、distance_remaining2.2691476345062256m，map位姿(4.222296928613682,-11.137807364573325,0)、qz0.2480024611501679/qw0.9687594021548692。46s为任务累计时间，不能当实体连续行驶时长；5恢复不等于5次倒车。与前一到点位姿不同，但仅凭末帧不能判断倒车/手动位移/定位校正的贡献，不直接下故障根因结论。
+- 用户报告“功能正常，等它稍微走了几秒才切换到手动”，确认进行了手控操作，未明确切手控与发送取消的先后，也未明确本次最终停稳及底盘状态。已异步问这两个动作的顺序，只收集事件事实、不重复权限确认。下一步只读当前HunterStatus及现场停稳，再判断恢复触发时机；不重发/继续已CANCELED任务，不取消已终态Goal、不改参数、不再发新运动。不以软件CANCELED或先前一次导航停车作为本次物理停车证据。
+- 用户回答切手控/发送取消的先后“不知道，正常运行后直接切换手动”。只记录运行中做过手控切换，先后和对应时间无法确认，不重复追问，不写成“先手控后取消”，也不能将5次恢复明确归因于手控后的进度超时。已只读匹配参考配置SimpleProgressChecker required_movement_radius0.10/movement_time_allowance20.0s和allow_reversing=true，作为后续核对线索，非实际根因结论。
+- 上次助手在分析中被中断，尚未下发当前停车查询或日志查询，也未执行额外车端动作/本地修改。当前仍待本次手控接管后的HunterStatus和用户现场完全停稳确认；软件取消CANCELED已证，不重复取消或恢复本次计划内取消的目标。下一步仅在原先能读取HunterStatus、且已显示CANCELED的导航/检查终端给一条只读状态查询，其他窗口保留。用户不确定的顺序就保留未知，不额外要求回忆，不作权限重复确认。
+- 2026-10-28用户明确“工作暂停”。已停止推进本方案，并通过原生automation_update将45-hunter-nav2状态改为PAUSED，保留原45分钟周期/线程/提示，等待用户明确继续；不因故障恢复或历史周期指令自动拉起。暂停不是完成，未删除任务、未安排额外提醒或恢复时间。
+- 暂停断点：师兄地图首个约1m低速到点及停稳已实测通过，个人RViz显示文件保存已核；本次取消Goal a752f33f756541d79a8484030522a25d软件CANCELED已确认。用户报告运行中切手控，不能确定与取消的先后；本次最终HunterStatus/现场完全停稳尚待回传，5次恢复发生阶段未定，不将其明确归因或扩大为5次倒车。已有只读停车查询已交付，尚无回执；暂停期间不再催问、下发动作或自动恢复已取消目标。
+- 本次只暂停会话推进与定时回看；没有执行车端节点退出、机械制动或远程控车。正常关停/日志参数归档、其余实车验证、最后单入口/TXT与个人既有地图对照仍未完成，恢复后从此断点处理，不重做已通过的基础导航。
+- 2026-10-29用户明确“先回看，然后因为我重启了小车终端全部关闭，回看完毕后我们继续”。已回读原方案、计划、最新进度和相关发现；接受整车重启/旧终端关闭的本次人工状态，不假定昨天程序仍运行，不重复取消或重发已终态目标。历史首个低速到点与停稳、取消软件CANCELED和RViz保存核验均保留；昨天取消后的物理停车反馈及5次恢复根因仍缺，不补写为通过。
+- 用户本次重新确认“我在小车旁，可以接管”；这是本轮现场条件，未扩大为任意导航/底盘动作授权。已用原生automation_update将原45-hunter-nav2改回ACTIVE，保留45分钟周期、原线程及提示，不建重复任务。先恢复既有个人感知入口，再逐步恢复Nav2/底盘/当前位姿定位；最终blocked_cmd_vel仍按真实底盘输入处理。
+- 本轮尚未收到任何新的车端启动结果。下一步给ToDesk小车Ubuntu第一终端必要的现存雷达驱动检查和原01_sensors.launch.py启动，所有配置沿用；该入口只含模型TF、Hesai驱动及点云转扫描，不含底盘控制或速度命令。若已有驱动则不重复启动，按实回处理；等待启动日志再继续，不把本地阅读或命令交付当作已运行。
+- 2026-10-29用户回传本轮感知日志：RSP列出hesai_lidar/hunter_link/piper等模型段；Hesai SDK V2.0.12成功打开socket、连接192.168.8.32:9347，初始化XTM1解析器，读取雷达角度校正成功。仍出现既有load firetime error: Open firetime file failed，随后继续记录角度校正完成及CPU/GPU提示；不将该FATAL单独当进程退出，也不声称标定问题已修。本轮尚无扫描消息证据。
+- 下一步仅新开ToDesk小车Ubuntu终端二，以原域88/FastDDS及个人ROS_HOME/LOG/TMP环境，best_effort/volatile读取一次/hz_nav/scan的header（timeout15s），同时触发转换节点的按需点云订阅。用一条数据回执确认本轮感知链，不重做频率/TF/整套检查。保留终端一；不启动底盘或发送速度，收到实际frame/stamp后再恢复既有Nav2入口。
+- 2026-10-29本轮扫描读取成功：/hz_nav/scan header.stamp=1793256117.705723047、frame_id=base_link；转换节点1793256117.729收到扫描订阅后开始点云订阅，1793256117.822在单条echo结束后关闭按需点云订阅，属于本次短订阅对应的预期日志，不据此重启雷达。确认当前链路可产生扫描，不将header证据扩展成频率、扫描有效点数或firetime问题已修。
+- 下一步在ToDesk小车Ubuntu终端二（刚才echo已返回提示符，个人环境已设）用现有hz_nav_ws/launch/bringup_launch.py启动原Nav2，namespace=hz_nav/use_namespace=true/slam=False、个人lab_odom_06_nav地图和nav2_params、use_sim_time=false/autostart=false，保持终端一运行并保留终端二。仅加载组件，不启用生命周期组、不接入底盘/切模式/发送目标；启动尾部日志待回。最终速度配置仍指向真实blocked_cmd_vel，不能按历史测试出口描述。
+- 2026-10-29用户回传Nav2尾部日志：1793256198.617～.620显示LifecycleManager类实例化、/hz_nav/lifecycle_manager_localization Creating/初始化服务客户端，launch确认该管理器已加载到hz_nav/nav2_container。据此确认所示定位管理组件已加载，不凭尾部片段宣称所有导航节点已加载或active；本轮autostart=false，尚无定位组STARTUP回执。
+- 下一步保留终端一感知和终端二Nav2，新开ToDesk小车Ubuntu终端三，设置原Humble/域88/FastDDS和个人ROS_HOME/LOG/TMP环境；调用本套/hz_nav/lifecycle_manager_localization/manage_nodes，ManageLifecycleNodes command0，timeout30s。用既有原生管理组配置/激活map_server与AMCL，不重复逐节点查询，不启动底盘或发目标。底盘尚未恢复，odom→base_link目前无本轮证据；即使定位组success=True也不代表已定位，后续接底盘需说明切模式/释放制动及明确授权，当前车位重新初始化待办。
+- 2026-10-29定位组STARTUP实回success=True。图d581a781显示AMCL对base_link扫描发生queue full/earlier than transform cache丢帧；本轮底盘尚未启动，odom→base_link没有当前发布证据，提示与接口未恢复相符，不能仅由该图认定雷达时间戳故障或定位已成功。先恢复既有真实里程计，不造静态TF或盲调滤波参数。
+- 已明确说明师兄原底盘驱动会启用电脑控制、释放制动，当前blocked_cmd_vel按真实控制输入处理；用户本轮明确答复“同意，现场已准备好，可以启动”，遥控器开机/摇杆中立及现场接管包含于该次确认。不重复索取同一启动许可，也不将其扩展为任意导航/速度/重试授权。
+- 下一步在已设个人环境的ToDesk小车Ubuntu终端三，source hunter_nav_odom_ws/install/setup.bash后直接运行既有hunter_base/hunter_base_node：真实can0/hunter2、odom/base_link、/hz_nav/odom、publish_odom_tf=true，/cmd_vel重映射到/hz_nav/blocked_cmd_vel、/hunter_status重映射到/hz_nav/hunter_status，节点命名空间/hz_nav。该驱动按授权启动会改变底盘控制状态；此轮不发送导航目标、速度或恢复动作，不自动启动导航生命周期组。保留感知与Nav2窗口，等待底盘实际启动日志；当前尚无该次驱动运行或里程计回执。
+- 2026-10-29用户回传底盘启动日志：Hunter2.0、AGX_V2、Robot initialized/start running、listening can0、Commanded mode enabled/brake released、Using CAN bus，确认该次授权驱动启动已到连接及控制模式/制动操作阶段；不据启动日志替代HunterStatus模式、实体停稳或odom消息验收。Nav2同时两条AMCL warn（1793256624.799/6626.897）提示Please set the initial pose，说明当前定位初值仍待，不将该提示当新故障、重启驱动或盲用昨天车位。
+- 下一步保留终端一感知、二Nav2、三底盘，在ToDesk小车Ubuntu新开终端四，以Humble及hunter_nav_odom_ws环境、域88/FastDDS和个人ROS_HOME/LOG/TMP打开已保存lab_odom_06_map_view.rviz，命名空间/hz_nav并显式/initialpose→/hz_nav/initialpose。仅恢复原显示，不发目标、重画旧初值或改颜色；等窗口截图了解本次实际车位后，用2D Pose Estimate初始化。导航组本轮尚未STARTUP，不认为全导航active或恢复实车导航完成。
+- 2026-10-29用户已回传RViz图d190b928：Fixed Frame为map，Global Status Error明确Frame [map] does not exist；Map Status Ok、Topic /hz_nav/map、Reliable/Transient Local、287×469/0.05m及原点(-1.31,-15.4,0)均显示，地图已收到。RobotModel Status Error但具体子项未展开，Description Topic为/hz_nav/robot_description，车模可见在地图外；不能由这帧认定车实际在地图外、模型文件损坏或具体网格加载错误。
+- 结合本轮AMCL明确等待initial pose且尚无初始化回执，下一步仅在当前RViz用2D Pose Estimate按实体当前车位及车头朝向给初值，明确此操作不发送运动目标，不猜昨天位姿或伪造静态TF；用户若不确定地图对应关系则回传当前位置参照再协助。先等初值操作后的截图/日志，再判断RobotModel是否仍报错；若仍报错再展开具体Status子项，不先重建模型、换Fixed Frame或重启程序。
+- 用户随后仍报RobotModel红色，按单步展开Status后回传a2ad4500截图：Topic已收消息、URDF parsed OK；ars548_link、assembly_link、base_link、camera、gnss、hesai_lidar、hunter_link、piper等逐项均No transform from [link] to [map]。这次具体显示错误属于到map的TF不可达，未见模型解析失败。没有本轮Setting estimate pose/AMCL接收初值或map→base_link成功回执，不假定用户已完成初始化，也不直接重画或改模型。
+- 继续按系统化调试先查边界：下一步保留四个运行窗口，新开ToDesk小车Ubuntu终端五，以Humble/域88/FastDDS及个人ROS_HOME/LOG/TMP，分别timeout6s原生tf2_echo odom base_link、map base_link，只查本轮两段真实TF。根据实际结果区分底盘TF缺失与地图定位侧缺失，不重复全栈检查、不改变Fixed Frame掩盖问题、不造静态TF或重启程序、不发送控制命令。两条输出待返。
+- 2026-10-29两段TF实查：odom→base_link在最初发现等待后，于1793258245～8249连续输出动态时间戳、位置(0,0,0)、单位四元数，底盘TF段当前可达；新启动后原点零值不当作静态TF/异常或定位精度证据。map→base_link在1793258257～8262始终报map frame不存在，没有任何有效变换；缺失侧定位到地图定位接口，不再重查底盘或模型。timeout后的SIGTERM来自查询程序结束，不代表底盘进程被关闭。
+- 下一步只在原终端五timeout60s监听/hz_nav/initialpose PoseWithCovarianceStamped --once（可靠/volatile），再在现有RViz用2D Pose Estimate按本次真实位置及朝向画一次，收集实际消息frame/pose；此前仍无本轮初值发布/AMCL接收回执。该次仅发送定位初值，不是导航目标或运动命令；不预先猜话题正确或用户操作已完成。若监听无输出则追RViz工具Topic/重映射，不盲发旧坐标、改TF或重启全栈；有输出后再看AMCL接收/TF反馈。保持四运行终端，不启导航组或重发旧目标。
+- 用户再次回传139356bf/975885be截图，强调RobotModel仍红且车模在地图外；未回传上次初值监听的消息或超时结果，不假定监听已执行、超时或用户未画箭头。图中依旧URDF parsed OK、各link到map无变换；既有odom可达/map不存在证据保持。地图外显示不代表已定位出真实图外车位，当前不能以白色车模作为手动初始化的真实位置参照。
+- 下一步停止重复要求画初值，先在原终端五用两条只读node info分别查看/hz_nav/rviz的Publishers/initialpose和/hz_nav/amcl的Subscribers/initialpose，核当前运行实例的初始位姿话题接线。仅比较实际输出，不预判话题错、改配置、重新发初值、重启或控车；等待两条结果后针对缺失处推进。此前监听回执仍未知，不将等待人工回传当作技术故障或自动重试依据。
+- 用户实际node info确认：/hz_nav/rviz Publishers中/hz_nav/initialpose为PoseWithCovarianceStamped，/hz_nav/amcl Subscribers同名同类型。本轮初值话题命名接线正确，不再查/改重映射、模型或循环接口验证；端点存在仍不证明已发布/接收过实际初值。
+- 当前尚无本轮Setting estimate pose日志、初值消息、AMCL接收日志或map TF成功回执。下一步只在当前RViz的实验室地图内、用户确认的真实停车位置用2D Pose Estimate画一次朝向；图外白车不能作为实际车位参照。松手后回传原终端四新增的Setting estimate pose等日志，以确认发布事件；如果不确定地图实际位置先由现场参照定位，不猜旧坐标。此为定位初值，不发送目标或速度；其他运行窗口保留，导航组仍未STARTUP。
+- 用户随后要求关闭所有终端重新开始运行，说明RobotModel仍红、车模位置未变。接受其重启本人本轮程序的明确请求，停止继续催要旧初值操作回执；仅重启运行会话，保留师兄资产、个人配置和历史验收，不新建工作区、改算法/模型/标定或删文件。尚无用户已关闭全部窗口的确切回执，不把请求当成进程已退出。
+- 当前记录仍是底盘odom TF可达/map TF缺失、RViz和AMCL初值话题同名同类型、尚无实际初值发布/接收成功证据；重启不代表已修复根因。导航组本轮未STARTUP且无新导航目标，不由定时任务补发或恢复动作。
+- 下一步让用户现场先保持小车完全停稳、遥控器开机，仅在本轮自有窗口依次Ctrl+C一次并等提示符（终端三底盘、二Nav2、一感知、四RViz），终端五留作只读检查；若卡住保留实际退出日志，不重复Ctrl+C或广泛杀进程，不假定关闭CLI等于制动已锁。随后给一条只读ps查看相关残留，等待输出再处理确属本人的会话并重新启动，未直接操作小车或发任何新速度/模式指令。
+- 上轮在最终车端指令交付前被用户中断，已完成的仅是本地记录更新；用户最新明确“不用确认是否有残留，直接开始”。据该最新直接指令撤下拟定的ps/残留检查流程，不下发检查、隐含pgrep守卫、清理或杀进程，也不把跳过检查写成已证实全部退出。
+- 下一步直接在ToDesk小车Ubuntu新终端一恢复已有01_sensors.launch.py，显式Humble+hesai_xt32_ws环境、域88/FastDDS及个人ROS_HOME/LOG/TMP；仅模型TF、Hesai和点云转扫描，不包含底盘模式/制动或导航目标。现有文件和历史验收保留，等实际该次启动日志再继续，避免扩展为重新建图/标定或全量排查。此前map TF问题尚无已修证据，后续恢复时须完成真正的初值发布和接收。
+- 2026-10-29 15:31:20用户回传第二轮重启的感知日志：Hesai连接192.168.8.32:9347成功、初始化XTM1解析器、读取雷达角度校正成功，firetime文件仍加载失败，之后继续输出角度校正完成和CPU/GPU提示。仅确认所示连接及初始化，不记本轮扫描频率/有效点数已复测，也不声称firetime已修。遵守用户直接开始偏好，不重查残留、不重做此前同配置已过的整套感知验证。
+- 按本次明确重启范围与先前本轮已获的底盘启动许可，下一步直接恢复同一原生hunter_base驱动；交付时再次说明会启用电脑控制、释放制动，保持遥控器开机及现场接管，不重复询问同一动作许可、不发导航目标。新窗口编号本轮改为终端一感知、终端二底盘，之后再用新终端启动Nav2，避免误把上一轮编号当当前。
+- 待交付底盘原命令：Humble+ hunter_nav_odom_ws/install/setup.bash，个人域88/FastDDS/ROS_HOME/LOG/TMP；hunter_base_node命名空间/hz_nav，真实can0/hunter2、odom/base_link、/hz_nav/odom、publish_odom_tf=true，/cmd_vel→/hz_nav/blocked_cmd_vel、/hunter_status→/hz_nav/hunter_status。尚无本次底盘启动回执，不认为已接通、里程计已恢复或当前控制模式已实查。先底盘后Nav2的运行顺序调整不修改任何配置/核心逻辑。
+- 第二轮重启底盘日志已回：参数can0、odom/base_link、/hz_nav/odom、publish_odom_tf=true、simulated_robot=false、sim control rate50；随后Hunter2.0/AGX_V2、初始化运行、listening can0、Commanded mode enabled/brake released及Using CAN bus。确认当前交付的驱动启动已到该阶段，不将日志当实体停稳、HunterStatus模式或TF实际数值验收，也不重做刚才已通过的参数检查。
+- 下一步保留本轮终端一感知、终端二底盘，新开ToDesk小车Ubuntu终端三，显式Humble及个人域88/FastDDS/ROS_HOME/LOG/TMP环境启动同一hz_nav_ws/launch/bringup_launch.py：namespace hz_nav、use_namespace=true、slam=False、个人lab_odom_06_nav地图与nav2_params、use_sim_time=false、autostart=false。仅加载原有Nav2组件，不启动生命周期组/发送导航目标或速度，不做残留检查，等新启动尾部日志。当前本轮Nav2尚无启动回执；后续初始位姿仍须取得实际发布/接收证据，不能只凭红色或重启判断已修复。
+- 第二轮Nav2启动回执：日志目录/home/car/hz_nav_ws/logs/2026-10-29-15-36-42-036748-car-NUC15JNKU7X4-164241，component_container_isolated PID164264已启动。此片段只证明容器启动，不宣称所有组件Loaded/active，也不据此进行额外残留/重复实例检查；沿用户直接恢复偏好，下一条原生服务调用等待管理服务就绪即可。
+- 下一步保留本轮终端一感知、二底盘、三Nav2，新开终端四以相同Humble/域88/FastDDS/个人ROS_HOME/LOG/TMP调用定位组manage_nodes command0，timeout30s。只启用地图服务器与AMCL，不发送实车目标或激活导航组；等待success结果，随后恢复原RViz并完成实际初值发布。当前本轮定位组未收到STARTUP回执，不能沿用第一轮success=True。
+- 本轮定位组调用实回：waiting for service to become available...，随后failed to check service availability: rcl node's context is invalid（rcl/node.c:428），未见making request或success=True。不能当定位组已启动，也不能仅凭context invalid认定管理器崩溃；timeout30s结束等待客户端是待证假设，实际服务未发现的原因仍待当前启动日志。
+- 内部曾错误地尝试在Windows F:/rob-memory/logs/...读取小车launch.log，该本地路径不存在，没有读取到任何车端日志或修改车端状态；不把这条本地文件缺失当车端故障。后续必须由用户在ToDesk Ubuntu读取真实/home/car/hz_nav_ws/logs/2026-10-29-15-36-42-036748-car-NUC15JNKU7X4-164241/launch.log。
+- 只读核对官方Humble ros2service/verb/call.py：先service_is_ready/wait_for_service，之后才打印making request并call_async；rclpy/client.py的wait_for_service在context不再ok后仍调用service_is_ready，支持客户端结束期间报无效context的可能，但不足以确证本次timeout归因。来源：https://github.com/ros2/ros2cli/blob/humble/ros2service/ros2service/verb/call.py ，https://github.com/ros2/rclpy/blob/humble/rclpy/rclpy/client.py 。
+- 下一步只在原Ubuntu终端四tail -n60本次真实launch.log，保留终端一感知、二底盘、三Nav2，查看组件加载究竟停在哪里。当前不重试STARTUP、不叠加新实例、不改RMW/组合模式/TF/配置，不执行残留检查或杀进程，不发送运动命令；等日志回执再定位实际故障。
+- 用户实际读取本次launch.log，全文尾部仍仅1793259402.037的日志目录/verbosity两行与1793259402.472容器PID164264创建一行；没有Loaded node、插件实例化、管理器Creating或进程退出记录。定位服务不可用与本轮缺少组件加载记录相符，但容器当前是否存活、服务图是否可见仍未知，不直接认定根因为残留、DDS故障或组合模式bug。
+- 下一步仅针对当前新启动的PID164264读取ps(pid/ppid/stat/etime/args)，再在原个人ROS环境用原生service list -t --include-hidden-services --no-daemon --spin-time5过滤/_container/与manage_nodes，比较进程状态和组件服务边界。不做全机残留确认或清理，不重试管理STARTUP/另启容器/切RMW，不发控制命令；若PID已无输出也只按实际回执再判断，不盲用旧PID发信号。
+- 官方Humble ros2service/verb/list.py与ros2cli/node/strategy.py已核：list支持NodeStrategy的--no-daemon、-t和--include-hidden-services；组件接口可能含/_container/隐藏名称，因此本次显式包含隐藏服务，避免把默认过滤结果误判为加载服务不存在。来源：https://github.com/ros2/ros2cli/blob/humble/ros2service/ros2service/verb/list.py ，https://github.com/ros2/ros2cli/blob/humble/ros2cli/ros2cli/node/strategy.py 。
+- 用户当前ps实回：PID164264/PPID164241、STAT Sl+、etime13:46，完整参数为component_container_isolated、__node nav2_container、__ns /hz_nav、个人launch_params_arxaitwj与launch_params_ag3rb2n8及全局TF重映射，所查本次容器仍在。直接发现服务列表（包含隐藏服务、no-daemon、spin5）过滤/_container/与manage_nodes无输出：该查询没有发现组件/管理服务，不能仅据进程存活判断ROS节点已就绪，也不能立即断定DDS损坏或残留根因。
+- 下一步只读/proc/164264/environ并过滤ROS域/RMW/localhost/发现服务器和FastDDS配置环境项，再在原终端四no-daemon/spin5列当前节点，核容器实际环境与通信图边界。两条查询均待实回，不读取完整敏感环境、不改ROS域/RMW/系统配置，不发布TF/速度、不重试STARTUP或再启实例；必要的当前故障诊断不扩展为全机残留清理。收到结果后再决定针对性处理。
+- 容器环境实回：ROS_DOMAIN_ID=88、RMW_IMPLEMENTATION=rmw_fastrtps_cpp、ROS_LOCALHOST_ONLY=0，FASTRTPS_DEFAULT_PROFILES_FILE=/home/car/fastdds_config/xt32_shm_64m.xml；同时有CYCLONEDDS_URI的lo接口配置，但当前明确选择FastDDS，不能直接把该Cyclone变量判为根因。原终端四的no-daemon/spin5 node list完全无输出，问题不再限于Nav2服务，当前查询没有发现任何节点；这不等于全部进程已退出。
+- 下一步两条必要对照：cat读取现有共享FastDDS XML（严格只读），再用env -u FASTRTPS_DEFAULT_PROFILES_FILE仅让单次node list查询不继承该XML变量，原域/RMW/终端及全部运行程序不变。只改变查询进程一个环境项来验证自定义XML是否影响发现，不全局unset、不编辑原文件、不清理共享内存或重启节点。XML内容与对照结果均待回，不能先认定自定义配置损坏或已修复。
+- 官方Humble rmw_fastrtps README明确RMW_IMPLEMENTATION选择实现，FASTRTPS_DEFAULT_PROFILES_FILE指定XML路径，支持本次按当前FastDDS变量作只读对照；来源：https://github.com/ros2/rmw_fastrtps/blob/humble/README.md 。没有将源码说明当作本机故障根因证据。
+- 用户实回XML：默认participant使用xt32_shm_transport，type SHM、segment64MiB、maxMessageSize16MiB、queue512、health timeout1000ms，useBuiltinTransports=false，明确禁用内置网络传输；单次env-u该XML变量的node list仍无输出。只改变查询进程不会改变运行中参与者的旧设置；此负结果不证明地图/导航参数损坏，也不足以排除参与者配置/资源或其他发现问题。
+- 用户问昨天仍可用为何今天失败。保留昨天的实测导航成功；今天已证是本次ROS发现查询为空、容器无组件服务，不编造确定根因。官方FastDDS2.6.10说明异常崩溃可能使SHM端口失效并有健康检查/重建机制，故异常退出的运行态影响只列候选，不认定实际残留或已证资源耗尽。来源：https://fast-dds.docs.eprosima.com/en/v2.6.10/fastdds/transport/shared_memory/shared_memory.html 。
+- 下一步做单变量实际Nav2启动对照：只在本次终端三Ctrl+C一次，等其回提示符，再在同窗口用env -u FASTRTPS_DEFAULT_PROFILES_FILE运行同一bringup、相同地图/参数/namespace/use_sim_time=false/autostart=false，保留终端一感知、二底盘，不改文件/终端持久环境、不清SHM或重启底盘。取消该指定XML不等于关闭FastDDS默认SHM；该步只检验新Nav2是否能加载，不承诺整个感知/底盘通信恢复。若未退出不叠第二实例，等待用户新启动/退出日志，不重复许可/全机残留检查或发运动目标。
+- 用户无法辨认“终端三”；已改用程序与可见日志识别窗口，旧Nav2窗口特征为component_container_isolated/启动PID164264，底盘窗口为Using CAN bus，后续不再仅用数字编号指导关键操作。此前给过新启动命令但没有该命令实际执行回执，不假定已按指定环境重启。
+- 用户新回传旧Nav2关闭日志：SIGINT后放弃等待hz_nav/nav2_container/_container/load_node，rclcpp signal_handler时间1793261471.374，容器process has finished cleanly PID164264；之后launch两条cannot use Destroyable because destruction was requested。确认该容器已正常结束，不能把关闭阶段launch异常当容器仍需kill，也不能将完整launcher清理认证为无异常。
+- 同次回传另有组件加载日志：1793261347.608～.621（比上述退出早约124秒），behavior/bt_navigator/waypoint_follower/velocity_smoother及navigation生命周期管理器Loaded/Creating。没有此段所属启动命令、日志目录、PID或当前存活状态，可能来自另一窗口/更早输出；不把它明确归于刚拟定的env-u对照成功，不推定当前全栈active或停用XML已证根因。
+- 下一步仅新开/使用空闲ToDesk Ubuntu检查终端，以明确Humble、域88/FastDDS和个人ROS_HOME/LOG/TMP，单次env-u指定XML变量no-daemon/spin5列现在节点。已发生实际退出/新日志这一状态变化，需用一次当前图判断能否直接沿现有运行栈继续；不重复停止/kill164264，不另启动一套、改配置、清共享内存、发目标或重启底盘。节点结果待回。
+- 用户当前明确域88/FastDDS、env-u指定XML变量的no-daemon节点查询已返回：/hz_nav下amcl、behavior、bt、controller、global/local costmap、两生命周期管理器、map_server、nav2_container、planner、smoother、velocity_smoother、waypoint各一名称及/launch_ros_193317。当前Nav2运行图可发现，不能继续当全部节点不可见，也不再关闭/重启现有Nav2。仅依据图不能证明组件active或单独确证XML为唯一根因。
+- 同次图未列出/hz_nav/hunter、hesai_ros_driver_node、robot_state_publisher、xt32_to_scan等硬件节点；这些程序的当前存活/实际数据通信尚无新证据，不因缺名就宣告进程死亡或盲目重启底盘。下一步保留所有运行窗口，在检查终端以明确个人环境及env-u同一XML变量调用定位组STARTUP0；本轮此前仅等待服务失败，无新的成功回执，故这是服务可见后的必要启动。
+- 定位组返回success=True后，再在同检查终端用相同env-u环境、best_effort/volatile读取一次/hz_nav/scan header（timeout15s），验证真实数据链，避免未有扫描/初值就重复打开RViz处理红色。第一步若未成功则停并回报，不直接执行后续。均不发送运动目标、不激活导航组、不改文件/清SHM或重连底盘。两个实际结果尚待回传，不沿用第一轮成功、旧扫描或旧位姿。
+- 本次相同env-u环境的定位组STARTUP实际success=True；1793262096.110～.314的Nav2日志明确AMCL收到287×469/0.05m地图，map_server/amcl分别bond连接，Managed nodes are active。当前地图与AMCL已实际激活，不再重复该STARTUP，也不将此当地图定位/导航组已就绪。用户所见Nav2窗口刷新正由该启动调用触发，是预期结果。
+- 紧随其后的env-u扫描header查询timeout15s无输出，本轮相同通信环境未收到扫描。结合节点图尚未见硬件节点，先恢复感知侧可发现/可传数，不打开RViz重复红色/初值循环，不直接发运动目标或归因为地图损坏。
+- 下一步只在显示hesai_ros_driver_node的本人传感器启动窗口Ctrl+C一次，等原shell提示符，在同一已source/导出个人环境的窗口用env -u FASTRTPS_DEFAULT_PROFILES_FILE运行原01_sensors.launch.py；保留当前Nav2与底盘，原文件/标定/64MiB XML均不修改，不安装软件、不清共享内存。该单次环境对照不等于禁用FastDDS默认SHM，也不预先承诺默认设置下大点云性能，实际扫描回执验证后再判断。
+- 传感器启动后，在已设原域88/FastDDS的检查终端用同样env-u、best_effort/volatile再读一次scan header，作为本次感知环境改变后的必要验证；启动异常退出则回报该错误。两条主要命令均待实际回执，不把原驱动SDK启动日志当当前扫描或TF已恢复，不重启/改底盘模式或发送导航目标。
+- 用户本轮扫描实回成功：env-u指定XML的/hz_nav/scan header.stamp=1793262620.321728945，frame_id=base_link。AMCL在1793262616.534～2624.833连续记录收到base_link扫描但Message Filter以earlier than transform cache丢弃，证明本轮感知→Nav2扫描入口已通；不将其扩大为频率/完整点数、地图定位或firetime修复通过。
+- 下一步只在同检查终端用同样env-u环境timeout6s tf2_echo odom base_link，检查本轮当前Nav2侧能否取得真实底盘TF。底盘进程此前仍按旧环境启动且未有第二轮当前TF验证；首次重启前已过的odom TF不能沿用到此次通信环境。不能仅凭earlier字样认定雷达时钟错、修改时间戳/参数/标定或重发初值；待实际TF结果后再针对性恢复底盘通信。当前不重启定位组/传感器/Nav2，不发控制命令或打开RViz。
+- 用户本轮env-u环境odom→base_link查询1793262803～2808持续报odom frame不存在，无任何有效变换。当前底盘TF入口未恢复已有直接证据，先解决该缺失，不能把扫描丢帧直接归为雷达时钟/标定问题。感知扫描及定位组已通过的本轮结果保留，不再重启这些程序。
+- 下一步按已授权的本人程序恢复范围，只重启显示Using CAN bus to talk with the robot的底盘窗口：Ctrl+C一次等提示符，在同一已source hunter_nav_odom_ws/个人域88/FastDDS环境的shell用env-u指定XML变量运行同一hunter_base_node及原全部参数/重映射。交付前再次说明会启用电脑控制、释放制动，须小车停稳、遥控器开机并可现场接管；不扩大为运动目标许可，不直接后台操作小车。
+- 原参数继续真实can0/hunter2、odom/base_link、/hz_nav/odom、publish_odom_tf=true、/cmd_vel→真实/hz_nav/blocked_cmd_vel、/hunter_status→/hz_nav/hunter_status。仅本次进程不继承指定XML变量；不改文件、清SHM、系统CAN或重标定，不重启Nav2/传感器/定位管理器。重启会重新建立里程计起点，本轮地图初值尚未验收，后续重新按实际车位初始化，不盲用旧TF/坐标。
+- 底盘启动后同检查终端再用env-u/timeout6s tf2_echo odom base_link，验证这次环境调整后的真实输出。两条主要命令待实际回执；若底盘未退出不叠实例，当前不能提前记为TF或控制模式/实体停车已恢复，亦不发导航目标。
+- 用户回传该次底盘重启日志Hunter2.0/AGX_V2、initialized、listening can0、Commanded mode enabled/brake released、Using CAN bus。紧接的env-u TF查询在最初发现等待后，于1793263304.568～3308.568连续输出odom→base_link有效动态变换，位置(0,0,0)、单位四元数。本轮底盘TF通信恢复有实际证据，零位姿为本次里程计参考原点，不代表地图位置/实体定位精度，也不据此称实际速度/模式/停稳已验收。
+- 现已验证本轮地图与AMCL active、扫描可达AMCL、底盘odom TF可达；不再重启这三部分，不重复STARTUP或全量通信检查。此前旧共享XML未修改/删除，当前各进程采用单次env-u环境后接口逐步恢复；只记录环境与恢复关联，不编造共享内存残留/资源耗尽为已证唯一根因，默认FastDDS仍可能使用SHM，firetime错误仍未修。
+- 下一步新开ToDesk小车Ubuntu的“RViz显示窗口”，Humble+原hunter_nav_odom_ws模型资源环境、域88/FastDDS/个人ROS_HOME/LOG/TMP，启动同一已保存lab_odom_06_map_view.rviz并单次env-u指定XML，__ns /hz_nav与/initialpose→/hz_nav/initialpose保持。其他运行窗口保留，不发目标。地图初值尚未确认，在初值建立前不能把模型显示位置当作实体定位或以红色再触发重启。
+- 已异步只问一项缺失信息：用户能否在地图上认出本次实际停车位置和车头方向；能认出则接续按实际点2D Pose Estimate并取实际发布日志，不能则先协助场地对应，不猜昨天位姿。此为定位信息澄清，不重复权限确认。RViz当前打开/初值/完整map→base_link结果均待回。
+- 用户回传本轮RViz图a5766cb7，问是否应重新添加RobotModel：Topic已收到描述、URDF parsed OK，各链接含base_link到map均No transform，车模显示在地图外。确认RViz已打开且模型描述通信/解析正常，仍缺map定位关系；不删/重加模型，不改URDF、Fixed Frame或启动已恢复程序。
+- 当前需要澄清初始定位的操作含义：不用等图外白车先进入地图，也不以图外白车作为真实车位；2D Pose Estimate的箭头起点应直接落在实验室地图中对应实际停车处，方向沿实体车头。此为地图初值，不是移动模型的拖拽或运动目标。松手后取RViz启动终端新增的Setting estimate pose行作为实际发布证据；尚无本轮该日志/消息或AMCL接受、map TF成功结果，不宣称用户未操作，也不假定已初始化。
+- 用户最新“好了，使用2D Pose Estimate不会让小车移动吧”并回传d646f05c：RobotModel已Status Ok、Topic/URDF及全部链接Transform OK，车模已在地图区域显示、扫描可见。本轮红色显示问题已由新截图消除，不能继续催画初值、重加模型或重启。虽未提供Setting estimate pose原始行，现有操作回执及状态图足以推进到读取定位输出，不将缺一行日志设成无谓阻塞；精度/真实位置与激光墙体匹配仍未正式验收。
+- 已只读核实官方RViz Humble InitialPoseTool：只创建PoseWithCovarianceStamped发布者，onPoseSet填当前Fixed Frame/时间戳/XY/yaw/covariance并publish，无Twist或导航action调用。结合本轮尚未下发导航目标的流程，回答该工具本身不命令实车行驶，屏幕车模换位是估计更新；不扩大为活动导航任务期间任意重定位永远无影响，也不以截图宣称实体停稳。来源：https://github.com/ros2/rviz/blob/humble/rviz_default_plugins/src/rviz_default_plugins/tools/pose_estimate/initial_pose_tool.cpp 。
+- 下一步仅在检查终端同env-u环境读取一次map→base_link真实TF，确认当前地图坐标输出与朝向并获取本轮数值；不再取旧初值或重新初始化，不发目标/速度，不重启生命周期组。图上局部costmap仍无数据与本轮导航组尚未STARTUP相符，不据此另行重启；新地图TF数值待回。
+- 用户本轮map→base_link查询已回：1793266949～6951短暂map未发现、6952有一次请求时刻早于新缓存最早时间的外推提示；随后1793266953.608/6954.608连续有效，位移(3.977,-11.221,0)、四元数近似(0,0,0.227,0.974)、yaw0.459rad/26.299deg。按最终持续有效结果确认本轮完整地图TF已接通，不把查询启动时的瞬时等待/缓存外推误当新根因再重启或改时间参数。数字为估计/打印舍入，不当外部测量精度或实体停稳证明，也不复用旧地图位姿。
+- 当前可接续原方案原地定位更新及导航组启用。下一步两条原生操作都在检查终端并用同样env-u指定XML环境：先request_nomotion_update Empty一次（仅要求下一次扫描定位更新），响应后再navigation生命周期管理器STARTUP0（timeout60s）。此为本轮导航组第一次启动；此前本轮仅定位组已active，故不重复定位STARTUP，也不逐节点configure/activate。
+- 两条命令不下发NavigateToPose/FollowPath/DriveOnHeading或新速度目标；原真实blocked_cmd_vel接线保留，下一次真实运动仍须具体目标说明/授权及现场接管条件，不把当前原地服务准备或前一天许可扩成新运动许可。等两条实际返回和RViz周边激光/墙体及代价图截图再判断定位贴合和服务状态，不能以TF稳定直接宣称导航精度/实车验收或全方案完成。
+- 用户本轮request_nomotion_update返回Empty_Response，navigation组STARTUP返回success=True；图9c6eb2cc显示车模、绿色footprint、青/紫局部障碍代价及白色激光，导航组实际启用和局部显示已恢复。首次恢复相关成功不再沿用上一轮/重复调用；不将此截图当外部定位精度、实际运动避障或本轮实体停稳证明。
+- 下一步检查终端同env-u环境：只读当前amcl_pose的pose.pose，取得本轮原地更新后的实际估计XY/朝向作为路径设计参考；随后timeout60s监听已验证的/clicked_point，用户在RViz红色图钉Publish Point选择真实车头前约1m、远离青/紫障碍区域的浅灰空旷通道点。两条都是坐标采集，不发导航/跟踪/速度目标；不用2D Goal Pose取点。
+- 当前目标点/朝向尚未收到，不重用昨天已到达或取消的坐标自动开车。取得实际点位后先用原GridBased ComputePathToPose规划、看路线，再依原方案对具体本轮运动目标作说明及现场接管/明确授权。/hz_nav/blocked_cmd_vel仍接真实底盘，不能按隔离测试口处理；本轮完整实车与收尾尚未完成。
+- 用户本轮实际amcl_pose.pose.pose回传：XY=(3.973888630430188,-11.191485297236452)、Z0、q=(0,0,0.21537666419764293,0.9765310504633715)，参考yaw约24.875deg；该命令未含header/covariance，不补造时间/协方差或以均值认证精度。
+- Publish Point实际消息：frame map、stamp1793269967.150902630、点(5.183517932891846,-10.800862312316895,-0.001434326171875)。按所回估计计算直线距离1.271137m、目标方位约17.897deg；不是规划路径长或实体尺量。新目标仅做二维Z0、XY六位小数，终点朝向复制上述本轮q，use_start=false由规划器取实时TF。
+- 下一步仅同env-u环境用原GridBased ComputePathToPose规划至map(5.183518,-10.800862,0)、qz0.2153766642/qw0.9765310505，timeout30s，不调用NavigateToPose/FollowPath或发速度。预期返回规划终态和RViz绿色Path，等实际状态/路线截图再判是否可执行，不预称直线、全前进或已导航成功；无本轮新运动授权，不复用昨天Goal UUID或目标。
+- 用户实际回传本轮纯ComputePathToPose终态SUCCEEDED及图6b358fab，绿色短路径已显示在车前方。本次规划用例通过；未给完整path姿态/长度或goal UUID，不补造，不由截图认证无倒车/全程直线，也不能把规划SUCCEEDED记成实际NavigateToPose到点成功。约1.271m仍只为所回估计与目标的直线距离。
+- 下一步仅在检查终端source原hunter_nav_odom_ws消息环境，再同env-u读取一帧/hz_nav/hunter_status，筛linear_velocity/steering_angle/vehicle_state/control_mode/error_code。实际底盘重启后的反馈尚未读取，先取本轮状态而非重查已过软件/原地定位；此命令只读，不改变底盘模式或发执行目标。
+- 取得正常静止/控制状态后，再按原方案对本次具体点(5.183518,-10.800862)的真实NavigateToPose说明约1.27m短路线、期望跟踪0.10m/s及原no_spin树可能的倒车恢复，并确认当下现场可接管与本次明确授权。昨日目标已完成/取消的许可不自动移用，此轮规划成功也不替代运动授权；当前未发新目标。
+- 用户已回传本轮HunterStatus：linear_velocity0.0、steering_angle0.0、vehicle_state0、control_mode1、error_code0，并说明“不用关control_mode”。依已核Hunter2协议，1为CAN电脑控制；保持现模式，不再要求切换、关闭或重复查状态。该帧反馈正常且速度为零，不补造本轮现场完全停稳观察。纯规划与实际控制状态准备已完成；下一步仅就这次已选点的实际导航和当下可接管条件按用户原方案取得明确同意，解释期望0.10m/s、原BT遇阻可能每次倒车0.30m（0.05m/s）；未下发NavigateToPose，不以旧授权或规划SUCCEEDED代替本轮运动许可。
+- 用户对本次导航授权问题回复“那为什么我的不能遇阻倒车恢复呢”，这是功能解释问题，没有同意本次移动，继续保留尚未发新NavigateToPose。已重新只读核实本地车端参考资产navigate_no_spin.xml：原上下文恢复各清图重试1次，外层RecoveryNode重试6次，RoundRobin恢复项依次为清局部/全局代价图、Wait5、BackUp0.30/0.05；并核原params行为插件包含backup、RPP allow_reversing=true。此前个人XML哈希与原文件一致，没有删除BackUp。配置存在不等于本次实际倒车已触发或通过；尚无用户所指遇阻事件的对应日志/触发序列，不能断定失败原因。将说明每次恢复后会重试导航、并非一检测障碍立即倒车；原生BackUp还受位姿/超时/碰撞检查条件影响。未改参数/BT、未执行车端动作，也不另发独立倒车试验。
+- 用户最新“先把小车上的相机打开”，作为原任务中的当前优先步骤，保留现有传感器/底盘/Nav2/RViz运行，不发送本次尚未授权的导航目标。已只读回核10/13相机实际启动文字和10/16包前缀记录：D435i已有/home/car/d435i_ws/install/realsense2_camera，原生rs_launch.py以camera_namespace=camera/camera_name=camera、RGB640x480x15、depth/infra/gyro/accel/pointcloud/align关闭、initial_reset=false曾RealSense Node Is Up，图像此前实测约15Hz。历史Built2.58.2/Running2.58.3警告保留，不升级共享库。
+- 下一步在ToDesk小车Ubuntu新开“相机终端”，source Humble和既有d435i install/local_setup.bash，再用当前统一env-u FASTRTPS_DEFAULT_PROFILES_FILE、域88/FastDDS、个人hz_nav_ws ROS_HOME/LOG/TMP环境运行原生相机命令。只开原验证RGB流，不调用hz_ws建图助手或向历史地图写日志；日志留hz_nav_ws，不重置设备/改标定/共享配置。命令待用户执行回执，尚未证明本轮相机启动或画面可见；收到启动结果后再给显示画面的必要一步。
+- 用户已实际执行并回传18:59:38相机启动全日志：本轮目录/home/car/hz_nav_ws/logs/2026-10-29-18-59-38-070113-car-NUC15JNKU7X4-345390，节点PID345395，RealSense ROS4.58.2、Built librealsense2.58.2/Running2.58.3警告仍在；识别D435I序号109622075183、USB3.2、FW5.17.0.10，Open profile Color RGB8/640×480/FPS15并RealSense Node Is Up。当前初始化通过，不将配置FPS15写成已实测接收15Hz；尚无本轮画面截图。不因警告升级共享库、重置设备或重启已正常运行节点。
+- 下一步直接使用ToDesk里现有RViz，Add→By topic选择/camera/camera/color/image_raw下的Image显示；需要时明确Image Topic对应该话题、订阅Best Effort/Volatile。Image显示可直接看像素，不依赖相机到map的TF或另外安装rqt_image_view；保持相机与原导航窗口运行，等实际画面，不发新导航目标，不修改控制状态。
+- 用户最新澄清希望单独用“real什么”软件打开相机：对应RealSense Viewer。此前RViz仅作为ROS图像显示端，实际设备由相机终端ROS驱动启动；不将其误述成RViz启动相机。已查本地知识库和官方librealsense Linux说明，独立启动命令为realsense-viewer；本轮尚未实际查得Viewer可执行文件/打开窗口，不声明已运行或安装。
+- 当前待交付操作替代先前待回执的RViz Image添加：在ToDesk本人相机窗口（RealSense Node Is Up）按一次Ctrl+C，等返回car提示符释放设备后运行realsense-viewer，再等窗口截图指导彩色流。其他雷达/底盘/Nav2/RViz不动，不关底盘、不改控制模式、不运行安装升级/设备重置/建图；用户尚未回传ROS相机退出或Viewer运行结果。官方来源https://github.com/realsenseai/librealsense/blob/master/doc/distribution_linux.md，仅核Viewer命令，不执行文档安装或升级步骤。
+- 用户最新口述当前只能看到小车正面朝向，并询问相机怎样看侧边；这是当前已有前向画面的人类回执，不再要求以缺少旧窗口截图为由重开或卡住，但尚无Viewer确切界面/ROS驱动退出日志、频率测量。先解释固定前向D435i只能获取镜头视野内的真实影像，软件旋转三维点云视角不能补出未观测的侧面；左右实时彩色视频需要相应拍摄方向的相机或全景采集。保护现有安装/外参，不建议直接转动相机或发送车体转向/运动命令。侧面障碍分布可与当前XT32扫描/点云显示区分；未给新设备购买、接线或开发替代方案，也不把问题当本轮实车导航许可。
+- 用户最新明确“行呢，那就执行移动命令”，承接已具体说明的本次规划点、期望速度及原BT倒车恢复影响，记为该单次真实导航的明确授权，不再重复审批或查mode1。准备给一条原生NavigateToPose命令：检查终端source Humble、env-u指定FastDDS配置、域88/FastDDS与个人ROS_HOME/LOG/TMP，目标map(5.183518,-10.800862,0)、q(0,0,0.2153766642,0.9765310505)、behavior_tree=/home/car/hz_nav_ws/config/navigate_no_spin.xml、--feedback，不使用timeout包围实车导航。仅由用户在车旁可遥控/急停接管时执行，保留现有节点和该终端；工具不直控小车。
+- 当前仍无新NavigateToPose受理UUID、实际反馈或终态，不能记为已移动/到达。等待真实回传和现场是否到点/完全停稳；允许同一已授权动作的正常人工执行，不授权自动重试、旧取消目标续跑、另发倒车试验或后台控车。若出现异常，现场以遥控器/急停接管，不把关闭客户端等同于可靠停止。
+- 用户实际回传本轮NavigateToPose的Ctrl+C取消过程：Canceling goal、Goal canceled、最终Goal finished with status CANCELED，result为空；用户明确“正常运行，只不过我手动终止了，我们继续”。本轮软件取消成功，有真实终态，不按异常故障重启/自动恢复/再次取消，不复用昨日Goal UUID。本次受理UUID未给，不补造。
+- 本次末帧反馈header map/stamp1793272965.308029542，位置(4.232881623618189,-11.469231564022644,0)、q(0,0,0.17639488362611538,0.9843194832118936)，累计navigation_time20.140183429s、estimated_time_remaining10.956820990s、number_of_recoveries0、distance_remaining1.1460834741592407m。末帧为取消前反馈，不等同最终停车点/误差、完整路径长度或实体持续行驶时长；恢复0不证明倒车恢复已测试。人工“正常运行”保留为现场观察，不扩大为本次到点成功。
+- 下一步在ToDesk同一已空闲检查终端，只读一帧本次取消后的HunterStatus（source原消息overlay、显式域88/FastDDS及个人日志环境、env-u指定XML），并请用户观察实体是否完全停稳；当前没有停车结果，不能用本轮动作前速度0或昨日停稳证据补足。其他窗口保持，不再发运动/模式命令，不将一般“继续”解释为自动重试已取消目标。取得本次停车证据后接续原方案尚未完成验收与收尾。
+- 用户实际回传本次取消后HunterStatus：linear_velocity0.0、steering_angle0.0、vehicle_state0、control_mode1、error_code0；随后对现场观察问题明确答“已经完全停稳”。本次主动取消有CANCELED终态、底盘零速/正常状态及现场停车三项证据，可以记录该用例通过，不再索取重复停止检查或许可。本次未到目标，末帧剩余1.146m不转记成最终停车误差；不补足10/28另一次取消的未知过程，也不扩大为所有碰撞、接管或停机条件均验收。
+- 接下来推进原方案归档与正常退出准备：先在现有ToDesk检查终端创建/home/car/hz_nav_ws/logs/nav2_snapshot_时间戳的独立新目录，复制个人config/launch/maps/rviz作配置快照；再在同一终端以显式域88/FastDDS、env-u指定XML及个人日志环境，用原生ros2 param dump读取当前controller_server参数到快照controller_runtime.yaml。Humble官方dump实现确认默认输出stdout，使用重定向，避免已废弃--output-dir。只读节点并写个人备份，不改运行参数/控制模式，不停止程序、不重新执行目标。车端命令尚待回执，不宣称备份或正常关停已完成；其他运行参数/本轮日志在后续收尾归档，不夸为全量记录。官方核对：https://github.com/ros2/ros2cli/blob/humble/ros2param/ros2param/verb/dump.py 。
+- 用户实回个人配置快照保存成功：/home/car/hz_nav_ws/logs/nav2_snapshot_20261029_193424；同一终端原生控制器参数导出返回“控制器运行参数已保存”，文件为该目录/controller_runtime.yaml。配置与此控制器快照完成，不再重复命令；其他节点运行参数、整包日志和整套正常退出未据此补记完成。
+- 用户要求“先把这次测试所有需要的命令整成TXT，之后重启先按TXT开好再继续”。当前优先级改为文档交付，不继续下发车端关停、移动或恢复命令，也不把此请求扩大成取消全部方案。已创建F:/rob-memory/outputs/hunter_nav2_recovery_20261029/Hunter_Nav2_本轮测试与重启恢复命令.txt，按程序名区分窗口，第一部分启动到待机，第二部分纯规划/真实移动/取消与停车、可选Viewer或ROS相机、备份、注明待验收的正常退出，并含已实测/待验收事实及常见错误。沿用现有个人入口和师兄成熟代码，不创建替代控制脚本。
+- TXT的真实目标模板需要本次重新填写四个nav_goal值，空值保护防止直接发送空目标；本轮历史XY/四元数只放文字记录，不放可复制的移动指令。每个ROS命令块保留env-u指定XML前缀，启动段要求每个新窗口加载域88/FastDDS/个人ROS_HOME/LOG/TMP环境；底盘启用释放制动、移动及原树可能倒车均明确说明。相机独立查看不变成Nav2必开项；未操作车端或假定用户完成退出。
+- 文档验证：抽取26个缩进命令块，仅在Windows本地shell执行-n语法解析；检查续行符无尾随空格、历史目标不在可执行块、全部ROS块包含临时通信前缀，无sudo/SSH/系统清理命令。首次本地F:/w64devkit/bin/bash.exe不支持--noprofile/--norc选项而报错，调整为支持的-n后通过；这是验证工具选项问题，非车端ROS失败。最终文件26199字节，SHA256 A7CAD969C7A63FE5F1BF142F85CB353E220B1CFF98D4FB4DFEFE91BDC73C7CA4。命令语法核对不是重新执行实车测试；按该TXT完整重启恢复仍待用户下次回传。
+- 用户在TXT交付后明确继续原任务。为避免错误按“下次重启”重新启动，已只问当前会话状态；用户新答“上次会话仍在运行，小车停稳”。因此沿用当前运行组件，不再重新启动、反复查询状态或重发旧目标。本轮取消、停车和配置/控制器备份证据已齐，继续原方案正常退出及日志归档，随后接个人地图对照等剩余阶段。
+- 下一步仅在ToDesk小车Ubuntu空闲检查终端，以source Humble、显式域88/FastDDS/个人ROS_HOME/LOG/TMP及env-u指定共享XML，原生调用/hz_nav/lifecycle_manager_navigation/manage_nodes的command4（SHUTDOWN）。Humble接口已核对，预期success=True；当前尚无车端执行回执，不写成导航组已关闭，也不先关闭定位/容器/底盘窗口。底盘、雷达、定位和RViz保持，未发新行驶目标、切模式或释放制动命令；工具不直接操作小车。定位组退出、本人程序退出与日志整包归档继续按回执推进。
+- 用户实际回传/hz_nav/lifecycle_manager_navigation/manage_nodes，command4，响应ManageLifecycleNodes_Response(success=True)。本轮导航组正常SHUTDOWN已有真实证据，不重复调用；不扩大为Nav2容器、定位组、底盘、感知或整车均已退出，也不据此替代机械停车证据。下一步仅在同一检查终端用相同显式环境调用定位组SHUTDOWN（command4），保留其余窗口并等真实回执，不续跑旧目标。
+- 用户又实回/hz_nav/lifecycle_manager_localization/manage_nodes，command4，success=True；本轮两个生命周期组均正常SHUTDOWN，不再重复服务调用。容器进程/底盘/雷达/RViz等退出尚未确认，不能据此记为整套软件或整车已关闭。
+- 用户追加概念与个人成果问题：这是否是ROS导航、是否相当于把导航部署到小车上。按证据解释ROS2提供运行与通信，Nav2承担导航栈；个人已完成hz_nav_ws独立部署、成熟驱动/参数/地图/BT适配、扫描/odom/TF/AMCL接通及基础实车验证、取消停车、备份/TXT整理。核心算法和参考配置复用师兄/开源，不夸为独立自研算法或全场景稳定产品；当前导航地图是师兄二维图，自己的FAST-LIVO2图尚未接入对照。本轮取消终态不写成到点SUCCEEDED，10/28历史到点成功独立保留。
+- 概念问题作为当前任务补充，不取消正常收尾主线。下一步仅让用户在本人Nav2窗口（component_container_isolated日志可辨认）按一次Ctrl+C并等待返回提示符/正常退出日志；其他窗口暂保留。不猜PID或广域清理，不因过去关闭超时就默认本次已修复；收到实际日志后再验容器正常退出并继续。
+- 用户本次真实容器退出日志：一次Ctrl+C后，1793276585.371各Nav2节点打印rcl preshutdown/Destroying bond；launch报告SIGINT后5秒未退出，自动SIGTERM（1793276591.133仍有信号日志），再等10秒自动SIGKILL。最终component_container_isolated PID193336 process has died/exit code -9；临时参数为logs/launch_params_j_z6y5sg和launch_params_b58xlzvb，命名空间/hz_nav。已死亡的PID不再查询/杀进程，也不要求用户反复Ctrl+C。两组manage SHUTDOWN success=True保留，但完整正常关停本次失败，不能写成已修好或“正常退出”。
+- 按系统化排障读取官方rclcpp问题2083及修复PR2085，曾有Humble isolated容器退出时SIGKILL的相似现象；该PR涉及executor取消/线程等待竞争，不能仅凭相似日志直接认定同因。当前上游Humble头文件cancel_executor已带rclcpp::ok(context)条件，因此仍需本机版本和实际头文件作对照。来源：https://github.com/ros2/rclcpp/issues/2083 、https://github.com/ros2/rclcpp/pull/2085 、https://github.com/ros2/rclcpp/blob/humble/rclcpp_components/include/rclcpp_components/component_manager_isolated.hpp 。未改库、超时、composition或控制算法，未执行再现/重启。
+- 下一步给ToDesk空闲检查终端两条只读命令：dpkg-query读取rclcpp/rclcpp-components/Nav2 bringup/lifecycle-manager/rmw-fastrtps-cpp版本；find本机/opt/ros/humble/include中的component_manager_isolated.hpp并打印前160行。目录深度限定/文件名精确，不安装软件、不改共享文件。待实际输出后再分析，不在根因未明时强行指定composition=False或更换容器；其他窗口保持，不执行旧目标。
+- 用户纠正：没有明确说往已写好的TXT添加内容，就不要自行添加。已承认未经要求补写了退出异常段落，并只撤回该段；文件恢复原交付版本26199字节，SHA256 A7CAD969C7A63FE5F1BF142F85CB353E220B1CFF98D4FB4DFEFE91BDC73C7CA4已实查一致。以后未经用户明确要求不修改已交付TXT，调试进展在聊天和内部进度记录即可，不自动改操作文档。
+- 上述本机版本/头文件诊断命令仍只是准备，尚未在最终回复交付给用户，也没有执行回执；本次纠正只恢复TXT，未进行车端操作。退出超时根因仍未证实，容器193336已死亡；原任务继续保留，后续不得将“等待先前命令回执”作为事实或重复写入TXT。
+- 用户最新明确“继续，不用查退出超时，直接继续我们的任务”。据此搁置版本/头文件/容器退出诊断，不追加该分支测试，也不称根因已修复或完整正常关停通过。回读最初方案、任务计划和最新进度后，接续已约定的个人FAST-LIVO2地图复用评估；原文阶段零不重做，已验证师兄地图导航和取消停车不重复。下一步仅给ToDesk空闲Ubuntu终端一条ls -lh，列/home/car/hz_nav_ws/maps和两次受保护历史地图顶层内容，等回执判断现有二维成果、PCD目录或后续副本入口。其他窗口保留，不重启Nav2、底盘或新发目标；交付TXT不修改。此处没有车端执行结果。
+- 用户已执行上条ls：hz_nav_ws/maps顶层仍只有lab_odom_06.pgm、lab_odom_06.yaml和lab_odom_06_nav.yaml；第一轮lab_20261011_141011_768151包含merged、merged_for_view、pcd、previous_PCD目录及日志/config/validation；第二轮lab_20261011_155236_369289包含merged_for_view、pcd、config/validation/previous_export.json和previous_PCD符号链接（指向第一轮pcd）。不递归跟随该链接混合两轮数据。尚未看到子目录中的具体点云名称，不能称完整合并图已选定或个人二维图不存在于全部子目录。
+- 用户最新明确先把自己的图转换成师兄那样的图，自己先手动开回，之后暂不移动小车；据此优先离线转换，不再安排真实导航或要求现场控车授权。下一步只读ls三个已存在merged/merged_for_view目录，识别原完整图和预览文件；停稳事实未新回传，不补写手动已开回/所有程序停止。没有转换操作或TXT修改，历史地图仍只读。
+- 用户合并目录实际输出：第一轮merged/map_raw.pcd101M，merged_for_view内map_raw.pcd101M及map_preview_015m.pcd606K；第二轮merged_for_view内map_raw.pcd249M及map_preview_015m.pcd728K。无需重新拼全部分片作为第一步，后续使用raw候选而非15cm预览；尚未判定两个采集轮次地图质量孰优。
+- 为减少重复探查，已查本地历史outputs/map_inspection_lab_155236_20261011/地图检查报告.md与geometry_stats.json：第二轮原16290495点、5245分块与5245位姿、XYZ有限/合并payload逐块匹配，历史平面估计倾角0.863deg；该次输入保护验证通过。Windows本地原图F:/rob-memory/maps/lab_20261011/lab_20261011_155236_369289/merged/map_raw.pcd与pcd/scans_pos.json重新Get-Item/Get-FileHash确认存在、长度260648077/401759，SHA256分别a57844447f23c2c02cd30f101aaf622ae86eb8a1cd207b684a940fa464d06441和fd111e7da47165af78d8c8077df2284b0b328390a0e77a32543a486a85b48518，与旧manifest一致。本地merged与车端merged_for_view路径不同，仍须车端这两文件哈希确认，不能直接宣称此次源图一致。
+- 下一步改为一条ToDesk Ubuntu只读sha256sum核对第二轮raw与scans_pos.json；若匹配可直接在现有Windows副本离线处理，避免重传249M文件。未做转换、安装、重启或修改已交付TXT。OctoMap官方OccupancyOcTreeBase文档核对：概率射线更新使用测量点与真实sensor_origin；仅作为空闲/未知处理的方法参考，不已选择安装OctoMap，也不把所有无点区域设自由。本轮仍尊重用户暂不移动要求。
+- 用户本次sha256sum两行分别为a57844447f23c2c02cd30f101aaf622ae86eb8a1cd207b684a940fa464d06441（车端merged_for_view/map_raw.pcd）与fd111e7da47165af78d8c8077df2284b0b328390a0e77a32543a486a85b48518（pcd/scans_pos.json），与Windows归档两源完全一致，源对应通过，不再让其重传249M地图或重做哈希。仅此两文件本轮对应经过实证，其余5245块完整性属于10月11日历史核验。
+- 找到知识库师兄三个既有转换脚本pcd_to_2d_map.py、pcd_to_2d_occupancy.py、pcd_to_2d_occupancy_denoise.py，只读检查后发现均以254整幅初始化，即没有观测的位置也标自由；后两者主函数也未按本次拟合地面切高度。未直接套用该默认策略。原脚本不改；离线派生仅复用其write_pgm和既有pcd_export.pcd_info解析，分类保存于独立Windows分析输出，不部署控制程序。
+- 已生成F:/rob-memory/outputs/hunter_pcd_to_2d_20261029/lab_155236_floor_evidence_candidate.pgm及同名.yaml、candidate_preview.png、raster_evidence.npz、conversion_report.json，处理记录build_candidate.py同目录。全16290495原始点处理，原XY保持；用既有地面单位法向(-0.013971307824378085,0.005619755522233755,0.9998866040234496)、offset0.6865917294817833，仅距平面±0.04m回波支持的格作候选自由；0.10～1.50m高度任何点命中标障碍且优先，未做射线、补洞、删小连通障碍、膨胀或人工涂白。该高度段为离线审查候选，非完整车体净空认证。
+- 结果5cm/格、1337×738，全图原点(-18.8,-29.95,0)，占用24731格、地面支持候选自由37031格、未知924944格，总986706；自由4连通580块，最大31099格，保留稀疏缺口。PNG左全范围右实验室主体显示缩放，PGM不裁范围、不旋转；蓝框仅PNG查看范围。视觉实看房间主体/桌区可辨，墙边粗厚多层及灰色缺口仍在，未擅自删除或涂白。
+- 本地执行7.56s退出0，复读PGM/YAML与原生Humble map_io.cpp严格阈值和Y翻转规则对照通过，全部白格都有地面回波、全部本高度障碍命中保留、外边界未知；原图/轨迹/地面诊断文件及借用写图函数所在脚本的内容哈希和mtime前后相等。另独立加载核对PGM像素计数/尺寸及YAML相对图片路径通过。没有车端ROS原生加载、AMCL或导航验收，不把Python规则核对当车端运行。
+- 当前向用户交预览并请其核对布局，再继续高度/区域选择与可用性评估；不重复旧哈希命令，不移动车、不恢复目标，已交付TXT未写入，原图保持不动。参考Humble代码：https://raw.githubusercontent.com/ros-navigation/navigation2/humble/nav2_map_server/src/map_io.cpp 。
+- 用户反馈“看起来质量还是不行”，询问是否自编、提出先查师兄在小车电脑里留下的转换代码。已明确承认该版分类/离线处理由助手写，参考脚本仅借用write_pgm；说明已有地面估计、0.10～1.50m高度点投影到5cm格、观测支持候选自由和未知保留，未按逐帧观测重建，也未解决多层轮廓。当前搁置候选，不当作已验收成果或继续擅自细化；未传车/未改当前地图。
+- 只读本地文件来源清单确认参考脚本原路径线索/home/car/nav2_ws/src/xt32_nav_bringup/scripts/，有pcd_to_2d_map.py、pcd_to_2d_occupancy.py、pcd_to_2d_occupancy_denoise.py；当前车端是否还在/是否改过未知。既有方法文档证据则表明师兄lab_odom_06由async_slam_toolbox_node/map_saver_cli流程保存，不能假定正由这些转换脚本产生。下一步只给ToDesk Ubuntu两条只读find/grep历史用法，等待真实输出后读原脚本/实际参数。退出超时分支保持搁置，原图/共享代码/TXT不修改，无新控车。
+- 最新人工find确实返回/home/car/nav2_ws/src/xt32_nav_bringup/scripts/pcd_to_2d_occupancy.py、pcd_to_2d_occupancy_denoise.py、pcd_to_2d_map.py三路径；.bash_history关键词grep没有输出，不能据此说这些脚本从未运行，也没有恢复出实际参数。尚未读本次车端源码，不能认定与Windows历史副本一致。
+- 用户追问“人家是SLAM Toolbox建图，那我这个呢”。先明确10月11日个人地图来自FAST-LIVO2雷达/IMU/相机三维建图，PCD→二维离线投影是后来额外步骤；SLAM Toolbox以LaserScan和odom TF为输入，具有二维扫描匹配和位姿图优化，与简单投影并非相同处理。查hku-mars FAST-LIVO2官方README及SLAM Toolbox Humble README核对能力；既有溯源文档对师兄生成流程是日志/历史交叉支持，缺当晚全量执行快照，不扩大为一切参数/回环均确证。
+- 概念答复不当作用户改变任务或同意重新采集。仍沿用其优先现成转换工具、暂不移动的要求；下一步一条sed读取车端pcd_to_2d_map.py前240行（Windows参考版不足240行，当前若更长再续读），不执行脚本、不自动重采二维图、不修改TXT或继续优化自编候选。
+- 用户附件aa456d92-fb70-4606-8dc1-d41cd3a10ce6已完整贴回pcd_to_2d_map.py，实际源码186行（以本次标准化比对输出为准），内容经去终端提示/标准化CRLF/去末尾空白后与Windows知识库参考版相同；不是仅凭文件名判断。原流程：支持ascii/binary PCD，排除非有限点；stats_only在写文件前return；默认原始Z截取0.10～1.80m，resolution0.05，margin0.5；整图np.full(...,254)，命中0，occupied_dilation1格，border3格，PGM/YAML写出free_thresh0.25。无地面拟合、无未知空间估计、无扫描匹配/回环。原始Z不等于离地高度；本次个人图历史地面约Z-0.686且有倾斜，不能直接照抄其默认正Z段。
+- 已明确说明该脚本默认无未知格，不能直接作为满足原方案未知保留要求的导航图；不以涂白/膨胀让图显干净当质量验证，未执行或改其主函数。下一步仅在ToDesk空闲Ubuntu终端sed读取车端pcd_to_2d_occupancy_denoise.py前240行，等实际源码确认其过滤和输入假设。自编候选仍搁置，车不动，原图和TXT不改；无新运行/转换回执。
+- 用户附件801e9423-da55-4c9e-949b-0ac3f8b42eaf完整回传denoise版190行，与本地参考标准化源码一致。默认min_hits2、min_component_size8（8连通）、occupied_radius0；主流程不筛Z，直接把全部输入XY投影后过滤，剩余全254白；原完整PCD若不预先筛地面/高度，地面等也会参与障碍计数。尚无其实际历史调用实参，不认定生成过lab_odom_06。更正前条map版标准化行数为185行（不是186）。
+- 依据用户允许的现成代码离线评估，在Windows只调用原样remove_small_components(occ,8)和dilate_occ(occ,0)，输入为既存0.10～1.50m地面相对高度、5cm格的obstacle_count，未运行转换main或改动参数搜索。该输入单格最大48946次，无uint16溢出，本结论仅针对这一切片证据，不保证完整原图计数。命中阈值后21887格，连通滤波后21507格，相比未过滤24731格去除3224格（13.036%）。被去掉的占用格仅转205未知，原地面支持候选自由格完全相同；没有把移除障碍涂成自由。
+- 新增仅离线诊断图outputs/hunter_pcd_to_2d_20261029/reference_denoise_review/reference_denoise_comparison.png及comparison_report.json，未生成PGM/YAML；源脚本、原候选PGM与栅格证据的哈希/mtime前后相同，报告重读/路径/计数核验通过。图已view_image目视：零散块减少，墙边和桌区粗厚/多层轮廓无明显整体改善，不将删格都称噪声或称质量已修好。Python首次stdout中文路径显示编码错乱，UTF8报告文件和真实路径经-X utf8重读确认正确，是显示编码，不是源文件损坏。
+- 当前把两份已确认脚本的能力边界和对照展示给用户，建议按主要目标选择：继续现有PCD离线适配/评估，或先准备师兄SLAM Toolbox二维建图路线。任何新增采集/行驶仍须另行获准，不把路线选择变成移动授权；用户此前暂不移动约束保持。未改TXT、未传车、未切换地图，不把此对照冒充完整原脚本输出或原生ROS/实车验收。
+- 用户进一步询问能否不转2D直接用3D点云地图，以及FAST-LIVO2建图后一般下一步做什么；这不是同意重采二维图或切换到全三维导航。此次以概念/接口核对回应：区分三维地图定位、三维障碍观测与完整三维路径规划；保存PCD不等于重启后在旧图重定位已具备。当前已验证方案仍是AMCL/2D栅格/Smac-RPP，不能只换PCD文件名就用。
+- 已核官方FAST-LIVO2 README定位建图/三维重建范围、Humble AMCL地图订阅OccupancyGrid、VoxelLayer对3D观测markVoxelInMap后写二维costmap、Smac Hybrid为SE2(X,Y,theta)而非XYZ自由空间规划，及Open3D ICP初值/点云配准文档。可考虑保留三维PCD作定位参考、再用二维/2.5D可通行表达接地面导航；三维图与规划地图须有真实一致坐标关系，不能只共用frame名或重复发布map→odom。
+- 只读本地历史三维定位脚本：scancontext_icp_initialpose声明map_pcd/实时cloud并发initialpose；local_icp_shadow_corrector只发/local_icp_shadow/proposed_pose；scancontext_icp_map_odom_corrector有TransformBroadcaster和map→odom周期发布。仅历史副本接口线索，尚未验证车端现存版本、输入假设、依赖或实际定位效果，不能统称已可用的完整3D定位栈，也不能未检查就与AMCL并跑发布同段TF。
+- 本次不执行新建图、三维定位脚本、TF发布或运动，不再生成地图，不改TXT。建议下一有价值的静态探查是成熟旧图重定位能力，再由用户选择定位/规划组合；不擅自把概念咨询变成新实施路线。

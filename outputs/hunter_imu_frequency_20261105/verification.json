@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "date": "2026-11-05",
+  "car_topic_reception_hz_visible_range": [
+    99.981,
+    100.009
+  ],
+  "car_screenshot_sha256": "bbb6beed24b922b9712e464156a644b6117424297709e14e4f5be58ca59d6abc",
+  "scene_rate_before_hz": 50,
+  "scene_rate_after_hz": 100,
+  "scene_before_sha256": "0c4f63f0f531a636767073bd89a7dd3271184dfa32d393d254e2939a85d32385",
+  "scene_after_sha256": "6277c17fd91103286ef0f03dc4ea12123446883855d3d388800c46903a7504e4",
+  "scene_only_rate_changed": true,
+  "gui_unchanged": true,
+  "entry_sealed_files": 14,
+  "sealed_files_changed": [
+    "sim/tools/check_hunter_full_scene.py"
+  ],
+  "static_trial": "outputs/hunter_research_platform_20261031/sensor_trials/568b77c51860/check.json",
+  "static_imu": {
+    "count": 100,
+    "first_stamp_ns": 2000000,
+    "stamp_ns": 990000000,
+    "frame": "hz_sim/full/imu_link",
+    "rate_sim_hz": 100.20242914979757,
+    "rate_wall_hz": 13.806414798028438,
+    "min_interval_sim_ns": 8000000,
+    "max_interval_sim_ns": 10000000,
+    "acceleration_m_s2": [
+      0.7000000000001241,
+      1.1999999999999276,
+      9.81
+    ],
+    "angular_velocity_rad_s": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "offline_tests": {
+    "ran": 63,
+    "passed": 61,
+    "skipped": 2
+  },
+  "hardware_driver_started_by_desktop_test": false,
+  "physical_movement_commands_sent": false,
+  "dynamic_mapping_verified": false,
+  "imu_only_static_comparison": {
+    "report": "outputs/hunter_imu_frequency_20261105/imu_only_trials/5f7b6c605ee1/check.json",
+    "samples": 301,
+    "rate_sim_hz": 100.0667111407605,
+    "rate_wall_hz": 100.01938572400122,
+    "realtime_factor": 0.9995270613351857,
+    "no_camera_or_lidar": true,
+    "full_ros_sensor_pipeline_enabled": false
+  }
+}

@@ -1,0 +1,4 @@
+已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / NVIDIA。
+{"world": "hz_hunter_control", "command_topic": "/hz_sim/cmd_vel", "odom_topic": "/hz_sim/odom", "tf_topic": "/hz_sim/tf", "minimum_turning_radius_m": 1.669156096106059, "maximum_inner_steering_rad": 0.44394872512048306, "maximum_rear_wheel_speed_rad_s": 2.1476896462891375, "ros_bridge": false, "hardware_driver": false, "gui_render_engine": "ogre"}
+记录：/home/aphelios/hz_sim_ws/reports/straight_20261014_133421_c28a9b84/check.json
+直行测试前检查通过：世界暂停、运行场景与个人控制配置一致；未发送速度。

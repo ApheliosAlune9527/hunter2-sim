@@ -1,0 +1,94 @@
+--- /opt/ros/humble/share/nav2_bringup/launch/bringup_launch.py
++++ /home/car/hz_nav_ws/launch/bringup_launch.py
+@@ -32,6 +32,7 @@
+     # Get the launch directory
+     bringup_dir = get_package_share_directory('nav2_bringup')
+     launch_dir = os.path.join(bringup_dir, 'launch')
++    personal_launch_dir = os.path.dirname(os.path.abspath(__file__))
+ 
+     # Create the launch configuration variables
+     namespace = LaunchConfiguration('namespace')
+@@ -51,8 +52,8 @@
+     # https://github.com/ros/robot_state_publisher/pull/30
+     # TODO(orduno) Substitute with `PushNodeRemapping`
+     #              https://github.com/ros2/launch_ros/issues/56
+-    remappings = [('/tf', 'tf'),
+-                  ('/tf_static', 'tf_static')]
++    remappings = [('/tf', '/tf'),
++                  ('/tf_static', '/tf_static')]
+ 
+     # Create our own temporary YAML files that include substitutions
+     param_substitutions = {
+@@ -81,12 +82,12 @@
+ 
+     declare_namespace_cmd = DeclareLaunchArgument(
+         'namespace',
+-        default_value='',
++        default_value='hz_nav',
+         description='Top-level namespace')
+ 
+     declare_use_namespace_cmd = DeclareLaunchArgument(
+         'use_namespace',
+-        default_value='false',
++        default_value='true',
+         description='Whether to apply a namespace to the navigation stack')
+ 
+     declare_slam_cmd = DeclareLaunchArgument(
+@@ -105,11 +106,11 @@
+ 
+     declare_params_file_cmd = DeclareLaunchArgument(
+         'params_file',
+-        default_value=os.path.join(bringup_dir, 'params', 'nav2_params.yaml'),
++        default_value=os.path.join(os.path.dirname(personal_launch_dir), 'config', 'nav2_params.yaml'),
+         description='Full path to the ROS2 parameters file to use for all launched nodes')
+ 
+     declare_autostart_cmd = DeclareLaunchArgument(
+-        'autostart', default_value='true',
++        'autostart', default_value='false',
+         description='Automatically startup the nav2 stack')
+ 
+     declare_use_composition_cmd = DeclareLaunchArgument(
+@@ -150,7 +151,7 @@
+                               'params_file': params_file}.items()),
+ 
+         IncludeLaunchDescription(
+-            PythonLaunchDescriptionSource(os.path.join(launch_dir,
++            PythonLaunchDescriptionSource(os.path.join(personal_launch_dir,
+                                                        'localization_launch.py')),
+             condition=IfCondition(PythonExpression(['not ', slam])),
+             launch_arguments={'namespace': namespace,
+@@ -163,7 +164,7 @@
+                               'container_name': 'nav2_container'}.items()),
+ 
+         IncludeLaunchDescription(
+-            PythonLaunchDescriptionSource(os.path.join(launch_dir, 'navigation_launch.py')),
++            PythonLaunchDescriptionSource(os.path.join(personal_launch_dir, 'navigation_launch.py')),
+             launch_arguments={'namespace': namespace,
+                               'use_sim_time': use_sim_time,
+                               'autostart': autostart,
+--- /opt/ros/humble/share/nav2_bringup/launch/localization_launch.py
++++ /home/car/hz_nav_ws/launch/localization_launch.py
+@@ -49,8 +49,8 @@
+     # https://github.com/ros/robot_state_publisher/pull/30
+     # TODO(orduno) Substitute with `PushNodeRemapping`
+     #              https://github.com/ros2/launch_ros/issues/56
+-    remappings = [('/tf', 'tf'),
+-                  ('/tf_static', 'tf_static')]
++    remappings = [('/tf', '/tf'),
++                  ('/tf_static', '/tf_static')]
+ 
+     # Create our own temporary YAML files that include substitutions
+     param_substitutions = {
+--- /opt/ros/humble/share/nav2_bringup/launch/navigation_launch.py
++++ /home/car/hz_nav_ws/launch/navigation_launch.py
+@@ -54,8 +54,8 @@
+     # https://github.com/ros/robot_state_publisher/pull/30
+     # TODO(orduno) Substitute with `PushNodeRemapping`
+     #              https://github.com/ros2/launch_ros/issues/56
+-    remappings = [('/tf', 'tf'),
+-                  ('/tf_static', 'tf_static')]
++    remappings = [('/tf', '/tf'),
++                  ('/tf_static', '/tf_static')]
+ 
+     # Create our own temporary YAML files that include substitutions
+     param_substitutions = {

@@ -1,0 +1,184 @@
+{
+  "completed_at": "2026-10-31T20:06:18.136940+08:00",
+  "target_windows_root": "D:\\rob-memory",
+  "target_linux_root": "/mnt/d/rob-memory",
+  "backup": "D:\\rob-memory\\outputs\\hunter_desktop_restore_20261031\\before_d_drive_adaptation",
+  "changes": [
+    {
+      "path": "sim/tools/start_hunter_full_scene.ps1",
+      "before_sha256": "070ec17f5437c1558f1c564bccfb5cb8cb1323e5bff9b0d11fd1fe8c692be7ce",
+      "after_sha256": "b244d49a810c2dd1050524d2e2c478a88975157d0af305abcf1641341e2e9446"
+    },
+    {
+      "path": "sim/tools/start_hunter_full_scene.bash",
+      "before_sha256": "ab1b38966b571b428610f59a54970257f8fd636063a39d543d5dc45337acb508",
+      "after_sha256": "6a9d7d112d31d43fd1dcad4b093f24972229e3e8fd7111cf79fb50dda8ee9d14"
+    },
+    {
+      "path": "sim/tools/start_control_scene_logged.bash",
+      "before_sha256": "c659f9b1a0ddaaeb0c393d8a579e54a3e16807fe8a94aa4a2d1a23bf9635e676",
+      "after_sha256": "b3539752723db030543682dd166ffb9506dc1527638ea3dea4f49886737e412e"
+    },
+    {
+      "path": "sim/tools/full_scene_session.py",
+      "before_sha256": "9ccaf17f1b9ee13fc10b9e82b1b415c71911fc8b51a0c751e6ad9d19f1dcaaf5",
+      "after_sha256": "52b0d812c4a8fb25ed2b3fe962469a43a007b759875b0c0e8f5e703fdf7fc93a"
+    },
+    {
+      "path": "sim/tools/check_full_entry.py",
+      "before_sha256": "ec06d3ed83cf0ea9c051dfb4af2c7d5a67a813247a5e045c180eb1dd9ebd3dfb",
+      "after_sha256": "c35b46eb2136dcc592f9587cd1b955b49289a8b8c39c7d4cc032c6003f2629f2"
+    },
+    {
+      "path": "sim/tools/check_hunter_full_scene.py",
+      "before_sha256": "b98c5c8e0841f313520f5b0dffdc334a31758083e6e639070a9d26034cff1b51",
+      "after_sha256": "2f71eeed46e488ea3e08b311c0feca98e412842cbed06e4dd034a7c5c394e6a2"
+    },
+    {
+      "path": "sim/launch/hunter_full_ros.launch.py",
+      "before_sha256": "bc4d2dad9bc0dd5a147b637be0684c0cfe4a4a7133e8b3f76913c944c40eeafe",
+      "after_sha256": "2bd5ef0b0ea0027a8798d827f52735c0e014636595678c09e50d0a6910b84587"
+    },
+    {
+      "path": "sim/tools/test_hunter_full_scene.py",
+      "before_sha256": "cde8315c186dc1a64e72149bf984669e61babc6031da30d9d84e33919cb02eee",
+      "after_sha256": "733ee16ada97ea269d3cd1f258ad7bca77f9abf17b7f586bd5724c3becf0f13e"
+    },
+    {
+      "path": "sim/tools/test_full_entry.py",
+      "before_sha256": "987a6b5ba4d5b9d69281c739a905894f8f6090842cfc75dd998e226d7a628a77",
+      "after_sha256": "735b2c141d3871243ff691050e0953404de47c46547981410bda4c4aa1c3f2bb"
+    },
+    {
+      "path": "wsl/hz_sim_env.bash",
+      "before_sha256": "5f93f17e8b39ab66f017fe8f5468a014ac59bd2b0f1fa845b965d675b9c8a314",
+      "after_sha256": "9e4fa2b7b9bfa734c7e717fa3dfd67a9721993324465ebb0b3f5eb08db4da56e"
+    },
+    {
+      "path": "sim/README.md",
+      "before_sha256": "228b7380a5e7b50e635b4c4f07183a7857a77cad3e9845d107dc83d653985c62",
+      "after_sha256": "0b836134c8697c631521993630db34c74d01d0439a0aa1fb1e63c58e64499e9e"
+    },
+    {
+      "path": "sim/tools/check_ros_isolation.py",
+      "before_sha256": "f2b03e04dff47b293894e43302ce317f7962afba40e09e4d6c34aeff58f7a4f3",
+      "after_sha256": "a41b90c3e36661b7207152e28adc66b41a1d5db1070340cea1af51bd4dc181d4"
+    },
+    {
+      "path": "sim/scenes/hz_hunter_full.sdf",
+      "before_sha256": "4ab489805f894679f413664e3d9175d752bb9be3eb813da30c8985eb80562c63",
+      "after_sha256": "0c4f63f0f531a636767073bd89a7dd3271184dfa32d393d254e2939a85d32385"
+    },
+    {
+      "path": "sim/scenes/hz_hunter_full_manifest.json",
+      "before_sha256": "71e062bb17337f15df09252adc2f7cdbe1272ecc3da5bb9da14ec1d7aa896d26",
+      "after_sha256": "a1e1ceb018c9644fc40a49bc22499b10665814a62e22c87eef7d1d6a97e7f1de"
+    },
+    {
+      "path": "sim/tools/hunter_full_entry_manifest.json",
+      "before_sha256": "be3899bd7d19f388879767eeb073b928061a8504794472869f0d2d6cd7cf95aa",
+      "after_sha256": "9021836a3158886252f5230985f58326577555270920772633c3c5fa63ec99af"
+    },
+    {
+      "path": "sim/tools/build_hunter_full_scene.py",
+      "before_sha256": "53cc207c0e1b95e6387f5500217e939d0910c0bcd2545d3f8ac7ed03cff6c746",
+      "after_sha256": "5143e492cbe464d93b7ed450408180e8433ad5244dba1d63fd33b4aa1b49cae8"
+    }
+  ],
+  "strict_scene_check": {
+    "status": "PASS",
+    "world": "hz_hunter_full",
+    "model": "hz_hunter_full",
+    "physical_links": 7,
+    "active_joints": 6,
+    "visual_meshes": 12,
+    "total_mass_kg": 75.87700000000001,
+    "world_plugins": 5,
+    "model_plugins": 2,
+    "sensors": [
+      "camera",
+      "imu",
+      "lidar"
+    ],
+    "sensor_poses_from_base_link": {
+      "lidar": [
+        0.539,
+        0.0,
+        0.525,
+        0.0,
+        -0.0,
+        1.570796326795
+      ],
+      "camera": [
+        0.6439999999999985,
+        0.015000000000010857,
+        0.47500000000000003,
+        0.0,
+        -4.8965888601467475e-12,
+        3.102575454202261e-13
+      ],
+      "imu": [
+        0.5390000000000114,
+        -0.11,
+        0.463,
+        0.0,
+        -0.0,
+        1.570796326795
+      ]
+    },
+    "command_topic": "/hz_sim/full/cmd_vel",
+    "joint_states_topic": "/hz_sim/full/joint_states",
+    "gui_render_engine": "ogre",
+    "gui_start_paused": true,
+    "runtime_verified": false,
+    "ros_bridge": false,
+    "hardware_driver": false,
+    "concerns": [
+      "Mass, collision proxies and mounting transforms retain uncalibrated engineering assumptions.",
+      "This offline gate does not establish runtime sensor, ROS, or GUI behavior."
+    ],
+    "sha256": {
+      "scene": "0c4f63f0f531a636767073bd89a7dd3271184dfa32d393d254e2939a85d32385",
+      "gui": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc",
+      "manifest": "a1e1ceb018c9644fc40a49bc22499b10665814a62e22c87eef7d1d6a97e7f1de",
+      "inputs": {
+        "converted_sdf": "03daabfd6c89a683e1fa6b77e0f5bd18f9d24beb59766d1a9976d9f9d5de2ed0",
+        "conversion_urdf": "5fb7fa1ef8c8cc280d0824198f6f1ced8d858b41a1d8c4ef9333903ef1c5ab0e",
+        "urdf": "24f4f2c7bd46e3e39b61d4b25d58ff12853f1623821c0927607bd7f6059fcea2",
+        "source_manifest": "b97a3803569e25544e772852b74df4b5f6e95d71076fd3aec8525a0c9eb1ed6b",
+        "geometry_report": "78f0ab3f006b43bf9f8a6dda47cb815ab50efe9b037882123bfc5cbc11f77be1",
+        "camera_source": "790333f3aa749400429f27d0fa0838662dc8c65e5ad6e64b96dfa9de8d183daf",
+        "mapping_source": "bd5a59683e9ed914fab81af13af0306a75ab13d5091ce2e3465dad5fea93cb9e",
+        "source_vio": "5786aeca9a26c796953430d471d5428279a5590c084b07dc945647aa88048911",
+        "source_livmapper": "1bbdae25fde516032de59371364960481f569fa67f21ab16fb7d6d07034409f8",
+        "source_ch104": "abcb19913c42d5133913b72754b2515f9740223a1726af6840c8651fc7f9ed52"
+      }
+    }
+  },
+  "entry_seal": {
+    "sealed_files": 14,
+    "sealed_paths": [
+      "sim/tools/start_hunter_full_scene.ps1",
+      "sim/tools/start_hunter_full_scene.bash",
+      "sim/tools/start_control_scene_logged.ps1",
+      "sim/tools/start_control_scene_logged.bash",
+      "sim/tools/full_scene_session.py",
+      "sim/tools/check_full_entry.py",
+      "sim/tools/seal_full_entry.py",
+      "sim/tools/check_ros_isolation.py",
+      "sim/tools/check_hunter_full_scene.py",
+      "sim/tools/hunter_sensor_profile.py",
+      "sim/tools/check_full_ros_interfaces.py",
+      "sim/launch/hunter_full_ros.launch.py",
+      "sim/config/hunter_full_bridge.yaml",
+      "wsl/hz_sim_env.bash"
+    ]
+  },
+  "model_source_files_unchanged": 19,
+  "scene_semantics_unchanged_except_mesh_paths": true,
+  "wsl_renderer_verified": true,
+  "runtime_verified": false,
+  "motion_commands_sent": false,
+  "scene_generator_uses_binary_output_for_cross_platform_byte_stability": true,
+  "updated_at": "2026-10-31T20:16:24.718874+08:00"
+}

@@ -1,0 +1,146 @@
+{
+  "checked_at": "2026-10-19T12:42:44.325511+08:00",
+  "local_artifact": "F:\\rob-memory\\outputs\\hz_nav_preparation_20261018\\02_localization.launch.py",
+  "car_destination": "/home/car/hz_nav_ws/launch/02_localization.launch.py",
+  "sha256": "c0168408024f21923aaecb0dc54cb9d81f9dcc4c45836cd51c97e0ea257a4eb8",
+  "bytes": 2758,
+  "reference_nav2_sha256": "a349a980fc2b2315b6a564804b045b05c5ebec8d36dcf2d651baa3fd99e3e0b6",
+  "amcl_candidate_parameter_count": 40,
+  "static_checks": {
+    "python_syntax": "pass",
+    "reference_amcl_yaml_round_trip": "pass",
+    "required_amcl_fields_match_reference_adaptation": "pass",
+    "exact_two_localization_nodes": [
+      {
+        "package": "nav2_amcl",
+        "executable": "amcl",
+        "namespace": "/hz_nav",
+        "name": "amcl",
+        "output": "screen"
+      },
+      {
+        "package": "nav2_lifecycle_manager",
+        "executable": "lifecycle_manager",
+        "namespace": "/hz_nav",
+        "name": "lifecycle_manager_localization",
+        "output": "screen"
+      }
+    ],
+    "lifecycle_managed_nodes": [
+      "amcl"
+    ],
+    "autostart_default": false,
+    "autostart_launch_value_type": "bool",
+    "tf_remapping": "none; existing global /tf and /tf_static retained",
+    "map_server": "not started or managed; existing active node reused",
+    "imports": [
+      "pathlib",
+      "launch",
+      "launch.actions",
+      "launch.substitutions",
+      "launch_ros.actions",
+      "launch_ros.parameter_descriptions",
+      "yaml"
+    ]
+  },
+  "car_evidence": {
+    "amcl_yaml": "All 40 reference-adapted parameter fields match actual unconfigured AMCL parameter dump.",
+    "executables": [
+      "nav2_amcl amcl",
+      "nav2_lifecycle_manager lifecycle_manager"
+    ],
+    "show_args": {
+      "reported_on": "2026-10-19",
+      "status": "pass",
+      "argument": "autostart",
+      "default": "false",
+      "note": "User supplied ROS Humble --show-args output; no car hash or node startup output in this reply."
+    },
+    "sha256": {
+      "value": "c0168408024f21923aaecb0dc54cb9d81f9dcc4c45836cd51c97e0ea257a4eb8",
+      "matches_local_artifact": true,
+      "reported_on": "2026-10-19"
+    },
+    "startup": {
+      "reported_on": "2026-10-19",
+      "autostart": false,
+      "launch_log_dir": "/home/car/hz_nav_ws/logs/2026-10-19-12-47-43-157735-car-NUC15JNKU7X4-913577",
+      "launch_pid": 913577,
+      "amcl_pid": 913596,
+      "lifecycle_manager_pid": 913598,
+      "observations": [
+        "AMCL Creating and waiting for external lifecycle transitions",
+        "Lifecycle manager Creating and initializing lifecycle service clients",
+        "No errors in supplied startup excerpt"
+      ]
+    },
+    "lifecycle": {
+      "reported_on": "2026-10-19",
+      "transition": "configure",
+      "transition_result": "Transitioning successful",
+      "state": "inactive",
+      "id": 2
+    },
+    "parameter_dump": {
+      "snapshot": "F:\\rob-memory\\outputs\\hz_nav_preparation_20261018\\amcl_unconfigured_20261019.yaml",
+      "reference_adapted_fields_checked": 40,
+      "all_reference_adapted_fields_match": true,
+      "runtime_extra_top_level_fields": [
+        "/bond_disable_heartbeat_timeout",
+        "always_reset_initial_pose",
+        "first_map_only",
+        "initial_pose"
+      ],
+      "note": "Reconstructed exactly from user-provided parameter output; snapshot is not a new car configuration."
+    },
+    "previous_lifecycle": {
+      "reported_on": "2026-10-19",
+      "state": "unconfigured",
+      "id": 1
+    }
+  },
+  "runtime_status": "Map received; map_server active and AMCL inactive. Latest discovery shows ten unique node names with no chassis node. Six-second TF probe reports odom frame absent throughout. Missing odom is a confirmed AMCL scan-processing prerequisite gap; separate cache-time warning cause remains unproven. No activation or motion validation.",
+  "latest_session_review": {
+    "reported_on": "2026-10-19",
+    "screenshot": "C:/Users/Aphelios/AppData/Local/Temp/codex-clipboard-b08e21d0-7a50-4315-b94e-f844cebe3d0f.png",
+    "creating_time": "2026-10-19T19:00:22.909+08:00",
+    "configure_time": "2026-10-19T19:00:38.737+08:00",
+    "map_received_time": "2026-10-19T19:00:38.753+08:00",
+    "lifecycle_manager_pid": 1193259,
+    "amcl_pid": null,
+    "launch_log_dir": null,
+    "states": {"map_server": "active [3]", "amcl": "inactive [2]"},
+    "map_received": {"width": 287, "height": 469, "resolution_m": 0.05},
+    "filter_messages": ["queue full", "message timestamp earlier than transform cache"],
+    "cause": "Latest TF probe confirms odom frame absent; current discovery has no chassis node. This blocks scan transformation. Full explanation of the cache-time warning is still unproven.",
+    "latest_node_inventory": [
+      "/hz_nav/amcl",
+      "/hz_nav/hesai_ros_driver_node",
+      "/hz_nav/lifecycle_manager_localization",
+      "/hz_nav/map_server",
+      "/hz_nav/robot_state_publisher",
+      "/hz_nav/rviz",
+      "/hz_nav/transform_listener_impl_59357b219f60",
+      "/hz_nav/transform_listener_impl_5dd947fe85b0",
+      "/hz_nav/transform_listener_impl_62690535e650",
+      "/hz_nav/xt32_to_scan"
+    ],
+    "odom_tf_probe": {
+      "duration_seconds": 6,
+      "target": "odom",
+      "source": "base_link",
+      "result": "odom frame does not exist; no transform values received",
+      "first_log_stamp": 1792407836.100999132
+    }
+  },
+  "limitations": "No ROS runtime is installed in this Windows validation environment; static checks do not prove ROS launch/runtime, odometry, localization or motion readiness.",
+  "updated_at": "2026-10-19T13:17:48.674385+08:00",
+  "rviz_log_review": {
+    "times_local": {
+      "glsl": "2026-10-19T10:45:49.642+08:00",
+      "scan_qos": "2026-10-19T11:00:46.984+08:00"
+    },
+    "assessment": "Both log entries predate AMCL startup; scan QoS warning predates later screenshots with LaserScan OK and 10Hz. Current GUI status not freshly supplied.",
+    "action": "Do not change drivers or publisher QoS; if current scan stops updating, inspect LaserScan actual QoS/status. Existing historical log messages persist."
+  }
+}

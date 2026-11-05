@@ -1,0 +1,33 @@
+{
+  "offline_rebuild_identical": true,
+  "files_compared": 19,
+  "upstream_sha256_verified": 11,
+  "local_sha256_verified": 10,
+  "urdf_sha256": "2010c1874b0c2bf1b35696394b4f90f8c7488f3eaade649d7cda19fb196310fe",
+  "manifest_sha256": "ed25683ac9c8acbf42222476afe89cf9fa6f4be984ade673f3dd40563b6fd7f8",
+  "build_summary": {
+    "urdf": "F:\\rob-memory\\sim\\hz_hunter_full_description\\urdf\\hunter_full.urdf",
+    "links": 19,
+    "moving_joints": 6,
+    "bare_chassis_bounds_m": {
+      "min": [
+        -0.1641340815224328,
+        -0.37328311787379714,
+        -0.1640987479558067
+      ],
+      "max": [
+        0.81410481184721,
+        0.37328318108184755,
+        0.212580000923872
+      ],
+      "size": [
+        0.9782388933696428,
+        0.7465662989556447,
+        0.37667874887967867
+      ]
+    },
+    "total_mass_kg": 75.877,
+    "output_files": 18
+  },
+  "scope": "Windows Python data processing only; no ROS/Gazebo/WSL/hardware or physics advancement"
+}

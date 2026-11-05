@@ -1,0 +1,145 @@
+{
+  "map": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\lab_odom_06_new.pgm",
+  "origin": [
+    -5.09,
+    -4.89,
+    0.0
+  ],
+  "min_clearance_m": 1.2,
+  "candidates": [
+    {
+      "label": "T1.2",
+      "row": 375,
+      "col": 100,
+      "x_m": -0.065,
+      "y_m": -0.415,
+      "clearance_m": 1.2
+    },
+    {
+      "label": "T1.0",
+      "row": 382,
+      "col": 97,
+      "x_m": -0.215,
+      "y_m": -0.765,
+      "clearance_m": 1.0
+    },
+    {
+      "label": "T0.8",
+      "row": 399,
+      "col": 79,
+      "x_m": -1.115,
+      "y_m": -1.615,
+      "clearance_m": 0.8
+    },
+    {
+      "label": "T0.6",
+      "row": 425,
+      "col": 16,
+      "x_m": -4.265,
+      "y_m": -2.915,
+      "clearance_m": 0.6
+    }
+  ],
+  "free_space_profile": [
+    {
+      "y_m": -3.0,
+      "free_x_min_m": -4.86,
+      "free_x_max_m": -3.06
+    },
+    {
+      "y_m": -2.75,
+      "free_x_min_m": -4.76,
+      "free_x_max_m": -2.76
+    },
+    {
+      "y_m": -2.5,
+      "free_x_min_m": -4.81,
+      "free_x_max_m": -2.46
+    },
+    {
+      "y_m": -2.25,
+      "free_x_min_m": -4.81,
+      "free_x_max_m": 5.39
+    },
+    {
+      "y_m": -2.0,
+      "free_x_min_m": -4.31,
+      "free_x_max_m": 5.34
+    },
+    {
+      "y_m": -1.75,
+      "free_x_min_m": -3.66,
+      "free_x_max_m": 4.84
+    },
+    {
+      "y_m": -1.5,
+      "free_x_min_m": -3.06,
+      "free_x_max_m": 6.18
+    },
+    {
+      "y_m": -1.25,
+      "free_x_min_m": -2.36,
+      "free_x_max_m": 5.68
+    },
+    {
+      "y_m": -1.0,
+      "free_x_min_m": -1.66,
+      "free_x_max_m": 5.94
+    },
+    {
+      "y_m": -0.75,
+      "free_x_min_m": -1.16,
+      "free_x_max_m": 5.68
+    },
+    {
+      "y_m": -0.5,
+      "free_x_min_m": -1.21,
+      "free_x_max_m": 5.68
+    },
+    {
+      "y_m": -0.25,
+      "free_x_min_m": -1.51,
+      "free_x_max_m": 4.99
+    },
+    {
+      "y_m": 0.0,
+      "free_x_min_m": -1.66,
+      "free_x_max_m": 4.94
+    },
+    {
+      "y_m": 0.25,
+      "free_x_min_m": -0.76,
+      "free_x_max_m": 6.59
+    },
+    {
+      "y_m": 0.5,
+      "free_x_min_m": -0.76,
+      "free_x_max_m": 6.59
+    },
+    {
+      "y_m": 0.75,
+      "free_x_min_m": -0.76,
+      "free_x_max_m": 6.64
+    },
+    {
+      "y_m": 1.0,
+      "free_x_min_m": -0.66,
+      "free_x_max_m": 6.74
+    },
+    {
+      "y_m": 1.25,
+      "free_x_min_m": -1.31,
+      "free_x_max_m": 5.59
+    },
+    {
+      "y_m": 1.5,
+      "free_x_min_m": -0.76,
+      "free_x_max_m": 6.28
+    },
+    {
+      "y_m": 1.75,
+      "free_x_min_m": -0.92,
+      "free_x_max_m": 6.09
+    }
+  ]
+}

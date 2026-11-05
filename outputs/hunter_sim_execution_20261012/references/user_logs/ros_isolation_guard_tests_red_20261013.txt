@@ -1,0 +1,37 @@
+FFFF
+======================================================================
+FAIL: test_accepts_the_personal_local_environment (__main__.IsolationChecks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/f/rob-memory/sim/tools/test_check_ros_isolation.py", line 18, in setUp
+    self.fail("The isolation checker has not been implemented")
+AssertionError: The isolation checker has not been implemented
+
+======================================================================
+FAIL: test_refuses_unsafe_or_foreign_environments_before_ros (__main__.IsolationChecks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/f/rob-memory/sim/tools/test_check_ros_isolation.py", line 18, in setUp
+    self.fail("The isolation checker has not been implemented")
+AssertionError: The isolation checker has not been implemented
+
+======================================================================
+FAIL: test_rejects_missing_or_nonlocal_selection_evidence (__main__.IsolationChecks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/f/rob-memory/sim/tools/test_check_ros_isolation.py", line 18, in setUp
+    self.fail("The isolation checker has not been implemented")
+AssertionError: The isolation checker has not been implemented
+
+======================================================================
+FAIL: test_uses_selected_addresses_not_enumerated_interfaces (__main__.IsolationChecks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/f/rob-memory/sim/tools/test_check_ros_isolation.py", line 18, in setUp
+    self.fail("The isolation checker has not been implemented")
+AssertionError: The isolation checker has not been implemented
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.020s
+
+FAILED (failures=4)

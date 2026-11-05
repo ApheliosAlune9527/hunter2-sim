@@ -1,0 +1,173 @@
+{
+  "source_reference_sha256": {
+    "nav2_params.yaml": "a349a980fc2b2315b6a564804b045b05c5ebec8d36dcf2d651baa3fd99e3e0b6",
+    "navigate_no_spin.xml": "940b2123a8cd8a67832c4bec495470cd49b14daab4456b0fa9c48906124039f8",
+    "navigate_through_poses_no_spin.xml": "a5a457746c1b225dfeb7371ca39157cf18b2e8c4216c3b5e609a958b66c5963d"
+  },
+  "source_kind": "Hash-matched current reference; historical September runtime parameters remain unproven.",
+  "car_config_dir": "/home/car/hz_nav_ws/config/",
+  "node_selectors": [
+    "/hz_nav/bt_navigator",
+    "/hz_nav/bt_navigator_navigate_through_poses_rclcpp_node",
+    "/hz_nav/bt_navigator_navigate_to_pose_rclcpp_node",
+    "/hz_nav/controller_server",
+    "/hz_nav/local_costmap/local_costmap",
+    "/hz_nav/global_costmap/global_costmap",
+    "/hz_nav/planner_server",
+    "/hz_nav/smoother_server",
+    "/hz_nav/behavior_server",
+    "/hz_nav/waypoint_follower",
+    "/hz_nav/velocity_smoother"
+  ],
+  "excluded_already_separate_nodes": [
+    "amcl",
+    "map_saver",
+    "map_server",
+    "robot_state_publisher"
+  ],
+  "changes": [
+    {
+      "node": "/hz_nav/bt_navigator",
+      "parameter": "use_sim_time",
+      "value": false
+    },
+    {
+      "node": "/hz_nav/bt_navigator",
+      "parameter": "default_nav_to_pose_bt_xml",
+      "value": "/home/car/hz_nav_ws/config/navigate_no_spin.xml"
+    },
+    {
+      "node": "/hz_nav/bt_navigator",
+      "parameter": "default_nav_through_poses_bt_xml",
+      "value": "/home/car/hz_nav_ws/config/navigate_through_poses_no_spin.xml"
+    },
+    {
+      "node": "/hz_nav/bt_navigator_navigate_through_poses_rclcpp_node",
+      "parameter": "use_sim_time",
+      "value": false
+    },
+    {
+      "node": "/hz_nav/bt_navigator_navigate_through_poses_rclcpp_node",
+      "parameter": "default_nav_to_pose_bt_xml",
+      "value": "/home/car/hz_nav_ws/config/navigate_no_spin.xml"
+    },
+    {
+      "node": "/hz_nav/bt_navigator_navigate_through_poses_rclcpp_node",
+      "parameter": "default_nav_through_poses_bt_xml",
+      "value": "/home/car/hz_nav_ws/config/navigate_through_poses_no_spin.xml"
+    },
+    {
+      "node": "/hz_nav/bt_navigator_navigate_to_pose_rclcpp_node",
+      "parameter": "use_sim_time",
+      "value": false
+    },
+    {
+      "node": "/hz_nav/bt_navigator_navigate_to_pose_rclcpp_node",
+      "parameter": "default_nav_to_pose_bt_xml",
+      "value": "/home/car/hz_nav_ws/config/navigate_no_spin.xml"
+    },
+    {
+      "node": "/hz_nav/bt_navigator_navigate_to_pose_rclcpp_node",
+      "parameter": "default_nav_through_poses_bt_xml",
+      "value": "/home/car/hz_nav_ws/config/navigate_through_poses_no_spin.xml"
+    },
+    {
+      "node": "/hz_nav/controller_server",
+      "parameter": "use_sim_time",
+      "value": false
+    },
+    {
+      "node": "/hz_nav/local_costmap/local_costmap",
+      "parameter": "use_sim_time",
+      "value": false
+    },
+    {
+      "node": "/hz_nav/global_costmap/global_costmap",
+      "parameter": "use_sim_time",
+      "value": false
+    },
+    {
+      "node": "/hz_nav/planner_server",
+      "parameter": "use_sim_time",
+      "value": false
+    },
+    {
+      "node": "/hz_nav/smoother_server",
+      "parameter": "use_sim_time",
+      "value": false
+    },
+    {
+      "node": "/hz_nav/behavior_server",
+      "parameter": "use_sim_time",
+      "value": false
+    },
+    {
+      "node": "/hz_nav/waypoint_follower",
+      "parameter": "use_sim_time",
+      "value": false
+    },
+    {
+      "node": "/hz_nav/velocity_smoother",
+      "parameter": "use_sim_time",
+      "value": false
+    },
+    {
+      "node": "/hz_nav/bt_navigator",
+      "parameter": "odom_topic",
+      "value": "/hz_nav/odom"
+    },
+    {
+      "node": "/hz_nav/velocity_smoother",
+      "parameter": "odom_topic",
+      "value": "/hz_nav/odom"
+    },
+    {
+      "node": "/hz_nav/local_costmap/local_costmap",
+      "parameter": "voxel_layer.scan.topic",
+      "value": "/hz_nav/scan"
+    },
+    {
+      "node": "/hz_nav/global_costmap/global_costmap",
+      "parameter": "obstacle_layer.scan.topic",
+      "value": "/hz_nav/scan"
+    },
+    {
+      "node": "/hz_nav/local_costmap/local_costmap",
+      "parameter": "static_layer.map_topic",
+      "value": "/hz_nav/map"
+    },
+    {
+      "node": "/hz_nav/global_costmap/global_costmap",
+      "parameter": "static_layer.map_topic",
+      "value": "/hz_nav/map"
+    }
+  ],
+  "planner_and_controller_tuning": "Preserved exactly apart from listed wiring/time changes.",
+  "behavior_trees": "Byte-identical reference copies; no Spin, but each contains BackUp 0.30 m at 0.05 m/s.",
+  "retained_values_requiring_onsite_evaluation": {
+    "desired_linear_vel": 0.25,
+    "planner_allow_unknown": true
+  },
+  "artifacts": {
+    "nav2.yaml": {
+      "sha256": "9b1435e49c9aebed6fefd23588fe43fe28aa3be7a0c808a1d513ca6ed37e2139",
+      "bytes": 10179
+    },
+    "navigate_no_spin.xml": {
+      "sha256": "940b2123a8cd8a67832c4bec495470cd49b14daab4456b0fa9c48906124039f8",
+      "bytes": 1733
+    },
+    "navigate_through_poses_no_spin.xml": {
+      "sha256": "a5a457746c1b225dfeb7371ca39157cf18b2e8c4216c3b5e609a958b66c5963d",
+      "bytes": 1875
+    }
+  },
+  "static_validation": "YAML round trip, namespace selection, exact difference whitelist, original hashes and XML structure all pass.",
+  "car_transfer_evidence": {
+    "reported_on": "2026-10-19",
+    "method": "User supplied sha256sum output for all three personal configuration files",
+    "all_three_hashes_match": true
+  },
+  "runtime_status": "All three configuration files transferred to car with matching SHA256. No Nav2 node has loaded them yet. Navigation launch entry 04 is prepared locally, but its car parsing, startup and endpoint routing remain pending.",
+  "human_status": "Remote with nobody onsite; no chassis enable or real navigation commands authorized for this stage."
+}

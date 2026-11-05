@@ -1,0 +1,98 @@
+{
+  "entry_seal": {
+    "sealed_files": 13,
+    "sealed_paths": [
+      "sim/tools/start_hunter_full_scene.ps1",
+      "sim/tools/start_hunter_full_scene.bash",
+      "sim/tools/start_control_scene_logged.ps1",
+      "sim/tools/start_control_scene_logged.bash",
+      "sim/tools/full_scene_session.py",
+      "sim/tools/check_full_entry.py",
+      "sim/tools/seal_full_entry.py",
+      "sim/tools/check_ros_isolation.py",
+      "sim/tools/check_hunter_full_scene.py",
+      "sim/tools/check_full_ros_interfaces.py",
+      "sim/launch/hunter_full_ros.launch.py",
+      "sim/config/hunter_full_bridge.yaml",
+      "wsl/hz_sim_env.bash"
+    ]
+  },
+  "scene": {
+    "status": "PASS",
+    "world": "hz_hunter_full",
+    "model": "hz_hunter_full",
+    "physical_links": 7,
+    "active_joints": 6,
+    "visual_meshes": 12,
+    "total_mass_kg": 75.87700000000001,
+    "world_plugins": 5,
+    "model_plugins": 2,
+    "sensors": [
+      "camera",
+      "imu",
+      "lidar"
+    ],
+    "sensor_poses_from_base_link": {
+      "lidar": [
+        0.539,
+        0.0,
+        0.525,
+        0.0,
+        -0.0,
+        1.570796326795
+      ],
+      "camera": [
+        0.6576500000000001,
+        0.0175,
+        0.48100000000000004,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "imu": [
+        0.6459100000000001,
+        0.011980000000000001,
+        0.48610000000000003,
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "command_topic": "/hz_sim/full/cmd_vel",
+    "joint_states_topic": "/hz_sim/full/joint_states",
+    "gui_render_engine": "ogre",
+    "gui_start_paused": true,
+    "runtime_verified": false,
+    "ros_bridge": false,
+    "hardware_driver": false,
+    "concerns": [
+      "Mass, collision proxies and mounting transforms retain uncalibrated engineering assumptions.",
+      "This offline gate does not establish runtime sensor, ROS, or GUI behavior."
+    ],
+    "sha256": {
+      "scene": "c280d908e20224eea0a52ba9b2d4116fe9c484c8df05c502d1bd113ea9aaa991",
+      "gui": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc",
+      "manifest": "9e1947afb3409a1e293b7e2192d5d8bf506d2980209e594773e8641f0fbe8c89",
+      "inputs": {
+        "converted_sdf": "84ac4ef56988c8bedef64bb49c5b37ee8ebe0920104747773e60142856d44734",
+        "conversion_urdf": "b77e8cff67c4deb3105e4dcb00a731f618f859b2be95455f67b28ea0aa5511d7",
+        "urdf": "2010c1874b0c2bf1b35696394b4f90f8c7488f3eaade649d7cda19fb196310fe",
+        "source_manifest": "ed25683ac9c8acbf42222476afe89cf9fa6f4be984ade673f3dd40563b6fd7f8",
+        "geometry_report": "a0f973a6dd0dc88d288863c3aa45592c0dea88ea783e54730e07af5be5cf0e5d"
+      }
+    }
+  },
+  "interfaces": {
+    "bridge_count": 9,
+    "direction": "GZ_TO_ROS",
+    "actuation_bridge": false
+  },
+  "windows_offline_tests": 24,
+  "windows_offline_failures": 0,
+  "wsl_ros_gazebo_started_by_this_agent": false,
+  "legacy_sha256": {
+    "start_control_scene_logged.bash": "f5c4e226e6efd68992849aecb03841615132b3aacfca3ee093f1e995459a16f3",
+    "start_control_scene_logged.ps1": "75967caec931ec5ebdc2e574f291a1d1a9755b2b3671a1094b1a7c1d64020c97"
+  },
+  "entry_manifest_sha256": "dd4eec6f9e9d3299ab7c40fba3c46e9b77d58d7e2a412d5da40ff11418052840"
+}

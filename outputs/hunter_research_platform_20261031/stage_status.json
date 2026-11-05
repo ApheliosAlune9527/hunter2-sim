@@ -1,0 +1,53 @@
+{
+  "current_stage": 3,
+  "updated_at": "2026-11-05",
+  "imu_verification": {
+    "car_topic": "/imu/data",
+    "car_received_rate_hz_approx": 100,
+    "simulation_config_rate_hz": 100,
+    "simulation_static_rate_sim_hz": 100.20242914979757,
+    "simulation_static_rate_wall_hz": 13.806414798028438,
+    "imu_only_static_realtime_factor": 0.9995270613351857,
+    "dynamic_mapping_verified": false,
+    "evidence": "../hunter_imu_frequency_20261105/README.md"
+  },
+  "map_choice": {
+    "source": "lab_20261011_155236_369289",
+    "confirmed_by_user": true
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "status": "restored_and_verified"
+    },
+    {
+      "stage": 2,
+      "status": "initial_component_and_short_motion_checks_passed",
+      "long_duration_and_dynamic_ros_mapping_verified": false
+    },
+    {
+      "stage": 3,
+      "status": "collision_candidate_and_static_vehicle_placement_checked",
+      "navigation_ready": false
+    },
+    {
+      "stage": 4,
+      "status": "not_implemented"
+    },
+    {
+      "stage": 5,
+      "status": "not_started"
+    },
+    {
+      "stage": 6,
+      "status": "future_scope_not_decided"
+    }
+  ],
+  "hardware_motion_authorized": false,
+  "next_work": [
+    "Assess full-sensor simulation speed and dynamic timing",
+    "Refine laboratory geometry and confirm whether a better point cloud is available",
+    "Validate direction-constrained vehicle reachability and repeatable resets",
+    "Build repeatable localization/navigation tasks before reinforcement learning"
+  ]
+}

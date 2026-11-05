@@ -1,0 +1,13 @@
+car@car-NUC15JNKU7X4:~/桌面$ ros2 topic info /camera/camera/color/image_raw
+Type: sensor_msgs/msg/Image
+Publisher count: 1
+Subscription count: 0
+car@car-NUC15JNKU7X4:~/桌面$ ros2 topic hz /camera/camera/color/image_raw
+average rate: 15.003
+	min: 0.065s max: 0.068s std dev: 0.00105s window: 16
+average rate: 14.991
+	min: 0.064s max: 0.069s std dev: 0.00129s window: 31
+average rate: 14.999
+	min: 0.064s max: 0.069s std dev: 0.00119s window: 47
+average rate: 14.998
+	min: 0.064s max: 0.069s std dev: 0.00111s window: 62

@@ -1,0 +1,22 @@
+{
+  "user_observation": "都正常",
+  "screenshot": "F:\\rob-memory\\outputs\\hunter_sim_execution_20261012\\references\\gazebo_reopened_paused_f456b636_20261015.png",
+  "screenshot_sha256": "10B85D9CF862F60DACBC503ADB880CD9AE4109E72BBC87B610A140B3FE6F8A2B",
+  "preflight_report": "/home/aphelios/hz_sim_ws/reports/straight_20261015_162446_603146c6/check.json",
+  "mode": "check",
+  "preflight_passed": true,
+  "paused": true,
+  "sim_time": {
+    "sec": "0",
+    "nsec": 0
+  },
+  "velocity_publishers": 0,
+  "velocity_published": false,
+  "current_server_uuid": "2438db64-4996-4b54-a87a-1ac158a0e4b9",
+  "previous_failed_server_uuid": "aa5daf82-4808-444f-819e-0d55173ddc2b",
+  "fresh_server": true,
+  "actual_renderer": "D3D12 (NVIDIA GeForce RTX 3050 Laptop GPU)",
+  "ready_for_authorized_visible_straight": true,
+  "previous_interruption_cause": "unconfirmed",
+  "movement_executed_this_turn": false
+}

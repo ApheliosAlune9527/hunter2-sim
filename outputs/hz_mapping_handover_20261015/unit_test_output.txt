@@ -1,0 +1,49 @@
+test_changed_existing_helper_refuses_install (test_installer.InstallTests.test_changed_existing_helper_refuses_install) ... ok
+test_corrupt_member_is_rejected (test_installer.InstallTests.test_corrupt_member_is_rejected) ... ok
+test_different_existing_file_is_never_overwritten (test_installer.InstallTests.test_different_existing_file_is_never_overwritten) ... ok
+test_hash_mismatch_does_not_create_target (test_installer.InstallTests.test_hash_mismatch_does_not_create_target) ... ok
+test_identical_install_is_verified_without_rewrite (test_installer.InstallTests.test_identical_install_is_verified_without_rewrite) ... ok
+test_installs_only_new_directory_and_keeps_originals (test_installer.InstallTests.test_installs_only_new_directory_and_keeps_originals) ... ok
+test_parent_traversal_is_rejected_before_any_write (test_installer.InstallTests.test_parent_traversal_is_rejected_before_any_write) ... ok
+test_root_symlink_is_rejected (test_installer.InstallTests.test_root_symlink_is_rejected) ... ok
+test_target_symlink_is_rejected (test_installer.InstallTests.test_target_symlink_is_rejected) ... ok
+test_unlisted_payload_is_rejected (test_installer.InstallTests.test_unlisted_payload_is_rejected) ... ok
+test_zip_symlink_is_rejected (test_installer.InstallTests.test_zip_symlink_is_rejected) ... ok
+test_failed_child_is_reported_and_restart_marker_is_preserved (test_launch_adapter.AdapterTests.test_failed_child_is_reported_and_restart_marker_is_preserved) ... hz_ws | mapping | 前台运行
+本轮日志：C:\Users\Aphelios\AppData\Local\Temp\hz_adapter_test_fxtau5mp\mapping.log
+本轮仅允许启动一次；结束采集请在检查终端运行 role:=stop。
+ok
+test_omitting_role_defaults_to_read_only_status (test_launch_adapter.AdapterTests.test_omitting_role_defaults_to_read_only_status) ... ok
+test_stdout_stderr_are_copied_while_screen_output_is_enabled (test_launch_adapter.AdapterTests.test_stdout_stderr_are_copied_while_screen_output_is_enabled) ... hz_ws | mapping | 前台运行
+本轮日志：C:\Users\Aphelios\AppData\Local\Temp\hz_adapter_test__7jf49bt\mapping.log
+本轮仅允许启动一次；结束采集请在检查终端运行 role:=stop。
+ok
+test_camera_refuses_orphan_child (test_support.WorkspaceTests.test_camera_refuses_orphan_child) ... ok
+test_current_round_is_read_without_changing_state (test_support.WorkspaceTests.test_current_round_is_read_without_changing_state) ... ok
+test_driver_arguments_keep_existing_process_recognition (test_support.WorkspaceTests.test_driver_arguments_keep_existing_process_recognition) ... ok
+test_exclusive_log_allows_exactly_one_starter (test_support.WorkspaceTests.test_exclusive_log_allows_exactly_one_starter) ... ok
+test_existing_stop_tool_recognizes_all_launched_node_commands (test_support.WorkspaceTests.test_existing_stop_tool_recognizes_all_launched_node_commands) ... ok
+test_launch_file_exists_as_native_ros_entry (test_support.WorkspaceTests.test_launch_file_exists_as_native_ros_entry) ... ok
+test_log_appends_stdout_and_stderr_bytes_immediately (test_support.WorkspaceTests.test_log_appends_stdout_and_stderr_bytes_immediately) ... ok
+test_log_symlink_cannot_modify_an_existing_file (test_support.WorkspaceTests.test_log_symlink_cannot_modify_an_existing_file) ... ok
+test_management_uses_original_helpers (test_support.WorkspaceTests.test_management_uses_original_helpers) ... ok
+test_mapping_refuses_disabled_saving (test_support.WorkspaceTests.test_mapping_refuses_disabled_saving) ... ok
+test_mapping_refuses_duplicate_process (test_support.WorkspaceTests.test_mapping_refuses_duplicate_process) ... ok
+test_mapping_refuses_existing_log_even_if_empty (test_support.WorkspaceTests.test_mapping_refuses_existing_log_even_if_empty) ... ok
+test_mapping_refuses_negative_interval (test_support.WorkspaceTests.test_mapping_refuses_negative_interval) ... ok
+test_mapping_refuses_old_clouds_without_touching_them (test_support.WorkspaceTests.test_mapping_refuses_old_clouds_without_touching_them) ... ok
+test_mapping_refuses_topic_mismatch (test_support.WorkspaceTests.test_mapping_refuses_topic_mismatch) ... ok
+test_mapping_requires_all_three_sensor_processes (test_support.WorkspaceTests.test_mapping_requires_all_three_sensor_processes) ... ok
+test_mapping_uses_personal_binary_and_round_params_without_edits (test_support.WorkspaceTests.test_mapping_uses_personal_binary_and_round_params_without_edits) ... ok
+test_merge_does_not_realign_or_overwrite_existing_map (test_support.WorkspaceTests.test_merge_does_not_realign_or_overwrite_existing_map) ... ok
+test_merge_refuses_active_mapping (test_support.WorkspaceTests.test_merge_refuses_active_mapping) ... ok
+test_output_link_must_match_current_round (test_support.WorkspaceTests.test_output_link_must_match_current_round) ... ok
+test_prepare_refuses_live_personal_processes (test_support.WorkspaceTests.test_prepare_refuses_live_personal_processes) ... ok
+test_state_cannot_point_outside_personal_maps (test_support.WorkspaceTests.test_state_cannot_point_outside_personal_maps) ... ok
+test_state_symlink_cannot_escape_personal_maps (test_support.WorkspaceTests.test_state_symlink_cannot_escape_personal_maps) ... ok
+test_unknown_role_is_rejected (test_support.WorkspaceTests.test_unknown_role_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 1.183s
+
+OK

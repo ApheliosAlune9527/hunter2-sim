@@ -1,0 +1,54 @@
+来源：用户在本聊天逐步执行车端命令后回传的输出摘录。
+整理日期：2026-10-18（Asia/Shanghai）。
+本文件省略重复命令与粘贴显示乱码，不是车端原始日志下载件。
+
+一、修正前（用户于 2026-10-16 回传）
+节点：/hz_nav/map_server
+地图配置：/home/car/hz_nav_ws/maps/lab_odom_06.yaml
+free_thresh: 0.25
+实际订阅 /hz_nav/map 的计数：
+unknown: 0 free: 129291 occupied: 5312 total: 134603
+
+二、个人导航 YAML 差异（用户于 2026-10-16 回传）
+原始副本：/home/car/hz_nav_ws/maps/lab_odom_06.yaml
+导航副本：/home/car/hz_nav_ws/maps/lab_odom_06_nav.yaml
+diff -u 显示的唯一内容差异：
+-free_thresh: 0.25
++free_thresh: 0.196
+两个文件均无末尾换行；独占创建尝试因目标已存在而报 FileExistsError，没有覆盖。
+
+三、恢复检查（用户于 2026-10-18 回传）
+相关 ROS/机器人进程关键词筛查无输出。
+导航 YAML 内容：
+image: lab_odom_06.pgm
+mode: trinary
+resolution: 0.05
+origin: [-1.31, -15.4, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
+四、configure 输出（用户于 2026-10-18 回传）
+Transitioning successful
+终端一对应日志摘录：
+[INFO] [1792295784.280455098] [map_io]: Loading yaml file: /home/car/hz_nav_ws/maps/lab_odom_06_nav.yaml
+[INFO] [1792295784.280729624] [map_io]: resolution: 0.05
+[INFO] [1792295784.280736289] [map_io]: origin[0]: -1.31
+[INFO] [1792295784.280741130] [map_io]: origin[1]: -15.4
+[INFO] [1792295784.280745134] [map_io]: origin[2]: 0
+[INFO] [1792295784.280749702] [map_io]: free_thresh: 0.196
+[INFO] [1792295784.280753863] [map_io]: occupied_thresh: 0.65
+[INFO] [1792295784.280759282] [map_io]: mode: trinary
+[INFO] [1792295784.280764045] [map_io]: negate: 0
+[INFO] [1792295784.291392348] [map_io]: Loading image_file: /home/car/hz_nav_ws/maps/lab_odom_06.pgm
+[INFO] [1792295784.297768121] [map_io]: Read map /home/car/hz_nav_ws/maps/lab_odom_06.pgm: 287 X 469 map @ 0.05 m/cell
+
+五、activate 与分类验收（用户于 2026-10-18 回传）
+Transitioning successful
+实际订阅 /hz_nav/map 的计数：
+unknown: 81413 free: 47878 occupied: 5312 total: 134603
+订阅类型：nav_msgs/msg/OccupancyGrid；可靠性 RELIABLE，持久性 TRANSIENT_LOCAL。
+
+六、边界
+以上证明个人导航 YAML 已加载且消息分类符合本图预期。
+没有据此声称已完成定位、规划或实车导航；没有启动底盘或下发运动命令。
