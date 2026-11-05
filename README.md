@@ -23,3 +23,15 @@
 - **每次上车验证**：先 push，再 `git tag -a v<x.y>-robot-ok`，并记一行 [docs/validation-log.md](docs/validation-log.md)
 
 换行统一为 LF（见 `.gitattributes`），Windows 上的 `core.autocrlf=true` 不会污染 Linux 侧脚本。
+
+## 提交前体积闸门（`.githooks/pre-commit`）
+
+git 不会同步 `.git/hooks`，所以钩子**不会自动生效**——每台机器克隆后执行一次：
+
+```bash
+git config core.hooksPath .githooks
+```
+
+规则：单文件 **>5 MB 拒绝提交**，>1 MB 只警告；`*.vhdx / *.vdi / *.vmdk / *.iso` 不论大小一律拒绝。
+阈值可用 `HOOK_MAX_BYTES` / `HOOK_WARN_BYTES` 覆盖，确需强行提交用 `git commit --no-verify`。
+

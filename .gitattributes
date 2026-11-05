@@ -28,3 +28,13 @@
 *.docx  binary
 *.so    binary
 *.pyc   binary
+
+# ROS / 视觉 / 打包产物（体积闸门见 .githooks/pre-commit）
+*.bag   binary
+*.db3   binary
+*.mcap  binary
+*.7z    binary
+*.tar   binary
+*.iso   binary
+*.mp4   binary
+*.onnx  binary

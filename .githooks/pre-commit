@@ -1,0 +1,76 @@
+#!/bin/sh
+# pre-commit：拦截过大的暂存文件
+#
+# 默认规则：
+#   > 5 MB  → 拒绝提交
+#   > 1 MB  → 警告（放行，但提示）
+#   扩展名 vhdx / vdi / vmdk / iso → 一律拒绝（这类文件不可能是 5 MB 以内）
+#
+# 阈值可用环境变量覆盖：HOOK_MAX_BYTES / HOOK_WARN_BYTES
+# 确有需要时绕过：git commit --no-verify  或  ALLOW_LARGE_FILES=1 git commit -m "..."
+#
+# 安装（每台机器克隆后执行一次）：
+#   git config core.hooksPath .githooks
+
+set -u
+
+LIMIT=${HOOK_MAX_BYTES:-5242880}
+WARN=${HOOK_WARN_BYTES:-1048576}
+
+if [ -n "${ALLOW_LARGE_FILES:-}" ]; then
+  echo "pre-commit: ALLOW_LARGE_FILES 已设置，跳过体积检查"
+  exit 0
+fi
+
+list=$(mktemp) || exit 0
+trap 'rm -f "$list"' EXIT INT TERM
+
+# 只检查已暂存的 blob；用暂存区里的 blob 哈希取真实体积（不是工作区文件大小）
+git ls-files -s | awk -F'\t' '{ split($1, a, " "); print a[2] "|" $2 }' > "$list"
+
+fail=0
+while IFS='|' read -r sha path; do
+  [ -n "$sha" ] || continue
+  size=$(git cat-file -s "$sha" 2>/dev/null) || size=0
+  if [ "$size" -gt "$LIMIT" ]; then
+    fail=1
+    human=$(awk -v s="$size" 'BEGIN { printf "%.2f", s / 1048576 }')
+    echo "  FAIL  $path  ${human} MB  (上限 5 MB)"
+  elif [ "$size" -gt "$WARN" ]; then
+    human=$(awk -v s="$size" 'BEGIN { printf "%d", s / 1024 }')
+    echo "  WARN  $path  ${human} KB  (接近上限，确认它真的该入库)"
+  fi
+done < "$list"
+
+# 虚拟磁盘镜像：不管多大都拦
+blocked=$(git ls-files -s | awk -F'\t' '{ print $2 }' | grep -Ei '\.(vhdx|vdi|vmdk|iso)$' || true)
+if [ -n "$blocked" ]; then
+  fail=1
+  echo "  FAIL  以下虚拟磁盘/镜像文件不允许入库："
+  echo "$blocked" | sed 's/^/        /'
+fi
+
+if [ "$fail" -ne 0 ]; then
+  cat <<'EOT'
+
+pre-commit: 有文件超过大小限制，提交已阻止。
+
+  这些通常是点云、数据集、构建产物、虚拟磁盘 —— 它们属于"磁盘上保留、不入库"。
+
+  1) 补 .gitignore（推荐，源头解决）：
+         echo "maps/" >> .gitignore
+
+  2) 已经从暂存区加进去了，先移出来：
+         git restore --staged <文件>
+
+  3) 确实要入库且 >5 MB：先用 git lfs（GitHub 免费额度仅 1 GB 存储 + 1 GB/月流量，
+     点云很容易吃满，谨慎）
+
+  4) 确认无误、就是要强行提交：
+         git commit --no-verify
+
+EOT
+  exit 1
+fi
+
+exit 0
