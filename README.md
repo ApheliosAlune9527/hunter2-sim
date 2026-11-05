@@ -10,3 +10,16 @@
 当前项目路径为 `D:\rob-memory`，WSL 路径为 `/mnt/d/rob-memory`，Ubuntu 用户为 `aphelios`。已完成恢复、基础虚拟运动与传感器子测试，并确认采用个人 `155236` 地图制作实验室场景候选。完整实验室导航基线和强化学习尚未验收。
 
 实车运动必须由用户明确下令，并在执行前提醒并等待授权；小车共用工作区只读。
+
+## 跨机器同步（GitHub 作为中转）
+
+版本库只含**代码 / 配置 / 文档 / 小型证据**（约 18 MB）；
+点云、WSL 虚拟磁盘、历史知识库、构建缓存全部由 `.gitignore` 排除，留在这台机器上。
+磁盘上的 13 GB 仍然是完整工作区，不进 git 不等于删除。
+
+- **台式机（仿真调试）**：`git pull --rebase` → 改 → commit → `git push`
+- **笔记本（实验室）**：开工前 `git pull --rebase`；联调通过后把参数改动提交上去
+- **小车（实车验证）**：从笔记本 `rsync`，或车端有网时直接 `git pull`；只读部署
+- **每次上车验证**：先 push，再 `git tag -a v<x.y>-robot-ok`，并记一行 [docs/validation-log.md](docs/validation-log.md)
+
+换行统一为 LF（见 `.gitattributes`），Windows 上的 `core.autocrlf=true` 不会污染 Linux 侧脚本。
