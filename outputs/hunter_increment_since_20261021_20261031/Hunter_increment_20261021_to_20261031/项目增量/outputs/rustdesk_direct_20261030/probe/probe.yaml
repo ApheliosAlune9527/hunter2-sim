@@ -1,0 +1,6 @@
+mode: rule
+mixed-port: 0
+find-process-mode: strict
+rules:
+  - PROCESS-NAME,RustDesk.exe,DIRECT
+  - MATCH,GLOBAL

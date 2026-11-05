@@ -1,0 +1,79 @@
+{
+  "ok": true,
+  "world": "hz_hunter_full",
+  "validation": {
+    "status": "PASS",
+    "world": "hz_hunter_full",
+    "model": "hz_hunter_full",
+    "physical_links": 7,
+    "active_joints": 6,
+    "visual_meshes": 12,
+    "total_mass_kg": 75.87700000000001,
+    "world_plugins": 5,
+    "model_plugins": 2,
+    "sensors": [
+      "camera",
+      "imu",
+      "lidar"
+    ],
+    "sensor_poses_from_base_link": {
+      "lidar": [
+        0.539,
+        0.0,
+        0.525,
+        0.0,
+        -0.0,
+        1.570796326795
+      ],
+      "camera": [
+        0.6576500000000001,
+        0.0175,
+        0.48100000000000004,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "imu": [
+        0.6459100000000001,
+        0.011980000000000001,
+        0.48610000000000003,
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "command_topic": "/hz_sim/full/cmd_vel",
+    "joint_states_topic": "/hz_sim/full/joint_states",
+    "gui_render_engine": "ogre",
+    "gui_start_paused": true,
+    "runtime_verified": false,
+    "ros_bridge": false,
+    "hardware_driver": false,
+    "concerns": [
+      "Mass, collision proxies and mounting transforms retain uncalibrated engineering assumptions.",
+      "This offline gate does not establish runtime sensor, ROS, or GUI behavior."
+    ],
+    "sha256": {
+      "scene": "c280d908e20224eea0a52ba9b2d4116fe9c484c8df05c502d1bd113ea9aaa991",
+      "gui": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc",
+      "manifest": "9e1947afb3409a1e293b7e2192d5d8bf506d2980209e594773e8641f0fbe8c89",
+      "inputs": {
+        "converted_sdf": "84ac4ef56988c8bedef64bb49c5b37ee8ebe0920104747773e60142856d44734",
+        "conversion_urdf": "b77e8cff67c4deb3105e4dcb00a731f618f859b2be95455f67b28ea0aa5511d7",
+        "urdf": "2010c1874b0c2bf1b35696394b4f90f8c7488f3eaade649d7cda19fb196310fe",
+        "source_manifest": "ed25683ac9c8acbf42222476afe89cf9fa6f4be984ade673f3dd40563b6fd7f8",
+        "geometry_report": "a0f973a6dd0dc88d288863c3aa45592c0dea88ea783e54730e07af5be5cf0e5d"
+      }
+    }
+  },
+  "physics_play_requested": false,
+  "velocity_published": false,
+  "partition": "hz_sim_aphelios_73_full_preview_e431bbcda444",
+  "report_directory": "/mnt/f/rob-memory/outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444",
+  "paused": true,
+  "sim_time_ns": 0,
+  "screenshot": "/mnt/f/rob-memory/outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/render.png",
+  "screenshot_request_exit_code": 0,
+  "alive_at_check_end": true,
+  "owned_test_process_closed": true
+}

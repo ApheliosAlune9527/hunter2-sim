@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "baseline_archive_sha256": "d38c199fd1e5442eac2dcd707bd8eadb45d4b50fce2273e7ab2b21a89e0ce734",
+  "baseline_manifest_matches_archive": true,
+  "archive": "F:\\rob-memory\\outputs\\hunter_increment_since_20261021_20261031\\Hunter_增量_20261021至20261031.zip",
+  "archive_bytes": 81197609,
+  "archive_sha256": "2778323963823f4a34439e81a00aa154d889f58a63498cd769800ce6ce85aa75",
+  "verified_zip_files": 471,
+  "project_delta_files": 464,
+  "project_delta_bytes": 175848701,
+  "added_files": 450,
+  "changed_files": 14,
+  "unchanged_project_files": 11720,
+  "baseline_missing_files_recorded_without_delete": 0,
+  "wsl_virtual_disk_included": false,
+  "new_codex_database_included": false,
+  "requires_oct28_package": false,
+  "source_files_modified_by_packager": false,
+  "desktop_restore_executed": false,
+  "robot_commands_sent": false,
+  "completed_at": "2026-10-31T19:41:46+08:00"
+}

@@ -1,0 +1,624 @@
+{
+  "format": "hz_sim_handover_snapshot_v1",
+  "generated_at_local": "2026-10-31T19:29:08+08:00",
+  "source_root": "F:/rob-memory",
+  "destination_compared": false,
+  "scope_note": "Source-side snapshot only; no claim that desktop is missing these files; excludes WSL system and unlisted files.",
+  "groups": {
+    "simulation_project": [
+      {
+        "relative_path": "sim/README.md",
+        "bytes": 4618,
+        "sha256": "228b7380a5e7b50e635b4c4f07183a7857a77cad3e9845d107dc83d653985c62"
+      },
+      {
+        "relative_path": "sim/config/hunter_full_bridge.yaml",
+        "bytes": 2762,
+        "sha256": "921e4a113c5fedb09c968d75017831641977bc94ff46897b2fb8cbe0af74955c"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/CMakeLists.txt",
+        "bytes": 312,
+        "sha256": "d654680916c21d6f0b505188793a35f45f0ffa4bcd5b0c262cdca566432c8584"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/README.md",
+        "bytes": 3667,
+        "sha256": "f14a0ca8b2392e8f100bc0fd948ade0775cd64d850794353833469ddb6b2123d"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/SOURCE_NOTICE.md",
+        "bytes": 1627,
+        "sha256": "101805254e3f45e942651dc9aa5c36990a1c6be66a342288ee978a5ed951fd90"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/geometry_report.json",
+        "bytes": 30119,
+        "sha256": "78f0ab3f006b43bf9f8a6dda47cb815ab50efe9b037882123bfc5cbc11f77be1"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/meshes/chassis/base_link.stl",
+        "bytes": 6452284,
+        "sha256": "f1d21d0a1d52a9f1e42b91f2a5ee847e0bad71afdf4cc60749cdf92c78042638"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/meshes/chassis/front_left_wheel_link.stl",
+        "bytes": 1823584,
+        "sha256": "c0e938b3140b755e49350222f5c38375fa99ea6c5f4c3384f4cfbbc3181c22d5"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/meshes/chassis/front_right_wheel_link.stl",
+        "bytes": 985784,
+        "sha256": "6b92e06f9db14cbed62379e3619b017787b603df2a26e31e14ed3c2032d89d3d"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/meshes/chassis/front_steer_bar_link.stl",
+        "bytes": 99284,
+        "sha256": "89d0eb127ba67ed0876873080f04da1c1a587747d097de78322bcc7e7a5773d0"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/meshes/chassis/rear_axle_detail_link.stl",
+        "bytes": 156084,
+        "sha256": "cb4c7aaeeb77056d2cd8f903cb480ad594d0e1550a3066f0b1b4459e7a5d8fd6"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/meshes/chassis/rear_left_wheel_link.stl",
+        "bytes": 1465484,
+        "sha256": "6c912207b50d48a1b5b74bb68c0be696cdf6a6e0f227deb949aac27c74c40f85"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/meshes/chassis/rear_right_wheel_link.stl",
+        "bytes": 1834384,
+        "sha256": "d06fd72a84df26f205a657cc3f560563312677591b4d81add0b961a78f6cbe70"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/meshes/upfit/ARS548.STL",
+        "bytes": 51739584,
+        "sha256": "5350178d525c3f57828c1f820c572136ba1efcbbfe36ba01c00486727bdd8597"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/meshes/upfit/G60.STL",
+        "bytes": 190684,
+        "sha256": "08adf459e9c2a79f2247169886aab8559e1632f22177db764635602d8105fb12"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/meshes/upfit/XT32.STL",
+        "bytes": 1536384,
+        "sha256": "8fd7cf0485509c97ca499ab0c7a3aaef5e43242b836cbd23395451577d06b64f"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/meshes/upfit/assembly.STL",
+        "bytes": 3911284,
+        "sha256": "ddd0fe5993af16aa1ee67845aca76170d21ef31e3fcce5fafed98458aa67f34c"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/meshes/upfit/d435.dae",
+        "bytes": 15782439,
+        "sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/package.xml",
+        "bytes": 520,
+        "sha256": "ee8d5fc820bfa2c91ba1b35481b8e2fb7444c3b43b1f133ed4b3fac6063dbc08"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/source_manifest.json",
+        "bytes": 14511,
+        "sha256": "b97a3803569e25544e772852b74df4b5f6e95d71076fd3aec8525a0c9eb1ed6b"
+      },
+      {
+        "relative_path": "sim/hz_hunter_full_description/urdf/hunter_full.urdf",
+        "bytes": 16876,
+        "sha256": "24f4f2c7bd46e3e39b61d4b25d58ff12853f1623821c0927607bd7f6059fcea2"
+      },
+      {
+        "relative_path": "sim/hz_hunter_sim/CMakeLists.txt",
+        "bytes": 301,
+        "sha256": "1e43de217a3de5498aca2222d063f49ec1392d4e4e848f560b20b48babf12b1e"
+      },
+      {
+        "relative_path": "sim/hz_hunter_sim/README.md",
+        "bytes": 3910,
+        "sha256": "dad83427715251be06791a25e7c663528cab95a4b8f56083eb4e19c6ab4e735a"
+      },
+      {
+        "relative_path": "sim/hz_hunter_sim/package.xml",
+        "bytes": 483,
+        "sha256": "e38eedee6ca83c2d77ddf8b6747d7b6d14c4a0148facfaa9b82e0afa2d171068"
+      },
+      {
+        "relative_path": "sim/hz_hunter_sim/urdf/hunter_core.urdf.xacro",
+        "bytes": 4916,
+        "sha256": "7cb6dce62daaee86e4c38c0c91094632bd1ed70a9c1e64ff6951c8f65fd0f658"
+      },
+      {
+        "relative_path": "sim/launch/hunter_full_ros.launch.py",
+        "bytes": 1778,
+        "sha256": "bc4d2dad9bc0dd5a147b637be0684c0cfe4a4a7133e8b3f76913c944c40eeafe"
+      },
+      {
+        "relative_path": "sim/reference_packages/README.md",
+        "bytes": 1626,
+        "sha256": "586c649db5c019db73cf4afb10b6c107e79516df9d9309399ca0898328c17127"
+      },
+      {
+        "relative_path": "sim/reference_packages/hunter_description/CMakeLists.txt",
+        "bytes": 262,
+        "sha256": "5fd75373da6af0d7ddbd24e7093c50f8dae258ed79612c5c1e1b1eef0c39ca29"
+      },
+      {
+        "relative_path": "sim/reference_packages/hunter_description/package.xml",
+        "bytes": 508,
+        "sha256": "2b558c754055d1e4903508c2c9e7566deba082b3405aa66db4e868609021c498"
+      },
+      {
+        "relative_path": "sim/reference_packages/realsense2_description/CMakeLists.txt",
+        "bytes": 265,
+        "sha256": "d8fddef6db40940579f9cbda12f73b826fd8e068417aad6c65be4727670ad2ac"
+      },
+      {
+        "relative_path": "sim/reference_packages/realsense2_description/package.xml",
+        "bytes": 501,
+        "sha256": "5f80f3592735499c50742790ce5c2568b8ec2d15a1760917a664b445f490e66b"
+      },
+      {
+        "relative_path": "sim/scenes/README.md",
+        "bytes": 6802,
+        "sha256": "ac6fa83c739eafbca1fe2d075dd6eb83ed5bb289ad83520e0c41efe18a44fd1b"
+      },
+      {
+        "relative_path": "sim/scenes/hz_hunter_control.sdf",
+        "bytes": 14145,
+        "sha256": "be042dff84dedb0ed126020493a774cc518b32b2ea1d602248bccdc22a28e752"
+      },
+      {
+        "relative_path": "sim/scenes/hz_hunter_control.sha256",
+        "bytes": 241,
+        "sha256": "2c83354d472374ea5468b359f7e4066581ed00ebda1616f208b0ecad40ad7bd4"
+      },
+      {
+        "relative_path": "sim/scenes/hz_hunter_control_gui.config",
+        "bytes": 9331,
+        "sha256": "b8e27e41feda64aa38f8cbe8db8bc9f497207f4a704b7b54fc97d0cab6fa6a30"
+      },
+      {
+        "relative_path": "sim/scenes/hz_hunter_full.sdf",
+        "bytes": 29717,
+        "sha256": "4ab489805f894679f413664e3d9175d752bb9be3eb813da30c8985eb80562c63"
+      },
+      {
+        "relative_path": "sim/scenes/hz_hunter_full_gui.config",
+        "bytes": 4507,
+        "sha256": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc"
+      },
+      {
+        "relative_path": "sim/scenes/hz_hunter_full_manifest.json",
+        "bytes": 6929,
+        "sha256": "71e062bb17337f15df09252adc2f7cdbe1272ecc3da5bb9da14ec1d7aa896d26"
+      },
+      {
+        "relative_path": "sim/scenes/hz_hunter_preview.sdf",
+        "bytes": 12972,
+        "sha256": "6f1c39a576bd8160a6b703edcce5a55e701aa09128a7b0a504b4a223f7460265"
+      },
+      {
+        "relative_path": "sim/scenes/hz_hunter_preview.sha256",
+        "bytes": 241,
+        "sha256": "7734e1a51d802179f97030b83b603a809480772fcba8b4684e0dbe3a8952c0f8"
+      },
+      {
+        "relative_path": "sim/scenes/hz_hunter_preview_gui.config",
+        "bytes": 9332,
+        "sha256": "c222fbf73caf00b1ef5f1fb34c7a3b28ca1ee93178a8ef59049917361d9cec09"
+      },
+      {
+        "relative_path": "sim/tools/README.md",
+        "bytes": 7818,
+        "sha256": "dd325281a0a447c458e8c950495eb059a791f9f0c26affcf189270fe88688ce1"
+      },
+      {
+        "relative_path": "sim/tools/build_hunter_full_description.py",
+        "bytes": 37643,
+        "sha256": "5c3c376153f1a5a3364cc21c0e4c1cc267651f2b3eeeffa51ac761ae3def8c13"
+      },
+      {
+        "relative_path": "sim/tools/build_hunter_full_scene.py",
+        "bytes": 10952,
+        "sha256": "53cc207c0e1b95e6387f5500217e939d0910c0bcd2545d3f8ac7ed03cff6c746"
+      },
+      {
+        "relative_path": "sim/tools/build_trial_transport.bash",
+        "bytes": 655,
+        "sha256": "b156194d032cda817d8043bf418b2208a9e53282c413f0069cfc1b4b8bde947c"
+      },
+      {
+        "relative_path": "sim/tools/check_control_scene.py",
+        "bytes": 6862,
+        "sha256": "8fa090ea3c31bfb7af8490116502eb0a6f512fce3139a8b78bc4469b83573c6c"
+      },
+      {
+        "relative_path": "sim/tools/check_full_entry.py",
+        "bytes": 11287,
+        "sha256": "ec06d3ed83cf0ea9c051dfb4af2c7d5a67a813247a5e045c180eb1dd9ebd3dfb"
+      },
+      {
+        "relative_path": "sim/tools/check_full_ros_interfaces.py",
+        "bytes": 3504,
+        "sha256": "be1300defc6c37327051e46450074887060b5de35ca517a462034aab88760439"
+      },
+      {
+        "relative_path": "sim/tools/check_hunter_full_scene.py",
+        "bytes": 35189,
+        "sha256": "b98c5c8e0841f313520f5b0dffdc334a31758083e6e639070a9d26034cff1b51"
+      },
+      {
+        "relative_path": "sim/tools/check_ros_isolation.py",
+        "bytes": 5492,
+        "sha256": "f2b03e04dff47b293894e43302ce317f7962afba40e09e4d6c34aeff58f7a4f3"
+      },
+      {
+        "relative_path": "sim/tools/create_control_scene.py",
+        "bytes": 2510,
+        "sha256": "28fe45d0b976ec4726e4ae5c6c6f1e1726ff8da8b1538dd2b3a4d5e14a856ef3"
+      },
+      {
+        "relative_path": "sim/tools/full_scene_session.py",
+        "bytes": 10403,
+        "sha256": "9ccaf17f1b9ee13fc10b9e82b1b415c71911fc8b51a0c751e6ad9d19f1dcaaf5"
+      },
+      {
+        "relative_path": "sim/tools/gz_trial_transport.cc",
+        "bytes": 10120,
+        "sha256": "c1044b0ec70ee2eecbd0aa0233a43c29e3cd5cfc07fed42bf23a6cf75d340cdc"
+      },
+      {
+        "relative_path": "sim/tools/hunter_full_entry_manifest.json",
+        "bytes": 2173,
+        "sha256": "be3899bd7d19f388879767eeb073b928061a8504794472869f0d2d6cd7cf95aa"
+      },
+      {
+        "relative_path": "sim/tools/hunter_sensor_profile.py",
+        "bytes": 4051,
+        "sha256": "f3080eceb760d68aaa77ae66e66f02f51662a473e70408dbe64d57da814e4e5a"
+      },
+      {
+        "relative_path": "sim/tools/run_straight_test.bash",
+        "bytes": 856,
+        "sha256": "82faa9e3db9d40747c07ec1b7d0b8a2ac809a97fde8602f2798a4f444062d46f"
+      },
+      {
+        "relative_path": "sim/tools/seal_full_entry.py",
+        "bytes": 710,
+        "sha256": "7eb56c6bc00482dc87e3d31424a4305de3fe57cf98862526f9e265f52bf8682f"
+      },
+      {
+        "relative_path": "sim/tools/start_control_scene.bash",
+        "bytes": 1234,
+        "sha256": "4b5a9d8941de9b6e4cb6c0b9d8187409d0494cda52b4e41aae8bee0a5b7605f5"
+      },
+      {
+        "relative_path": "sim/tools/start_control_scene_logged.bash",
+        "bytes": 391,
+        "sha256": "c659f9b1a0ddaaeb0c393d8a579e54a3e16807fe8a94aa4a2d1a23bf9635e676"
+      },
+      {
+        "relative_path": "sim/tools/start_control_scene_logged.ps1",
+        "bytes": 230,
+        "sha256": "fd0d773b363beea9633c7bd0dcdd43b420b64077ae061e48afc6097caddfe8a4"
+      },
+      {
+        "relative_path": "sim/tools/start_hunter_full_scene.bash",
+        "bytes": 720,
+        "sha256": "ab1b38966b571b428610f59a54970257f8fd636063a39d543d5dc45337acb508"
+      },
+      {
+        "relative_path": "sim/tools/start_hunter_full_scene.ps1",
+        "bytes": 723,
+        "sha256": "070ec17f5437c1558f1c564bccfb5cb8cb1323e5bff9b0d11fd1fe8c692be7ce"
+      },
+      {
+        "relative_path": "sim/tools/start_paused_scene.bash",
+        "bytes": 2946,
+        "sha256": "8ab491d75454ffafdfa4908c338a9fb0593ca669ac7d0dbe5de6daad0d330f62"
+      },
+      {
+        "relative_path": "sim/tools/straight_trial.py",
+        "bytes": 10251,
+        "sha256": "f55eb13abb70c6cc84a6678b785593e2e3b7cf6deb92a7e4d2bbcfafb3c487b1"
+      },
+      {
+        "relative_path": "sim/tools/straight_trial.sha256",
+        "bytes": 344,
+        "sha256": "00a06d2370618204d27ac183ba5ece0d0704af5952272b3c4e38b89f1530753d"
+      },
+      {
+        "relative_path": "sim/tools/test_check_ros_isolation.py",
+        "bytes": 2759,
+        "sha256": "e85f1b8ed2db6076d254e115197069d63c7c983ddd1b13aff15cf631cbebc5e2"
+      },
+      {
+        "relative_path": "sim/tools/test_control_scene.py",
+        "bytes": 4934,
+        "sha256": "eb4fa768b9f62beb437364cfd9678a8cf43449d16e0f47a6af162d82d57dba6b"
+      },
+      {
+        "relative_path": "sim/tools/test_full_entry.py",
+        "bytes": 24228,
+        "sha256": "987a6b5ba4d5b9d69281c739a905894f8f6090842cfc75dd998e226d7a628a77"
+      },
+      {
+        "relative_path": "sim/tools/test_full_ros_interfaces.py",
+        "bytes": 2941,
+        "sha256": "f8a33363f58193d87e2a7d658ac2e878ed7bf882617bfe5eadfadaad2d2b7b29"
+      },
+      {
+        "relative_path": "sim/tools/test_hunter_full_model.py",
+        "bytes": 17385,
+        "sha256": "528145f7868c43f0c0a4897133c144a47c20660297fa6d059ea93a7c655a1de0"
+      },
+      {
+        "relative_path": "sim/tools/test_hunter_full_scene.py",
+        "bytes": 17391,
+        "sha256": "cde8315c186dc1a64e72149bf984669e61babc6031da30d9d84e33919cb02eee"
+      },
+      {
+        "relative_path": "sim/tools/test_hunter_sensor_profile.py",
+        "bytes": 2119,
+        "sha256": "d08ccec0077c37539053ec03ecf878f554620e2228be1c71730dc043ed9b7a42"
+      },
+      {
+        "relative_path": "sim/tools/test_start_paused_scene.py",
+        "bytes": 1297,
+        "sha256": "28db2a256f914129d7615575f339a32a09498009cf73922456f0dce35c121e30"
+      },
+      {
+        "relative_path": "sim/tools/test_straight_trial.py",
+        "bytes": 6979,
+        "sha256": "1703c751e4b633d2afd0fafff426725d7c8aae701a95db5995f2c0257839f3f8"
+      },
+      {
+        "relative_path": "sim/tools/test_transport_reply_warmup.cc",
+        "bytes": 2835,
+        "sha256": "e247911d234cafe3ed47721e6f37421f025632c130335289c1035fab13a19b28"
+      },
+      {
+        "relative_path": "sim/tools/test_transport_reply_warmup.py",
+        "bytes": 3392,
+        "sha256": "b700c0fb4b644583bdf797cd0ba56e33a7eec5296c209db1fb1223ce3d4d5d1a"
+      }
+    ],
+    "required_external_inputs": [
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/ament/hunter_full.converted.sdf",
+        "bytes": 19574,
+        "sha256": "03daabfd6c89a683e1fa6b77e0f5bd18f9d24beb59766d1a9976d9f9d5de2ed0"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/ament/hunter_full_lump_input.urdf",
+        "bytes": 15915,
+        "sha256": "5fb7fa1ef8c8cc280d0824198f6f1ced8d858b41a1d8c4ef9333903ef1c5ab0e"
+      },
+      {
+        "relative_path": "robot_assets/car_sensor_config_20261030/camera_d435i_640x480.yaml",
+        "bytes": 277,
+        "sha256": "790333f3aa749400429f27d0fa0838662dc8c65e5ad6e64b96dfa9de8d183daf"
+      },
+      {
+        "relative_path": "robot_assets/car_sensor_config_20261030/source/LIVMapper.cpp",
+        "bytes": 57169,
+        "sha256": "1bbdae25fde516032de59371364960481f569fa67f21ab16fb7d6d07034409f8"
+      },
+      {
+        "relative_path": "robot_assets/car_sensor_config_20261030/source/ch104_imu_pub_legacy.py",
+        "bytes": 4638,
+        "sha256": "abcb19913c42d5133913b72754b2515f9740223a1726af6840c8651fc7f9ed52"
+      },
+      {
+        "relative_path": "robot_assets/car_sensor_config_20261030/source/vio.cpp",
+        "bytes": 68088,
+        "sha256": "5786aeca9a26c796953430d471d5428279a5590c084b07dc945647aa88048911"
+      },
+      {
+        "relative_path": "robot_assets/car_sensor_config_20261030/xt32_ch104_d435i.yaml",
+        "bytes": 6805,
+        "sha256": "bd5a59683e9ed914fab81af13af0306a75ab13d5091ce2e3465dad5fea93cb9e"
+      },
+      {
+        "relative_path": "wsl/hz_sim_env.bash",
+        "bytes": 1307,
+        "sha256": "5f93f17e8b39ab66f017fe8f5468a014ac59bd2b0f1fa845b965d675b9c8a314"
+      }
+    ],
+    "model_rebuild_and_provenance_sources": [
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/base_link.STL",
+        "bytes": 6452284,
+        "sha256": "2b3a9368436ee48505a9e48119f63be612407eb91a05a60e264248deded5f0cc"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_left_wheel_link.STL",
+        "bytes": 1823584,
+        "sha256": "a526ac8125c90f044c4977f659d050793a009197bb067ea9fe91c02b4cf9028a"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_right_wheel_link.STL",
+        "bytes": 985784,
+        "sha256": "1a644b2ef550172ac8b255b84b6e30a39794fdf6680653698fdbee069beb91eb"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_steer_left_link.STL",
+        "bytes": 2672184,
+        "sha256": "091c1b863b790224b9affe5003f0fa79190d37bf037c69ffac4aa6b8f872a31f"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_steer_link.STL",
+        "bytes": 99284,
+        "sha256": "0299944ec73b0eff29b6d9887b4cb01ecce87d7a0a652a92ce6a8df783764c64"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_steer_right_link.STL",
+        "bytes": 1546284,
+        "sha256": "5ed51bb9cda08f6940439761abf24bdf6950e37f6579d99880c320fc9b294db9"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/left_rear_link.STL",
+        "bytes": 1465484,
+        "sha256": "93cc252596d2d82947997694fd38299ec4733a49992e54f6bbac1c75f1f7b80f"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/rear_wheel_link.STL",
+        "bytes": 156084,
+        "sha256": "f7db6f63c3fb6f19385af49b4468d09cf23ff22ba807d39a87361e545f24bebc"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/right_rear_link.STL",
+        "bytes": 1834384,
+        "sha256": "220aba23b544d543b49305bd1ffc9b0f62223f2b38f88b6c8b738f4dcb00b996"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/package.xml",
+        "bytes": 896,
+        "sha256": "142d5ae04f0b4225cfc79ba1802bfe89b5b6efe5fc0bd5cf6e0676ad897d5c11"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/urdf/hunter2_base.urdf",
+        "bytes": 11330,
+        "sha256": "8cd98f8a5ae69b633798f1d808a7c913a4506e72c863ef11c266f21277383201"
+      },
+      {
+        "relative_path": "outputs/hunter_sim_execution_20261012/references/hunter_reference_20261013.urdf",
+        "bytes": 7349,
+        "sha256": "ef9a6f5d2d267c73ad3bff3c4556796e8acbe5c0afbf7e7eca54fc5a5cb2a491"
+      },
+      {
+        "relative_path": "robot_assets/car_sensor_config_20261030/source/LIVMapper.cpp",
+        "bytes": 57169,
+        "sha256": "1bbdae25fde516032de59371364960481f569fa67f21ab16fb7d6d07034409f8"
+      },
+      {
+        "relative_path": "robot_assets/car_sensor_config_20261030/source/ch104_imu_pub_legacy.py",
+        "bytes": 4638,
+        "sha256": "abcb19913c42d5133913b72754b2515f9740223a1726af6840c8651fc7f9ed52"
+      },
+      {
+        "relative_path": "robot_assets/car_sensor_config_20261030/source/vio.cpp",
+        "bytes": 68088,
+        "sha256": "5786aeca9a26c796953430d471d5428279a5590c084b07dc945647aa88048911"
+      },
+      {
+        "relative_path": "robot_assets/car_sensor_config_20261030/xt32_ch104_d435i.yaml",
+        "bytes": 6805,
+        "sha256": "bd5a59683e9ed914fab81af13af0306a75ab13d5091ce2e3465dad5fea93cb9e"
+      },
+      {
+        "relative_path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/hunter_description/meshes/ARS548.STL",
+        "bytes": 51739584,
+        "sha256": "5350178d525c3f57828c1f820c572136ba1efcbbfe36ba01c00486727bdd8597"
+      },
+      {
+        "relative_path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/hunter_description/meshes/D435i.STL",
+        "bytes": 1705184,
+        "sha256": "e982ca29d1a2225f58ad09fc91004a4a40dca684f538ae323f844602d938ba0b"
+      },
+      {
+        "relative_path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/hunter_description/meshes/G60.STL",
+        "bytes": 190684,
+        "sha256": "08adf459e9c2a79f2247169886aab8559e1632f22177db764635602d8105fb12"
+      },
+      {
+        "relative_path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/hunter_description/meshes/XT32.STL",
+        "bytes": 1536384,
+        "sha256": "8fd7cf0485509c97ca499ab0c7a3aaef5e43242b836cbd23395451577d06b64f"
+      },
+      {
+        "relative_path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/hunter_description/meshes/assembly.STL",
+        "bytes": 3911284,
+        "sha256": "ddd0fe5993af16aa1ee67845aca76170d21ef31e3fcce5fafed98458aa67f34c"
+      },
+      {
+        "relative_path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/hunter_description/package.xml",
+        "bytes": 562,
+        "sha256": "d77435e4852577b40c9767e68d9d231740c3a2cd577c37ab7931c3c963548c99"
+      },
+      {
+        "relative_path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/realsense2_description/meshes/d435.dae",
+        "bytes": 15782439,
+        "sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78"
+      },
+      {
+        "relative_path": "robot_assets/hunter_from_car_20261013_qjkgbbq5/realsense2_description/package.xml",
+        "bytes": 1071,
+        "sha256": "e37829a1a556feb50028b878823eced84a448b3d4e3a7e92af5770e50c76516f"
+      }
+    ],
+    "verification_and_explanations": [
+      {
+        "relative_path": "outputs/hunter_model_update_20261030/README.md",
+        "bytes": 4844,
+        "sha256": "7875c9c6594656c2afb6e98f85f79c64a54dd6fe3f0e3185ceccdb2ad15a5969"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/progress.md",
+        "bytes": 3884,
+        "sha256": "3cd21da00c770980ec1de62309b70f9458f710e2e1391be7610db9c505f553cd"
+      },
+      {
+        "relative_path": "outputs/hunter_model_upgrade_20261030/task_plan.md",
+        "bytes": 6856,
+        "sha256": "1cfd043cd57c6ba0054888cae804f5cc8c9ee114258b88a8580ce060743e4ae7"
+      },
+      {
+        "relative_path": "outputs/hunter_sensor_parameters_20261030/README.md",
+        "bytes": 10020,
+        "sha256": "1ce1abf935b8a6dce5e427a5220fb6b6adfd82a8a85b266aadfa5c2f9809e370"
+      },
+      {
+        "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/check.json",
+        "bytes": 1889,
+        "sha256": "8c0f8727f09298dde7c0ddb0e6c25ef64b11061cc861d148d24e9475d1dcb464"
+      },
+      {
+        "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/check.json",
+        "bytes": 5188,
+        "sha256": "9de9d56ccc525a949853c7cdb299b71f80d21c708044253acede5643d64647fb"
+      },
+      {
+        "relative_path": "outputs/hunter_sensor_parameters_20261030/task_plan.md",
+        "bytes": 4085,
+        "sha256": "03f20dfd2dc4ba065b49796df5ace627aee1ef1e41bccace01811ed76fb7bf7f"
+      }
+    ],
+    "personal_maps_optional_compare": [
+      {
+        "relative_path": "maps/lab_20261011/lab_20261011_141011_768151.tar.gz",
+        "bytes": 95092096,
+        "sha256": "a038d3e2afd8432abafe0e9f339e1c1c6953b9acc247b7e3818b08b97399c6d6"
+      },
+      {
+        "relative_path": "maps/lab_20261011/lab_20261011_155236_369289.tar.gz",
+        "bytes": 236216255,
+        "sha256": "29a7d050865948dfb2387c86b2292310162983891269d45e44d1dd7faf6dc434"
+      },
+      {
+        "relative_path": "maps/lab_20261011/lab_20261011_155236_369289/merged/map_raw.pcd",
+        "bytes": 260648077,
+        "sha256": "a57844447f23c2c02cd30f101aaf622ae86eb8a1cd207b684a940fa464d06441"
+      },
+      {
+        "relative_path": "outputs/hunter_pcd_to_2d_20261029/conversion_report.json",
+        "bytes": 4035,
+        "sha256": "36d1d71b1724a263b8151ba6ffabf6120ed3d09a0cd615e30412b27550a26e03"
+      },
+      {
+        "relative_path": "outputs/hunter_pcd_to_2d_20261029/lab_155236_floor_evidence_candidate.pgm",
+        "bytes": 986722,
+        "sha256": "8e7e37cb2a20fe4888af20434b56d80e4f4d8f188cd460b100eb6773ccbf0e8e"
+      },
+      {
+        "relative_path": "outputs/hunter_pcd_to_2d_20261029/lab_155236_floor_evidence_candidate.yaml",
+        "bytes": 173,
+        "sha256": "e666079ce202d0a87c8941000d15e906e58d79d515d2d3dd928680acd68c001f"
+      }
+    ]
+  }
+}

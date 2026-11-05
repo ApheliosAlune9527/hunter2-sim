@@ -1,0 +1,61 @@
+[1;32m[Msg] [0m[1;32mIgnition Gazebo Server v[0m[1;32m6.18.0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLoading SDF world file[[0m[1;32m/mnt/f/rob-memory/outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/probe.sdf[0m[1;32m].[0m
+[1;32m[Msg] [0m[1;32mServing entity system service on [[0m[1;32m/[0m[1;32mentity/system/add[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mCreate service on [[0m[1;32m/world/hz_sensor_probe/create[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mRemove service on [[0m[1;32m/world/hz_sensor_probe/remove[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/hz_sensor_probe/set_pose[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/hz_sensor_probe/set_pose_vector[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLight configuration service on [[0m[1;32m/world/hz_sensor_probe/light_config[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPhysics service on [[0m[1;32m/world/hz_sensor_probe/set_physics[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mSphericalCoordinates service on [[0m[1;32m/world/hz_sensor_probe/set_spherical_coordinates[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mEnable collision service on [[0m[1;32m/world/hz_sensor_probe/enable_collision[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mDisable collision service on [[0m[1;32m/world/hz_sensor_probe/disable_collision[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/hz_sensor_probe/visual_config[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/hz_sensor_probe/wheel_slip[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLoaded level [[0m[1;32m3[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing world controls on [[0m[1;32m/world/hz_sensor_probe[0m[1;32m/control], [[0m[1;32m/world/hz_sensor_probe[0m[1;32m/control/state] and [[0m[1;32m/world/hz_sensor_probe[0m[1;32m/playback/control][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing GUI information on [[0m[1;32m/world/hz_sensor_probe[0m[1;32m/[0m[1;32mgui/info[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mWorld [[0m[1;32mhz_sensor_probe[0m[1;32m] initialized with [[0m[1;32mphysics[0m[1;32m] physics profile.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing world SDF generation service on [[0m[1;32m/world/hz_sensor_probe[0m[1;32m/[0m[1;32mgenerate_world_sdf[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing world names on [[0m[1;32m/gazebo/worlds[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource path add service on [[0m[1;32m/gazebo/resource_paths/add[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource path get service on [[0m[1;32m/gazebo/resource_paths/get[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource path resolve service on [[0m[1;32m/gazebo/resource_paths/resolve[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource paths published on [[0m[1;32m/gazebo/resource_paths[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServer control service on [[0m[1;32m/server_control[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mFound no publishers on /stats, adding root stats topic[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mFound no publishers on /clock, adding root clock topic[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mignition-rendering-ogre2[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing scene information on [[0m[1;32m/world/hz_sensor_probe[0m[1;32m/[0m[1;32mscene/info[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing graph information on [[0m[1;32m/world/hz_sensor_probe[0m[1;32m/[0m[1;32mscene/graph[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing full state on [[0m[1;32m/world/hz_sensor_probe[0m[1;32m/[0m[1;32mstate[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing full state (async) on [[0m[1;32m/world/hz_sensor_probe[0m[1;32m/[0m[1;32mstate_async[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] terminate called after throwing an instance of 'Ogre::UnimplementedException'
+  what():  OGRE EXCEPTION(9:UnimplementedException):  in GL3PlusTextureGpu::copyTo at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/OgreGL3PlusTextureGpu.cpp (line 677)
+Stack trace (most recent call last) in thread 427:
+#24   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#23   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x72a6f7d268df, in 
+#22   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x72a6f7c94a82, in 
+#21   Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x72a6f44dc252, in 
+#20   Object "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo-sensors-system.so", at 0x72a6e89c4512, in ignition::gazebo::v6::systems::SensorsPrivate::RenderThread()
+#19   Object "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo-sensors-system.so", at 0x72a6e89c2c09, in ignition::gazebo::v6::systems::SensorsPrivate::WaitForInit()
+#18   Object "/lib/x86_64-linux-gnu/libignition-gazebo6-rendering.so.6", at 0x72a6df95defd, in ignition::gazebo::v6::RenderUtil::Init()
+#17   Object "/lib/x86_64-linux-gnu/libignition-rendering6.so.6", at 0x72a6df49bc28, in ignition::rendering::v6::BaseRenderEngine::CreateScene(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+#16   Object "/lib/x86_64-linux-gnu/libignition-rendering6.so.6", at 0x72a6df4a355e, in ignition::rendering::v6::BaseRenderEngine::CreateScene(unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+#15   Object "/lib/x86_64-linux-gnu/libignition-rendering6.so.6", at 0x72a6df4b56bb, in ignition::rendering::v6::BaseScene::CreateMaterials()
+#14   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre2.so", at 0x72a6dcfa3da2, in ignition::rendering::v6::Ogre2Material::SetTextureMapImpl(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, Ogre::PbsTextureTypes)
+#13   Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x72a6dcba3234, in Ogre::TextureGpuManager::_waitFor(Ogre::TextureGpu*, bool)
+#12   Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x72a6dcba2e6a, in Ogre::TextureGpuManager::_update(bool)
+#11   Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x72a6dca76e3c, in Ogre::ObjCmdBuffer::execute()
+#10   Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x72a6dca731fd, in Ogre::ObjCmdBuffer::NotifyDataIsReady::execute()
+#9    Object "/lib/x86_64-linux-gnu/libOgreNextMain.so.2.2.5", at 0x72a6dcb94d82, in Ogre::TextureFilter::GenerateHwMipmaps::_executeSerial(Ogre::TextureGpu*)
+#8    Object "/usr/lib/x86_64-linux-gnu/OGRE-Next/RenderSystem_GL3Plus.so", at 0x72a6976889d7, in 
+#7    Object "/usr/lib/x86_64-linux-gnu/OGRE-Next/RenderSystem_GL3Plus.so", at 0x72a6976853ea, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x72a6f44ae4d7, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x72a6f44ae276, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x72a6f44ae20b, in 
+#3    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x72a6f44a2b9d, in 
+#2    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x72a6f7c287f2, in abort
+#1    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x72a6f7c42475, in raise
+#0    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x72a6f7c969bc, in pthread_kill
+Aborted (Signal sent by tkill() 413 1000)

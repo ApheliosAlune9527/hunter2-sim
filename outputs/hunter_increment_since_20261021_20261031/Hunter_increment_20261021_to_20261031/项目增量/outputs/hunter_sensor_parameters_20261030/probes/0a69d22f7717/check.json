@@ -1,0 +1,52 @@
+{
+  "ok": false,
+  "source_sha256": "790333f3aa749400429f27d0fa0838662dc8c65e5ad6e64b96dfa9de8d183daf",
+  "requested": {
+    "fx": 606.7595825195312,
+    "fy": 606.700439453125,
+    "cx": 329.2454833984375,
+    "cy": 243.96548461914062
+  },
+  "world_all_static": true,
+  "robot_control_plugins": [],
+  "ros_domain": 74,
+  "ros_bridge_direction": "GZ_TO_ROS",
+  "hardware_driver_started": false,
+  "motion_published": false,
+  "ign_partition": "hz_camera_probe_0a69d22f7717",
+  "diagnostic_pose_override": null,
+  "diagnostic_hidden_visuals": "",
+  "diagnostic_masked_visual": "base_link_fixed_joint_lump__camera_link_visual_5",
+  "sdf_valid": true,
+  "camera_info_received": true,
+  "camera_matrices": {
+    "intrinsics": [
+      606.7595825195312,
+      0.0,
+      320.0,
+      0.0,
+      606.7595825195312,
+      240.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "projection": [
+      606.7595825195312,
+      0.0,
+      320.0,
+      0.0,
+      0.0,
+      606.7595825195312,
+      240.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "error": "ValueError('Camera image observer failed: ')",
+  "owned_server_closed": true,
+  "owned_processes_closed": true
+}

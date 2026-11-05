@@ -1,0 +1,185 @@
+test_checked_in_artifacts_are_current_and_valid (test_hunter_full_scene.HunterFullSceneTests.test_checked_in_artifacts_are_current_and_valid) ... FAIL
+test_generated_scene_retains_converted_physical_inertias_and_meshes (test_hunter_full_scene.HunterFullSceneTests.test_generated_scene_retains_converted_physical_inertias_and_meshes) ... FAIL
+test_generation_is_byte_for_byte_deterministic (test_hunter_full_scene.HunterFullSceneTests.test_generation_is_byte_for_byte_deterministic) ... FAIL
+test_generator_and_validator_produce_a_complete_offline_scene (test_hunter_full_scene.HunterFullSceneTests.test_generator_and_validator_produce_a_complete_offline_scene) ... FAIL
+test_manifest_records_every_input_and_mesh_hash (test_hunter_full_scene.HunterFullSceneTests.test_manifest_records_every_input_and_mesh_hash) ... FAIL
+test_rejects_arbitrary_mesh_uris_even_with_rehashed_manifest (test_hunter_full_scene.HunterFullSceneTests.test_rejects_arbitrary_mesh_uris_even_with_rehashed_manifest) ... FAIL
+test_rejects_default_or_cross_scene_control_topics (test_hunter_full_scene.HunterFullSceneTests.test_rejects_default_or_cross_scene_control_topics) ... FAIL
+test_rejects_gui_running_wrong_engine_or_plugin_injection (test_hunter_full_scene.HunterFullSceneTests.test_rejects_gui_running_wrong_engine_or_plugin_injection) ... FAIL
+test_rejects_includes_and_non_mesh_resource_references (test_hunter_full_scene.HunterFullSceneTests.test_rejects_includes_and_non_mesh_resource_references) ... FAIL
+test_rejects_joint_axis_parent_limits_and_disconnected_topology (test_hunter_full_scene.HunterFullSceneTests.test_rejects_joint_axis_parent_limits_and_disconnected_topology) ... FAIL
+test_rejects_joint_state_publisher_with_incomplete_joint_names (test_hunter_full_scene.HunterFullSceneTests.test_rejects_joint_state_publisher_with_incomplete_joint_names) ... FAIL
+test_rejects_mesh_collisions_and_zero_or_negative_primitive_sizes (test_hunter_full_scene.HunterFullSceneTests.test_rejects_mesh_collisions_and_zero_or_negative_primitive_sizes) ... FAIL
+test_rejects_missing_duplicate_or_extra_controller_parameters (test_hunter_full_scene.HunterFullSceneTests.test_rejects_missing_duplicate_or_extra_controller_parameters) ... FAIL
+test_rejects_missing_sensors_and_wrong_sensor_frame (test_hunter_full_scene.HunterFullSceneTests.test_rejects_missing_sensors_and_wrong_sensor_frame) ... FAIL
+test_rejects_non_ogre_sensors_engine (test_hunter_full_scene.HunterFullSceneTests.test_rejects_non_ogre_sensors_engine) ... FAIL
+test_rejects_plugin_injection_duplicates_and_unexpected_scopes (test_hunter_full_scene.HunterFullSceneTests.test_rejects_plugin_injection_duplicates_and_unexpected_scopes) ... FAIL
+test_rejects_sensor_type_pose_rate_range_and_scan_mutations (test_hunter_full_scene.HunterFullSceneTests.test_rejects_sensor_type_pose_rate_range_and_scan_mutations) ... FAIL
+test_rejects_stale_artifact_or_tampered_mesh_manifest_hashes (test_hunter_full_scene.HunterFullSceneTests.test_rejects_stale_artifact_or_tampered_mesh_manifest_hashes) ... FAIL
+test_rejects_wrong_identity_pose_static_or_extra_model (test_hunter_full_scene.HunterFullSceneTests.test_rejects_wrong_identity_pose_static_or_extra_model) ... FAIL
+test_rejects_zero_nonfinite_and_non_positive_definite_inertias (test_hunter_full_scene.HunterFullSceneTests.test_rejects_zero_nonfinite_and_non_positive_definite_inertias) ... FAIL
+
+======================================================================
+FAIL: test_checked_in_artifacts_are_current_and_valid (test_hunter_full_scene.HunterFullSceneTests.test_checked_in_artifacts_are_current_and_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_generated_scene_retains_converted_physical_inertias_and_meshes (test_hunter_full_scene.HunterFullSceneTests.test_generated_scene_retains_converted_physical_inertias_and_meshes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_generation_is_byte_for_byte_deterministic (test_hunter_full_scene.HunterFullSceneTests.test_generation_is_byte_for_byte_deterministic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_generator_and_validator_produce_a_complete_offline_scene (test_hunter_full_scene.HunterFullSceneTests.test_generator_and_validator_produce_a_complete_offline_scene)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_manifest_records_every_input_and_mesh_hash (test_hunter_full_scene.HunterFullSceneTests.test_manifest_records_every_input_and_mesh_hash)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_arbitrary_mesh_uris_even_with_rehashed_manifest (test_hunter_full_scene.HunterFullSceneTests.test_rejects_arbitrary_mesh_uris_even_with_rehashed_manifest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_default_or_cross_scene_control_topics (test_hunter_full_scene.HunterFullSceneTests.test_rejects_default_or_cross_scene_control_topics)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_gui_running_wrong_engine_or_plugin_injection (test_hunter_full_scene.HunterFullSceneTests.test_rejects_gui_running_wrong_engine_or_plugin_injection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_includes_and_non_mesh_resource_references (test_hunter_full_scene.HunterFullSceneTests.test_rejects_includes_and_non_mesh_resource_references)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_joint_axis_parent_limits_and_disconnected_topology (test_hunter_full_scene.HunterFullSceneTests.test_rejects_joint_axis_parent_limits_and_disconnected_topology)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_joint_state_publisher_with_incomplete_joint_names (test_hunter_full_scene.HunterFullSceneTests.test_rejects_joint_state_publisher_with_incomplete_joint_names)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_mesh_collisions_and_zero_or_negative_primitive_sizes (test_hunter_full_scene.HunterFullSceneTests.test_rejects_mesh_collisions_and_zero_or_negative_primitive_sizes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_missing_duplicate_or_extra_controller_parameters (test_hunter_full_scene.HunterFullSceneTests.test_rejects_missing_duplicate_or_extra_controller_parameters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_missing_sensors_and_wrong_sensor_frame (test_hunter_full_scene.HunterFullSceneTests.test_rejects_missing_sensors_and_wrong_sensor_frame)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_non_ogre_sensors_engine (test_hunter_full_scene.HunterFullSceneTests.test_rejects_non_ogre_sensors_engine)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_plugin_injection_duplicates_and_unexpected_scopes (test_hunter_full_scene.HunterFullSceneTests.test_rejects_plugin_injection_duplicates_and_unexpected_scopes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_sensor_type_pose_rate_range_and_scan_mutations (test_hunter_full_scene.HunterFullSceneTests.test_rejects_sensor_type_pose_rate_range_and_scan_mutations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_stale_artifact_or_tampered_mesh_manifest_hashes (test_hunter_full_scene.HunterFullSceneTests.test_rejects_stale_artifact_or_tampered_mesh_manifest_hashes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_wrong_identity_pose_static_or_extra_model (test_hunter_full_scene.HunterFullSceneTests.test_rejects_wrong_identity_pose_static_or_extra_model)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+======================================================================
+FAIL: test_rejects_zero_nonfinite_and_non_positive_definite_inertias (test_hunter_full_scene.HunterFullSceneTests.test_rejects_zero_nonfinite_and_non_positive_definite_inertias)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_scene.py", line 28, in setUp
+    self.assertIsNotNone(importlib.util.find_spec("build_hunter_full_scene"),
+AssertionError: unexpectedly None : Offline full-scene builder is not implemented
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.009s
+
+FAILED (failures=20)

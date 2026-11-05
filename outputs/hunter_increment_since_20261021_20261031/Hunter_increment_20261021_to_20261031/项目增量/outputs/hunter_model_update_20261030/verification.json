@@ -1,0 +1,153 @@
+{
+  "reviewed_on": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "scope": "Static source review only; no WSL, ROS, Gazebo, driver, launch, or robot program executed.",
+  "migration_root": "F:\\rob-memory-migration-20261028\\_staging\\Hunter_increment_20261028",
+  "archive": "F:\\rob-memory-migration-20261028\\Hunter_项目增量与聊天_20261028.zip",
+  "archive_sha256": "ee7b8047afa4eb11e74b64c141a37edb7a1119daa224032a66509ad31758a732",
+  "archive_checksum_matches": true,
+  "increment_files_verified": 87,
+  "increment_geometry_files": [],
+  "selected_evidence_checks": [
+    {
+      "source": "F:\\rob-memory-migration-20261028\\_staging\\Hunter_increment_20261028\\00_先读我.md",
+      "copy": "F:\\rob-memory\\outputs\\hunter_model_update_20261030\\references\\migration_readme.md",
+      "sha256": "c3438fad5eaba6461e6a3726cca8ca2f1ad0b67e005d7d132d1c2f9de9776214"
+    },
+    {
+      "source": "F:\\rob-memory-migration-20261028\\_staging\\Hunter_increment_20261028\\01_给台式机Agent的交接说明.md",
+      "copy": "F:\\rob-memory\\outputs\\hunter_model_update_20261030\\references\\migration_handoff.md",
+      "sha256": "2a55815bf830c0a4c47d222966934af31813680059019ebb21a7e3d7c4c449fc"
+    },
+    {
+      "source": "F:\\rob-memory-migration-20261028\\_staging\\Hunter_increment_20261028\\02_文件清单.json",
+      "copy": "F:\\rob-memory\\outputs\\hunter_model_update_20261030\\references\\migration_manifest.json",
+      "sha256": "9d9eacd90fb7cdc909b6229b2218fa98eacc41708bc705f23668bc733116b550"
+    },
+    {
+      "source": "F:\\rob-memory-migration-20261028\\_staging\\Hunter_increment_20261028\\聊天记录\\临时侧聊摘要.md",
+      "copy": "F:\\rob-memory\\outputs\\hunter_model_update_20261030\\references\\side_chat_summary.md",
+      "sha256": "4bc07ac39fe42af2e7699bceb3dffc389f121f5704e295f9eeea2cbfac7c4542"
+    },
+    {
+      "source": "F:\\rob-memory-migration-20261028\\_staging\\Hunter_increment_20261028\\聊天记录\\侧聊截图\\codex-clipboard-86132566-73a0-4519-bb12-e408040be0da.jpg",
+      "copy": "F:\\rob-memory\\outputs\\hunter_model_update_20261030\\references\\hunter_nameplate.jpg",
+      "sha256": "4287ea3b06cd2c53eca38a0012f7bd88383b82104f19641b92ac855641d2ecbe"
+    },
+    {
+      "source": "F:\\rob-memory-migration-20261028\\_staging\\Hunter_increment_20261028\\聊天记录\\截图附件\\9ea5b7de158bd6bff7f59d17.jpg",
+      "copy": "F:\\rob-memory\\outputs\\hunter_model_update_20261030\\references\\hunter_installed_photo.jpg",
+      "sha256": "9ea5b7de158bd6bff7f59d175658c94a7e6abb6b14d033cff6a498eeefa88070"
+    },
+    {
+      "source": "F:\\rob-memory-migration-20261028\\_staging\\Hunter_increment_20261028\\项目增量\\findings.md",
+      "copy": "F:\\rob-memory\\outputs\\hunter_model_update_20261030\\references\\migration_nav_findings.md",
+      "sha256": "dc81fea2ee20a568b0699a401290bd0b292cbe59ceb8f24d58d219c5ece97380"
+    }
+  ],
+  "nameplate_visual_confirmation": {
+    "brand": "AGILEX",
+    "model": "HUNTER 2.0",
+    "text": "阿克曼型移动底盘"
+  },
+  "urdf": {
+    "local": "F:\\rob-memory\\outputs\\hunter_sim_execution_20261012\\references\\hunter_reference_20261013.urdf",
+    "raw_sha256": "ef9a6f5d2d267c73ad3bff3c4556796e8acbe5c0afbf7e7eca54fc5a5cb2a491",
+    "canonical_method": "xml.etree.ElementTree.canonicalize(strip_text=True), UTF-8, SHA256",
+    "canonical_sha256": "9e1112e0bbc029ff5d4de3966410e37531bf464c7ffb0aa59026450e1b86675b",
+    "migration_reported_sha256": "9e1112e0bbc029ff5d4de3966410e37531bf464c7ffb0aa59026450e1b86675b",
+    "matches_migration_record": true,
+    "fresh_live_robot_comparison": false,
+    "links": 10,
+    "joints": 9,
+    "fixed_joints": 9,
+    "links_with_inertial": [
+      "camera_link"
+    ],
+    "mesh_resources": [
+      {
+        "uri": "package://hunter_description/meshes/ARS548.STL",
+        "local": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\hunter_description\\meshes\\ARS548.STL",
+        "sha256": "5350178d525c3f57828c1f820c572136ba1efcbbfe36ba01c00486727bdd8597"
+      },
+      {
+        "uri": "package://hunter_description/meshes/G60.STL",
+        "local": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\hunter_description\\meshes\\G60.STL",
+        "sha256": "08adf459e9c2a79f2247169886aab8559e1632f22177db764635602d8105fb12"
+      },
+      {
+        "uri": "package://hunter_description/meshes/PIPER.STL",
+        "local": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\hunter_description\\meshes\\PIPER.STL",
+        "sha256": "e86e255eb50cc8184193bc30dbd9db6baf45ccd8ac13b66116bf5d0cd49ef85b"
+      },
+      {
+        "uri": "package://hunter_description/meshes/PiPER_plate.STL",
+        "local": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\hunter_description\\meshes\\PiPER_plate.STL",
+        "sha256": "ccad6d79acd7ef65089af482f561fc423d7185cfdca542f07300f53ab017be77"
+      },
+      {
+        "uri": "package://hunter_description/meshes/XT32.STL",
+        "local": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\hunter_description\\meshes\\XT32.STL",
+        "sha256": "8fd7cf0485509c97ca499ab0c7a3aaef5e43242b836cbd23395451577d06b64f"
+      },
+      {
+        "uri": "package://hunter_description/meshes/assembly.STL",
+        "local": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\hunter_description\\meshes\\assembly.STL",
+        "sha256": "ddd0fe5993af16aa1ee67845aca76170d21ef31e3fcce5fafed98458aa67f34c"
+      },
+      {
+        "uri": "package://hunter_description/meshes/hunter_2_0.STL",
+        "local": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\hunter_description\\meshes\\hunter_2_0.STL",
+        "sha256": "afdf431df0bcc121d526f1d4dfb80df7a10f4ed6ae2b8473107760973a171e4b"
+      },
+      {
+        "uri": "package://realsense2_description/meshes/d435.dae",
+        "local": "F:\\rob-memory\\robot_assets\\hunter_from_car_20261013_qjkgbbq5\\realsense2_description\\meshes\\d435.dae",
+        "sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78"
+      }
+    ],
+    "mesh_content_matches_live_robot": "Not established by a URDF hash; migration has no new mesh payload."
+  },
+  "reference_model_tf": {
+    "parent": "base_link",
+    "child": "hesai_lidar",
+    "translation_m": [
+      0.214,
+      0.0,
+      0.69
+    ],
+    "yaw_deg": 90.0,
+    "joint_chain": [
+      "hunter_joint",
+      "assembly_joint",
+      "lidar_joint"
+    ],
+    "meaning": "URDF transform; historical runtime TF agrees in migration notes; not physical calibration."
+  },
+  "official_web_reference": {
+    "url": "https://www.agilex.ai/products/hunter",
+    "checked_on": "2026-10-30",
+    "wheelbase_m": 0.65,
+    "track_m": 0.605,
+    "maximum_speed_m_s": 1.5,
+    "ground_clearance_m": 0.1,
+    "curb_mass_kg_range": [
+      65,
+      72
+    ],
+    "meaning": "Manufacturer nominal data; not the measured, equipped robot."
+  },
+  "handoff_2023_manual_reference": {
+    "chassis_dimensions_mm": [
+      980,
+      745,
+      370
+    ],
+    "minimum_turning_radius_m": 1.6,
+    "ground_clearance_m": 0.105,
+    "original_pdf_reopened_this_review": false
+  },
+  "runtime_models_modified": false,
+  "motion_executed": false,
+  "source_project_or_codex_database_overwritten": false
+}

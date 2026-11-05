@@ -1,0 +1,2356 @@
+{
+  "format": "hunter_increment_content_hashes_v1",
+  "files": [
+    {
+      "path": "00_先读我.md",
+      "bytes": 2515,
+      "sha256": "e7196aed1df41f7b7e0c7cf30825f7a5211695e087439c478cfac1c1155d02d9"
+    },
+    {
+      "path": "01_给台式机Agent的恢复说明.md",
+      "bytes": 3522,
+      "sha256": "3c8275cb3a86d92f9a4adfa000c5ba0e1e7b7205978f56446ed25572303718aa"
+    },
+    {
+      "path": "02_增量文件清单.json",
+      "bytes": 151936,
+      "sha256": "c9643464f57cf34eb34092a25a675fec1ee916dfdb21e53d2f3e34a02d4b9683"
+    },
+    {
+      "path": "03_项目增量SHA256.sha256",
+      "bytes": 71912,
+      "sha256": "cc1ef403133fa44c384640851216f3254ca510c7a69a32351e453b9825dcc59d"
+    },
+    {
+      "path": "基线核对/20261021_MANIFEST.json",
+      "bytes": 5082067,
+      "sha256": "bc27cd2b1fc377b3b8ce208bd959150ba4301bb8864feb4412ab2687c929856a"
+    },
+    {
+      "path": "基线核对/20261021_VERIFICATION.json",
+      "bytes": 581,
+      "sha256": "6f8f8837b7544d5ad71abe22a7b475f02af60e42e7f4ad45a06667ea630e44aa"
+    },
+    {
+      "path": "项目增量/.planning/desktop-migration-20261021/build_package.py",
+      "bytes": 19848,
+      "sha256": "5f2dfc868d11f5dd6a43e12992fc44ae5fb5c4bad2816b36212e7627e9640bd9"
+    },
+    {
+      "path": "项目增量/.planning/desktop-migration-20261021/progress.md",
+      "bytes": 2699,
+      "sha256": "2612bfc894194b77e947521bf361e517bc22ce8276357db17b72d22eae68873c"
+    },
+    {
+      "path": "项目增量/.planning/desktop-migration-20261021/task_plan.md",
+      "bytes": 3589,
+      "sha256": "33179d45ab3bd7b637278e9a61987d8507b31e9e76ffbee504360bf4d9c629f7"
+    },
+    {
+      "path": "项目增量/findings.md",
+      "bytes": 211274,
+      "sha256": "c377ca9b57579dcd06d1755b879c646ec10d6a60fdf7cf47ab6e23769342ab8d"
+    },
+    {
+      "path": "项目增量/outputs/group_meeting_20261020/delivery/Hunter_Nav2_组会20261028.pptx",
+      "bytes": 2103362,
+      "sha256": "5300b7687415347c540ea02263a58ed024bac0757266a573d5f339d296c2f8d9"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_update_20261030/README.md",
+      "bytes": 4844,
+      "sha256": "7875c9c6594656c2afb6e98f85f79c64a54dd6fe3f0e3185ceccdb2ad15a5969"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_update_20261030/references/hunter_installed_photo.jpg",
+      "bytes": 306342,
+      "sha256": "9ea5b7de158bd6bff7f59d175658c94a7e6abb6b14d033cff6a498eeefa88070"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_update_20261030/references/hunter_nameplate.jpg",
+      "bytes": 176685,
+      "sha256": "4287ea3b06cd2c53eca38a0012f7bd88383b82104f19641b92ac855641d2ecbe"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_update_20261030/references/migration_handoff.md",
+      "bytes": 3789,
+      "sha256": "2a55815bf830c0a4c47d222966934af31813680059019ebb21a7e3d7c4c449fc"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_update_20261030/references/migration_manifest.json",
+      "bytes": 40360,
+      "sha256": "9d9eacd90fb7cdc909b6229b2218fa98eacc41708bc705f23668bc733116b550"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_update_20261030/references/migration_nav_findings.md",
+      "bytes": 184284,
+      "sha256": "dc81fea2ee20a568b0699a401290bd0b292cbe59ceb8f24d58d219c5ece97380"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_update_20261030/references/migration_readme.md",
+      "bytes": 2351,
+      "sha256": "c3438fad5eaba6461e6a3726cca8ca2f1ad0b67e005d7d132d1c2f9de9776214"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_update_20261030/references/side_chat_summary.md",
+      "bytes": 1167,
+      "sha256": "4bc07ac39fe42af2e7699bceb3dffc389f121f5704e295f9eeea2cbfac7c4542"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_update_20261030/verification.json",
+      "bytes": 7467,
+      "sha256": "2cb9f431664f213f7b66db407598954379b4ed42d47308906db6dbdf06462cf5"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_update_20261030/verify_sources.py",
+      "bytes": 8727,
+      "sha256": "99dc4ecde0c0187fd7c3948481302bb43685dda19d07efee52be044b7bf8e119"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/findings.md",
+      "bytes": 4026,
+      "sha256": "844025dbd6803db15d517a2bb3ef8a9a3859e224a9dd22217ffe61f574eba795"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/inspect_environment.py",
+      "bytes": 2157,
+      "sha256": "aab8e188cdf4dab5ca3bffd140ea49e03246d6e96663d511f13fbe80821c4cea"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/install_description.py",
+      "bytes": 4037,
+      "sha256": "c9ef3729206a2fbb98a4ab65be86942a4707e02b0b455bf763ec8093edbf1267"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/observe_entry_graph.py",
+      "bytes": 2070,
+      "sha256": "d6fdea4c0680883a4ac3be56f2e05061459acc73c7c8c617e9f3a3d552ce68f5"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/observe_full_ros.py",
+      "bytes": 9710,
+      "sha256": "825deccb677e61cbe0441259f0bc6dad09bf2dcbfd3992f7c2fa361379cedd55"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/probe_sensors.py",
+      "bytes": 6192,
+      "sha256": "b522494f27f5ee50b94de05254c31494e2438b18519eb95eddfdfb13364d2d67"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/progress.md",
+      "bytes": 3884,
+      "sha256": "3cd21da00c770980ec1de62309b70f9458f710e2e1391be7610db9c505f553cd"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/ament/build.log",
+      "bytes": 125,
+      "sha256": "6080d383ea9d0b34481694c78816d8bfd45afb947bcebfb25359d68792c2c462"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/ament/check.json",
+      "bytes": 244,
+      "sha256": "1488f1f66df49758ca3640f306daadb837f55a7d8a221c80287e16094adcf2f7"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/ament/hunter_full.converted.sdf",
+      "bytes": 19574,
+      "sha256": "03daabfd6c89a683e1fa6b77e0f5bd18f9d24beb59766d1a9976d9f9d5de2ed0"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/ament/hunter_full_lump_input.urdf",
+      "bytes": 15915,
+      "sha256": "5fb7fa1ef8c8cc280d0824198f6f1ced8d858b41a1d8c4ef9333903ef1c5ab0e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/ament/sdf_convert.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/documentation_history.json",
+      "bytes": 432,
+      "sha256": "a813cbc723ec48d2b761f671d109aed2b847e0049167434fa9766b95bc870244"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/legacy/start_control_scene_logged.bash",
+      "bytes": 1120,
+      "sha256": "f5c4e226e6efd68992849aecb03841615132b3aacfca3ee093f1e995459a16f3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/legacy/start_control_scene_logged.ps1",
+      "bytes": 845,
+      "sha256": "75967caec931ec5ebdc2e574f291a1d1a9755b2b3671a1094b1a7c1d64020c97"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/legacy_powershell_check.txt",
+      "bytes": 5060,
+      "sha256": "04fe21b9332bdacb473616d9a6839bf5ecb9ef98af5e77b5babe88abcbd716f0"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/offline_check.json",
+      "bytes": 3296,
+      "sha256": "eb3b45e4d9592fb928c8de6caaa70c9486031f5be5efdce6b3b71602c3ea07d1"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/powershell_check.txt",
+      "bytes": 5231,
+      "sha256": "43311fe663c7da24d82989ca8b44e9beabe58c438f30196f387a4b1ec52b0684"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/powershell_check_final.txt",
+      "bytes": 5060,
+      "sha256": "04fe21b9332bdacb473616d9a6839bf5ecb9ef98af5e77b5babe88abcbd716f0"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/receipt_failure_fix.json",
+      "bytes": 610,
+      "sha256": "241eed3817329eb3e255af96cf66a9004355d29aa629c0a346bc865d25e180be"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/tdd_green.txt",
+      "bytes": 3576,
+      "sha256": "e7551073254dee35d0dd29da90b741c34d125bb32c4dd8feb55f587bbe2a52ce"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/tdd_receipt_failure_green.txt",
+      "bytes": 3576,
+      "sha256": "e7551073254dee35d0dd29da90b741c34d125bb32c4dd8feb55f587bbe2a52ce"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/tdd_receipt_failure_red.txt",
+      "bytes": 5877,
+      "sha256": "d0609f1e059c4ec82066c113568ae087bb28736cd8969d10f835503b7932e259"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/tdd_red.txt",
+      "bytes": 8974,
+      "sha256": "4fd891df83078e8addf62a99fb1dd7457b7f080f44c26f6d61c4b5c0d18ac831"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry/tdd_symlink_red.txt",
+      "bytes": 4401,
+      "sha256": "1d65a5d12d6bd72ebfe8a15c027e8467493f8b175985ce3cb63734ad65a0c51b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/check.json",
+      "bytes": 1050,
+      "sha256": "6b43059ef14c5c1ba3a52ed2e6190738b3b206c9616f8fa31927e54372321502"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/command_topic_info.txt",
+      "bytes": 46,
+      "sha256": "4eb324f0912a221cdb0edbac347210133a30828bf6c58c6250901d270f20decd"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/entry.log",
+      "bytes": 753,
+      "sha256": "2680c749c85fbc02b382552511d3153a02b010fa6a3bb56b3e5cb1c7398e3417"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/final_stats.txt",
+      "bytes": 41,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/initial_stats.txt",
+      "bytes": 41,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/render.png",
+      "bytes": 52615,
+      "sha256": "bbbfb598e24f5294c105405ac5505d5d673b4415c28cd0f995eeb18dd9069f64"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/ros_graph.stderr.txt",
+      "bytes": 105,
+      "sha256": "a709f97c94a94a41d6001b0af4cac44d7604b63d5d24fe66a69b0339b15b6701"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/ros_graph.stdout.txt",
+      "bytes": 441,
+      "sha256": "6ea6fed4fe94f8c51c1cfe349a3e0fb43ddd8bc71f793bfef5f1a2f65802cbde"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/screenshot.txt",
+      "bytes": 12,
+      "sha256": "46eeeedc969f106320d874ff0cb0c5c1ea169952665865f64b8f5318d626c8a3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/check.json",
+      "bytes": 1050,
+      "sha256": "eb4f6b117948795c99bfe654a0937be54e131ec380068f68886530e7dd25bde3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/command_topic_info.txt",
+      "bytes": 46,
+      "sha256": "4eb324f0912a221cdb0edbac347210133a30828bf6c58c6250901d270f20decd"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/entry.log",
+      "bytes": 753,
+      "sha256": "6ecf43d321b0f3d75699ea882bd53401f2bb5543ea55699c3a024a208a29b95b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/final_stats.txt",
+      "bytes": 41,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/initial_stats.txt",
+      "bytes": 41,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/render.png",
+      "bytes": 52609,
+      "sha256": "49c296607741ddb45ffc78f04a499327311e7e3ac5a5d54cfe6c96ca87e79a25"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/ros_graph.stderr.txt",
+      "bytes": 105,
+      "sha256": "965f7e918a900d3318d11693bf33023e83b2b9c4c8b130d95fce1080dd084fe1"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/ros_graph.stdout.txt",
+      "bytes": 441,
+      "sha256": "6ea6fed4fe94f8c51c1cfe349a3e0fb43ddd8bc71f793bfef5f1a2f65802cbde"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/screenshot.txt",
+      "bytes": 12,
+      "sha256": "46eeeedc969f106320d874ff0cb0c5c1ea169952665865f64b8f5318d626c8a3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/environment.json",
+      "bytes": 3927,
+      "sha256": "58c5da2f3ec2c56ee3f6fa15c7bf05fae2cad14e0717a6691eb147118668a842"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/check.json",
+      "bytes": 2562,
+      "sha256": "4142024cecc0f2e139bc9ea503f88100c3cbfc905ffd0783f0465e5204de911a"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/command_topic_info.txt",
+      "bytes": 46,
+      "sha256": "4eb324f0912a221cdb0edbac347210133a30828bf6c58c6250901d270f20decd"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/final_stats.txt",
+      "bytes": 41,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/initial_stats.txt",
+      "bytes": 41,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/ogre.log",
+      "bytes": 24158,
+      "sha256": "8c35324766d30c89e87c8ec42e5b54e3cb54ee4bbda60c1a822a6b919cf3b38f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/render.png",
+      "bytes": 39523,
+      "sha256": "e8e8e619878622e4fe4c7bc71dd94d7bf70370622451c6caa0c7261997bd94c3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/screenshot.txt",
+      "bytes": 12,
+      "sha256": "46eeeedc969f106320d874ff0cb0c5c1ea169952665865f64b8f5318d626c8a3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/sdf_check.txt",
+      "bytes": 7,
+      "sha256": "581e1adf70bd048b67b37b74d7e86c4914095ff3f6ca4164e452e18465907d34"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/startup.log",
+      "bytes": 10991,
+      "sha256": "8458f98283211cfe05086dcccea7640b7c40658c7635ff50ba193987c2a902f6"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/check.json",
+      "bytes": 2562,
+      "sha256": "71a334db174381ca4e9480d3719190507948387cd548f2f426bfe7084aa4bb39"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/command_topic_info.txt",
+      "bytes": 46,
+      "sha256": "4eb324f0912a221cdb0edbac347210133a30828bf6c58c6250901d270f20decd"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/final_stats.txt",
+      "bytes": 41,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/initial_stats.txt",
+      "bytes": 41,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/ogre.log",
+      "bytes": 24156,
+      "sha256": "c82101488ac56be686ff0aa443e065414fc479ec839fb1d9b08c6affa83f839b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/render.png",
+      "bytes": 49044,
+      "sha256": "6dc40469d8c970c75b1897dfdea64749ebcf5fb8facf94853935895c0c7486a5"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/screenshot.txt",
+      "bytes": 12,
+      "sha256": "46eeeedc969f106320d874ff0cb0c5c1ea169952665865f64b8f5318d626c8a3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/sdf_check.txt",
+      "bytes": 7,
+      "sha256": "581e1adf70bd048b67b37b74d7e86c4914095ff3f6ca4164e452e18465907d34"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/startup.log",
+      "bytes": 10991,
+      "sha256": "b0310f2afb302d748713d92d16e30acade53afe4ed3016804656d1fa4085c5a9"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/check.json",
+      "bytes": 3989,
+      "sha256": "0d71d915db0cd57bad596385be7b7e1cb2be9b05f9d543a05f397b8087b92947"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/depth_preview.png",
+      "bytes": 2312,
+      "sha256": "df6d6081acc489482d74f534d38af5f747306d3d266f6a05bc9ba7107363236d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/native_observer.log",
+      "bytes": 645,
+      "sha256": "10e1dfbc74fe12a0c4ba45879177dbbcdbeaf9b699ca124c014d113158c25a9f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/rgb.png",
+      "bytes": 5880,
+      "sha256": "492fcc426181ae7b3f41e133fa3de5c440119962acf68f1ce31c88c6b031b175"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/ros_check.json",
+      "bytes": 2356,
+      "sha256": "fb006e904f4ba4201446d0cbddf64833b429ec86186203b7110c6b6456ff114e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/ros_launch.log",
+      "bytes": 6450,
+      "sha256": "d2bb048591cb4da2a6dce0a0b9cea8f86411d0f75b88e3d2c6b5ee305ccf35bc"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/ros_observer.log",
+      "bytes": 1750,
+      "sha256": "f48ac05b2dd70c89a7169c6a7e62fa62d3ebf57228ad1270d46669df853469da"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/server.log",
+      "bytes": 5278,
+      "sha256": "ba92eb5f09449910540eb8958ffd1e0bfc9e9e253ae685d70f237c5de6491328"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/static_full.sdf",
+      "bytes": 27164,
+      "sha256": "c072ca30f2da79e8263b3f5bf2d2e69eddecc65caeced202479c2bd57142f18f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/body_shell_comparison.png",
+      "bytes": 301345,
+      "sha256": "45f347c17b71955f133ff08a8ba78f955e19fac3b3268e3f474b1437a6a6334c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/body_shell_side_planes.json",
+      "bytes": 4169,
+      "sha256": "9d81df8ee5e85cf80752ec4ce6987f8d741f50dd1cf7dfb7e5d7e07881a8ae95"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/original_shell_largest_faces.json",
+      "bytes": 8642,
+      "sha256": "2ecbf71b1c4aa679dfd5208d9a331415a62392e8e6de99a7d38a443402608e28"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/reproducibility.json",
+      "bytes": 1005,
+      "sha256": "b7cc0f4ef148673bce8cb6c25de17a4435d13f3acb9f4ecc9e01be4488fe8502"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/self_review.json",
+      "bytes": 8300,
+      "sha256": "12f0833812d7109fdfe182e5e575bcbf973d04fbc35f4c06d485c8d8d452b193"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/static_cad_preview.png",
+      "bytes": 633215,
+      "sha256": "d35a2bf4da232afbe25d7e8cf44a395ee9399834c43b20254e0197e509fb54ba"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/test_detail_inertia_red.txt",
+      "bytes": 2507,
+      "sha256": "ad5ae459e3d257f26f0eb242a2e26fd7c405ba27c1823fb7dd95f63bfc00c96b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/test_green.txt",
+      "bytes": 1786,
+      "sha256": "6c8a2d3551dae7c41030008e7754a80822956c2f78e9cf28675bd6d78c14eec6"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/test_red.txt",
+      "bytes": 8453,
+      "sha256": "1f69e6fb92fc41c8b0cfce7550433003a3679c22cec7366aefc19fd0befaef96"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/base_link.STL",
+      "bytes": 6452284,
+      "sha256": "2b3a9368436ee48505a9e48119f63be612407eb91a05a60e264248deded5f0cc"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_left_wheel_link.STL",
+      "bytes": 1823584,
+      "sha256": "a526ac8125c90f044c4977f659d050793a009197bb067ea9fe91c02b4cf9028a"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_right_wheel_link.STL",
+      "bytes": 985784,
+      "sha256": "1a644b2ef550172ac8b255b84b6e30a39794fdf6680653698fdbee069beb91eb"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_steer_left_link.STL",
+      "bytes": 2672184,
+      "sha256": "091c1b863b790224b9affe5003f0fa79190d37bf037c69ffac4aa6b8f872a31f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_steer_link.STL",
+      "bytes": 99284,
+      "sha256": "0299944ec73b0eff29b6d9887b4cb01ecce87d7a0a652a92ce6a8df783764c64"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_steer_right_link.STL",
+      "bytes": 1546284,
+      "sha256": "5ed51bb9cda08f6940439761abf24bdf6950e37f6579d99880c320fc9b294db9"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/left_rear_link.STL",
+      "bytes": 1465484,
+      "sha256": "93cc252596d2d82947997694fd38299ec4733a49992e54f6bbac1c75f1f7b80f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/rear_wheel_link.STL",
+      "bytes": 156084,
+      "sha256": "f7db6f63c3fb6f19385af49b4468d09cf23ff22ba807d39a87361e545f24bebc"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/right_rear_link.STL",
+      "bytes": 1834384,
+      "sha256": "220aba23b544d543b49305bd1ffc9b0f62223f2b38f88b6c8b738f4dcb00b996"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/package.xml",
+      "bytes": 896,
+      "sha256": "142d5ae04f0b4225cfc79ba1802bfe89b5b6efe5fc0bd5cf6e0676ad897d5c11"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/urdf/hunter2_base.urdf",
+      "bytes": 11330,
+      "sha256": "8cd98f8a5ae69b633798f1d808a7c913a4506e72c863ef11c266f21277383201"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/ros_interfaces_tdd.md",
+      "bytes": 959,
+      "sha256": "6d7b32c428c45f131e421c04ad558772458604a8bfb94c3a7e935b6399ff94fa"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/scene/check.json",
+      "bytes": 2757,
+      "sha256": "2e05bdd4c769b901a4ebed8cc89689d5fe66d44b806771ec006c310c3916eceb"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/scene/report.md",
+      "bytes": 6101,
+      "sha256": "0daac29703bb9673638fc133a442e086c13df32dbdbb4b3fdfa9fcab3d8449ad"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/scene/tdd_camera_pose_red.txt",
+      "bytes": 5141,
+      "sha256": "af93ddc7faffdfa8bc297cd5583295a4bc75d4da5f73f974a7de516d8b6a3f30"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/scene/tdd_green.txt",
+      "bytes": 4402,
+      "sha256": "374106e5bc1fe84b72ea2ee948132ef1cfe34009720a980cc821f260f04b0e63"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/scene/tdd_hardening_red.txt",
+      "bytes": 6334,
+      "sha256": "c45b588de58ec1c381d8f1c7b15c1f414f874fa27f12a14daad64c0900852c2f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/scene/tdd_pose_reference_red.txt",
+      "bytes": 5206,
+      "sha256": "6da242f4afc51798a9a71ee8aa4777b9a935be4d6e58d4268fffaffbc956876d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/scene/tdd_red.txt",
+      "bytes": 15338,
+      "sha256": "406d48382385f83ff5d8d5b05b2d96fe18efc613f00ee20045ca129d80b85276"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/check.json",
+      "bytes": 1180,
+      "sha256": "36329b432c4674588a7af351f10113a21c41fbc8dc23a8951fea1b491f48ac2f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/observer.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/observer.stdout.txt",
+      "bytes": 464,
+      "sha256": "0e7d7e089d4cf8dc5ab31d3fe231b5b336a38f43d05dfa396d34510a2aa7ce06"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/probe.sdf",
+      "bytes": 2670,
+      "sha256": "9f45075772ae582e344123844f090ba0fa27938f28449ec0455904239384aa48"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/server.log",
+      "bytes": 7600,
+      "sha256": "1b120cbf55a928977cee597d84fe4b0cd3d3d9ec063c99739a73e420241a42d6"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/topics.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d/check.json",
+      "bytes": 1321,
+      "sha256": "ae651fdfd992fe12ad5f7983102afbc1f7e2d80fe7258e2eaa960cd4d383b5e6"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d/observer.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d/observer.stdout.txt",
+      "bytes": 607,
+      "sha256": "3429149cef0eec4af2ba9c2a31888a8c36e549f3ecfbab3068a7ebaebb6cb76c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d/probe.sdf",
+      "bytes": 2669,
+      "sha256": "033197dd196b14cb3c27fa958f1aace8abde0a4c599207eca7f5bf7db05aa7b3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d/server.log",
+      "bytes": 4873,
+      "sha256": "0654ae551fe3717ff57371fb80c68f619eb42dffbac36406a8f4ee0be13e9a56"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d/topics.txt",
+      "bytes": 444,
+      "sha256": "179c893a7471666354b2b0d24b60fbcd1a2e93290c45b8b94077ff9ec795fedd"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/ca48a86a9c3c/check.json",
+      "bytes": 1351,
+      "sha256": "9c51256ce2f748b7bd809d7d0c06c1c11ccb871524080c02f2e283fd27dd1aaf"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/ca48a86a9c3c/observer.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/ca48a86a9c3c/observer.stdout.txt",
+      "bytes": 637,
+      "sha256": "e93ebc189be3764a0138dd0d7cdb2510a4940291cc184ac4420cc3bf839b72ac"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/ca48a86a9c3c/probe.sdf",
+      "bytes": 2861,
+      "sha256": "97390a3ef88272f988784b96f279b0f207b8404d7cfe75abb1313aa6b748db03"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/ca48a86a9c3c/server.log",
+      "bytes": 4873,
+      "sha256": "dbced8a9e1595f7b927c7265dbc704666a0df54f08a596a0af5914d877347013"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/sensor_probe/ca48a86a9c3c/topics.txt",
+      "bytes": 444,
+      "sha256": "179c893a7471666354b2b0d24b60fbcd1a2e93290c45b8b94077ff9ec795fedd"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/gazebo.log",
+      "bytes": 10991,
+      "sha256": "eea6b24f7e61df26990c5350f9a68064ad00f8d0a935f4e748b2b99edc5c9132"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/ros.log",
+      "bytes": 6317,
+      "sha256": "ecbaaa37344d9d0f05ca71c45cb2cea0c51042d511b0902206691ad473a880f5"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/ros_internal/2026-10-30-15-18-16-389840-DESKTOP-P717CH9-440/launch.log",
+      "bytes": 1265,
+      "sha256": "4043a2d02e07e02e8cea75360d7db7bdec416770e0546f0f6efd8449c8a6f2f9"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/ros_internal/parameter_bridge_459_1793344696657.log",
+      "bytes": 1802,
+      "sha256": "2b7c42490ed9ada43818cca060b81559a862146aed9e3e232c10c14eced92c48"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/ros_internal/pointcloud_to_laserscan_node_463_1793344696608.log",
+      "bytes": 71,
+      "sha256": "f34d6140656b4e55db23300a4360da3a99e5e77aa9c0224e400004c6265e36b4"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/ros_internal/robot_state_publisher_461_1793344696608.log",
+      "bytes": 2022,
+      "sha256": "dc198c486007fd265ac5c2edb238e03bcf6212848186392f9cd3a20d546fee04"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/services_before.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/session.json",
+      "bytes": 7207,
+      "sha256": "f463eb7c1e69a807cc81b3c39c0c1e522cf0a02199aa2d0962b89936b06ed9c7"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/gazebo.log",
+      "bytes": 10991,
+      "sha256": "eea6b24f7e61df26990c5350f9a68064ad00f8d0a935f4e748b2b99edc5c9132"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/ros.log",
+      "bytes": 6233,
+      "sha256": "1ba30f157256ee1f38870cf68adbf0c1212924cdef713c6f3de72e627b3826eb"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/ros_internal/2026-10-30-15-23-56-626429-DESKTOP-P717CH9-488/launch.log",
+      "bytes": 1162,
+      "sha256": "3b83680f796dbaef60282c55f88ff3aeeb134c9e731106f8ba9d49868b07f49f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/ros_internal/parameter_bridge_507_1793345036881.log",
+      "bytes": 1802,
+      "sha256": "07c49750d1a6232a05eb9b02e7959785a8d89dc625ba378e3b18be86f1bf5789"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/ros_internal/pointcloud_to_laserscan_node_511_1793345036826.log",
+      "bytes": 71,
+      "sha256": "1e67949aaa25b713776ec3e062b4116e2b7b0d1332a0f97c8c9c0ab1fb765272"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/ros_internal/robot_state_publisher_509_1793345036826.log",
+      "bytes": 2022,
+      "sha256": "4522f42ee2b4ab5c10b2ba0a8e629fd8670af06203e233313f72f82170b29ab6"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/services_before.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/session.json",
+      "bytes": 7207,
+      "sha256": "04218c172a8589215a07fbf91c304d47ff023d314a9752347ffff4a5a41f2b46"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/gazebo.log",
+      "bytes": 12144,
+      "sha256": "4d3f4c601deec1ab36c5b28fe2ab58bf2d6df7a925bf812127de3bdcf91f6f4f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/ros.log",
+      "bytes": 6233,
+      "sha256": "03dc024592085f13896978c2125e17d58d4b0e3e8a1e69cad45820a396aa3884"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/ros_internal/2026-10-30-15-37-28-621619-DESKTOP-P717CH9-467/launch.log",
+      "bytes": 1162,
+      "sha256": "baed52a7ddc6fa9e2ed8c1520914c1ace1c8cb21d0b7c5f8bd5a5e471798b308"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/ros_internal/parameter_bridge_486_1793345848998.log",
+      "bytes": 1802,
+      "sha256": "f3d4599ba64e694f163b8abe5f7ccde353c598e42674290c797e8a6cddf7a555"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/ros_internal/pointcloud_to_laserscan_node_490_1793345848909.log",
+      "bytes": 71,
+      "sha256": "9492d49056f762f21fb37cc543e7f26135e7bb24c52e8310720c7eb284614b31"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/ros_internal/robot_state_publisher_488_1793345848909.log",
+      "bytes": 2022,
+      "sha256": "f919dd56e01b12a100a264663373190ecb7356eb30ca20f12919fae82f121c92"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/services_before.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/session.json",
+      "bytes": 7214,
+      "sha256": "4dae3eb0fc1451c9525943d6eccfcd527dce06cd8c53691e4838b1b2f6c2fe89"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/reviews.md",
+      "bytes": 2636,
+      "sha256": "53e735166ea17256763ddce5775e38ce4889327fb28c6a78c05ec0b9b3a474d8"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/sensor_observer.cc",
+      "bytes": 4021,
+      "sha256": "8c7b6303506774fb9cfcde5deec1d0d23972bf6f18a54f4879f18faa930b9a35"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/task_plan.md",
+      "bytes": 6856,
+      "sha256": "1cfd043cd57c6ba0054888cae804f5cc8c9ee114258b88a8580ce060743e4ae7"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/verification.json",
+      "bytes": 3135,
+      "sha256": "d44e4f40728956d2e467b9d05a4ea779b1670c4e7937c1be1ba26c1c71866e61"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/verify_full_entry.py",
+      "bytes": 5328,
+      "sha256": "ea8cb810e28533a76833979862cdc7e00454053a2aeedfd1ea49cc3c4bc15d5d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/verify_full_sensors.py",
+      "bytes": 4547,
+      "sha256": "34f86eb409934b535851fa5fc10d47dd47a2728afb510d8710c1e9d87bc1c4ac"
+    },
+    {
+      "path": "项目增量/outputs/hunter_model_upgrade_20261030/verify_paused_full_preview.py",
+      "bytes": 5835,
+      "sha256": "29f1ccb615359f7a8282127a9842d837c81d6eab63075e8abd214fa60f92bac2"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/append-render/slide-10.layout.json",
+      "bytes": 4379,
+      "sha256": "f7dd82f85454b04a1782dd7fe0a59ef0f770536a62232fe58d06c4405706cca3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/append-render/slide-10.png",
+      "bytes": 383239,
+      "sha256": "524227fe43583a777a6ef5fd90622d4b53ff056a0a2837008c1f1bb92e03a7d9"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/append-render/slide-11.layout.json",
+      "bytes": 4250,
+      "sha256": "b9218ea90bfa4987b0fba9977062b2c92472c24c2a03edc434ed8e7e4106267a"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/append-render/slide-11.png",
+      "bytes": 297609,
+      "sha256": "b1ac0f873ed7de2d40b0df333ebc7142094f7a8c30b1a43eda662dd4aab80cdc"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/append-render/slide-12.layout.json",
+      "bytes": 4385,
+      "sha256": "f314d56e4fe4ff912cd578fdec3fc9fb6f391c5eb09fd6900d97dbe4d072b14e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/append-render/slide-12.png",
+      "bytes": 487103,
+      "sha256": "e28fa11e84b79434f87394b18dd0bf35c1bb81cdaaecfee4017ff97720fe94af"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/append-render/slide-7.layout.json",
+      "bytes": 4357,
+      "sha256": "a5517133123ea9c9b2bef012e68411e0d75d01c75bf02e21a3c5c21d311a5112"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/append-render/slide-7.png",
+      "bytes": 428804,
+      "sha256": "240e767f7fc968e7aba9311cba9a628b7fbbd7b19d48582ff6b6f3bf2c2f112c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/append-render/slide-8.layout.json",
+      "bytes": 4311,
+      "sha256": "dcd07a76ea394bae242401ccf5633b472f8deede706210925b3ca2a88e47906e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/append-render/slide-8.png",
+      "bytes": 458649,
+      "sha256": "2474cec3bc107764c8ebb8cfc8a14eee35034e8c20ae39ab68e8238653366404"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/append-render/slide-9.layout.json",
+      "bytes": 4398,
+      "sha256": "235380508dcfb191f9d9bc723f8d2e5cb0d3591c7f8234012458f6533f41b487"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/append-render/slide-9.png",
+      "bytes": 375770,
+      "sha256": "b0f42f042120571bfee74b2775cc0b4d286842344eac0ad0e3d8530306b4d92b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/build_append.mjs",
+      "bytes": 11531,
+      "sha256": "6c00b0c84ff2658d7f20dad797c30d80b8e1a55fd9a1b081b49ec68b0938deb8"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/candidate-preserved.pptx",
+      "bytes": 2934188,
+      "sha256": "5aba27e6d14e3b378ebd60fc8fbaf5aa46356577cfb07c7c33c930fc3605853d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/combined-artifact.pptx",
+      "bytes": 1411952,
+      "sha256": "5f0cad49cc9b5a0f2380187bdd2d7f48a7db2e6a6afead60bc87cb6efefc6028"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/combined-artifact.pptx.inspect.ndjson",
+      "bytes": 67292,
+      "sha256": "106b138c255b6974ea739223dedaae44cad94a06a4976dca27376b07ccb2cf14"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/combined.json",
+      "bytes": 16607201,
+      "sha256": "bc16698158790c32df826f317d81eb07b197aeafb75c0ed47bcec3ef9200e71f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-render/slide-1.png",
+      "bytes": 119442,
+      "sha256": "9847ebed93ad42457688f8806351cde4e1b1c0375bc9d66df70352ca0e939698"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-render/slide-10.png",
+      "bytes": 383239,
+      "sha256": "524227fe43583a777a6ef5fd90622d4b53ff056a0a2837008c1f1bb92e03a7d9"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-render/slide-11.png",
+      "bytes": 297609,
+      "sha256": "b1ac0f873ed7de2d40b0df333ebc7142094f7a8c30b1a43eda662dd4aab80cdc"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-render/slide-12.png",
+      "bytes": 487103,
+      "sha256": "e28fa11e84b79434f87394b18dd0bf35c1bb81cdaaecfee4017ff97720fe94af"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-render/slide-2.png",
+      "bytes": 624195,
+      "sha256": "cef62c2e2f0a0c010b5e769e0ea90a78fdc8174b9031d2ae6ab1ada6a5d501fe"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-render/slide-3.png",
+      "bytes": 289183,
+      "sha256": "9bfbd53b3d18a56843c47ce0f12fc9e1c468d642074715aafa13762547561440"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-render/slide-4.png",
+      "bytes": 488025,
+      "sha256": "a5b96df58ebe0ba36488c7f60aa34662f8bcd7d56504325093991d32891bbfbc"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-render/slide-5.png",
+      "bytes": 568098,
+      "sha256": "257f1e2ddf564cd147fb185f0fc4fceb5faa9e0dadebfba71bb046650a2cf814"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-render/slide-6.png",
+      "bytes": 156122,
+      "sha256": "9f271cd1b5f28c5fae7904099d96e0915a4646cac83680280f88db688a020fcf"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-render/slide-7.png",
+      "bytes": 428804,
+      "sha256": "240e767f7fc968e7aba9311cba9a628b7fbbd7b19d48582ff6b6f3bf2c2f112c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-render/slide-8.png",
+      "bytes": 458649,
+      "sha256": "2474cec3bc107764c8ebb8cfc8a14eee35034e8c20ae39ab68e8238653366404"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-render/slide-9.png",
+      "bytes": 375770,
+      "sha256": "b0f42f042120571bfee74b2775cc0b4d286842344eac0ad0e3d8530306b4d92b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/final-validation.json",
+      "bytes": 4132,
+      "sha256": "e5aaae2cd0f42078562da7cfa43c8028fbffad15c1d9e61716c25c35eb4ad8c3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/finalize.mjs",
+      "bytes": 1741,
+      "sha256": "bd25e1d245f011e2b78c5f9215e5589e8ed89d9b1e3b174dc5c68fa65d636cd2"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/inspect_source.mjs",
+      "bytes": 982,
+      "sha256": "c41cbdeb0750c790f1f2c467251887919719a8001ed41e602f61bea4d02584f2"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/preservation-report.json",
+      "bytes": 548,
+      "sha256": "1ac18e55985c38c68b7c86d296226a9a401f7b49efc537c90c9b87667829b84e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/preserve_original_append.py",
+      "bytes": 7591,
+      "sha256": "8880816484c61563cbf7eb6243845c1607ce36614f268097df588440df38d5c9"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/render_verify_final.mjs",
+      "bytes": 1052,
+      "sha256": "e836c154042c1dabd3075a2c4b849cde8f66c231ee115de6a0009ad7b58b34c6"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/source-inspection.ndjson",
+      "bytes": 26029,
+      "sha256": "8d9aabc76ae5348477e206c5d8aa64286c5cf8ec9e458b3dd822120a7bbfd68d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/source-render/slide-1.png",
+      "bytes": 119442,
+      "sha256": "9847ebed93ad42457688f8806351cde4e1b1c0375bc9d66df70352ca0e939698"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/source-render/slide-2.png",
+      "bytes": 624195,
+      "sha256": "cef62c2e2f0a0c010b5e769e0ea90a78fdc8174b9031d2ae6ab1ada6a5d501fe"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/source-render/slide-3.png",
+      "bytes": 289183,
+      "sha256": "9bfbd53b3d18a56843c47ce0f12fc9e1c468d642074715aafa13762547561440"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/source-render/slide-4.png",
+      "bytes": 488025,
+      "sha256": "a5b96df58ebe0ba36488c7f60aa34662f8bcd7d56504325093991d32891bbfbc"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/source-render/slide-5.png",
+      "bytes": 568098,
+      "sha256": "257f1e2ddf564cd147fb185f0fc4fceb5faa9e0dadebfba71bb046650a2cf814"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/source-render/slide-6.png",
+      "bytes": 156122,
+      "sha256": "9f271cd1b5f28c5fae7904099d96e0915a4646cac83680280f88db688a020fcf"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/.build/source.json",
+      "bytes": 18780766,
+      "sha256": "eba64a4a8654ded36717ec8abcef98176c13f708e0ef7233158925918df99cef"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_append_20261027/delivery/Hunter_Nav2_Weekly_追加20261027截图.pptx",
+      "bytes": 2934188,
+      "sha256": "5aba27e6d14e3b378ebd60fc8fbaf5aa46356577cfb07c7c33c930fc3605853d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_recovery_20261029/Hunter_Nav2_本轮测试与重启恢复命令.txt",
+      "bytes": 26199,
+      "sha256": "a7cad969c7a63fe5f1bf142f85cb353e220b1cff98d4fb4dfefe91bdc73c7ca4"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/author.mjs",
+      "bytes": 9094,
+      "sha256": "7761b1e7bd74e55d05c8f1b1dbb4d0a7950a8b32ae35a34be427f5a418d35452"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/candidate.pptx",
+      "bytes": 2103362,
+      "sha256": "5300b7687415347c540ea02263a58ed024bac0757266a573d5f339d296c2f8d9"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/candidate.pptx.inspect.ndjson",
+      "bytes": 50708,
+      "sha256": "bf6a12b13dff84fbbdb4c989d9d4903c3bbf849af4a22d3fa0080f091497c1e7"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/draft-01.png",
+      "bytes": 140788,
+      "sha256": "fba9417f3d67627e7cef955d2a8759a18e48ed7cf0e7e14d668d1157fc164446"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/draft-02.png",
+      "bytes": 405618,
+      "sha256": "c2033f91d1979141162ccb5c521a1939c05fa3e513f167bacc48fb33d233cd1d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/draft-03.png",
+      "bytes": 241705,
+      "sha256": "5b82a3ff6f93e9de9df168c0eec788913bab18e312cdacf33c415812fb484eee"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/draft-04.png",
+      "bytes": 337117,
+      "sha256": "eb17477864675fcfcbbec75da3f043fa6cb3ccb66c2c073ad8e266adb91539ad"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/draft-05.png",
+      "bytes": 373387,
+      "sha256": "ac2b810adbd998e50b425343aad4e15c5edd51ac36099e366c5263af5abe4a9c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/draft-06.png",
+      "bytes": 186018,
+      "sha256": "ec17f914068bd7bf4c9937eb9bd30a044ba5e8e359bb25b23a87a8720c4717ca"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/draft-07.png",
+      "bytes": 153649,
+      "sha256": "ebafebe7580d6e43d501f02a8d4693c5256c340767f95593f1b54a1d3362320e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/draft-08.png",
+      "bytes": 160683,
+      "sha256": "c11c540590049c73303ad319dba25b973af37c7fdb8b973ea857839951e1853a"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/draft-09.png",
+      "bytes": 178895,
+      "sha256": "ff4a893a2a3420400769c242628840ec7e9772cc7b62536e2711c1730405845a"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/final-01.png",
+      "bytes": 140788,
+      "sha256": "fba9417f3d67627e7cef955d2a8759a18e48ed7cf0e7e14d668d1157fc164446"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/final-02.png",
+      "bytes": 405618,
+      "sha256": "c2033f91d1979141162ccb5c521a1939c05fa3e513f167bacc48fb33d233cd1d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/final-03.png",
+      "bytes": 241705,
+      "sha256": "5b82a3ff6f93e9de9df168c0eec788913bab18e312cdacf33c415812fb484eee"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/final-04.png",
+      "bytes": 337117,
+      "sha256": "eb17477864675fcfcbbec75da3f043fa6cb3ccb66c2c073ad8e266adb91539ad"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/final-05.png",
+      "bytes": 373387,
+      "sha256": "ac2b810adbd998e50b425343aad4e15c5edd51ac36099e366c5263af5abe4a9c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/final-06.png",
+      "bytes": 186018,
+      "sha256": "ec17f914068bd7bf4c9937eb9bd30a044ba5e8e359bb25b23a87a8720c4717ca"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/final-07.png",
+      "bytes": 153649,
+      "sha256": "ebafebe7580d6e43d501f02a8d4693c5256c340767f95593f1b54a1d3362320e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/final-08.png",
+      "bytes": 160683,
+      "sha256": "c11c540590049c73303ad319dba25b973af37c7fdb8b973ea857839951e1853a"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/final-09.png",
+      "bytes": 178895,
+      "sha256": "ff4a893a2a3420400769c242628840ec7e9772cc7b62536e2711c1730405845a"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/final-inspect.ndjson",
+      "bytes": 40299,
+      "sha256": "9ee3fea12144dcf15010519181e9fde4e2e614f37f21edb75121e9f1c97da607"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-01.png",
+      "bytes": 140788,
+      "sha256": "fba9417f3d67627e7cef955d2a8759a18e48ed7cf0e7e14d668d1157fc164446"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-02.png",
+      "bytes": 405618,
+      "sha256": "c2033f91d1979141162ccb5c521a1939c05fa3e513f167bacc48fb33d233cd1d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-03.png",
+      "bytes": 241705,
+      "sha256": "5b82a3ff6f93e9de9df168c0eec788913bab18e312cdacf33c415812fb484eee"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-04.png",
+      "bytes": 337117,
+      "sha256": "eb17477864675fcfcbbec75da3f043fa6cb3ccb66c2c073ad8e266adb91539ad"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-05.png",
+      "bytes": 373387,
+      "sha256": "ac2b810adbd998e50b425343aad4e15c5edd51ac36099e366c5263af5abe4a9c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-06.png",
+      "bytes": 186018,
+      "sha256": "ec17f914068bd7bf4c9937eb9bd30a044ba5e8e359bb25b23a87a8720c4717ca"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-07.png",
+      "bytes": 305661,
+      "sha256": "013f1f5de5b25d7d9170e1dd1f88df79708521d930f0bcb7310faea396f476e4"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-08.png",
+      "bytes": 322655,
+      "sha256": "204fa9e15a0f997f1bb41b188233b28ed9b9ff78b25be7593a933482caa47fe9"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-09.png",
+      "bytes": 282818,
+      "sha256": "b6eb93ee68c044d4689a3a5ec1460e090ff5b4e5c9e09788bc129421f2999bda"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-10.png",
+      "bytes": 284219,
+      "sha256": "b6e2fdf5c8842956190b8063b587da20532ddf33d5942408e23be96080258568"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-11.png",
+      "bytes": 224646,
+      "sha256": "7a5afee0b04ce208ed14cda64178b9b12b2d5ea6250f22cd5af27adeeff0099e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-12.png",
+      "bytes": 336051,
+      "sha256": "674a8255286202dcf3f353abd01426f86a6c2ef550caa5a27c53f4e2915bd82b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/source-inspect.ndjson",
+      "bytes": 51033,
+      "sha256": "9c184122fda4b189430b870c22fc2b70ffb793b25d904278774b94908811a24c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/build/validation.json",
+      "bytes": 4089,
+      "sha256": "83ff34911320c3995424607f44e1ac16156c2929e48787ccc296306d51a67d28"
+    },
+    {
+      "path": "项目增量/outputs/hunter_nav2_refined_20261028/delivery/Hunter_Nav2_组会20261028.pptx",
+      "bytes": 2363920,
+      "sha256": "7f3635dfba80a7550833efd065008c4be90031eaacabecaa00500a2949b35786"
+    },
+    {
+      "path": "项目增量/outputs/hunter_pcd_to_2d_20261029/build_candidate.py",
+      "bytes": 12139,
+      "sha256": "8fa1a756ec16451d670f380d7a70679b2b99c90d0f2c5b8d269af2f306d2a7f8"
+    },
+    {
+      "path": "项目增量/outputs/hunter_pcd_to_2d_20261029/candidate_preview.png",
+      "bytes": 123732,
+      "sha256": "6aaa143d2819a35812b5877a5ca030a9b0553954755ffb45092daecbbab3c91a"
+    },
+    {
+      "path": "项目增量/outputs/hunter_pcd_to_2d_20261029/conversion_report.json",
+      "bytes": 4035,
+      "sha256": "36d1d71b1724a263b8151ba6ffabf6120ed3d09a0cd615e30412b27550a26e03"
+    },
+    {
+      "path": "项目增量/outputs/hunter_pcd_to_2d_20261029/lab_155236_floor_evidence_candidate.pgm",
+      "bytes": 986722,
+      "sha256": "8e7e37cb2a20fe4888af20434b56d80e4f4d8f188cd460b100eb6773ccbf0e8e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_pcd_to_2d_20261029/lab_155236_floor_evidence_candidate.yaml",
+      "bytes": 173,
+      "sha256": "e666079ce202d0a87c8941000d15e906e58d79d515d2d3dd928680acd68c001f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_pcd_to_2d_20261029/raster_evidence.npz",
+      "bytes": 115033,
+      "sha256": "26445c4d347460b53c32bc539bf660444145ba4a32498a2942d77f489e633ef8"
+    },
+    {
+      "path": "项目增量/outputs/hunter_pcd_to_2d_20261029/reference_denoise_review/comparison_report.json",
+      "bytes": 1417,
+      "sha256": "d2c12935175173bc5454c1c879d9a785b9fde9dddb0e7f1dc8e656d5ad939d82"
+    },
+    {
+      "path": "项目增量/outputs/hunter_pcd_to_2d_20261029/reference_denoise_review/reference_denoise_comparison.png",
+      "bytes": 124773,
+      "sha256": "b348f584b3b2cb060e17536229c7f544833f98e78ff1d56e261f2fa69866d1ee"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_camera_update/hunter_full_entry_manifest.json",
+      "bytes": 2021,
+      "sha256": "dd4eec6f9e9d3299ab7c40fba3c46e9b77d58d7e2a412d5da40ff11418052840"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_camera_update/hz_hunter_full.sdf",
+      "bytes": 29578,
+      "sha256": "c280d908e20224eea0a52ba9b2d4116fe9c484c8df05c502d1bd113ea9aaa991"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_camera_update/hz_hunter_full_manifest.json",
+      "bytes": 5444,
+      "sha256": "9e1947afb3409a1e293b7e2192d5d8bf506d2980209e594773e8641f0fbe8c89"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/hz_hunter_full_description/geometry_report.json",
+      "bytes": 29892,
+      "sha256": "905f060951607d641272c2d05c9af95103d1d65dc24ccd8bfa054bad701c33e3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/hz_hunter_full_description/README.md",
+      "bytes": 3339,
+      "sha256": "db6927256230998ad38e06a860489ebf8f07e129459eecd0649670f121073050"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/hz_hunter_full_description/source_manifest.json",
+      "bytes": 14511,
+      "sha256": "335c5f20cd4221651897f995acfebdd18a20adc63140c6b56aa3b59a9640565a"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/hz_hunter_full_description/SOURCE_NOTICE.md",
+      "bytes": 1627,
+      "sha256": "101805254e3f45e942651dc9aa5c36990a1c6be66a342288ee978a5ed951fd90"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/hz_hunter_full_description/urdf/hunter_full.urdf",
+      "bytes": 16844,
+      "sha256": "7050e9b11d861ef9d5792691363e76f2e274a94e72924cc3d5b790d69070132e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/scenes/hz_hunter_full.sdf",
+      "bytes": 29660,
+      "sha256": "c5e0a0e7a999be8eec129a2ccde388947dc748458e4878eabfb141fbb8f44c40"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/scenes/hz_hunter_full_manifest.json",
+      "bytes": 6929,
+      "sha256": "44dc78b6e8a45507015378c5ee165583dc1a4f73744d6847d07a9728bb28f0de"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/tools/build_hunter_full_description.py",
+      "bytes": 36130,
+      "sha256": "82f37e77604384351cbfb15552d5ca84f6efdd12a54a45fbb3a37b34cc4da2a8"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/manifest.json",
+      "bytes": 3064,
+      "sha256": "5e745afb4884ad258e4260359d7ccf6548f894d009a0bcfe3efc60c1b22585cc"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/outputs/hunter_model_upgrade_20261030/references/ament/hunter_full.converted.sdf",
+      "bytes": 19513,
+      "sha256": "84ac4ef56988c8bedef64bb49c5b37ee8ebe0920104747773e60142856d44734"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/outputs/hunter_model_upgrade_20261030/references/ament/hunter_full_lump_input.urdf",
+      "bytes": 15878,
+      "sha256": "b77e8cff67c4deb3105e4dcb00a731f618f859b2be95455f67b28ea0aa5511d7"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/CMakeLists.txt",
+      "bytes": 312,
+      "sha256": "d654680916c21d6f0b505188793a35f45f0ffa4bcd5b0c262cdca566432c8584"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/geometry_report.json",
+      "bytes": 27617,
+      "sha256": "a0f973a6dd0dc88d288863c3aa45592c0dea88ea783e54730e07af5be5cf0e5d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/package.xml",
+      "bytes": 520,
+      "sha256": "ee8d5fc820bfa2c91ba1b35481b8e2fb7444c3b43b1f133ed4b3fac6063dbc08"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/README.md",
+      "bytes": 3074,
+      "sha256": "c4327b327b2ef2b4209978f5cd060f0e42e670cc27dcb2cf8a666c43549b4188"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/source_manifest.json",
+      "bytes": 11697,
+      "sha256": "ed25683ac9c8acbf42222476afe89cf9fa6f4be984ade673f3dd40563b6fd7f8"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/SOURCE_NOTICE.md",
+      "bytes": 1311,
+      "sha256": "a12f54f082764c5602cdc334bca04f9925196a6f164d80477803e10d907723a1"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/urdf/hunter_full.urdf",
+      "bytes": 16839,
+      "sha256": "2010c1874b0c2bf1b35696394b4f90f8c7488f3eaade649d7cda19fb196310fe"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/README.md",
+      "bytes": 3868,
+      "sha256": "4c04e655fe7e9b09a8c0d69d6868cab84fda4980c3c3934a04fdddde4c572d2e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/scenes/hz_hunter_full.sdf",
+      "bytes": 29593,
+      "sha256": "e7cb471bfd1c0a3496ac59072ba5214239216b1b71e8bcb3317a28e234b4d74d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/scenes/hz_hunter_full_gui.config",
+      "bytes": 4507,
+      "sha256": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/scenes/hz_hunter_full_manifest.json",
+      "bytes": 6116,
+      "sha256": "00010d730416b8fd2727595fe7cc1381aba7237ec77c5e9aca432732078bf57c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/build_hunter_full_description.py",
+      "bytes": 35008,
+      "sha256": "98b9ac1f3d6125c48694c55e2cc8aad7a46818f275bc0494edbf5e1f07594460"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/build_hunter_full_scene.py",
+      "bytes": 10908,
+      "sha256": "135b4d410f21c11f3d0d6cc6b55deeeed17f303a75e2c0af872320a19e3047ca"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/check_full_entry.py",
+      "bytes": 11245,
+      "sha256": "58fab9bfa403e52fdc9ab4c5b5f08ea9a1c4ce5d226bd10e3f45398565a35908"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/check_hunter_full_scene.py",
+      "bytes": 33175,
+      "sha256": "1c45a4559ebf323164ddf97b22b5d022d7e9a9a20d13d2efeb15ceb9e9784bf5"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/hunter_full_entry_manifest.json",
+      "bytes": 2021,
+      "sha256": "1b50248e9a032d3fd85f0102624a622c3d867856b0836fafed4bdbb5c3b193e0"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/test_hunter_full_model.py",
+      "bytes": 15237,
+      "sha256": "06c0596d30cd67d07061ac57e9397e49181304eff45d577b5f50b0febd843bd9"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/test_hunter_full_scene.py",
+      "bytes": 17277,
+      "sha256": "dea56de0bd3e26a3c2b378bbe0037f95eb8363c9679cc3e251155d7a635216e3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/camera_projection_observer",
+      "bytes": 184976,
+      "sha256": "027c883374d9adaa02e1277b628b9b82f4d5c7503f5de520245d3207b5ee1b2a"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/camera_projection_observer.cc",
+      "bytes": 1887,
+      "sha256": "e8b91d89274a0d4ddd6ced8c840b5f3197cf612d3ca089e3307083c52bfe933b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/camera_ros_observer.py",
+      "bytes": 1581,
+      "sha256": "d63a72a1e932568423eccb6429de5c3d8eeb5f7a9038a06e9137e16fa90b5608"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/extrinsics_candidate.json",
+      "bytes": 2036,
+      "sha256": "5bac03cc4182bf257366d5ae2df5b4348b9cd8f122ee18255a45ab0c4d04ca4c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/model_build.log",
+      "bytes": 125,
+      "sha256": "051a00a7a1d4f594942385be31767a30de60163da81fb0121215ea043ad47c40"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/model_build_check.json",
+      "bytes": 349,
+      "sha256": "54b173f793674cae197444b25f8e79ef132df36cfbb7d2bcf87b9c3128afadb5"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/observe_mapping_ros.py",
+      "bytes": 12137,
+      "sha256": "e4fb3a21fafc9d4869319d8d348dc922d4a8a0288b483cdc4451c0f2abac9d6b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probe_camera_intrinsics.py",
+      "bytes": 10196,
+      "sha256": "4c46e5d93a273ce35dacb1c13b9626030044e12487c0cfa63981de2279838cec"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probe_camera_mapping.py",
+      "bytes": 12916,
+      "sha256": "68a398beaeea3dff2c97bd2f7886ec8a80e0bfbd28f59b40a6a6f4890e4df9a4"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/08fe962b5229/camera_info.txt",
+      "bytes": 669,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/08fe962b5229/check.json",
+      "bytes": 1861,
+      "sha256": "03253d718a988f7266867310ea2d4ae449dedc51ee4f802c49044f1c3dbc81ca"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/08fe962b5229/private_bridge.json",
+      "bytes": 292,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/08fe962b5229/ros_bridge.log",
+      "bytes": 390,
+      "sha256": "592992fad9276280b3c224ea2cc43324edaf2a558a0c70925674872106dece87"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/08fe962b5229/server.log",
+      "bytes": 5396,
+      "sha256": "6258bd6559a9225b9772e4f457cbedfc8e27a917654e46af422f8fe20356bb33"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/08fe962b5229/static_probe.sdf",
+      "bytes": 25420,
+      "sha256": "ea705f61f69ed0d2cb002e346547f872ac694e9a5eccb8d730af5c8fc1962ece"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/0a69d22f7717/camera_info.txt",
+      "bytes": 669,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/0a69d22f7717/check.json",
+      "bytes": 1179,
+      "sha256": "ada3084d7cf096737b705e0ecddc71fb030b710cc8031910ee868f6c6442af73"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/0a69d22f7717/private_bridge.json",
+      "bytes": 292,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/0a69d22f7717/ros_bridge.log",
+      "bytes": 390,
+      "sha256": "afa4db43a3269ecf2088370c5279d17d60c419399996fbbbe66a3e8838e00aea"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/0a69d22f7717/server.log",
+      "bytes": 5396,
+      "sha256": "41c80a436eaf620318e2eb5b1960e7750a43ec94368979bb64355d673edbe3d6"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/0a69d22f7717/static_probe.sdf",
+      "bytes": 25882,
+      "sha256": "5c07add7ea079fb98d94a91889b37fcf2cab7d2a71add883a3ba5a654c1d9899"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/2e5e7465b16d/camera_info.txt",
+      "bytes": 723,
+      "sha256": "1d339e1bc4a24b35d790779cebc197a091c485506cf60b4452a65e83085be84b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/2e5e7465b16d/check.json",
+      "bytes": 1185,
+      "sha256": "3b97c4019e3cb7be9e12ac72a062b03be83fb5ed3bdfae6d3ae913c8fcc7690b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/2e5e7465b16d/server.log",
+      "bytes": 5396,
+      "sha256": "1ff1353397563e3ca07d2dea46a0465ea990176417c0b785f27c879f0db84c8e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/2e5e7465b16d/static_probe.sdf",
+      "bytes": 26066,
+      "sha256": "ba55873553d84578800f0e8d45760c38e03e045942907ad1c7a0e9febf54d546"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/79bf9a610819/camera_info.txt",
+      "bytes": 671,
+      "sha256": "e114b931e7d1a31b7f7b345a1e197982ff74623660a3cb7583b03cecee0ebc80"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/79bf9a610819/check.json",
+      "bytes": 1912,
+      "sha256": "e38b45d8c46e533aa21f66e00c7a73e237f18d66c089ab15d7b3e133597515f5"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/79bf9a610819/private_bridge.json",
+      "bytes": 292,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/79bf9a610819/ros_bridge.log",
+      "bytes": 390,
+      "sha256": "01ed96e3f5f4ca82c14e73f631a5030be64f4b010fe8c751d0280df60842377c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/79bf9a610819/server.log",
+      "bytes": 5396,
+      "sha256": "83478f8ae1a3c17c3c80ed1c911aac3a521215a863e8871484b3eeb813dbef1a"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/79bf9a610819/static_probe.sdf",
+      "bytes": 25815,
+      "sha256": "398ee7d75ca57e81b7c76de0cff20ac738b6b683bd5ccf13aca3a007dbea3fdd"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/804d139cb210/camera_info.txt",
+      "bytes": 669,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/804d139cb210/check.json",
+      "bytes": 1220,
+      "sha256": "e5f586bc86e4d99ae01d1abe3bcc1c9303e0fc2b787842164ebd9351d0bfa7a5"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/804d139cb210/server.log",
+      "bytes": 5396,
+      "sha256": "e9095e97d43c177385187f2db715934df966dab60576f5a53ff30861649190c2"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/804d139cb210/static_probe.sdf",
+      "bytes": 25751,
+      "sha256": "c877b1fb02869adf0067b64fd6546a7ebbcba95805fa18b0efba4a7179ef9e0e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/8cc24a2d6c04/camera_info.txt",
+      "bytes": 723,
+      "sha256": "1d339e1bc4a24b35d790779cebc197a091c485506cf60b4452a65e83085be84b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/8cc24a2d6c04/check.json",
+      "bytes": 921,
+      "sha256": "95f86f726249e2191cf7ce212387bb759d0e3a07c756cc40d2502dc8359ab55a"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/8cc24a2d6c04/server.log",
+      "bytes": 5396,
+      "sha256": "acbac724b8deb5edb19e85dc84cf03402b6d6a64df79c9fe644f8a941a61c215"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/8cc24a2d6c04/static_probe.sdf",
+      "bytes": 26066,
+      "sha256": "84dbae1bad4b13cb91138f1b036fac5cfe4a8c5a6074664f38e6067e7c08229b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/camera_info.txt",
+      "bytes": 669,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/check.json",
+      "bytes": 1889,
+      "sha256": "8c0f8727f09298dde7c0ddb0e6c25ef64b11061cc861d148d24e9475d1dcb464"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/private_bridge.json",
+      "bytes": 292,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/ros_bridge.log",
+      "bytes": 390,
+      "sha256": "e2c026fc1bcdef292c32615afd6e3b3736d1d61b6e02ad70588afd6db771d900"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/server.log",
+      "bytes": 5396,
+      "sha256": "52f5600d8ae5c077ed21653dbce98f82443e4ac8470601a9d43834f201c88017"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/static_probe.sdf",
+      "bytes": 25865,
+      "sha256": "96b5f4a10ab9731e67d4a2b924a07c3b984c5f357824a12a36ced2bb84e7ad41"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/a2f8ec1feb3c/camera_info.txt",
+      "bytes": 669,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/a2f8ec1feb3c/check.json",
+      "bytes": 1704,
+      "sha256": "fb7fdcb78c4d7c349deb8f300f27151ef3838ba7f9a74554b1b7077914392fb3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/a2f8ec1feb3c/private_bridge.json",
+      "bytes": 292,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/a2f8ec1feb3c/ros_bridge.log",
+      "bytes": 390,
+      "sha256": "88fae86ec9d13bcd2a86438971952d8ed9e5cd68870741989db9c279e6956bea"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/a2f8ec1feb3c/server.log",
+      "bytes": 5396,
+      "sha256": "f274bfdfa33448bc715d4719e6a1b73fa21d88f2f31f62b6c0cf812ec031c50e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/a2f8ec1feb3c/static_probe.sdf",
+      "bytes": 25751,
+      "sha256": "37c35dd4bd868f82f37835578e7d0f4059443c3e4d49e19d836777da6b156ac8"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/a609e8c48186/camera_info.txt",
+      "bytes": 669,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/a609e8c48186/check.json",
+      "bytes": 1026,
+      "sha256": "751dd907bdd90ad7a5caa3b135775036303f403ecea2498cc3922fa39ac0051e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/a609e8c48186/private_bridge.json",
+      "bytes": 292,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/a609e8c48186/ros_bridge.log",
+      "bytes": 390,
+      "sha256": "25f739496eedda7912ce796498cb0e9b29ba9683646d75d99a1b1e8c5c7bdb82"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/a609e8c48186/server.log",
+      "bytes": 5396,
+      "sha256": "d0cd4f481db4cb42757e108850896d2c2c6fa1f046c802ecd9df6a8a2c886257"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/a609e8c48186/static_probe.sdf",
+      "bytes": 25808,
+      "sha256": "817eebd42e97a30b2478105492fbaeb9d3188dc6abb90b76c5537ee334ab0040"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/c8c29e6570ff/camera_info.txt",
+      "bytes": 696,
+      "sha256": "b3a5ecd1991cc0211ad75d843154c65c6042cd08a15bb3bd2b9b34771cbe4fe2"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/c8c29e6570ff/check.json",
+      "bytes": 1273,
+      "sha256": "fe4e2bd01531438ae67171951ed42e14d37f81e260c82e214644899d61c673c0"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/c8c29e6570ff/server.log",
+      "bytes": 5396,
+      "sha256": "e75243650e6f8dbd46750a1175d93b622a8b751809de4b327921335eda897944"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/c8c29e6570ff/static_probe.sdf",
+      "bytes": 25901,
+      "sha256": "a1c6d96ef46105dff362b33c3735937052fd852734c4f9d700d6d136d1faa901"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/cf41652d7deb/camera_info.txt",
+      "bytes": 671,
+      "sha256": "e114b931e7d1a31b7f7b345a1e197982ff74623660a3cb7583b03cecee0ebc80"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/cf41652d7deb/check.json",
+      "bytes": 1083,
+      "sha256": "26a1af2b27ee6026bc3a9aea12dee6a46ffec94e69e539e715a11d1850b4ef16"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/cf41652d7deb/private_bridge.json",
+      "bytes": 292,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/cf41652d7deb/ros_bridge.log",
+      "bytes": 390,
+      "sha256": "64a7008cf1e758f1bf86e152116d3a8462223faaa8ebbfe6bda7a2679262aff4"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/cf41652d7deb/server.log",
+      "bytes": 5396,
+      "sha256": "bae90b141725905e97331904b86a13214010a17d2d468dcf83e0e824c813c85e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/cf41652d7deb/static_probe.sdf",
+      "bytes": 25746,
+      "sha256": "25d6cc01f5afba43b20ad0bd1b2080aa5569b8dcf96e579766284c6b2fbd4f0f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/d145ceacbcfe/camera_info.txt",
+      "bytes": 669,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/d145ceacbcfe/check.json",
+      "bytes": 1798,
+      "sha256": "6713e97253e833f4194515a4c2ce9e5ccc8f8ed56d8d2a7033ab6aa3775763b6"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/d145ceacbcfe/private_bridge.json",
+      "bytes": 292,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/d145ceacbcfe/ros_bridge.log",
+      "bytes": 390,
+      "sha256": "d5094083280377f089b8fd89697c7342980930be9b7d1328b793b14c6be16fab"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/d145ceacbcfe/server.log",
+      "bytes": 5396,
+      "sha256": "6713b10e634d3790839e8cd62711aa7656ed8c16127dd7aa727b6cf0ab0022ca"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/d145ceacbcfe/static_probe.sdf",
+      "bytes": 25749,
+      "sha256": "80a086b20573e8614c59fc23802c6a797953a4db95952a807876904359bef36c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/d80a19ec3b15/camera_info.txt",
+      "bytes": 669,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/d80a19ec3b15/check.json",
+      "bytes": 1738,
+      "sha256": "c6221b6ad10d357418f7086cc34ad35f2cba6b56940f6c38aaf916a404185db5"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/d80a19ec3b15/private_bridge.json",
+      "bytes": 292,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/d80a19ec3b15/ros_bridge.log",
+      "bytes": 390,
+      "sha256": "edf274d1fdbdb30c63ff1f7f2f0dbeafe4c169d98606290cd2b23724dce10b66"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/d80a19ec3b15/server.log",
+      "bytes": 5396,
+      "sha256": "63ba307514cc91b56482c7a843db8616ba877e379a7c9fa4051fb193205d7dba"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/probes/d80a19ec3b15/static_probe.sdf",
+      "bytes": 25751,
+      "sha256": "4baed45d5c0fc7ad5e1d10d51cd2c8f29917ae0de2644aada05710353d79d0e6"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/README.md",
+      "bytes": 10020,
+      "sha256": "1ce1abf935b8a6dce5e427a5220fb6b6adfd82a8a85b266aadfa5c2f9809e370"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/check.json",
+      "bytes": 2797,
+      "sha256": "6ccbd1e5a48e9dbfa461e42226fcbc4c2d15395598a21c367f3a2489f66802ff"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/native_observer.log",
+      "bytes": 645,
+      "sha256": "3537da460cb0d70420beb3ad83990c0a69ff7c5a912d42cd05f76fcf16f4948f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/ros_check.json",
+      "bytes": 1202,
+      "sha256": "fbfc73c04d4c4761db1bd993a025c882a54337b69bebb0a663f878acd6df94d6"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/ros_launch.log",
+      "bytes": 6450,
+      "sha256": "8f155dddfd2109ace770b860f5ac9080744a3778755009a60ce70150c4c7f11d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/ros_observer.log",
+      "bytes": 1038,
+      "sha256": "4a272f8d1d18b10f43de3abe45007be5d98d674acb7824aa8c1a56951c524f49"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/server.log",
+      "bytes": 5266,
+      "sha256": "f0e336aae3c7bff42188f6a2b82a152884643375093d3adb2d7162b3fc5ddbfa"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/static_full.sdf",
+      "bytes": 27251,
+      "sha256": "bce824ea9d926ddb399619ed2ba626c1fb1e374fca9f536d645ffdfb7d1bc361"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/check.json",
+      "bytes": 2826,
+      "sha256": "5f694552add0a1a11c19cedd1359d43701069dec393f2d65c61329a65e5c617d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/native_observer.log",
+      "bytes": 645,
+      "sha256": "10e1dfbc74fe12a0c4ba45879177dbbcdbeaf9b699ca124c014d113158c25a9f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/rgb.png",
+      "bytes": 1950,
+      "sha256": "f01420102aa98fd5ad1a991bdead280571bdacd254f3ed59c15a2fb818991571"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/ros_check.json",
+      "bytes": 1231,
+      "sha256": "56be635e26e7bf934879a2f319cc3a2c50fbf198e7b6dc0d545e7aa2cbb8c39c"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/ros_launch.log",
+      "bytes": 6450,
+      "sha256": "280b67f8451e5d91c72d908388b331e5b3730b71805319becd4374eb9e2cf4fa"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/ros_observer.log",
+      "bytes": 1067,
+      "sha256": "db1edeb7ee1736357a73c6d3890d0ff3631df86a71f3f074b594b764aff422ca"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/server.log",
+      "bytes": 5266,
+      "sha256": "75477165c7346fd5665a36fea5cc19b5a221e0901af114ba5b969a2cb3f16c64"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/static_full.sdf",
+      "bytes": 27251,
+      "sha256": "6e4d585ec9ac2ca7cf6b2e86dc2e2413e7dfc365aed9f616e2901c01225a6866"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/check.json",
+      "bytes": 5188,
+      "sha256": "9de9d56ccc525a949853c7cdb299b71f80d21c708044253acede5643d64647fb"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/depth_preview.png",
+      "bytes": 2353,
+      "sha256": "e7b40c80033e4d93460e8c273c5c3524f2f6563bcec9d6778b45f3aa6f2a8e5e"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/native_observer.log",
+      "bytes": 645,
+      "sha256": "3537da460cb0d70420beb3ad83990c0a69ff7c5a912d42cd05f76fcf16f4948f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/rgb.png",
+      "bytes": 6656,
+      "sha256": "053983a19d109b95a3f0c0cabc83e983812cf5d783782359020467d3e410b2f6"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/ros_check.json",
+      "bytes": 3362,
+      "sha256": "bddc51e1f02083fac0e6b7dd3b18c0087efe38f6d4e72525e9d3c1224ec651c3"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/ros_launch.log",
+      "bytes": 6450,
+      "sha256": "f593e70067adf6420c9bab255dcab15dd4fc390f9edf9a9e5ec494aeda93b079"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/ros_observer.log",
+      "bytes": 2326,
+      "sha256": "cc4eaf2bfba60399749f2e4d60cff6a52fe489911e5bcd68c08789fe867ef1a4"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/server.log",
+      "bytes": 5590,
+      "sha256": "eb1bc07182ae9211995d5a61c33116df3f9417515a9e7381371ff12db35280e0"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/static_full.sdf",
+      "bytes": 27308,
+      "sha256": "293c4a1bf3942b00e7cec1569cc5faa0e657edbd1af17d33de374171be8037ef"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/sdf_convert.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/sync_personal_package.py",
+      "bytes": 5860,
+      "sha256": "42f038d077b78cdfb164258776b60cc625f0c37209c259e27c8b014a21abf9c1"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/task_plan.md",
+      "bytes": 4085,
+      "sha256": "03f20dfd2dc4ba065b49796df5ace627aee1ef1e41bccace01811ed76fb7bf7f"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sensor_parameters_20261030/verify_mapping_sensors.py",
+      "bytes": 4917,
+      "sha256": "818ee928429ab0b859805d9de9fa09eacd7e2cee8d99d685360c40dfa05640d1"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sim_execution_20261012/findings.md",
+      "bytes": 82070,
+      "sha256": "9529704b72e4567395c9446d5cbbe2d63dc58c7dbac7e0899238535b714efc8d"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sim_execution_20261012/progress.md",
+      "bytes": 37397,
+      "sha256": "8ef6b3e87fc2d9686cb1d06e2d32299c4a164fedb503ef496f904bdfed0d7a1b"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sim_execution_20261012/task_plan.md",
+      "bytes": 5041,
+      "sha256": "41e37b749225300b424557d2ce7bc28471db41e9bdcae9b299352043e90952c0"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sim_handover_20261031/仿真进度与台式机交接.md",
+      "bytes": 12576,
+      "sha256": "bad41e3f2f0f894d4a1c50ed6936cfde32666ab4628835b91217cb644da546f5"
+    },
+    {
+      "path": "项目增量/outputs/hunter_sim_handover_20261031/核心文件SHA256.json",
+      "bytes": 25824,
+      "sha256": "767eac0e8e77b66e7a42d85c3612d703857f43b97a804e80564b743fe8d8533e"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/global_script.js",
+      "bytes": 316,
+      "sha256": "784d4799b978771829f9b8ff889ac13eeedd9f94364e01aa06683be392fc4764"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/probe/cache.db",
+      "bytes": 32768,
+      "sha256": "f3f954ce4648f45efbd2265c94956ce126300a927eb45eb898aec51d6d1847be"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/probe/live_probe_receipt.json",
+      "bytes": 39,
+      "sha256": "bc4d53831aec59978f156d6d032d246e15510379a8c104a5cdf556a5629cb009"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/probe/private_global.log",
+      "bytes": 918,
+      "sha256": "13cfe1425ffe6554cd6b43cdfcf06aab698892711aaec23263bbdc7853234a77"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/probe/private_global.yaml",
+      "bytes": 222,
+      "sha256": "84b00d1b3395827a5cfbb0466e489944cf654568139d9258bce1ffcf27363f2f"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/probe/private_rule.log",
+      "bytes": 948,
+      "sha256": "555e5c80437bb89bfa1b63a6278df0f07b70aa3630d9bea398f344efbfec37b0"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/probe/private_rule.yaml",
+      "bytes": 220,
+      "sha256": "ee669821d1ce3290f717d95c76e7be3767b4a91d49f70d68b762dc8405c67869"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/probe/probe.yaml",
+      "bytes": 113,
+      "sha256": "b17956718145997f3f7db32cb35b5b4ab4adce97b194f09d505c076421de61dd"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/probe/test_process_routing.py",
+      "bytes": 4130,
+      "sha256": "09d15c9e5f70955fc2c5d9c81b69ce2f994aaf6d6010523b24ab29e1b23f5977"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/probe/test_running_core.py",
+      "bytes": 1904,
+      "sha256": "8eeb68e33064d93b24a5d09b35ee865551179e903ade2601cb1f14732ecfcd2b"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/profile_rules.before.yaml",
+      "bytes": 90,
+      "sha256": "dba97bbe30c1ac41866ca20ee679e39b1eda5718860c8520e813eaf3464cde08"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/README.md",
+      "bytes": 2094,
+      "sha256": "6d83fff010dc620624b1228eac96fbf2885f9e30d50b6feccac981e689928708"
+    },
+    {
+      "path": "项目增量/outputs/rustdesk_direct_20261030/Script.js.before",
+      "bytes": 96,
+      "sha256": "d60fb84abefb54e550bd1dead6ed16986b119d8b3890efd6f1ead9c6d151d45b"
+    },
+    {
+      "path": "项目增量/progress.md",
+      "bytes": 186216,
+      "sha256": "1b47b7b2e962a4e151b48c96442cc869f10d10f02453210b13040b5df7d2f8a7"
+    },
+    {
+      "path": "项目增量/robot_assets/car_sensor_config_20261030/camera_d435i_640x480.yaml",
+      "bytes": 277,
+      "sha256": "790333f3aa749400429f27d0fa0838662dc8c65e5ad6e64b96dfa9de8d183daf"
+    },
+    {
+      "path": "项目增量/robot_assets/car_sensor_config_20261030/source/ch104_imu_pub_legacy.py",
+      "bytes": 4638,
+      "sha256": "abcb19913c42d5133913b72754b2515f9740223a1726af6840c8651fc7f9ed52"
+    },
+    {
+      "path": "项目增量/robot_assets/car_sensor_config_20261030/source/LIVMapper.cpp",
+      "bytes": 57169,
+      "sha256": "1bbdae25fde516032de59371364960481f569fa67f21ab16fb7d6d07034409f8"
+    },
+    {
+      "path": "项目增量/robot_assets/car_sensor_config_20261030/source/vio.cpp",
+      "bytes": 68088,
+      "sha256": "5786aeca9a26c796953430d471d5428279a5590c084b07dc945647aa88048911"
+    },
+    {
+      "path": "项目增量/robot_assets/car_sensor_config_20261030/xt32_ch104_d435i.yaml",
+      "bytes": 6805,
+      "sha256": "bd5a59683e9ed914fab81af13af0306a75ab13d5091ce2e3465dad5fea93cb9e"
+    },
+    {
+      "path": "项目增量/sim/config/hunter_full_bridge.yaml",
+      "bytes": 2762,
+      "sha256": "921e4a113c5fedb09c968d75017831641977bc94ff46897b2fb8cbe0af74955c"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/CMakeLists.txt",
+      "bytes": 312,
+      "sha256": "d654680916c21d6f0b505188793a35f45f0ffa4bcd5b0c262cdca566432c8584"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/geometry_report.json",
+      "bytes": 30119,
+      "sha256": "78f0ab3f006b43bf9f8a6dda47cb815ab50efe9b037882123bfc5cbc11f77be1"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/meshes/chassis/base_link.stl",
+      "bytes": 6452284,
+      "sha256": "f1d21d0a1d52a9f1e42b91f2a5ee847e0bad71afdf4cc60749cdf92c78042638"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/meshes/chassis/front_left_wheel_link.stl",
+      "bytes": 1823584,
+      "sha256": "c0e938b3140b755e49350222f5c38375fa99ea6c5f4c3384f4cfbbc3181c22d5"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/meshes/chassis/front_right_wheel_link.stl",
+      "bytes": 985784,
+      "sha256": "6b92e06f9db14cbed62379e3619b017787b603df2a26e31e14ed3c2032d89d3d"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/meshes/chassis/front_steer_bar_link.stl",
+      "bytes": 99284,
+      "sha256": "89d0eb127ba67ed0876873080f04da1c1a587747d097de78322bcc7e7a5773d0"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/meshes/chassis/rear_axle_detail_link.stl",
+      "bytes": 156084,
+      "sha256": "cb4c7aaeeb77056d2cd8f903cb480ad594d0e1550a3066f0b1b4459e7a5d8fd6"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/meshes/chassis/rear_left_wheel_link.stl",
+      "bytes": 1465484,
+      "sha256": "6c912207b50d48a1b5b74bb68c0be696cdf6a6e0f227deb949aac27c74c40f85"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/meshes/chassis/rear_right_wheel_link.stl",
+      "bytes": 1834384,
+      "sha256": "d06fd72a84df26f205a657cc3f560563312677591b4d81add0b961a78f6cbe70"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/meshes/upfit/ARS548.STL",
+      "bytes": 51739584,
+      "sha256": "5350178d525c3f57828c1f820c572136ba1efcbbfe36ba01c00486727bdd8597"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/meshes/upfit/assembly.STL",
+      "bytes": 3911284,
+      "sha256": "ddd0fe5993af16aa1ee67845aca76170d21ef31e3fcce5fafed98458aa67f34c"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/meshes/upfit/d435.dae",
+      "bytes": 15782439,
+      "sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/meshes/upfit/G60.STL",
+      "bytes": 190684,
+      "sha256": "08adf459e9c2a79f2247169886aab8559e1632f22177db764635602d8105fb12"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/meshes/upfit/XT32.STL",
+      "bytes": 1536384,
+      "sha256": "8fd7cf0485509c97ca499ab0c7a3aaef5e43242b836cbd23395451577d06b64f"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/package.xml",
+      "bytes": 520,
+      "sha256": "ee8d5fc820bfa2c91ba1b35481b8e2fb7444c3b43b1f133ed4b3fac6063dbc08"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/README.md",
+      "bytes": 3667,
+      "sha256": "f14a0ca8b2392e8f100bc0fd948ade0775cd64d850794353833469ddb6b2123d"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/source_manifest.json",
+      "bytes": 14511,
+      "sha256": "b97a3803569e25544e772852b74df4b5f6e95d71076fd3aec8525a0c9eb1ed6b"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/SOURCE_NOTICE.md",
+      "bytes": 1627,
+      "sha256": "101805254e3f45e942651dc9aa5c36990a1c6be66a342288ee978a5ed951fd90"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_full_description/urdf/hunter_full.urdf",
+      "bytes": 16876,
+      "sha256": "24f4f2c7bd46e3e39b61d4b25d58ff12853f1623821c0927607bd7f6059fcea2"
+    },
+    {
+      "path": "项目增量/sim/hz_hunter_sim/README.md",
+      "bytes": 3910,
+      "sha256": "dad83427715251be06791a25e7c663528cab95a4b8f56083eb4e19c6ab4e735a"
+    },
+    {
+      "path": "项目增量/sim/launch/hunter_full_ros.launch.py",
+      "bytes": 1778,
+      "sha256": "bc4d2dad9bc0dd5a147b637be0684c0cfe4a4a7133e8b3f76913c944c40eeafe"
+    },
+    {
+      "path": "项目增量/sim/README.md",
+      "bytes": 4618,
+      "sha256": "228b7380a5e7b50e635b4c4f07183a7857a77cad3e9845d107dc83d653985c62"
+    },
+    {
+      "path": "项目增量/sim/scenes/hz_hunter_full.sdf",
+      "bytes": 29717,
+      "sha256": "4ab489805f894679f413664e3d9175d752bb9be3eb813da30c8985eb80562c63"
+    },
+    {
+      "path": "项目增量/sim/scenes/hz_hunter_full_gui.config",
+      "bytes": 4507,
+      "sha256": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc"
+    },
+    {
+      "path": "项目增量/sim/scenes/hz_hunter_full_manifest.json",
+      "bytes": 6929,
+      "sha256": "71e062bb17337f15df09252adc2f7cdbe1272ecc3da5bb9da14ec1d7aa896d26"
+    },
+    {
+      "path": "项目增量/sim/scenes/README.md",
+      "bytes": 6802,
+      "sha256": "ac6fa83c739eafbca1fe2d075dd6eb83ed5bb289ad83520e0c41efe18a44fd1b"
+    },
+    {
+      "path": "项目增量/sim/tools/build_hunter_full_description.py",
+      "bytes": 37643,
+      "sha256": "5c3c376153f1a5a3364cc21c0e4c1cc267651f2b3eeeffa51ac761ae3def8c13"
+    },
+    {
+      "path": "项目增量/sim/tools/build_hunter_full_scene.py",
+      "bytes": 10952,
+      "sha256": "53cc207c0e1b95e6387f5500217e939d0910c0bcd2545d3f8ac7ed03cff6c746"
+    },
+    {
+      "path": "项目增量/sim/tools/check_full_entry.py",
+      "bytes": 11287,
+      "sha256": "ec06d3ed83cf0ea9c051dfb4af2c7d5a67a813247a5e045c180eb1dd9ebd3dfb"
+    },
+    {
+      "path": "项目增量/sim/tools/check_full_ros_interfaces.py",
+      "bytes": 3504,
+      "sha256": "be1300defc6c37327051e46450074887060b5de35ca517a462034aab88760439"
+    },
+    {
+      "path": "项目增量/sim/tools/check_hunter_full_scene.py",
+      "bytes": 35189,
+      "sha256": "b98c5c8e0841f313520f5b0dffdc334a31758083e6e639070a9d26034cff1b51"
+    },
+    {
+      "path": "项目增量/sim/tools/full_scene_session.py",
+      "bytes": 10403,
+      "sha256": "9ccaf17f1b9ee13fc10b9e82b1b415c71911fc8b51a0c751e6ad9d19f1dcaaf5"
+    },
+    {
+      "path": "项目增量/sim/tools/hunter_full_entry_manifest.json",
+      "bytes": 2173,
+      "sha256": "be3899bd7d19f388879767eeb073b928061a8504794472869f0d2d6cd7cf95aa"
+    },
+    {
+      "path": "项目增量/sim/tools/hunter_sensor_profile.py",
+      "bytes": 4051,
+      "sha256": "f3080eceb760d68aaa77ae66e66f02f51662a473e70408dbe64d57da814e4e5a"
+    },
+    {
+      "path": "项目增量/sim/tools/README.md",
+      "bytes": 7818,
+      "sha256": "dd325281a0a447c458e8c950495eb059a791f9f0c26affcf189270fe88688ce1"
+    },
+    {
+      "path": "项目增量/sim/tools/seal_full_entry.py",
+      "bytes": 710,
+      "sha256": "7eb56c6bc00482dc87e3d31424a4305de3fe57cf98862526f9e265f52bf8682f"
+    },
+    {
+      "path": "项目增量/sim/tools/start_control_scene_logged.bash",
+      "bytes": 391,
+      "sha256": "c659f9b1a0ddaaeb0c393d8a579e54a3e16807fe8a94aa4a2d1a23bf9635e676"
+    },
+    {
+      "path": "项目增量/sim/tools/start_control_scene_logged.ps1",
+      "bytes": 230,
+      "sha256": "fd0d773b363beea9633c7bd0dcdd43b420b64077ae061e48afc6097caddfe8a4"
+    },
+    {
+      "path": "项目增量/sim/tools/start_hunter_full_scene.bash",
+      "bytes": 720,
+      "sha256": "ab1b38966b571b428610f59a54970257f8fd636063a39d543d5dc45337acb508"
+    },
+    {
+      "path": "项目增量/sim/tools/start_hunter_full_scene.ps1",
+      "bytes": 723,
+      "sha256": "070ec17f5437c1558f1c564bccfb5cb8cb1323e5bff9b0d11fd1fe8c692be7ce"
+    },
+    {
+      "path": "项目增量/sim/tools/test_full_entry.py",
+      "bytes": 24228,
+      "sha256": "987a6b5ba4d5b9d69281c739a905894f8f6090842cfc75dd998e226d7a628a77"
+    },
+    {
+      "path": "项目增量/sim/tools/test_full_ros_interfaces.py",
+      "bytes": 2941,
+      "sha256": "f8a33363f58193d87e2a7d658ac2e878ed7bf882617bfe5eadfadaad2d2b7b29"
+    },
+    {
+      "path": "项目增量/sim/tools/test_hunter_full_model.py",
+      "bytes": 17385,
+      "sha256": "528145f7868c43f0c0a4897133c144a47c20660297fa6d059ea93a7c655a1de0"
+    },
+    {
+      "path": "项目增量/sim/tools/test_hunter_full_scene.py",
+      "bytes": 17391,
+      "sha256": "cde8315c186dc1a64e72149bf984669e61babc6031da30d9d84e33919cb02eee"
+    },
+    {
+      "path": "项目增量/sim/tools/test_hunter_sensor_profile.py",
+      "bytes": 2119,
+      "sha256": "d08ccec0077c37539053ec03ecf878f554620e2228be1c71730dc043ed9b7a42"
+    },
+    {
+      "path": "项目增量/task_plan.md",
+      "bytes": 11130,
+      "sha256": "07882900d3ab0e36d6ec5ff94b293a54d1ba6f58c859bc3a62ff2a317674e399"
+    }
+  ],
+  "manifest_self_hash_in_external_verification": true
+}

@@ -1,0 +1,329 @@
+{
+  "status": "DONE_WITH_CONCERNS",
+  "specification_self_review": {
+    "fixed_manufacturer_commit": true,
+    "four_true_wheel_mesh_links": true,
+    "six_active_joint_dof": true,
+    "no_runtime_or_hardware_plugins": true,
+    "no_whole_chassis_stl_or_arm_visuals": true,
+    "no_concave_dynamic_mesh_collisions": true,
+    "bare_mass_allocation_70kg": true,
+    "sensor_mounting_report_exposes_all_three_carriers": true,
+    "upstream_license_uncertainty_explicit": true,
+    "camera_asset_self_contained": true
+  },
+  "code_quality_self_review": [
+    "Python standard library builder; deterministic pinned data transforms; no import-time execution",
+    "No original asset writes, shared core edits, old scene edits or git creation",
+    "All current output hashes, all upstream hashes and all local source hashes verified",
+    "No WSL/ROS/Gazebo/launch/hardware/physical advancement command executed"
+  ],
+  "concerns": [
+    "Upstream CAD license remains literal TODO, no redistribution license asserted",
+    "Equipment mass/inertia, friction and mechanical response are engineering assumptions",
+    "Reference-frame registration and D435i nominal IMU offset are not measured sensor extrinsics",
+    "Runtime ament/import/render/sensor validation delegated to parent integration; static CAD preview is not simulator evidence"
+  ],
+  "bare_chassis_bounds_m": {
+    "min": [
+      -0.1641340815224328,
+      -0.37328311787379714,
+      -0.1640987479558067
+    ],
+    "max": [
+      0.81410481184721,
+      0.37328318108184755,
+      0.212580000923872
+    ],
+    "size": [
+      0.9782388933696428,
+      0.7465662989556447,
+      0.37667874887967867
+    ]
+  },
+  "mass_assumptions": {
+    "bare_chassis_kg": 70.0,
+    "extra_equipment_and_frame_proxies_kg": 5.876999999999995,
+    "total_kg": 75.877,
+    "per_link_kg": {
+      "base_link": 47,
+      "rear_left_wheel_link": 5.5,
+      "rear_right_wheel_link": 5.5,
+      "front_left_steering_link": 0.3,
+      "front_left_wheel_link": 5.5,
+      "front_right_steering_link": 0.3,
+      "front_right_wheel_link": 5.5,
+      "front_steer_bar_link": 0.2,
+      "rear_axle_detail_link": 0.2,
+      "reference_base_link": 0.001,
+      "hunter_link": 0.001,
+      "assembly_link": 4.0,
+      "ars548_link": 0.5,
+      "gnss_link": 0.5,
+      "hesai_lidar": 0.8,
+      "camera_bottom_screw_frame": 0.001,
+      "camera_link": 0.072,
+      "imu_link": 0.001,
+      "camera_optical_frame": 0.001
+    },
+    "methods": {
+      "base_link": "engineering box inertia assumption",
+      "rear_left_wheel_link": "5.5 kg engineering allocation; solid cylinder inertia about Y; not a measured wheel mass",
+      "rear_right_wheel_link": "5.5 kg engineering allocation; solid cylinder inertia about Y; not a measured wheel mass",
+      "front_left_steering_link": "engineering box inertia assumption",
+      "front_left_wheel_link": "5.5 kg engineering allocation; solid cylinder inertia about Y; not a measured wheel mass",
+      "front_right_steering_link": "engineering box inertia assumption",
+      "front_right_wheel_link": "5.5 kg engineering allocation; solid cylinder inertia about Y; not a measured wheel mass",
+      "front_steer_bar_link": "0.2 kg engineering detail allocation; box inertia centred on this component CAD envelope",
+      "rear_axle_detail_link": "0.2 kg engineering detail allocation; box inertia centred on this component CAD envelope",
+      "reference_base_link": "0.001 kg numerical frame proxy, not physical equipment",
+      "hunter_link": "0.001 kg numerical frame proxy, not physical equipment",
+      "assembly_link": "engineering equipment mass allocation; box inertia, uncalibrated",
+      "ars548_link": "engineering equipment mass allocation; box inertia, uncalibrated",
+      "gnss_link": "engineering equipment mass allocation; box inertia, uncalibrated",
+      "hesai_lidar": "engineering equipment mass allocation; box inertia, uncalibrated",
+      "camera_bottom_screw_frame": "engineering equipment mass allocation; box inertia, uncalibrated",
+      "camera_link": "reference nominal camera mass; recomputed box inertia",
+      "imu_link": "0.001 kg numerical proxy; D435i nominal accel/gyro module TF, not calibration",
+      "camera_optical_frame": "0.001 kg numerical optical frame proxy; no equipment mass"
+    },
+    "basis": "70 kg bare HUNTER2 engineering target within supplied manufacturer 65–72 kg range; upper equipment masses are assumptions"
+  },
+  "frames": {
+    "base_link": {
+      "xyz_m": [
+        0,
+        0,
+        0
+      ],
+      "rpy_rad": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rear_left_wheel_link": {
+      "xyz_m": [
+        0.0,
+        0.3025,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "rear_right_wheel_link": {
+      "xyz_m": [
+        0.0,
+        -0.3025,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "front_left_steering_link": {
+      "xyz_m": [
+        0.65,
+        0.3025,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "front_left_wheel_link": {
+      "xyz_m": [
+        0.65,
+        0.3025,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "front_right_steering_link": {
+      "xyz_m": [
+        0.65,
+        -0.3025,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "front_right_wheel_link": {
+      "xyz_m": [
+        0.65,
+        -0.3025,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "front_steer_bar_link": {
+      "xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "rear_axle_detail_link": {
+      "xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "reference_base_link": {
+      "xyz_m": [
+        0.325,
+        0.0,
+        -0.165
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "hunter_link": {
+      "xyz_m": [
+        0.325,
+        0.0,
+        -0.06000000000000001
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "assembly_link": {
+      "xyz_m": [
+        0.539,
+        0.0,
+        0.20500000000000002
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "ars548_link": {
+      "xyz_m": [
+        0.67715,
+        0.0,
+        0.365
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "gnss_link": {
+      "xyz_m": [
+        0.465,
+        0.0,
+        0.496
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "hesai_lidar": {
+      "xyz_m": [
+        0.539,
+        0.0,
+        0.525
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        1.570796326795
+      ]
+    },
+    "camera_bottom_screw_frame": {
+      "xyz_m": [
+        0.64705,
+        0.0,
+        0.4685
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "camera_link": {
+      "xyz_m": [
+        0.6576500000000001,
+        0.0175,
+        0.48100000000000004
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "imu_link": {
+      "xyz_m": [
+        0.6459100000000001,
+        0.011980000000000001,
+        0.48610000000000003
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "camera_optical_frame": {
+      "xyz_m": [
+        0.6576500000000001,
+        0.0175,
+        0.48100000000000004
+      ],
+      "rpy_rad": [
+        -1.57079632679,
+        -0.0,
+        -1.57079632679
+      ]
+    }
+  },
+  "evidence": [
+    "test_red.txt",
+    "test_detail_inertia_red.txt",
+    "test_green.txt",
+    "reproducibility.json",
+    "static_cad_preview.png"
+  ]
+}

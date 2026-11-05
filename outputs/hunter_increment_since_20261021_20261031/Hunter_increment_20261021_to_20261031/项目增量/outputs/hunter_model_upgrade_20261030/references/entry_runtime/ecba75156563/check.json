@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "physics_play_requested": false,
+  "velocity_published": false,
+  "report_directory": "/mnt/f/rob-memory/outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563",
+  "owned_entry_pid": 414,
+  "ros_graph": {
+    "ok": true,
+    "velocity_published": false,
+    "observation_nodes": [
+      "scan_converter",
+      "sensor_bridge",
+      "state_publisher"
+    ],
+    "publishers": {
+      "/clock": 1,
+      "/hz_sim/full/lidar/points": 1,
+      "/hz_sim/full/camera/image": 1,
+      "/hz_sim/full/camera/depth_image": 1,
+      "/hz_sim/full/camera/camera_info": 1,
+      "/hz_sim/full/imu": 1,
+      "/hz_sim/full/joint_states": 1,
+      "/hz_sim/full/odom": 1,
+      "/hz_sim/full/tf": 2
+    },
+    "tf_static_publishers": 1,
+    "command_publishers": 0
+  },
+  "paused": true,
+  "sim_time_ns": 0,
+  "screenshot": "/mnt/f/rob-memory/outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/render.png",
+  "alive_at_check_end": true,
+  "owned_entry_closed": true,
+  "owned_entry_exit_code": 130
+}

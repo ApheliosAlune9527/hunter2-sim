@@ -1,0 +1,1160 @@
+{
+  "model_name": "hz_hunter_full",
+  "coordinate_convention": "base_link at rear axle wheel-centre midpoint; X forward, Y left, Z up",
+  "nominal_geometry_m": {
+    "wheelbase": 0.65,
+    "track": 0.605,
+    "wheel_radius": 0.165
+  },
+  "bare_chassis_bounds_m": {
+    "min": [
+      -0.1641340815224328,
+      -0.37328311787379714,
+      -0.1640987479558067
+    ],
+    "max": [
+      0.81410481184721,
+      0.37328318108184755,
+      0.212580000923872
+    ],
+    "size": [
+      0.9782388933696428,
+      0.7465662989556447,
+      0.37667874887967867
+    ]
+  },
+  "upstream_zero_pose_bounds_m": {
+    "min": [
+      -0.4442316852754983,
+      -0.3727930708735505,
+      -0.3596441489527073
+    ],
+    "max": [
+      0.5355774501991272,
+      0.372773076108709,
+      0.017000000923871994
+    ],
+    "size": [
+      0.9798091354746254,
+      0.7455661469822595,
+      0.3766441498765793
+    ]
+  },
+  "upstream_to_base_translation_m": [
+    0.28009,
+    9.999999999982245e-06,
+    0.19558
+  ],
+  "normalization": {
+    "base_link": {
+      "source_link": "base_link",
+      "source_rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "baked_translation_m": [
+        0.28009,
+        9.999999999982245e-06,
+        0.19558
+      ],
+      "bounds_m": {
+        "min": [
+          -0.15799460235595703,
+          -0.3220014409923554,
+          -0.055605804605484005
+        ],
+        "max": [
+          0.8060053842926025,
+          0.32199858261108394,
+          0.212580000923872
+        ],
+        "size": [
+          0.9639999866485596,
+          0.6440000236034393,
+          0.268185805529356
+        ]
+      },
+      "triangles": 129044
+    },
+    "front_steer_bar_link": {
+      "source_link": "front_steer_link",
+      "source_rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "baked_translation_m": [
+        0.72801,
+        -1.4310000000177542e-06,
+        0.07458000000000001
+      ],
+      "bounds_m": {
+        "min": [
+          0.7440100007599593,
+          -0.009501430694526213,
+          0.07657999916367234
+        ],
+        "max": [
+          0.7942099955773354,
+          0.009498568694526179,
+          0.10457999932944775
+        ],
+        "size": [
+          0.05019999481737614,
+          0.01899999938905239,
+          0.02800000016577542
+        ]
+      },
+      "triangles": 1984
+    },
+    "rear_axle_detail_link": {
+      "source_link": "rear_wheel_link",
+      "source_rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.9999947793546975,
+          -0.0032312943768409877
+        ],
+        [
+          0.0,
+          0.0032312943768409877,
+          0.9999947793546975
+        ]
+      ],
+      "baked_translation_m": [
+        -0.14399,
+        -1.4310000000177542e-06,
+        0.109999
+      ],
+      "bounds_m": {
+        "min": [
+          -0.15799000043213368,
+          0.004998569174224371,
+          -0.04216973419719365
+        ],
+        "max": [
+          -0.11603999998211861,
+          0.034998570248764606,
+          0.00053027185769558
+        ],
+        "size": [
+          0.04195000045001507,
+          0.030000001074540233,
+          0.04270000605488923
+        ]
+      },
+      "triangles": 3120
+    },
+    "rear_left_wheel_link": {
+      "source_link": "left_rear_link",
+      "source_zero_pose": [
+        [
+          -0.28,
+          0.29249,
+          -0.19558
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -3.673205103346574e-06,
+            -0.9999999999932537
+          ],
+          [
+            0.0,
+            0.9999999999932537,
+            -3.673205103346574e-06
+          ]
+        ]
+      ],
+      "source_world_bbox_center_m": [
+        -0.28008715689182284,
+        0.3019900037523299,
+        -0.19536135777317437
+      ],
+      "new_wheel_center_m": [
+        0,
+        0.3025,
+        0
+      ],
+      "world_reposition_delta_m": [
+        -2.8431081771640443e-06,
+        0.0004999962476700537,
+        -0.00021864222682563272
+      ],
+      "method": "upstream zero-pose rotation, then bbox-centre subtraction; no scale/deformation",
+      "bounds_m": {
+        "min": [
+          -0.164132222533226,
+          -0.0707830723563791,
+          -0.16382229394719588
+        ],
+        "max": [
+          0.164132222533226,
+          0.0707830723563791,
+          0.1638222939471959
+        ],
+        "size": [
+          0.328264445066452,
+          0.1415661447127582,
+          0.32764458789439177
+        ]
+      },
+      "triangles": 29308
+    },
+    "rear_right_wheel_link": {
+      "source_link": "right_rear_link",
+      "source_zero_pose": [
+        [
+          -0.28018,
+          -0.29251,
+          -0.19558
+        ],
+        [
+          [
+            0.9999964688489532,
+            0.002657496871970033,
+            -9.761531072313737e-09
+          ],
+          [
+            0.0,
+            -3.673205103346574e-06,
+            -0.9999999999932537
+          ],
+          [
+            -0.0026574968719879615,
+            0.9999964688422069,
+            -3.6731921327045282e-06
+          ]
+        ]
+      ],
+      "source_world_bbox_center_m": [
+        -0.28009760375306547,
+        -0.30201000045176707,
+        -0.1953599499475251
+      ],
+      "new_wheel_center_m": [
+        0,
+        -0.3025,
+        0
+      ],
+      "world_reposition_delta_m": [
+        7.603753065466012e-06,
+        -0.0004999995482328767,
+        -0.00022005005247491272
+      ],
+      "method": "upstream zero-pose rotation, then bbox-centre subtraction; no scale/deformation",
+      "bounds_m": {
+        "min": [
+          -0.1641340815224328,
+          -0.07078307042178344,
+          -0.16380050186278494
+        ],
+        "max": [
+          0.16413408152243275,
+          0.07078307042178347,
+          0.16380050186278494
+        ],
+        "size": [
+          0.32826816304486556,
+          0.14156614084356692,
+          0.3276010037255699
+        ]
+      },
+      "triangles": 36686
+    },
+    "front_left_wheel_link": {
+      "source_link": "front_left_wheel_link",
+      "source_zero_pose": [
+        [
+          0.37142,
+          0.29199,
+          -0.1955
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -3.673205103346574e-06,
+            -0.9999999999932537
+          ],
+          [
+            0.0,
+            0.9999999999932537,
+            -3.673205103346574e-06
+          ]
+        ]
+      ],
+      "source_world_bbox_center_m": [
+        0.37147263835191724,
+        0.3014898956599541,
+        -0.19532594982793322
+      ],
+      "new_wheel_center_m": [
+        0.65,
+        0.3025,
+        0
+      ],
+      "world_reposition_delta_m": [
+        -0.0015626383519172782,
+        0.0010001043400459375,
+        -0.00025405017206678315
+      ],
+      "method": "upstream zero-pose rotation, then bbox-centre subtraction; no scale/deformation",
+      "bounds_m": {
+        "min": [
+          -0.16410481184720993,
+          -0.07078318108184753,
+          -0.1639534392824259
+        ],
+        "max": [
+          0.16410481184720993,
+          0.07078318108184756,
+          0.1639534392824259
+        ],
+        "size": [
+          0.32820962369441986,
+          0.1415663621636951,
+          0.3279068785648518
+        ]
+      },
+      "triangles": 36470
+    },
+    "front_right_wheel_link": {
+      "source_link": "front_right_wheel_link",
+      "source_zero_pose": [
+        [
+          0.37142,
+          -0.29201,
+          -0.1955
+        ],
+        [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -3.673205103346574e-06,
+            -0.9999999999932537
+          ],
+          [
+            0.0,
+            0.9999999999932537,
+            -3.673205103346574e-06
+          ]
+        ]
+      ],
+      "source_world_bbox_center_m": [
+        0.3715261931252479,
+        -0.30151005386015006,
+        -0.1955454009969006
+      ],
+      "new_wheel_center_m": [
+        0.65,
+        -0.3025,
+        0
+      ],
+      "world_reposition_delta_m": [
+        -0.0016161931252479667,
+        -0.0009999461398498832,
+        -3.459900309940589e-05
+      ],
+      "method": "upstream zero-pose rotation, then bbox-centre subtraction; no scale/deformation",
+      "bounds_m": {
+        "min": [
+          -0.1639663502573967,
+          -0.07078311787379715,
+          -0.1640987479558067
+        ],
+        "max": [
+          0.1639663502573967,
+          0.07078311787379721,
+          0.16409874795580673
+        ],
+        "size": [
+          0.3279327005147934,
+          0.14156623574759436,
+          0.3281974959116134
+        ]
+      },
+      "triangles": 19714
+    }
+  },
+  "wheels": {
+    "rear_left_wheel_link": {
+      "mesh": "meshes/chassis/rear_left_wheel_link.stl",
+      "roll_axis": [
+        0,
+        1,
+        0
+      ],
+      "center_m": [
+        0,
+        0.3025,
+        0
+      ],
+      "contact_radius_m": 0.165,
+      "contact_width_m": 0.14,
+      "cad_bounds_m": {
+        "min": [
+          -0.164132222533226,
+          -0.0707830723563791,
+          -0.16382229394719588
+        ],
+        "max": [
+          0.164132222533226,
+          0.0707830723563791,
+          0.1638222939471959
+        ],
+        "size": [
+          0.328264445066452,
+          0.1415661447127582,
+          0.32764458789439177
+        ]
+      },
+      "source_link": "left_rear_link"
+    },
+    "rear_right_wheel_link": {
+      "mesh": "meshes/chassis/rear_right_wheel_link.stl",
+      "roll_axis": [
+        0,
+        1,
+        0
+      ],
+      "center_m": [
+        0,
+        -0.3025,
+        0
+      ],
+      "contact_radius_m": 0.165,
+      "contact_width_m": 0.14,
+      "cad_bounds_m": {
+        "min": [
+          -0.1641340815224328,
+          -0.07078307042178344,
+          -0.16380050186278494
+        ],
+        "max": [
+          0.16413408152243275,
+          0.07078307042178347,
+          0.16380050186278494
+        ],
+        "size": [
+          0.32826816304486556,
+          0.14156614084356692,
+          0.3276010037255699
+        ]
+      },
+      "source_link": "right_rear_link"
+    },
+    "front_left_wheel_link": {
+      "mesh": "meshes/chassis/front_left_wheel_link.stl",
+      "roll_axis": [
+        0,
+        1,
+        0
+      ],
+      "center_m": [
+        0.65,
+        0.3025,
+        0
+      ],
+      "contact_radius_m": 0.165,
+      "contact_width_m": 0.14,
+      "cad_bounds_m": {
+        "min": [
+          -0.16410481184720993,
+          -0.07078318108184753,
+          -0.1639534392824259
+        ],
+        "max": [
+          0.16410481184720993,
+          0.07078318108184756,
+          0.1639534392824259
+        ],
+        "size": [
+          0.32820962369441986,
+          0.1415663621636951,
+          0.3279068785648518
+        ]
+      },
+      "source_link": "front_left_wheel_link"
+    },
+    "front_right_wheel_link": {
+      "mesh": "meshes/chassis/front_right_wheel_link.stl",
+      "roll_axis": [
+        0,
+        1,
+        0
+      ],
+      "center_m": [
+        0.65,
+        -0.3025,
+        0
+      ],
+      "contact_radius_m": 0.165,
+      "contact_width_m": 0.14,
+      "cad_bounds_m": {
+        "min": [
+          -0.1639663502573967,
+          -0.07078311787379715,
+          -0.1640987479558067
+        ],
+        "max": [
+          0.1639663502573967,
+          0.07078311787379721,
+          0.16409874795580673
+        ],
+        "size": [
+          0.3279327005147934,
+          0.14156623574759436,
+          0.3281974959116134
+        ]
+      },
+      "source_link": "front_right_wheel_link"
+    }
+  },
+  "excluded_visuals": {
+    "front_steer_left_link.STL": "contains front wheel plus overlapping wheel/steering detail",
+    "front_steer_right_link.STL": "duplicates the front right wheel",
+    "hunter_2_0.STL": "whole chassis with embedded wheels; replaced by articulated manufacturer CAD",
+    "PIPER.STL": "arm not installed / outside confirmed scope",
+    "PiPER_plate.STL": "arm mount excluded with arm"
+  },
+  "tf_from_base_link": {
+    "base_link": {
+      "xyz_m": [
+        0,
+        0,
+        0
+      ],
+      "rpy_rad": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rear_left_wheel_link": {
+      "xyz_m": [
+        0.0,
+        0.3025,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "rear_right_wheel_link": {
+      "xyz_m": [
+        0.0,
+        -0.3025,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "front_left_steering_link": {
+      "xyz_m": [
+        0.65,
+        0.3025,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "front_left_wheel_link": {
+      "xyz_m": [
+        0.65,
+        0.3025,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "front_right_steering_link": {
+      "xyz_m": [
+        0.65,
+        -0.3025,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "front_right_wheel_link": {
+      "xyz_m": [
+        0.65,
+        -0.3025,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "front_steer_bar_link": {
+      "xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "rear_axle_detail_link": {
+      "xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "reference_base_link": {
+      "xyz_m": [
+        0.325,
+        0.0,
+        -0.165
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "hunter_link": {
+      "xyz_m": [
+        0.325,
+        0.0,
+        -0.06000000000000001
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "assembly_link": {
+      "xyz_m": [
+        0.539,
+        0.0,
+        0.20500000000000002
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "ars548_link": {
+      "xyz_m": [
+        0.67715,
+        0.0,
+        0.365
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "gnss_link": {
+      "xyz_m": [
+        0.465,
+        0.0,
+        0.496
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "hesai_lidar": {
+      "xyz_m": [
+        0.539,
+        0.0,
+        0.525
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        1.570796326795
+      ]
+    },
+    "camera_bottom_screw_frame": {
+      "xyz_m": [
+        0.64705,
+        0.0,
+        0.4685
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "camera_link": {
+      "xyz_m": [
+        0.6576500000000001,
+        0.0175,
+        0.48100000000000004
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "imu_link": {
+      "xyz_m": [
+        0.6459100000000001,
+        0.011980000000000001,
+        0.48610000000000003
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "camera_optical_frame": {
+      "xyz_m": [
+        0.6576500000000001,
+        0.0175,
+        0.48100000000000004
+      ],
+      "rpy_rad": [
+        -1.57079632679,
+        -0.0,
+        -1.57079632679
+      ]
+    }
+  },
+  "reference_alignment": {
+    "reference_base_link_xyz_m": [
+      0.325,
+      0,
+      -0.165
+    ],
+    "reference_to_lidar_xyz_m": [
+      0.214,
+      0,
+      0.69
+    ],
+    "reference_to_lidar_yaw_rad": 1.5707963267948966,
+    "status": "engineering registration of ground-centred local reference to rear-axle-centred model; not measured extrinsic calibration"
+  },
+  "sensor_carriers": {
+    "lidar": {
+      "link": "hesai_lidar",
+      "xyz_m": [
+        0.539,
+        0.0,
+        0.525
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        1.570796326795
+      ],
+      "status": "local exported TF preserved; physical calibration unverified"
+    },
+    "camera": {
+      "link": "camera_link",
+      "xyz_m": [
+        0.6576500000000001,
+        0.0175,
+        0.48100000000000004
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "optical_frame": "camera_optical_frame",
+      "status": "local exported mounting TF preserved; sensor engine uses +X forward, optical frame +Z forward"
+    },
+    "imu": {
+      "link": "imu_link",
+      "xyz_m": [
+        0.6459100000000001,
+        0.011980000000000001,
+        0.48610000000000003
+      ],
+      "rpy_rad": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "camera_to_imu_xyz_m": [
+        -0.01174,
+        -0.00552,
+        0.0051
+      ],
+      "status": "nominal assumption from local D435i accel/gyro modules xacro; not measured installation calibration"
+    }
+  },
+  "visual_geometry": {
+    "base_link": {
+      "mesh": "meshes/chassis/base_link.stl",
+      "bounds_in_base_m": {
+        "min": [
+          -0.1579945981502533,
+          -0.3220014274120331,
+          -0.05560580641031265
+        ],
+        "max": [
+          0.8060053586959839,
+          0.32199859619140625,
+          0.21257999539375305
+        ],
+        "size": [
+          0.9639999568462372,
+          0.6440000236034393,
+          0.2681858018040657
+        ]
+      }
+    },
+    "rear_left_wheel_link": {
+      "mesh": "meshes/chassis/rear_left_wheel_link.stl",
+      "bounds_in_base_m": {
+        "min": [
+          -0.164132222533226,
+          0.23171692878007888,
+          -0.16382229328155518
+        ],
+        "max": [
+          0.164132222533226,
+          0.3732830712199211,
+          0.16382229328155518
+        ],
+        "size": [
+          0.328264445066452,
+          0.14156614243984222,
+          0.32764458656311035
+        ]
+      }
+    },
+    "rear_right_wheel_link": {
+      "mesh": "meshes/chassis/rear_right_wheel_link.stl",
+      "bounds_in_base_m": {
+        "min": [
+          -0.16413408517837524,
+          -0.3732830712199211,
+          -0.16380050778388977
+        ],
+        "max": [
+          0.16413408517837524,
+          -0.23171692878007888,
+          0.16380050778388977
+        ],
+        "size": [
+          0.3282681703567505,
+          0.14156614243984222,
+          0.32760101556777954
+        ]
+      }
+    },
+    "front_left_wheel_link": {
+      "mesh": "meshes/chassis/front_left_wheel_link.stl",
+      "bounds_in_base_m": {
+        "min": [
+          0.4858951807022095,
+          0.23171681702136993,
+          -0.16395343840122223
+        ],
+        "max": [
+          0.8141048192977905,
+          0.37328318297863006,
+          0.16395343840122223
+        ],
+        "size": [
+          0.32820963859558105,
+          0.14156636595726013,
+          0.32790687680244446
+        ]
+      }
+    },
+    "front_right_wheel_link": {
+      "mesh": "meshes/chassis/front_right_wheel_link.stl",
+      "bounds_in_base_m": {
+        "min": [
+          0.4860336422920227,
+          -0.3732831159234047,
+          -0.16409875452518463
+        ],
+        "max": [
+          0.8139663577079773,
+          -0.2317168840765953,
+          0.16409875452518463
+        ],
+        "size": [
+          0.3279327154159546,
+          0.1415662318468094,
+          0.32819750905036926
+        ]
+      }
+    },
+    "front_steer_bar_link": {
+      "mesh": "meshes/chassis/front_steer_bar_link.stl",
+      "bounds_in_base_m": {
+        "min": [
+          0.7440099716186523,
+          -0.00950143113732338,
+          0.0765799954533577
+        ],
+        "max": [
+          0.7942100167274475,
+          0.009498568251729012,
+          0.10458000004291534
+        ],
+        "size": [
+          0.050200045108795166,
+          0.01899999938905239,
+          0.028000004589557648
+        ]
+      }
+    },
+    "rear_axle_detail_link": {
+      "mesh": "meshes/chassis/rear_axle_detail_link.stl",
+      "bounds_in_base_m": {
+        "min": [
+          -0.1579899936914444,
+          0.004998569376766682,
+          -0.042169734835624695
+        ],
+        "max": [
+          -0.11603999882936478,
+          0.034998569637537,
+          0.000530271849129349
+        ],
+        "size": [
+          0.04194999486207962,
+          0.03000000026077032,
+          0.042700006684754044
+        ]
+      }
+    },
+    "assembly_link": {
+      "mesh": "meshes/upfit/assembly.STL",
+      "bounds_in_base_m": {
+        "min": [
+          0.35232962036132814,
+          -0.17508459854125977,
+          0.20499999999999982
+        ],
+        "max": [
+          0.6905,
+          0.17091537475585938,
+          0.525
+        ],
+        "size": [
+          0.33817037963867186,
+          0.3459999732971192,
+          0.3200000000000002
+        ]
+      }
+    },
+    "ars548_link": {
+      "mesh": "meshes/upfit/ARS548.STL",
+      "bounds_in_base_m": {
+        "min": [
+          0.6264999984741211,
+          -0.06850016784667969,
+          0.3200134353637695
+        ],
+        "max": [
+          0.6920600008010864,
+          0.0685,
+          0.40998656463623045
+        ],
+        "size": [
+          0.06556000232696535,
+          0.13700016784667968,
+          0.08997312927246093
+        ]
+      }
+    },
+    "gnss_link": {
+      "mesh": "meshes/upfit/G60.STL",
+      "bounds_in_base_m": {
+        "min": [
+          0.44040000152587894,
+          -0.02125,
+          0.496
+        ],
+        "max": [
+          0.4895999984741211,
+          0.02125,
+          0.51
+        ],
+        "size": [
+          0.049199996948242175,
+          0.0425,
+          0.014000000000000012
+        ]
+      }
+    },
+    "hesai_lidar": {
+      "mesh": "meshes/upfit/XT32.STL",
+      "bounds_in_base_m": {
+        "min": [
+          0.48179999923705974,
+          -0.0514999999999999,
+          0.5249999999999948
+        ],
+        "max": [
+          0.5905,
+          0.05150000000000245,
+          0.601000000000005
+        ],
+        "size": [
+          0.10870000076294029,
+          0.10300000000000234,
+          0.07600000000001017
+        ]
+      }
+    },
+    "camera_link": {
+      "mesh": "meshes/upfit/d435.dae",
+      "bounds_in_base_m": {
+        "min": [
+          0.6368953,
+          -0.0449142,
+          0.4685
+        ],
+        "max": [
+          0.66195,
+          0.0450001,
+          0.49350000000000005
+        ],
+        "size": [
+          0.025054699999999985,
+          0.0899143,
+          0.025000000000000022
+        ]
+      }
+    }
+  },
+  "mass_assumptions": {
+    "bare_chassis_kg": 70.0,
+    "extra_equipment_and_frame_proxies_kg": 5.876999999999995,
+    "total_kg": 75.877,
+    "per_link_kg": {
+      "base_link": 47,
+      "rear_left_wheel_link": 5.5,
+      "rear_right_wheel_link": 5.5,
+      "front_left_steering_link": 0.3,
+      "front_left_wheel_link": 5.5,
+      "front_right_steering_link": 0.3,
+      "front_right_wheel_link": 5.5,
+      "front_steer_bar_link": 0.2,
+      "rear_axle_detail_link": 0.2,
+      "reference_base_link": 0.001,
+      "hunter_link": 0.001,
+      "assembly_link": 4.0,
+      "ars548_link": 0.5,
+      "gnss_link": 0.5,
+      "hesai_lidar": 0.8,
+      "camera_bottom_screw_frame": 0.001,
+      "camera_link": 0.072,
+      "imu_link": 0.001,
+      "camera_optical_frame": 0.001
+    },
+    "methods": {
+      "base_link": "engineering box inertia assumption",
+      "rear_left_wheel_link": "5.5 kg engineering allocation; solid cylinder inertia about Y; not a measured wheel mass",
+      "rear_right_wheel_link": "5.5 kg engineering allocation; solid cylinder inertia about Y; not a measured wheel mass",
+      "front_left_steering_link": "engineering box inertia assumption",
+      "front_left_wheel_link": "5.5 kg engineering allocation; solid cylinder inertia about Y; not a measured wheel mass",
+      "front_right_steering_link": "engineering box inertia assumption",
+      "front_right_wheel_link": "5.5 kg engineering allocation; solid cylinder inertia about Y; not a measured wheel mass",
+      "front_steer_bar_link": "0.2 kg engineering detail allocation; box inertia centred on this component CAD envelope",
+      "rear_axle_detail_link": "0.2 kg engineering detail allocation; box inertia centred on this component CAD envelope",
+      "reference_base_link": "0.001 kg numerical frame proxy, not physical equipment",
+      "hunter_link": "0.001 kg numerical frame proxy, not physical equipment",
+      "assembly_link": "engineering equipment mass allocation; box inertia, uncalibrated",
+      "ars548_link": "engineering equipment mass allocation; box inertia, uncalibrated",
+      "gnss_link": "engineering equipment mass allocation; box inertia, uncalibrated",
+      "hesai_lidar": "engineering equipment mass allocation; box inertia, uncalibrated",
+      "camera_bottom_screw_frame": "engineering equipment mass allocation; box inertia, uncalibrated",
+      "camera_link": "reference nominal camera mass; recomputed box inertia",
+      "imu_link": "0.001 kg numerical proxy; D435i nominal accel/gyro module TF, not calibration",
+      "camera_optical_frame": "0.001 kg numerical optical frame proxy; no equipment mass"
+    },
+    "basis": "70 kg bare HUNTER2 engineering target within supplied manufacturer 65–72 kg range; upper equipment masses are assumptions"
+  },
+  "collision_model": "separate convex primitives: split chassis boxes, Y-axis tire contact cylinders, mount bars/plates and sensor housings; never dynamic concave visual triangles",
+  "uncalibrated": [
+    "equipment mass and centre of mass",
+    "inertia tensors and unsprung masses",
+    "tire friction and contact stiffness",
+    "steering limits/rate/torque under load",
+    "suspension/tire/motor response",
+    "registration between manufacturer CAD and local upper-body export",
+    "sensor physical extrinsics and sensor noise/timing",
+    "small frame proxy masses are numerical regularization, not measured hardware"
+  ],
+  "validation_scope": "offline static geometry/URDF checks only; no simulator, WSL, hardware or motion command invoked by this builder"
+}

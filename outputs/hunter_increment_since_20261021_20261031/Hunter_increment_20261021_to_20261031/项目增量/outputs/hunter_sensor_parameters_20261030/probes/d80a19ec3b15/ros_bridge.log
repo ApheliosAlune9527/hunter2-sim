@@ -1,0 +1,3 @@
+1793347498.131511 [74] parameter_: selected interface "lo" is not multicast-capable: disabling multicast
+[INFO] [1793347499.144673157] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/hz_camera_probe/camera/camera_info (ignition.msgs.CameraInfo) -> /hz_camera_probe/camera/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[INFO] [1793347509.667281212] [rclcpp]: signal_handler(SIGINT/SIGTERM)

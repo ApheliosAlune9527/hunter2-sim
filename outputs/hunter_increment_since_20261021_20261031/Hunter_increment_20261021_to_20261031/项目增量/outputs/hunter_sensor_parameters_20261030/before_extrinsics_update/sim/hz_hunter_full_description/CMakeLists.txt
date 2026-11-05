@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.8)
+project(hz_hunter_full_description)
+find_package(ament_cmake REQUIRED)
+install(DIRECTORY urdf meshes DESTINATION share/${PROJECT_NAME})
+install(FILES source_manifest.json geometry_report.json README.md SOURCE_NOTICE.md DESTINATION share/${PROJECT_NAME})
+ament_package()

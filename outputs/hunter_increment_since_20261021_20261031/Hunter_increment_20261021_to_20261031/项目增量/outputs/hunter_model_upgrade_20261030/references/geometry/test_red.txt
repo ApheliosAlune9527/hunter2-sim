@@ -1,0 +1,112 @@
+test_ament_data_package_and_exact_model_identity (test_hunter_full_model.HunterFullModelTests.test_ament_data_package_and_exact_model_identity) ... FAIL
+test_cad_chassis_and_four_wheels_without_duplicate_steer_wheels (test_hunter_full_model.HunterFullModelTests.test_cad_chassis_and_four_wheels_without_duplicate_steer_wheels) ... FAIL
+test_fixed_revision_and_output_sha256_manifest (test_hunter_full_model.HunterFullModelTests.test_fixed_revision_and_output_sha256_manifest) ... FAIL
+test_four_independent_y_axis_roll_and_two_z_axis_steering (test_hunter_full_model.HunterFullModelTests.test_four_independent_y_axis_roll_and_two_z_axis_steering) ... FAIL
+test_local_wheel_geometry_is_centered_on_y_roll_axis (test_hunter_full_model.HunterFullModelTests.test_local_wheel_geometry_is_centered_on_y_roll_axis) ... FAIL
+test_no_arm_and_all_visual_assets_are_self_contained (test_hunter_full_model.HunterFullModelTests.test_no_arm_and_all_visual_assets_are_self_contained) ... FAIL
+test_positive_rigid_body_inertias_and_separate_simple_collisions (test_hunter_full_model.HunterFullModelTests.test_positive_rigid_body_inertias_and_separate_simple_collisions) ... FAIL
+test_real_bare_chassis_visual_envelope_matches_hunter_dimensions (test_hunter_full_model.HunterFullModelTests.test_real_bare_chassis_visual_envelope_matches_hunter_dimensions) ... FAIL
+test_reference_tf_and_actual_sensor_carriers_preserved (test_hunter_full_model.HunterFullModelTests.test_reference_tf_and_actual_sensor_carriers_preserved) ... FAIL
+
+======================================================================
+FAIL: test_ament_data_package_and_exact_model_identity (test_hunter_full_model.HunterFullModelTests.test_ament_data_package_and_exact_model_identity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 97, in test_ament_data_package_and_exact_model_identity
+    model = self.model()
+            ^^^^^^^^^^^^
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 63, in model
+    self.assertTrue(URDF.is_file(), "Full CAD URDF has not been generated")
+AssertionError: False is not true : Full CAD URDF has not been generated
+
+======================================================================
+FAIL: test_cad_chassis_and_four_wheels_without_duplicate_steer_wheels (test_hunter_full_model.HunterFullModelTests.test_cad_chassis_and_four_wheels_without_duplicate_steer_wheels)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 131, in test_cad_chassis_and_four_wheels_without_duplicate_steer_wheels
+    model = self.model()
+            ^^^^^^^^^^^^
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 63, in model
+    self.assertTrue(URDF.is_file(), "Full CAD URDF has not been generated")
+AssertionError: False is not true : Full CAD URDF has not been generated
+
+======================================================================
+FAIL: test_fixed_revision_and_output_sha256_manifest (test_hunter_full_model.HunterFullModelTests.test_fixed_revision_and_output_sha256_manifest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 262, in test_fixed_revision_and_output_sha256_manifest
+    self.model()
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 63, in model
+    self.assertTrue(URDF.is_file(), "Full CAD URDF has not been generated")
+AssertionError: False is not true : Full CAD URDF has not been generated
+
+======================================================================
+FAIL: test_four_independent_y_axis_roll_and_two_z_axis_steering (test_hunter_full_model.HunterFullModelTests.test_four_independent_y_axis_roll_and_two_z_axis_steering)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 106, in test_four_independent_y_axis_roll_and_two_z_axis_steering
+    model = self.model()
+            ^^^^^^^^^^^^
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 63, in model
+    self.assertTrue(URDF.is_file(), "Full CAD URDF has not been generated")
+AssertionError: False is not true : Full CAD URDF has not been generated
+
+======================================================================
+FAIL: test_local_wheel_geometry_is_centered_on_y_roll_axis (test_hunter_full_model.HunterFullModelTests.test_local_wheel_geometry_is_centered_on_y_roll_axis)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 154, in test_local_wheel_geometry_is_centered_on_y_roll_axis
+    model = self.model()
+            ^^^^^^^^^^^^
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 63, in model
+    self.assertTrue(URDF.is_file(), "Full CAD URDF has not been generated")
+AssertionError: False is not true : Full CAD URDF has not been generated
+
+======================================================================
+FAIL: test_no_arm_and_all_visual_assets_are_self_contained (test_hunter_full_model.HunterFullModelTests.test_no_arm_and_all_visual_assets_are_self_contained)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 213, in test_no_arm_and_all_visual_assets_are_self_contained
+    model = self.model()
+            ^^^^^^^^^^^^
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 63, in model
+    self.assertTrue(URDF.is_file(), "Full CAD URDF has not been generated")
+AssertionError: False is not true : Full CAD URDF has not been generated
+
+======================================================================
+FAIL: test_positive_rigid_body_inertias_and_separate_simple_collisions (test_hunter_full_model.HunterFullModelTests.test_positive_rigid_body_inertias_and_separate_simple_collisions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 227, in test_positive_rigid_body_inertias_and_separate_simple_collisions
+    model = self.model()
+            ^^^^^^^^^^^^
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 63, in model
+    self.assertTrue(URDF.is_file(), "Full CAD URDF has not been generated")
+AssertionError: False is not true : Full CAD URDF has not been generated
+
+======================================================================
+FAIL: test_real_bare_chassis_visual_envelope_matches_hunter_dimensions (test_hunter_full_model.HunterFullModelTests.test_real_bare_chassis_visual_envelope_matches_hunter_dimensions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 167, in test_real_bare_chassis_visual_envelope_matches_hunter_dimensions
+    model = self.model()
+            ^^^^^^^^^^^^
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 63, in model
+    self.assertTrue(URDF.is_file(), "Full CAD URDF has not been generated")
+AssertionError: False is not true : Full CAD URDF has not been generated
+
+======================================================================
+FAIL: test_reference_tf_and_actual_sensor_carriers_preserved (test_hunter_full_model.HunterFullModelTests.test_reference_tf_and_actual_sensor_carriers_preserved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 192, in test_reference_tf_and_actual_sensor_carriers_preserved
+    model = self.model()
+            ^^^^^^^^^^^^
+  File "F:\rob-memory\sim\tools\test_hunter_full_model.py", line 63, in model
+    self.assertTrue(URDF.is_file(), "Full CAD URDF has not been generated")
+AssertionError: False is not true : Full CAD URDF has not been generated
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.002s
+
+FAILED (failures=9)

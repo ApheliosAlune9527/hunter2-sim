@@ -1,0 +1,3751 @@
+{
+  "format": "hunter_project_increment_v1",
+  "build_started_at": "2026-10-31T19:41:17+08:00",
+  "snapshot_completed_at": "2026-10-31T19:41:37+08:00",
+  "source_project": "F:\\rob-memory",
+  "original_planned_target_project": "D:\\rob-memory",
+  "baseline_archive_name": "rob-memory_迁移包_20261021.zip",
+  "baseline_archive_sha256": "d38c199fd1e5442eac2dcd707bd8eadb45d4b50fce2273e7ab2b21a89e0ce734",
+  "baseline_snapshot_completed_at": "2026-10-21T16:36:06.092502+08:00",
+  "baseline_manifest_sha256": "bc27cd2b1fc377b3b8ce208bd959150ba4301bb8864feb4412ab2687c929856a",
+  "user_confirmed_desktop_state": "Only the Oct 21 package was transferred; it has not been restored. Oct 28 package was not transferred.",
+  "payload_directory": "项目增量",
+  "project_file_count": 464,
+  "added_files": 450,
+  "changed_files": 14,
+  "project_delta_bytes": 175848701,
+  "unchanged_project_files": 11720,
+  "unchanged_project_bytes": 5086421646,
+  "project_files": [
+    {
+      "relative_path": ".planning/desktop-migration-20261021/build_package.py",
+      "change": "changed",
+      "previous_sha256": "0c942178f0337581fd95fd0892ae31355a6be159335f6fb81612319ab1244f67",
+      "sha256": "5f2dfc868d11f5dd6a43e12992fc44ae5fb5c4bad2816b36212e7627e9640bd9",
+      "bytes": 19848,
+      "source_mtime_ns": 1792572090943538100
+    },
+    {
+      "relative_path": ".planning/desktop-migration-20261021/progress.md",
+      "change": "changed",
+      "previous_sha256": "fd29a96f5934cb31e88e9e7d13276cd235ab2d4a852b44e52838464a8eba504c",
+      "sha256": "2612bfc894194b77e947521bf361e517bc22ce8276357db17b72d22eae68873c",
+      "bytes": 2699,
+      "source_mtime_ns": 1792572155860545300
+    },
+    {
+      "relative_path": ".planning/desktop-migration-20261021/task_plan.md",
+      "change": "changed",
+      "previous_sha256": "1a447630f4f8be01e5a32cb72e0485d25fbf37bd1c061b4f69ef4ebbd5eac0a6",
+      "sha256": "33179d45ab3bd7b637278e9a61987d8507b31e9e76ffbee504360bf4d9c629f7",
+      "bytes": 3589,
+      "source_mtime_ns": 1792572090944085300
+    },
+    {
+      "relative_path": "findings.md",
+      "change": "changed",
+      "previous_sha256": "7695b52576d316a27c1fe9e69c9a379a1394ca6320e23b39c4635209bb23975e",
+      "sha256": "c377ca9b57579dcd06d1755b879c646ec10d6a60fdf7cf47ab6e23769342ab8d",
+      "bytes": 211274,
+      "source_mtime_ns": 1793280363599120500
+    },
+    {
+      "relative_path": "outputs/group_meeting_20261020/delivery/Hunter_Nav2_组会20261028.pptx",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5300b7687415347c540ea02263a58ed024bac0757266a573d5f339d296c2f8d9",
+      "bytes": 2103362,
+      "source_mtime_ns": 1793170657075711600
+    },
+    {
+      "relative_path": "outputs/hunter_model_update_20261030/README.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "7875c9c6594656c2afb6e98f85f79c64a54dd6fe3f0e3185ceccdb2ad15a5969",
+      "bytes": 4844,
+      "source_mtime_ns": 1793338365606069300
+    },
+    {
+      "relative_path": "outputs/hunter_model_update_20261030/references/hunter_installed_photo.jpg",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9ea5b7de158bd6bff7f59d175658c94a7e6abb6b14d033cff6a498eeefa88070",
+      "bytes": 306342,
+      "source_mtime_ns": 1793338167474015200
+    },
+    {
+      "relative_path": "outputs/hunter_model_update_20261030/references/hunter_nameplate.jpg",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4287ea3b06cd2c53eca38a0012f7bd88383b82104f19641b92ac855641d2ecbe",
+      "bytes": 176685,
+      "source_mtime_ns": 1793338167473018800
+    },
+    {
+      "relative_path": "outputs/hunter_model_update_20261030/references/migration_handoff.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "2a55815bf830c0a4c47d222966934af31813680059019ebb21a7e3d7c4c449fc",
+      "bytes": 3789,
+      "source_mtime_ns": 1793338167470020700
+    },
+    {
+      "relative_path": "outputs/hunter_model_update_20261030/references/migration_manifest.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9d9eacd90fb7cdc909b6229b2218fa98eacc41708bc705f23668bc733116b550",
+      "bytes": 40360,
+      "source_mtime_ns": 1793338167471021800
+    },
+    {
+      "relative_path": "outputs/hunter_model_update_20261030/references/migration_nav_findings.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "dc81fea2ee20a568b0699a401290bd0b292cbe59ceb8f24d58d219c5ece97380",
+      "bytes": 184284,
+      "source_mtime_ns": 1793338167476035600
+    },
+    {
+      "relative_path": "outputs/hunter_model_update_20261030/references/migration_readme.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c3438fad5eaba6461e6a3726cca8ca2f1ad0b67e005d7d132d1c2f9de9776214",
+      "bytes": 2351,
+      "source_mtime_ns": 1793338167465905100
+    },
+    {
+      "relative_path": "outputs/hunter_model_update_20261030/references/side_chat_summary.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4bc07ac39fe42af2e7699bceb3dffc389f121f5704e295f9eeea2cbfac7c4542",
+      "bytes": 1167,
+      "source_mtime_ns": 1793338167472015700
+    },
+    {
+      "relative_path": "outputs/hunter_model_update_20261030/verification.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "2cb9f431664f213f7b66db407598954379b4ed42d47308906db6dbdf06462cf5",
+      "bytes": 7467,
+      "source_mtime_ns": 1793338167824939600
+    },
+    {
+      "relative_path": "outputs/hunter_model_update_20261030/verify_sources.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "99dc4ecde0c0187fd7c3948481302bb43685dda19d07efee52be044b7bf8e119",
+      "bytes": 8727,
+      "source_mtime_ns": 1793338166976692700
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/findings.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "844025dbd6803db15d517a2bb3ef8a9a3859e224a9dd22217ffe61f574eba795",
+      "bytes": 4026,
+      "source_mtime_ns": 1793344575131006500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/inspect_environment.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "aab8e188cdf4dab5ca3bffd140ea49e03246d6e96663d511f13fbe80821c4cea",
+      "bytes": 2157,
+      "source_mtime_ns": 1793340189789958700
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/install_description.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c9ef3729206a2fbb98a4ab65be86942a4707e02b0b455bf763ec8093edbf1267",
+      "bytes": 4037,
+      "source_mtime_ns": 1793341557836844300
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/observe_entry_graph.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d6fdea4c0680883a4ac3be56f2e05061459acc73c7c8c617e9f3a3d552ce68f5",
+      "bytes": 2070,
+      "source_mtime_ns": 1793343746439187600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/observe_full_ros.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "825deccb677e61cbe0441259f0bc6dad09bf2dcbfd3992f7c2fa361379cedd55",
+      "bytes": 9710,
+      "source_mtime_ns": 1793342176550447400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/probe_sensors.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b522494f27f5ee50b94de05254c31494e2438b18519eb95eddfdfb13364d2d67",
+      "bytes": 6192,
+      "source_mtime_ns": 1793341277668358300
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/progress.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "3cd21da00c770980ec1de62309b70f9458f710e2e1391be7610db9c505f553cd",
+      "bytes": 3884,
+      "source_mtime_ns": 1793345341058328900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/ament/build.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6080d383ea9d0b34481694c78816d8bfd45afb947bcebfb25359d68792c2c462",
+      "bytes": 125,
+      "source_mtime_ns": 1793341576764216800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/ament/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1488f1f66df49758ca3640f306daadb837f55a7d8a221c80287e16094adcf2f7",
+      "bytes": 244,
+      "source_mtime_ns": 1793341577412931800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/ament/hunter_full.converted.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "03daabfd6c89a683e1fa6b77e0f5bd18f9d24beb59766d1a9976d9f9d5de2ed0",
+      "bytes": 19574,
+      "source_mtime_ns": 1793423785342454300
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/ament/hunter_full_lump_input.urdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5fb7fa1ef8c8cc280d0824198f6f1ced8d858b41a1d8c4ef9333903ef1c5ab0e",
+      "bytes": 15915,
+      "source_mtime_ns": 1793423785109473000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/ament/sdf_convert.stderr.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_mtime_ns": 1793341577122197800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/documentation_history.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "a813cbc723ec48d2b761f671d109aed2b847e0049167434fa9766b95bc870244",
+      "bytes": 432,
+      "source_mtime_ns": 1793344344688485500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/legacy/start_control_scene_logged.bash",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f5c4e226e6efd68992849aecb03841615132b3aacfca3ee093f1e995459a16f3",
+      "bytes": 1120,
+      "source_mtime_ns": 1791955488994620400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/legacy/start_control_scene_logged.ps1",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "75967caec931ec5ebdc2e574f291a1d1a9755b2b3671a1094b1a7c1d64020c97",
+      "bytes": 845,
+      "source_mtime_ns": 1791955488992630900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/legacy_powershell_check.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "04fe21b9332bdacb473616d9a6839bf5ecb9ef98af5e77b5babe88abcbd716f0",
+      "bytes": 5060,
+      "source_mtime_ns": 1793344702913291600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/offline_check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "eb3b45e4d9592fb928c8de6caaa70c9486031f5be5efdce6b3b71602c3ea07d1",
+      "bytes": 3296,
+      "source_mtime_ns": 1793344989392972000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/powershell_check.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "43311fe663c7da24d82989ca8b44e9beabe58c438f30196f387a4b1ec52b0684",
+      "bytes": 5231,
+      "source_mtime_ns": 1793344652387971200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/powershell_check_final.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "04fe21b9332bdacb473616d9a6839bf5ecb9ef98af5e77b5babe88abcbd716f0",
+      "bytes": 5060,
+      "source_mtime_ns": 1793345040485830800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/receipt_failure_fix.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "241eed3817329eb3e255af96cf66a9004355d29aa629c0a346bc865d25e180be",
+      "bytes": 610,
+      "source_mtime_ns": 1793344989394493800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/tdd_green.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e7551073254dee35d0dd29da90b741c34d125bb32c4dd8feb55f587bbe2a52ce",
+      "bytes": 3576,
+      "source_mtime_ns": 1793344989135684600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/tdd_receipt_failure_green.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e7551073254dee35d0dd29da90b741c34d125bb32c4dd8feb55f587bbe2a52ce",
+      "bytes": 3576,
+      "source_mtime_ns": 1793344989136227700
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/tdd_receipt_failure_red.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d0609f1e059c4ec82066c113568ae087bb28736cd8969d10f835503b7932e259",
+      "bytes": 5877,
+      "source_mtime_ns": 1793344892496414100
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/tdd_red.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4fd891df83078e8addf62a99fb1dd7457b7f080f44c26f6d61c4b5c0d18ac831",
+      "bytes": 8974,
+      "source_mtime_ns": 1793343818162854800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry/tdd_symlink_red.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1d65a5d12d6bd72ebfe8a15c027e8467493f8b175985ce3cb63734ad65a0c51b",
+      "bytes": 4401,
+      "source_mtime_ns": 1793344446219089200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6b43059ef14c5c1ba3a52ed2e6190738b3b206c9616f8fa31927e54372321502",
+      "bytes": 1050,
+      "source_mtime_ns": 1793344709884609500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/command_topic_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4eb324f0912a221cdb0edbac347210133a30828bf6c58c6250901d270f20decd",
+      "bytes": 46,
+      "source_mtime_ns": 1793344704553881100
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/entry.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "2680c749c85fbc02b382552511d3153a02b010fa6a3bb56b3e5cb1c7398e3417",
+      "bytes": 753,
+      "source_mtime_ns": 1793344709825383700
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/final_stats.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c",
+      "bytes": 41,
+      "source_mtime_ns": 1793344708660033800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/initial_stats.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c",
+      "bytes": 41,
+      "source_mtime_ns": 1793344701257610600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/render.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "bbbfb598e24f5294c105405ac5505d5d673b4415c28cd0f995eeb18dd9069f64",
+      "bytes": 52615,
+      "source_mtime_ns": 1793344708472562900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/ros_graph.stderr.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "a709f97c94a94a41d6001b0af4cac44d7604b63d5d24fe66a69b0339b15b6701",
+      "bytes": 105,
+      "source_mtime_ns": 1793344702404616900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/ros_graph.stdout.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6ea6fed4fe94f8c51c1cfe349a3e0fb43ddd8bc71f793bfef5f1a2f65802cbde",
+      "bytes": 441,
+      "source_mtime_ns": 1793344702400401400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/5d2bae6f8fb3/screenshot.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "46eeeedc969f106320d874ff0cb0c5c1ea169952665865f64b8f5318d626c8a3",
+      "bytes": 12,
+      "source_mtime_ns": 1793344707866605100
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "eb4f6b117948795c99bfe654a0937be54e131ec380068f68886530e7dd25bde3",
+      "bytes": 1050,
+      "source_mtime_ns": 1793345050637671200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/command_topic_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4eb324f0912a221cdb0edbac347210133a30828bf6c58c6250901d270f20decd",
+      "bytes": 46,
+      "source_mtime_ns": 1793345044506688600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/entry.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6ecf43d321b0f3d75699ea882bd53401f2bb5543ea55699c3a024a208a29b95b",
+      "bytes": 753,
+      "source_mtime_ns": 1793345050579756600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/final_stats.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c",
+      "bytes": 41,
+      "source_mtime_ns": 1793345049313503300
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/initial_stats.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c",
+      "bytes": 41,
+      "source_mtime_ns": 1793345041585264200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/render.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "49c296607741ddb45ffc78f04a499327311e7e3ac5a5d54cfe6c96ca87e79a25",
+      "bytes": 52609,
+      "source_mtime_ns": 1793345049063569700
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/ros_graph.stderr.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "965f7e918a900d3318d11693bf33023e83b2b9c4c8b130d95fce1080dd084fe1",
+      "bytes": 105,
+      "source_mtime_ns": 1793345042391860300
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/ros_graph.stdout.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6ea6fed4fe94f8c51c1cfe349a3e0fb43ddd8bc71f793bfef5f1a2f65802cbde",
+      "bytes": 441,
+      "source_mtime_ns": 1793345042388852200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/entry_runtime/ecba75156563/screenshot.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "46eeeedc969f106320d874ff0cb0c5c1ea169952665865f64b8f5318d626c8a3",
+      "bytes": 12,
+      "source_mtime_ns": 1793345047838645800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/environment.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "58c5da2f3ec2c56ee3f6fa15c7bf05fae2cad14e0717a6691eb147118668a842",
+      "bytes": 3927,
+      "source_mtime_ns": 1793340202837076500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4142024cecc0f2e139bc9ea503f88100c3cbfc905ffd0783f0465e5204de911a",
+      "bytes": 2562,
+      "source_mtime_ns": 1793342606277655800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/command_topic_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4eb324f0912a221cdb0edbac347210133a30828bf6c58c6250901d270f20decd",
+      "bytes": 46,
+      "source_mtime_ns": 1793342605161294600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/final_stats.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c",
+      "bytes": 41,
+      "source_mtime_ns": 1793342605686847800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/initial_stats.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c",
+      "bytes": 41,
+      "source_mtime_ns": 1793342599056793000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/ogre.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8c35324766d30c89e87c8ec42e5b54e3cb54ee4bbda60c1a822a6b919cf3b38f",
+      "bytes": 24158,
+      "source_mtime_ns": 1793342606260829400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/render.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e8e8e619878622e4fe4c7bc71dd94d7bf70370622451c6caa0c7261997bd94c3",
+      "bytes": 39523,
+      "source_mtime_ns": 1793342605489887800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/screenshot.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "46eeeedc969f106320d874ff0cb0c5c1ea169952665865f64b8f5318d626c8a3",
+      "bytes": 12,
+      "source_mtime_ns": 1793342605470225800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/sdf_check.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "581e1adf70bd048b67b37b74d7e86c4914095ff3f6ca4164e452e18465907d34",
+      "bytes": 7,
+      "source_mtime_ns": 1793342596836054600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/d262fd71dacb/startup.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8458f98283211cfe05086dcccea7640b7c40658c7635ff50ba193987c2a902f6",
+      "bytes": 10991,
+      "source_mtime_ns": 1793342606084957800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "71a334db174381ca4e9480d3719190507948387cd548f2f426bfe7084aa4bb39",
+      "bytes": 2562,
+      "source_mtime_ns": 1793342855187670800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/command_topic_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4eb324f0912a221cdb0edbac347210133a30828bf6c58c6250901d270f20decd",
+      "bytes": 46,
+      "source_mtime_ns": 1793342853194033500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/final_stats.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c",
+      "bytes": 41,
+      "source_mtime_ns": 1793342854305229400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/initial_stats.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "119998e798550a9b053a6ce7e769405ee438bf9608512d94fe9c52ee5768b89c",
+      "bytes": 41,
+      "source_mtime_ns": 1793342847087682600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/ogre.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c82101488ac56be686ff0aa443e065414fc479ec839fb1d9b08c6affa83f839b",
+      "bytes": 24156,
+      "source_mtime_ns": 1793342855182155900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/render.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6dc40469d8c970c75b1897dfdea64749ebcf5fb8facf94853935895c0c7486a5",
+      "bytes": 49044,
+      "source_mtime_ns": 1793342853974537800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/screenshot.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "46eeeedc969f106320d874ff0cb0c5c1ea169952665865f64b8f5318d626c8a3",
+      "bytes": 12,
+      "source_mtime_ns": 1793342853550490000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/sdf_check.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "581e1adf70bd048b67b37b74d7e86c4914095ff3f6ca4164e452e18465907d34",
+      "bytes": 7,
+      "source_mtime_ns": 1793342844891613900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_preview/e431bbcda444/startup.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b0310f2afb302d748713d92d16e30acade53afe4ed3016804656d1fa4085c5a9",
+      "bytes": 10991,
+      "source_mtime_ns": 1793342855015418900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "0d71d915db0cd57bad596385be7b7e1cb2be9b05f9d543a05f397b8087b92947",
+      "bytes": 3989,
+      "source_mtime_ns": 1793342404107274600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/depth_preview.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "df6d6081acc489482d74f534d38af5f747306d3d266f6a05bc9ba7107363236d",
+      "bytes": 2312,
+      "source_mtime_ns": 1793342402445320000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/native_observer.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "10e1dfbc74fe12a0c4ba45879177dbbcdbeaf9b699ca124c014d113158c25a9f",
+      "bytes": 645,
+      "source_mtime_ns": 1793342402174062000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/rgb.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "492fcc426181ae7b3f41e133fa3de5c440119962acf68f1ce31c88c6b031b175",
+      "bytes": 5880,
+      "source_mtime_ns": 1793342402224539800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/ros_check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "fb006e904f4ba4201446d0cbddf64833b429ec86186203b7110c6b6456ff114e",
+      "bytes": 2356,
+      "source_mtime_ns": 1793342402653650900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/ros_launch.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d2bb048591cb4da2a6dce0a0b9cea8f86411d0f75b88e3d2c6b5ee305ccf35bc",
+      "bytes": 6450,
+      "source_mtime_ns": 1793342403965599200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/ros_observer.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f48ac05b2dd70c89a7169c6a7e62fa62d3ebf57228ad1270d46669df853469da",
+      "bytes": 1750,
+      "source_mtime_ns": 1793342402654684200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ba92eb5f09449910540eb8958ffd1e0bfc9e9e253ae685d70f237c5de6491328",
+      "bytes": 5278,
+      "source_mtime_ns": 1793342402793163700
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/full_sensors/84f73c45b8fb/static_full.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c072ca30f2da79e8263b3f5bf2d2e69eddecc65caeced202479c2bd57142f18f",
+      "bytes": 27164,
+      "source_mtime_ns": 1793342392404153800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/body_shell_comparison.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "45f347c17b71955f133ff08a8ba78f955e19fac3b3268e3f474b1437a6a6334c",
+      "bytes": 301345,
+      "source_mtime_ns": 1793342372261803200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/body_shell_side_planes.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9d81df8ee5e85cf80752ec4ce6987f8d741f50dd1cf7dfb7e5d7e07881a8ae95",
+      "bytes": 4169,
+      "source_mtime_ns": 1793342372339402000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/original_shell_largest_faces.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "2ecbf71b1c4aa679dfd5208d9a331415a62392e8e6de99a7d38a443402608e28",
+      "bytes": 8642,
+      "source_mtime_ns": 1793342414083762200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/reproducibility.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b7cc0f4ef148673bce8cb6c25de17a4435d13f3acb9f4ecc9e01be4488fe8502",
+      "bytes": 1005,
+      "source_mtime_ns": 1793340989609348200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/self_review.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "12f0833812d7109fdfe182e5e575bcbf973d04fbc35f4c06d485c8d8d452b193",
+      "bytes": 8300,
+      "source_mtime_ns": 1793341106586203900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/static_cad_preview.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d35a2bf4da232afbe25d7e8cf44a395ee9399834c43b20254e0197e509fb54ba",
+      "bytes": 633215,
+      "source_mtime_ns": 1793340949536593500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/test_detail_inertia_red.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ad5ae459e3d257f26f0eb242a2e26fd7c405ba27c1823fb7dd95f63bfc00c96b",
+      "bytes": 2507,
+      "source_mtime_ns": 1793340719787535400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/test_green.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6c8a2d3551dae7c41030008e7754a80822956c2f78e9cf28675bd6d78c14eec6",
+      "bytes": 1786,
+      "source_mtime_ns": 1793341110360530900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/test_red.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1f69e6fb92fc41c8b0cfce7550433003a3679c22cec7366aefc19fd0befaef96",
+      "bytes": 8453,
+      "source_mtime_ns": 1793340363006453600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/base_link.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "2b3a9368436ee48505a9e48119f63be612407eb91a05a60e264248deded5f0cc",
+      "bytes": 6452284,
+      "source_mtime_ns": 1793340255769302500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_left_wheel_link.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "a526ac8125c90f044c4977f659d050793a009197bb067ea9fe91c02b4cf9028a",
+      "bytes": 1823584,
+      "source_mtime_ns": 1793340263557319300
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_right_wheel_link.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1a644b2ef550172ac8b255b84b6e30a39794fdf6680653698fdbee069beb91eb",
+      "bytes": 985784,
+      "source_mtime_ns": 1793340273002208000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_steer_left_link.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "091c1b863b790224b9affe5003f0fa79190d37bf037c69ffac4aa6b8f872a31f",
+      "bytes": 2672184,
+      "source_mtime_ns": 1793340258693150800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_steer_link.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "0299944ec73b0eff29b6d9887b4cb01ecce87d7a0a652a92ce6a8df783764c64",
+      "bytes": 99284,
+      "source_mtime_ns": 1793340279061618300
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/front_steer_right_link.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5ed51bb9cda08f6940439761abf24bdf6950e37f6579d99880c320fc9b294db9",
+      "bytes": 1546284,
+      "source_mtime_ns": 1793340268283931900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/left_rear_link.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "93cc252596d2d82947997694fd38299ec4733a49992e54f6bbac1c75f1f7b80f",
+      "bytes": 1465484,
+      "source_mtime_ns": 1793340275797901600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/rear_wheel_link.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f7db6f63c3fb6f19385af49b4468d09cf23ff22ba807d39a87361e545f24bebc",
+      "bytes": 156084,
+      "source_mtime_ns": 1793340280514342800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/meshes/right_rear_link.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "220aba23b544d543b49305bd1ffc9b0f62223f2b38f88b6c8b738f4dcb00b996",
+      "bytes": 1834384,
+      "source_mtime_ns": 1793340278350633400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/package.xml",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "142d5ae04f0b4225cfc79ba1802bfe89b5b6efe5fc0bd5cf6e0676ad897d5c11",
+      "bytes": 896,
+      "source_mtime_ns": 1793340235080457500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/geometry/upstream/hunter/hunter2_base/urdf/hunter2_base.urdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8cd98f8a5ae69b633798f1d808a7c913a4506e72c863ef11c266f21277383201",
+      "bytes": 11330,
+      "source_mtime_ns": 1793340234585916100
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/ros_interfaces_tdd.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6d7b32c428c45f131e421c04ad558772458604a8bfb94c3a7e935b6399ff94fa",
+      "bytes": 959,
+      "source_mtime_ns": 1793342972535360300
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/scene/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "2e05bdd4c769b901a4ebed8cc89689d5fe66d44b806771ec006c310c3916eceb",
+      "bytes": 2757,
+      "source_mtime_ns": 1793342775879446700
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/scene/report.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "0daac29703bb9673638fc133a442e086c13df32dbdbb4b3fdfa9fcab3d8449ad",
+      "bytes": 6101,
+      "source_mtime_ns": 1793342775881552400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/scene/tdd_camera_pose_red.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "af93ddc7faffdfa8bc297cd5583295a4bc75d4da5f73f974a7de516d8b6a3f30",
+      "bytes": 5141,
+      "source_mtime_ns": 1793342731413102200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/scene/tdd_green.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "374106e5bc1fe84b72ea2ee948132ef1cfe34009720a980cc821f260f04b0e63",
+      "bytes": 4402,
+      "source_mtime_ns": 1793342754609091900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/scene/tdd_hardening_red.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c45b588de58ec1c381d8f1c7b15c1f414f874fa27f12a14daad64c0900852c2f",
+      "bytes": 6334,
+      "source_mtime_ns": 1793342441644854600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/scene/tdd_pose_reference_red.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6da242f4afc51798a9a71ee8aa4777b9a935be4d6e58d4268fffaffbc956876d",
+      "bytes": 5206,
+      "source_mtime_ns": 1793342555895885000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/scene/tdd_red.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "406d48382385f83ff5d8d5b05b2d96fe18efc613f00ee20045ca129d80b85276",
+      "bytes": 15338,
+      "source_mtime_ns": 1793342058828241400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "36329b432c4674588a7af351f10113a21c41fbc8dc23a8951fea1b491f48ac2f",
+      "bytes": 1180,
+      "source_mtime_ns": 1793340629415918500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/observer.stderr.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_mtime_ns": 1793340627293505900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/observer.stdout.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "0e7d7e089d4cf8dc5ab31d3fe231b5b336a38f43d05dfa396d34510a2aa7ce06",
+      "bytes": 464,
+      "source_mtime_ns": 1793340627292509000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9f45075772ae582e344123844f090ba0fa27938f28449ec0455904239384aa48",
+      "bytes": 2670,
+      "source_mtime_ns": 1793340607267275500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1b120cbf55a928977cee597d84fe4b0cd3d3d9ec063c99739a73e420241a42d6",
+      "bytes": 7600,
+      "source_mtime_ns": 1793340610964212800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/4215d88142d9/topics.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_mtime_ns": 1793340629397094400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ae651fdfd992fe12ad5f7983102afbc1f7e2d80fe7258e2eaa960cd4d383b5e6",
+      "bytes": 1321,
+      "source_mtime_ns": 1793340702993497100
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d/observer.stderr.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_mtime_ns": 1793340700744222800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d/observer.stdout.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "3429149cef0eec4af2ba9c2a31888a8c36e549f3ecfbab3068a7ebaebb6cb76c",
+      "bytes": 607,
+      "source_mtime_ns": 1793340700743224500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d/probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "033197dd196b14cb3c27fa958f1aace8abde0a4c599207eca7f5bf7db05aa7b3",
+      "bytes": 2669,
+      "source_mtime_ns": 1793340696296690100
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "0654ae551fe3717ff57371fb80c68f619eb42dffbac36406a8f4ee0be13e9a56",
+      "bytes": 4873,
+      "source_mtime_ns": 1793340702913065400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d/topics.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "179c893a7471666354b2b0d24b60fbcd1a2e93290c45b8b94077ff9ec795fedd",
+      "bytes": 444,
+      "source_mtime_ns": 1793340702873735500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/ca48a86a9c3c/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9c51256ce2f748b7bd809d7d0c06c1c11ccb871524080c02f2e283fd27dd1aaf",
+      "bytes": 1351,
+      "source_mtime_ns": 1793341289130601800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/ca48a86a9c3c/observer.stderr.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_mtime_ns": 1793341286894950400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/ca48a86a9c3c/observer.stdout.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e93ebc189be3764a0138dd0d7cdb2510a4940291cc184ac4420cc3bf839b72ac",
+      "bytes": 637,
+      "source_mtime_ns": 1793341286893949500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/ca48a86a9c3c/probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "97390a3ef88272f988784b96f279b0f207b8404d7cfe75abb1313aa6b748db03",
+      "bytes": 2861,
+      "source_mtime_ns": 1793341282597157200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/ca48a86a9c3c/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "dbced8a9e1595f7b927c7265dbc704666a0df54f08a596a0af5914d877347013",
+      "bytes": 4873,
+      "source_mtime_ns": 1793341289037561000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/sensor_probe/ca48a86a9c3c/topics.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "179c893a7471666354b2b0d24b60fbcd1a2e93290c45b8b94077ff9ec795fedd",
+      "bytes": 444,
+      "source_mtime_ns": 1793341289011944300
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/gazebo.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "eea6b24f7e61df26990c5350f9a68064ad00f8d0a935f4e748b2b99edc5c9132",
+      "bytes": 10991,
+      "source_mtime_ns": 1793344709280926300
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/ros.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ecbaaa37344d9d0f05ca71c45cb2cea0c51042d511b0902206691ad473a880f5",
+      "bytes": 6317,
+      "source_mtime_ns": 1793344709750755500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/ros_internal/2026-10-30-15-18-16-389840-DESKTOP-P717CH9-440/launch.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4043a2d02e07e02e8cea75360d7db7bdec416770e0546f0f6efd8449c8a6f2f9",
+      "bytes": 1265,
+      "source_mtime_ns": 1793344709750755500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/ros_internal/parameter_bridge_459_1793344696657.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "2b7c42490ed9ada43818cca060b81559a862146aed9e3e232c10c14eced92c48",
+      "bytes": 1802,
+      "source_mtime_ns": 1793344708725952000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/ros_internal/pointcloud_to_laserscan_node_463_1793344696608.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f34d6140656b4e55db23300a4360da3a99e5e77aa9c0224e400004c6265e36b4",
+      "bytes": 71,
+      "source_mtime_ns": 1793344708726954000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/ros_internal/robot_state_publisher_461_1793344696608.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "dc198c486007fd265ac5c2edb238e03bcf6212848186392f9cd3a20d546fee04",
+      "bytes": 2022,
+      "source_mtime_ns": 1793344708725952000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/services_before.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_mtime_ns": 1793344698952210500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T071813Z_376e3ce0ddc2/session.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f463eb7c1e69a807cc81b3c39c0c1e522cf0a02199aa2d0962b89936b06ed9c7",
+      "bytes": 7207,
+      "source_mtime_ns": 1793344709808656100
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/gazebo.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "eea6b24f7e61df26990c5350f9a68064ad00f8d0a935f4e748b2b99edc5c9132",
+      "bytes": 10991,
+      "source_mtime_ns": 1793345049965069700
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/ros.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1ba30f157256ee1f38870cf68adbf0c1212924cdef713c6f3de72e627b3826eb",
+      "bytes": 6233,
+      "source_mtime_ns": 1793345050518454200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/ros_internal/2026-10-30-15-23-56-626429-DESKTOP-P717CH9-488/launch.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "3b83680f796dbaef60282c55f88ff3aeeb134c9e731106f8ba9d49868b07f49f",
+      "bytes": 1162,
+      "source_mtime_ns": 1793345050518454200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/ros_internal/parameter_bridge_507_1793345036881.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "07c49750d1a6232a05eb9b02e7959785a8d89dc625ba378e3b18be86f1bf5789",
+      "bytes": 1802,
+      "source_mtime_ns": 1793345049489584200
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/ros_internal/pointcloud_to_laserscan_node_511_1793345036826.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1e67949aaa25b713776ec3e062b4116e2b7b0d1332a0f97c8c9c0ab1fb765272",
+      "bytes": 71,
+      "source_mtime_ns": 1793345049490647700
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/ros_internal/robot_state_publisher_509_1793345036826.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4522f42ee2b4ab5c10b2ba0a8e629fd8670af06203e233313f72f82170b29ab6",
+      "bytes": 2022,
+      "source_mtime_ns": 1793345049490113600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/services_before.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_mtime_ns": 1793345039356468000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T072354Z_210c628c6f53/session.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "04218c172a8589215a07fbf91c304d47ff023d314a9752347ffff4a5a41f2b46",
+      "bytes": 7207,
+      "source_mtime_ns": 1793345050577754800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/gazebo.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4d3f4c601deec1ab36c5b28fe2ab58bf2d6df7a925bf812127de3bdcf91f6f4f",
+      "bytes": 12144,
+      "source_mtime_ns": 1793348523613888900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/ros.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "03dc024592085f13896978c2125e17d58d4b0e3e8a1e69cad45820a396aa3884",
+      "bytes": 6233,
+      "source_mtime_ns": 1793348526825095800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/ros_internal/2026-10-30-15-37-28-621619-DESKTOP-P717CH9-467/launch.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "baed52a7ddc6fa9e2ed8c1520914c1ace1c8cb21d0b7c5f8bd5a5e471798b308",
+      "bytes": 1162,
+      "source_mtime_ns": 1793348526826258400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/ros_internal/parameter_bridge_486_1793345848998.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f3d4599ba64e694f163b8abe5f7ccde353c598e42674290c797e8a6cddf7a555",
+      "bytes": 1802,
+      "source_mtime_ns": 1793348525794469800
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/ros_internal/pointcloud_to_laserscan_node_490_1793345848909.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9492d49056f762f21fb37cc543e7f26135e7bb24c52e8310720c7eb284614b31",
+      "bytes": 71,
+      "source_mtime_ns": 1793348525793458300
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/ros_internal/robot_state_publisher_488_1793345848909.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f919dd56e01b12a100a264663373190ecb7356eb30ca20f12919fae82f121c92",
+      "bytes": 2022,
+      "source_mtime_ns": 1793348525793458300
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/services_before.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_mtime_ns": 1793345851076706400
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/references/user_logs/20261030T073725Z_4ba3808c68b0/session.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4dae3eb0fc1451c9525943d6eccfcd527dce06cd8c53691e4838b1b2f6c2fe89",
+      "bytes": 7214,
+      "source_mtime_ns": 1793348527015079600
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/reviews.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "53e735166ea17256763ddce5775e38ce4889327fb28c6a78c05ec0b9b3a474d8",
+      "bytes": 2636,
+      "source_mtime_ns": 1793345341058328900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/sensor_observer.cc",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8c7b6303506774fb9cfcde5deec1d0d23972bf6f18a54f4879f18faa930b9a35",
+      "bytes": 4021,
+      "source_mtime_ns": 1793340595131392000
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/task_plan.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1cfd043cd57c6ba0054888cae804f5cc8c9ee114258b88a8580ce060743e4ae7",
+      "bytes": 6856,
+      "source_mtime_ns": 1793345341056815500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/verification.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d44e4f40728956d2e467b9d05a4ea779b1670c4e7937c1be1ba26c1c71866e61",
+      "bytes": 3135,
+      "source_mtime_ns": 1793345341613702100
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/verify_full_entry.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ea8cb810e28533a76833979862cdc7e00454053a2aeedfd1ea49cc3c4bc15d5d",
+      "bytes": 5328,
+      "source_mtime_ns": 1793343746440193900
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/verify_full_sensors.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "34f86eb409934b535851fa5fc10d47dd47a2728afb510d8710c1e9d87bc1c4ac",
+      "bytes": 4547,
+      "source_mtime_ns": 1793342176551452500
+    },
+    {
+      "relative_path": "outputs/hunter_model_upgrade_20261030/verify_paused_full_preview.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "29f1ccb615359f7a8282127a9842d837c81d6eab63075e8abd214fa60f92bac2",
+      "bytes": 5835,
+      "source_mtime_ns": 1793342590982192300
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/append-render/slide-10.layout.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f7dd82f85454b04a1782dd7fe0a59ef0f770536a62232fe58d06c4405706cca3",
+      "bytes": 4379,
+      "source_mtime_ns": 1793162100699383700
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/append-render/slide-10.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "524227fe43583a777a6ef5fd90622d4b53ff056a0a2837008c1f1bb92e03a7d9",
+      "bytes": 383239,
+      "source_mtime_ns": 1793162100691383600
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/append-render/slide-11.layout.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b9218ea90bfa4987b0fba9977062b2c92472c24c2a03edc434ed8e7e4106267a",
+      "bytes": 4250,
+      "source_mtime_ns": 1793162100859379200
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/append-render/slide-11.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b1ac0f873ed7de2d40b0df333ebc7142094f7a8c30b1a43eda662dd4aab80cdc",
+      "bytes": 297609,
+      "source_mtime_ns": 1793162100854379900
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/append-render/slide-12.layout.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f314d56e4fe4ff912cd578fdec3fc9fb6f391c5eb09fd6900d97dbe4d072b14e",
+      "bytes": 4385,
+      "source_mtime_ns": 1793162101020908000
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/append-render/slide-12.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e28fa11e84b79434f87394b18dd0bf35c1bb81cdaaecfee4017ff97720fe94af",
+      "bytes": 487103,
+      "source_mtime_ns": 1793162101016902300
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/append-render/slide-7.layout.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "a5517133123ea9c9b2bef012e68411e0d75d01c75bf02e21a3c5c21d311a5112",
+      "bytes": 4357,
+      "source_mtime_ns": 1793162100206402500
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/append-render/slide-7.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "240e767f7fc968e7aba9311cba9a628b7fbbd7b19d48582ff6b6f3bf2c2f112c",
+      "bytes": 428804,
+      "source_mtime_ns": 1793162100196394700
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/append-render/slide-8.layout.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "dcd07a76ea394bae242401ccf5633b472f8deede706210925b3ca2a88e47906e",
+      "bytes": 4311,
+      "source_mtime_ns": 1793162100362627100
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/append-render/slide-8.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "2474cec3bc107764c8ebb8cfc8a14eee35034e8c20ae39ab68e8238653366404",
+      "bytes": 458649,
+      "source_mtime_ns": 1793162100359627200
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/append-render/slide-9.layout.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "235380508dcfb191f9d9bc723f8d2e5cb0d3591c7f8234012458f6533f41b487",
+      "bytes": 4398,
+      "source_mtime_ns": 1793162100529271400
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/append-render/slide-9.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b0f42f042120571bfee74b2775cc0b4d286842344eac0ad0e3d8530306b4d92b",
+      "bytes": 375770,
+      "source_mtime_ns": 1793162100508352900
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/build_append.mjs",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6c00b0c84ff2658d7f20dad797c30d80b8e1a55fd9a1b081b49ec68b0938deb8",
+      "bytes": 11531,
+      "source_mtime_ns": 1793162098131648400
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/candidate-preserved.pptx",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5aba27e6d14e3b378ebd60fc8fbaf5aa46356577cfb07c7c33c930fc3605853d",
+      "bytes": 2934188,
+      "source_mtime_ns": 1793162102800433800
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/combined-artifact.pptx",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5f0cad49cc9b5a0f2380187bdd2d7f48a7db2e6a6afead60bc87cb6efefc6028",
+      "bytes": 1411952,
+      "source_mtime_ns": 1793162102211230300
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/combined-artifact.pptx.inspect.ndjson",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "106b138c255b6974ea739223dedaae44cad94a06a4976dca27376b07ccb2cf14",
+      "bytes": 67292,
+      "source_mtime_ns": 1793162102212229500
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/combined.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "bc16698158790c32df826f317d81eb07b197aeafb75c0ed47bcec3ef9200e71f",
+      "bytes": 16607201,
+      "source_mtime_ns": 1793162101251548000
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-render/slide-1.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9847ebed93ad42457688f8806351cde4e1b1c0375bc9d66df70352ca0e939698",
+      "bytes": 119442,
+      "source_mtime_ns": 1793162169009921900
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-render/slide-10.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "524227fe43583a777a6ef5fd90622d4b53ff056a0a2837008c1f1bb92e03a7d9",
+      "bytes": 383239,
+      "source_mtime_ns": 1793162170471453000
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-render/slide-11.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b1ac0f873ed7de2d40b0df333ebc7142094f7a8c30b1a43eda662dd4aab80cdc",
+      "bytes": 297609,
+      "source_mtime_ns": 1793162170588449100
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-render/slide-12.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e28fa11e84b79434f87394b18dd0bf35c1bb81cdaaecfee4017ff97720fe94af",
+      "bytes": 487103,
+      "source_mtime_ns": 1793162170731010700
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-render/slide-2.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "cef62c2e2f0a0c010b5e769e0ea90a78fdc8174b9031d2ae6ab1ada6a5d501fe",
+      "bytes": 624195,
+      "source_mtime_ns": 1793162169196961100
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-render/slide-3.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9bfbd53b3d18a56843c47ce0f12fc9e1c468d642074715aafa13762547561440",
+      "bytes": 289183,
+      "source_mtime_ns": 1793162169380474400
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-render/slide-4.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "a5b96df58ebe0ba36488c7f60aa34662f8bcd7d56504325093991d32891bbfbc",
+      "bytes": 488025,
+      "source_mtime_ns": 1793162169574724800
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-render/slide-5.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "257f1e2ddf564cd147fb185f0fc4fceb5faa9e0dadebfba71bb046650a2cf814",
+      "bytes": 568098,
+      "source_mtime_ns": 1793162169746717900
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-render/slide-6.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9f271cd1b5f28c5fae7904099d96e0915a4646cac83680280f88db688a020fcf",
+      "bytes": 156122,
+      "source_mtime_ns": 1793162169902672800
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-render/slide-7.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "240e767f7fc968e7aba9311cba9a628b7fbbd7b19d48582ff6b6f3bf2c2f112c",
+      "bytes": 428804,
+      "source_mtime_ns": 1793162170046676500
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-render/slide-8.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "2474cec3bc107764c8ebb8cfc8a14eee35034e8c20ae39ab68e8238653366404",
+      "bytes": 458649,
+      "source_mtime_ns": 1793162170203001700
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-render/slide-9.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b0f42f042120571bfee74b2775cc0b4d286842344eac0ad0e3d8530306b4d92b",
+      "bytes": 375770,
+      "source_mtime_ns": 1793162170332511100
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/final-validation.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e5aaae2cd0f42078562da7cfa43c8028fbffad15c1d9e61716c25c35eb4ad8c3",
+      "bytes": 4132,
+      "source_mtime_ns": 1793162142145028200
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/finalize.mjs",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "bd25e1d245f011e2b78c5f9215e5589e8ed89d9b1e3b174dc5c68fa65d636cd2",
+      "bytes": 1741,
+      "source_mtime_ns": 1793162137760089500
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/inspect_source.mjs",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c41cbdeb0750c790f1f2c467251887919719a8001ed41e602f61bea4d02584f2",
+      "bytes": 982,
+      "source_mtime_ns": 1793161697752276100
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/preservation-report.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1ac18e55985c38c68b7c86d296226a9a401f7b49efc537c90c9b87667829b84e",
+      "bytes": 548,
+      "source_mtime_ns": 1793162102802603700
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/preserve_original_append.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8880816484c61563cbf7eb6243845c1607ce36614f268097df588440df38d5c9",
+      "bytes": 7591,
+      "source_mtime_ns": 1793162098132656300
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/render_verify_final.mjs",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e836c154042c1dabd3075a2c4b849cde8f66c231ee115de6a0009ad7b58b34c6",
+      "bytes": 1052,
+      "source_mtime_ns": 1793162166110277100
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/source-inspection.ndjson",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8d9aabc76ae5348477e206c5d8aa64286c5cf8ec9e458b3dd822120a7bbfd68d",
+      "bytes": 26029,
+      "source_mtime_ns": 1793161700261325000
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/source-render/slide-1.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9847ebed93ad42457688f8806351cde4e1b1c0375bc9d66df70352ca0e939698",
+      "bytes": 119442,
+      "source_mtime_ns": 1793161701636663300
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/source-render/slide-2.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "cef62c2e2f0a0c010b5e769e0ea90a78fdc8174b9031d2ae6ab1ada6a5d501fe",
+      "bytes": 624195,
+      "source_mtime_ns": 1793161701899612600
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/source-render/slide-3.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9bfbd53b3d18a56843c47ce0f12fc9e1c468d642074715aafa13762547561440",
+      "bytes": 289183,
+      "source_mtime_ns": 1793161702143421000
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/source-render/slide-4.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "a5b96df58ebe0ba36488c7f60aa34662f8bcd7d56504325093991d32891bbfbc",
+      "bytes": 488025,
+      "source_mtime_ns": 1793161702404938500
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/source-render/slide-5.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "257f1e2ddf564cd147fb185f0fc4fceb5faa9e0dadebfba71bb046650a2cf814",
+      "bytes": 568098,
+      "source_mtime_ns": 1793161702644017900
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/source-render/slide-6.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9f271cd1b5f28c5fae7904099d96e0915a4646cac83680280f88db688a020fcf",
+      "bytes": 156122,
+      "source_mtime_ns": 1793161702845011500
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/.build/source.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "eba64a4a8654ded36717ec8abcef98176c13f708e0ef7233158925918df99cef",
+      "bytes": 18780766,
+      "source_mtime_ns": 1793161700581803200
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_append_20261027/delivery/Hunter_Nav2_Weekly_追加20261027截图.pptx",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5aba27e6d14e3b378ebd60fc8fbaf5aa46356577cfb07c7c33c930fc3605853d",
+      "bytes": 2934188,
+      "source_mtime_ns": 1793162102800433800
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_recovery_20261029/Hunter_Nav2_本轮测试与重启恢复命令.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "a7cad969c7a63fe5f1bf142f85cb353e220b1cff98d4fb4dfefe91bdc73c7ca4",
+      "bytes": 26199,
+      "source_mtime_ns": 1793277042671195000
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/author.mjs",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "7761b1e7bd74e55d05c8f1b1dbb4d0a7950a8b32ae35a34be427f5a418d35452",
+      "bytes": 9094,
+      "source_mtime_ns": 1793170614712530500
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/candidate.pptx",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5300b7687415347c540ea02263a58ed024bac0757266a573d5f339d296c2f8d9",
+      "bytes": 2103362,
+      "source_mtime_ns": 1793170657075711600
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/candidate.pptx.inspect.ndjson",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "bf6a12b13dff84fbbdb4c989d9d4903c3bbf849af4a22d3fa0080f091497c1e7",
+      "bytes": 50708,
+      "source_mtime_ns": 1793170657077942800
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/draft-01.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "fba9417f3d67627e7cef955d2a8759a18e48ed7cf0e7e14d668d1157fc164446",
+      "bytes": 140788,
+      "source_mtime_ns": 1793170655442635800
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/draft-02.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c2033f91d1979141162ccb5c521a1939c05fa3e513f167bacc48fb33d233cd1d",
+      "bytes": 405618,
+      "source_mtime_ns": 1793170655588645200
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/draft-03.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5b82a3ff6f93e9de9df168c0eec788913bab18e312cdacf33c415812fb484eee",
+      "bytes": 241705,
+      "source_mtime_ns": 1793170655794327600
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/draft-04.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "eb17477864675fcfcbbec75da3f043fa6cb3ccb66c2c073ad8e266adb91539ad",
+      "bytes": 337117,
+      "source_mtime_ns": 1793170656004474900
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/draft-05.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ac2b810adbd998e50b425343aad4e15c5edd51ac36099e366c5263af5abe4a9c",
+      "bytes": 373387,
+      "source_mtime_ns": 1793170656142871700
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/draft-06.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ec17f914068bd7bf4c9937eb9bd30a044ba5e8e359bb25b23a87a8720c4717ca",
+      "bytes": 186018,
+      "source_mtime_ns": 1793170656273644200
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/draft-07.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ebafebe7580d6e43d501f02a8d4693c5256c340767f95593f1b54a1d3362320e",
+      "bytes": 153649,
+      "source_mtime_ns": 1793170656383340200
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/draft-08.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c11c540590049c73303ad319dba25b973af37c7fdb8b973ea857839951e1853a",
+      "bytes": 160683,
+      "source_mtime_ns": 1793170656478900000
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/draft-09.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ff4a893a2a3420400769c242628840ec7e9772cc7b62536e2711c1730405845a",
+      "bytes": 178895,
+      "source_mtime_ns": 1793170656564980800
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/final-01.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "fba9417f3d67627e7cef955d2a8759a18e48ed7cf0e7e14d668d1157fc164446",
+      "bytes": 140788,
+      "source_mtime_ns": 1793170729782745400
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/final-02.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c2033f91d1979141162ccb5c521a1939c05fa3e513f167bacc48fb33d233cd1d",
+      "bytes": 405618,
+      "source_mtime_ns": 1793170729972874400
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/final-03.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5b82a3ff6f93e9de9df168c0eec788913bab18e312cdacf33c415812fb484eee",
+      "bytes": 241705,
+      "source_mtime_ns": 1793170730138811900
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/final-04.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "eb17477864675fcfcbbec75da3f043fa6cb3ccb66c2c073ad8e266adb91539ad",
+      "bytes": 337117,
+      "source_mtime_ns": 1793170730331010100
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/final-05.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ac2b810adbd998e50b425343aad4e15c5edd51ac36099e366c5263af5abe4a9c",
+      "bytes": 373387,
+      "source_mtime_ns": 1793170730497893300
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/final-06.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ec17f914068bd7bf4c9937eb9bd30a044ba5e8e359bb25b23a87a8720c4717ca",
+      "bytes": 186018,
+      "source_mtime_ns": 1793170730634566200
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/final-07.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ebafebe7580d6e43d501f02a8d4693c5256c340767f95593f1b54a1d3362320e",
+      "bytes": 153649,
+      "source_mtime_ns": 1793170730744437000
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/final-08.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c11c540590049c73303ad319dba25b973af37c7fdb8b973ea857839951e1853a",
+      "bytes": 160683,
+      "source_mtime_ns": 1793170730844419100
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/final-09.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ff4a893a2a3420400769c242628840ec7e9772cc7b62536e2711c1730405845a",
+      "bytes": 178895,
+      "source_mtime_ns": 1793170730952780800
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/final-inspect.ndjson",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9ee3fea12144dcf15010519181e9fde4e2e614f37f21edb75121e9f1c97da607",
+      "bytes": 40299,
+      "source_mtime_ns": 1793170731033221900
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-01.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "fba9417f3d67627e7cef955d2a8759a18e48ed7cf0e7e14d668d1157fc164446",
+      "bytes": 140788,
+      "source_mtime_ns": 1793169956818513800
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-02.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c2033f91d1979141162ccb5c521a1939c05fa3e513f167bacc48fb33d233cd1d",
+      "bytes": 405618,
+      "source_mtime_ns": 1793169957129945700
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-03.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5b82a3ff6f93e9de9df168c0eec788913bab18e312cdacf33c415812fb484eee",
+      "bytes": 241705,
+      "source_mtime_ns": 1793169957330263100
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-04.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "eb17477864675fcfcbbec75da3f043fa6cb3ccb66c2c073ad8e266adb91539ad",
+      "bytes": 337117,
+      "source_mtime_ns": 1793169957537397900
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-05.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ac2b810adbd998e50b425343aad4e15c5edd51ac36099e366c5263af5abe4a9c",
+      "bytes": 373387,
+      "source_mtime_ns": 1793169957704573100
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-06.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ec17f914068bd7bf4c9937eb9bd30a044ba5e8e359bb25b23a87a8720c4717ca",
+      "bytes": 186018,
+      "source_mtime_ns": 1793169957863265800
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-07.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "013f1f5de5b25d7d9170e1dd1f88df79708521d930f0bcb7310faea396f476e4",
+      "bytes": 305661,
+      "source_mtime_ns": 1793169958008683200
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-08.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "204fa9e15a0f997f1bb41b188233b28ed9b9ff78b25be7593a933482caa47fe9",
+      "bytes": 322655,
+      "source_mtime_ns": 1793169958143823000
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-09.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b6eb93ee68c044d4689a3a5ec1460e090ff5b4e5c9e09788bc129421f2999bda",
+      "bytes": 282818,
+      "source_mtime_ns": 1793169958272547300
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-10.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b6e2fdf5c8842956190b8063b587da20532ddf33d5942408e23be96080258568",
+      "bytes": 284219,
+      "source_mtime_ns": 1793169958399597600
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-11.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "7a5afee0b04ce208ed14cda64178b9b12b2d5ea6250f22cd5af27adeeff0099e",
+      "bytes": 224646,
+      "source_mtime_ns": 1793169958503876500
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-12.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "674a8255286202dcf3f353abd01426f86a6c2ef550caa5a27c53f4e2915bd82b",
+      "bytes": 336051,
+      "source_mtime_ns": 1793169958619829000
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/source-inspect.ndjson",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9c184122fda4b189430b870c22fc2b70ffb793b25d904278774b94908811a24c",
+      "bytes": 51033,
+      "source_mtime_ns": 1793169958699781100
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/build/validation.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "83ff34911320c3995424607f44e1ac16156c2929e48787ccc296306d51a67d28",
+      "bytes": 4089,
+      "source_mtime_ns": 1793170661148167900
+    },
+    {
+      "relative_path": "outputs/hunter_nav2_refined_20261028/delivery/Hunter_Nav2_组会20261028.pptx",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "7f3635dfba80a7550833efd065008c4be90031eaacabecaa00500a2949b35786",
+      "bytes": 2363920,
+      "source_mtime_ns": 1793175568719015900
+    },
+    {
+      "relative_path": "outputs/hunter_pcd_to_2d_20261029/build_candidate.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8fa1a756ec16451d670f380d7a70679b2b99c90d0f2c5b8d269af2f306d2a7f8",
+      "bytes": 12139,
+      "source_mtime_ns": 1793278433073850900
+    },
+    {
+      "relative_path": "outputs/hunter_pcd_to_2d_20261029/candidate_preview.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6aaa143d2819a35812b5877a5ca030a9b0553954755ffb45092daecbbab3c91a",
+      "bytes": 123732,
+      "source_mtime_ns": 1793278440322337400
+    },
+    {
+      "relative_path": "outputs/hunter_pcd_to_2d_20261029/conversion_report.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "36d1d71b1724a263b8151ba6ffabf6120ed3d09a0cd615e30412b27550a26e03",
+      "bytes": 4035,
+      "source_mtime_ns": 1793278440616007100
+    },
+    {
+      "relative_path": "outputs/hunter_pcd_to_2d_20261029/lab_155236_floor_evidence_candidate.pgm",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8e7e37cb2a20fe4888af20434b56d80e4f4d8f188cd460b100eb6773ccbf0e8e",
+      "bytes": 986722,
+      "source_mtime_ns": 1793278439206477800
+    },
+    {
+      "relative_path": "outputs/hunter_pcd_to_2d_20261029/lab_155236_floor_evidence_candidate.yaml",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e666079ce202d0a87c8941000d15e906e58d79d515d2d3dd928680acd68c001f",
+      "bytes": 173,
+      "source_mtime_ns": 1793278439208820800
+    },
+    {
+      "relative_path": "outputs/hunter_pcd_to_2d_20261029/raster_evidence.npz",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "26445c4d347460b53c32bc539bf660444145ba4a32498a2942d77f489e633ef8",
+      "bytes": 115033,
+      "source_mtime_ns": 1793278439288852200
+    },
+    {
+      "relative_path": "outputs/hunter_pcd_to_2d_20261029/reference_denoise_review/comparison_report.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d2c12935175173bc5454c1c879d9a785b9fde9dddb0e7f1dc8e656d5ad939d82",
+      "bytes": 1417,
+      "source_mtime_ns": 1793279703935008500
+    },
+    {
+      "relative_path": "outputs/hunter_pcd_to_2d_20261029/reference_denoise_review/reference_denoise_comparison.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b348f584b3b2cb060e17536229c7f544833f98e78ff1d56e261f2fa69866d1ee",
+      "bytes": 124773,
+      "source_mtime_ns": 1793279703929495800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/README.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1ce1abf935b8a6dce5e427a5220fb6b6adfd82a8a85b266aadfa5c2f9809e370",
+      "bytes": 10020,
+      "source_mtime_ns": 1793423957784116900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_camera_update/hunter_full_entry_manifest.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "dd4eec6f9e9d3299ab7c40fba3c46e9b77d58d7e2a412d5da40ff11418052840",
+      "bytes": 2021,
+      "source_mtime_ns": 1793344934132102700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_camera_update/hz_hunter_full.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c280d908e20224eea0a52ba9b2d4116fe9c484c8df05c502d1bd113ea9aaa991",
+      "bytes": 29578,
+      "source_mtime_ns": 1793342330505952200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_camera_update/hz_hunter_full_manifest.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9e1947afb3409a1e293b7e2192d5d8bf506d2980209e594773e8641f0fbe8c89",
+      "bytes": 5444,
+      "source_mtime_ns": 1793342740591981400
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/hz_hunter_full_description/README.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "db6927256230998ad38e06a860489ebf8f07e129459eecd0649670f121073050",
+      "bytes": 3339,
+      "source_mtime_ns": 1793350412253156200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/hz_hunter_full_description/SOURCE_NOTICE.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "101805254e3f45e942651dc9aa5c36990a1c6be66a342288ee978a5ed951fd90",
+      "bytes": 1627,
+      "source_mtime_ns": 1793350412251650100
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/hz_hunter_full_description/geometry_report.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "905f060951607d641272c2d05c9af95103d1d65dc24ccd8bfa054bad701c33e3",
+      "bytes": 29892,
+      "source_mtime_ns": 1793350412250634300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/hz_hunter_full_description/source_manifest.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "335c5f20cd4221651897f995acfebdd18a20adc63140c6b56aa3b59a9640565a",
+      "bytes": 14511,
+      "source_mtime_ns": 1793350412359714400
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/hz_hunter_full_description/urdf/hunter_full.urdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "7050e9b11d861ef9d5792691363e76f2e274a94e72924cc3d5b790d69070132e",
+      "bytes": 16844,
+      "source_mtime_ns": 1793350392607084500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/scenes/hz_hunter_full.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c5e0a0e7a999be8eec129a2ccde388947dc748458e4878eabfb141fbb8f44c40",
+      "bytes": 29660,
+      "source_mtime_ns": 1793423436710506400
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/scenes/hz_hunter_full_manifest.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "44dc78b6e8a45507015378c5ee165583dc1a4f73744d6847d07a9728bb28f0de",
+      "bytes": 6929,
+      "source_mtime_ns": 1793423436719556100
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_camera_visual_alignment/sim/tools/build_hunter_full_description.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "82f37e77604384351cbfb15552d5ca84f6efdd12a54a45fbb3a37b34cc4da2a8",
+      "bytes": 36130,
+      "source_mtime_ns": 1793350369659090800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/manifest.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5e745afb4884ad258e4260359d7ccf6548f894d009a0bcfe3efc60c1b22585cc",
+      "bytes": 3064,
+      "source_mtime_ns": 1793350270321405900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/outputs/hunter_model_upgrade_20261030/references/ament/hunter_full.converted.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "84ac4ef56988c8bedef64bb49c5b37ee8ebe0920104747773e60142856d44734",
+      "bytes": 19513,
+      "source_mtime_ns": 1793341577127212300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/outputs/hunter_model_upgrade_20261030/references/ament/hunter_full_lump_input.urdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b77e8cff67c4deb3105e4dcb00a731f618f859b2be95455f67b28ea0aa5511d7",
+      "bytes": 15878,
+      "source_mtime_ns": 1793341576773110300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/README.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4c04e655fe7e9b09a8c0d69d6868cab84fda4980c3c3934a04fdddde4c572d2e",
+      "bytes": 3868,
+      "source_mtime_ns": 1793347425272992000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/CMakeLists.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d654680916c21d6f0b505188793a35f45f0ffa4bcd5b0c262cdca566432c8584",
+      "bytes": 312,
+      "source_mtime_ns": 1793340989143474000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/README.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c4327b327b2ef2b4209978f5cd060f0e42e670cc27dcb2cf8a666c43549b4188",
+      "bytes": 3074,
+      "source_mtime_ns": 1793340989144473700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/SOURCE_NOTICE.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "a12f54f082764c5602cdc334bca04f9925196a6f164d80477803e10d907723a1",
+      "bytes": 1311,
+      "source_mtime_ns": 1793340989143474000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/geometry_report.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "a0f973a6dd0dc88d288863c3aa45592c0dea88ea783e54730e07af5be5cf0e5d",
+      "bytes": 27617,
+      "source_mtime_ns": 1793340989142476500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/package.xml",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ee8d5fc820bfa2c91ba1b35481b8e2fb7444c3b43b1f133ed4b3fac6063dbc08",
+      "bytes": 520,
+      "source_mtime_ns": 1793340989142476500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/source_manifest.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ed25683ac9c8acbf42222476afe89cf9fa6f4be984ade673f3dd40563b6fd7f8",
+      "bytes": 11697,
+      "source_mtime_ns": 1793340989242237000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/hz_hunter_full_description/urdf/hunter_full.urdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "2010c1874b0c2bf1b35696394b4f90f8c7488f3eaade649d7cda19fb196310fe",
+      "bytes": 16839,
+      "source_mtime_ns": 1793340969384980700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/scenes/hz_hunter_full.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e7cb471bfd1c0a3496ac59072ba5214239216b1b71e8bcb3317a28e234b4d74d",
+      "bytes": 29593,
+      "source_mtime_ns": 1793347299581463700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/scenes/hz_hunter_full_gui.config",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc",
+      "bytes": 4507,
+      "source_mtime_ns": 1793347299582477600
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/scenes/hz_hunter_full_manifest.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "00010d730416b8fd2727595fe7cc1381aba7237ec77c5e9aca432732078bf57c",
+      "bytes": 6116,
+      "source_mtime_ns": 1793347299588995200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/build_hunter_full_description.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "98b9ac1f3d6125c48694c55e2cc8aad7a46818f275bc0494edbf5e1f07594460",
+      "bytes": 35008,
+      "source_mtime_ns": 1793340726547280100
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/build_hunter_full_scene.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "135b4d410f21c11f3d0d6cc6b55deeeed17f303a75e2c0af872320a19e3047ca",
+      "bytes": 10908,
+      "source_mtime_ns": 1793347283801920500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/check_full_entry.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "58fab9bfa403e52fdc9ab4c5b5f08ea9a1c4ce5d226bd10e3f45398565a35908",
+      "bytes": 11245,
+      "source_mtime_ns": 1793344469752657800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/check_hunter_full_scene.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1c45a4559ebf323164ddf97b22b5d022d7e9a9a20d13d2efeb15ceb9e9784bf5",
+      "bytes": 33175,
+      "source_mtime_ns": 1793347283800915600
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/hunter_full_entry_manifest.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1b50248e9a032d3fd85f0102624a622c3d867856b0836fafed4bdbb5c3b193e0",
+      "bytes": 2021,
+      "source_mtime_ns": 1793347302639039400
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/test_hunter_full_model.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "06c0596d30cd67d07061ac57e9397e49181304eff45d577b5f50b0febd843bd9",
+      "bytes": 15237,
+      "source_mtime_ns": 1793340715762374900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/before_extrinsics_update/sim/tools/test_hunter_full_scene.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "dea56de0bd3e26a3c2b378bbe0037f95eb8363c9679cc3e251155d7a635216e3",
+      "bytes": 17277,
+      "source_mtime_ns": 1793347283803626800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/camera_projection_observer",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "027c883374d9adaa02e1277b628b9b82f4d5c7503f5de520245d3207b5ee1b2a",
+      "bytes": 184976,
+      "source_mtime_ns": 1793347140000000000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/camera_projection_observer.cc",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e8b91d89274a0d4ddd6ced8c840b5f3197cf612d3ca089e3307083c52bfe933b",
+      "bytes": 1887,
+      "source_mtime_ns": 1793347126549409700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/camera_ros_observer.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d63a72a1e932568423eccb6429de5c3d8eeb5f7a9038a06e9137e16fa90b5608",
+      "bytes": 1581,
+      "source_mtime_ns": 1793347377644931000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/extrinsics_candidate.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5bac03cc4182bf257366d5ae2df5b4348b9cd8f122ee18255a45ab0c4d04ca4c",
+      "bytes": 2036,
+      "source_mtime_ns": 1793349772779401800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/model_build.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "051a00a7a1d4f594942385be31767a30de60163da81fb0121215ea043ad47c40",
+      "bytes": 125,
+      "source_mtime_ns": 1793423785102379700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/model_build_check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "54b173f793674cae197444b25f8e79ef132df36cfbb7d2bcf87b9c3128afadb5",
+      "bytes": 349,
+      "source_mtime_ns": 1793423785597186500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/observe_mapping_ros.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e4fb3a21fafc9d4869319d8d348dc922d4a8a0288b483cdc4451c0f2abac9d6b",
+      "bytes": 12137,
+      "source_mtime_ns": 1793423529986248300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probe_camera_intrinsics.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4c46e5d93a273ce35dacb1c13b9626030044e12487c0cfa63981de2279838cec",
+      "bytes": 10196,
+      "source_mtime_ns": 1793347425257156200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probe_camera_mapping.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "68a398beaeea3dff2c97bd2f7886ec8a80e0bfbd28f59b40a6a6f4890e4df9a4",
+      "bytes": 12916,
+      "source_mtime_ns": 1793423677307864700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/08fe962b5229/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40",
+      "bytes": 669,
+      "source_mtime_ns": 1793423645915491800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/08fe962b5229/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "03253d718a988f7266867310ea2d4ae449dedc51ee4f802c49044f1c3dbc81ca",
+      "bytes": 1861,
+      "source_mtime_ns": 1793423646363796100
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/08fe962b5229/private_bridge.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e",
+      "bytes": 292,
+      "source_mtime_ns": 1793423638710498800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/08fe962b5229/ros_bridge.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "592992fad9276280b3c224ea2cc43324edaf2a558a0c70925674872106dece87",
+      "bytes": 390,
+      "source_mtime_ns": 1793423646200676800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/08fe962b5229/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6258bd6559a9225b9772e4f457cbedfc8e27a917654e46af422f8fe20356bb33",
+      "bytes": 5396,
+      "source_mtime_ns": 1793423646272849600
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/08fe962b5229/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ea705f61f69ed0d2cb002e346547f872ac694e9a5eccb8d730af5c8fc1962ece",
+      "bytes": 25420,
+      "source_mtime_ns": 1793423638367997100
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/0a69d22f7717/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40",
+      "bytes": 669,
+      "source_mtime_ns": 1793423661917548900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/0a69d22f7717/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ada3084d7cf096737b705e0ecddc71fb030b710cc8031910ee868f6c6442af73",
+      "bytes": 1179,
+      "source_mtime_ns": 1793423662353758200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/0a69d22f7717/private_bridge.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e",
+      "bytes": 292,
+      "source_mtime_ns": 1793423654540692600
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/0a69d22f7717/ros_bridge.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "afa4db43a3269ecf2088370c5279d17d60c419399996fbbbe66a3e8838e00aea",
+      "bytes": 390,
+      "source_mtime_ns": 1793423662183315800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/0a69d22f7717/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "41c80a436eaf620318e2eb5b1960e7750a43ec94368979bb64355d673edbe3d6",
+      "bytes": 5396,
+      "source_mtime_ns": 1793423662249379300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/0a69d22f7717/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5c07add7ea079fb98d94a91889b37fcf2cab7d2a71add883a3ba5a654c1d9899",
+      "bytes": 25882,
+      "source_mtime_ns": 1793423654228829500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/2e5e7465b16d/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1d339e1bc4a24b35d790779cebc197a091c485506cf60b4452a65e83085be84b",
+      "bytes": 723,
+      "source_mtime_ns": 1793347198673558600
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/2e5e7465b16d/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "3b97c4019e3cb7be9e12ac72a062b03be83fb5ed3bdfae6d3ae913c8fcc7690b",
+      "bytes": 1185,
+      "source_mtime_ns": 1793347199416195900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/2e5e7465b16d/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1ff1353397563e3ca07d2dea46a0465ea990176417c0b785f27c879f0db84c8e",
+      "bytes": 5396,
+      "source_mtime_ns": 1793347199278240200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/2e5e7465b16d/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ba55873553d84578800f0e8d45760c38e03e045942907ad1c7a0e9febf54d546",
+      "bytes": 26066,
+      "source_mtime_ns": 1793347187388835800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/79bf9a610819/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e114b931e7d1a31b7f7b345a1e197982ff74623660a3cb7583b03cecee0ebc80",
+      "bytes": 671,
+      "source_mtime_ns": 1793423696802693600
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/79bf9a610819/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e38b45d8c46e533aa21f66e00c7a73e237f18d66c089ab15d7b3e133597515f5",
+      "bytes": 1912,
+      "source_mtime_ns": 1793423696967729300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/79bf9a610819/private_bridge.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e",
+      "bytes": 292,
+      "source_mtime_ns": 1793423688415039400
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/79bf9a610819/ros_bridge.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "01ed96e3f5f4ca82c14e73f631a5030be64f4b010fe8c751d0280df60842377c",
+      "bytes": 390,
+      "source_mtime_ns": 1793423696803691700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/79bf9a610819/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "83478f8ae1a3c17c3c80ed1c911aac3a521215a863e8871484b3eeb813dbef1a",
+      "bytes": 5396,
+      "source_mtime_ns": 1793423696867141900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/79bf9a610819/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "398ee7d75ca57e81b7c76de0cff20ac738b6b683bd5ccf13aca3a007dbea3fdd",
+      "bytes": 25815,
+      "source_mtime_ns": 1793423688030293800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/804d139cb210/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40",
+      "bytes": 669,
+      "source_mtime_ns": 1793347238795680900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/804d139cb210/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e5f586bc86e4d99ae01d1abe3bcc1c9303e0fc2b787842164ebd9351d0bfa7a5",
+      "bytes": 1220,
+      "source_mtime_ns": 1793347239437418500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/804d139cb210/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e9095e97d43c177385187f2db715934df966dab60576f5a53ff30861649190c2",
+      "bytes": 5396,
+      "source_mtime_ns": 1793347239265396000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/804d139cb210/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c877b1fb02869adf0067b64fd6546a7ebbcba95805fa18b0efba4a7179ef9e0e",
+      "bytes": 25751,
+      "source_mtime_ns": 1793347227616724500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/8cc24a2d6c04/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1d339e1bc4a24b35d790779cebc197a091c485506cf60b4452a65e83085be84b",
+      "bytes": 723,
+      "source_mtime_ns": 1793347091391582500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/8cc24a2d6c04/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "95f86f726249e2191cf7ce212387bb759d0e3a07c756cc40d2502dc8359ab55a",
+      "bytes": 921,
+      "source_mtime_ns": 1793347091644743500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/8cc24a2d6c04/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "acbac724b8deb5edb19e85dc84cf03402b6d6a64df79c9fe644f8a941a61c215",
+      "bytes": 5396,
+      "source_mtime_ns": 1793347091522339600
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/8cc24a2d6c04/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "84dbae1bad4b13cb91138f1b036fac5cfe4a8c5a6074664f38e6067e7c08229b",
+      "bytes": 26066,
+      "source_mtime_ns": 1793347083489605300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40",
+      "bytes": 669,
+      "source_mtime_ns": 1793423817273177000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8c0f8727f09298dde7c0ddb0e6c25ef64b11061cc861d148d24e9475d1dcb464",
+      "bytes": 1889,
+      "source_mtime_ns": 1793423817779506600
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/private_bridge.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e",
+      "bytes": 292,
+      "source_mtime_ns": 1793423809893464000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/ros_bridge.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e2c026fc1bcdef292c32615afd6e3b3736d1d61b6e02ad70588afd6db771d900",
+      "bytes": 390,
+      "source_mtime_ns": 1793423817560399800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "52f5600d8ae5c077ed21653dbce98f82443e4ac8470601a9d43834f201c88017",
+      "bytes": 5396,
+      "source_mtime_ns": 1793423817659437200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/8ff47460e971/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "96b5f4a10ab9731e67d4a2b924a07c3b984c5f357824a12a36ced2bb84e7ad41",
+      "bytes": 25865,
+      "source_mtime_ns": 1793423809559913400
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/a2f8ec1feb3c/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40",
+      "bytes": 669,
+      "source_mtime_ns": 1793347394744825700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/a2f8ec1feb3c/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "fb7fdcb78c4d7c349deb8f300f27151ef3838ba7f9a74554b1b7077914392fb3",
+      "bytes": 1704,
+      "source_mtime_ns": 1793347395383143500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/a2f8ec1feb3c/private_bridge.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e",
+      "bytes": 292,
+      "source_mtime_ns": 1793347383848512100
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/a2f8ec1feb3c/ros_bridge.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "88fae86ec9d13bcd2a86438971952d8ed9e5cd68870741989db9c279e6956bea",
+      "bytes": 390,
+      "source_mtime_ns": 1793347395110339400
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/a2f8ec1feb3c/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f274bfdfa33448bc715d4719e6a1b73fa21d88f2f31f62b6c0cf812ec031c50e",
+      "bytes": 5396,
+      "source_mtime_ns": 1793347395218320000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/a2f8ec1feb3c/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "37c35dd4bd868f82f37835578e7d0f4059443c3e4d49e19d836777da6b156ac8",
+      "bytes": 25751,
+      "source_mtime_ns": 1793347383341679300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/a609e8c48186/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40",
+      "bytes": 669,
+      "source_mtime_ns": 1793423575348909900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/a609e8c48186/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "751dd907bdd90ad7a5caa3b135775036303f403ecea2498cc3922fa39ac0051e",
+      "bytes": 1026,
+      "source_mtime_ns": 1793423575816069900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/a609e8c48186/private_bridge.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e",
+      "bytes": 292,
+      "source_mtime_ns": 1793423567425644900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/a609e8c48186/ros_bridge.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "25f739496eedda7912ce796498cb0e9b29ba9683646d75d99a1b1e8c5c7bdb82",
+      "bytes": 390,
+      "source_mtime_ns": 1793423575646704000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/a609e8c48186/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d0cd4f481db4cb42757e108850896d2c2c6fa1f046c802ecd9df6a8a2c886257",
+      "bytes": 5396,
+      "source_mtime_ns": 1793423575712341300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/a609e8c48186/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "817eebd42e97a30b2478105492fbaeb9d3188dc6abb90b76c5537ee334ab0040",
+      "bytes": 25808,
+      "source_mtime_ns": 1793423567030202500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/c8c29e6570ff/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b3a5ecd1991cc0211ad75d843154c65c6042cd08a15bb3bd2b9b34771cbe4fe2",
+      "bytes": 696,
+      "source_mtime_ns": 1793347057515920900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/c8c29e6570ff/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "fe4e2bd01531438ae67171951ed42e14d37f81e260c82e214644899d61c673c0",
+      "bytes": 1273,
+      "source_mtime_ns": 1793347057764250500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/c8c29e6570ff/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e75243650e6f8dbd46750a1175d93b622a8b751809de4b327921335eda897944",
+      "bytes": 5396,
+      "source_mtime_ns": 1793347057644248200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/c8c29e6570ff/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "a1c6d96ef46105dff362b33c3735937052fd852734c4f9d700d6d136d1faa901",
+      "bytes": 25901,
+      "source_mtime_ns": 1793347046145150700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/cf41652d7deb/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e114b931e7d1a31b7f7b345a1e197982ff74623660a3cb7583b03cecee0ebc80",
+      "bytes": 671,
+      "source_mtime_ns": 1793423606734727900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/cf41652d7deb/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "26a1af2b27ee6026bc3a9aea12dee6a46ffec94e69e539e715a11d1850b4ef16",
+      "bytes": 1083,
+      "source_mtime_ns": 1793423607057740300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/cf41652d7deb/private_bridge.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e",
+      "bytes": 292,
+      "source_mtime_ns": 1793423598343872700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/cf41652d7deb/ros_bridge.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "64a7008cf1e758f1bf86e152116d3a8462223faaa8ebbfe6bda7a2679262aff4",
+      "bytes": 390,
+      "source_mtime_ns": 1793423606737728500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/cf41652d7deb/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "bae90b141725905e97331904b86a13214010a17d2d468dcf83e0e824c813c85e",
+      "bytes": 5396,
+      "source_mtime_ns": 1793423606872568300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/cf41652d7deb/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "25d6cc01f5afba43b20ad0bd1b2080aa5569b8dcf96e579766284c6b2fbd4f0f",
+      "bytes": 25746,
+      "source_mtime_ns": 1793423597922785200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/d145ceacbcfe/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40",
+      "bytes": 669,
+      "source_mtime_ns": 1793423618095628100
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/d145ceacbcfe/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6713e97253e833f4194515a4c2ce9e5ccc8f8ed56d8d2a7033ab6aa3775763b6",
+      "bytes": 1798,
+      "source_mtime_ns": 1793423618652606200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/d145ceacbcfe/private_bridge.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e",
+      "bytes": 292,
+      "source_mtime_ns": 1793423610384879900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/d145ceacbcfe/ros_bridge.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d5094083280377f089b8fd89697c7342980930be9b7d1328b793b14c6be16fab",
+      "bytes": 390,
+      "source_mtime_ns": 1793423618379371900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/d145ceacbcfe/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6713b10e634d3790839e8cd62711aa7656ed8c16127dd7aa727b6cf0ab0022ca",
+      "bytes": 5396,
+      "source_mtime_ns": 1793423618514237500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/d145ceacbcfe/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "80a086b20573e8614c59fc23802c6a797953a4db95952a807876904359bef36c",
+      "bytes": 25749,
+      "source_mtime_ns": 1793423610056202900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/d80a19ec3b15/camera_info.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6f264d1cb2fa97780b7f24bee2a9ace06337f2b8b70a29da605b7b6e2cd8ea40",
+      "bytes": 669,
+      "source_mtime_ns": 1793347509332140400
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/d80a19ec3b15/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c6221b6ad10d357418f7086cc34ad35f2cba6b56940f6c38aaf916a404185db5",
+      "bytes": 1738,
+      "source_mtime_ns": 1793347509991299200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/d80a19ec3b15/private_bridge.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d7946a0530c8133750ff8dcfd8f7c9fc1971406a60a12dd3c33a4758d152bb5e",
+      "bytes": 292,
+      "source_mtime_ns": 1793347497681529200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/d80a19ec3b15/ros_bridge.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "edf274d1fdbdb30c63ff1f7f2f0dbeafe4c169d98606290cd2b23724dce10b66",
+      "bytes": 390,
+      "source_mtime_ns": 1793347509666502800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/d80a19ec3b15/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "63ba307514cc91b56482c7a843db8616ba877e379a7c9fa4051fb193205d7dba",
+      "bytes": 5396,
+      "source_mtime_ns": 1793347509831332000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/probes/d80a19ec3b15/static_probe.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4baed45d5c0fc7ad5e1d10d51cd2c8f29917ae0de2644aada05710353d79d0e6",
+      "bytes": 25751,
+      "source_mtime_ns": 1793347497200591600
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6ccbd1e5a48e9dbfa461e42226fcbc4c2d15395598a21c367f3a2489f66802ff",
+      "bytes": 2797,
+      "source_mtime_ns": 1793423515374612500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/native_observer.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "3537da460cb0d70420beb3ad83990c0a69ff7c5a912d42cd05f76fcf16f4948f",
+      "bytes": 645,
+      "source_mtime_ns": 1793423513800941400
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/ros_check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "fbfc73c04d4c4761db1bd993a025c882a54337b69bebb0a663f878acd6df94d6",
+      "bytes": 1202,
+      "source_mtime_ns": 1793423514064717700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/ros_launch.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8f155dddfd2109ace770b860f5ac9080744a3778755009a60ce70150c4c7f11d",
+      "bytes": 6450,
+      "source_mtime_ns": 1793423515327404200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/ros_observer.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4a272f8d1d18b10f43de3abe45007be5d98d674acb7824aa8c1a56951c524f49",
+      "bytes": 1038,
+      "source_mtime_ns": 1793423514065730400
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f0e336aae3c7bff42188f6a2b82a152884643375093d3adb2d7162b3fc5ddbfa",
+      "bytes": 5266,
+      "source_mtime_ns": 1793423514216788500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/196c48196d8a/static_full.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "bce824ea9d926ddb399619ed2ba626c1fb1e374fca9f536d645ffdfb7d1bc361",
+      "bytes": 27251,
+      "source_mtime_ns": 1793423505017982500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5f694552add0a1a11c19cedd1359d43701069dec393f2d65c61329a65e5c617d",
+      "bytes": 2826,
+      "source_mtime_ns": 1793423546540601600
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/native_observer.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "10e1dfbc74fe12a0c4ba45879177dbbcdbeaf9b699ca124c014d113158c25a9f",
+      "bytes": 645,
+      "source_mtime_ns": 1793423545014762500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/rgb.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f01420102aa98fd5ad1a991bdead280571bdacd254f3ed59c15a2fb818991571",
+      "bytes": 1950,
+      "source_mtime_ns": 1793423545056527400
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/ros_check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "56be635e26e7bf934879a2f319cc3a2c50fbf198e7b6dc0d545e7aa2cbb8c39c",
+      "bytes": 1231,
+      "source_mtime_ns": 1793423545265421200
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/ros_launch.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "280b67f8451e5d91c72d908388b331e5b3730b71805319becd4374eb9e2cf4fa",
+      "bytes": 6450,
+      "source_mtime_ns": 1793423546458761500
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/ros_observer.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "db1edeb7ee1736357a73c6d3890d0ff3631df86a71f3f074b594b764aff422ca",
+      "bytes": 1067,
+      "source_mtime_ns": 1793423545266422600
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "75477165c7346fd5665a36fea5cc19b5a221e0901af114ba5b969a2cb3f16c64",
+      "bytes": 5266,
+      "source_mtime_ns": 1793423545383515900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/d8321db48559/static_full.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6e4d585ec9ac2ca7cf6b2e86dc2e2413e7dfc365aed9f616e2901c01225a6866",
+      "bytes": 27251,
+      "source_mtime_ns": 1793423536445578700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9de9d56ccc525a949853c7cdb299b71f80d21c708044253acede5643d64647fb",
+      "bytes": 5188,
+      "source_mtime_ns": 1793423806393478100
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/depth_preview.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e7b40c80033e4d93460e8c273c5c3524f2f6563bcec9d6778b45f3aa6f2a8e5e",
+      "bytes": 2353,
+      "source_mtime_ns": 1793423804860954100
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/native_observer.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "3537da460cb0d70420beb3ad83990c0a69ff7c5a912d42cd05f76fcf16f4948f",
+      "bytes": 645,
+      "source_mtime_ns": 1793423804724487300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/rgb.png",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "053983a19d109b95a3f0c0cabc83e983812cf5d783782359020467d3e410b2f6",
+      "bytes": 6656,
+      "source_mtime_ns": 1793423804771138800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/ros_check.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "bddc51e1f02083fac0e6b7dd3b18c0087efe38f6d4e72525e9d3c1224ec651c3",
+      "bytes": 3362,
+      "source_mtime_ns": 1793423805081171700
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/ros_launch.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f593e70067adf6420c9bab255dcab15dd4fc390f9edf9a9e5ec494aeda93b079",
+      "bytes": 6450,
+      "source_mtime_ns": 1793423806347725000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/ros_observer.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "cc4eaf2bfba60399749f2e4d60cff6a52fe489911e5bcd68c08789fe867ef1a4",
+      "bytes": 2326,
+      "source_mtime_ns": 1793423805083181900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/server.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "eb1bc07182ae9211995d5a61c33116df3f9417515a9e7381371ff12db35280e0",
+      "bytes": 5590,
+      "source_mtime_ns": 1793423805229844800
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/runtime/de3d74e70301/static_full.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "293c4a1bf3942b00e7cec1569cc5faa0e657edbd1af17d33de374171be8037ef",
+      "bytes": 27308,
+      "source_mtime_ns": 1793423796186755900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/sdf_convert.stderr.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_mtime_ns": 1793423785339950000
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/sync_personal_package.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "42f038d077b78cdfb164258776b60cc625f0c37209c259e27c8b014a21abf9c1",
+      "bytes": 5860,
+      "source_mtime_ns": 1793423733960628300
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/task_plan.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "03f20dfd2dc4ba065b49796df5ace627aee1ef1e41bccace01811ed76fb7bf7f",
+      "bytes": 4085,
+      "source_mtime_ns": 1793423897453924900
+    },
+    {
+      "relative_path": "outputs/hunter_sensor_parameters_20261030/verify_mapping_sensors.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "818ee928429ab0b859805d9de9fa09eacd7e2cee8d99d685360c40dfa05640d1",
+      "bytes": 4917,
+      "source_mtime_ns": 1793423477256549100
+    },
+    {
+      "relative_path": "outputs/hunter_sim_execution_20261012/findings.md",
+      "change": "changed",
+      "previous_sha256": "bf17a703077e8ad9c69fea2692d07b576bb2b307e30953fa1519003a23fa26a2",
+      "sha256": "9529704b72e4567395c9446d5cbbe2d63dc58c7dbac7e0899238535b714efc8d",
+      "bytes": 82070,
+      "source_mtime_ns": 1793338365634153500
+    },
+    {
+      "relative_path": "outputs/hunter_sim_execution_20261012/progress.md",
+      "change": "changed",
+      "previous_sha256": "c41bfb7ec2cf6b7ac83aa5eba09c81a46bd3fad631724a12c69e81f68f9ad4e4",
+      "sha256": "8ef6b3e87fc2d9686cb1d06e2d32299c4a164fedb503ef496f904bdfed0d7a1b",
+      "bytes": 37397,
+      "source_mtime_ns": 1793338365645097400
+    },
+    {
+      "relative_path": "outputs/hunter_sim_execution_20261012/task_plan.md",
+      "change": "changed",
+      "previous_sha256": "00f7aa1ed3f19e9423a395794b87abae926d7c0c23b61cc7c416281fe856c2a3",
+      "sha256": "41e37b749225300b424557d2ce7bc28471db41e9bdcae9b299352043e90952c0",
+      "bytes": 5041,
+      "source_mtime_ns": 1793338441509746600
+    },
+    {
+      "relative_path": "outputs/hunter_sim_handover_20261031/仿真进度与台式机交接.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "bad41e3f2f0f894d4a1c50ed6936cfde32666ab4628835b91217cb644da546f5",
+      "bytes": 12576,
+      "source_mtime_ns": 1793446709651373800
+    },
+    {
+      "relative_path": "outputs/hunter_sim_handover_20261031/核心文件SHA256.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "767eac0e8e77b66e7a42d85c3612d703857f43b97a804e80564b743fe8d8533e",
+      "bytes": 25824,
+      "source_mtime_ns": 1793446149044359200
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/README.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6d83fff010dc620624b1228eac96fbf2885f9e30d50b6feccac981e689928708",
+      "bytes": 2094,
+      "source_mtime_ns": 1793348393805232200
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/Script.js.before",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d60fb84abefb54e550bd1dead6ed16986b119d8b3890efd6f1ead9c6d151d45b",
+      "bytes": 96,
+      "source_mtime_ns": 1791013469524338200
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/global_script.js",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "784d4799b978771829f9b8ff889ac13eeedd9f94364e01aa06683be392fc4764",
+      "bytes": 316,
+      "source_mtime_ns": 1793347472479731800
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/probe/cache.db",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f3f954ce4648f45efbd2265c94956ce126300a927eb45eb898aec51d6d1847be",
+      "bytes": 32768,
+      "source_mtime_ns": 1793346961881907100
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/probe/live_probe_receipt.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "bc4d53831aec59978f156d6d032d246e15510379a8c104a5cdf556a5629cb009",
+      "bytes": 39,
+      "source_mtime_ns": 1793348218083359400
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/probe/private_global.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "13cfe1425ffe6554cd6b43cdfcf06aab698892711aaec23263bbdc7853234a77",
+      "bytes": 918,
+      "source_mtime_ns": 1793346960473864600
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/probe/private_global.yaml",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "84b00d1b3395827a5cfbb0466e489944cf654568139d9258bce1ffcf27363f2f",
+      "bytes": 222,
+      "source_mtime_ns": 1793346959727068300
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/probe/private_rule.log",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "555e5c80437bb89bfa1b63a6278df0f07b70aa3630d9bea398f344efbfec37b0",
+      "bytes": 948,
+      "source_mtime_ns": 1793346961903444500
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/probe/private_rule.yaml",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ee669821d1ce3290f717d95c76e7be3767b4a91d49f70d68b762dc8405c67869",
+      "bytes": 220,
+      "source_mtime_ns": 1793346961212973500
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/probe/probe.yaml",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b17956718145997f3f7db32cb35b5b4ab4adce97b194f09d505c076421de61dd",
+      "bytes": 113,
+      "source_mtime_ns": 1793346906144242900
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/probe/test_process_routing.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "09d15c9e5f70955fc2c5d9c81b69ce2f994aaf6d6010523b24ab29e1b23f5977",
+      "bytes": 4130,
+      "source_mtime_ns": 1793346957332948900
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/probe/test_running_core.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8eeb68e33064d93b24a5d09b35ee865551179e903ade2601cb1f14732ecfcd2b",
+      "bytes": 1904,
+      "source_mtime_ns": 1793348212268358200
+    },
+    {
+      "relative_path": "outputs/rustdesk_direct_20261030/profile_rules.before.yaml",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "dba97bbe30c1ac41866ca20ee679e39b1eda5718860c8520e813eaf3464cde08",
+      "bytes": 90,
+      "source_mtime_ns": 1793344356100717200
+    },
+    {
+      "relative_path": "progress.md",
+      "change": "changed",
+      "previous_sha256": "7f809acff33d053f553045d9a0b28e806e865cb1ba5c53c57678fffd31d4e6b1",
+      "sha256": "1b47b7b2e962a4e151b48c96442cc869f10d10f02453210b13040b5df7d2f8a7",
+      "bytes": 186216,
+      "source_mtime_ns": 1793280363597112800
+    },
+    {
+      "relative_path": "robot_assets/car_sensor_config_20261030/camera_d435i_640x480.yaml",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "790333f3aa749400429f27d0fa0838662dc8c65e5ad6e64b96dfa9de8d183daf",
+      "bytes": 277,
+      "source_mtime_ns": 1791610795000000000
+    },
+    {
+      "relative_path": "robot_assets/car_sensor_config_20261030/source/LIVMapper.cpp",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "1bbdae25fde516032de59371364960481f569fa67f21ab16fb7d6d07034409f8",
+      "bytes": 57169,
+      "source_mtime_ns": 1780471614000000000
+    },
+    {
+      "relative_path": "robot_assets/car_sensor_config_20261030/source/ch104_imu_pub_legacy.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "abcb19913c42d5133913b72754b2515f9740223a1726af6840c8651fc7f9ed52",
+      "bytes": 4638,
+      "source_mtime_ns": 1779976118000000000
+    },
+    {
+      "relative_path": "robot_assets/car_sensor_config_20261030/source/vio.cpp",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5786aeca9a26c796953430d471d5428279a5590c084b07dc945647aa88048911",
+      "bytes": 68088,
+      "source_mtime_ns": 1766734996000000000
+    },
+    {
+      "relative_path": "robot_assets/car_sensor_config_20261030/xt32_ch104_d435i.yaml",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "bd5a59683e9ed914fab81af13af0306a75ab13d5091ce2e3465dad5fea93cb9e",
+      "bytes": 6805,
+      "source_mtime_ns": 1780471640000000000
+    },
+    {
+      "relative_path": "sim/README.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "228b7380a5e7b50e635b4c4f07183a7857a77cad3e9845d107dc83d653985c62",
+      "bytes": 4618,
+      "source_mtime_ns": 1793423924951545300
+    },
+    {
+      "relative_path": "sim/config/hunter_full_bridge.yaml",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "921e4a113c5fedb09c968d75017831641977bc94ff46897b2fb8cbe0af74955c",
+      "bytes": 2762,
+      "source_mtime_ns": 1793342002133966500
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/CMakeLists.txt",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d654680916c21d6f0b505188793a35f45f0ffa4bcd5b0c262cdca566432c8584",
+      "bytes": 312,
+      "source_mtime_ns": 1793423767420583700
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/README.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f14a0ca8b2392e8f100bc0fd948ade0775cd64d850794353833469ddb6b2123d",
+      "bytes": 3667,
+      "source_mtime_ns": 1793423767421591000
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/SOURCE_NOTICE.md",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "101805254e3f45e942651dc9aa5c36990a1c6be66a342288ee978a5ed951fd90",
+      "bytes": 1627,
+      "source_mtime_ns": 1793423767421591000
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/geometry_report.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "78f0ab3f006b43bf9f8a6dda47cb815ab50efe9b037882123bfc5cbc11f77be1",
+      "bytes": 30119,
+      "source_mtime_ns": 1793423767419584500
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/meshes/chassis/base_link.stl",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f1d21d0a1d52a9f1e42b91f2a5ee847e0bad71afdf4cc60749cdf92c78042638",
+      "bytes": 6452284,
+      "source_mtime_ns": 1793423745358864200
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/meshes/chassis/front_left_wheel_link.stl",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "c0e938b3140b755e49350222f5c38375fa99ea6c5f4c3384f4cfbbc3181c22d5",
+      "bytes": 1823584,
+      "source_mtime_ns": 1793423748148733100
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/meshes/chassis/front_right_wheel_link.stl",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6b92e06f9db14cbed62379e3619b017787b603df2a26e31e14ed3c2032d89d3d",
+      "bytes": 985784,
+      "source_mtime_ns": 1793423748852702400
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/meshes/chassis/front_steer_bar_link.stl",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "89d0eb127ba67ed0876873080f04da1c1a587747d097de78322bcc7e7a5773d0",
+      "bytes": 99284,
+      "source_mtime_ns": 1793423745523724300
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/meshes/chassis/rear_axle_detail_link.stl",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "cb4c7aaeeb77056d2cd8f903cb480ad594d0e1550a3066f0b1b4459e7a5d8fd6",
+      "bytes": 156084,
+      "source_mtime_ns": 1793423745556809400
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/meshes/chassis/rear_left_wheel_link.stl",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "6c912207b50d48a1b5b74bb68c0be696cdf6a6e0f227deb949aac27c74c40f85",
+      "bytes": 1465484,
+      "source_mtime_ns": 1793423746157824400
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/meshes/chassis/rear_right_wheel_link.stl",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d06fd72a84df26f205a657cc3f560563312677591b4d81add0b961a78f6cbe70",
+      "bytes": 1834384,
+      "source_mtime_ns": 1793423747090423400
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/meshes/upfit/ARS548.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5350178d525c3f57828c1f820c572136ba1efcbbfe36ba01c00486727bdd8597",
+      "bytes": 51739584,
+      "source_mtime_ns": 1793423749064198700
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/meshes/upfit/G60.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "08adf459e9c2a79f2247169886aab8559e1632f22177db764635602d8105fb12",
+      "bytes": 190684,
+      "source_mtime_ns": 1793423749028988400
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/meshes/upfit/XT32.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "8fd7cf0485509c97ca499ab0c7a3aaef5e43242b836cbd23395451577d06b64f",
+      "bytes": 1536384,
+      "source_mtime_ns": 1793423749027988500
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/meshes/upfit/assembly.STL",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ddd0fe5993af16aa1ee67845aca76170d21ef31e3fcce5fafed98458aa67f34c",
+      "bytes": 3911284,
+      "source_mtime_ns": 1793423749025052900
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/meshes/upfit/d435.dae",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78",
+      "bytes": 15782439,
+      "source_mtime_ns": 1793423749076801500
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/package.xml",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ee8d5fc820bfa2c91ba1b35481b8e2fb7444c3b43b1f133ed4b3fac6063dbc08",
+      "bytes": 520,
+      "source_mtime_ns": 1793423767420583700
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/source_manifest.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b97a3803569e25544e772852b74df4b5f6e95d71076fd3aec8525a0c9eb1ed6b",
+      "bytes": 14511,
+      "source_mtime_ns": 1793423767511382600
+    },
+    {
+      "relative_path": "sim/hz_hunter_full_description/urdf/hunter_full.urdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "24f4f2c7bd46e3e39b61d4b25d58ff12853f1623821c0927607bd7f6059fcea2",
+      "bytes": 16876,
+      "source_mtime_ns": 1793423749397559900
+    },
+    {
+      "relative_path": "sim/hz_hunter_sim/README.md",
+      "change": "changed",
+      "previous_sha256": "f7f54ac63a0ddd289fa2d9a1d231b5c8fbdba2e172dc17ad9c48f8c7d58b758d",
+      "sha256": "dad83427715251be06791a25e7c663528cab95a4b8f56083eb4e19c6ab4e735a",
+      "bytes": 3910,
+      "source_mtime_ns": 1793338365608069200
+    },
+    {
+      "relative_path": "sim/launch/hunter_full_ros.launch.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "bc4d2dad9bc0dd5a147b637be0684c0cfe4a4a7133e8b3f76913c944c40eeafe",
+      "bytes": 1778,
+      "source_mtime_ns": 1793342001644855000
+    },
+    {
+      "relative_path": "sim/scenes/README.md",
+      "change": "changed",
+      "previous_sha256": "d00b450426357fcdfcf0ed29cd8b9a8db0994c8fab8bd08811152184d638acbd",
+      "sha256": "ac6fa83c739eafbca1fe2d075dd6eb83ed5bb289ad83520e0c41efe18a44fd1b",
+      "bytes": 6802,
+      "source_mtime_ns": 1793344344686994200
+    },
+    {
+      "relative_path": "sim/scenes/hz_hunter_full.sdf",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "4ab489805f894679f413664e3d9175d752bb9be3eb813da30c8985eb80562c63",
+      "bytes": 29717,
+      "source_mtime_ns": 1793423788687174200
+    },
+    {
+      "relative_path": "sim/scenes/hz_hunter_full_gui.config",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b4de5b399156c8188458c7c0f7d54cba5d2416a88515a99eb36e7f33f52a66bc",
+      "bytes": 4507,
+      "source_mtime_ns": 1793423788688677600
+    },
+    {
+      "relative_path": "sim/scenes/hz_hunter_full_manifest.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "71e062bb17337f15df09252adc2f7cdbe1272ecc3da5bb9da14ec1d7aa896d26",
+      "bytes": 6929,
+      "source_mtime_ns": 1793423788694203900
+    },
+    {
+      "relative_path": "sim/tools/README.md",
+      "change": "changed",
+      "previous_sha256": "7abc7d9180b0338298a1a0c22765f103e38b32470e12514aa36e3360d8cabdf8",
+      "sha256": "dd325281a0a447c458e8c950495eb059a791f9f0c26affcf189270fe88688ce1",
+      "bytes": 7818,
+      "source_mtime_ns": 1793344344682988700
+    },
+    {
+      "relative_path": "sim/tools/build_hunter_full_description.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "5c3c376153f1a5a3364cc21c0e4c1cc267651f2b3eeeffa51ac761ae3def8c13",
+      "bytes": 37643,
+      "source_mtime_ns": 1793423733958101400
+    },
+    {
+      "relative_path": "sim/tools/build_hunter_full_scene.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "53cc207c0e1b95e6387f5500217e939d0910c0bcd2545d3f8ac7ed03cff6c746",
+      "bytes": 10952,
+      "source_mtime_ns": 1793350431127799900
+    },
+    {
+      "relative_path": "sim/tools/check_full_entry.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ec06d3ed83cf0ea9c051dfb4af2c7d5a67a813247a5e045c180eb1dd9ebd3dfb",
+      "bytes": 11287,
+      "source_mtime_ns": 1793350431127799900
+    },
+    {
+      "relative_path": "sim/tools/check_full_ros_interfaces.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "be1300defc6c37327051e46450074887060b5de35ca517a462034aab88760439",
+      "bytes": 3504,
+      "source_mtime_ns": 1793342001643854200
+    },
+    {
+      "relative_path": "sim/tools/check_hunter_full_scene.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "b98c5c8e0841f313520f5b0dffdc334a31758083e6e639070a9d26034cff1b51",
+      "bytes": 35189,
+      "source_mtime_ns": 1793423733960628300
+    },
+    {
+      "relative_path": "sim/tools/full_scene_session.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "9ccaf17f1b9ee13fc10b9e82b1b415c71911fc8b51a0c751e6ad9d19f1dcaaf5",
+      "bytes": 10403,
+      "source_mtime_ns": 1793344933687268300
+    },
+    {
+      "relative_path": "sim/tools/hunter_full_entry_manifest.json",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "be3899bd7d19f388879767eeb073b928061a8504794472869f0d2d6cd7cf95aa",
+      "bytes": 2173,
+      "source_mtime_ns": 1793423791483788500
+    },
+    {
+      "relative_path": "sim/tools/hunter_sensor_profile.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f3080eceb760d68aaa77ae66e66f02f51662a473e70408dbe64d57da814e4e5a",
+      "bytes": 4051,
+      "source_mtime_ns": 1793350341205986300
+    },
+    {
+      "relative_path": "sim/tools/seal_full_entry.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "7eb56c6bc00482dc87e3d31424a4305de3fe57cf98862526f9e265f52bf8682f",
+      "bytes": 710,
+      "source_mtime_ns": 1793344009102145400
+    },
+    {
+      "relative_path": "sim/tools/start_control_scene_logged.bash",
+      "change": "changed",
+      "previous_sha256": "f5c4e226e6efd68992849aecb03841615132b3aacfca3ee093f1e995459a16f3",
+      "sha256": "c659f9b1a0ddaaeb0c393d8a579e54a3e16807fe8a94aa4a2d1a23bf9635e676",
+      "bytes": 391,
+      "source_mtime_ns": 1793344577030484500
+    },
+    {
+      "relative_path": "sim/tools/start_control_scene_logged.ps1",
+      "change": "changed",
+      "previous_sha256": "75967caec931ec5ebdc2e574f291a1d1a9755b2b3671a1094b1a7c1d64020c97",
+      "sha256": "fd0d773b363beea9633c7bd0dcdd43b420b64077ae061e48afc6097caddfe8a4",
+      "bytes": 230,
+      "source_mtime_ns": 1793344009465329800
+    },
+    {
+      "relative_path": "sim/tools/start_hunter_full_scene.bash",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "ab1b38966b571b428610f59a54970257f8fd636063a39d543d5dc45337acb508",
+      "bytes": 720,
+      "source_mtime_ns": 1793344087833342800
+    },
+    {
+      "relative_path": "sim/tools/start_hunter_full_scene.ps1",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "070ec17f5437c1558f1c564bccfb5cb8cb1323e5bff9b0d11fd1fe8c692be7ce",
+      "bytes": 723,
+      "source_mtime_ns": 1793344009103146000
+    },
+    {
+      "relative_path": "sim/tools/test_full_entry.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "987a6b5ba4d5b9d69281c739a905894f8f6090842cfc75dd998e226d7a628a77",
+      "bytes": 24228,
+      "source_mtime_ns": 1793344933686714100
+    },
+    {
+      "relative_path": "sim/tools/test_full_ros_interfaces.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "f8a33363f58193d87e2a7d658ac2e878ed7bf882617bfe5eadfadaad2d2b7b29",
+      "bytes": 2941,
+      "source_mtime_ns": 1793341963185594700
+    },
+    {
+      "relative_path": "sim/tools/test_hunter_full_model.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "528145f7868c43f0c0a4897133c144a47c20660297fa6d059ea93a7c655a1de0",
+      "bytes": 17385,
+      "source_mtime_ns": 1793423717308957200
+    },
+    {
+      "relative_path": "sim/tools/test_hunter_full_scene.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "cde8315c186dc1a64e72149bf984669e61babc6031da30d9d84e33919cb02eee",
+      "bytes": 17391,
+      "source_mtime_ns": 1793350431129799300
+    },
+    {
+      "relative_path": "sim/tools/test_hunter_sensor_profile.py",
+      "change": "added",
+      "previous_sha256": null,
+      "sha256": "d08ccec0077c37539053ec03ecf878f554620e2228be1c71730dc043ed9b7a42",
+      "bytes": 2119,
+      "source_mtime_ns": 1793350456419817700
+    },
+    {
+      "relative_path": "task_plan.md",
+      "change": "changed",
+      "previous_sha256": "213533c508fc0596de0d020f924093a824be023a87b89d08782c745180628772",
+      "sha256": "07882900d3ab0e36d6ec5ff94b293a54d1ba6f58c859bc3a62ff2a317674e399",
+      "bytes": 11130,
+      "source_mtime_ns": 1793280985608363200
+    }
+  ],
+  "baseline_files_not_found_in_current_source": [],
+  "delete_instructions": [],
+  "skipped_directory_or_file_links": [
+    "outputs/group_meeting_20261020/.build/node_modules",
+    "outputs/hunter_nav2_append_20261027/.build/node_modules",
+    "outputs/weekly_mapping_ppt_20261014/.build/node_modules"
+  ],
+  "excluded_scope": [
+    "Live WSL virtual disks and wsl/Ubuntu22.04; restore the baseline system then check dependencies and rebuild the new model from included source.",
+    "tmp, Python/tool caches, .git and node_modules; directory links are not traversed.",
+    "This delivery directory, unchanged baseline project files, and files outside F:/rob-memory.",
+    "No new Codex database or transcript snapshot. The included handoff and project records provide the post-baseline task context."
+  ],
+  "file_paths_preserved_verbatim": true,
+  "requires_baseline_project": true,
+  "requires_oct28_package": false,
+  "desktop_restore_executed": false,
+  "robot_commands_sent": false
+}

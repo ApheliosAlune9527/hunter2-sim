@@ -1,0 +1,57 @@
+{
+  "ok": false,
+  "source_sha256": "790333f3aa749400429f27d0fa0838662dc8c65e5ad6e64b96dfa9de8d183daf",
+  "requested": {
+    "fx": 606.7595825195312,
+    "fy": 606.700439453125,
+    "cx": 329.2454833984375,
+    "cy": 243.96548461914062
+  },
+  "world_all_static": true,
+  "robot_control_plugins": [],
+  "ros_or_hardware_started": false,
+  "motion_published": false,
+  "ign_partition": "hz_camera_probe_2e5e7465b16d",
+  "sdf_valid": true,
+  "camera_info_received": true,
+  "camera_matrices": {
+    "intrinsics": [
+      606.7595825195312,
+      0.0,
+      329.2454833984375,
+      0.0,
+      606.700439453125,
+      243.96548461914062,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "projection": [
+      606.7595825195312,
+      0.0,
+      329.2454833984375,
+      0.0,
+      0.0,
+      606.700439453125,
+      243.96548461914062,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "image_red_target": {
+    "observed_pixel": [
+      323,
+      239
+    ],
+    "expected_pixel": [
+      332.62457633655447,
+      243.57934021164107
+    ],
+    "red_pixels": 57981
+  },
+  "error": "ValueError('Rendered image does not match source projection')",
+  "owned_server_closed": true
+}

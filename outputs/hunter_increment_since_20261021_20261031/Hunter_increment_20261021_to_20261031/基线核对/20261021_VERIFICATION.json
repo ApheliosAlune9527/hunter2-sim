@@ -1,0 +1,16 @@
+{
+  "archive": "F:\\rob-memory-migration-20261021\\rob-memory_迁移包_20261021.zip",
+  "archive_bytes": 5272660369,
+  "sha256": "d38c199fd1e5442eac2dcd707bd8eadb45d4b50fce2273e7ab2b21a89e0ce734",
+  "verified_entries": 14293,
+  "verified_payload_bytes": 14225257526,
+  "indexed_conversations": 149,
+  "normal_transcripts": 177,
+  "archived_transcripts": 2,
+  "attachments": 59,
+  "database_snapshots": 5,
+  "target_project_root_records": 1,
+  "indexed_rollout_files_missing": [],
+  "zip_timestamp_clamps": 296,
+  "completed_at": "2026-10-21T16:37:17.191896+08:00"
+}

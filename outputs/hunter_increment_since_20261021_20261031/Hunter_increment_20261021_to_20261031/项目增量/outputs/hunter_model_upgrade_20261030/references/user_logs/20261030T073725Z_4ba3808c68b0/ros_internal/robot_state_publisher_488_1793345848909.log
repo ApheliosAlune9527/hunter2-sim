@@ -1,0 +1,21 @@
+[WARN] [1793345848.991618545] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1793345848.992860614] [hz_sim.full.state_publisher]: got segment ars548_link
+[INFO] [1793345848.993070376] [hz_sim.full.state_publisher]: got segment assembly_link
+[INFO] [1793345848.993089728] [hz_sim.full.state_publisher]: got segment base_link
+[INFO] [1793345848.993097301] [hz_sim.full.state_publisher]: got segment camera_bottom_screw_frame
+[INFO] [1793345848.993105055] [hz_sim.full.state_publisher]: got segment camera_link
+[INFO] [1793345848.993112007] [hz_sim.full.state_publisher]: got segment camera_optical_frame
+[INFO] [1793345848.993118669] [hz_sim.full.state_publisher]: got segment front_left_steering_link
+[INFO] [1793345848.993126414] [hz_sim.full.state_publisher]: got segment front_left_wheel_link
+[INFO] [1793345848.993135704] [hz_sim.full.state_publisher]: got segment front_right_steering_link
+[INFO] [1793345848.993142141] [hz_sim.full.state_publisher]: got segment front_right_wheel_link
+[INFO] [1793345848.993148677] [hz_sim.full.state_publisher]: got segment front_steer_bar_link
+[INFO] [1793345848.993155258] [hz_sim.full.state_publisher]: got segment gnss_link
+[INFO] [1793345848.993162596] [hz_sim.full.state_publisher]: got segment hesai_lidar
+[INFO] [1793345848.993169064] [hz_sim.full.state_publisher]: got segment hunter_link
+[INFO] [1793345848.993176134] [hz_sim.full.state_publisher]: got segment imu_link
+[INFO] [1793345848.993182235] [hz_sim.full.state_publisher]: got segment rear_axle_detail_link
+[INFO] [1793345848.993190500] [hz_sim.full.state_publisher]: got segment rear_left_wheel_link
+[INFO] [1793345848.993197894] [hz_sim.full.state_publisher]: got segment rear_right_wheel_link
+[INFO] [1793345848.993203768] [hz_sim.full.state_publisher]: got segment reference_base_link
+[INFO] [1793348525.788865566] [rclcpp]: signal_handler(SIGINT/SIGTERM)

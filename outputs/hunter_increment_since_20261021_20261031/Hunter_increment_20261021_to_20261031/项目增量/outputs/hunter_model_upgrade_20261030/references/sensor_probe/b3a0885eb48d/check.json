@@ -1,0 +1,59 @@
+{
+  "engine": "ogre",
+  "all_models_static": true,
+  "vehicle_loaded": false,
+  "velocity_published": false,
+  "partition": "hz_sim_aphelios_73_test_b3a0885eb48d",
+  "report_directory": "/mnt/f/rob-memory/outputs/hunter_model_upgrade_20261030/references/sensor_probe/b3a0885eb48d",
+  "observer_exit_code": 0,
+  "sensors": {
+    "ok": true,
+    "lidar": {
+      "count": 2,
+      "bytes": 0,
+      "width": 1440,
+      "height": 0,
+      "finite": 459,
+      "stamp_ns": 100000000,
+      "frame": "rig::rig_link::lidar"
+    },
+    "points": {
+      "count": 2,
+      "bytes": 46080,
+      "width": 360,
+      "height": 4,
+      "finite": 0,
+      "stamp_ns": 100000000,
+      "frame": "rig::rig_link::lidar"
+    },
+    "rgb": {
+      "count": 2,
+      "bytes": 57600,
+      "width": 160,
+      "height": 120,
+      "finite": 0,
+      "stamp_ns": 200000000,
+      "frame": "rig::rig_link::camera"
+    },
+    "depth": {
+      "count": 2,
+      "bytes": 76800,
+      "width": 160,
+      "height": 120,
+      "finite": 0,
+      "stamp_ns": 200000000,
+      "frame": "rig::rig_link::camera"
+    },
+    "imu": {
+      "count": 11,
+      "bytes": 0,
+      "width": 0,
+      "height": 0,
+      "finite": 0,
+      "stamp_ns": 200000000,
+      "frame": "rig::rig_link::imu"
+    }
+  },
+  "ok": true,
+  "owned_launcher_closed": true
+}
