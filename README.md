@@ -24,6 +24,22 @@
 
 换行统一为 LF（见 `.gitattributes`），Windows 上的 `core.autocrlf=true` 不会污染 Linux 侧脚本。
 
+### Windows 上必须先设的两项（否则 pull 会失败）
+
+仓库里有超过 300 字符的深层路径（`outputs/hunter_increment_since_20261021_20261031/...`），Windows 默认 260 字符上限会让 `git pull` 直接报 `Filename too long` 并中止：
+
+```powershell
+git config --global core.longpaths true
+```
+
+GitHub 在本机直连不稳定（实测会 `Connection was reset` 或 21 秒后超时），走本地代理可用：
+
+```powershell
+git config --global http.https://github.com.proxy http://127.0.0.1:7897
+# 代理没开时改走直连：
+# git -c http.proxy= -c https.proxy= pull
+```
+
 ## 提交前体积闸门（`.githooks/pre-commit`）
 
 git 不会同步 `.git/hooks`，所以钩子**不会自动生效**——每台机器克隆后执行一次：
