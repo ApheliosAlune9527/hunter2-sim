@@ -1,0 +1,522 @@
+{
+  "date": "2026-11-18",
+  "reason": "docs/outputs-audit-20261118.md A 表与 D 表",
+  "not_deleted": [
+    "outputs/weekly_mapping_ppt_20261014/.build/node_modules",
+    "outputs/group_meeting_20261020/.build/node_modules"
+  ],
+  "not_deleted_reason": "两者都是 junction，指向 C:/Users/ASUS/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules，在仓库内不占空间；删掉会让 create_deck.mjs / export_pptx.mjs 无法直接运行。",
+  "deleted": [
+    {
+      "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl",
+      "kind": "tree",
+      "files": 26,
+      "bytes": 56710,
+      "entries": [
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/bridge.log",
+          "bytes": 2101,
+          "sha256": "f7f50003270f0ce844daab851d1335b43d993ebe38468d48763c74912ee8130c"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/episode.log",
+          "bytes": 299,
+          "sha256": "da731c4c33a758ec80f2be6560236ebd554e37a5688e63d21c09ea7ebc53439f"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/forward.log",
+          "bytes": 1188,
+          "sha256": "9138cbb7fc950663c3231b59d40c2b2276bf0affd6a48358fa6e1b4eee835405"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/forward.yaml",
+          "bytes": 1764,
+          "sha256": "1bfebb5f749a05903658b7fcce488c9e151f797924158b4a15be228b1588b3c8"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/gazebo.log",
+          "bytes": 5220,
+          "sha256": "57669ea76079af3ff7852fc2b39ce325b90a63aeb9305abaf41b8df284500a05"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/inputs.json",
+          "bytes": 1269,
+          "sha256": "d86e24da56c06088bacf434382af96b080ac8448e77ca64ce84a5034f2edcb77"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/nav2.log",
+          "bytes": 17187,
+          "sha256": "9aee78d4373deb39e3dac53b0ce105d3160181a14db8113c8dc74d4e7c2a7b3d"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/nav2_reverse.yaml",
+          "bytes": 11772,
+          "sha256": "74fde0de6dcb993a045114cc3b6411317bb0797341ab8bfb7056c539fb9255f1"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/odom_tf.log",
+          "bytes": 105,
+          "sha256": "99a51c7d243685593c2d75a4b7c0277c8cec51c69214a73c6113a2c10dd7447f"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/processes.tsv",
+          "bytes": 105,
+          "sha256": "d63564e912788aa42a2316fe7d1c6bfa2509e7b44ab9dcdedcffbbbd793f7308"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/remaining_processes.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/report.json",
+          "bytes": 713,
+          "sha256": "f9e7894a13254eeb7d1390a0c5ccf65c29641a8473bb2d49c4e98d82616d9ad8"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/session.txt",
+          "bytes": 313,
+          "sha256": "a131b75e5ee258d2c353193ed17a81f6d241d7830d6377922715a9ef5a313f13"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/amcl_11972_1794299599696.log",
+          "bytes": 731,
+          "sha256": "c5f17a78d3b5c0ff98a761ce91ce10171b4d70c69b7e794e3d4f17705db9e9ee"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/behavior_server_11980_1794299599693.log",
+          "bytes": 669,
+          "sha256": "db6477af768333900388eaf0e316e6a851d60b7355e7a98f461911f90ca44f57"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/bt_navigator_11982_1794299599695.log",
+          "bytes": 335,
+          "sha256": "ec48934536810db201345cefe46690fd7da6d70ffd2abcc7c5ce39299e05bfc1"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/controller_server_11976_1794299599691.log",
+          "bytes": 2239,
+          "sha256": "0c82e2ba1d0b70fb589890150c237114e16670dc592fa29d42d5a434e632b486"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/lifecycle_manager_11984_1794299599688.log",
+          "bytes": 1457,
+          "sha256": "a872278bc72ef80567022a43ca899b0bc07f9178957e66d1b979de301bd79f21"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/map_server_11970_1794299599695.log",
+          "bytes": 1394,
+          "sha256": "99352d56fca696b32dea2c01b8fde7708aeab4f520c4c2f11bbefff84266c07a"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/parameter_bridge_11936_1794299599560.log",
+          "bytes": 1996,
+          "sha256": "3507ab6f1c98c738a51a33cfea6a0a82b59cb41c21757b7e8ce9924b7bd6b434"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/planner_server_11937_1794299599558.log",
+          "bytes": 934,
+          "sha256": "9daca5889e27e83695ad607bbed9c8e9588695868fea3e3ee0dfeef935fd7b74"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/planner_server_11974_1794299599691.log",
+          "bytes": 3543,
+          "sha256": "f70c1c82d1394ad84fb321762d6894c6db155b8b61cc9470c87298ab06fd5771"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/python3_11925_1794299599731.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/python3_11934_1794299600118.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/velocity_smoother_11978_1794299599690.log",
+          "bytes": 482,
+          "sha256": "13e9bb936abc8ce75f52e18f3804f7fe9bd354d9ce5e62891a60dcb66887d29d"
+        },
+        {
+          "path": "outputs/agentvln_reverse_dock_20261110_013316_amcl/ros/2026-11-10-01-33-19-618703-PC-20260817VDLU-11928/launch.log",
+          "bytes": 894,
+          "sha256": "8f8a6349bdcd0c2e7e6ae104df10e865ba1bbb19ebcce739fd6a546d369cd934"
+        }
+      ]
+    },
+    {
+      "path": "outputs/agentvln_reverse_record_20261110_015644",
+      "kind": "tree",
+      "files": 8,
+      "bytes": 34791,
+      "entries": [
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_015644/forward.yaml",
+          "bytes": 1764,
+          "sha256": "1bfebb5f749a05903658b7fcce488c9e151f797924158b4a15be228b1588b3c8"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_015644/gazebo.log",
+          "bytes": 5169,
+          "sha256": "558220bee7230e7ad3f0e91e477a24c69cafbe3fbcdf74225a3a46c8ab2366cd"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_015644/gui.log",
+          "bytes": 12245,
+          "sha256": "61cd256caad42dc1c9d2a63e43cfe7cad4330c8aaf978755b385f5fae6def0ab"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_015644/inputs.json",
+          "bytes": 3439,
+          "sha256": "a6a52919609d4879b45a629d920e416cbe9ee70133b6e99be7084ca5bf94e2a4"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_015644/nav2_reverse.yaml",
+          "bytes": 11797,
+          "sha256": "2e47d4ba2d9a6f76620f3c523cfff9aeaf94cfc7ff81dba2800b4a3cc379f388"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_015644/processes.tsv",
+          "bytes": 39,
+          "sha256": "ff1e0d180e53866487aecb43a2eb182b645ef22ed2e2cdf9063529add082205b"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_015644/remaining_processes.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_015644/session.txt",
+          "bytes": 338,
+          "sha256": "eb6271f104b2733b20f4e4e22ba68bce6ac99788fcdba81fc52a3e2e10034e88"
+        }
+      ]
+    },
+    {
+      "path": "outputs/agentvln_reverse_record_20261110_022642",
+      "kind": "tree",
+      "files": 7,
+      "bytes": 34791,
+      "entries": [
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_022642/forward.yaml",
+          "bytes": 1764,
+          "sha256": "1bfebb5f749a05903658b7fcce488c9e151f797924158b4a15be228b1588b3c8"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_022642/gazebo.log",
+          "bytes": 5169,
+          "sha256": "558220bee7230e7ad3f0e91e477a24c69cafbe3fbcdf74225a3a46c8ab2366cd"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_022642/gui.log",
+          "bytes": 12245,
+          "sha256": "61cd256caad42dc1c9d2a63e43cfe7cad4330c8aaf978755b385f5fae6def0ab"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_022642/inputs.json",
+          "bytes": 3439,
+          "sha256": "8131e5df4b4338f0db06738b3a39116cea41da7b92a4397583e2240142edaa04"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_022642/nav2_reverse.yaml",
+          "bytes": 11797,
+          "sha256": "2e47d4ba2d9a6f76620f3c523cfff9aeaf94cfc7ff81dba2800b4a3cc379f388"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_022642/processes.tsv",
+          "bytes": 39,
+          "sha256": "3163a1464a3531c86cfe9fd307b424cfdf3023c5f0795aee8f02b578c15b47a0"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_022642/session.txt",
+          "bytes": 338,
+          "sha256": "ab7325ca64947f5d020bad5ef6c1a7c64ddea16b369e8f7f06757fcb7aa29855"
+        }
+      ]
+    },
+    {
+      "path": "outputs/agentvln_reverse_record_20261110_040254",
+      "kind": "tree",
+      "files": 26,
+      "bytes": 56566,
+      "entries": [
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/bridge.log",
+          "bytes": 1948,
+          "sha256": "24b69fbb265e6da4375de2c9fd946694a22986c0050db20346704e061babbc15"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/episode.log",
+          "bytes": 105,
+          "sha256": "318497832056dfad37e8c8bc47213c00776836429d31bfef50a3204088fb20e7"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/forward.log",
+          "bytes": 1188,
+          "sha256": "69dd66e8aaafb785c118fec5560b7fec21f04d93d2993466e3c021234b5bd5c7"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/forward.yaml",
+          "bytes": 1764,
+          "sha256": "1bfebb5f749a05903658b7fcce488c9e151f797924158b4a15be228b1588b3c8"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/gazebo.log",
+          "bytes": 5169,
+          "sha256": "558220bee7230e7ad3f0e91e477a24c69cafbe3fbcdf74225a3a46c8ab2366cd"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/gui.log",
+          "bytes": 12245,
+          "sha256": "61cd256caad42dc1c9d2a63e43cfe7cad4330c8aaf978755b385f5fae6def0ab"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/inputs.json",
+          "bytes": 3439,
+          "sha256": "e0f00b1b91ec14feca114a84b74bdb0318c02f03c55cf727b4efcc634e87086d"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/nav2.log",
+          "bytes": 8893,
+          "sha256": "6cceadc7b6008481e488b0dc3f2ec1a1ab1eb076296b3de9f8e90c994a05d568"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/nav2_reverse.yaml",
+          "bytes": 11797,
+          "sha256": "2e47d4ba2d9a6f76620f3c523cfff9aeaf94cfc7ff81dba2800b4a3cc379f388"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/odom_tf.log",
+          "bytes": 105,
+          "sha256": "a3b671bedeaab9edc3ff13f3bc53048d82a5b3ece9883eee86b3038aad2d5894"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/processes.tsv",
+          "bytes": 123,
+          "sha256": "8814d954b0afc71377d313b0f3ef28933c7672b52d66fe0b2a22ce141fd4788b"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/remaining_processes.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/session.txt",
+          "bytes": 338,
+          "sha256": "56a6913101f4b8ca15e7f474e8096d88a811f588ccd51b7072cc9e63f6a14dab"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/amcl_16367_1794308661183.log",
+          "bytes": 468,
+          "sha256": "a856f745095abe40680d3807a14e1613a6f24d3ed5da310434ec42af271fe66b"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/behavior_server_16375_1794308661196.log",
+          "bytes": 228,
+          "sha256": "de54423370d43d2d9a2b890af7ba1c51eb951b2f74a03ac5c207658351f35206"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/bt_navigator_16377_1794308661192.log",
+          "bytes": 277,
+          "sha256": "38cae87516e90db23675fa3fa73e8dd9f1e6fb89b6055205a20c8c3fc75310e2"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/controller_server_16371_1794308661184.log",
+          "bytes": 626,
+          "sha256": "8e0f1179be6a75b1dd7568651e185060883638796be7f3ffc73e576cbaaeb54b"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/lifecycle_manager_16379_1794308661183.log",
+          "bytes": 728,
+          "sha256": "88f0216648b075724126dcc4f63374eac7f0a15e0312d8980c1f1c321babf81e"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/map_server_16365_1794308661223.log",
+          "bytes": 1246,
+          "sha256": "865e1d41444141498e41a3c2abbfea52b0225acce8bcb662de8a84a36289d9e7"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/parameter_bridge_16328_1794308661031.log",
+          "bytes": 1843,
+          "sha256": "087e2dd81798bb57cf89ad568808e48c63a8e6858f1f144261dec99397faa3b9"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/planner_server_16329_1794308660961.log",
+          "bytes": 934,
+          "sha256": "3b032d962c74371f22a314fec55a6d508814d98c6bf46f05d446695af8d4ced1"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/planner_server_16369_1794308661177.log",
+          "bytes": 1898,
+          "sha256": "3d42daea75b0efc25ab47d440784a753fc7e0bdd95a775f481ac9559a1a02d86"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/python3_16317_1794308661104.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/python3_16326_1794308661893.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/velocity_smoother_16373_1794308661189.log",
+          "bytes": 313,
+          "sha256": "4189717345af13eb05fe5a7ad55397e0caa09c57f0f56d4b50da673b108a50b2"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040254/ros/2026-11-10-04-04-21-081548-PC-20260817VDLU-16320/launch.log",
+          "bytes": 891,
+          "sha256": "202223fb9e7fbc42410dfee76ff61ec4da067c8f214e899b161bd39bb288d9d7"
+        }
+      ]
+    },
+    {
+      "path": "outputs/agentvln_reverse_record_20261110_040825",
+      "kind": "tree",
+      "files": 13,
+      "bytes": 400044,
+      "entries": [
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/forward.yaml",
+          "bytes": 1764,
+          "sha256": "1bfebb5f749a05903658b7fcce488c9e151f797924158b4a15be228b1588b3c8"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/gazebo.log",
+          "bytes": 5169,
+          "sha256": "558220bee7230e7ad3f0e91e477a24c69cafbe3fbcdf74225a3a46c8ab2366cd"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/gui.log",
+          "bytes": 12364,
+          "sha256": "28817265e9f0846dc0709165db3be33d258caf43b2c709384a133163b93f3bb4"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/gui_check_cpu.png",
+          "bytes": 33526,
+          "sha256": "89b68adef95cdf55d1c0062b830fb43b41c25ff518988d2eb9005dc6ac32ee5f"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/gui_check_d3d12_1.png",
+          "bytes": 21216,
+          "sha256": "d137f21228721f14b5bbafa39def1a436447ce68e7f6f82b8a2513dc6cb0da18"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/gui_recheck_d3d12_1.png",
+          "bytes": 103468,
+          "sha256": "4c8c1c7696d7eafdd8aab9562922ddc5d3bba5e5d6a7cf184baee0fbcc39bd7a"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/gui_recheck_d3d12_2.png",
+          "bytes": 103468,
+          "sha256": "4c8c1c7696d7eafdd8aab9562922ddc5d3bba5e5d6a7cf184baee0fbcc39bd7a"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/gui_recheck_d3d12_3.png",
+          "bytes": 103468,
+          "sha256": "4c8c1c7696d7eafdd8aab9562922ddc5d3bba5e5d6a7cf184baee0fbcc39bd7a"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/inputs.json",
+          "bytes": 3439,
+          "sha256": "580417f9ded3ac66ac6f6b57a29ba2f22d034309c3a50f21c9358b682dcd0de2"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/nav2_reverse.yaml",
+          "bytes": 11797,
+          "sha256": "2e47d4ba2d9a6f76620f3c523cfff9aeaf94cfc7ff81dba2800b4a3cc379f388"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/processes.tsv",
+          "bytes": 27,
+          "sha256": "7f283c1257f8398461086dda7c29eb48f1506704f8ecd408ee8199f26f55fd47"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/remaining_processes.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "outputs/agentvln_reverse_record_20261110_040825/session.txt",
+          "bytes": 338,
+          "sha256": "6903e1a3a60d42046b488e3715fab1013f7c59a6ead96756e5c5a445e0499f44"
+        }
+      ]
+    },
+    {
+      "path": "outputs/car_nav_fix_20261108",
+      "kind": "tree",
+      "files": 2,
+      "bytes": 6748,
+      "entries": [
+        {
+          "path": "outputs/car_nav_fix_20261108/apply_car_params_patch.py",
+          "bytes": 3562,
+          "sha256": "1870d452fb13658865e32c2193b9701f910b219427e0cd3d46e20734ff4718bb"
+        },
+        {
+          "path": "outputs/car_nav_fix_20261108/README_CAR_20261108.txt",
+          "bytes": 3186,
+          "sha256": "05b154d79792ec06b96a421ad577f6df2525aa60a614831af83071670c88240d"
+        }
+      ]
+    },
+    {
+      "path": "outputs/car_params_patch_20261108.tar.gz",
+      "kind": "file",
+      "files": 1,
+      "bytes": 3513,
+      "entries": [
+        {
+          "path": "outputs/car_params_patch_20261108.tar.gz",
+          "bytes": 3513,
+          "sha256": "47bae6a2647f1ff49f61a2ea40fbfcbcc5bd64b5b1ef7cca5acebfc0afd5c798"
+        }
+      ]
+    },
+    {
+      "path": "outputs/floral-ring-v01/preview-server.log",
+      "kind": "file",
+      "files": 1,
+      "bytes": 0,
+      "entries": [
+        {
+          "path": "outputs/floral-ring-v01/preview-server.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "path": "outputs/floral-ring-v01/preview-server.pid",
+      "kind": "file",
+      "files": 1,
+      "bytes": 6,
+      "entries": [
+        {
+          "path": "outputs/floral-ring-v01/preview-server.pid",
+          "bytes": 6,
+          "sha256": "3f09384a7e6134373764cb37717dad2e0e0e17537069cd681c5e2d11c50e29ee"
+        }
+      ]
+    }
+  ],
+  "empty_dirs_removed": [
+    "outputs/floral-ring-v01/__pycache__",
+    "outputs/hunter_nav2_append_20261027/.build/append-render",
+    "outputs/hunter_nav2_append_20261027/.build/final-render",
+    "outputs/hunter_nav2_append_20261027/.build/source-render",
+    "outputs/weekly_mapping_ppt_20261014/.build/final-preview",
+    "outputs/weekly_mapping_ppt_20261014/.build/preview",
+    "outputs/weekly_mapping_ppt_20261014/.build/preview-v2"
+  ],
+  "totals": {
+    "files": 85,
+    "bytes": 593169,
+    "mib": 0.566
+  }
+}

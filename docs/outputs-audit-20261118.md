@@ -8,25 +8,27 @@
 |---|---|
 | `tmp/scan_outputs.py` | 每个目录的顶层条目、空目录、0 字节文件、精确重复文件（≤2 MB） |
 | `tmp/refcheck_outputs.py` | 每个目录名在仓库 3,695 个文本文件里被引用多少次（跳过增量快照、`.git`、`tmp`） |
-| `tmp/dir_sizes.py` | 按长路径统计真实体积（`Get-ChildItem` 会静默漏掉 node_modules 的深层路径） |
+| `tmp/dir_sizes.py` | 按长路径统计体积——**它跟进了 junction，把缓存重复计了两次**，数字已作废 |
+| `tmp/true_sizes.py` | 不跟 junction/symlink 的真实体积（上文 394.98 MiB 出自这里） |
 | `tmp/dup_summary.py` | 排除增量快照后的重复文件汇总 |
+| `tmp/delete_recommended.py` | 执行删除并写 `docs/outputs-deleted-20261118.json` 清单 |
 
-**总量 1,111.3 MiB / 19,721 个文件。** 其中 716.34 MiB（64%）是两份逐字节相同的 npm 工具链。
+**总量 394.98 MiB / 2,667 个文件。**
+
+> 早前这里写的是 1,111.3 MiB / 19,721 个文件，**是错的**。当时 PowerShell 和 Python 的默认遍历都跟进了 4 个 junction（`weekly_mapping_ppt_20261014` 与 `group_meeting_20261020` 的 `.build/node_modules`、`hunter_desktop_restore_20261031/colcon_logs/{latest,latest_build}`），把 `C:\Users\ASUS\.cache\codex-runtimes\...\node_modules` 同一份缓存重复计了两次。改用不跟链接的遍历（`tmp/true_sizes.py`）后是上面这个数。
 
 ## 结论先说
 
-- 真正「过时不用」的很少：2 份重复的 `node_modules`、5 个没有产出的空跑轮次、1 个已作废的补丁包。
+- 真正「过时不用」的很少：5 个没有产出的空跑轮次、1 个已作废的补丁包，加上 7 个空目录和 2 个垃圾文件，一共 **85 个文件 / 0.57 MiB**，已于 2026-11-18 删除（清单见 [outputs-deleted-20261118.json](outputs-deleted-20261118.json)）。
 - 其余旧目录都是**历史证据或运行依赖**，按 2026-11-05 那次审计的立场，不按日期删除。
 - 文档层面有 11 份明确过时，需要补一句「已被谁取代」。
 
 ---
 
-## A. 建议删除（作废或无产出，共约 716.6 MiB）
+## A. 已删除（2026-11-18，85 个文件 / 0.57 MiB）
 
 | 目标 | 体积 | 依据 |
 |---|---|---|
-| `weekly_mapping_ppt_20261014/.build/node_modules` | 358.17 MiB / 8,529 文件 | 与下面那份逐字节相同；`.gitignore` 已忽略 `**/.build/`，不在 git 里；PPT 成品在 `deliverables/`，`create_deck.mjs` 仍在同级，重做时 `npm install` 即可 |
-| `group_meeting_20261020/.build/node_modules` | 358.17 MiB / 8,529 文件 | 同上，`export_pptx.mjs` + `presentation.json` 仍在同级 |
 | `agentvln_reverse_dock_20261110_013316_amcl` | 0.05 MiB / 26 文件 | 无 `report.json`、无观测图；`sim/experiments/agentvln_reverse_dock/README.md` 记录的调试轮从 01:33:48 开始，没提这一轮；0 引用 |
 | `agentvln_reverse_record_20261110_015644` | 0.03 MiB / 8 文件 | 无 `report.json`、无观测图，只有启动日志；0 引用 |
 | `agentvln_reverse_record_20261110_022642` | 0.03 MiB / 7 文件 | 同上 |
@@ -34,8 +36,17 @@
 | `agentvln_reverse_record_20261110_040825` | 0.38 MiB / 13 文件 | 无 `report.json`，只有 `gui_check_*.png` |
 | `car_nav_fix_20261108/` | 0.01 MiB / 2 文件 | 用户 m07362 明令不改共用小车配置，该参数补丁已作废；0 引用 |
 | `car_params_patch_20261108.tar.gz` | 3.5 KiB | 同一个补丁包 |
+| `floral-ring-v01/preview-server.{log,pid}` | 0 B | 已经退出的预览服务残留 |
+| 7 个空目录 | 0 B | `floral-ring-v01/__pycache__`、`hunter_nav2_append_20261027/.build/{append-render,final-render,source-render}`、`weekly_mapping_ppt_20261014/.build/{final-preview,preview,preview-v2}` |
 
-删完 outputs 约剩 **394 MiB**。剩余 41 MiB 重复几乎都在 `agentvln_*` 的观测帧（`depth.npy`、连续 `observation_*.png`）和建图 PNG 里，属于数据集内部重复，不建议动。
+### A2. 撤回：两份 `node_modules` 不是可回收体积
+
+原表把 `.build/node_modules` 记成「各 358.17 MiB、两份逐字节相同」，实际**两者都是 junction**，都指向
+`C:\Users\ASUS\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\node_modules`，
+在仓库里**不占任何空间**，而且删掉会让同级的 `create_deck.mjs` / `export_pptx.mjs` 失去依赖。**保留**。
+
+删完 outputs 是 **394.41 MiB**。还剩约 41 MiB 重复，几乎都在 `agentvln_*` 的观测帧（`depth.npy`、连续 `observation_*.png`）和建图 PNG 里，属于数据集内部重复，不建议动。
+
 
 ## B. 过时但属于历史证据（保留，最多在文件头加一句「已被谁取代」）
 
@@ -46,7 +57,7 @@
 | `hz_nav_preparation_20261018` / `hz_nav_reference_adaptation_20261019` | 0.05 / 0.07 MiB | 实车导航准备早期版本，被 `hunter_nav2_personal_launch_20261109` 取代 |
 | `hunter_nav2_shortcuts_20261108` | 0.03 MiB | `Nav2导航命令_简版.txt` + `hznav.bash` 被 11-09 打包入口取代；**同目录的 `Nav2导航命令.txt` 是验证过的完整参考，整个目录保留** |
 | `hunter_nav2_append_20261027` | 36.57 MiB（`.build` 33.77） | 10-27 组会 PPT；`.build/source.json` 18.8 MB + `combined.json` 16.6 MB 是中间产物，可再回收 33.77 MiB，但会失去重建该 PPT 的能力 |
-| `hunter_nav2_refined_20261028` / `group_meeting_20261020` / `weekly_mapping_ppt_20261014` | 2.40 / 3.51 / 8.03 MiB（删 node_modules 后） | 10 月组会成品（`.pptx`），属于历史交付 |
+| `hunter_nav2_refined_20261028` / `group_meeting_20261020` / `weekly_mapping_ppt_20261014` | 2.40 / 3.51 / 8.03 MiB | 10 月组会成品（`.pptx`），属于历史交付；体积已不含 junction 那棵 `node_modules` |
 | `hunter_sim_execution_20261012` | 62.31 MiB | 含 `references/hunter_reference_20261013.urdf`，是运行依赖 |
 | `map_inspection_lab_155236_20261011`、`map_inspection_20261011`、`mapping_evidence_20261012`、`raw_pcd_preview_lab155236_20261013`、`cloudcompare_guide_20261011`、`senior_mapping_method_20261016`、`hz_mapping_handover_20261015` | 33.51 / 15.47 / 14.21 / 17.89 / 0.03 / 0.25 / 0.28 MiB | 建图阶段证据；`raw_pcd_preview_lab155236_20261013` 被 `weekly_mapping_ppt` 的 `create_deck.mjs` 读取，属依赖 |
 | `floral-ring-v01` | 12.52 MiB | 3D 打印花环，另一个项目；建议**移到仓库外**，不要删 |
@@ -63,11 +74,9 @@
 
 ## D. 空目录与空文件
 
-7 个空目录（可以直接删）：
-`floral-ring-v01/__pycache__`、`hunter_nav2_append_20261027/.build/{append-render,final-render,source-render}`、`weekly_mapping_ppt_20261014/.build/{final-preview,preview,preview-v2}`
+7 个空目录已在 2026-11-18 删除：`floral-ring-v01/__pycache__`、`hunter_nav2_append_20261027/.build/{append-render,final-render,source-render}`、`weekly_mapping_ppt_20261014/.build/{final-preview,preview,preview-v2}`。
 
-0 字节文件：`floral-ring-v01/preview-server.log`、`preview-server.pid`、`hunter_research_platform_20261031/motion_trials/*/transport.stderr.log`。
-其余 572 个 `.log` 是各轮次的排查证据，不是缓存；另有 125 个 0 字节文件（多为失败的 `transport.stderr.log` 与占位文件），可以随空目录一起清掉。
+`floral-ring-v01/preview-server.{log,pid}` 也一并删除。**其余 125 个 0 字节文件保留**：其中有 `remaining_processes.txt`（空文件本身就是「没有残留进程」的证据），不能一律当垃圾。572 个 `.log` 是各轮次的排查证据，同样保留。
 
 ---
 
@@ -89,6 +98,6 @@
 
 ## 建议动作
 
-1. 删 A 表九项（716.6 MiB）+ D 的空目录空文件——确认后我执行，删前再算一次 SHA256 清单留档。
+1. ~~删 A 表九项 + D 的空目录空文件~~ —— 2026-11-18 已执行，85 个文件 / 0.57 MiB，清单见 [outputs-deleted-20261118.json](outputs-deleted-20261118.json)。
 2. 改 E 表里前六份的过时表述（只改说明，不改历史数字）。
 3. `floral-ring-v01` 移到仓库外（`D:\projects\` 之类），不进 git 也不占 outputs。
