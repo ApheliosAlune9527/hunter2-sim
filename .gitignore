@@ -56,6 +56,9 @@ tmp/floral-ring-tools/
 *.jpg
 *.jpeg
 *.pgm
+# Frozen inputs of the AgentVLN straight-dock experiment.
+!/sim/experiments/agentvln_hunter/scenes/lab_walls.stl
+!/sim/experiments/agentvln_hunter/config/straight_nav_map/lab_nav_map.pgm
 __pycache__/
 
 # ── 明确保留 ───────────────────────────────────────────────────────────
@@ -91,4 +94,11 @@ backup-*/
 # 只在 docs/evidence-index.md 登记一行（包名 / 体积 / SHA256 / 位置）。
 outputs/**/Hunter_increment_*/
 outputs/**/项目增量/
+
+# ── 11. 超长路径与一次性输出（2026-11-18 补）────────────────────────────
+# 这层目录名重复了两遍，最深 253 字符，pre-commit 的 200 字符闸门会拦；
+# 强行入库会让没开 core.longpaths 的机器 clone 失败。包本体留在磁盘。
+FAST-LIVO2建图使用包/
+# 扫描脚本的中间输出（1.9 MB），结论已整理进 docs/outputs-audit-20261118.md
+tmp/scan_outputs.txt
 
