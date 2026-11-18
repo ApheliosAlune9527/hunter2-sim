@@ -1,0 +1,217 @@
+实车 HUNTER 2.0 导航 命令清单
+车：car-NUC15JNKU7X4 / 用户 car / ROS 2 Humble / 实车，不是仿真
+
+和师兄那份《建图导航.txt》是同一套流程，只改两处：
+  终端 5 的 Nav2 参数文件和地图换成我们修正过的（放在 /home/car/hz_nav_ws/nav_fix_20261107/），
+  其余终端照他的原样。
+第一次用之前，先做“第 0 部分：上传与核对”，只读、不动机器人。
+
+安全前提
+下面终端 1～4 会启动底盘、雷达和相机；终端 5 会启动 Nav2 但不会自己走。
+只有终端 6 里“发目标”这一步会让车动起来——那一步需要你明确同意，并且现场有人手握急停。
+本清单默认停在“能看到地图、激光、代价地图，车不动”的状态。
+
+
+========== 第 0 部分：上传与核对（只读，不动机器人） ==========
+
+【Windows PowerShell 或 ToDesk 文件传输】把整个包传到小车的 /home/car/桌面/
+（终端打开时就在 ~/桌面，省得再找地方）。能 SSH 时也可以：
+
+scp D:\rob-memory\outputs\car_nav_fix_20261107_package.tar.gz car@<小车IP>:/home/car/桌面/
+
+【小车 Ubuntu 终端 0】解包到固定目录，不覆盖师兄的任何文件：
+
+mkdir -p /home/car/hz_nav_ws/nav_fix_20261107
+
+tar xzf /home/car/桌面/car_nav_fix_20261107_package.tar.gz -C /home/car/hz_nav_ws/nav_fix_20261107 --strip-components=1
+
+sha256sum /home/car/桌面/car_nav_fix_20261107_package.tar.gz
+
+预期：与包旁边那个 .sha256 文件里的值逐字一致。不一致不要继续，重新传。
+
+【同一个终端】核对包里的文件和参数，这一步不会启动任何节点：
+
+python3 -B /home/car/hz_nav_ws/nav_fix_20261107/verify_car.py
+
+预期：全部 PASS，最后一行是 “N/N checks passed”。
+如果 ros2 没加载，脚本会打印 SKIP ROS checks，那是正常的；加载环境后再跑一次就能补上。
+
+【同一个终端】顺手核对师兄自己那份参数文件里的 use_sim_time（只读）：
+
+grep -n use_sim_time /home/car/hunter_nav_odom_ws/src/hunter_nav_odom/config/nav2_params.yaml | head -3
+
+预期：False。若显示 True，说明这份参数是给仿真用的，直接拿它跑实车会一直等 /clock，
+那就更要用我们这份 use_sim_time: false 的。
+
+
+========== 第 1 部分：启动（照师兄的原样） ==========
+
+（use_robot 是车上 .bashrc 里的环境函数。若报 command not found，把这一行换成 source ~/hunter_nav_odom_ws/install/setup.bash）
+
+终端 1：底盘。
+
+sudo systemctl restart hunter-can.service
+
+use_robot
+
+source ~/hunter_nav_odom_ws/install/setup.bash
+
+ros2 launch robot_bringup hunter.launch.py
+
+
+终端 2：XT32 雷达。
+
+use_robot
+
+source ~/hunter_nav_odom_ws/install/setup.bash
+
+ros2 launch robot_bringup xt32.launch.py
+
+
+终端 3：车体模型与 RViz。
+
+use_robot
+
+source ~/hunter_nav_odom_ws/install/setup.bash
+
+ros2 launch hunter_description display.launch.py
+
+
+终端 4：点云转二维 /scan（师兄确认过不会扫到车载小模块的那组参数，原样照抄）。
+
+use_robot
+
+source ~/hunter_nav_odom_ws/install/setup.bash
+
+ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r cloud_in:=/lidar_points -r scan:=/scan -p target_frame:=base_link -p min_height:=0.10 -p max_height:=0.85 -p angle_min:=-3.14159 -p angle_max:=3.14159 -p angle_increment:=0.00872665 -p scan_time:=0.10 -p range_min:=0.50 -p range_max:=20.0 -p use_inf:=true
+
+
+终端 5：Nav2，用我们修正过的参数和地图。
+
+use_robot
+
+source ~/hunter_nav_odom_ws/install/setup.bash
+
+ros2 launch nav2_bringup bringup_launch.py map:=/home/car/hz_nav_ws/nav_fix_20261107/lab_odom_06_fix.yaml params_file:=/home/car/hz_nav_ws/nav_fix_20261107/nav2_params_car.yaml autostart:=true use_rviz:=false
+
+注意三点：
+map 和 params_file 都是绝对路径，指向 /home/car/hz_nav_ws/nav_fix_20261107/；
+use_rviz:=false 是因为终端 6 单独开 RViz，避免两个 RViz 抢同一份配置；
+不要用师兄那份 params 里的 use_sim_time: true，我们这份已经改成 false。
+
+
+终端 6：配置好的 Nav2 RViz。
+
+use_robot
+
+source ~/hunter_nav_odom_ws/install/setup.bash
+
+rviz2 -d /opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz
+
+
+========== 第 2 部分：确认“看得见、但车不动”（只读） ==========
+
+终端 7：新开一个，加载环境（use_robot 是什么，见包里 README_CAR.txt 的说明）。
+
+use_robot
+
+source ~/hunter_nav_odom_ws/install/setup.bash
+
+use_robot
+
+
+ros2 topic hz /scan
+
+预期：10 Hz 左右。没有输出说明终端 4 没起来或 /scan 名字不对。
+
+ros2 topic echo /scan --once --field header
+
+预期：frame_id: base_link（终端 4 里 target_frame 设的就是它）。
+
+ros2 run tf2_ros tf2_echo map base_link
+
+预期：每秒一行 Translation。若报 “map does not exist”，是 AMCL 还没给初始位姿；
+在 RViz 里用 2D Pose Estimate 点一下车的实际位置（实验室靠南墙一侧、朝 +x），
+或按下面终端 8 的命令行方式给。
+
+ros2 param get /planner_server GridBased.motion_model_for_search
+
+预期：DUBIN。
+
+ros2 param get /planner_server GridBased.minimum_turning_radius
+
+预期：1.669。
+
+ros2 param get /global_costmap/global_costmap allow_unknown
+
+预期：false。
+
+ros2 param get /controller_server FollowPath.allow_reversing
+
+预期：false。
+
+ros2 param get /local_costmap/local_costmap footprint
+
+预期：[[-0.184, -0.393], [0.834, -0.393], [0.834, 0.393], [-0.184, 0.393]]
+车头 0.834 米这一点要在 RViz 里用眼睛核一遍：绿框前端应该正好在车头前方，
+如果绿框前端明显短于车头，说明参数没生效，先停下核对。
+
+
+终端 8：给 AMCL 初始位姿（和 RViz 里点 2D Pose Estimate 等价）。
+
+ros2 topic pub --once /initialpose geometry_msgs/msg/PoseWithCovarianceStamped "{header: {frame_id: map}, pose: {pose: {position: {x: -0.21, y: -0.77}, orientation: {w: 1.0}}}}"
+
+注意：上面这几个坐标是我们仿真里的起点，实车的真实起点不一定在这。
+实车第一次请以现场为准：把车推到实验室一个你能认出来的位置，在 RViz 地图上点同一处。
+
+
+========== 第 3 部分：让车动（需要你明确同意，并且现场有人守急停） ==========
+
+终端 6：RViz 里用 Nav2 Goal 工具点目标，或在终端 9 发目标。
+
+终端 9：发一个近距离、正前方的目标（离车 0.5 米，先用这个试）。
+
+ros2 action send_goal /navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 0.29, y: -0.77, z: 0.0}, orientation: {w: 1.0}}}}" --feedback
+
+注意：控制器 xy_goal_tolerance 是 0.20 m，0.5 米的目标会让车实际走约 0.34 米就判到达。
+仿真实测 3/3 成功、终点误差 0.156–0.161 m、2.2 仿真秒（2026-11-07，run_nav_eval_fix.py --tag near05）。
+
+预期：Goal accepted → 每秒 Feedback → SUCCEEDED 或 ABORTED。
+出现 ABORTED 就停，不要连发第二个目标，先把终端 5 的最后 30 行留下。
+
+取消：
+
+在终端 9 按 Ctrl+C。
+
+预期：CANCELED，车减速停住。取消不是急停，实车还会滑行一段。
+
+确认停了：
+
+ros2 topic echo /odom --field twist.twist.linear.x
+
+预期：连续 0.0。
+
+急停：遥控器或底盘急停按钮，任何时候优先于以上所有命令。
+
+
+========== 第 4 部分：退出 ==========
+
+按启动的相反顺序，每个终端各按一次 Ctrl+C：终端 4 → 终端 5 → 终端 3 → 终端 2 → 终端 1。
+
+ros2 node list
+
+预期：输出为空或只剩少数系统节点。
+
+
+========== 这份包和仿真那套的差别 ==========
+
+1. use_sim_time 全部改成 false（实车没有 /clock）。
+2. footprint 用底盘包络 + 0.02 米：[[-0.184,-0.393],[0.834,-0.393],[0.834,0.393],[-0.184,0.393]]。
+   仿真里打满舵的前轮扫掠包络（±0.437 米）没有用于 costmap，因为内切半径会把两米走廊整条判成致命格。
+3. 规划器改成 DUBIN、最小转弯半径 1.669、allow_reversing false、allow_unknown false×2。
+4. 行为树换成不带 BackUp 的版本，行为插件只剩 wait 和 drive_on_heading。
+5. 地图 YAML 的 free_thresh 从 0.25 改成 0.10：原值会把未知格加载成空闲区。
+
+仍未验证的部分（不要当成通过）：
+碰撞计数在实车上没有测；里程计漂移没测；实车这套参数只做过参数与文件核对，
+还没有一次完整的实车导航闭环记录。

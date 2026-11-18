@@ -1,0 +1,212 @@
+Nav2 导航使用说明
+HUNTER 2.0 · ROS 2 Humble · 2026-11-09
+适用主机 car@car-NUC15JNKU7X4，个人工作区 /home/car/hz_nav_ws
+
+本版只采用你确认跑通的《Nav2导航命令.txt》。默认地图是个人
+maps/lab_odom_06_nav.yaml，配对 lab_odom_06.pgm。继续使用域 88、Fast DDS、
+AMCL、Smac Hybrid 和 RPP。启动 Nav2 时定位和导航两组先等待手动启用。
+个人入口为 /home/car/hz_nav_ws/hz_nav_launch/hz_nav.launch.py。
+每个新终端先 source 对应角色环境，之后一条 ros2 launch 启动该角色。
+
+旧流程有实车到点、取消和停稳记录。11 月 8 日的记录是定位、纯规划、目标取消，
+当时遥控器未选自动驾驶档，车保持静止。本版封装已核对快照与 Humble Launch，
+仍需在小车上完成首次安装及静态验收。
+
+一、首次部署（每版一次）
+========================
+
+1.【Windows】准备 hz_nav_launch_20261109.pyz。用 PowerShell 核对安装包指纹。
+
+    Get-FileHash -Algorithm SHA256 -LiteralPath 'D:/rob-memory/outputs/hunter_nav2_personal_launch_20261109/hz_nav_launch_20261109.pyz'
+
+作用：记录本地文件 SHA256。输出哈希后返回提示符，Windows 窗口可关闭。
+默认用 ToDesk 的「文件传输」，将此文件传到小车 /home/car/桌面。
+ToDesk 能看到桌面不代表 SSH 网络可达。只有已知车端真实地址、SSH 已启用且
+登录认证已经验证时，才可用 SCP 把同一文件传到同一目录。
+
+2.【小车 Ubuntu，安装终端】核对主机和收到的包。
+
+    hostname -s
+    sha256sum "$HOME/桌面/hz_nav_launch_20261109.pyz"
+
+预期：主机是 car-NUC15JNKU7X4，SHA256 与 Windows 显示值相同。
+确认后在同一个终端安装。
+
+    python3 -B "$HOME/桌面/hz_nav_launch_20261109.pyz"
+
+作用：把本版放进 /home/car/hz_nav_ws/hz_nav_launch。预期显示安装成功并退出。
+如果同版本已在该目录，安装器会核对后通过。如果目录已有不同文件，会停止。
+原工作区中的 launch、config、maps 和 rviz 仍由原路径提供。
+
+3.【小车 Ubuntu，检查终端】执行首次预检。
+
+    source /home/car/hz_nav_ws/hz_nav_launch/hz_env.bash check
+    ros2 launch "$hzLaunch" role:=doctor
+
+作用：逐角色核对 ROS 包来源、个人 Launch、参数、行为树、RViz、地图和图像。
+预期：打印地图及各角色实际包路径，最后显示「预检通过」并退出。
+预检只查文件与包。缺失或哈希不同会显示具体路径，保留回执，停在该步。
+检查终端可继续使用。日常操作从第二节开始。
+
+二、日常启动和静态检查
+======================
+
+0.【小车 Ubuntu，检查终端】确认本轮有权使用小车，建图会话和占用同一硬件的
+旧会话已由各自操作者处理。确认现场可接管，车已停稳，车头车尾留空。
+
+    source /home/car/hz_nav_ws/hz_nav_launch/hz_env.bash check
+    ros2 node list --no-daemon
+
+作用：加载检查环境，查看域 88 的现有节点。查询结束后保留此终端。
+本人的兼容传感器或底盘已运行时，复用原窗口并做数据检查。发现占用或重复节点
+先核对归属。本版的生命周期和目标命令要求存在本版 Nav2 运行窗口。
+各终端使用下文的角色环境。不要在同一终端先执行 use_robot 或加载其他导航环境。
+
+1.【小车 Ubuntu，传感器终端】启动车体 TF、XT32 和点云转扫描。
+
+    source /home/car/hz_nav_ws/hz_nav_launch/hz_env.bash sensors
+    ros2 launch "$hzLaunch" role:=sensors
+
+预期：robot_state_publisher、hesai_ros_driver_node、xt32_to_scan 的日志
+显示在该窗口。保持运行。然后在检查终端执行：
+
+    hz_nav scan
+
+作用：订阅 /hz_nav/scan 并读取一帧。预期 header 的 frame_id 为 base_link。
+收到后命令退出，保留检查终端。扫描转换会在有订阅者时才订阅点云。
+
+2.【小车 Ubuntu，底盘终端】仅在有人可用遥控器或急停接管、车辆停稳、
+前后有净空且已明确同意本次启动时，执行这一步。
+
+    source /home/car/hz_nav_ws/hz_nav_launch/hz_env.bash base
+    ros2 launch "$hzLaunch" role:=base connect_chassis:=true
+
+作用：先核对 can0 和底盘包来源，再启动真实驱动。驱动会启用电脑控制并尝试
+解除制动。预期日志有 Hunter 2.0、AGX_V2、can0 及控制模式信息。保持运行。
+在检查终端执行：
+
+    hz_nav odom
+
+预期：收到 /hz_nav/odom，header.frame_id 是 odom，child_frame_id 是
+base_link，位姿和速度与现场状态相符。数值异常或无回执时先停在此步。
+
+3.【小车 Ubuntu，Nav2 终端】加载个人导航栈。
+
+    source /home/car/hz_nav_ws/hz_nav_launch/hz_env.bash nav2
+    ros2 launch "$hzLaunch" role:=nav2
+
+作用：按原参数加载地图、AMCL、规划、控制和速度平滑。预期 map_server、amcl
+及两组生命周期管理器出现。保持运行。然后在检查终端执行：
+
+    hz_nav loc-on
+
+作用：启动地图与 AMCL 定位组。预期 success=True，返回提示符。
+AMCL 可能提示需要设置初始位姿。
+
+4.【小车 Ubuntu，RViz 终端】打开已验证的 RViz 配置。
+
+    source /home/car/hz_nav_ws/hz_nav_launch/hz_env.bash rviz
+    ros2 launch "$hzLaunch" role:=rviz
+
+预期：RViz 打开，Fixed Frame 为 map，个人 Map 显示。保持窗口运行。
+在 RViz 点 2D Pose Estimate，从地图上本车实际位置向真实车头方向拖箭头。
+然后在检查终端执行：
+
+    hz_nav tf
+
+预期：连续打印 map 到 base_link 的 Translation 和 Rotation。命令 6 秒结束。
+确认地图轮廓和 /hz_nav/scan 对齐，车模位置与朝向符合现场。
+AMCL 发布 map → odom，底盘发布 odom → base_link，车体模型提供传感器安装 TF。
+
+5.【小车 Ubuntu，检查终端】定位正确后再启用导航组。
+
+    hz_nav ready
+
+作用：请求 AMCL 原地更新，再启用导航组。预期 Empty_Response() 和 success=True，
+随后返回提示符。回 RViz 核对 RobotModel、LocalCostmap 和 Polygon 显示正常。
+现场障碍应反映在局部代价地图中。只验启动和定位时，到此即可去第四节收尾。
+
+三、先纯规划，再决定是否行驶
+============================
+
+1.【小车 Ubuntu，检查终端】取得本次姿态并选点。
+
+    hz_nav pose
+    hz_nav pick
+
+第一条显示 AMCL 位姿，记录 orientation.z 和 orientation.w。第二条等待点击。
+在 RViz 用红图钉 Publish Point，选车头正前方已知空地中的短目标。等提示
+frame_id 为 map 后，记下 point.x、point.y。两条命令各自结束，继续用同一窗口。
+
+2.【同一个检查终端】用本次四个数字替换 X、Y、QZ、QW，再执行。
+
+    hz_nav plan X Y QZ QW
+
+作用：调用 ComputePathToPose，只算路径。预期 Goal finished with status:
+SUCCEEDED，并在 RViz 出现路径。核对绿线、目标朝向、前后净空与障碍显示。
+同一窗口会记住这次规划的目标。路线不合适、定位变化或车辆挪动时重新选点和规划。
+
+3.【同一个检查终端】读取底盘反馈，核对现场条件。
+
+    hz_nav status
+
+预期：线速度接近零，vehicle_state 和 error_code 均为 0。control_mode 为 1
+表示 CAN 控制已就绪，0 是待机。切换到本车已验证的遥控器自动驾驶档前也需
+现场接管与本次授权。保留检查终端。速度、状态、定位或路线有异常时停在纯规划。
+
+4.【同一个检查终端】已核对同一路线、现场可接管且明确同意本次行驶后才执行。
+
+    hz_nav goal
+
+此操作会让实车行驶。输入 SEND GOAL 确认后，工具再次检查底盘反馈，
+并发送同一终端刚刚成功规划的目标。期望跟踪速度 0.10 m/s。原树遇阻时
+可能以 0.05 m/s 倒车 0.30 m。确认车尾也有净空，目标运行期间保持窗口前台。
+Goal accepted 表示受理，等待 SUCCEEDED、CANCELED 或 ABORTED。
+
+5.【目标运行的检查终端及现场】需要取消时，在目标已受理后按一次 Ctrl+C，
+等待客户端报告 CANCELED。若车辆动作异常或取消没有回执，现场人员先接管。
+目标成功、取消或中止后，再执行：
+
+    hz_nav status
+
+结合线速度读数和现场观察，确认车辆完全停稳。收到取消受理仅表示已请求取消，
+以最终动作状态和现场停车情况为准。
+
+四、结束退出
+============
+
+1.【小车 Ubuntu，检查终端】确认动作结束并停稳。需要保存个人配置和控制器
+运行参数时，执行 hz_nav snapshot。预期返回 /home/car/hz_nav_ws/logs 下
+本次新快照路径，命令结束。
+
+2.【同一个检查终端】依次执行，每一步等 success=True。
+
+    hz_nav nav-off
+    hz_nav loc-off
+
+作用：依次结束本版 Nav2 导航组和定位组。两条命令都结束后保留窗口或退出。
+
+3.【本人各小车 Ubuntu 窗口】按 Nav2、RViz、底盘、传感器的顺序，
+在本人启动的窗口各按一次 Ctrl+C，逐个等回到提示符。结束底盘时仍需现场接管。
+原来复用的他人节点由其操作者处理。启动窗口首行日志会给出本次日志目录。
+如某窗口退出超时，保留输出以便核对进程归属。
+
+五、地图切换和常见故障
+======================
+
+- 默认地图按 11 月 8 日快照核验。确实要更换时，把已核对的 YAML 和图像放在
+  个人 maps 目录，结束当前会话后在 Nav2 终端额外传 map:=地图文件名。
+  例如已核验两文件时用 ros2 launch "$hzLaunch" role:=nav2 map:=lab_odom_11_01.yaml。
+  新地图重新点初始位姿、重新选目标，旧地图坐标不能直接沿用。
+- 预检报文件 SHA256 不一致时，记下路径、当前和预期值。先核对是否载入了
+  别的参数包或地图。原文件和历史地图保留。
+- 找不到扫描时先看传感器日志，复核 /hz_nav/scan 订阅。firetime 读失败
+  曾与扫描仍可接收同时出现，以收到有效扫描为验收。UDP 2368 已占用时核对
+  已有雷达窗口及操作者。
+- 底盘包应来自 /home/car/hunter_nav_odom_ws/install/hunter_base。
+  can0 报错时在检查终端用 ip -details -statistics link show dev can0
+  读状态。底盘无里程计、段错误或数值异常时不要进入导航阶段。
+- Map 显示但没有 map → base_link 时，核对定位组已启用、初始位姿方向、
+  扫描和底盘里程计。RViz 的 2D Pose Estimate 使用 /hz_nav/initialpose。
+- /hz_nav/blocked_cmd_vel 在这套流程里接真实底盘。它的名字不能作为隔离证据。
+  日常纯规划只走 hz_nav plan。准备发实车目标时再走第三节的独立确认步骤。
