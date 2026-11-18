@@ -1,0 +1,83 @@
+HUNTER 2.0 实车 Nav2 操作命令（简版）
+2026-11-08 | car@car-NUC15JNKU7X4 | ROS 2 Humble
+
+把《Nav2导航命令.txt》里的环境设置和长命令收进 hznav.bash。
+沿用 /home/car/hz_nav_ws 中的地图入口 lab_odom_06_nav.yaml、参数和行为树。
+各步骤使用域 88 和 Fast DDS，不需要先运行 use_robot。
+
+首次放到小车（只做一次）
+========================
+通过 ToDesk 把 hznav.bash 传到小车 Ubuntu 桌面。先在小车终端复制到个人目录：
+
+    mkdir -p /home/car/hz_nav_ws/hz_nav_tools && cp -n -- /home/car/桌面/hznav.bash /home/car/hz_nav_ws/hz_nav_tools/hznav.bash
+
+已有同名文件会保留。核对复制后的文件：
+
+    sha256sum /home/car/hz_nav_ws/hz_nav_tools/hznav.bash
+
+本版 SHA256 应为 510007400b0fd5042a67fb675fc1efdfaa41ff785dfe8f582a3d0e3ecbcb0e17。
+一致后运行下面的检查，看到“入口和包路径检查通过”再继续：
+
+    bash /home/car/hz_nav_ws/hz_nav_tools/hznav.bash check
+
+这一步只检查文件和 ROS 包来源，不启动底盘。遇到报错，把原样输出发回来。
+
+日常操作
+========
+传感器、底盘、Nav2、RViz 各用一个常驻窗口，再用一个检查终端。
+每个新窗口先执行一次，已有窗口可直接继续：
+
+    source /home/car/hz_nav_ws/hz_nav_tools/hznav.bash
+
+按顺序逐步执行。已经运行的组件复用原窗口，每个组件只开一份。
+
+01  传感器终端     hznav sensors
+    保持窗口运行。检查终端执行 hznav scan，确认收到 frame_id: base_link。
+
+02  底盘终端       hznav base
+    会启用电脑控制并尝试释放制动。现场可接管、车辆停稳、前后净空并同意本次启动时，
+    才按提示输入 START BASE。确认底盘日志无异常后保持窗口运行。
+
+03  Nav2 终端      hznav nav2
+    等地图、定位和导航组件加载。检查终端执行 hznav loc-on，等 success=True。
+
+04  RViz 终端      hznav rviz
+    Fixed Frame 用 map。用 2D Pose Estimate 标出车身实际位置和车头方向。
+    检查终端执行 hznav tf，确认持续打印位置和朝向。到 6 秒自动退出属正常。
+
+05  检查终端       hznav ready
+    等定位更新请求返回 Empty_Response()、导航组返回 success=True。检查车模和现场朝向一致，
+    扫描与地图墙体对齐。只验启动和定位时，做到这里就可以收尾。
+
+先规划，再决定是否让车走
+========================
+06  检查终端       hznav pose
+    记录 AMCL 的 orientation.z 和 orientation.w。再执行 hznav pick，
+    在 RViz 用红图钉 Publish Point 选车头前方空地。确认 frame_id: map，记下 x、y。
+
+07  检查终端       hznav plan X Y QZ QW
+    把四个大写占位符换成本次的 x、y、orientation.z、orientation.w。
+    这一步只算路径。等 SUCCEEDED，核对绿线方向、前后净空和障碍。
+
+08  检查终端       hznav status
+    检查车辆静止，vehicle_state 和 error_code 都为 0。control_mode 为 1 是 CAN 控制。
+    如仍在待机、速度异常、定位不稳或路线不合适，停在纯规划阶段。
+
+09  检查终端       hznav goal X Y QZ QW
+    这一步会让实车行驶，使用刚规划并确认的同一组数字。原配置期望速度为 0.10 m/s，
+    遇阻时行为树可能倒车。现场人员能用遥控器或急停接管、同意本次目标后，才输入 SEND GOAL。
+    脚本会再读取一次底盘状态。保留窗口，等导航结果。动作异常时由现场人员先接管。
+
+10  取消和确认停稳
+    需要取消时，在发目标的窗口按 Ctrl+C，等 CANCELED。
+    成功、取消或中止后都用 hznav status 核对速度，并现场确认完全停稳。
+
+收尾
+====
+需要保存本次个人配置和运行参数时，在检查终端执行 hznav snapshot。
+先执行 hznav nav-off，再执行 hznav loc-off，每一步等 success=True。
+在自己的 Nav2、RViz、底盘、传感器窗口依次按 Ctrl+C，逐个等待退出。
+退出异常时保留对应窗口日志。日志和快照在 /home/car/hz_nav_ws/logs。
+
+用 hznav help 可查看全部短命令。原长版保留供排查。
+简版入口已做 Bash 语法和模拟调用验证，尚未在实车上复验。
