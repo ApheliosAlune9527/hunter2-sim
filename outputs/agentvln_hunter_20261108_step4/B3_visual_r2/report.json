@@ -1,0 +1,526 @@
+{
+  "instruction": "\u7ecf\u8fc7\u7ea2\u724c\uff0c\u5728\u4e24\u4e2a\u84dd\u7bb1\u4e2d\u8f83\u8fdc\u7684\u90a3\u4e2a\u524d\u65b9\u505c\u4e0b",
+  "success": true,
+  "stages": [
+    {
+      "stage": "initial_observation",
+      "stamp_s": 520.8,
+      "age_s": 0.008,
+      "robot_pose": [
+        0.8293,
+        -0.1737,
+        0.5986
+      ],
+      "components": [
+        {
+          "id": 0,
+          "u": 247.72,
+          "v": 272.88,
+          "area_px": 12786.0,
+          "area_fraction": 0.04162,
+          "depth_median_m": 3.4085,
+          "depth_valid_fraction": 1.0,
+          "depth_valid_pixels": 625,
+          "depth_unit": "m"
+        },
+        {
+          "id": 1,
+          "u": 413.52,
+          "v": 270.37,
+          "area_px": 10555.5,
+          "area_fraction": 0.03436,
+          "depth_median_m": 3.692153,
+          "depth_valid_fraction": 1.0,
+          "depth_valid_pixels": 625,
+          "depth_unit": "m"
+        }
+      ],
+      "component_count": 2
+    }
+  ],
+  "reobserve_attempts": [],
+  "frame": {
+    "stamp_s": 520.8,
+    "age_s": 0.008,
+    "K": [
+      606.7595825195312,
+      0.0,
+      320.0,
+      0.0,
+      606.7595825195312,
+      240.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "robot_pose": [
+      0.8293,
+      -0.1737,
+      0.5986
+    ]
+  },
+  "components": [
+    {
+      "u": 247.72,
+      "v": 272.88,
+      "area_px": 12786.0,
+      "bbox": [
+        206,
+        194,
+        84,
+        161
+      ],
+      "area_fraction": 0.04162,
+      "depth": {
+        "median_m": 3.4085,
+        "mean_m": 3.408488,
+        "valid": 625,
+        "valid_fraction": 1.0,
+        "min_m": 3.37708,
+        "max_m": 3.440132,
+        "roi": [
+          236,
+          261,
+          261,
+          286
+        ]
+      }
+    },
+    {
+      "u": 413.52,
+      "v": 270.37,
+      "area_px": 10555.5,
+      "bbox": [
+        377,
+        197,
+        74,
+        149
+      ],
+      "area_fraction": 0.03436,
+      "depth": {
+        "median_m": 3.692153,
+        "mean_m": 3.692353,
+        "valid": 625,
+        "valid_fraction": 1.0,
+        "min_m": 3.647551,
+        "max_m": 3.73786,
+        "roi": [
+          402,
+          258,
+          427,
+          283
+        ]
+      },
+      "backprojected_map": [
+        4.7237,
+        1.8121,
+        0.4552
+      ]
+    }
+  ],
+  "depth_queries": [
+    {
+      "box_index": 0,
+      "u": 247.72,
+      "v": 272.88,
+      "median_m": 3.4085,
+      "unit": "m",
+      "valid_pixels": 625,
+      "valid_fraction": 1.0,
+      "selected": false
+    },
+    {
+      "box_index": 1,
+      "u": 413.52,
+      "v": 270.37,
+      "median_m": 3.692153,
+      "unit": "m",
+      "valid_pixels": 625,
+      "valid_fraction": 1.0,
+      "selected": true
+    }
+  ],
+  "selection_before_depth": {
+    "criterion": "smaller_image_area_proxy",
+    "box_index": 1,
+    "u": 413.52,
+    "v": 270.37,
+    "area_px": 10555.5,
+    "depth_not_used": true
+  },
+  "selection_after_depth": {
+    "criterion": "largest_median_depth",
+    "box_index": 1,
+    "u": 413.52,
+    "v": 270.37,
+    "median_m": 3.692153,
+    "unit": "m",
+    "map_point_m": [
+      4.7237,
+      1.8121,
+      0.4552
+    ],
+    "reason": "farther_of_two_blue_boxes"
+  },
+  "selection_changed_after_depth": false,
+  "dock_candidates": [
+    {
+      "x": 3.892,
+      "y": 1.388,
+      "yaw": 0.4715,
+      "backoff_m": 0.1,
+      "yaw_offset_rad": 0.0,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.938,
+      "y": 1.307,
+      "yaw": 0.5715,
+      "backoff_m": 0.1,
+      "yaw_offset_rad": 0.1,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.853,
+      "y": 1.473,
+      "yaw": 0.3715,
+      "backoff_m": 0.1,
+      "yaw_offset_rad": -0.1,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.992,
+      "y": 1.231,
+      "yaw": 0.6715,
+      "backoff_m": 0.1,
+      "yaw_offset_rad": 0.2,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.824,
+      "y": 1.562,
+      "yaw": 0.2715,
+      "backoff_m": 0.1,
+      "yaw_offset_rad": -0.2,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.838,
+      "y": 1.361,
+      "yaw": 0.4715,
+      "backoff_m": 0.16,
+      "yaw_offset_rad": 0.0,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.888,
+      "y": 1.274,
+      "yaw": 0.5715,
+      "backoff_m": 0.16,
+      "yaw_offset_rad": 0.1,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.798,
+      "y": 1.451,
+      "yaw": 0.3715,
+      "backoff_m": 0.16,
+      "yaw_offset_rad": -0.1,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.946,
+      "y": 1.194,
+      "yaw": 0.6715,
+      "backoff_m": 0.16,
+      "yaw_offset_rad": 0.2,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.766,
+      "y": 1.546,
+      "yaw": 0.2715,
+      "backoff_m": 0.16,
+      "yaw_offset_rad": -0.2,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 49,
+      "path_length_m": 3.41
+    },
+    {
+      "x": 3.785,
+      "y": 1.333,
+      "yaw": 0.4715,
+      "backoff_m": 0.22,
+      "yaw_offset_rad": 0.0,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.837,
+      "y": 1.242,
+      "yaw": 0.5715,
+      "backoff_m": 0.22,
+      "yaw_offset_rad": 0.1,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.742,
+      "y": 1.429,
+      "yaw": 0.3715,
+      "backoff_m": 0.22,
+      "yaw_offset_rad": -0.1,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 47,
+      "path_length_m": 3.313
+    },
+    {
+      "x": 3.899,
+      "y": 1.156,
+      "yaw": 0.6715,
+      "backoff_m": 0.22,
+      "yaw_offset_rad": 0.2,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.708,
+      "y": 1.529,
+      "yaw": 0.2715,
+      "backoff_m": 0.22,
+      "yaw_offset_rad": -0.2,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 48,
+      "path_length_m": 3.325
+    },
+    {
+      "x": 3.731,
+      "y": 1.306,
+      "yaw": 0.4715,
+      "backoff_m": 0.28,
+      "yaw_offset_rad": 0.0,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 46,
+      "path_length_m": 3.243
+    },
+    {
+      "x": 3.787,
+      "y": 1.21,
+      "yaw": 0.5715,
+      "backoff_m": 0.28,
+      "yaw_offset_rad": 0.1,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.686,
+      "y": 1.408,
+      "yaw": 0.3715,
+      "backoff_m": 0.28,
+      "yaw_offset_rad": -0.1,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 46,
+      "path_length_m": 3.246
+    },
+    {
+      "x": 3.852,
+      "y": 1.119,
+      "yaw": 0.6715,
+      "backoff_m": 0.28,
+      "yaw_offset_rad": 0.2,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.651,
+      "y": 1.513,
+      "yaw": 0.2715,
+      "backoff_m": 0.28,
+      "yaw_offset_rad": -0.2,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 47,
+      "path_length_m": 3.283
+    },
+    {
+      "x": 3.678,
+      "y": 1.279,
+      "yaw": 0.4715,
+      "backoff_m": 0.34,
+      "yaw_offset_rad": 0.0,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 46,
+      "path_length_m": 3.198
+    },
+    {
+      "x": 3.736,
+      "y": 1.177,
+      "yaw": 0.5715,
+      "backoff_m": 0.34,
+      "yaw_offset_rad": 0.1,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 46,
+      "path_length_m": 3.202
+    },
+    {
+      "x": 3.63,
+      "y": 1.386,
+      "yaw": 0.3715,
+      "backoff_m": 0.34,
+      "yaw_offset_rad": -0.1,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 46,
+      "path_length_m": 3.202
+    },
+    {
+      "x": 3.805,
+      "y": 1.082,
+      "yaw": 0.6715,
+      "backoff_m": 0.34,
+      "yaw_offset_rad": 0.2,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.593,
+      "y": 1.497,
+      "yaw": 0.2715,
+      "backoff_m": 0.34,
+      "yaw_offset_rad": -0.2,
+      "approach_bearing_rad": 0.4715,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 46,
+      "path_length_m": 3.214
+    }
+  ],
+  "chosen_dock": {
+    "x": 3.731,
+    "y": 1.306,
+    "yaw": 0.4715,
+    "backoff_m": 0.28,
+    "yaw_offset_rad": 0.0,
+    "approach_bearing_rad": 0.4715,
+    "footprint_clear_of_marked_boxes": true,
+    "plan_status": 4,
+    "planned_poses": 46,
+    "path_length_m": 3.243
+  },
+  "dock_attempts": [
+    {
+      "attempt": 1,
+      "dock": {
+        "x": 3.731,
+        "y": 1.306,
+        "yaw": 0.4715,
+        "backoff_m": 0.28,
+        "yaw_offset_rad": 0.0,
+        "approach_bearing_rad": 0.4715,
+        "footprint_clear_of_marked_boxes": true,
+        "plan_status": 4,
+        "planned_poses": 46,
+        "path_length_m": 3.243
+      },
+      "nav": {
+        "status": 4,
+        "timed_out": false,
+        "wall_s": 13.661,
+        "truth_after": [
+          3.629,
+          1.2304,
+          0.4197
+        ],
+        "error_to_dock_m": 0.127,
+        "heading_to_dock_rad": 0.0518,
+        "stop_displacement_m": 0.0168,
+        "amcl_error_m": 0.0808,
+        "skipped": false,
+        "attempt": 1
+      }
+    }
+  ],
+  "fallback_used": false,
+  "parking": {
+    "x": 3.873,
+    "y": 1.342,
+    "radius_m": 0.3,
+    "yaw": 0.498,
+    "yaw_tol_rad": 0.5
+  },
+  "nav": {
+    "status": 4,
+    "timed_out": false,
+    "wall_s": 13.661,
+    "truth_after": [
+      3.629,
+      1.2304,
+      0.4197
+    ],
+    "error_to_dock_m": 0.127,
+    "heading_to_dock_rad": 0.0518,
+    "stop_displacement_m": 0.0168,
+    "amcl_error_m": 0.0808,
+    "skipped": false,
+    "attempt": 1,
+    "attempts_used": 1,
+    "final_truth": [
+      3.6444,
+      1.237,
+      0.4265
+    ],
+    "parking_distance_m": 0.2516,
+    "parking_yaw_error_rad": 0.0715,
+    "parking_ok": true,
+    "success": true,
+    "dock_in_zone_by_geometry": true
+  },
+  "truth_path_length_m": 3.155,
+  "truth_samples": 1416,
+  "files": {
+    "initial": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step4/B3_visual_r2/initial.png",
+    "observation": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step4/B3_visual_r2/annotated.png",
+    "rgb": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step4/B3_visual_r2/observation.png",
+    "depth": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step4/B3_visual_r2/depth.npy"
+  }
+}

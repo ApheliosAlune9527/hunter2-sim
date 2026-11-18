@@ -1,0 +1,190 @@
+{
+  "instruction": "\u7ecf\u8fc7\u7ea2\u724c\uff0c\u5728\u4e24\u4e2a\u84dd\u7bb1\u4e2d\u8f83\u8fdc\u7684\u90a3\u4e2a\u524d\u65b9\u505c\u4e0b",
+  "success": false,
+  "safety_end": true,
+  "reason": "fewer_than_two_blue_components_after_reobserve",
+  "stages": [
+    {
+      "stage": "initial_observation",
+      "stamp_s": 263.0,
+      "age_s": 0.008,
+      "robot_pose": [
+        -0.207,
+        -0.7711,
+        -0.0007
+      ],
+      "components": [
+        {
+          "id": 0,
+          "u": 42.13,
+          "v": 264.12,
+          "area_px": 10080.5,
+          "area_fraction": 0.03281,
+          "depth_median_m": 4.091,
+          "depth_valid_fraction": 1.0,
+          "depth_valid_pixels": 625,
+          "depth_unit": "m"
+        }
+      ],
+      "component_count": 1
+    },
+    {
+      "stage": "reobserve_1_leg_0",
+      "stamp_s": 298.2,
+      "age_s": 0.008,
+      "robot_pose": [
+        1.6133,
+        0.2408,
+        0.7771
+      ],
+      "components": [
+        {
+          "id": 0,
+          "u": 569.83,
+          "v": 275.29,
+          "area_px": 13927.5,
+          "area_fraction": 0.04534,
+          "depth_median_m": 3.205469,
+          "depth_valid_fraction": 1.0,
+          "depth_valid_pixels": 625,
+          "depth_unit": "m"
+        }
+      ],
+      "component_count": 1
+    },
+    {
+      "stage": "reobserve_1_leg_1",
+      "stamp_s": 308.4,
+      "age_s": 0.008,
+      "robot_pose": [
+        3.063,
+        1.2442,
+        0.3724
+      ],
+      "components": [
+        {
+          "id": 0,
+          "u": 383.27,
+          "v": 306.01,
+          "area_px": 42577.0,
+          "area_fraction": 0.1386,
+          "depth_median_m": 1.719429,
+          "depth_valid_fraction": 1.0,
+          "depth_valid_pixels": 625,
+          "depth_unit": "m"
+        }
+      ],
+      "component_count": 1
+    }
+  ],
+  "reobserve_attempts": [
+    {
+      "attempt": 1,
+      "route": [
+        {
+          "x": 1.885,
+          "y": 0.435,
+          "yaw": 0.522
+        },
+        {
+          "x": 3.185,
+          "y": 1.235,
+          "yaw": 0.3
+        }
+      ],
+      "legs": [
+        {
+          "pose": {
+            "x": 1.885,
+            "y": 0.435,
+            "yaw": 0.522
+          },
+          "nav": {
+            "status": 6,
+            "timed_out": false,
+            "wall_s": 34.164,
+            "truth_after": [
+              1.6218,
+              0.3158,
+              0.7531
+            ],
+            "error_to_dock_m": 0.289,
+            "heading_to_dock_rad": 0.2311,
+            "stop_displacement_m": 0.0,
+            "amcl_error_m": 0.0842,
+            "accepted_as_arrived": true,
+            "accepted_reason": "nav2_dubin_dead_zone_within_tolerance"
+          }
+        },
+        {
+          "pose": {
+            "x": 3.185,
+            "y": 1.235,
+            "yaw": 0.3
+          },
+          "nav": {
+            "status": 4,
+            "timed_out": false,
+            "wall_s": 8.883,
+            "truth_after": [
+              3.0671,
+              1.2977,
+              0.3773
+            ],
+            "error_to_dock_m": 0.1336,
+            "heading_to_dock_rad": 0.0773,
+            "stop_displacement_m": 0.0,
+            "amcl_error_m": 0.0584,
+            "accepted_as_arrived": true,
+            "accepted_reason": "nav2_succeeded"
+          }
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "route": [
+        {
+          "x": 1.885,
+          "y": 0.435,
+          "yaw": 0.522
+        },
+        {
+          "x": 3.185,
+          "y": 1.235,
+          "yaw": 0.3
+        }
+      ],
+      "legs": [
+        {
+          "pose": {
+            "x": 1.885,
+            "y": 0.435,
+            "yaw": 0.522
+          },
+          "nav": {
+            "status": 6,
+            "timed_out": false,
+            "wall_s": 24.691,
+            "truth_after": [
+              3.0671,
+              1.2977,
+              0.3773
+            ],
+            "error_to_dock_m": 1.4634,
+            "heading_to_dock_rad": 0.1447,
+            "stop_displacement_m": 0.0,
+            "amcl_error_m": 0.0584,
+            "accepted_as_arrived": false,
+            "accepted_reason": "not_arrived"
+          }
+        }
+      ]
+    }
+  ],
+  "final_truth": [
+    3.0671,
+    1.2977,
+    0.3773
+  ]
+}

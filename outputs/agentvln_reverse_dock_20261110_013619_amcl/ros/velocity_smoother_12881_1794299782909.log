@@ -1,0 +1,7 @@
+[INFO] [1794299782.920322184] [velocity_smoother]: 
+	velocity_smoother lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794299783.071270225] [velocity_smoother]: Configuring velocity smoother
+[INFO] [1794299790.658267031] [velocity_smoother]: Activating
+[INFO] [1794299790.658457414] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.

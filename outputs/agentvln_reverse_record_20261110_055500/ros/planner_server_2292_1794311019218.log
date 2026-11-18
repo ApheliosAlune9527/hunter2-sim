@@ -1,0 +1,38 @@
+[INFO] [1794311019.229937783] [planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794311019.231786099] [planner_server]: Creating
+[INFO] [1794311019.236817690] [global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794311019.237409225] [global_costmap.global_costmap]: Creating Costmap
+[INFO] [1794311019.385596540] [planner_server]: Configuring
+[INFO] [1794311019.385669093] [global_costmap.global_costmap]: Configuring
+[INFO] [1794311019.390564171] [global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1794311019.408324126] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1794311019.410053314] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1794311019.410093051] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1794311019.412146083] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1794311019.418724799] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1794311019.418766227] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1794311019.420889229] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1794311019.460737185] [planner_server]: Created global planner plugin GridBased of type nav2_smac_planner/SmacPlannerHybrid
+[INFO] [1794311019.460842000] [planner_server]: Configuring GridBased of type SmacPlannerHybrid
+[INFO] [1794311019.466641754] [planner_server]: Even sized heuristic lookup table size set 400.000000, increasing size by 1 to make odd
+[INFO] [1794311026.741501572] [planner_server]: Configured plugin GridBased of type SmacPlannerHybrid with maximum iterations 1000000, max on approach iterations 1000, and not allowing unknown traversal. Tolerance 0.05.Using motion model: Reeds-Shepp.
+[INFO] [1794311026.741607135] [planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1794311026.993691414] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 241 X 465 at 0.050000 m/pix
+[INFO] [1794311027.000336965] [planner_server]: Activating
+[INFO] [1794311027.000369932] [global_costmap.global_costmap]: Activating
+[INFO] [1794311027.000378187] [global_costmap.global_costmap]: Checking transform
+[INFO] [1794311027.000390548] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1794311027.501613763] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1794311028.002235251] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1794311028.500535793] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1794311029.000621450] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 0.816000 but the earliest data is at time 1.400000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794311029.500607110] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1.308000 but the earliest data is at time 1.400000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794311030.000816384] [global_costmap.global_costmap]: start
+[INFO] [1794311031.052512089] [planner_server]: Activating plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794311031.054136229] [planner_server]: Creating bond (planner_server) to lifecycle manager.

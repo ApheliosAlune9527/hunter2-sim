@@ -1,0 +1,583 @@
+{
+  "instruction": "\u7ecf\u8fc7\u7ea2\u724c\uff0c\u5728\u4e24\u4e2a\u84dd\u7bb1\u4e2d\u8f83\u8fdc\u7684\u90a3\u4e2a\u524d\u65b9\u505c\u4e0b",
+  "success": true,
+  "stages": [
+    {
+      "stage": "initial_observation",
+      "stamp_s": 860.8,
+      "age_s": 0.012,
+      "robot_pose": [
+        -0.2112,
+        -0.7721,
+        -0.0022
+      ],
+      "components": [],
+      "component_count": 0
+    },
+    {
+      "stage": "reobserve_1_leg_0",
+      "stamp_s": 873.6,
+      "age_s": 0.008,
+      "robot_pose": [
+        1.8788,
+        0.3943,
+        0.655
+      ],
+      "components": [
+        {
+          "id": 0,
+          "u": 232.24,
+          "v": 284.88,
+          "area_px": 28515.5,
+          "area_fraction": 0.09282,
+          "depth_median_m": 2.182046,
+          "depth_valid_fraction": 1.0,
+          "depth_valid_pixels": 625,
+          "depth_unit": "m"
+        },
+        {
+          "id": 1,
+          "u": 481.74,
+          "v": 281.3,
+          "area_px": 22849.0,
+          "area_fraction": 0.07438,
+          "depth_median_m": 2.43252,
+          "depth_valid_fraction": 1.0,
+          "depth_valid_pixels": 625,
+          "depth_unit": "m"
+        }
+      ],
+      "component_count": 2
+    }
+  ],
+  "reobserve_attempts": [
+    {
+      "attempt": 1,
+      "route": [
+        {
+          "x": 2.0,
+          "y": 0.5,
+          "yaw": 0.522
+        }
+      ],
+      "legs": [
+        {
+          "pose": {
+            "x": 2.0,
+            "y": 0.5,
+            "yaw": 0.522
+          },
+          "nav": {
+            "status": 4,
+            "timed_out": false,
+            "wall_s": 11.612,
+            "truth_after": [
+              1.8764,
+              0.4459,
+              0.6549
+            ],
+            "error_to_dock_m": 0.1349,
+            "heading_to_dock_rad": 0.1329,
+            "stop_displacement_m": 0.0256,
+            "amcl_error_m": 0.0944,
+            "accepted_as_arrived": true,
+            "accepted_reason": "nav2_succeeded"
+          }
+        }
+      ]
+    }
+  ],
+  "frame": {
+    "stamp_s": 873.6,
+    "age_s": 0.008,
+    "K": [
+      606.7595825195312,
+      0.0,
+      320.0,
+      0.0,
+      606.7595825195312,
+      240.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "robot_pose": [
+      1.8788,
+      0.3943,
+      0.655
+    ]
+  },
+  "components": [
+    {
+      "u": 232.24,
+      "v": 284.88,
+      "area_px": 28515.5,
+      "bbox": [
+        170,
+        167,
+        126,
+        241
+      ],
+      "area_fraction": 0.09282,
+      "depth": {
+        "median_m": 2.182046,
+        "mean_m": 2.182224,
+        "valid": 625,
+        "valid_fraction": 1.0,
+        "min_m": 2.160521,
+        "max_m": 2.204444,
+        "roi": [
+          220,
+          273,
+          245,
+          298
+        ]
+      }
+    },
+    {
+      "u": 481.74,
+      "v": 281.3,
+      "area_px": 22849.0,
+      "bbox": [
+        427,
+        174,
+        110,
+        219
+      ],
+      "area_fraction": 0.07438,
+      "depth": {
+        "median_m": 2.43252,
+        "mean_m": 2.43266,
+        "valid": 625,
+        "valid_fraction": 1.0,
+        "min_m": 2.402279,
+        "max_m": 2.463533,
+        "roi": [
+          470,
+          269,
+          495,
+          294
+        ]
+      },
+      "backprojected_map": [
+        4.7045,
+        1.7661,
+        0.4744
+      ]
+    }
+  ],
+  "depth_queries": [
+    {
+      "box_index": 0,
+      "u": 232.24,
+      "v": 284.88,
+      "median_m": 2.182046,
+      "unit": "m",
+      "valid_pixels": 625,
+      "valid_fraction": 1.0,
+      "selected": false
+    },
+    {
+      "box_index": 1,
+      "u": 481.74,
+      "v": 281.3,
+      "median_m": 2.43252,
+      "unit": "m",
+      "valid_pixels": 625,
+      "valid_fraction": 1.0,
+      "selected": true
+    }
+  ],
+  "selection_before_depth": {
+    "criterion": "smaller_image_area_proxy",
+    "box_index": 1,
+    "u": 481.74,
+    "v": 281.3,
+    "area_px": 22849.0,
+    "depth_not_used": true
+  },
+  "selection_after_depth": {
+    "criterion": "largest_median_depth",
+    "box_index": 1,
+    "u": 481.74,
+    "v": 281.3,
+    "median_m": 2.43252,
+    "unit": "m",
+    "map_point_m": [
+      4.7045,
+      1.7661,
+      0.4744
+    ],
+    "reason": "farther_of_two_blue_boxes"
+  },
+  "selection_changed_after_depth": false,
+  "dock_candidates": [
+    {
+      "x": 3.864,
+      "y": 1.358,
+      "yaw": 0.4519,
+      "backoff_m": 0.1,
+      "yaw_offset_rad": 0.0,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.909,
+      "y": 1.276,
+      "yaw": 0.5519,
+      "backoff_m": 0.1,
+      "yaw_offset_rad": 0.1,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.828,
+      "y": 1.444,
+      "yaw": 0.3519,
+      "backoff_m": 0.1,
+      "yaw_offset_rad": -0.1,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.962,
+      "y": 1.199,
+      "yaw": 0.6519,
+      "backoff_m": 0.1,
+      "yaw_offset_rad": 0.2,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.8,
+      "y": 1.533,
+      "yaw": 0.2519,
+      "backoff_m": 0.1,
+      "yaw_offset_rad": -0.2,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.81,
+      "y": 1.332,
+      "yaw": 0.4519,
+      "backoff_m": 0.16,
+      "yaw_offset_rad": 0.0,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.858,
+      "y": 1.245,
+      "yaw": 0.5519,
+      "backoff_m": 0.16,
+      "yaw_offset_rad": 0.1,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.771,
+      "y": 1.423,
+      "yaw": 0.3519,
+      "backoff_m": 0.16,
+      "yaw_offset_rad": -0.1,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 31,
+      "path_length_m": 2.174
+    },
+    {
+      "x": 3.914,
+      "y": 1.163,
+      "yaw": 0.6519,
+      "backoff_m": 0.16,
+      "yaw_offset_rad": 0.2,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.742,
+      "y": 1.518,
+      "yaw": 0.2519,
+      "backoff_m": 0.16,
+      "yaw_offset_rad": -0.2,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 31,
+      "path_length_m": 2.187
+    },
+    {
+      "x": 3.756,
+      "y": 1.306,
+      "yaw": 0.4519,
+      "backoff_m": 0.22,
+      "yaw_offset_rad": 0.0,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 30,
+      "path_length_m": 2.062
+    },
+    {
+      "x": 3.807,
+      "y": 1.213,
+      "yaw": 0.5519,
+      "backoff_m": 0.22,
+      "yaw_offset_rad": 0.1,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.715,
+      "y": 1.403,
+      "yaw": 0.3519,
+      "backoff_m": 0.22,
+      "yaw_offset_rad": -0.1,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 30,
+      "path_length_m": 2.106
+    },
+    {
+      "x": 3.867,
+      "y": 1.127,
+      "yaw": 0.6519,
+      "backoff_m": 0.22,
+      "yaw_offset_rad": 0.2,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.684,
+      "y": 1.503,
+      "yaw": 0.2519,
+      "backoff_m": 0.22,
+      "yaw_offset_rad": -0.2,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 30,
+      "path_length_m": 2.118
+    },
+    {
+      "x": 3.702,
+      "y": 1.28,
+      "yaw": 0.4519,
+      "backoff_m": 0.28,
+      "yaw_offset_rad": 0.0,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 29,
+      "path_length_m": 2.017
+    },
+    {
+      "x": 3.756,
+      "y": 1.182,
+      "yaw": 0.5519,
+      "backoff_m": 0.28,
+      "yaw_offset_rad": 0.1,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 29,
+      "path_length_m": 2.025
+    },
+    {
+      "x": 3.659,
+      "y": 1.382,
+      "yaw": 0.3519,
+      "backoff_m": 0.28,
+      "yaw_offset_rad": -0.1,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 29,
+      "path_length_m": 2.018
+    },
+    {
+      "x": 3.819,
+      "y": 1.09,
+      "yaw": 0.6519,
+      "backoff_m": 0.28,
+      "yaw_offset_rad": 0.2,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": false,
+      "rejected": "overlaps_blue_far"
+    },
+    {
+      "x": 3.626,
+      "y": 1.488,
+      "yaw": 0.2519,
+      "backoff_m": 0.28,
+      "yaw_offset_rad": -0.2,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 30,
+      "path_length_m": 2.076
+    },
+    {
+      "x": 3.648,
+      "y": 1.253,
+      "yaw": 0.4519,
+      "backoff_m": 0.34,
+      "yaw_offset_rad": 0.0,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 28,
+      "path_length_m": 1.95
+    },
+    {
+      "x": 3.705,
+      "y": 1.151,
+      "yaw": 0.5519,
+      "backoff_m": 0.34,
+      "yaw_offset_rad": 0.1,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 28,
+      "path_length_m": 1.962
+    },
+    {
+      "x": 3.602,
+      "y": 1.361,
+      "yaw": 0.3519,
+      "backoff_m": 0.34,
+      "yaw_offset_rad": -0.1,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 28,
+      "path_length_m": 1.975
+    },
+    {
+      "x": 3.771,
+      "y": 1.054,
+      "yaw": 0.6519,
+      "backoff_m": 0.34,
+      "yaw_offset_rad": 0.2,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 6,
+      "planned_poses": 0,
+      "rejected": "trial_plan_failed"
+    },
+    {
+      "x": 3.568,
+      "y": 1.473,
+      "yaw": 0.2519,
+      "backoff_m": 0.34,
+      "yaw_offset_rad": -0.2,
+      "approach_bearing_rad": 0.4519,
+      "footprint_clear_of_marked_boxes": true,
+      "plan_status": 4,
+      "planned_poses": 29,
+      "path_length_m": 2.036
+    }
+  ],
+  "chosen_dock": {
+    "x": 3.756,
+    "y": 1.306,
+    "yaw": 0.4519,
+    "backoff_m": 0.22,
+    "yaw_offset_rad": 0.0,
+    "approach_bearing_rad": 0.4519,
+    "footprint_clear_of_marked_boxes": true,
+    "plan_status": 4,
+    "planned_poses": 30,
+    "path_length_m": 2.062
+  },
+  "dock_attempts": [
+    {
+      "attempt": 1,
+      "dock": {
+        "x": 3.756,
+        "y": 1.306,
+        "yaw": 0.4519,
+        "backoff_m": 0.22,
+        "yaw_offset_rad": 0.0,
+        "approach_bearing_rad": 0.4519,
+        "footprint_clear_of_marked_boxes": true,
+        "plan_status": 4,
+        "planned_poses": 30,
+        "path_length_m": 2.062
+      },
+      "nav": {
+        "status": 4,
+        "timed_out": false,
+        "wall_s": 9.522,
+        "truth_after": [
+          3.603,
+          1.2882,
+          0.4204
+        ],
+        "error_to_dock_m": 0.1541,
+        "heading_to_dock_rad": 0.0315,
+        "stop_displacement_m": 0.0386,
+        "amcl_error_m": 0.058,
+        "skipped": false,
+        "attempt": 1
+      }
+    }
+  ],
+  "fallback_used": false,
+  "parking": {
+    "x": 3.873,
+    "y": 1.342,
+    "radius_m": 0.3,
+    "yaw": 0.498,
+    "yaw_tol_rad": 0.5
+  },
+  "nav": {
+    "status": 4,
+    "timed_out": false,
+    "wall_s": 9.522,
+    "truth_after": [
+      3.603,
+      1.2882,
+      0.4204
+    ],
+    "error_to_dock_m": 0.1541,
+    "heading_to_dock_rad": 0.0315,
+    "stop_displacement_m": 0.0386,
+    "amcl_error_m": 0.058,
+    "skipped": false,
+    "attempt": 1,
+    "attempts_used": 1,
+    "final_truth": [
+      3.6385,
+      1.3033,
+      0.4189
+    ],
+    "parking_distance_m": 0.2377,
+    "parking_yaw_error_rad": 0.0791,
+    "parking_ok": true,
+    "success": true,
+    "dock_in_zone_by_geometry": true
+  },
+  "wall_total_s": 25.68,
+  "truth_path_length_m": 4.473,
+  "truth_samples": 2134,
+  "files": {
+    "initial": "outputs/agentvln_hunter_20261108_step4/timing/B1_visual_r3/initial.png",
+    "observation": "outputs/agentvln_hunter_20261108_step4/timing/B1_visual_r3/annotated.png",
+    "rgb": "outputs/agentvln_hunter_20261108_step4/timing/B1_visual_r3/observation.png",
+    "depth": "outputs/agentvln_hunter_20261108_step4/timing/B1_visual_r3/depth.npy"
+  }
+}

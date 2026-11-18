@@ -1,0 +1,15 @@
+{
+  "decision": "finish",
+  "frame_stamp_s": 705.8,
+  "robot_pose_map": [
+    3.2088,
+    0.675,
+    0.6748
+  ],
+  "target": [
+    3.286,
+    0.688
+  ],
+  "distance_to_target_m": 0.0783,
+  "instruction": "沿走廊前进，绕过墙后向左转，前往转弯后的观察点"
+}

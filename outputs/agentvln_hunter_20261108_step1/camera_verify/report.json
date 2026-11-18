@@ -1,0 +1,357 @@
+{
+  "overall": false,
+  "checks": [
+    {
+      "name": "frames_received",
+      "ok": true,
+      "detail": {
+        "count": 3,
+        "wanted": 3
+      }
+    },
+    {
+      "name": "rgb_size",
+      "ok": true,
+      "detail": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "rgb_encoding",
+      "ok": true,
+      "detail": {
+        "encoding": "rgb8"
+      }
+    },
+    {
+      "name": "rgb_frame",
+      "ok": true,
+      "detail": {
+        "frame_id": "agentvln_camera_optical_frame"
+      }
+    },
+    {
+      "name": "depth_size",
+      "ok": true,
+      "detail": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "depth_encoding",
+      "ok": true,
+      "detail": {
+        "encoding": "32FC1"
+      }
+    },
+    {
+      "name": "depth_frame",
+      "ok": true,
+      "detail": {
+        "frame_id": "agentvln_camera_optical_frame"
+      }
+    },
+    {
+      "name": "info_size",
+      "ok": true,
+      "detail": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "distortion_zero",
+      "ok": true,
+      "detail": {
+        "d": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "intrinsics_k",
+      "ok": true,
+      "detail": {
+        "fx": 606.7595825195312,
+        "fy": 606.7595825195312,
+        "cx": 320.0,
+        "cy": 240.0
+      }
+    },
+    {
+      "name": "intrinsics_p",
+      "ok": true,
+      "detail": {
+        "P": [
+          [
+            606.7595825195312,
+            0.0,
+            320.0,
+            0.0
+          ],
+          [
+            0.0,
+            606.7595825195312,
+            240.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "stamp_rgb_depth_1",
+      "ok": true,
+      "detail": {
+        "rgb": 138000000000,
+        "depth": 138000000000
+      }
+    },
+    {
+      "name": "stamp_rgb_info_1",
+      "ok": true,
+      "detail": {
+        "rgb": 138000000000,
+        "info": 138000000000
+      }
+    },
+    {
+      "name": "stamp_behind_clock_1",
+      "ok": true,
+      "detail": {
+        "age_s": 0.012
+      }
+    },
+    {
+      "name": "stamp_rgb_depth_2",
+      "ok": true,
+      "detail": {
+        "rgb": 138200000000,
+        "depth": 138200000000
+      }
+    },
+    {
+      "name": "stamp_rgb_info_2",
+      "ok": true,
+      "detail": {
+        "rgb": 138200000000,
+        "info": 138200000000
+      }
+    },
+    {
+      "name": "stamp_behind_clock_2",
+      "ok": true,
+      "detail": {
+        "age_s": 0.012
+      }
+    },
+    {
+      "name": "stamp_rgb_depth_3",
+      "ok": true,
+      "detail": {
+        "rgb": 138400000000,
+        "depth": 138400000000
+      }
+    },
+    {
+      "name": "stamp_rgb_info_3",
+      "ok": true,
+      "detail": {
+        "rgb": 138400000000,
+        "info": 138400000000
+      }
+    },
+    {
+      "name": "stamp_behind_clock_3",
+      "ok": true,
+      "detail": {
+        "age_s": 0.008
+      }
+    },
+    {
+      "name": "new_frames",
+      "ok": true,
+      "detail": {
+        "stamps": [
+          138000000000,
+          138200000000,
+          138400000000
+        ]
+      }
+    },
+    {
+      "name": "rgb_not_black",
+      "ok": true,
+      "detail": {
+        "mean": 188.26202365451388,
+        "std": 37.62934402504934
+      }
+    },
+    {
+      "name": "depth_valid_fraction",
+      "ok": true,
+      "detail": {
+        "valid_fraction": 0.943115234375
+      }
+    },
+    {
+      "name": "depth_plausible_metres",
+      "ok": true,
+      "detail": {
+        "min": 1.6218520402908325,
+        "median": 3.576000690460205,
+        "max": 19.915380477905273
+      }
+    },
+    {
+      "name": "tf_static_translation",
+      "ok": true,
+      "detail": {
+        "error_m": 0.0,
+        "actual": [
+          0.644,
+          0.015,
+          0.475
+        ]
+      }
+    },
+    {
+      "name": "tf_static_rotation",
+      "ok": true,
+      "detail": {
+        "error": 0.0,
+        "actual_xyzw": [
+          0.5,
+          -0.5,
+          0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "name": "optical_axes",
+      "ok": true,
+      "detail": {
+        "optical_x_to_base": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "optical_y_to_base": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "optical_z_to_base": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "tf_map_base_at_stamp",
+      "ok": false,
+      "detail": {
+        "ok": false,
+        "error": "Lookup would require extrapolation into the past.  Requested time 138.000000 but the earliest data is at time 138.900000, when looking up transform from frame [base_link] to frame [map]"
+      }
+    },
+    {
+      "name": "tf_map_optical_at_stamp",
+      "ok": false,
+      "detail": {
+        "error": "Lookup would require extrapolation into the past.  Requested time 138.000000 but the earliest data is at time 138.900000, when looking up transform from frame [map] to frame [agentvln_camera_optical_frame]"
+      }
+    },
+    {
+      "name": "marker_projection",
+      "ok": false,
+      "detail": {
+        "error": "map -> optical TF unavailable"
+      }
+    }
+  ],
+  "markers": [],
+  "frames": [
+    {
+      "stamp_ns": 138000000000,
+      "stamp_s": 138.0
+    },
+    {
+      "stamp_ns": 138200000000,
+      "stamp_s": 138.2
+    },
+    {
+      "stamp_ns": 138400000000,
+      "stamp_s": 138.4
+    }
+  ],
+  "topics": {
+    "rgb": "/hz_sim/agentvln/camera/image",
+    "depth": "/hz_sim/agentvln/camera/depth_image",
+    "info": "/hz_sim/agentvln/camera/camera_info"
+  },
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "fx": 606.7595825195312,
+    "fy": 606.7595825195312,
+    "cx": 320.0,
+    "cy": 240.0
+  },
+  "tf": {
+    "base_to_camera": [
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.644
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.015
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.475
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "image_stats": {
+    "mean_rgb": [
+      184.34112955729168,
+      186.889208984375,
+      193.555732421875
+    ],
+    "depth_valid_fraction": 0.943115234375,
+    "depth_median": 3.576000690460205
+  },
+  "files": {
+    "rgb": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step1/camera_verify/rgb.png",
+    "annotated": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step1/camera_verify/annotated.png",
+    "depth_vis": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step1/camera_verify/depth_vis.png",
+    "depth_npy": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step1/camera_verify/depth.npy"
+  }
+}

@@ -1,0 +1,19 @@
+task	mode	rep	success	nav_status	attempts	end_x	end_y	park_m	yaw_err_rad	parking_ok	stop_m	path_m	reobserves	wall_s	dir	note
+B1	visual	1	True	4	1	3.6042	1.3156	0.2701	0.0627	True	0.0411	4.446	1	25.5	outputs/agentvln_hunter_20261108_step4/B1_visual_r1	
+B1	visual	2	True	4	1	3.6261	1.3466	0.247	0.0363	True	0.0172	4.477	1	25.5	outputs/agentvln_hunter_20261108_step4/B1_visual_r2	
+B1	visual	3	True	4	1	3.6542	1.2909	0.2247	0.046	True	0.0175	4.47	1	25.2	outputs/agentvln_hunter_20261108_step4/B1_visual_r3	
+B1	baseline	1	True	4	2	None	None	None	None	None	0.0159	4.605	0	29.9	outputs/agentvln_hunter_20261108_step4/B1_baseline_r1	
+B1	baseline	2	False	6	2	None	None	None	None	None	0.0	4.572	0	54.0	outputs/agentvln_hunter_20261108_step4/B1_baseline_r2	
+B1	baseline	3	False	6	2	None	None	None	None	None	0.0	4.632	0	54.0	outputs/agentvln_hunter_20261108_step4/B1_baseline_r3	
+B2	visual	1	True	4	1	3.5979	1.2358	0.2949	0.0116	True	0.0257	3.715	0	19.9	outputs/agentvln_hunter_20261108_step4/B2_visual_r1	
+B2	visual	2	True	4	1	3.6429	1.2401	0.2517	0.023	True	0.0164	3.756	0	20.1	outputs/agentvln_hunter_20261108_step4/B2_visual_r2	
+B2	visual	3	True	4	1	3.6452	1.2404	0.2494	0.0567	True	0.0208	3.757	0	20.3	outputs/agentvln_hunter_20261108_step4/B2_visual_r3	
+B2	baseline	1	False	6	2	None	None	None	None	None	0.0	3.953	0	51.4	outputs/agentvln_hunter_20261108_step4/B2_baseline_r1	
+B2	baseline	2	True	4	2	None	None	None	None	None	0.0217	3.904	0	26.0	outputs/agentvln_hunter_20261108_step4/B2_baseline_r2	
+B2	baseline	3	False	6	2	None	None	None	None	None	0.0	3.905	0	51.1	outputs/agentvln_hunter_20261108_step4/B2_baseline_r3	
+B3	visual	1	True	4	1	3.6778	1.2982	0.2001	0.0781	True	0.0375	3.213	0	17.6	outputs/agentvln_hunter_20261108_step4/B3_visual_r1	
+B3	visual	2	True	4	1	3.6444	1.237	0.2516	0.0715	True	0.0168	3.155	0	17.7	outputs/agentvln_hunter_20261108_step4/B3_visual_r2	
+B3	visual	3	True	4	1	3.6344	1.3168	0.2399	0.0531	True	0.0342	3.183	0	17.4	outputs/agentvln_hunter_20261108_step4/B3_visual_r3	
+B3	baseline	1	True	4	2	None	None	None	None	None	0.0157	3.346	0	23.9	outputs/agentvln_hunter_20261108_step4/B3_baseline_r1	
+B3	baseline	2	True	4	2	None	None	None	None	None	0.0143	3.302	0	24.8	outputs/agentvln_hunter_20261108_step4/B3_baseline_r2	
+B3	baseline	3	True	4	2	None	None	None	None	None	0.044	3.336	0	23.6	outputs/agentvln_hunter_20261108_step4/B3_baseline_r3	

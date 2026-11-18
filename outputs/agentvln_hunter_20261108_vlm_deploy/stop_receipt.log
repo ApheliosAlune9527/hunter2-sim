@@ -1,0 +1,2 @@
+[stop] server pid=428 did not exit on TERM, sending KILL
+[stop] stopped=4 skipped=0 still_alive=0

@@ -1,0 +1,9 @@
+{
+  "fx": 606.7595825195312,
+  "fy": 606.7595825195312,
+  "cx": 320.0,
+  "cy": 240.0,
+  "width": 640,
+  "height": 480,
+  "frame_id": "agentvln_camera_optical_frame"
+}

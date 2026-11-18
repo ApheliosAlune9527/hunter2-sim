@@ -1,0 +1,3 @@
+goal 1.885 0.435 0.522 start_truth [-0.21, -0.77, 0.0]
+status 4 wall_s 14.03 truth [1.743, 0.421, 0.656] err_m 0.143 heading_err 0.134 amcl_err 0.114
+stop_displacement_m 0.0138

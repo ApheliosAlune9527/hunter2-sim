@@ -1,0 +1,17 @@
+[
+  {
+    "decision": "query_depth",
+    "candidate_id": 0,
+    "reason": "check_distance"
+  },
+  {
+    "decision": "query_depth",
+    "candidate_id": 1,
+    "reason": "check_distance"
+  },
+  {
+    "decision": "select_target",
+    "candidate_id": 0,
+    "reason": "farther_blue_box"
+  }
+]

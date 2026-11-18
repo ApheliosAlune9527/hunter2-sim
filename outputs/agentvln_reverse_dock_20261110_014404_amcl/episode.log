@@ -1,0 +1,6 @@
+1794300248.246840 [74]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+
+========== 本轮联合验收 ==========
+总体结果 未通过
+失败原因 odometry TF and scan not ready at spawn
+报告 /mnt/d/rob-memory/outputs/agentvln_reverse_dock_20261110_014404_amcl/report.json

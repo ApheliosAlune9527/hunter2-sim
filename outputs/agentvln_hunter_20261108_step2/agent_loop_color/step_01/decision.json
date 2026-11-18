@@ -1,0 +1,15 @@
+{
+  "decision": "finish",
+  "frame_stamp_s": 599.0,
+  "robot_pose_map": [
+    1.5815,
+    -0.3545,
+    0.2912
+  ],
+  "target": [
+    1.7,
+    0.0
+  ],
+  "distance_to_target_m": 0.3738,
+  "instruction": "向左靠近蓝色标记"
+}

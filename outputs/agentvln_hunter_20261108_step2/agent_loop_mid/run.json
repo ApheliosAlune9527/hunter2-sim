@@ -1,0 +1,170 @@
+{
+  "instruction": "沿走廊前进，绕过墙后向左转，前往中段观察点",
+  "target": [
+    3.185,
+    1.235
+  ],
+  "finish_tolerance_m": 0.6,
+  "selector": "rule",
+  "steps_executed": 4,
+  "success": false,
+  "failure": null,
+  "final_truth": [
+    4.5504,
+    2.6203,
+    1.0873
+  ],
+  "final_error_m": 1.945,
+  "amcl_error_m": 0.0904,
+  "wall_s": 41.084,
+  "runs": [
+    {
+      "step": 0,
+      "decision": {
+        "decision": "select_candidate",
+        "candidate_id": 3,
+        "frame_stamp_s": 623.0,
+        "instruction": "沿走廊前进，绕过墙后向左转，前往中段观察点",
+        "selector": "rule",
+        "reason": "rule: nearest visible candidate to oracle target, path-length tie-break",
+        "marker": null,
+        "candidate_map_pose": [
+          1.7353,
+          -0.3288,
+          0.2235
+        ],
+        "distance_to_target_m": 2.1324
+      },
+      "action": {
+        "replan_status": 4,
+        "planned_poses": 29,
+        "replanned_path_m": 2.005,
+        "status": 4,
+        "timed_out": false,
+        "wall_s": 8.561,
+        "truth_after": [
+          1.5797,
+          -0.3345,
+          0.3368
+        ],
+        "error_to_candidate_m": 0.1557,
+        "heading_to_candidate_rad": 0.1132,
+        "stop_displacement_m": 0.0379,
+        "amcl_error_m": 0.0937
+      },
+      "report": "outputs/agentvln_hunter_20261108_step2/agent_loop_mid/step_00",
+      "annotated": "outputs/agentvln_hunter_20261108_step2/agent_loop_mid/step_00/annotated.png"
+    },
+    {
+      "step": 1,
+      "decision": {
+        "decision": "select_candidate",
+        "candidate_id": 3,
+        "frame_stamp_s": 633.6,
+        "instruction": "沿走廊前进，绕过墙后向左转，前往中段观察点",
+        "selector": "rule",
+        "reason": "rule: nearest visible candidate to oracle target, path-length tie-break",
+        "marker": null,
+        "candidate_map_pose": [
+          3.286,
+          0.6885,
+          0.5619
+        ],
+        "distance_to_target_m": 0.5558
+      },
+      "action": {
+        "replan_status": 4,
+        "planned_poses": 29,
+        "replanned_path_m": 2.001,
+        "status": 4,
+        "timed_out": false,
+        "wall_s": 8.583,
+        "truth_after": [
+          3.1397,
+          0.6143,
+          0.5787
+        ],
+        "error_to_candidate_m": 0.164,
+        "heading_to_candidate_rad": 0.0167,
+        "stop_displacement_m": 0.0017,
+        "amcl_error_m": 0.0716
+      },
+      "report": "outputs/agentvln_hunter_20261108_step2/agent_loop_mid/step_01",
+      "annotated": "outputs/agentvln_hunter_20261108_step2/agent_loop_mid/step_01/annotated.png"
+    },
+    {
+      "step": 2,
+      "decision": {
+        "decision": "select_candidate",
+        "candidate_id": 1,
+        "frame_stamp_s": 643.8,
+        "instruction": "沿走廊前进，绕过墙后向左转，前往中段观察点",
+        "selector": "rule",
+        "reason": "rule: nearest visible candidate to oracle target, path-length tie-break",
+        "marker": null,
+        "candidate_map_pose": [
+          4.1012,
+          1.5746,
+          0.7972
+        ],
+        "distance_to_target_m": 0.9771
+      },
+      "action": {
+        "replan_status": 4,
+        "planned_poses": 20,
+        "replanned_path_m": 1.382,
+        "status": 4,
+        "timed_out": false,
+        "wall_s": 7.021,
+        "truth_after": [
+          3.9515,
+          1.5074,
+          0.8544
+        ],
+        "error_to_candidate_m": 0.1641,
+        "heading_to_candidate_rad": 0.0572,
+        "stop_displacement_m": 0.0349,
+        "amcl_error_m": 0.0863
+      },
+      "report": "outputs/agentvln_hunter_20261108_step2/agent_loop_mid/step_02",
+      "annotated": "outputs/agentvln_hunter_20261108_step2/agent_loop_mid/step_02/annotated.png"
+    },
+    {
+      "step": 3,
+      "decision": {
+        "decision": "select_candidate",
+        "candidate_id": 1,
+        "frame_stamp_s": 652.2,
+        "instruction": "沿走廊前进，绕过墙后向左转，前往中段观察点",
+        "selector": "rule",
+        "reason": "rule: nearest visible candidate to oracle target, path-length tie-break",
+        "marker": null,
+        "candidate_map_pose": [
+          4.6338,
+          2.7214,
+          1.0928
+        ],
+        "distance_to_target_m": 2.0756
+      },
+      "action": {
+        "replan_status": 4,
+        "planned_poses": 20,
+        "replanned_path_m": 1.413,
+        "status": 4,
+        "timed_out": false,
+        "wall_s": 10.613,
+        "truth_after": [
+          4.5504,
+          2.6203,
+          1.0873
+        ],
+        "error_to_candidate_m": 0.1311,
+        "heading_to_candidate_rad": 0.0056,
+        "stop_displacement_m": 0.0,
+        "amcl_error_m": 0.0904
+      },
+      "report": "outputs/agentvln_hunter_20261108_step2/agent_loop_mid/step_03",
+      "annotated": "outputs/agentvln_hunter_20261108_step2/agent_loop_mid/step_03/annotated.png"
+    }
+  ]
+}

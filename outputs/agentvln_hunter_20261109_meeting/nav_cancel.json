@@ -1,0 +1,5 @@
+goal 1.885 0.435 0.522 start_truth [-0.21, -0.77, -0.0]
+cancel_requested_after 2.0
+cancel_ack True
+status 5 wall_s 2.02 truth [0.1, -0.752, 0.129] err_m 2.144 heading_err 0.393 amcl_err 0.032
+stop_displacement_m 0.149

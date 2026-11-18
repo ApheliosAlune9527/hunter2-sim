@@ -1,0 +1,29 @@
+1794311020.016877 [74]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+[指令] 停在较远的蓝箱前，车头正对箱面
+[视觉] 出生点蓝箱候选 1 个
+[行驶] 观察 前进，规划 1.12 m
+[视觉] 驶近时检测到两个蓝箱
+[停稳] 观察 状态 4，停稳 True
+[视觉] 已保存带编号的同步 RGB-D 观测
+[选箱] VLM 返回 #0，较近 #1 4.055 m，较远 #0 4.284 m
+[箱面] RGB-D 估计中心 [4.924137849562068, 2.3355613178648706]，朝向 0.33°
+[行驶] 驶入调整区 前进，规划 2.29 m
+[停稳] 驶入调整区 状态 4，停稳 True
+[行驶] parking 前进，规划 1.64 m
+[停稳] parking 状态 4，停稳 True
+[行驶] parking 倒车，规划 0.60 m
+[停稳] parking 状态 4，停稳 True
+[行驶] parking 前进，规划 1.14 m
+[停稳] parking 状态 4，停稳 True
+
+========== 本轮联合验收 ==========
+总体结果 未通过
+观察    前进 1.100 m / 倒车 0.000 m / 停稳 通过
+驶入调整区    前进 2.187 m / 倒车 0.000 m / 停稳 通过
+parking    前进 1.527 m / 倒车 0.000 m / 停稳 通过
+parking    前进 0.000 m / 倒车 0.482 m / 停稳 通过
+parking    前进 0.973 m / 倒车 0.000 m / 停稳 通过
+最小几何净空    13.9 cm
+停车结果    横向 13.2 cm / 朝向 0.3° / 箱前 50.9 cm
+失败原因 final parking did not meet all independent pose checks
+报告 /mnt/d/rob-memory/outputs/agentvln_reverse_record_20261110_055500/report.json

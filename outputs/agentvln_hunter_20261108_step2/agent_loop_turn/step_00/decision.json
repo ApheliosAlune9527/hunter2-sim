@@ -1,0 +1,15 @@
+{
+  "decision": "select_candidate",
+  "candidate_id": 3,
+  "frame_stamp_s": 685.4,
+  "instruction": "沿走廊前进，绕过墙后向左转，前往转弯后的观察点",
+  "selector": "rule",
+  "reason": "rule: nearest visible candidate to oracle target, path-length tie-break",
+  "marker": null,
+  "candidate_map_pose": [
+    1.7318,
+    -0.3294,
+    0.225
+  ],
+  "distance_to_target_m": 1.8576
+}

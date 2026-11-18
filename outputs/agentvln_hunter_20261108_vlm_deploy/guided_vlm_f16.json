@@ -1,0 +1,136 @@
+{
+  "api": "llamacpp",
+  "requested_model": "qwen-vl",
+  "port": 18081,
+  "guided_depth": true,
+  "episodes": [
+    {
+      "instruction": "停在较远的蓝箱前",
+      "expected_box": "blue_far",
+      "expected_candidate": 0,
+      "selected_candidate": null,
+      "correct": false,
+      "model_responses": 1,
+      "tool_calls": 0,
+      "trace": [
+        {
+          "step": 1,
+          "prompt": "图中蓝箱的检测结果已整理为候选区域。候选编号由列表提供。你负责用图像、指令和工具回执选定目标。只输出一个 JSON 对象。格式为 {\"decision\":\"动作名\",\"candidate_id\":整数编号或null}。\n指令：停在较远的蓝箱前\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [154, 59, 220, 333]}, {\"id\": 1, \"bbox_xywh\": [470, 182, 121, 290]}]\n已返回的深度查询（米）：[]\n比较实际远近时，箱子的像素面积不代表距离。先用 query_depth 查询任意一个还没有测量的候选，一次只查一个编号。两个候选均有有效的深度回执后，再用 select_target 选择符合指令的编号。候选确实不可见或测量无效才 request_reobserve，编号写 null。不要根据大小猜测，也不要因为暂时没有深度回执就请求再观察，先查深度。",
+          "raw": "{\"decision\":\"request_reobserve\",\"candidate_id\":0}",
+          "wall_ms": 265.2,
+          "server_timing": {
+            "cache_n": 1052,
+            "prompt_n": 242,
+            "prompt_ms": 60.549,
+            "prompt_per_token_ms": 0.250202479338843,
+            "prompt_per_second": 3996.762952319609,
+            "predicted_n": 13,
+            "predicted_ms": 139.773,
+            "predicted_per_token_ms": 11.64775,
+            "predicted_per_second": 85.8534910175785
+          },
+          "returned_model": "qwen-vl",
+          "error": "this decision requires candidate_id=null"
+        }
+      ],
+      "case": "bigfar",
+      "image_sha256": "c178c1d80563720fb62a0a54bae9ebb46162f897a0d5a4153307d98ddad93d64"
+    },
+    {
+      "instruction": "停在较近的蓝箱前",
+      "expected_box": "blue_near",
+      "expected_candidate": 1,
+      "selected_candidate": null,
+      "correct": false,
+      "model_responses": 1,
+      "tool_calls": 0,
+      "trace": [
+        {
+          "step": 1,
+          "prompt": "图中蓝箱的检测结果已整理为候选区域。候选编号由列表提供。你负责用图像、指令和工具回执选定目标。只输出一个 JSON 对象。格式为 {\"decision\":\"动作名\",\"candidate_id\":整数编号或null}。\n指令：停在较近的蓝箱前\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [154, 59, 220, 333]}, {\"id\": 1, \"bbox_xywh\": [470, 182, 121, 290]}]\n已返回的深度查询（米）：[]\n比较实际远近时，箱子的像素面积不代表距离。先用 query_depth 查询任意一个还没有测量的候选，一次只查一个编号。两个候选均有有效的深度回执后，再用 select_target 选择符合指令的编号。候选确实不可见或测量无效才 request_reobserve，编号写 null。不要根据大小猜测，也不要因为暂时没有深度回执就请求再观察，先查深度。",
+          "raw": "{\"decision\":\"request_reobserve\",\"candidate_id\":0}",
+          "wall_ms": 262.1,
+          "server_timing": {
+            "cache_n": 1114,
+            "prompt_n": 180,
+            "prompt_ms": 57.506,
+            "prompt_per_token_ms": 0.3194777777777778,
+            "prompt_per_second": 3130.1081626265086,
+            "predicted_n": 13,
+            "predicted_ms": 138.715,
+            "predicted_per_token_ms": 11.559583333333334,
+            "predicted_per_second": 86.50830840211945
+          },
+          "returned_model": "qwen-vl",
+          "error": "this decision requires candidate_id=null"
+        }
+      ],
+      "case": "bigfar",
+      "image_sha256": "c178c1d80563720fb62a0a54bae9ebb46162f897a0d5a4153307d98ddad93d64"
+    },
+    {
+      "instruction": "停在较远的蓝箱前",
+      "expected_box": "blue_far",
+      "expected_candidate": 1,
+      "selected_candidate": null,
+      "correct": false,
+      "model_responses": 1,
+      "tool_calls": 0,
+      "trace": [
+        {
+          "step": 1,
+          "prompt": "图中蓝箱的检测结果已整理为候选区域。候选编号由列表提供。你负责用图像、指令和工具回执选定目标。只输出一个 JSON 对象。格式为 {\"decision\":\"动作名\",\"candidate_id\":整数编号或null}。\n指令：停在较远的蓝箱前\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [358, 0, 282, 480]}, {\"id\": 1, \"bbox_xywh\": [227, 207, 83, 167]}]\n已返回的深度查询（米）：[]\n比较实际远近时，箱子的像素面积不代表距离。先用 query_depth 查询任意一个还没有测量的候选，一次只查一个编号。两个候选均有有效的深度回执后，再用 select_target 选择符合指令的编号。候选确实不可见或测量无效才 request_reobserve，编号写 null。不要根据大小猜测，也不要因为暂时没有深度回执就请求再观察，先查深度。",
+          "raw": "{\"decision\":\"request_reobserve\",\"candidate_id\":0}",
+          "wall_ms": 751.1,
+          "server_timing": {
+            "cache_n": 15,
+            "prompt_n": 1277,
+            "prompt_ms": 487.648,
+            "prompt_per_token_ms": 0.38187000783085356,
+            "prompt_per_second": 2618.692171402323,
+            "predicted_n": 13,
+            "predicted_ms": 138.668,
+            "predicted_per_token_ms": 11.555666666666667,
+            "predicted_per_second": 86.5376294458707
+          },
+          "returned_model": "qwen-vl",
+          "error": "this decision requires candidate_id=null"
+        }
+      ],
+      "case": "swap",
+      "image_sha256": "f28af559d13f5e463b24c55a57f8a4e9948f5a3b3801bf3874b0c41b190bf04f"
+    },
+    {
+      "instruction": "停在较近的蓝箱前",
+      "expected_box": "blue_near",
+      "expected_candidate": 0,
+      "selected_candidate": null,
+      "correct": false,
+      "model_responses": 1,
+      "tool_calls": 0,
+      "trace": [
+        {
+          "step": 1,
+          "prompt": "图中蓝箱的检测结果已整理为候选区域。候选编号由列表提供。你负责用图像、指令和工具回执选定目标。只输出一个 JSON 对象。格式为 {\"decision\":\"动作名\",\"candidate_id\":整数编号或null}。\n指令：停在较近的蓝箱前\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [358, 0, 282, 480]}, {\"id\": 1, \"bbox_xywh\": [227, 207, 83, 167]}]\n已返回的深度查询（米）：[]\n比较实际远近时，箱子的像素面积不代表距离。先用 query_depth 查询任意一个还没有测量的候选，一次只查一个编号。两个候选均有有效的深度回执后，再用 select_target 选择符合指令的编号。候选确实不可见或测量无效才 request_reobserve，编号写 null。不要根据大小猜测，也不要因为暂时没有深度回执就请求再观察，先查深度。",
+          "raw": "{\"decision\":\"request_reobserve\",\"candidate_id\":0}",
+          "wall_ms": 261.4,
+          "server_timing": {
+            "cache_n": 1114,
+            "prompt_n": 178,
+            "prompt_ms": 57.093,
+            "prompt_per_token_ms": 0.320747191011236,
+            "prompt_per_second": 3117.720210883996,
+            "predicted_n": 13,
+            "predicted_ms": 139.312,
+            "predicted_per_token_ms": 11.609333333333334,
+            "predicted_per_second": 86.13759044446996
+          },
+          "returned_model": "qwen-vl",
+          "error": "this decision requires candidate_id=null"
+        }
+      ],
+      "case": "swap",
+      "image_sha256": "f28af559d13f5e463b24c55a57f8a4e9948f5a3b3801bf3874b0c41b190bf04f"
+    }
+  ]
+}

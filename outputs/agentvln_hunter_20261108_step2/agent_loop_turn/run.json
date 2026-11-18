@@ -1,0 +1,105 @@
+{
+  "instruction": "沿走廊前进，绕过墙后向左转，前往转弯后的观察点",
+  "target": [
+    3.286,
+    0.688
+  ],
+  "finish_tolerance_m": 0.6,
+  "selector": "rule",
+  "steps_executed": 2,
+  "success": true,
+  "failure": null,
+  "final_truth": [
+    3.1915,
+    0.7174,
+    0.6742
+  ],
+  "final_error_m": 0.099,
+  "amcl_error_m": 0.0813,
+  "wall_s": 20.577,
+  "runs": [
+    {
+      "step": 0,
+      "decision": {
+        "decision": "select_candidate",
+        "candidate_id": 3,
+        "frame_stamp_s": 685.4,
+        "instruction": "沿走廊前进，绕过墙后向左转，前往转弯后的观察点",
+        "selector": "rule",
+        "reason": "rule: nearest visible candidate to oracle target, path-length tie-break",
+        "marker": null,
+        "candidate_map_pose": [
+          1.7318,
+          -0.3294,
+          0.225
+        ],
+        "distance_to_target_m": 1.8576
+      },
+      "action": {
+        "replan_status": 4,
+        "planned_poses": 29,
+        "replanned_path_m": 2.005,
+        "status": 4,
+        "timed_out": false,
+        "wall_s": 8.661,
+        "truth_after": [
+          1.6029,
+          -0.3288,
+          0.3573
+        ],
+        "error_to_candidate_m": 0.1289,
+        "heading_to_candidate_rad": 0.1324,
+        "stop_displacement_m": 0.0374,
+        "amcl_error_m": 0.0876
+      },
+      "report": "outputs/agentvln_hunter_20261108_step2/agent_loop_turn/step_00",
+      "annotated": "outputs/agentvln_hunter_20261108_step2/agent_loop_turn/step_00/annotated.png"
+    },
+    {
+      "step": 1,
+      "decision": {
+        "decision": "select_candidate",
+        "candidate_id": 3,
+        "frame_stamp_s": 695.8,
+        "instruction": "沿走廊前进，绕过墙后向左转，前往转弯后的观察点",
+        "selector": "rule",
+        "reason": "rule: nearest visible candidate to oracle target, path-length tie-break",
+        "marker": null,
+        "candidate_map_pose": [
+          3.2715,
+          0.7334,
+          0.5801
+        ],
+        "distance_to_target_m": 0.0477
+      },
+      "action": {
+        "replan_status": 4,
+        "planned_poses": 29,
+        "replanned_path_m": 2.029,
+        "status": 4,
+        "timed_out": false,
+        "wall_s": 8.372,
+        "truth_after": [
+          3.169,
+          0.6982,
+          0.6756
+        ],
+        "error_to_candidate_m": 0.1084,
+        "heading_to_candidate_rad": 0.0955,
+        "stop_displacement_m": 0.0295,
+        "amcl_error_m": 0.0813
+      },
+      "report": "outputs/agentvln_hunter_20261108_step2/agent_loop_turn/step_01",
+      "annotated": "outputs/agentvln_hunter_20261108_step2/agent_loop_turn/step_01/annotated.png"
+    },
+    {
+      "step": 2,
+      "decision": "finish",
+      "robot": [
+        3.2088,
+        0.675,
+        0.6748
+      ]
+    }
+  ]
+}

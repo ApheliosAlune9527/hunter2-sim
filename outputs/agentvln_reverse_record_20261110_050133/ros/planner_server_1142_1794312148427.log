@@ -1,0 +1,45 @@
+[INFO] [1794312148.440569092] [planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794312148.442409146] [planner_server]: Creating
+[INFO] [1794312148.446994424] [global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794312148.447402575] [global_costmap.global_costmap]: Creating Costmap
+[INFO] [1794312148.564256880] [planner_server]: Configuring
+[INFO] [1794312148.564288557] [global_costmap.global_costmap]: Configuring
+[INFO] [1794312148.569254948] [global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1794312148.576196528] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1794312148.576913249] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1794312148.576936401] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1794312148.578636183] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1794312148.583758162] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1794312148.583799676] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1794312148.585492500] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1794312148.604234931] [planner_server]: Created global planner plugin GridBased of type nav2_smac_planner/SmacPlannerHybrid
+[INFO] [1794312148.604288665] [planner_server]: Configuring GridBased of type SmacPlannerHybrid
+[INFO] [1794312148.610115448] [planner_server]: Even sized heuristic lookup table size set 400.000000, increasing size by 1 to make odd
+[INFO] [1794312157.374749483] [planner_server]: Configured plugin GridBased of type SmacPlannerHybrid with maximum iterations 1000000, max on approach iterations 1000, and not allowing unknown traversal. Tolerance 0.05.Using motion model: Reeds-Shepp.
+[INFO] [1794312157.374826790] [planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1794312157.543023767] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 241 X 465 at 0.050000 m/pix
+[INFO] [1794312157.549935116] [planner_server]: Activating
+[INFO] [1794312157.549968461] [global_costmap.global_costmap]: Activating
+[INFO] [1794312157.549977074] [global_costmap.global_costmap]: Checking transform
+[INFO] [1794312157.549992653] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1794312158.050302699] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1794312158.550334085] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 46.668000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794312159.050308559] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 46.716000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794312159.550390356] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 46.752000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794312160.050321092] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 46.788000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794312160.550320174] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 46.836000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794312161.050237598] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 46.872000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794312161.550162844] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 46.932000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794312162.050296001] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 47.100000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794312162.550284000] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 47.256000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794312163.050284121] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 47.400000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794312163.550291641] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 47.580000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794312164.050416586] [global_costmap.global_costmap]: start
+[INFO] [1794312161.425786501] [planner_server]: Activating plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794312161.426500806] [planner_server]: Creating bond (planner_server) to lifecycle manager.

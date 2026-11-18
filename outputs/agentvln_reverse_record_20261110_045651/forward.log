@@ -1,0 +1,61 @@
+1794311814.501736 [74] planner_se: selected interface "lo" is not multicast-capable: disabling multicast
+[INFO] [1794311814.510205510] [forward.planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794311814.520449333] [forward.planner_server]: Creating
+[INFO] [1794311814.523319608] [forward.global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794311814.525444784] [forward.global_costmap.global_costmap]: Creating Costmap
+[INFO] [1794311825.909402654] [forward.planner_server]: Configuring
+[INFO] [1794311825.909754347] [forward.global_costmap.global_costmap]: Configuring
+[INFO] [1794311825.913841011] [forward.global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1794311825.917663816] [forward.global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1794311825.918815327] [forward.global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1794311825.919240688] [forward.global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1794311825.921093977] [forward.global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1794311825.926457797] [forward.global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1794311825.926847622] [forward.global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1794311825.928305948] [forward.global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1794311825.934147709] [forward.global_costmap.global_costmap]: StaticLayer: Resizing costmap to 241 X 465 at 0.050000 m/pix
+[INFO] [1794311825.937136597] [forward.planner_server]: Created global planner plugin GridBased of type nav2_smac_planner/SmacPlannerHybrid
+[INFO] [1794311825.937493735] [forward.planner_server]: Configuring GridBased of type SmacPlannerHybrid
+[INFO] [1794311825.942692116] [forward.planner_server]: Even sized heuristic lookup table size set 400.000000, increasing size by 1 to make odd
+[INFO] [1794311827.121786787] [forward.planner_server]: Configured plugin GridBased of type SmacPlannerHybrid with maximum iterations 1000000, max on approach iterations 1000, and not allowing unknown traversal. Tolerance 0.10.Using motion model: Dubin.
+[INFO] [1794311827.122340280] [forward.planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1794311827.129064734] [forward.planner_server]: Activating
+[INFO] [1794311827.129427062] [forward.global_costmap.global_costmap]: Activating
+[INFO] [1794311827.129771551] [forward.global_costmap.global_costmap]: Checking transform
+[INFO] [1794311827.130302539] [forward.global_costmap.global_costmap]: start
+[INFO] [1794311828.181191060] [forward.planner_server]: Activating plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794311828.182002292] [forward.planner_server]: Creating bond (planner_server) to lifecycle manager.
+[WARN] [1794311880.240673691] [forward.planner_server]: GridBased: failed to create plan, no valid path found.
+[WARN] [1794311880.241120122] [forward.planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.43, 2.20)
+[WARN] [1794311880.241509307] [forward.planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[WARN] [1794311880.261942683] [forward.planner_server]: GridBased: failed to create plan, no valid path found.
+[WARN] [1794311880.262383848] [forward.planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.63, 2.20)
+[WARN] [1794311880.262714246] [forward.planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[WARN] [1794311880.281814334] [forward.planner_server]: GridBased: failed to create plan, no valid path found.
+[WARN] [1794311880.282231374] [forward.planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.83, 2.20)
+[WARN] [1794311880.282614294] [forward.planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[WARN] [1794311880.300615375] [forward.planner_server]: GridBased: failed to create plan, no valid path found.
+[WARN] [1794311880.300977944] [forward.planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.03, 2.20)
+[WARN] [1794311880.301304532] [forward.planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[WARN] [1794311880.318978640] [forward.planner_server]: GridBased: failed to create plan, no valid path found.
+[WARN] [1794311880.319364690] [forward.planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.23, 2.20)
+[WARN] [1794311880.319739781] [forward.planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[INFO] [1794311922.742153504] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1794311922.742627780] [forward.planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[INFO] [1794311922.743032842] [forward.planner_server]: Deactivating
+[INFO] [1794311922.743392904] [forward.global_costmap.global_costmap]: Deactivating
+[INFO] [1794311923.126689216] [forward.planner_server]: Deactivating plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794311923.127157511] [forward.planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1794311923.137753067] [forward.planner_server]: Cleaning up
+[INFO] [1794311923.155295663] [forward.global_costmap.global_costmap]: Cleaning up
+[INFO] [1794311923.160264244] [forward.planner_server]: Cleaning up plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794311923.161085015] [forward.planner_server]: Destroying plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794311923.176367096] [forward.planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1794311923.183275763] [forward.global_costmap.global_costmap]: Destroying
+[INFO] [1794311923.211540256] [forward.planner_server]: Destroying

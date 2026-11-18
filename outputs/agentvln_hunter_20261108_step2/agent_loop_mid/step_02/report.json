@@ -1,0 +1,218 @@
+{
+  "step": 2,
+  "instruction": "沿走廊前进，绕过墙后向左转，前往中段观察点",
+  "selector": "rule",
+  "frame": {
+    "stamp_s": 643.8,
+    "age_s": 0.012
+  },
+  "robot_pose_map": [
+    3.123,
+    0.5731,
+    0.5703
+  ],
+  "target": [
+    3.185,
+    1.235
+  ],
+  "build_stats": {
+    "sampled": 15,
+    "footprint_rejected": 8,
+    "plan_rejected": 1,
+    "path_rejected": 0,
+    "valid": 6
+  },
+  "candidates_total": 6,
+  "candidates_visible": 4,
+  "candidates": [
+    {
+      "id": 4,
+      "map_pose": [
+        4.3014,
+        1.3289,
+        0.5703
+      ],
+      "u": 332.04,
+      "v": 352.36,
+      "ground_u": 332.04,
+      "ground_v": 753.66,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 1.4,
+      "bearing_deg": 0.0,
+      "path_length_m": 1.373,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 0.756,
+      "expected_range_m": 0.769,
+      "depth_median_m": 2.402,
+      "visible": true,
+      "occluded": false,
+      "reason": ""
+    },
+    {
+      "id": 1,
+      "map_pose": [
+        4.1012,
+        1.5746,
+        0.7972
+      ],
+      "u": 67.28,
+      "v": 357.96,
+      "ground_u": 67.28,
+      "ground_v": 779.25,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 1.4,
+      "bearing_deg": 13.0,
+      "path_length_m": 1.382,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 0.72,
+      "expected_range_m": 0.793,
+      "depth_median_m": 3.278,
+      "visible": true,
+      "occluded": false,
+      "reason": ""
+    },
+    {
+      "id": 2,
+      "map_pose": [
+        4.3108,
+        1.7892,
+        0.7972
+      ],
+      "u": 99.8,
+      "v": 323.9,
+      "ground_u": 99.8,
+      "ground_v": 623.56,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 1.7,
+      "bearing_deg": 13.0,
+      "path_length_m": 1.699,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 1.012,
+      "expected_range_m": 1.086,
+      "depth_median_m": 3.266,
+      "visible": true,
+      "occluded": false,
+      "reason": ""
+    },
+    {
+      "id": 0,
+      "map_pose": [
+        4.0068,
+        2.0252,
+        1.0241
+      ],
+      "u": -181.24,
+      "v": 336.1,
+      "ground_u": -181.24,
+      "ground_v": 679.31,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 1.7,
+      "bearing_deg": 26.0,
+      "path_length_m": 1.718,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 0.884,
+      "expected_range_m": 0.0,
+      "depth_median_m": 0.0,
+      "visible": false,
+      "occluded": false,
+      "reason": "outside_image_beacon"
+    },
+    {
+      "id": 3,
+      "map_pose": [
+        4.5205,
+        2.0038,
+        0.7972
+      ],
+      "u": 117.75,
+      "v": 305.11,
+      "ground_u": 117.75,
+      "ground_v": 537.63,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 2.0,
+      "bearing_deg": 13.0,
+      "path_length_m": 1.982,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 1.305,
+      "expected_range_m": 1.382,
+      "depth_median_m": 3.249,
+      "visible": true,
+      "occluded": false,
+      "reason": ""
+    },
+    {
+      "id": 0,
+      "map_pose": [
+        4.1628,
+        2.2815,
+        1.0241
+      ],
+      "u": -133.26,
+      "v": 313.64,
+      "ground_u": -133.26,
+      "ground_v": 576.62,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 2.0,
+      "bearing_deg": 26.0,
+      "path_length_m": 2.024,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 1.154,
+      "expected_range_m": 0.0,
+      "depth_median_m": 0.0,
+      "visible": false,
+      "occluded": false,
+      "reason": "outside_image_beacon"
+    }
+  ],
+  "marker": null,
+  "decision": {
+    "decision": "select_candidate",
+    "candidate_id": 1,
+    "frame_stamp_s": 643.8,
+    "instruction": "沿走廊前进，绕过墙后向左转，前往中段观察点",
+    "selector": "rule",
+    "reason": "rule: nearest visible candidate to oracle target, path-length tie-break",
+    "marker": null,
+    "candidate_map_pose": [
+      4.1012,
+      1.5746,
+      0.7972
+    ],
+    "distance_to_target_m": 0.9771
+  },
+  "action": {
+    "replan_status": 4,
+    "planned_poses": 20,
+    "replanned_path_m": 1.382,
+    "status": 4,
+    "timed_out": false,
+    "wall_s": 7.021,
+    "truth_after": [
+      3.9515,
+      1.5074,
+      0.8544
+    ],
+    "error_to_candidate_m": 0.1641,
+    "heading_to_candidate_rad": 0.0572,
+    "stop_displacement_m": 0.0349,
+    "amcl_error_m": 0.0863
+  }
+}

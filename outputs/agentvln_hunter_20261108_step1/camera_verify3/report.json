@@ -1,0 +1,528 @@
+{
+  "overall": true,
+  "checks": [
+    {
+      "name": "frames_received",
+      "ok": true,
+      "detail": {
+        "count": 3,
+        "wanted": 3
+      }
+    },
+    {
+      "name": "rgb_size",
+      "ok": true,
+      "detail": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "rgb_encoding",
+      "ok": true,
+      "detail": {
+        "encoding": "rgb8"
+      }
+    },
+    {
+      "name": "rgb_frame",
+      "ok": true,
+      "detail": {
+        "frame_id": "agentvln_camera_optical_frame"
+      }
+    },
+    {
+      "name": "depth_size",
+      "ok": true,
+      "detail": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "depth_encoding",
+      "ok": true,
+      "detail": {
+        "encoding": "32FC1"
+      }
+    },
+    {
+      "name": "depth_frame",
+      "ok": true,
+      "detail": {
+        "frame_id": "agentvln_camera_optical_frame"
+      }
+    },
+    {
+      "name": "info_size",
+      "ok": true,
+      "detail": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "distortion_zero",
+      "ok": true,
+      "detail": {
+        "d": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "intrinsics_k",
+      "ok": true,
+      "detail": {
+        "fx": 606.7595825195312,
+        "fy": 606.7595825195312,
+        "cx": 320.0,
+        "cy": 240.0
+      }
+    },
+    {
+      "name": "intrinsics_p",
+      "ok": true,
+      "detail": {
+        "P": [
+          [
+            606.7595825195312,
+            0.0,
+            320.0,
+            0.0
+          ],
+          [
+            0.0,
+            606.7595825195312,
+            240.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "stamp_rgb_depth_1",
+      "ok": true,
+      "detail": {
+        "rgb": 30400000000,
+        "depth": 30400000000
+      }
+    },
+    {
+      "name": "stamp_rgb_info_1",
+      "ok": true,
+      "detail": {
+        "rgb": 30400000000,
+        "info": 30400000000
+      }
+    },
+    {
+      "name": "stamp_behind_clock_1",
+      "ok": true,
+      "detail": {
+        "age_s": 0.008
+      }
+    },
+    {
+      "name": "stamp_rgb_depth_2",
+      "ok": true,
+      "detail": {
+        "rgb": 30600000000,
+        "depth": 30600000000
+      }
+    },
+    {
+      "name": "stamp_rgb_info_2",
+      "ok": true,
+      "detail": {
+        "rgb": 30600000000,
+        "info": 30600000000
+      }
+    },
+    {
+      "name": "stamp_behind_clock_2",
+      "ok": true,
+      "detail": {
+        "age_s": 0.008
+      }
+    },
+    {
+      "name": "stamp_rgb_depth_3",
+      "ok": true,
+      "detail": {
+        "rgb": 30800000000,
+        "depth": 30800000000
+      }
+    },
+    {
+      "name": "stamp_rgb_info_3",
+      "ok": true,
+      "detail": {
+        "rgb": 30800000000,
+        "info": 30800000000
+      }
+    },
+    {
+      "name": "stamp_behind_clock_3",
+      "ok": true,
+      "detail": {
+        "age_s": 0.008
+      }
+    },
+    {
+      "name": "new_frames",
+      "ok": true,
+      "detail": {
+        "stamps": [
+          30400000000,
+          30600000000,
+          30800000000
+        ]
+      }
+    },
+    {
+      "name": "rgb_not_black",
+      "ok": true,
+      "detail": {
+        "mean": 179.79802300347222,
+        "std": 52.579963796865435
+      }
+    },
+    {
+      "name": "depth_valid_fraction",
+      "ok": true,
+      "detail": {
+        "valid_fraction": 0.946865234375
+      }
+    },
+    {
+      "name": "depth_plausible_metres",
+      "ok": true,
+      "detail": {
+        "min": 1.0060001611709595,
+        "median": 3.3672893047332764,
+        "max": 19.915380477905273
+      }
+    },
+    {
+      "name": "tf_static_translation",
+      "ok": true,
+      "detail": {
+        "error_m": 0.0,
+        "actual": [
+          0.644,
+          0.015,
+          0.64
+        ]
+      }
+    },
+    {
+      "name": "tf_static_rotation",
+      "ok": true,
+      "detail": {
+        "error": 0.0,
+        "actual_xyzw": [
+          0.5,
+          -0.5,
+          0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "name": "optical_axes",
+      "ok": true,
+      "detail": {
+        "optical_x_to_base": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "optical_y_to_base": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "optical_z_to_base": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "tf_map_base_at_stamp",
+      "ok": true,
+      "detail": {
+        "ok": true,
+        "error": null
+      }
+    },
+    {
+      "name": "tf_map_optical_at_stamp",
+      "ok": true,
+      "detail": {
+        "error": null
+      }
+    },
+    {
+      "name": "marker_red_colour",
+      "ok": true,
+      "detail": {
+        "mean_rgb": [
+          237.0,
+          9.0,
+          9.0
+        ]
+      }
+    },
+    {
+      "name": "marker_red_depth",
+      "ok": true,
+      "detail": {
+        "depth_m": 1.0060001611709595,
+        "expected_z_m": 1.0656536254572777,
+        "valid_pixels": 81
+      }
+    },
+    {
+      "name": "marker_red_backprojection",
+      "ok": true,
+      "detail": {
+        "error_m": 0.06325974990085578
+      }
+    },
+    {
+      "name": "marker_green_colour",
+      "ok": true,
+      "detail": {
+        "mean_rgb": [
+          9.0,
+          228.0,
+          9.0
+        ]
+      }
+    },
+    {
+      "name": "marker_green_depth",
+      "ok": true,
+      "detail": {
+        "depth_m": 1.0060001611709595,
+        "expected_z_m": 1.0663567881380516,
+        "valid_pixels": 81
+      }
+    },
+    {
+      "name": "marker_green_backprojection",
+      "ok": true,
+      "detail": {
+        "error_m": 0.06214533912499024
+      }
+    },
+    {
+      "name": "marker_blue_colour",
+      "ok": true,
+      "detail": {
+        "mean_rgb": [
+          9.0,
+          9.0,
+          242.0
+        ]
+      }
+    },
+    {
+      "name": "marker_blue_depth",
+      "ok": true,
+      "detail": {
+        "depth_m": 1.006000280380249,
+        "expected_z_m": 1.0670599508188254,
+        "valid_pixels": 81
+      }
+    },
+    {
+      "name": "marker_blue_backprojection",
+      "ok": true,
+      "detail": {
+        "error_m": 0.0655927582363557
+      }
+    }
+  ],
+  "markers": [
+    {
+      "name": "red",
+      "xyz_map": [
+        1.5,
+        -1.05,
+        0.9
+      ],
+      "xyz_optical": [
+        0.27176347501689047,
+        -0.26,
+        1.0656536254572777
+      ],
+      "expected_z_m": 1.0656536254572777,
+      "u": 474.7361062789498,
+      "v": 91.96175597170839,
+      "in_frame": true,
+      "mean_rgb": [
+        237.0,
+        9.0,
+        9.0
+      ],
+      "colour_ok": true,
+      "depth_median_m": 1.0060001611709595,
+      "depth_valid_pixels": 81,
+      "depth_error_m": 0.059653464286318236,
+      "backprojected_map": [
+        1.4403110425378534,
+        -1.0349270083383686,
+        0.8854456454293136
+      ],
+      "backprojection_error_m": 0.06325974990085578
+    },
+    {
+      "name": "green",
+      "xyz_map": [
+        1.5,
+        -0.75,
+        0.9
+      ],
+      "xyz_optical": [
+        -0.0282357009190517,
+        -0.26,
+        1.0663567881380516
+      ],
+      "expected_z_m": 1.0663567881380516,
+      "u": 303.93381812507187,
+      "v": 92.0593733636413,
+      "in_frame": true,
+      "mean_rgb": [
+        9.0,
+        228.0,
+        9.0
+      ],
+      "colour_ok": true,
+      "depth_median_m": 1.0060001611709595,
+      "depth_valid_pixels": 81,
+      "depth_error_m": 0.0603566269670921,
+      "backprojected_map": [
+        1.4396472847199453,
+        -0.7517396267577893,
+        0.8852837969561345
+      ],
+      "backprojection_error_m": 0.06214533912499024
+    },
+    {
+      "name": "blue",
+      "xyz_map": [
+        1.5,
+        -0.45,
+        0.9
+      ],
+      "xyz_optical": [
+        -0.3282348768549939,
+        -0.26,
+        1.0670599508188254
+      ],
+      "expected_z_m": 1.0670599508188254,
+      "u": 133.35663783833556,
+      "v": 92.15686210130892,
+      "in_frame": true,
+      "mean_rgb": [
+        9.0,
+        9.0,
+        242.0
+      ],
+      "colour_ok": true,
+      "depth_median_m": 1.006000280380249,
+      "depth_valid_pixels": 81,
+      "depth_error_m": 0.06105967043857641,
+      "backprojected_map": [
+        1.438984520820747,
+        -0.4689254333657398,
+        0.8851221908367496
+      ],
+      "backprojection_error_m": 0.0655927582363557
+    }
+  ],
+  "frames": [
+    {
+      "stamp_ns": 30400000000,
+      "stamp_s": 30.4
+    },
+    {
+      "stamp_ns": 30600000000,
+      "stamp_s": 30.6
+    },
+    {
+      "stamp_ns": 30800000000,
+      "stamp_s": 30.8
+    }
+  ],
+  "topics": {
+    "rgb": "/hz_sim/agentvln/camera/image",
+    "depth": "/hz_sim/agentvln/camera/depth_image",
+    "info": "/hz_sim/agentvln/camera/camera_info"
+  },
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "fx": 606.7595825195312,
+    "fy": 606.7595825195312,
+    "cx": 320.0,
+    "cy": 240.0
+  },
+  "tf": {
+    "base_to_camera": [
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.644
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.015
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.64
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "image_stats": {
+    "mean_rgb": [
+      176.510166015625,
+      177.84416341145834,
+      185.03973958333333
+    ],
+    "depth_valid_fraction": 0.946865234375,
+    "depth_median": 3.3672893047332764
+  },
+  "files": {
+    "rgb": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step1/camera_verify3/rgb.png",
+    "annotated": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step1/camera_verify3/annotated.png",
+    "depth_vis": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step1/camera_verify3/depth_vis.png",
+    "depth_npy": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step1/camera_verify3/depth.npy"
+  }
+}

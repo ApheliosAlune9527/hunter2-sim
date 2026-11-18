@@ -1,0 +1,78 @@
+{
+  "api": "llamacpp",
+  "requested_model": "qwen-vl",
+  "port": 18081,
+  "guided_depth": false,
+  "episodes": [
+    {
+      "instruction": "停在较远的蓝箱前",
+      "expected_box": "blue_far",
+      "expected_candidate": 0,
+      "selected_candidate": null,
+      "correct": false,
+      "model_responses": 1,
+      "tool_calls": 0,
+      "trace": [
+        {
+          "step": 1,
+          "prompt": "你是仿真车的图像决策模块。请结合640×480图像和中文指令选择蓝箱。候选区域使用图像像素[x,y,w,h]。如需分辨近远，可调用 query_depth 读取某个编号的深度，单位是米。请勿重复查询同一编号。有足够依据后调用 select_target。看不到足够信息可 request_reobserve 或 finish。每次只输出 JSON 对象，包含 decision 和 candidate_id。query_depth/select_target 需要合法整数编号，另外两项的 candidate_id 为 null。\n指令：停在较远的蓝箱前\n候选区域：[{\"id\": 0, \"bbox_xywh\": [154, 59, 220, 333]}, {\"id\": 1, \"bbox_xywh\": [470, 182, 121, 290]}]\n已返回的深度查询：[]",
+          "raw": "{\"decision\": \"request_reobserve\", \"candidate_id\": null}",
+          "wall_ms": 1067.8,
+          "server_timing": {
+            "cache_n": 0,
+            "prompt_n": 1261,
+            "prompt_ms": 771.177,
+            "prompt_per_token_ms": 0.6115598731165741,
+            "prompt_per_second": 1635.1628744114516,
+            "predicted_n": 15,
+            "predicted_ms": 162.2,
+            "predicted_per_token_ms": 11.585714285714285,
+            "predicted_per_second": 86.31319358816276
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "request_reobserve",
+            "candidate_id": null
+          }
+        }
+      ],
+      "case": "bigfar",
+      "image_sha256": "c178c1d80563720fb62a0a54bae9ebb46162f897a0d5a4153307d98ddad93d64"
+    },
+    {
+      "instruction": "停在较近的蓝箱前",
+      "expected_box": "blue_near",
+      "expected_candidate": 1,
+      "selected_candidate": null,
+      "correct": false,
+      "model_responses": 1,
+      "tool_calls": 0,
+      "trace": [
+        {
+          "step": 1,
+          "prompt": "你是仿真车的图像决策模块。请结合640×480图像和中文指令选择蓝箱。候选区域使用图像像素[x,y,w,h]。如需分辨近远，可调用 query_depth 读取某个编号的深度，单位是米。请勿重复查询同一编号。有足够依据后调用 select_target。看不到足够信息可 request_reobserve 或 finish。每次只输出 JSON 对象，包含 decision 和 candidate_id。query_depth/select_target 需要合法整数编号，另外两项的 candidate_id 为 null。\n指令：停在较近的蓝箱前\n候选区域：[{\"id\": 0, \"bbox_xywh\": [154, 59, 220, 333]}, {\"id\": 1, \"bbox_xywh\": [470, 182, 121, 290]}]\n已返回的深度查询：[]",
+          "raw": "{\"decision\": \"request_reobserve\", \"candidate_id\": null}",
+          "wall_ms": 276.3,
+          "server_timing": {
+            "cache_n": 1177,
+            "prompt_n": 84,
+            "prompt_ms": 45.954,
+            "prompt_per_token_ms": 0.5470714285714285,
+            "prompt_per_second": 1827.9148713931322,
+            "predicted_n": 15,
+            "predicted_ms": 161.163,
+            "predicted_per_token_ms": 11.511642857142858,
+            "predicted_per_second": 86.86857405235692
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "request_reobserve",
+            "candidate_id": null
+          }
+        }
+      ],
+      "case": "bigfar",
+      "image_sha256": "c178c1d80563720fb62a0a54bae9ebb46162f897a0d5a4153307d98ddad93d64"
+    }
+  ]
+}

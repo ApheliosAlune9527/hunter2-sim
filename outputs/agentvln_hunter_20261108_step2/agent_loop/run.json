@@ -1,0 +1,68 @@
+{
+  "instruction": "沿走廊前进并向左靠近观察点",
+  "target": [
+    1.7,
+    0.0
+  ],
+  "finish_tolerance_m": 0.55,
+  "selector": "rule",
+  "steps_executed": 1,
+  "success": true,
+  "failure": null,
+  "final_truth": [
+    1.6368,
+    -0.3178,
+    0.36
+  ],
+  "final_error_m": 0.324,
+  "amcl_error_m": 0.1099,
+  "wall_s": 10.275,
+  "runs": [
+    {
+      "step": 0,
+      "decision": {
+        "decision": "select_candidate",
+        "candidate_id": 3,
+        "frame_stamp_s": 733.8,
+        "instruction": "沿走廊前进并向左靠近观察点",
+        "selector": "rule",
+        "reason": "rule: nearest visible candidate to oracle target, path-length tie-break",
+        "marker": null,
+        "candidate_map_pose": [
+          1.739,
+          -0.3351,
+          0.2216
+        ],
+        "distance_to_target_m": 0.3374
+      },
+      "action": {
+        "replan_status": 4,
+        "planned_poses": 29,
+        "replanned_path_m": 2.005,
+        "status": 4,
+        "timed_out": false,
+        "wall_s": 8.573,
+        "truth_after": [
+          1.5952,
+          -0.3343,
+          0.3513
+        ],
+        "error_to_candidate_m": 0.1438,
+        "heading_to_candidate_rad": 0.1297,
+        "stop_displacement_m": 0.0447,
+        "amcl_error_m": 0.1099
+      },
+      "report": "outputs/agentvln_hunter_20261108_step2/agent_loop/step_00",
+      "annotated": "outputs/agentvln_hunter_20261108_step2/agent_loop/step_00/annotated.png"
+    },
+    {
+      "step": 1,
+      "decision": "finish",
+      "robot": [
+        1.5961,
+        -0.3695,
+        0.3446
+      ]
+    }
+  ]
+}

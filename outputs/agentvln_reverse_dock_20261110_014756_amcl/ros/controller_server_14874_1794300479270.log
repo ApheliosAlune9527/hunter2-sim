@@ -1,0 +1,50 @@
+[INFO] [1794300479.291423921] [controller_server]: 
+	controller_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794300479.297357929] [controller_server]: Creating controller server
+[INFO] [1794300479.314031917] [local_costmap.local_costmap]: 
+	local_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794300479.314433071] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [1794300487.372512457] [controller_server]: Configuring controller interface
+[INFO] [1794300487.372972600] [controller_server]: getting goal checker plugins..
+[INFO] [1794300487.373294822] [controller_server]: Controller frequency set to 20.0000Hz
+[INFO] [1794300487.373335524] [local_costmap.local_costmap]: Configuring
+[INFO] [1794300487.378299099] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[INFO] [1794300487.382972519] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[INFO] [1794300487.390600153] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[INFO] [1794300487.390649587] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[INFO] [1794300487.392165002] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1794300487.398178865] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[INFO] [1794300487.398726879] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[INFO] [1794300487.399259433] [controller_server]: Created goal checker : shift_goal_checker of type nav2_controller::SimpleGoalChecker
+[INFO] [1794300487.399589206] [controller_server]: Controller Server has general_goal_checker shift_goal_checker  goal checkers available.
+[INFO] [1794300487.400037139] [controller_server]: Created controller : FollowPath of type nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[INFO] [1794300487.407949778] [controller_server]: Controller Server has FollowPath  controllers available.
+[INFO] [1794300487.551930587] [controller_server]: Activating
+[INFO] [1794300487.551968959] [local_costmap.local_costmap]: Activating
+[INFO] [1794300487.551979912] [local_costmap.local_costmap]: Checking transform
+[INFO] [1794300487.552092288] [local_costmap.local_costmap]: start
+[INFO] [1794300487.752789498] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[INFO] [1794300487.752864195] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[INFO] [1794300492.299392954] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794300512.550165791] [controller_server]: Reached the goal!
+[INFO] [1794300515.910767511] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794300544.260737975] [controller_server]: Reached the goal!
+[INFO] [1794300547.608129943] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794300566.408787437] [controller_server]: Reached the goal!
+[INFO] [1794300568.248903936] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794300573.699386896] [controller_server]: Reached the goal!
+[INFO] [1794300575.421712092] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794300582.822064168] [controller_server]: Reached the goal!
+[INFO] [1794300579.505141971] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794300584.855487371] [controller_server]: Reached the goal!
+[INFO] [1794300586.557335810] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794300591.757736799] [controller_server]: Reached the goal!
+[INFO] [1794300593.357045401] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794300605.158962942] [controller_server]: Reached the goal!
+[INFO] [1794300606.928830821] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794300612.479314860] [controller_server]: Reached the goal!
+[INFO] [1794300614.172799044] [controller_server]: Received a goal, begin computing control effort.

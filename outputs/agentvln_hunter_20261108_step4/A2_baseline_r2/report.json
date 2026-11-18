@@ -1,0 +1,65 @@
+{
+  "mode": "known_coordinate_baseline",
+  "goal": {
+    "x": 4.462,
+    "y": 1.518,
+    "yaw": 0.474,
+    "source": "layout_expected_dock"
+  },
+  "start_truth": [
+    0.30999999996751176,
+    -0.4699999999288297,
+    0.42000024818577375
+  ],
+  "start_amcl": null,
+  "nav": {
+    "status": 6,
+    "timed_out": false,
+    "wall_s": 36.381,
+    "truth_after": [
+      4.1083,
+      1.392,
+      0.174
+    ],
+    "error_to_dock_m": 0.3755,
+    "heading_to_dock_rad": 0.3,
+    "stop_displacement_m": 0.0,
+    "amcl_error_m": 0.0514,
+    "skipped": false,
+    "route_legs": [
+      {
+        "pose": {
+          "x": 2.0,
+          "y": 0.5,
+          "yaw": 0.522
+        },
+        "nav": {
+          "status": 4,
+          "timed_out": false,
+          "wall_s": 8.761,
+          "truth_after": [
+            1.8895,
+            0.4358,
+            0.6511
+          ],
+          "error_to_dock_m": 0.1278,
+          "heading_to_dock_rad": 0.1291,
+          "stop_displacement_m": 0.0293,
+          "amcl_error_m": 0.0411
+        }
+      }
+    ]
+  },
+  "truth_path_length_m": 4.278,
+  "truth_samples": 4430,
+  "layout": "/mnt/d/rob-memory/sim/experiments/agentvln_hunter/config/target_layout.json",
+  "final_truth": [
+    4.1083,
+    1.392,
+    0.174
+  ],
+  "parking_distance_m": 0.3755,
+  "parking_yaw_error_rad": 0.3,
+  "parking_ok": false,
+  "success": false
+}

@@ -1,0 +1,58 @@
+[INFO] [1794300479.162586326] [forward.planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794300479.164395755] [forward.planner_server]: Creating
+[INFO] [1794300479.169196663] [forward.global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794300479.170127123] [forward.global_costmap.global_costmap]: Creating Costmap
+[INFO] [1794300487.757971872] [forward.planner_server]: Configuring
+[INFO] [1794300487.758433775] [forward.global_costmap.global_costmap]: Configuring
+[INFO] [1794300487.764985046] [forward.global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1794300487.768082957] [forward.global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1794300487.770084429] [forward.global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1794300487.770520078] [forward.global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1794300487.772555334] [forward.global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1794300487.778420015] [forward.global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1794300487.778895048] [forward.global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1794300487.780565979] [forward.global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1794300487.786790662] [forward.global_costmap.global_costmap]: StaticLayer: Resizing costmap to 241 X 465 at 0.050000 m/pix
+[INFO] [1794300487.790061156] [forward.planner_server]: Created global planner plugin GridBased of type nav2_smac_planner/SmacPlannerHybrid
+[INFO] [1794300487.790578045] [forward.planner_server]: Configuring GridBased of type SmacPlannerHybrid
+[INFO] [1794300487.795925181] [forward.planner_server]: Even sized heuristic lookup table size set 400.000000, increasing size by 1 to make odd
+[INFO] [1794300489.230393806] [forward.planner_server]: Configured plugin GridBased of type SmacPlannerHybrid with maximum iterations 1000000, max on approach iterations 1000, and not allowing unknown traversal. Tolerance 0.10.Using motion model: Dubin.
+[INFO] [1794300489.231498045] [forward.planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1794300489.240054195] [forward.planner_server]: Activating
+[INFO] [1794300489.240472688] [forward.global_costmap.global_costmap]: Activating
+[INFO] [1794300489.240905812] [forward.global_costmap.global_costmap]: Checking transform
+[INFO] [1794300489.241505860] [forward.global_costmap.global_costmap]: start
+[INFO] [1794300490.292606310] [forward.planner_server]: Activating plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794300490.294607511] [forward.planner_server]: Creating bond (planner_server) to lifecycle manager.
+[WARN] [1794300545.782836392] [forward.planner_server]: GridBased: failed to create plan, no valid path found.
+[WARN] [1794300545.784376161] [forward.planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.34, 2.33)
+[WARN] [1794300545.784977974] [forward.planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[WARN] [1794300545.806995379] [forward.planner_server]: GridBased: failed to create plan, no valid path found.
+[WARN] [1794300545.807539211] [forward.planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.54, 2.33)
+[WARN] [1794300545.808043279] [forward.planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[WARN] [1794300545.831756759] [forward.planner_server]: GridBased: failed to create plan, no valid path found.
+[WARN] [1794300545.833542498] [forward.planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.74, 2.33)
+[WARN] [1794300545.834123456] [forward.planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[WARN] [1794300545.862602355] [forward.planner_server]: GridBased: failed to create plan, no valid path found.
+[WARN] [1794300545.863153684] [forward.planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.94, 2.33)
+[WARN] [1794300545.863638896] [forward.planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[WARN] [1794300545.893986756] [forward.planner_server]: GridBased: failed to create plan, no valid path found.
+[WARN] [1794300545.895694547] [forward.planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.14, 2.33)
+[WARN] [1794300545.896705929] [forward.planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[INFO] [1794300638.958898111] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1794300638.959446108] [forward.planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[INFO] [1794300638.959944259] [forward.planner_server]: Deactivating
+[INFO] [1794300638.960341909] [forward.global_costmap.global_costmap]: Deactivating
+[INFO] [1794300639.054817836] [forward.planner_server]: Deactivating plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794300639.055436506] [forward.planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1794300639.066376807] [forward.planner_server]: Cleaning up
+[INFO] [1794300639.083611978] [forward.global_costmap.global_costmap]: Cleaning up
+[INFO] [1794300639.090006949] [forward.planner_server]: Cleaning up plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794300639.091463092] [forward.planner_server]: Destroying plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794300639.108837423] [forward.planner_server]: Destroying bond (planner_server) to lifecycle manager.

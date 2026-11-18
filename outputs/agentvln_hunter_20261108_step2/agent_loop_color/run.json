@@ -1,0 +1,74 @@
+{
+  "instruction": "向左靠近蓝色标记",
+  "target": [
+    1.7,
+    0.0
+  ],
+  "finish_tolerance_m": 0.55,
+  "selector": "color_blue",
+  "steps_executed": 1,
+  "success": true,
+  "failure": null,
+  "final_truth": [
+    1.6309,
+    -0.307,
+    0.2942
+  ],
+  "final_error_m": 0.3147,
+  "amcl_error_m": 0.0951,
+  "wall_s": 10.518,
+  "runs": [
+    {
+      "step": 0,
+      "decision": {
+        "decision": "select_candidate",
+        "candidate_id": 3,
+        "frame_stamp_s": 588.6,
+        "instruction": "向左靠近蓝色标记",
+        "selector": "color_blue",
+        "reason": "color: nearest visible candidate to blue marker in image",
+        "marker": {
+          "color": "blue",
+          "u": 143.33,
+          "v": 89.07,
+          "area_px": 7024.5,
+          "area_fraction": 0.02287
+        },
+        "candidate_map_pose": [
+          1.7385,
+          -0.3237,
+          0.2238
+        ],
+        "distance_to_target_m": 0.326
+      },
+      "action": {
+        "replan_status": 4,
+        "planned_poses": 29,
+        "replanned_path_m": 2.005,
+        "status": 4,
+        "timed_out": false,
+        "wall_s": 8.561,
+        "truth_after": [
+          1.5886,
+          -0.3196,
+          0.2967
+        ],
+        "error_to_candidate_m": 0.15,
+        "heading_to_candidate_rad": 0.0729,
+        "stop_displacement_m": 0.0441,
+        "amcl_error_m": 0.0951
+      },
+      "report": "outputs/agentvln_hunter_20261108_step2/agent_loop_color/step_00",
+      "annotated": "outputs/agentvln_hunter_20261108_step2/agent_loop_color/step_00/annotated.png"
+    },
+    {
+      "step": 1,
+      "decision": "finish",
+      "robot": [
+        1.5815,
+        -0.3545,
+        0.2912
+      ]
+    }
+  ]
+}

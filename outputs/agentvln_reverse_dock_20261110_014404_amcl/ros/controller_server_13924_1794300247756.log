@@ -1,0 +1,25 @@
+[INFO] [1794300247.771265566] [controller_server]: 
+	controller_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794300247.777133605] [controller_server]: Creating controller server
+[INFO] [1794300247.786132142] [local_costmap.local_costmap]: 
+	local_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794300247.786873361] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [1794300253.638153897] [controller_server]: Configuring controller interface
+[INFO] [1794300253.638839963] [controller_server]: getting goal checker plugins..
+[INFO] [1794300253.639273260] [controller_server]: Controller frequency set to 20.0000Hz
+[INFO] [1794300253.639417639] [local_costmap.local_costmap]: Configuring
+[INFO] [1794300253.645819547] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[INFO] [1794300253.650470488] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[INFO] [1794300253.660116285] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[INFO] [1794300253.660168600] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[INFO] [1794300253.661748995] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1794300253.668848171] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[INFO] [1794300253.670648627] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[INFO] [1794300253.672255222] [controller_server]: Created goal checker : shift_goal_checker of type nav2_controller::SimpleGoalChecker
+[INFO] [1794300253.673176223] [controller_server]: Controller Server has general_goal_checker shift_goal_checker  goal checkers available.
+[INFO] [1794300253.673757908] [controller_server]: Created controller : FollowPath of type nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[INFO] [1794300253.683799150] [controller_server]: Controller Server has FollowPath  controllers available.

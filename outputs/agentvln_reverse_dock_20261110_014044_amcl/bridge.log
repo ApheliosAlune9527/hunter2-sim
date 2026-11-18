@@ -1,0 +1,13 @@
+1794300047.636487 [74] parameter_: selected interface "lo" is not multicast-capable: disabling multicast
+[INFO] [1794300048.730220097] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[INFO] [1794300048.733551054] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/hz_sim/lab/scan (ignition.msgs.LaserScan) -> /scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[INFO] [1794300048.736572605] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/hz_sim/lab/odom (ignition.msgs.Odometry) -> /odom (nav_msgs/msg/Odometry)] (Lazy 0)
+[INFO] [1794300048.739492403] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/hz_sim/lab/ground_truth (ignition.msgs.Odometry) -> /ground_truth (nav_msgs/msg/Odometry)] (Lazy 0)
+[INFO] [1794300048.741821399] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/hz_sim/lab/joint_states (ignition.msgs.Model) -> /joint_states (sensor_msgs/msg/JointState)] (Lazy 0)
+[INFO] [1794300048.743781536] [ros_gz_bridge]: Creating ROS->GZ Bridge: [/cmd_vel (geometry_msgs/msg/Twist) -> /hz_sim/lab/cmd_vel (ignition.msgs.Twist)] (Lazy 0)
+[INFO] [1794300048.745890795] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/world/hz_lab_2d/contacts (ignition.msgs.Contacts) -> /contacts (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[INFO] [1794300048.748234239] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/hz_sim/agentvln/camera/image (ignition.msgs.Image) -> /hz_sim/agentvln/camera/image (sensor_msgs/msg/Image)] (Lazy 0)
+[INFO] [1794300048.750457587] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/hz_sim/agentvln/camera/depth_image (ignition.msgs.Image) -> /hz_sim/agentvln/camera/depth_image (sensor_msgs/msg/Image)] (Lazy 0)
+[INFO] [1794300048.752895168] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/hz_sim/agentvln/camera/camera_info (ignition.msgs.CameraInfo) -> /hz_sim/agentvln/camera/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[INFO] [1794300058.489747758] [ros_gz_bridge]: Passing message from ROS geometry_msgs/msg/Twist to Gazebo gz.msgs.Twist (showing msg only once per type)
+[INFO] [1794300086.130879444] [rclcpp]: signal_handler(SIGINT/SIGTERM)

@@ -1,0 +1,67 @@
+{
+  "stage": "bigfar_frame",
+  "robot_pose": [
+    1.9969,
+    0.4969,
+    0.5249
+  ],
+  "stamp_s": 106.6,
+  "K": [
+    606.7595825195312,
+    0.0,
+    320.0,
+    0.0,
+    606.7595825195312,
+    240.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "candidates": [
+    {
+      "id": 0,
+      "u": 320.71,
+      "v": 242.81,
+      "bbox_xywh": [
+        238,
+        104,
+        166,
+        279
+      ],
+      "area_px": 43250.0,
+      "area_fraction": 0.14079,
+      "depth_median_m": 2.797333,
+      "depth_valid": 625,
+      "depth_valid_fraction": 1.0
+    },
+    {
+      "id": 1,
+      "u": 483.93,
+      "v": 295.16,
+      "bbox_xywh": [
+        454,
+        203,
+        60,
+        188
+      ],
+      "area_px": 10650.5,
+      "area_fraction": 0.03467,
+      "depth_median_m": 2.60802,
+      "depth_valid": 625,
+      "depth_valid_fraction": 1.0
+    }
+  ],
+  "rule_area_far_choice": 1,
+  "rule_area_near_choice": 0,
+  "rule_depth_far_choice": 0,
+  "rule_depth_near_choice": 1,
+  "area_proxy_agrees_with_depth_far": false,
+  "area_proxy_agrees_with_depth_near": false,
+  "instruction_near": "\u7ecf\u8fc7\u7ea2\u724c\uff0c\u505c\u5728\u8f83\u8fd1\u7684\u90a3\u4e2a\u84dd\u7bb1\u524d\u65b9",
+  "instruction_far": "\u7ecf\u8fc7\u7ea2\u724c\uff0c\u505c\u5728\u8f83\u8fdc\u7684\u90a3\u4e2a\u84dd\u7bb1\u524d\u65b9",
+  "files": {
+    "rgb": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_vlm_deploy/straight_frame/rgb.png",
+    "depth": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_vlm_deploy/straight_frame/depth.npy",
+    "annotated": "/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_vlm_deploy/straight_frame/annotated.png"
+  }
+}

@@ -1,0 +1,37 @@
+[INFO] [1794299782.917141704] [planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794299782.919217529] [planner_server]: Creating
+[INFO] [1794299782.921797845] [global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794299782.922137661] [global_costmap.global_costmap]: Creating Costmap
+[INFO] [1794299783.076963592] [planner_server]: Configuring
+[INFO] [1794299783.076999083] [global_costmap.global_costmap]: Configuring
+[INFO] [1794299783.082137543] [global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1794299783.085572066] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1794299783.086227512] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1794299783.086248213] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1794299783.087778939] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1794299783.092830228] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1794299783.092874969] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1794299783.094457146] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1794299783.101998429] [planner_server]: Created global planner plugin GridBased of type nav2_smac_planner/SmacPlannerHybrid
+[INFO] [1794299783.102042799] [planner_server]: Configuring GridBased of type SmacPlannerHybrid
+[INFO] [1794299783.107853416] [planner_server]: Even sized heuristic lookup table size set 400.000000, increasing size by 1 to make odd
+[INFO] [1794299790.531475928] [planner_server]: Configured plugin GridBased of type SmacPlannerHybrid with maximum iterations 1000000, max on approach iterations 1000, and not allowing unknown traversal. Tolerance 0.05.Using motion model: Reeds-Shepp.
+[INFO] [1794299790.531556150] [planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1794299790.653968806] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 241 X 465 at 0.050000 m/pix
+[INFO] [1794299790.660548078] [planner_server]: Activating
+[INFO] [1794299790.660576368] [global_costmap.global_costmap]: Activating
+[INFO] [1794299790.660609209] [global_costmap.global_costmap]: Checking transform
+[INFO] [1794299790.660670130] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1794299791.160718494] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1794299791.660742788] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation at time 0.132000, but only time 1.100000 is in the buffer, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794299792.160782839] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 0.636000 but the earliest data is at time 1.100000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794299792.660855700] [global_costmap.global_costmap]: start
+[INFO] [1794299793.711660045] [planner_server]: Activating plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794299793.712466039] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[INFO] [1794299902.384738581] [global_costmap.global_costmap]: Message Filter dropping message: frame 'laser' at time 115.200 for reason 'the timestamp on the message is earlier than all the data in the transform cache'

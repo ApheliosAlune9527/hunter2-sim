@@ -1,0 +1,25 @@
+== display devices
+64ec:00:00.0 3D controller: Microsoft Corporation Device 008e
+9147:00:00.0 3D controller: Microsoft Corporation Device 008e
+== rocm
+no_rocminfo
+no_rocm_smi
+== vulkan
+no_vulkaninfo
+== nvidia
+no_nvidia
+== python modules
+torch False
+transformers False
+accelerate False
+bitsandbytes False
+llama_cpp False
+ollama False
+cv2 True
+PIL True
+qwen_vl_utils False
+torch_import_error ModuleNotFoundError("No module named 'torch'")
+== huggingface cache
+== ollama
+no_ollama
+== llama.cpp binaries

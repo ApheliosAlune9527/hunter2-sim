@@ -1,0 +1,66 @@
+{
+  "frame": "map",
+  "world": "/mnt/d/rob-memory/sim/experiments/agentvln_hunter/scenes/lab_agentvln_targets_b.sdf",
+  "red_sign": {
+    "x": 2.1,
+    "y": -0.35,
+    "z": 1.05,
+    "size": [
+      0.05,
+      0.55,
+      0.3
+    ],
+    "bottom_z": 0.9,
+    "lidar_plane_z": 0.785
+  },
+  "blue_boxes": [
+    {
+      "name": "blue_near",
+      "x": 4.1,
+      "y": 2.6,
+      "z": 0.45,
+      "size": [
+        0.35,
+        0.35,
+        0.9
+      ]
+    },
+    {
+      "name": "blue_far",
+      "x": 4.9,
+      "y": 1.9,
+      "z": 0.45,
+      "size": [
+        0.35,
+        0.35,
+        0.9
+      ]
+    }
+  ],
+  "observation_pose": {
+    "x": 2.0,
+    "y": 0.5,
+    "yaw": 0.522
+  },
+  "observation_route": [
+    {
+      "x": 2.0,
+      "y": 0.5,
+      "yaw": 0.522
+    }
+  ],
+  "expected_dock": {
+    "x": 3.873,
+    "y": 1.342,
+    "yaw": 0.498
+  },
+  "parking_zone": {
+    "x": 3.873,
+    "y": 1.342,
+    "radius_m": 0.3,
+    "yaw": 0.498,
+    "yaw_tol_rad": 0.5
+  },
+  "instruction": "\u7ecf\u8fc7\u7ea2\u724c\uff0c\u5728\u4e24\u4e2a\u84dd\u7bb1\u4e2d\u8f83\u8fdc\u7684\u90a3\u4e2a\u524d\u65b9\u505c\u4e0b",
+  "target_box": "blue_far"
+}

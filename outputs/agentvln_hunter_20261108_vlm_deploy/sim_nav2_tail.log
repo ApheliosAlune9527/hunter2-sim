@@ -1,0 +1,140 @@
+[bt_navigator-7] [INFO] [1794212300.518185548] [bt_navigator]: Begin navigating from current location (-0.21, -0.77) to (2.00, 0.50)
+[controller_server-4] [INFO] [1794212300.539178059] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [INFO] [1794212301.589474887] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212302.639431116] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212303.639428587] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212304.689408119] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212305.689600953] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212306.739433869] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212307.789601314] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212308.789411469] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212309.839435689] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212309.808351601] [controller_server]: Reached the goal!
+[bt_navigator-7] [INFO] [1794212309.847330318] [bt_navigator]: Goal succeeded
+[bt_navigator-7] [INFO] [1794212317.238305081] [bt_navigator]: Begin navigating from current location (1.91, 0.43) to (3.57, 1.55)
+[controller_server-4] [INFO] [1794212317.258971941] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [INFO] [1794212318.309163192] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212319.359333865] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212320.359309649] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212321.409164535] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212322.409162782] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212323.459149199] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212324.459317619] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212325.259318583] [controller_server]: Reached the goal!
+[bt_navigator-7] [INFO] [1794212325.298758479] [bt_navigator]: Goal succeeded
+[amcl-2] [INFO] [1794212328.051300164] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794212328.051542315] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794212328.051057 but the latest data is at time 7041.500000, when looking up transform from frame [odom] to frame [base_link])
+[amcl-2] [INFO] [1794212328.051561284] [amcl]: Setting pose (7040.556000): -0.210 -0.770 0.000
+[amcl-2] [INFO] [1794212328.255054145] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794212328.255146241] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794212328.254891 but the latest data is at time 7041.700000, when looking up transform from frame [odom] to frame [base_link])
+[amcl-2] [INFO] [1794212328.255160812] [amcl]: Setting pose (7040.760000): -0.210 -0.770 0.000
+[amcl-2] [INFO] [1794212328.458982847] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794212328.459064164] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794212328.458814 but the latest data is at time 7041.900000, when looking up transform from frame [odom] to frame [base_link])
+[amcl-2] [INFO] [1794212328.459075550] [amcl]: Setting pose (7040.964000): -0.210 -0.770 0.000
+[amcl-2] [INFO] [1794212328.663095268] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794212328.663175512] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794212328.662931 but the latest data is at time 7042.100000, when looking up transform from frame [odom] to frame [base_link])
+[amcl-2] [INFO] [1794212328.663186649] [amcl]: Setting pose (7041.168000): -0.210 -0.770 0.000
+[amcl-2] [INFO] [1794212328.867264527] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794212328.867344587] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794212328.867093 but the latest data is at time 7042.300000, when looking up transform from frame [odom] to frame [base_link])
+[amcl-2] [INFO] [1794212328.867355160] [amcl]: Setting pose (7041.372000): -0.210 -0.770 0.000
+[bt_navigator-7] [INFO] [1794212337.134058404] [bt_navigator]: Begin navigating from current location (-0.21, -0.77) to (2.00, 0.50)
+[controller_server-4] [INFO] [1794212337.154745798] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [INFO] [1794212338.205148158] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212339.205101028] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212340.254947511] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212341.271512423] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212342.321497708] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212343.321504352] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212344.371532736] [controller_server]: Passing new path to controller.
+[planner_server-3] [WARN] [1794212345.579714164] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212345.580216634] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.00, 0.50)
+[planner_server-3] [WARN] [1794212345.580258798] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1794212345.592069921] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [WARN] [1794212346.567505409] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212346.567587614] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.00, 0.50)
+[planner_server-3] [WARN] [1794212346.567599823] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1794212346.571643860] [controller_server]: Reached the goal!
+[controller_server-4] [INFO] [1794212346.585636980] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1794212346.589097604] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [WARN] [1794212347.562548941] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212347.562629760] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.00, 0.50)
+[planner_server-3] [WARN] [1794212347.562642814] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1794212347.581061371] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [WARN] [1794212348.561509846] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212348.561610532] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.00, 0.50)
+[planner_server-3] [WARN] [1794212348.561636804] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-6] [INFO] [1794212348.590894661] [behavior_server]: Running wait
+[behavior_server-6] [INFO] [1794212353.593148737] [behavior_server]: wait completed successfully
+[planner_server-3] [WARN] [1794212353.692737876] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212353.692815520] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.00, 0.50)
+[planner_server-3] [WARN] [1794212353.692827935] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1794212353.710900068] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [WARN] [1794212354.560232962] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212354.560311017] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.00, 0.50)
+[planner_server-3] [WARN] [1794212354.560323021] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1794212354.570905423] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1794212354.571221658] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [WARN] [1794212355.562522494] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212355.562600690] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.00, 0.50)
+[planner_server-3] [WARN] [1794212355.562613777] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1794212355.581049543] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [WARN] [1794212356.562143138] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212356.562234313] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.00, 0.50)
+[planner_server-3] [WARN] [1794212356.562249448] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-6] [INFO] [1794212356.581255360] [behavior_server]: Running wait
+[behavior_server-6] [INFO] [1794212361.581542343] [behavior_server]: wait completed successfully
+[planner_server-3] [WARN] [1794212361.684228392] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212361.684323077] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.00, 0.50)
+[planner_server-3] [WARN] [1794212361.684337995] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1794212361.701063481] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [WARN] [1794212362.560310728] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212362.560388902] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.00, 0.50)
+[planner_server-3] [WARN] [1794212362.560401621] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[controller_server-4] [INFO] [1794212362.570899471] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1794212362.571930663] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [WARN] [1794212363.563151887] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212363.563228036] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.00, 0.50)
+[planner_server-3] [WARN] [1794212363.563241090] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1794212363.580817535] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [WARN] [1794212364.560276563] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212364.560353806] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (2.00, 0.50)
+[planner_server-3] [WARN] [1794212364.560396544] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-6] [INFO] [1794212364.571531828] [behavior_server]: Running wait
+[behavior_server-6] [INFO] [1794212364.671727254] [behavior_server]: Canceling wait
+[behavior_server-6] [INFO] [1794212364.672003444] [behavior_server]: [wait] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-7] [INFO] [1794212364.672175702] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-7] [INFO] [1794212364.672600772] [bt_navigator]: Goal canceled
+[amcl-2] [INFO] [1794212557.243979899] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794212557.244197653] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794212557.243831 but the latest data is at time 7289.200000, when looking up transform from frame [odom] to frame [base_link])
+[amcl-2] [INFO] [1794212557.244216428] [amcl]: Setting pose (7288.236000): 2.000 0.500 0.522
+[amcl-2] [INFO] [1794212557.448065792] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794212557.448138897] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794212557.447897 but the latest data is at time 7289.400000, when looking up transform from frame [odom] to frame [base_link])
+[amcl-2] [INFO] [1794212557.448149405] [amcl]: Setting pose (7288.440000): 2.000 0.500 0.522
+[amcl-2] [INFO] [1794212557.651950241] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794212557.652028199] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794212557.651787 but the latest data is at time 7289.600000, when looking up transform from frame [odom] to frame [base_link])
+[amcl-2] [INFO] [1794212557.652044807] [amcl]: Setting pose (7288.644000): 2.000 0.500 0.522
+[amcl-2] [INFO] [1794212557.856095903] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794212557.856172247] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794212557.855860 but the latest data is at time 7289.800000, when looking up transform from frame [odom] to frame [base_link])
+[amcl-2] [INFO] [1794212557.856183449] [amcl]: Setting pose (7288.848000): 2.000 0.500 0.522
+[amcl-2] [INFO] [1794212558.059958742] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794212558.060034934] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 1794212558.059796 but the latest data is at time 7290.000000, when looking up transform from frame [odom] to frame [base_link])
+[amcl-2] [INFO] [1794212558.060045508] [amcl]: Setting pose (7289.052000): 2.000 0.500 0.522
+[bt_navigator-7] [INFO] [1794212565.764228502] [bt_navigator]: Begin navigating from current location (2.00, 0.50) to (3.53, 1.39)
+[controller_server-4] [INFO] [1794212565.785108461] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [INFO] [1794212566.835489635] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212567.885326821] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212568.885304678] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212569.935484646] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212570.935491543] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794212571.985304488] [controller_server]: Passing new path to controller.
+[planner_server-3] [WARN] [1794212573.038292463] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212573.038420136] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.53, 1.39)
+[planner_server-3] [WARN] [1794212573.038439311] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1794212573.054886036] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[controller_server-4] [INFO] [1794212573.185437504] [controller_server]: Reached the goal!
+[bt_navigator-7] [ERROR] [1794212573.236366793] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for compute_path_to_pose in node halt!
+[bt_navigator-7] [WARN] [1794212573.236582651] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-7] [INFO] [1794212573.236771696] [bt_navigator]: Goal succeeded
+[planner_server-3] [WARN] [1794212573.953981877] [planner_server]: GridBased: failed to create plan, no valid path found.
+[planner_server-3] [WARN] [1794212573.954078517] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (3.53, 1.39)
+[planner_server-3] [INFO] [1794212573.954091875] [planner_server]: [compute_path_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.

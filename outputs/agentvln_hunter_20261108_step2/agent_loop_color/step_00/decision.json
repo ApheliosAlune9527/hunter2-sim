@@ -1,0 +1,21 @@
+{
+  "decision": "select_candidate",
+  "candidate_id": 3,
+  "frame_stamp_s": 588.6,
+  "instruction": "向左靠近蓝色标记",
+  "selector": "color_blue",
+  "reason": "color: nearest visible candidate to blue marker in image",
+  "marker": {
+    "color": "blue",
+    "u": 143.33,
+    "v": 89.07,
+    "area_px": 7024.5,
+    "area_fraction": 0.02287
+  },
+  "candidate_map_pose": [
+    1.7385,
+    -0.3237,
+    0.2238
+  ],
+  "distance_to_target_m": 0.326
+}

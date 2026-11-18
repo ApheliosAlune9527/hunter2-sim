@@ -1,0 +1,8 @@
+domain=74
+localhost_only=1
+rmw=rmw_cyclonedds_cpp
+partition=hz_agentvln_reverse_73ea0316-30fd-4b37-bce8-9e658248594d
+localizer=amcl
+world=/mnt/d/rob-memory/sim/experiments/agentvln_hunter/scenes/lab_agentvln_bigfar_straight.sdf
+bridge=/mnt/d/rob-memory/sim/experiments/agentvln_hunter/config/agentvln_bridge.yaml
+sensor_renderer=llvmpipe

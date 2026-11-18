@@ -1,0 +1,46 @@
+{
+ "topic": "/global_costmap/costmap",
+ "frame": "map",
+ "width": 241,
+ "height": 465,
+ "resolution": 0.05000000074505806,
+ "origin": [
+  -5.09,
+  -4.89
+ ],
+ "points": {
+  "robot": {
+   "xy": [
+    0.31,
+    -0.72
+   ],
+   "cell": [
+    108,
+    381
+   ],
+   "value": 99
+  },
+  "short": {
+   "xy": [
+    1.885,
+    0.435
+   ],
+   "cell": [
+    139,
+    358
+   ],
+   "value": 99
+  },
+  "mid": {
+   "xy": [
+    3.185,
+    1.235
+   ],
+   "cell": [
+    165,
+    342
+   ],
+   "value": 99
+  }
+ }
+}

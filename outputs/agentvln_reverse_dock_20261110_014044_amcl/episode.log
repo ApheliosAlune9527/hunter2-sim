@@ -1,0 +1,14 @@
+1794300048.223396 [74]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+[指令] 停在较远的蓝箱前，车头正对箱面
+[视觉] 出生点蓝箱候选 1 个
+[行驶] 观察 前进，规划 1.12 m
+[视觉] 驶近时检测到两个蓝箱
+[停稳] 观察 状态 4，停稳 True
+[视觉] 已保存带编号的同步 RGB-D 观测
+
+========== 本轮联合验收 ==========
+总体结果 未通过
+观察    前进 1.102 m / 倒车 0.000 m / 停稳 通过
+最小几何净空    27.7 cm
+失败原因 curl exit 22: curl: (22) The requested URL returned error: 500
+报告 /mnt/d/rob-memory/outputs/agentvln_reverse_dock_20261110_014044_amcl/report.json

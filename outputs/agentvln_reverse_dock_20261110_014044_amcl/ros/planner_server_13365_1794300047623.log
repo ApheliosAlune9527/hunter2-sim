@@ -1,0 +1,43 @@
+[INFO] [1794300047.634483316] [forward.planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794300047.636511048] [forward.planner_server]: Creating
+[INFO] [1794300047.639758035] [forward.global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794300047.640631758] [forward.global_costmap.global_costmap]: Creating Costmap
+[INFO] [1794300059.705275878] [forward.planner_server]: Configuring
+[INFO] [1794300059.706181063] [forward.global_costmap.global_costmap]: Configuring
+[INFO] [1794300059.710321051] [forward.global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1794300059.714616013] [forward.global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1794300059.715979618] [forward.global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1794300059.716422546] [forward.global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1794300059.717619358] [forward.global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1794300059.723332547] [forward.global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1794300059.723922097] [forward.global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1794300059.725466578] [forward.global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1794300059.732281949] [forward.global_costmap.global_costmap]: StaticLayer: Resizing costmap to 241 X 465 at 0.050000 m/pix
+[INFO] [1794300059.736788646] [forward.planner_server]: Created global planner plugin GridBased of type nav2_smac_planner/SmacPlannerHybrid
+[INFO] [1794300059.737228644] [forward.planner_server]: Configuring GridBased of type SmacPlannerHybrid
+[INFO] [1794300059.744260170] [forward.planner_server]: Even sized heuristic lookup table size set 400.000000, increasing size by 1 to make odd
+[INFO] [1794300061.098986260] [forward.planner_server]: Configured plugin GridBased of type SmacPlannerHybrid with maximum iterations 1000000, max on approach iterations 1000, and not allowing unknown traversal. Tolerance 0.10.Using motion model: Dubin.
+[INFO] [1794300061.099691447] [forward.planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1794300061.106953223] [forward.planner_server]: Activating
+[INFO] [1794300061.107368288] [forward.global_costmap.global_costmap]: Activating
+[INFO] [1794300061.107792832] [forward.global_costmap.global_costmap]: Checking transform
+[INFO] [1794300061.108319696] [forward.global_costmap.global_costmap]: start
+[INFO] [1794300062.159453597] [forward.planner_server]: Activating plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794300062.160827099] [forward.planner_server]: Creating bond (planner_server) to lifecycle manager.
+[INFO] [1794300086.174218857] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1794300086.174718658] [forward.planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[INFO] [1794300086.175175671] [forward.planner_server]: Deactivating
+[INFO] [1794300086.175556700] [forward.global_costmap.global_costmap]: Deactivating
+[INFO] [1794300086.607165840] [forward.planner_server]: Deactivating plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794300086.607735756] [forward.planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1794300086.618536525] [forward.planner_server]: Cleaning up
+[INFO] [1794300086.638951045] [forward.global_costmap.global_costmap]: Cleaning up
+[INFO] [1794300086.644968803] [forward.planner_server]: Cleaning up plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794300086.645523686] [forward.planner_server]: Destroying plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794300086.662232999] [forward.planner_server]: Destroying bond (planner_server) to lifecycle manager.

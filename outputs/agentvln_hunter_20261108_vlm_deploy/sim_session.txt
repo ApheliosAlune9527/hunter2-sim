@@ -1,0 +1,11 @@
+started=2026-11-08T23:29:46-07:00
+user=aphelios
+ros_domain_id=73
+ros_localhost_only=1
+rmw=rmw_cyclonedds_cpp
+ign_partition=hz_sim_aphelios_73
+world=/mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step5_unblock/lab_agentvln_bigfar_straight.sdf
+world_sha256=521ca2d00b74e50b20d922b1489b288c1678d72a517bc42285c4504a0b1387a0
+bridge=/mnt/d/rob-memory/sim/experiments/agentvln_hunter/config/agentvln_bridge.yaml
+bridge_sha256=d7adcb93c8fb48e8066ff42a96281820fe2b6a5a4aab33f65dc144de268582e7
+localizer=amcl

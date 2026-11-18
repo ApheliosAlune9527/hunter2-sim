@@ -1,0 +1,8 @@
+raw_with_depth_tool blue_far 1 False queries 2
+raw_depth_unavailable blue_far 1 False queries 0
+image_labels_with_depth_tool blue_far 0 True queries 2
+image_labels_depth_unavailable blue_far 0 True queries 0
+raw_with_depth_tool blue_near 1 True queries 2
+raw_depth_unavailable blue_near 1 True queries 0
+image_labels_with_depth_tool blue_near 1 True queries 2
+image_labels_depth_unavailable blue_near 1 True queries 0

@@ -1,0 +1,115 @@
+{
+  "instruction": "\u7ecf\u8fc7\u7ea2\u724c\uff0c\u5728\u4e24\u4e2a\u84dd\u7bb1\u4e2d\u8f83\u8fdc\u7684\u90a3\u4e2a\u524d\u65b9\u505c\u4e0b",
+  "success": false,
+  "safety_end": true,
+  "reason": "fewer_than_two_blue_components_after_reobserve",
+  "stages": [
+    {
+      "stage": "initial_observation",
+      "stamp_s": 37.8,
+      "age_s": 0.012,
+      "robot_pose": [
+        -0.2115,
+        -0.7709,
+        0.0003
+      ],
+      "components": [
+        {
+          "id": 0,
+          "u": 42.13,
+          "v": 264.12,
+          "area_px": 10080.5,
+          "area_fraction": 0.03281,
+          "depth_median_m": 4.091,
+          "depth_valid_fraction": 1.0,
+          "depth_valid_pixels": 625,
+          "depth_unit": "m"
+        }
+      ],
+      "component_count": 1
+    }
+  ],
+  "reobserve_attempts": [
+    {
+      "attempt": 1,
+      "route": [
+        {
+          "x": 1.885,
+          "y": 0.435,
+          "yaw": 0.522
+        },
+        {
+          "x": 3.185,
+          "y": 1.235,
+          "yaw": 0.3
+        }
+      ],
+      "legs": [
+        {
+          "pose": {
+            "x": 1.885,
+            "y": 0.435,
+            "yaw": 0.522
+          },
+          "nav": {
+            "status": 6,
+            "timed_out": false,
+            "wall_s": 35.511,
+            "truth_after": [
+              1.7284,
+              0.3932,
+              0.6455
+            ],
+            "error_to_dock_m": 0.1621,
+            "heading_to_dock_rad": 0.1235,
+            "stop_displacement_m": 0.0,
+            "amcl_error_m": 0.1261
+          }
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "route": [
+        {
+          "x": 1.885,
+          "y": 0.435,
+          "yaw": 0.522
+        },
+        {
+          "x": 3.185,
+          "y": 1.235,
+          "yaw": 0.3
+        }
+      ],
+      "legs": [
+        {
+          "pose": {
+            "x": 1.885,
+            "y": 0.435,
+            "yaw": 0.522
+          },
+          "nav": {
+            "status": 6,
+            "timed_out": false,
+            "wall_s": 25.001,
+            "truth_after": [
+              1.7284,
+              0.3932,
+              0.6455
+            ],
+            "error_to_dock_m": 0.1621,
+            "heading_to_dock_rad": 0.1235,
+            "stop_displacement_m": 0.0,
+            "amcl_error_m": 0.1261
+          }
+        }
+      ]
+    }
+  ],
+  "final_truth": [
+    1.7284,
+    0.3932,
+    0.6455
+  ]
+}

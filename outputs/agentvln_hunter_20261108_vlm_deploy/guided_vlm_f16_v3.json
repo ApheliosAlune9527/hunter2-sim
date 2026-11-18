@@ -1,0 +1,364 @@
+{
+  "api": "llamacpp",
+  "requested_model": "qwen-vl",
+  "port": 18081,
+  "guided_depth": true,
+  "episodes": [
+    {
+      "instruction": "停在较远的蓝箱前",
+      "expected_box": "blue_far",
+      "expected_candidate": 0,
+      "selected_candidate": 1,
+      "correct": false,
+      "model_responses": 3,
+      "tool_calls": 2,
+      "trace": [
+        {
+          "step": 1,
+          "prompt": "图中蓝箱的检测结果已整理为候选区域。候选编号由列表提供。你负责用图像、指令和工具回执选定目标。只输出一个 JSON 对象。格式为 {\"decision\":\"动作名\",\"candidate_id\":整数编号或null}。\n指令：停在较远的蓝箱前\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [154, 59, 220, 333]}, {\"id\": 1, \"bbox_xywh\": [470, 182, 121, 290]}]\n已返回的深度查询（米）：[]\n当前是测量阶段。箱子像素面积不代表距离。请返回 query_depth，选择一个还未测量的编号 [0, 1]。",
+          "raw": "{\"decision\":\"query_depth\",\"candidate_id\":0}",
+          "wall_ms": 295.1,
+          "server_timing": {
+            "cache_n": 1114,
+            "prompt_n": 121,
+            "prompt_ms": 51.597,
+            "prompt_per_token_ms": 0.4264214876033058,
+            "prompt_per_second": 2345.0975831928213,
+            "predicted_n": 12,
+            "predicted_ms": 150.913,
+            "predicted_per_token_ms": 13.719363636363637,
+            "predicted_per_second": 72.88967815893925
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "query_depth",
+            "candidate_id": 0
+          },
+          "tool_result": {
+            "candidate_id": 0,
+            "depth_m": 2.6172,
+            "valid_pixels": 625
+          }
+        },
+        {
+          "step": 2,
+          "prompt": "图中蓝箱的检测结果已整理为候选区域。候选编号由列表提供。你负责用图像、指令和工具回执选定目标。只输出一个 JSON 对象。格式为 {\"decision\":\"动作名\",\"candidate_id\":整数编号或null}。\n指令：停在较远的蓝箱前\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [154, 59, 220, 333]}, {\"id\": 1, \"bbox_xywh\": [470, 182, 121, 290]}]\n已返回的深度查询（米）：[{\"candidate_id\": 0, \"depth_m\": 2.6172, \"valid_pixels\": 625}]\n当前是测量阶段。箱子像素面积不代表距离。请返回 query_depth，选择一个还未测量的编号 [1]。",
+          "raw": "{\"decision\":\"query_depth\",\"candidate_id\":1}",
+          "wall_ms": 240.6,
+          "server_timing": {
+            "cache_n": 1200,
+            "prompt_n": 60,
+            "prompt_ms": 27.021,
+            "prompt_per_token_ms": 0.45035000000000003,
+            "prompt_per_second": 2220.4951704230043,
+            "predicted_n": 12,
+            "predicted_ms": 151.799,
+            "predicted_per_token_ms": 13.799909090909091,
+            "predicted_per_second": 72.46424548251305
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "query_depth",
+            "candidate_id": 1
+          },
+          "tool_result": {
+            "candidate_id": 1,
+            "depth_m": 1.7304,
+            "valid_pixels": 625
+          }
+        },
+        {
+          "step": 3,
+          "prompt": "请选出符合用户指令的蓝箱，两个编号与图像区域如下。\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [154, 59, 220, 333]}, {\"id\": 1, \"bbox_xywh\": [470, 182, 121, 290]}]\n候选 0 的实测深度：2.617 米\n候选 1 的实测深度：1.730 米\n深度数值小表示较近，深度数值大表示较远。以实测深度为准，不要按图上的像素面积或查询先后选择。\n当前用户指令：「停在较远的蓝箱前」。\n按当前指令比较这两个数字。只返回 JSON 对象，decision 为 select_target，candidate_id 为你选的整数编号。",
+          "raw": "{\n  \"decision\": \"select_target\",\n  \"candidate_id\": 1\n}",
+          "wall_ms": 447.6,
+          "server_timing": {
+            "cache_n": 1052,
+            "prompt_n": 199,
+            "prompt_ms": 59.945,
+            "prompt_per_token_ms": 0.3012311557788945,
+            "prompt_per_second": 3319.7097339227626,
+            "predicted_n": 23,
+            "predicted_ms": 308.226,
+            "predicted_per_token_ms": 14.010272727272728,
+            "predicted_per_second": 71.37619798459572
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "select_target",
+            "candidate_id": 1
+          }
+        }
+      ],
+      "case": "bigfar",
+      "image_sha256": "c178c1d80563720fb62a0a54bae9ebb46162f897a0d5a4153307d98ddad93d64"
+    },
+    {
+      "instruction": "停在较近的蓝箱前",
+      "expected_box": "blue_near",
+      "expected_candidate": 1,
+      "selected_candidate": 1,
+      "correct": true,
+      "model_responses": 3,
+      "tool_calls": 2,
+      "trace": [
+        {
+          "step": 1,
+          "prompt": "图中蓝箱的检测结果已整理为候选区域。候选编号由列表提供。你负责用图像、指令和工具回执选定目标。只输出一个 JSON 对象。格式为 {\"decision\":\"动作名\",\"candidate_id\":整数编号或null}。\n指令：停在较近的蓝箱前\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [154, 59, 220, 333]}, {\"id\": 1, \"bbox_xywh\": [470, 182, 121, 290]}]\n已返回的深度查询（米）：[]\n当前是测量阶段。箱子像素面积不代表距离。请返回 query_depth，选择一个还未测量的编号 [0, 1]。",
+          "raw": "{\"decision\":\"query_depth\",\"candidate_id\":1}",
+          "wall_ms": 275.0,
+          "server_timing": {
+            "cache_n": 1052,
+            "prompt_n": 183,
+            "prompt_ms": 58.05,
+            "prompt_per_token_ms": 0.31721311475409836,
+            "prompt_per_second": 3152.454780361757,
+            "predicted_n": 12,
+            "predicted_ms": 151.749,
+            "predicted_per_token_ms": 13.795363636363636,
+            "predicted_per_second": 72.48812183276331
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "query_depth",
+            "candidate_id": 1
+          },
+          "tool_result": {
+            "candidate_id": 1,
+            "depth_m": 1.7304,
+            "valid_pixels": 625
+          }
+        },
+        {
+          "step": 2,
+          "prompt": "图中蓝箱的检测结果已整理为候选区域。候选编号由列表提供。你负责用图像、指令和工具回执选定目标。只输出一个 JSON 对象。格式为 {\"decision\":\"动作名\",\"candidate_id\":整数编号或null}。\n指令：停在较近的蓝箱前\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [154, 59, 220, 333]}, {\"id\": 1, \"bbox_xywh\": [470, 182, 121, 290]}]\n已返回的深度查询（米）：[{\"candidate_id\": 1, \"depth_m\": 1.7304, \"valid_pixels\": 625}]\n当前是测量阶段。箱子像素面积不代表距离。请返回 query_depth，选择一个还未测量的编号 [0]。",
+          "raw": "{\"decision\":\"query_depth\",\"candidate_id\":0}",
+          "wall_ms": 244.4,
+          "server_timing": {
+            "cache_n": 1200,
+            "prompt_n": 60,
+            "prompt_ms": 27.255,
+            "prompt_per_token_ms": 0.45425,
+            "prompt_per_second": 2201.4309301045682,
+            "predicted_n": 12,
+            "predicted_ms": 152.866,
+            "predicted_per_token_ms": 13.896909090909093,
+            "predicted_per_second": 71.9584472675415
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "query_depth",
+            "candidate_id": 0
+          },
+          "tool_result": {
+            "candidate_id": 0,
+            "depth_m": 2.6172,
+            "valid_pixels": 625
+          }
+        },
+        {
+          "step": 3,
+          "prompt": "请选出符合用户指令的蓝箱，两个编号与图像区域如下。\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [154, 59, 220, 333]}, {\"id\": 1, \"bbox_xywh\": [470, 182, 121, 290]}]\n候选 0 的实测深度：2.617 米\n候选 1 的实测深度：1.730 米\n深度数值小表示较近，深度数值大表示较远。以实测深度为准，不要按图上的像素面积或查询先后选择。\n当前用户指令：「停在较近的蓝箱前」。\n按当前指令比较这两个数字。只返回 JSON 对象，decision 为 select_target，candidate_id 为你选的整数编号。",
+          "raw": "{\n  \"decision\": \"select_target\",\n  \"candidate_id\": 1\n}",
+          "wall_ms": 414.2,
+          "server_timing": {
+            "cache_n": 1052,
+            "prompt_n": 199,
+            "prompt_ms": 59.475,
+            "prompt_per_token_ms": 0.29886934673366833,
+            "prompt_per_second": 3345.943673812526,
+            "predicted_n": 23,
+            "predicted_ms": 278.846,
+            "predicted_per_token_ms": 12.674818181818182,
+            "predicted_per_second": 78.89659525329394
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "select_target",
+            "candidate_id": 1
+          }
+        }
+      ],
+      "case": "bigfar",
+      "image_sha256": "c178c1d80563720fb62a0a54bae9ebb46162f897a0d5a4153307d98ddad93d64"
+    },
+    {
+      "instruction": "停在较远的蓝箱前",
+      "expected_box": "blue_far",
+      "expected_candidate": 1,
+      "selected_candidate": 1,
+      "correct": true,
+      "model_responses": 3,
+      "tool_calls": 2,
+      "trace": [
+        {
+          "step": 1,
+          "prompt": "图中蓝箱的检测结果已整理为候选区域。候选编号由列表提供。你负责用图像、指令和工具回执选定目标。只输出一个 JSON 对象。格式为 {\"decision\":\"动作名\",\"candidate_id\":整数编号或null}。\n指令：停在较远的蓝箱前\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [358, 0, 282, 480]}, {\"id\": 1, \"bbox_xywh\": [227, 207, 83, 167]}]\n已返回的深度查询（米）：[]\n当前是测量阶段。箱子像素面积不代表距离。请返回 query_depth，选择一个还未测量的编号 [0, 1]。",
+          "raw": "{\"decision\":\"query_depth\",\"candidate_id\":0}",
+          "wall_ms": 288.0,
+          "server_timing": {
+            "cache_n": 1114,
+            "prompt_n": 119,
+            "prompt_ms": 48.372,
+            "prompt_per_token_ms": 0.4064873949579832,
+            "prompt_per_second": 2460.100884809394,
+            "predicted_n": 12,
+            "predicted_ms": 152.248,
+            "predicted_per_token_ms": 13.840727272727271,
+            "predicted_per_second": 72.25053859492407
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "query_depth",
+            "candidate_id": 0
+          },
+          "tool_result": {
+            "candidate_id": 0,
+            "depth_m": 1.5274,
+            "valid_pixels": 625
+          }
+        },
+        {
+          "step": 2,
+          "prompt": "图中蓝箱的检测结果已整理为候选区域。候选编号由列表提供。你负责用图像、指令和工具回执选定目标。只输出一个 JSON 对象。格式为 {\"decision\":\"动作名\",\"candidate_id\":整数编号或null}。\n指令：停在较远的蓝箱前\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [358, 0, 282, 480]}, {\"id\": 1, \"bbox_xywh\": [227, 207, 83, 167]}]\n已返回的深度查询（米）：[{\"candidate_id\": 0, \"depth_m\": 1.5274, \"valid_pixels\": 625}]\n当前是测量阶段。箱子像素面积不代表距离。请返回 query_depth，选择一个还未测量的编号 [1]。",
+          "raw": "{\"decision\":\"query_depth\",\"candidate_id\":1}",
+          "wall_ms": 245.2,
+          "server_timing": {
+            "cache_n": 1198,
+            "prompt_n": 60,
+            "prompt_ms": 27.71,
+            "prompt_per_token_ms": 0.4618333333333334,
+            "prompt_per_second": 2165.2832912306026,
+            "predicted_n": 12,
+            "predicted_ms": 151.647,
+            "predicted_per_token_ms": 13.786090909090909,
+            "predicted_per_second": 72.53687840840901
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "query_depth",
+            "candidate_id": 1
+          },
+          "tool_result": {
+            "candidate_id": 1,
+            "depth_m": 2.9113,
+            "valid_pixels": 625
+          }
+        },
+        {
+          "step": 3,
+          "prompt": "请选出符合用户指令的蓝箱，两个编号与图像区域如下。\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [358, 0, 282, 480]}, {\"id\": 1, \"bbox_xywh\": [227, 207, 83, 167]}]\n候选 0 的实测深度：1.527 米\n候选 1 的实测深度：2.911 米\n深度数值小表示较近，深度数值大表示较远。以实测深度为准，不要按图上的像素面积或查询先后选择。\n当前用户指令：「停在较远的蓝箱前」。\n按当前指令比较这两个数字。只返回 JSON 对象，decision 为 select_target，candidate_id 为你选的整数编号。",
+          "raw": "{\n  \"decision\": \"select_target\",\n  \"candidate_id\": 1\n}",
+          "wall_ms": 417.7,
+          "server_timing": {
+            "cache_n": 1052,
+            "prompt_n": 197,
+            "prompt_ms": 61.053,
+            "prompt_per_token_ms": 0.3099137055837563,
+            "prompt_per_second": 3226.7046664373574,
+            "predicted_n": 23,
+            "predicted_ms": 278.711,
+            "predicted_per_token_ms": 12.668681818181819,
+            "predicted_per_second": 78.93481061027371
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "select_target",
+            "candidate_id": 1
+          }
+        }
+      ],
+      "case": "swap",
+      "image_sha256": "f28af559d13f5e463b24c55a57f8a4e9948f5a3b3801bf3874b0c41b190bf04f"
+    },
+    {
+      "instruction": "停在较近的蓝箱前",
+      "expected_box": "blue_near",
+      "expected_candidate": 0,
+      "selected_candidate": 0,
+      "correct": true,
+      "model_responses": 3,
+      "tool_calls": 2,
+      "trace": [
+        {
+          "step": 1,
+          "prompt": "图中蓝箱的检测结果已整理为候选区域。候选编号由列表提供。你负责用图像、指令和工具回执选定目标。只输出一个 JSON 对象。格式为 {\"decision\":\"动作名\",\"candidate_id\":整数编号或null}。\n指令：停在较近的蓝箱前\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [358, 0, 282, 480]}, {\"id\": 1, \"bbox_xywh\": [227, 207, 83, 167]}]\n已返回的深度查询（米）：[]\n当前是测量阶段。箱子像素面积不代表距离。请返回 query_depth，选择一个还未测量的编号 [0, 1]。",
+          "raw": "{\"decision\":\"query_depth\",\"candidate_id\":0}",
+          "wall_ms": 276.5,
+          "server_timing": {
+            "cache_n": 1052,
+            "prompt_n": 181,
+            "prompt_ms": 57.972,
+            "prompt_per_token_ms": 0.3202872928176796,
+            "prompt_per_second": 3122.196922652315,
+            "predicted_n": 12,
+            "predicted_ms": 152.251,
+            "predicted_per_token_ms": 13.841000000000001,
+            "predicted_per_second": 72.24911494834188
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "query_depth",
+            "candidate_id": 0
+          },
+          "tool_result": {
+            "candidate_id": 0,
+            "depth_m": 1.5274,
+            "valid_pixels": 625
+          }
+        },
+        {
+          "step": 2,
+          "prompt": "图中蓝箱的检测结果已整理为候选区域。候选编号由列表提供。你负责用图像、指令和工具回执选定目标。只输出一个 JSON 对象。格式为 {\"decision\":\"动作名\",\"candidate_id\":整数编号或null}。\n指令：停在较近的蓝箱前\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [358, 0, 282, 480]}, {\"id\": 1, \"bbox_xywh\": [227, 207, 83, 167]}]\n已返回的深度查询（米）：[{\"candidate_id\": 0, \"depth_m\": 1.5274, \"valid_pixels\": 625}]\n当前是测量阶段。箱子像素面积不代表距离。请返回 query_depth，选择一个还未测量的编号 [1]。",
+          "raw": "{\"decision\":\"query_depth\",\"candidate_id\":1}",
+          "wall_ms": 245.1,
+          "server_timing": {
+            "cache_n": 1198,
+            "prompt_n": 60,
+            "prompt_ms": 29.308,
+            "prompt_per_token_ms": 0.48846666666666666,
+            "prompt_per_second": 2047.2226013375187,
+            "predicted_n": 12,
+            "predicted_ms": 152.464,
+            "predicted_per_token_ms": 13.860363636363637,
+            "predicted_per_second": 72.14817924231293
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "query_depth",
+            "candidate_id": 1
+          },
+          "tool_result": {
+            "candidate_id": 1,
+            "depth_m": 2.9113,
+            "valid_pixels": 625
+          }
+        },
+        {
+          "step": 3,
+          "prompt": "请选出符合用户指令的蓝箱，两个编号与图像区域如下。\n候选区域[x,y,w,h]：[{\"id\": 0, \"bbox_xywh\": [358, 0, 282, 480]}, {\"id\": 1, \"bbox_xywh\": [227, 207, 83, 167]}]\n候选 0 的实测深度：1.527 米\n候选 1 的实测深度：2.911 米\n深度数值小表示较近，深度数值大表示较远。以实测深度为准，不要按图上的像素面积或查询先后选择。\n当前用户指令：「停在较近的蓝箱前」。\n按当前指令比较这两个数字。只返回 JSON 对象，decision 为 select_target，candidate_id 为你选的整数编号。",
+          "raw": "{\n  \"decision\": \"select_target\",\n  \"candidate_id\": 0\n}",
+          "wall_ms": 391.6,
+          "server_timing": {
+            "cache_n": 1052,
+            "prompt_n": 197,
+            "prompt_ms": 63.687,
+            "prompt_per_token_ms": 0.32328426395939086,
+            "prompt_per_second": 3093.2529401604725,
+            "predicted_n": 23,
+            "predicted_ms": 254.056,
+            "predicted_per_token_ms": 11.548,
+            "predicted_per_second": 86.59508139937651
+          },
+          "returned_model": "qwen-vl",
+          "action": {
+            "decision": "select_target",
+            "candidate_id": 0
+          }
+        }
+      ],
+      "case": "swap",
+      "image_sha256": "f28af559d13f5e463b24c55a57f8a4e9948f5a3b3801bf3874b0c41b190bf04f"
+    }
+  ]
+}

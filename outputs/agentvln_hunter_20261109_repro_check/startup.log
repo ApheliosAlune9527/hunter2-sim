@@ -1,0 +1,14 @@
+sim/experiments/agentvln_hunter/scenes/lab_agentvln_bigfar_straight.sdf: OK
+sim/experiments/agentvln_hunter/config/target_layout_straight.json: OK
+sim/experiments/agentvln_hunter/scenes/lab_walls.stl: OK
+sim/experiments/agentvln_hunter/config/straight_nav_map/lab_nav_map_fix.yaml: OK
+sim/experiments/agentvln_hunter/config/straight_nav_map/lab_nav_map.pgm: OK
+sim/experiments/agentvln_hunter/config/agentvln_bridge.yaml: OK
+sim/experiments/lab_nav_fix_20261106/nav2_params_fix.yaml: OK
+已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / Radeon RX 9070 XT。
+[stack] world sha256=127d51020a3cfaca7b56b715b58967a4fbd814660f1b9acea2c0e71fce849f3a
+[stack] server pid=482 start=21313
+[stack] bridge pid=511 start=21552
+[stack] odom_tf pid=570 start=21882
+[stack] nav2 pid=584 start=22213
+[stack] ready in 0s

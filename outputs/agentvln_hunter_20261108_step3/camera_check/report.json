@@ -1,0 +1,429 @@
+{
+  "overall": false,
+  "checks": [
+    {
+      "name": "frames_received",
+      "ok": true,
+      "detail": {
+        "count": 3,
+        "wanted": 3
+      }
+    },
+    {
+      "name": "rgb_size",
+      "ok": true,
+      "detail": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "rgb_encoding",
+      "ok": true,
+      "detail": {
+        "encoding": "rgb8"
+      }
+    },
+    {
+      "name": "rgb_frame",
+      "ok": true,
+      "detail": {
+        "frame_id": "agentvln_camera_optical_frame"
+      }
+    },
+    {
+      "name": "depth_size",
+      "ok": true,
+      "detail": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "depth_encoding",
+      "ok": true,
+      "detail": {
+        "encoding": "32FC1"
+      }
+    },
+    {
+      "name": "depth_frame",
+      "ok": true,
+      "detail": {
+        "frame_id": "agentvln_camera_optical_frame"
+      }
+    },
+    {
+      "name": "info_size",
+      "ok": true,
+      "detail": {
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "distortion_zero",
+      "ok": true,
+      "detail": {
+        "d": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "intrinsics_k",
+      "ok": true,
+      "detail": {
+        "fx": 606.7595825195312,
+        "fy": 606.7595825195312,
+        "cx": 320.0,
+        "cy": 240.0
+      }
+    },
+    {
+      "name": "intrinsics_p",
+      "ok": true,
+      "detail": {
+        "P": [
+          [
+            606.7595825195312,
+            0.0,
+            320.0,
+            0.0
+          ],
+          [
+            0.0,
+            606.7595825195312,
+            240.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "stamp_rgb_depth_1",
+      "ok": true,
+      "detail": {
+        "rgb": 160400000000,
+        "depth": 160400000000
+      }
+    },
+    {
+      "name": "stamp_rgb_info_1",
+      "ok": true,
+      "detail": {
+        "rgb": 160400000000,
+        "info": 160400000000
+      }
+    },
+    {
+      "name": "stamp_behind_clock_1",
+      "ok": true,
+      "detail": {
+        "age_s": 0.008
+      }
+    },
+    {
+      "name": "stamp_rgb_depth_2",
+      "ok": true,
+      "detail": {
+        "rgb": 160600000000,
+        "depth": 160600000000
+      }
+    },
+    {
+      "name": "stamp_rgb_info_2",
+      "ok": true,
+      "detail": {
+        "rgb": 160600000000,
+        "info": 160600000000
+      }
+    },
+    {
+      "name": "stamp_behind_clock_2",
+      "ok": true,
+      "detail": {
+        "age_s": 0.008
+      }
+    },
+    {
+      "name": "stamp_rgb_depth_3",
+      "ok": true,
+      "detail": {
+        "rgb": 160800000000,
+        "depth": 160800000000
+      }
+    },
+    {
+      "name": "stamp_rgb_info_3",
+      "ok": true,
+      "detail": {
+        "rgb": 160800000000,
+        "info": 160800000000
+      }
+    },
+    {
+      "name": "stamp_behind_clock_3",
+      "ok": true,
+      "detail": {
+        "age_s": 0.008
+      }
+    },
+    {
+      "name": "new_frames",
+      "ok": true,
+      "detail": {
+        "stamps": [
+          160400000000,
+          160600000000,
+          160800000000
+        ]
+      }
+    },
+    {
+      "name": "rgb_not_black",
+      "ok": true,
+      "detail": {
+        "mean": 191.89119683159723,
+        "std": 52.11888154559012
+      }
+    },
+    {
+      "name": "depth_valid_fraction",
+      "ok": true,
+      "detail": {
+        "valid_fraction": 1.0
+      }
+    },
+    {
+      "name": "depth_plausible_metres",
+      "ok": true,
+      "detail": {
+        "min": 0.793363630771637,
+        "median": 1.7916851043701172,
+        "max": 2.7416882514953613
+      }
+    },
+    {
+      "name": "tf_static_translation",
+      "ok": true,
+      "detail": {
+        "error_m": 0.0,
+        "actual": [
+          0.644,
+          0.015,
+          0.64
+        ]
+      }
+    },
+    {
+      "name": "tf_static_rotation",
+      "ok": true,
+      "detail": {
+        "error": 0.0,
+        "actual_xyzw": [
+          0.5,
+          -0.5,
+          0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "name": "optical_axes",
+      "ok": true,
+      "detail": {
+        "optical_x_to_base": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "optical_y_to_base": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "optical_z_to_base": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "tf_map_base_at_stamp",
+      "ok": true,
+      "detail": {
+        "ok": true,
+        "error": null
+      }
+    },
+    {
+      "name": "tf_map_optical_at_stamp",
+      "ok": true,
+      "detail": {
+        "error": null
+      }
+    },
+    {
+      "name": "marker_red_in_frame",
+      "ok": false,
+      "detail": {
+        "u": -33.25681849433232,
+        "v": 293.94230811384654,
+        "z": -2.9245595335321415
+      }
+    },
+    {
+      "name": "marker_green_in_frame",
+      "ok": false,
+      "detail": {
+        "u": 17.09662964725817,
+        "v": 295.61992896620364,
+        "z": -2.8363483087318637
+      }
+    },
+    {
+      "name": "marker_blue_in_frame",
+      "ok": false,
+      "detail": {
+        "u": 70.68262347185541,
+        "v": 297.40524822341996,
+        "z": -2.7481370839315855
+      }
+    }
+  ],
+  "markers": [
+    {
+      "name": "red",
+      "xyz_map": [
+        1.5,
+        -1.05,
+        0.9
+      ],
+      "xyz_optical": [
+        1.7026852580108653,
+        -0.26,
+        -2.9245595335321415
+      ],
+      "expected_z_m": -2.9245595335321415,
+      "u": -33.25681849433232,
+      "v": 293.94230811384654,
+      "in_frame": false
+    },
+    {
+      "name": "green",
+      "xyz_map": [
+        1.5,
+        -0.75,
+        0.9
+      ],
+      "xyz_optical": [
+        1.4159470850738898,
+        -0.26,
+        -2.8363483087318637
+      ],
+      "expected_z_m": -2.8363483087318637,
+      "u": 17.09662964725817,
+      "v": 295.61992896620364,
+      "in_frame": false
+    },
+    {
+      "name": "blue",
+      "xyz_map": [
+        1.5,
+        -0.45,
+        0.9
+      ],
+      "xyz_optical": [
+        1.1292089121369147,
+        -0.26,
+        -2.7481370839315855
+      ],
+      "expected_z_m": -2.7481370839315855,
+      "u": 70.68262347185541,
+      "v": 297.40524822341996,
+      "in_frame": false
+    }
+  ],
+  "frames": [
+    {
+      "stamp_ns": 160400000000,
+      "stamp_s": 160.4
+    },
+    {
+      "stamp_ns": 160600000000,
+      "stamp_s": 160.6
+    },
+    {
+      "stamp_ns": 160800000000,
+      "stamp_s": 160.8
+    }
+  ],
+  "topics": {
+    "rgb": "/hz_sim/agentvln/camera/image",
+    "depth": "/hz_sim/agentvln/camera/depth_image",
+    "info": "/hz_sim/agentvln/camera/camera_info"
+  },
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "fx": 606.7595825195312,
+    "fy": 606.7595825195312,
+    "cx": 320.0,
+    "cy": 240.0
+  },
+  "tf": {
+    "base_to_camera": [
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.644
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.015
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.64
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "image_stats": {
+    "mean_rgb": [
+      182.8538671875,
+      185.436181640625,
+      207.38354166666667
+    ],
+    "depth_valid_fraction": 1.0,
+    "depth_median": 1.7916851043701172
+  },
+  "files": {
+    "rgb": "outputs/agentvln_hunter_20261108_step3/camera_check/rgb.png",
+    "annotated": "outputs/agentvln_hunter_20261108_step3/camera_check/annotated.png",
+    "depth_vis": "outputs/agentvln_hunter_20261108_step3/camera_check/depth_vis.png",
+    "depth_npy": "outputs/agentvln_hunter_20261108_step3/camera_check/depth.npy"
+  }
+}

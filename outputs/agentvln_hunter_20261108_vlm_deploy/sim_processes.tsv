@@ -1,0 +1,4 @@
+server	428	11323	ign gazebo -s -r -v 3 --headless-rendering /mnt/d/rob-memory/outputs/agentvln_hunter_20261108_step5_unblock/lab_agentvln_bigfar_straight.sdf
+bridge	454	11562	ros2 run ros_gz_bridge parameter_bridge --ros-args -p config_file:=/mnt/d/rob-memory/sim/experiments/agentvln_hunter/config/agentvln_bridge.yaml -p use_sim_time:=true
+odom_tf	498	11894	python3 -B /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/odom_tf.py --ros-args -p use_sim_time:=true
+nav2	514	12226	ros2 launch /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/run_nav2_fix.launch.py

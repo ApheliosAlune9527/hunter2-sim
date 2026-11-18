@@ -1,0 +1,37 @@
+task	mode	rep	success	success_task	action_ok	nav_status	attempts	end_x	end_y	park_m	yaw_err_rad	parking_ok	stop_m	path_m	reobserves	wall_s	dir	note
+A1	baseline	1	True	True	True	4	2	4.3828	1.5213	0.0793	0.031	True	0.0369	5.235	0	17.354	outputs/agentvln_hunter_20261108_step4/A1_baseline_r1	
+A1	baseline	2	False	False	False	6	2	4.157	1.4172	0.3213	0.2159	False	0.0	5.008	0	36.813	outputs/agentvln_hunter_20261108_step4/A1_baseline_r2	
+A1	baseline	3	True	True	True	4	2	4.3403	1.5372	0.1233	0.0535	True	0.0408	5.211	0	11.811	outputs/agentvln_hunter_20261108_step4/A1_baseline_r3	
+A1	visual	1	True	True	True	4	1	4.209	1.5072	0.2533	0.0474	True	0.0365	5.088	1	11.661	outputs/agentvln_hunter_20261108_step4/A1_visual_r1	
+A1	visual	2	False	False	False	6	1	4.1692	1.4284	0.3062	0.1112	False	0.0	5.011	1	34.943	outputs/agentvln_hunter_20261108_step4/A1_visual_r2	
+A1	visual	3	True	True	True	4	1	4.1966	1.5223	0.2654	0.0036	True	0.0455	5.072	1	10.811	outputs/agentvln_hunter_20261108_step4/A1_visual_r3	
+A2	baseline	1	True	True	True	4	2	4.356	1.5251	0.1062	0.0282	True	0.0426	4.539	0	12.211	outputs/agentvln_hunter_20261108_step4/A2_baseline_r1	
+A2	baseline	2	False	False	False	6	2	4.1083	1.392	0.3755	0.3	False	0.0	4.278	0	36.381	outputs/agentvln_hunter_20261108_step4/A2_baseline_r2	
+A2	baseline	3	True	True	True	4	2	4.3541	1.5252	0.1082	0.06	True	0.0297	4.527	0	11.911	outputs/agentvln_hunter_20261108_step4/A2_baseline_r3	
+A2	visual	1	True	True	True	4	1	4.2849	1.5075	0.1774	0.117	True	0.0156	4.454	0	18.973	outputs/agentvln_hunter_20261108_step4/A2_visual_r1	
+A2	visual	2	True	True	True	4	1	4.2499	1.5093	0.2123	0.0004	True	0.0406	4.421	0	18.461	outputs/agentvln_hunter_20261108_step4/A2_visual_r2	
+A2	visual	3	True	True	True	4	1	4.2471	1.508	0.2151	0.0608	True	0.0368	4.418	0	18.812	outputs/agentvln_hunter_20261108_step4/A2_visual_r3	
+A3	baseline	1	True	True	True	4	2	4.3123	1.4912	0.1521	0.0018	True	0.0223	3.877	0	11.821	outputs/agentvln_hunter_20261108_step4/A3_baseline_r1	
+A3	baseline	2	True	True	True	4	2	4.3705	1.4682	0.1041	0.0569	True	0.0155	3.921	0	11.823	outputs/agentvln_hunter_20261108_step4/A3_baseline_r2	
+A3	baseline	3	True	True	True	4	2	4.3394	1.5219	0.1226	0.0058	True	0.034	3.917	0	12.161	outputs/agentvln_hunter_20261108_step4/A3_baseline_r3	
+A3	visual	1	True	True	True	4	1	4.2413	1.5085	0.2209	0.0301	True	0.0408	3.814	0	15.972	outputs/agentvln_hunter_20261108_step4/A3_visual_r1	
+A3	visual	2	True	True	True	4	1	4.273	1.4968	0.1902	0.0751	True	0.0287	3.833	0	16.073	outputs/agentvln_hunter_20261108_step4/A3_visual_r2	
+A3	visual	3	True	True	True	4	1	4.2654	1.5199	0.1967	0.0526	True	0.0383	3.84	0	16.111	outputs/agentvln_hunter_20261108_step4/A3_visual_r3	
+B1	baseline	1	True	True	True	4	2	3.7982	1.2926	0.0897	0.0665	True	0.0159	4.605	0	9.461	outputs/agentvln_hunter_20261108_step4/B1_baseline_r1	
+B1	baseline	2	False	True	False	6	2	3.7631	1.2915	0.121	0.0773	True	0.0	4.572	0	33.081	outputs/agentvln_hunter_20261108_step4/B1_baseline_r2	nav2_abort_after_parking
+B1	baseline	3	False	True	False	6	2	3.8046	1.3004	0.08	0.0732	True	0.0	4.632	0	33.463	outputs/agentvln_hunter_20261108_step4/B1_baseline_r3	nav2_abort_after_parking
+B1	visual	1	True	True	True	4	1	3.6042	1.3156	0.2701	0.0627	True	0.0411	4.446	1	8.461	outputs/agentvln_hunter_20261108_step4/B1_visual_r1	
+B1	visual	2	True	True	True	4	1	3.6261	1.3466	0.247	0.0363	True	0.0172	4.477	1	9.061	outputs/agentvln_hunter_20261108_step4/B1_visual_r2	
+B1	visual	3	True	True	True	4	1	3.6542	1.2909	0.2247	0.046	True	0.0175	4.47	1	9.011	outputs/agentvln_hunter_20261108_step4/B1_visual_r3	
+B2	baseline	1	False	True	False	6	2	3.8148	1.2945	0.0751	0.148	True	0.0	3.953	0	34.643	outputs/agentvln_hunter_20261108_step4/B2_baseline_r1	nav2_abort_after_parking
+B2	baseline	2	True	True	True	4	2	3.7872	1.2685	0.113	0.0241	True	0.0217	3.904	0	9.111	outputs/agentvln_hunter_20261108_step4/B2_baseline_r2	
+B2	baseline	3	False	True	False	6	2	3.7819	1.2791	0.1108	0.0036	True	0.0	3.905	0	34.181	outputs/agentvln_hunter_20261108_step4/B2_baseline_r3	nav2_abort_after_parking
+B2	visual	1	True	True	True	4	1	3.5979	1.2358	0.2949	0.0116	True	0.0257	3.715	0	16.061	outputs/agentvln_hunter_20261108_step4/B2_visual_r1	
+B2	visual	2	True	True	True	4	1	3.6429	1.2401	0.2517	0.023	True	0.0164	3.756	0	16.211	outputs/agentvln_hunter_20261108_step4/B2_visual_r2	
+B2	visual	3	True	True	True	4	1	3.6452	1.2404	0.2494	0.0567	True	0.0208	3.757	0	16.311	outputs/agentvln_hunter_20261108_step4/B2_visual_r3	
+B3	baseline	1	True	True	True	4	2	3.8218	1.2998	0.0663	0.0516	True	0.0157	3.346	0	9.411	outputs/agentvln_hunter_20261108_step4/B3_baseline_r1	
+B3	baseline	2	True	True	True	4	2	3.775	1.2864	0.1127	0.0029	True	0.0143	3.302	0	10.423	outputs/agentvln_hunter_20261108_step4/B3_baseline_r2	
+B3	baseline	3	True	True	True	4	2	3.8121	1.3023	0.0727	0.0068	True	0.044	3.336	0	9.161	outputs/agentvln_hunter_20261108_step4/B3_baseline_r3	
+B3	visual	1	True	True	True	4	1	3.6778	1.2982	0.2001	0.0781	True	0.0375	3.213	0	13.573	outputs/agentvln_hunter_20261108_step4/B3_visual_r1	
+B3	visual	2	True	True	True	4	1	3.6444	1.237	0.2516	0.0715	True	0.0168	3.155	0	13.661	outputs/agentvln_hunter_20261108_step4/B3_visual_r2	
+B3	visual	3	True	True	True	4	1	3.6344	1.3168	0.2399	0.0531	True	0.0342	3.183	0	13.522	outputs/agentvln_hunter_20261108_step4/B3_visual_r3	

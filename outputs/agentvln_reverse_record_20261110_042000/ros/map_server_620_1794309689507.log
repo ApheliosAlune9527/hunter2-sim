@@ -1,0 +1,19 @@
+[INFO] [1794309689.518776621] [map_server]: 
+	map_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794309689.519189749] [map_server]: Creating
+[INFO] [1794309689.532740469] [map_server]: Configuring
+[INFO] [1794309689.532775743] [map_io]: Loading yaml file: /mnt/d/rob-memory/sim/experiments/agentvln_hunter/config/straight_nav_map/lab_nav_map_fix.yaml
+[INFO] [1794309689.535671105] [map_io]: resolution: 0.05
+[INFO] [1794309689.535717505] [map_io]: origin[0]: -5.09
+[INFO] [1794309689.535722662] [map_io]: origin[1]: -4.89
+[INFO] [1794309689.535725544] [map_io]: origin[2]: 0
+[INFO] [1794309689.535728750] [map_io]: free_thresh: 0.1
+[INFO] [1794309689.535731513] [map_io]: occupied_thresh: 0.65
+[INFO] [1794309689.535734709] [map_io]: mode: trinary
+[INFO] [1794309689.535738013] [map_io]: negate: 0
+[INFO] [1794309689.536572355] [map_io]: Loading image_file: /mnt/d/rob-memory/sim/experiments/agentvln_hunter/config/straight_nav_map/lab_nav_map.pgm
+[INFO] [1794309689.555981637] [map_io]: Read map /mnt/d/rob-memory/sim/experiments/agentvln_hunter/config/straight_nav_map/lab_nav_map.pgm: 241 X 465 map @ 0.05 m/cell
+[INFO] [1794309698.425995315] [map_server]: Activating
+[INFO] [1794309698.426841776] [map_server]: Creating bond (map_server) to lifecycle manager.

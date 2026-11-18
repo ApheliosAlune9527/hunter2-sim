@@ -1,0 +1,40 @@
+[INFO] [1794311161.512888658] [controller_server]: 
+	controller_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794311161.517735527] [controller_server]: Creating controller server
+[INFO] [1794311161.524021959] [local_costmap.local_costmap]: 
+	local_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794311161.524383194] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [1794311166.504438237] [controller_server]: Configuring controller interface
+[INFO] [1794311166.504860097] [controller_server]: getting goal checker plugins..
+[INFO] [1794311166.505184109] [controller_server]: Controller frequency set to 20.0000Hz
+[INFO] [1794311166.505219469] [local_costmap.local_costmap]: Configuring
+[INFO] [1794311166.510652062] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[INFO] [1794311166.514486515] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[INFO] [1794311166.522931253] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[INFO] [1794311166.522971532] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[INFO] [1794311166.524523943] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1794311166.531358522] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[INFO] [1794311166.532655964] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[INFO] [1794311166.533991324] [controller_server]: Created goal checker : shift_goal_checker of type nav2_controller::SimpleGoalChecker
+[INFO] [1794311166.534993410] [controller_server]: Controller Server has general_goal_checker shift_goal_checker  goal checkers available.
+[INFO] [1794311166.535495904] [controller_server]: Created controller : FollowPath of type nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[INFO] [1794311166.545021510] [controller_server]: Controller Server has FollowPath  controllers available.
+[INFO] [1794311170.193363262] [controller_server]: Activating
+[INFO] [1794311170.193406055] [local_costmap.local_costmap]: Activating
+[INFO] [1794311170.193419370] [local_costmap.local_costmap]: Checking transform
+[INFO] [1794311170.193530360] [local_costmap.local_costmap]: start
+[INFO] [1794311170.244074927] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[INFO] [1794311170.244128336] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[INFO] [1794311174.741019066] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794311195.091768034] [controller_server]: Reached the goal!
+[INFO] [1794311198.547662566] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794311225.177920138] [controller_server]: Reached the goal!
+[INFO] [1794311227.200282768] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794311246.496109089] [controller_server]: Reached the goal!
+[INFO] [1794311248.173435572] [controller_server]: Received a goal, begin computing control effort.
+[INFO] [1794311256.024022726] [controller_server]: Reached the goal!
+[INFO] [1794311257.640471732] [controller_server]: Received a goal, begin computing control effort.

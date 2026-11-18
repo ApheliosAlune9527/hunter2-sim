@@ -1,0 +1,37 @@
+[INFO] [1794300047.775086208] [planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794300047.777503503] [planner_server]: Creating
+[INFO] [1794300047.784661906] [global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794300047.785422246] [global_costmap.global_costmap]: Creating Costmap
+[INFO] [1794300047.851601416] [planner_server]: Configuring
+[INFO] [1794300047.851637178] [global_costmap.global_costmap]: Configuring
+[INFO] [1794300047.856349425] [global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1794300047.860149435] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1794300047.860760468] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1794300047.860813566] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1794300047.862778681] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1794300047.867755260] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1794300047.867796720] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1794300047.869099966] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1794300047.878459514] [planner_server]: Created global planner plugin GridBased of type nav2_smac_planner/SmacPlannerHybrid
+[INFO] [1794300047.878514429] [planner_server]: Configuring GridBased of type SmacPlannerHybrid
+[INFO] [1794300047.884858834] [planner_server]: Even sized heuristic lookup table size set 400.000000, increasing size by 1 to make odd
+[INFO] [1794300055.955519181] [planner_server]: Configured plugin GridBased of type SmacPlannerHybrid with maximum iterations 1000000, max on approach iterations 1000, and not allowing unknown traversal. Tolerance 0.05.Using motion model: Reeds-Shepp.
+[INFO] [1794300055.955650354] [planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1794300056.086492202] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 241 X 465 at 0.050000 m/pix
+[INFO] [1794300056.092504613] [planner_server]: Activating
+[INFO] [1794300056.092532271] [global_costmap.global_costmap]: Activating
+[INFO] [1794300056.092539681] [global_costmap.global_costmap]: Checking transform
+[INFO] [1794300056.092553386] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1794300056.592746388] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1794300057.092862523] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1794300057.592938331] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 0.708000 but the earliest data is at time 1.400000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794300058.092892447] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1.200000 but the earliest data is at time 1.400000, when looking up transform from frame [base_link] to frame [map]
+[INFO] [1794300058.592927378] [global_costmap.global_costmap]: start
+[INFO] [1794300059.643852709] [planner_server]: Activating plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794300059.644732608] [planner_server]: Creating bond (planner_server) to lifecycle manager.

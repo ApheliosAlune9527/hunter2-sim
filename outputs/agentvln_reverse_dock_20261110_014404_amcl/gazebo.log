@@ -1,0 +1,71 @@
+[1;32m[Msg] [0m[1;32mIgnition Gazebo Server v[0m[1;32m6.18.0[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLoading SDF world file[[0m[1;32m/mnt/d/rob-memory/sim/experiments/agentvln_hunter/scenes/lab_agentvln_bigfar_straight.sdf[0m[1;32m].[0m
+[1;32m[Msg] [0m[1;32mServing entity system service on [[0m[1;32m/[0m[1;32mentity/system/add[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mCreate service on [[0m[1;32m/world/hz_lab_2d/create[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mRemove service on [[0m[1;32m/world/hz_lab_2d/remove[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/hz_lab_2d/set_pose[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/hz_lab_2d/set_pose_vector[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLight configuration service on [[0m[1;32m/world/hz_lab_2d/light_config[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mPhysics service on [[0m[1;32m/world/hz_lab_2d/set_physics[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mSphericalCoordinates service on [[0m[1;32m/world/hz_lab_2d/set_spherical_coordinates[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mEnable collision service on [[0m[1;32m/world/hz_lab_2d/enable_collision[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mDisable collision service on [[0m[1;32m/world/hz_lab_2d/disable_collision[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/hz_lab_2d/visual_config[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/hz_lab_2d/wheel_slip[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mAckermannSteering subscribing to twist messages on [[0m[1;32m/hz_sim/lab/cmd_vel[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mOdometryPublisher publishing odometry on [[0m[1;32m/hz_sim/lab/ground_truth[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mOdometryPublisher publishing odometry with covariance on [[0m[1;32m/model/hz_hunter_full/odometry_with_covariance[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mOdometryPublisher publishing Pose_V (TF) on [[0m[1;32m/model/hz_hunter_full/pose[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLoaded level [[0m[1;32m3[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing world controls on [[0m[1;32m/world/hz_lab_2d[0m[1;32m/control], [[0m[1;32m/world/hz_lab_2d[0m[1;32m/control/state] and [[0m[1;32m/world/hz_lab_2d[0m[1;32m/playback/control][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing GUI information on [[0m[1;32m/world/hz_lab_2d[0m[1;32m/[0m[1;32mgui/info[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mWorld [[0m[1;32mhz_lab_2d[0m[1;32m] initialized with [[0m[1;32mlab_physics[0m[1;32m] physics profile.[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing world SDF generation service on [[0m[1;32m/world/hz_lab_2d[0m[1;32m/[0m[1;32mgenerate_world_sdf[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing world names on [[0m[1;32m/gazebo/worlds[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource path add service on [[0m[1;32m/gazebo/resource_paths/add[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource path get service on [[0m[1;32m/gazebo/resource_paths/get[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource path resolve service on [[0m[1;32m/gazebo/resource_paths/resolve[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mResource paths published on [[0m[1;32m/gazebo/resource_paths[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServer control service on [[0m[1;32m/server_control[0m[1;32m].[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mFound no publishers on /stats, adding root stats topic[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mFound no publishers on /clock, adding root clock topic[0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mignition-rendering-ogre[0m[1;32m][0m[1;32m[0m
+[1;32m[Msg] [0m[1;32mServing scene information on [[0m[1;32m/world/hz_lab_2d[0m[1;32m/[0m[1;32mscene/info[0m[1;32m][0m[1;32m[0m
+[1Dropped Escape call with ulEscapeCode : 0x03007703
+D3D12: Removing Device.
+terminate called after throwing an instance of 'Ogre::InvalidParametersException'
+  what():  OGRE EXCEPTION(2:InvalidParametersException): All framebuffer formats with this texture internal format unsupported in GLFrameBufferObject::initialise at ./RenderSystems/GL/src/OgreGLFrameBufferObject.cpp (line 239)
+Stack trace (most recent call last) in thread 14042:
+#31   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#30   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x73efee3268df, in 
+#29   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x73efee294a82, in 
+#28   Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x73efeaadc252, in 
+#27   Object "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo-sensors-system.so", at 0x73efd338351f, in ignition::gazebo::v6::systems::SensorsPrivate::RenderThread()
+#26   Object "/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/libignition-gazebo-sensors-system.so", at 0x73efd3382c92, in ignition::gazebo::v6::systems::SensorsPrivate::RunOnce()
+#25   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre.so", at 0x73efc55b817f, in ignition::rendering::v6::OgreScene::PreRender()
+#24   Object "/lib/x86_64-linux-gnu/libignition-rendering6.so.6", at 0x73efd15d714d, in ignition::rendering::v6::BaseScene::PreRender()
+#23   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre.so", at 0x73efc551c4d0, in 
+#22   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre.so", at 0x73efc552b3f1, in 
+#21   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre.so", at 0x73efc551c50b, in 
+#20   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre.so", at 0x73efc552b3f1, in 
+#19   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre.so", at 0x73efc551c50b, in 
+#18   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre.so", at 0x73efc552b3f1, in 
+#17   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre.so", at 0x73efc553fb3a, in ignition::rendering::v6::OgreDepthCamera::CreatePointCloudTexture()
+#16   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre.so", at 0x73efc55afc66, in ignition::rendering::v6::OgreRenderTarget::PreRender()
+#15   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre.so", at 0x73efc55afbe0, in 
+#14   Object "/usr/lib/x86_64-linux-gnu/ign-rendering-6/engine-plugins/libignition-rendering-ogre.so", at 0x73efc55ae9fb, in ignition::rendering::v6::OgreRenderTexture::BuildTarget()
+#13   Object "/lib/x86_64-linux-gnu/libOgreMain.so.1.9.0", at 0x73efc51697e3, in Ogre::TextureManager::createManual(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, Ogre::TextureType, unsigned int, unsigned int, unsigned int, int, Ogre::PixelFormat, int, Ogre::ManualResourceLoader*, bool, unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+#12   Object "/usr/lib/x86_64-linux-gnu/OGRE-1.9.0/RenderSystem_GL.so", at 0x73ef96fcc44f, in Ogre::GLTexture::createInternalResourcesImpl()
+#11   Object "/usr/lib/x86_64-linux-gnu/OGRE-1.9.0/RenderSystem_GL.so", at 0x73ef96fcbe09, in Ogre::GLTexture::_createSurfaceList()
+#10   Object "/usr/lib/x86_64-linux-gnu/OGRE-1.9.0/RenderSystem_GL.so", at 0x73ef96fb1157, in Ogre::GLTextureBuffer::GLTextureBuffer(Ogre::GLSupport&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int, unsigned int, int, int, Ogre::HardwareBuffer::Usage, bool, bool, unsigned int)
+#9    Object "/usr/lib/x86_64-linux-gnu/OGRE-1.9.0/RenderSystem_GL.so", at 0x73ef96facc2b, in Ogre::GLFBOManager::createRenderTexture(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, Ogre::GLSurfaceDesc const&, bool, unsigned int)
+#8    Object "/usr/lib/x86_64-linux-gnu/OGRE-1.9.0/RenderSystem_GL.so", at 0x73ef96facb9b, in Ogre::GLFBORenderTexture::GLFBORenderTexture(Ogre::GLFBOManager*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, Ogre::GLSurfaceDesc const&, bool, unsigned int)
+#7    Object "/usr/lib/x86_64-linux-gnu/OGRE-1.9.0/RenderSystem_GL.so", at 0x73ef96f67539, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x73efeaaae4d7, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x73efeaaae276, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x73efeaaae20b, in 
+#3    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x73efeaaa2b9d, in 
+#2    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x73efee2287f2, in abort
+#1    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x73efee242475, in raise
+#0    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x73efee2969bc, in pthread_kill
+Aborted (Signal sent by tkill() 13867 1000)

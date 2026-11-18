@@ -1,0 +1,13 @@
+[INFO] [1794310469.733269991] [behavior_server]: 
+	behavior_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794310474.800582408] [behavior_server]: Configuring
+[INFO] [1794310474.806580883] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[INFO] [1794310474.807001010] [behavior_server]: Configuring wait
+[INFO] [1794310474.810627425] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[INFO] [1794310474.811014379] [behavior_server]: Configuring drive_on_heading
+[INFO] [1794310478.137885151] [behavior_server]: Activating
+[INFO] [1794310478.137910187] [behavior_server]: Activating wait
+[INFO] [1794310478.137919342] [behavior_server]: Activating drive_on_heading
+[INFO] [1794310478.137928605] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.

@@ -1,0 +1,569 @@
+{
+  "date": "2026-11-09",
+  "model": "Qwen2.5-VL-3B-Instruct F16 GGUF, matching base model",
+  "image_input_control": [
+    {
+      "condition": "camera",
+      "sha256": "f4d409aaf246e0dc0a3df774fc6f572e7b18a4f58c9e540a711d1fdeaf06bfe1",
+      "content": "YES",
+      "model": "qwen-vl",
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 1074,
+        "total_tokens": 1076,
+        "prompt_tokens_details": {
+          "cached_tokens": 15
+        }
+      },
+      "timings": {
+        "cache_n": 15,
+        "prompt_n": 1059,
+        "prompt_ms": 454.304,
+        "prompt_per_token_ms": 0.4289933899905571,
+        "prompt_per_second": 2331.038247517081,
+        "predicted_n": 2,
+        "predicted_ms": 12.624,
+        "predicted_per_token_ms": 12.624,
+        "predicted_per_second": 79.21419518377692
+      }
+    },
+    {
+      "condition": "blank_control",
+      "sha256": "df715ee9654cfc6cca68592bc5868397dd675c850a648e63c1bb7881bd0e667f",
+      "content": "NO",
+      "model": "qwen-vl",
+      "usage": {
+        "completion_tokens": 2,
+        "prompt_tokens": 1074,
+        "total_tokens": 1076,
+        "prompt_tokens_details": {
+          "cached_tokens": 15
+        }
+      },
+      "timings": {
+        "cache_n": 15,
+        "prompt_n": 1059,
+        "prompt_ms": 451.604,
+        "prompt_per_token_ms": 0.4264438149197356,
+        "prompt_per_second": 2344.97480093179,
+        "predicted_n": 2,
+        "predicted_ms": 12.875,
+        "predicted_per_token_ms": 12.875,
+        "predicted_per_second": 77.66990291262135
+      }
+    }
+  ],
+  "paired_live_frame": {
+    "evidence": "paired_2x2_natural_f16/report.json",
+    "conditions": {
+      "raw_with_depth_tool": {
+        "correct": 0,
+        "attempted": 2,
+        "episodes": [
+          {
+            "instruction": "停在较远的蓝箱前",
+            "expected_candidate": 0,
+            "selected_candidate": 1,
+            "correct": false,
+            "tool_calls": 2
+          },
+          {
+            "instruction": "停在较近的蓝箱前",
+            "expected_candidate": 1,
+            "selected_candidate": 0,
+            "correct": false,
+            "tool_calls": 2
+          }
+        ]
+      },
+      "raw_depth_unavailable": {
+        "correct": 2,
+        "attempted": 2,
+        "episodes": [
+          {
+            "instruction": "停在较远的蓝箱前",
+            "expected_candidate": 0,
+            "selected_candidate": 0,
+            "correct": true,
+            "tool_calls": 0
+          },
+          {
+            "instruction": "停在较近的蓝箱前",
+            "expected_candidate": 1,
+            "selected_candidate": 1,
+            "correct": true,
+            "tool_calls": 0
+          }
+        ]
+      },
+      "image_labels_with_depth_tool": {
+        "correct": 2,
+        "attempted": 2,
+        "episodes": [
+          {
+            "instruction": "停在较远的蓝箱前",
+            "expected_candidate": 0,
+            "selected_candidate": 0,
+            "correct": true,
+            "tool_calls": 2
+          },
+          {
+            "instruction": "停在较近的蓝箱前",
+            "expected_candidate": 1,
+            "selected_candidate": 1,
+            "correct": true,
+            "tool_calls": 2
+          }
+        ]
+      },
+      "image_labels_depth_unavailable": {
+        "correct": 2,
+        "attempted": 2,
+        "episodes": [
+          {
+            "instruction": "停在较远的蓝箱前",
+            "expected_candidate": 0,
+            "selected_candidate": 0,
+            "correct": true,
+            "tool_calls": 0
+          },
+          {
+            "instruction": "停在较近的蓝箱前",
+            "expected_candidate": 1,
+            "selected_candidate": 1,
+            "correct": true,
+            "tool_calls": 0
+          }
+        ]
+      }
+    }
+  },
+  "earlier_recorded_frames": {
+    "recorded_vlm_f16.json": {
+      "correct": 0,
+      "attempted": 4
+    },
+    "labelled_vlm_f16.json": {
+      "correct": 3,
+      "attempted": 4
+    },
+    "labelled_unrestricted_f16.json": {
+      "correct": 0,
+      "attempted": 4
+    }
+  },
+  "layout": {
+    "frame_geometry": {
+      "fixed_observation": {
+        "far_u_px": [
+          238,
+          404
+        ],
+        "near_u_px": [
+          454,
+          514
+        ],
+        "gap_px": 50,
+        "area_ratio": 4.060842213980564,
+        "far_optical_depth_m": 2.797333,
+        "near_optical_depth_m": 2.60802,
+        "both_fully_in_frame": true
+      },
+      "arrived_from_spawn": {
+        "far_u_px": [
+          294,
+          457
+        ],
+        "near_u_px": [
+          510,
+          571
+        ],
+        "gap_px": 53,
+        "area_ratio": 3.8603053789390636,
+        "far_optical_depth_m": 2.862626,
+        "near_optical_depth_m": 2.6213,
+        "both_fully_in_frame": true
+      }
+    },
+    "geometry_check": {
+      "status": "analytic_geometry_check_only",
+      "map_sha256": "98bb0c9ed71da56189d83658f9402eeb53d4bc71828981216e4dd66f86ec74f0",
+      "world_sha256": "521ca2d00b74e50b20d922b1489b288c1678d72a517bc42285c4504a0b1387a0",
+      "observation_pose": {
+        "x": 2.0,
+        "y": 0.5,
+        "yaw": 0.522
+      },
+      "expected_dock": {
+        "x": 3.538612,
+        "y": 1.385041,
+        "yaw": 0.522
+      },
+      "parking_zone": {
+        "x": 3.538612,
+        "y": 1.385041,
+        "yaw": 0.522,
+        "radius_m": 0.3,
+        "yaw_tol_rad": 0.5
+      },
+      "last_leg": {
+        "length_m": 1.7749998473873174,
+        "direction_rad": 0.5219998955631348,
+        "cross_track_m": -1.8537541989487333e-07
+      },
+      "projection": {
+        "near": {
+          "u": [
+            454.62009126664657,
+            514.2573803401646
+          ],
+          "v": [
+            202.28100275684218,
+            390.87598897263126
+          ],
+          "area": 10982.308113572304,
+          "margin": 88.12401102736874,
+          "depth": 2.608148573764964,
+          "front_depth": 2.5738100240916526
+        },
+        "far": {
+          "u": [
+            237.91138586881377,
+            403.65234844674796
+          ],
+          "v": [
+            103.35391904954074,
+            383.36638001359665
+          ],
+          "area": 43605.09144988754,
+          "margin": 95.63361998640335,
+          "depth": 2.7992384925048444,
+          "front_depth": 2.7086275929940604
+        },
+        "horizontal_gap_px": 50.967742819898604,
+        "far_to_near_area_ratio": 3.9704851656819673
+      },
+      "clearance_m": {
+        "near_at_goal": 0.7065015305736466,
+        "near_along_straight_sweep": 0.7065015305736466,
+        "far_along_straight_sweep": 0.743627745606753,
+        "non_free_map_cell_along_straight_sweep": 1.0223008564897067
+      },
+      "projection_sensitivity": {
+        "sample_count": 27,
+        "pose_offsets": {
+          "longitudinal_m": [
+            -0.1,
+            0,
+            0.1
+          ],
+          "lateral_m": [
+            -0.13,
+            0,
+            0.13
+          ],
+          "yaw_rad": [
+            -0.05,
+            0,
+            0.05
+          ]
+        },
+        "min_frame_edge_margin_px": 45.50179722114353,
+        "min_horizontal_gap_px": 42.639873370036526,
+        "min_far_to_near_area_ratio": 3.7553924696040175,
+        "min_optical_depth_difference_m": 0.15102388601944483
+      }
+    }
+  },
+  "end_to_end_from_spawn": {
+    "passed": 2,
+    "attempted": 3,
+    "episodes": [
+      "vlm_r1_from_spawn",
+      "vlm_r2-from_spawn",
+      "vlm_r3-observation"
+    ]
+  },
+  "vlm_dock_reached_inference": {
+    "passed": 3,
+    "attempted": 3,
+    "episodes": [
+      "vlm_r1_from_spawn",
+      "vlm_r2-from_spawn",
+      "vlm_seeded_observation"
+    ],
+    "fixed_observation_start": "vlm_seeded_observation"
+  },
+  "runs": {
+    "oracle_r1": {
+      "evidence": "oracle_r1/report.json",
+      "mode": "oracle",
+      "passed": true,
+      "status": 4,
+      "reason": null,
+      "cancel": null,
+      "sim_action_s": 7.472,
+      "wall_action_s": 7.472,
+      "sent_goal": [
+        3.538612,
+        1.385041,
+        0.522
+      ],
+      "final_truth": [
+        3.441236362989963,
+        1.3254101602316788,
+        0.5385586477247735
+      ],
+      "goal_region_error_m": 0.11418341269460162,
+      "goal_region_yaw_error_rad": 0.016558647724773445,
+      "stopped": true,
+      "stop_truth_displacement_m": 0.0001,
+      "stop_truth_window_s": 1.0,
+      "planned_max_cross_track_m": 0.004421060636310849,
+      "truth_pose_samples": 145,
+      "sampled_body_box_clearance_m": {
+        "blue_near": 0.8061068303926391,
+        "blue_far": 0.8551684637649528
+      },
+      "contact": "not_measured",
+      "vlm": null
+    },
+    "spawn_to_observation": {
+      "evidence": "spawn_to_observation/report.json",
+      "mode": "observe",
+      "passed": true,
+      "status": 4,
+      "reason": null,
+      "cancel": null,
+      "sim_action_s": 12.008,
+      "wall_action_s": 12.011,
+      "sent_goal": [
+        2.0,
+        0.5,
+        0.522
+      ],
+      "final_truth": [
+        1.9308748182220274,
+        0.4788082427314747,
+        0.5917200616764006
+      ],
+      "goal_region_error_m": 0.07230063161526214,
+      "goal_region_yaw_error_rad": 0.06972006167640055,
+      "stopped": true,
+      "stop_truth_displacement_m": 0.0001,
+      "stop_truth_window_s": 1.0,
+      "planned_max_cross_track_m": 0.2155310088828189,
+      "truth_pose_samples": 232,
+      "sampled_body_box_clearance_m": {
+        "blue_near": 2.467357610333079,
+        "blue_far": 2.569506121323197
+      },
+      "contact": "not_measured",
+      "vlm": null
+    },
+    "vlm_r1_from_spawn": {
+      "evidence": "vlm_r1_from_spawn/report.json",
+      "mode": "vlm",
+      "passed": true,
+      "status": 4,
+      "reason": null,
+      "cancel": null,
+      "sim_action_s": 8.328,
+      "wall_action_s": 8.327,
+      "sent_goal": [
+        3.565493092200358,
+        1.5699926543055605,
+        0.5973511712698096
+      ],
+      "final_truth": [
+        3.5121033837209,
+        1.5314074168111222,
+        0.6262600753570712
+      ],
+      "goal_region_error_m": 0.1487475536173948,
+      "goal_region_yaw_error_rad": 0.10426007535707116,
+      "stopped": true,
+      "stop_truth_displacement_m": 0.0,
+      "stop_truth_window_s": 0.992,
+      "planned_max_cross_track_m": 0.006780454669269187,
+      "truth_pose_samples": 162,
+      "sampled_body_box_clearance_m": {
+        "blue_near": 0.7474197365590894,
+        "blue_far": 0.6574966195535771
+      },
+      "contact": "not_measured",
+      "vlm": {
+        "correct": true,
+        "chosen_id": 0,
+        "depth_tool_calls": 2,
+        "model_request_wall_ms": 905.0,
+        "depth_m": {
+          "0": 2.8626,
+          "1": 2.6213
+        }
+      }
+    },
+    "vlm_r2-observation": {
+      "evidence": "vlm_r2-observation/report.json",
+      "mode": "observe",
+      "passed": true,
+      "status": 4,
+      "reason": null,
+      "cancel": null,
+      "sim_action_s": 11.812,
+      "wall_action_s": 11.811,
+      "sent_goal": [
+        2.0,
+        0.5,
+        0.522
+      ],
+      "final_truth": [
+        1.9382132895449147,
+        0.5187293384831493,
+        0.594259547131525
+      ],
+      "goal_region_error_m": 0.06456303670736784,
+      "goal_region_yaw_error_rad": 0.07225954713152494,
+      "stopped": true,
+      "stop_truth_displacement_m": 0.0,
+      "stop_truth_window_s": 0.992,
+      "planned_max_cross_track_m": 0.21345133659080925,
+      "truth_pose_samples": 229,
+      "sampled_body_box_clearance_m": {
+        "blue_near": 2.446776577186554,
+        "blue_far": 2.5404331975916237
+      },
+      "contact": "not_measured",
+      "vlm": null
+    },
+    "vlm_r2-from_spawn": {
+      "evidence": "vlm_r2-from_spawn/report.json",
+      "mode": "vlm",
+      "passed": true,
+      "status": 4,
+      "reason": null,
+      "cancel": null,
+      "sim_action_s": 8.06,
+      "wall_action_s": 8.061,
+      "sent_goal": [
+        3.5739828562076523,
+        1.553149901163309,
+        0.5949264510050842
+      ],
+      "final_truth": [
+        3.4589207215455007,
+        1.483037067159576,
+        0.5543415114828483
+      ],
+      "goal_region_error_m": 0.1263088636654479,
+      "goal_region_yaw_error_rad": 0.03234151148284825,
+      "stopped": true,
+      "stop_truth_displacement_m": 0.0,
+      "stop_truth_window_s": 0.992,
+      "planned_max_cross_track_m": 0.021205893132823395,
+      "truth_pose_samples": 157,
+      "sampled_body_box_clearance_m": {
+        "blue_near": 0.7891043487729617,
+        "blue_far": 0.7542512501420069
+      },
+      "contact": "not_measured",
+      "vlm": {
+        "correct": true,
+        "chosen_id": 0,
+        "depth_tool_calls": 2,
+        "model_request_wall_ms": 1393.4,
+        "depth_m": {
+          "0": 2.8356,
+          "1": 2.5913
+        }
+      }
+    },
+    "vlm_r3-observation": {
+      "evidence": "vlm_r3-observation/report.json",
+      "mode": "observe",
+      "passed": false,
+      "status": 5,
+      "reason": "budget_sim",
+      "cancel": {
+        "reason": "budget_sim",
+        "requested": true,
+        "ack_future_done": true,
+        "acknowledged_goals": 1,
+        "acknowledged": true,
+        "ended": true,
+        "final_status": 5,
+        "waited_wall_s": 0.02
+      },
+      "sim_action_s": 30.02,
+      "wall_action_s": 30.022,
+      "sent_goal": [
+        2.0,
+        0.5,
+        0.522
+      ],
+      "final_truth": [
+        1.89345213289433,
+        0.4694283334815966,
+        0.690809442054192
+      ],
+      "goal_region_error_m": 0.11084707834886764,
+      "goal_region_yaw_error_rad": 0.16880944205419202,
+      "stopped": true,
+      "stop_truth_displacement_m": 0.0,
+      "stop_truth_window_s": 0.996,
+      "planned_max_cross_track_m": 0.2157825983049828,
+      "truth_pose_samples": 578,
+      "sampled_body_box_clearance_m": {
+        "blue_near": 2.4943478182409726,
+        "blue_far": 2.573113157899635
+      },
+      "contact": "not_measured",
+      "vlm": null
+    },
+    "vlm_seeded_observation": {
+      "evidence": "vlm_seeded_observation/report.json",
+      "mode": "vlm",
+      "passed": true,
+      "status": 4,
+      "reason": null,
+      "cancel": null,
+      "sim_action_s": 7.472,
+      "wall_action_s": 7.473,
+      "sent_goal": [
+        3.5335669649161394,
+        1.386458696196344,
+        0.5247221792328537
+      ],
+      "final_truth": [
+        3.4418361668388786,
+        1.3372794654930624,
+        0.5385769934203233
+      ],
+      "goal_region_error_m": 0.10791999843627967,
+      "goal_region_yaw_error_rad": 0.01657699342032326,
+      "stopped": true,
+      "stop_truth_displacement_m": 0.0,
+      "stop_truth_window_s": 0.992,
+      "planned_max_cross_track_m": 0.004389491069359304,
+      "truth_pose_samples": 145,
+      "sampled_body_box_clearance_m": {
+        "blue_near": 0.8050479276753191,
+        "blue_far": 0.8485624872639665
+      },
+      "contact": "not_measured",
+      "vlm": {
+        "correct": true,
+        "chosen_id": 0,
+        "depth_tool_calls": 2,
+        "model_request_wall_ms": 1380.3999999999999,
+        "depth_m": {
+          "0": 2.7973,
+          "1": 2.608
+        }
+      }
+    }
+  },
+  "contact": "not_measured",
+  "sim_stop": "[stop] stopped=4 skipped=0 still_alive=0",
+  "frozen_nav2_sha256_after_test": "7bd4e28e1cb2e7828b52d53a1470c23a731b32c7e55793ac61e7c4b947b81180"
+}

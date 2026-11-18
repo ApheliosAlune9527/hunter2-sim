@@ -1,0 +1,52 @@
+[
+  {
+    "condition": "camera",
+    "sha256": "f4d409aaf246e0dc0a3df774fc6f572e7b18a4f58c9e540a711d1fdeaf06bfe1",
+    "content": "YES",
+    "model": "qwen-vl",
+    "usage": {
+      "completion_tokens": 2,
+      "prompt_tokens": 1074,
+      "total_tokens": 1076,
+      "prompt_tokens_details": {
+        "cached_tokens": 15
+      }
+    },
+    "timings": {
+      "cache_n": 15,
+      "prompt_n": 1059,
+      "prompt_ms": 454.304,
+      "prompt_per_token_ms": 0.4289933899905571,
+      "prompt_per_second": 2331.038247517081,
+      "predicted_n": 2,
+      "predicted_ms": 12.624,
+      "predicted_per_token_ms": 12.624,
+      "predicted_per_second": 79.21419518377692
+    }
+  },
+  {
+    "condition": "blank_control",
+    "sha256": "df715ee9654cfc6cca68592bc5868397dd675c850a648e63c1bb7881bd0e667f",
+    "content": "NO",
+    "model": "qwen-vl",
+    "usage": {
+      "completion_tokens": 2,
+      "prompt_tokens": 1074,
+      "total_tokens": 1076,
+      "prompt_tokens_details": {
+        "cached_tokens": 15
+      }
+    },
+    "timings": {
+      "cache_n": 15,
+      "prompt_n": 1059,
+      "prompt_ms": 451.604,
+      "prompt_per_token_ms": 0.4264438149197356,
+      "prompt_per_second": 2344.97480093179,
+      "predicted_n": 2,
+      "predicted_ms": 12.875,
+      "predicted_per_token_ms": 12.875,
+      "predicted_per_second": 77.66990291262135
+    }
+  }
+]

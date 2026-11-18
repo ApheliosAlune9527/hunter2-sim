@@ -1,0 +1,46 @@
+1794299631.597897 [74] planner_se: selected interface "lo" is not multicast-capable: disabling multicast
+[INFO] [1794299631.605065187] [forward.planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794299631.606614803] [forward.planner_server]: Creating
+[INFO] [1794299631.611137024] [forward.global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794299631.612253126] [forward.global_costmap.global_costmap]: Creating Costmap
+[INFO] [1794299641.493092841] [forward.planner_server]: Configuring
+[INFO] [1794299641.493698159] [forward.global_costmap.global_costmap]: Configuring
+[INFO] [1794299641.499520801] [forward.global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1794299641.504741859] [forward.global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1794299641.505955015] [forward.global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1794299641.506352982] [forward.global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1794299641.508590853] [forward.global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1794299641.514046002] [forward.global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1794299641.514598498] [forward.global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1794299641.516408723] [forward.global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1794299641.522736416] [forward.global_costmap.global_costmap]: StaticLayer: Resizing costmap to 241 X 465 at 0.050000 m/pix
+[INFO] [1794299641.525484924] [forward.planner_server]: Created global planner plugin GridBased of type nav2_smac_planner/SmacPlannerHybrid
+[INFO] [1794299641.525929148] [forward.planner_server]: Configuring GridBased of type SmacPlannerHybrid
+[INFO] [1794299641.533623923] [forward.planner_server]: Even sized heuristic lookup table size set 400.000000, increasing size by 1 to make odd
+[INFO] [1794299642.881250195] [forward.planner_server]: Configured plugin GridBased of type SmacPlannerHybrid with maximum iterations 1000000, max on approach iterations 1000, and not allowing unknown traversal. Tolerance 0.10.Using motion model: Dubin.
+[INFO] [1794299642.881922548] [forward.planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1794299642.889542123] [forward.planner_server]: Activating
+[INFO] [1794299642.890149022] [forward.global_costmap.global_costmap]: Activating
+[INFO] [1794299642.890627804] [forward.global_costmap.global_costmap]: Checking transform
+[INFO] [1794299642.891126460] [forward.global_costmap.global_costmap]: start
+[INFO] [1794299643.942119236] [forward.planner_server]: Activating plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794299643.943509426] [forward.planner_server]: Creating bond (planner_server) to lifecycle manager.
+[INFO] [1794299669.025298505] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1794299669.025983671] [forward.planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[INFO] [1794299669.026581676] [forward.planner_server]: Deactivating
+[INFO] [1794299669.027316768] [forward.global_costmap.global_costmap]: Deactivating
+[INFO] [1794299669.387822532] [forward.planner_server]: Deactivating plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794299669.388449912] [forward.planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1794299669.399398367] [forward.planner_server]: Cleaning up
+[INFO] [1794299669.418602753] [forward.global_costmap.global_costmap]: Cleaning up
+[INFO] [1794299669.424509180] [forward.planner_server]: Cleaning up plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794299669.425137194] [forward.planner_server]: Destroying plugin GridBased of type SmacPlannerHybrid
+[INFO] [1794299669.440760894] [forward.planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1794299669.448233685] [forward.global_costmap.global_costmap]: Destroying
+[INFO] [1794299669.480022905] [forward.planner_server]: Destroying

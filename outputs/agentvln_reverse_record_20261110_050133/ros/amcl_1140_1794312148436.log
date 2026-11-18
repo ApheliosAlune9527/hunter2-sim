@@ -1,0 +1,30 @@
+[INFO] [1794312148.449026740] [amcl]: 
+	amcl lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794312148.450865554] [amcl]: Creating
+[INFO] [1794312148.542538457] [amcl]: Configuring
+[INFO] [1794312148.542605029] [amcl]: initTransforms
+[INFO] [1794312148.552415615] [amcl]: initPubSub
+[INFO] [1794312148.555196749] [amcl]: Subscribed to map topic.
+[INFO] [1794312157.543031779] [amcl]: Received a 241 X 465 map @ 0.050 m/pix
+[INFO] [1794312157.545949298] [amcl]: Activating
+[INFO] [1794312157.545980845] [amcl]: Creating bond (amcl) to lifecycle manager.
+[INFO] [1794312157.592168954] [amcl]: createLaserObject
+[WARN] [1794312157.609567667] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[INFO] [1794312158.033417570] [amcl]: initialPoseReceived
+[WARN] [1794312158.033638421] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 46.636000 but the latest data is at time 46.632000, when looking up transform from frame [base_link] to frame [odom])
+[INFO] [1794312158.033661572] [amcl]: Setting pose (46.636000): -0.210 -0.770 0.000
+[INFO] [1794312160.542971830] [amcl]: initialPoseReceived
+[WARN] [1794312160.543055973] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the past.  Requested time 46.840000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [odom])
+[INFO] [1794312160.543066666] [amcl]: Setting pose (46.840000): -0.210 -0.770 0.000
+[INFO] [1794312161.640377659] [amcl]: Message Filter dropping message: frame 'laser' at time 45.968 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1794312161.882695835] [amcl]: initialPoseReceived
+[WARN] [1794312161.882790173] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the past.  Requested time 47.044000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [odom])
+[INFO] [1794312161.882808980] [amcl]: Setting pose (47.044000): -0.210 -0.770 0.000
+[INFO] [1794312162.497728474] [amcl]: initialPoseReceived
+[WARN] [1794312162.497852810] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the past.  Requested time 47.244000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [odom])
+[INFO] [1794312162.497870674] [amcl]: Setting pose (47.244000): -0.210 -0.770 0.000
+[INFO] [1794312163.141183400] [amcl]: initialPoseReceived
+[WARN] [1794312163.141370764] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the past.  Requested time 47.444000 but the earliest data is at time 47.632000, when looking up transform from frame [base_link] to frame [odom])
+[INFO] [1794312163.141404500] [amcl]: Setting pose (47.444000): -0.210 -0.770 0.000

@@ -1,0 +1,100 @@
+[lifecycle_manager-8] [INFO] [1794216980.592219214] [lifecycle_manager_navigation]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1794216980.592376307] [amcl]: Activating
+[amcl-2] [INFO] [1794216980.592416038] [amcl]: Creating bond (amcl) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1794216980.593559916] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-5] [INFO] [1794216980.593785915] [velocity_smoother]: Activating
+[velocity_smoother-5] [INFO] [1794216980.593896287] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[amcl-2] [INFO] [1794216980.595001562] [amcl]: createLaserObject
+[lifecycle_manager-8] [INFO] [1794216980.595299322] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-3] [INFO] [1794216980.595510811] [planner_server]: Activating
+[planner_server-3] [INFO] [1794216980.595555672] [global_costmap.global_costmap]: Activating
+[planner_server-3] [INFO] [1794216980.595564172] [global_costmap.global_costmap]: Checking transform
+[planner_server-3] [INFO] [1794216980.595575152] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-3] [INFO] [1794216981.095655408] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[amcl-2] [WARN] [1794216981.297470572] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-3] [INFO] [1794216981.595652995] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-3] [INFO] [1794216982.095682398] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-3] [INFO] [1794216982.595654803] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-3] [INFO] [1794216978.790555197] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[amcl-2] [WARN] [1794216979.085765632] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-3] [INFO] [1794216979.290720354] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-3] [INFO] [1794216979.790882959] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-3] [INFO] [1794216980.291104684] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-3] [INFO] [1794216980.791428086] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[amcl-2] [WARN] [1794216981.089685577] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-3] [INFO] [1794216981.291578562] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-3] [INFO] [1794216981.791726931] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-3] [INFO] [1794216982.291938047] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-3] [INFO] [1794216982.792108366] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[amcl-2] [WARN] [1794216983.195602620] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-3] [INFO] [1794216983.292265525] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-3] [INFO] [1794216983.792434224] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[amcl-2] [INFO] [1794216983.796066193] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794216983.796221536] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 8.816000 but the latest data is at time 8.808000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-2] [INFO] [1794216983.796239826] [amcl]: Setting pose (8.816000): -0.210 -0.770 0.000
+[planner_server-3] [INFO] [1794216984.292841498] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 9.300000 but the earliest data is at time 9.900000, when looking up transform from frame [base_link] to frame [map]
+[amcl-2] [INFO] [1794216984.398615836] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794216984.398687708] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the past.  Requested time 9.416000 but the earliest data is at time 9.900000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-2] [INFO] [1794216984.398698438] [amcl]: Setting pose (9.416000): -0.210 -0.770 0.000
+[planner_server-3] [INFO] [1794216984.792995328] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 9.804000 but the earliest data is at time 9.900000, when looking up transform from frame [base_link] to frame [map]
+[amcl-2] [INFO] [1794216985.001230857] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794216985.001325858] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 10.020000 but the latest data is at time 10.008000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-2] [INFO] [1794216985.001336109] [amcl]: Setting pose (10.020000): -0.210 -0.770 0.000
+[planner_server-3] [INFO] [1794216985.293593885] [global_costmap.global_costmap]: start
+[amcl-2] [INFO] [1794216985.604244875] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794216985.604394017] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 10.624000 but the latest data is at time 10.620000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-2] [INFO] [1794216985.604405327] [amcl]: Setting pose (10.624000): -0.210 -0.770 0.000
+[amcl-2] [INFO] [1794216986.207401057] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794216986.207563170] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 11.224000 but the latest data is at time 11.220000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-2] [INFO] [1794216986.207579760] [amcl]: Setting pose (11.224000): -0.210 -0.770 0.000
+[planner_server-3] [INFO] [1794216986.344589367] [planner_server]: Activating plugin GridBased of type SmacPlannerHybrid
+[planner_server-3] [INFO] [1794216986.345502674] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1794216986.347336137] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-4] [INFO] [1794216986.347563581] [controller_server]: Activating
+[controller_server-4] [INFO] [1794216986.347663423] [local_costmap.local_costmap]: Activating
+[controller_server-4] [INFO] [1794216986.347679723] [local_costmap.local_costmap]: Checking transform
+[controller_server-4] [INFO] [1794216986.348147462] [local_costmap.local_costmap]: start
+[controller_server-4] [INFO] [1794216986.598840780] [controller_server]: Activating controller: FollowPath of type regulated_pure_pursuit_controller::RegulatedPurePursuitController
+[controller_server-4] [INFO] [1794216986.598899401] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1794216986.600505365] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-6] [INFO] [1794216986.600709894] [behavior_server]: Activating
+[behavior_server-6] [INFO] [1794216986.600839256] [behavior_server]: Activating wait
+[behavior_server-6] [INFO] [1794216986.600889417] [behavior_server]: Activating drive_on_heading
+[behavior_server-6] [INFO] [1794216986.600939908] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1794216986.602918244] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-7] [INFO] [1794216986.603111432] [bt_navigator]: Activating
+[bt_navigator-7] [INFO] [1794216986.629587181] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1794216986.631186380] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[amcl-2] [INFO] [1794216986.809720144] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794216986.809794295] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 11.828000 but the latest data is at time 11.820000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-2] [INFO] [1794216986.809804265] [amcl]: Setting pose (11.828000): -0.210 -0.770 0.000
+[amcl-2] [INFO] [1794216987.412136148] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794216987.412212700] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 12.432000 but the latest data is at time 12.420000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-2] [INFO] [1794216987.412223060] [amcl]: Setting pose (12.432000): -0.210 -0.770 0.000
+[amcl-2] [INFO] [1794216990.485367590] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794216990.485488692] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 15.408000 but the latest data is at time 15.396000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-2] [INFO] [1794216990.485504143] [amcl]: Setting pose (15.408000): 2.000 0.500 0.522
+[amcl-2] [INFO] [1794216990.689718972] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794216990.689792073] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 15.612000 but the latest data is at time 15.600000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-2] [INFO] [1794216990.689801973] [amcl]: Setting pose (15.612000): 2.000 0.500 0.522
+[amcl-2] [INFO] [1794216990.890335562] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794216990.890409933] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 15.812000 but the latest data is at time 15.804000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-2] [INFO] [1794216990.890419333] [amcl]: Setting pose (15.812000): 2.000 0.500 0.522
+[amcl-2] [INFO] [1794216991.093330844] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794216991.093403956] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 16.016000 but the latest data is at time 16.008000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-2] [INFO] [1794216991.093415526] [amcl]: Setting pose (16.016000): 2.000 0.500 0.522
+[amcl-2] [INFO] [1794216991.297332910] [amcl]: initialPoseReceived
+[amcl-2] [WARN] [1794216991.297408401] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 16.220000 but the latest data is at time 16.212000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-2] [INFO] [1794216991.297421511] [amcl]: Setting pose (16.220000): 2.000 0.500 0.522
+[bt_navigator-7] [INFO] [1794217004.318040103] [bt_navigator]: Begin navigating from current location (2.00, 0.50) to (3.53, 1.39)
+[controller_server-4] [INFO] [1794217004.338744744] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-4] [WARN] [1794217004.338814685] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[controller_server-4] [INFO] [1794217005.388927753] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794217006.438916212] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794217007.438925320] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794217008.488920881] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794217009.488927049] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794217010.538921766] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794217011.588934070] [controller_server]: Passing new path to controller.
+[controller_server-4] [INFO] [1794217012.039065640] [controller_server]: Reached the goal!
+[bt_navigator-7] [INFO] [1794217012.078370745] [bt_navigator]: Goal succeeded

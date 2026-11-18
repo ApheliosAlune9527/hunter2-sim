@@ -1,0 +1,256 @@
+{
+  "step": 0,
+  "instruction": "向左靠近蓝色标记",
+  "selector": "color_blue",
+  "frame": {
+    "stamp_s": 588.6,
+    "age_s": 0.008
+  },
+  "robot_pose_map": [
+    -0.2116,
+    -0.7675,
+    -0.0031
+  ],
+  "target": [
+    1.7,
+    0.0
+  ],
+  "build_stats": {
+    "sampled": 15,
+    "footprint_rejected": 6,
+    "plan_rejected": 2,
+    "path_rejected": 0,
+    "valid": 7
+  },
+  "candidates_total": 7,
+  "candidates_visible": 6,
+  "candidates": [
+    {
+      "id": 6,
+      "map_pose": [
+        1.1884,
+        -0.7719,
+        -0.0031
+      ],
+      "u": 332.04,
+      "v": 352.36,
+      "ground_u": 332.04,
+      "ground_v": 753.66,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 1.4,
+      "bearing_deg": 0.0,
+      "path_length_m": 1.4,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 0.756,
+      "expected_range_m": 0.769,
+      "depth_median_m": 3.453,
+      "visible": true,
+      "occluded": false,
+      "reason": ""
+    },
+    {
+      "id": 1,
+      "map_pose": [
+        1.1535,
+        -0.4568,
+        0.2238
+      ],
+      "u": 67.28,
+      "v": 357.96,
+      "ground_u": 67.28,
+      "ground_v": 779.25,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 1.4,
+      "bearing_deg": 13.0,
+      "path_length_m": 1.387,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 0.72,
+      "expected_range_m": 0.793,
+      "depth_median_m": 3.278,
+      "visible": true,
+      "occluded": false,
+      "reason": ""
+    },
+    {
+      "id": 5,
+      "map_pose": [
+        1.4884,
+        -0.7728,
+        -0.0031
+      ],
+      "u": 328.62,
+      "v": 320.44,
+      "ground_u": 328.62,
+      "ground_v": 607.73,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 1.7,
+      "bearing_deg": 0.0,
+      "path_length_m": 1.7,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 1.056,
+      "expected_range_m": 1.065,
+      "depth_median_m": 4.825,
+      "visible": true,
+      "occluded": false,
+      "reason": ""
+    },
+    {
+      "id": 2,
+      "map_pose": [
+        1.446,
+        -0.3903,
+        0.2238
+      ],
+      "u": 99.8,
+      "v": 323.9,
+      "ground_u": 99.8,
+      "ground_v": 623.56,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 1.7,
+      "bearing_deg": 13.0,
+      "path_length_m": 1.69,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 1.012,
+      "expected_range_m": 1.086,
+      "depth_median_m": 4.597,
+      "visible": true,
+      "occluded": false,
+      "reason": ""
+    },
+    {
+      "id": 4,
+      "map_pose": [
+        1.7884,
+        -0.7738,
+        -0.0031
+      ],
+      "u": 326.71,
+      "v": 302.64,
+      "ground_u": 326.71,
+      "ground_v": 526.38,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 2.0,
+      "bearing_deg": 0.0,
+      "path_length_m": 2.0,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 1.356,
+      "expected_range_m": 1.363,
+      "depth_median_m": 5.276,
+      "visible": true,
+      "occluded": false,
+      "reason": ""
+    },
+    {
+      "id": 3,
+      "map_pose": [
+        1.7385,
+        -0.3237,
+        0.2238
+      ],
+      "u": 117.75,
+      "v": 305.11,
+      "ground_u": 117.75,
+      "ground_v": 537.63,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 2.0,
+      "bearing_deg": 13.0,
+      "path_length_m": 2.005,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 1.305,
+      "expected_range_m": 1.382,
+      "depth_median_m": 5.176,
+      "visible": true,
+      "occluded": false,
+      "reason": ""
+    },
+    {
+      "id": 0,
+      "map_pose": [
+        1.5887,
+        0.1036,
+        0.4506
+      ],
+      "u": -133.26,
+      "v": 313.64,
+      "ground_u": -133.26,
+      "ground_v": 576.62,
+      "ground_in_frame": false,
+      "projection_height_m": 0.5,
+      "distance_from_robot_m": 2.0,
+      "bearing_deg": 26.0,
+      "path_length_m": 2.026,
+      "plan_status": 4,
+      "footprint_ok": true,
+      "path_clear": true,
+      "optical_z_m": 1.154,
+      "expected_range_m": 0.0,
+      "depth_median_m": 0.0,
+      "visible": false,
+      "occluded": false,
+      "reason": "outside_image_beacon"
+    }
+  ],
+  "marker": {
+    "color": "blue",
+    "u": 143.33,
+    "v": 89.07,
+    "area_px": 7024.5,
+    "area_fraction": 0.02287
+  },
+  "decision": {
+    "decision": "select_candidate",
+    "candidate_id": 3,
+    "frame_stamp_s": 588.6,
+    "instruction": "向左靠近蓝色标记",
+    "selector": "color_blue",
+    "reason": "color: nearest visible candidate to blue marker in image",
+    "marker": {
+      "color": "blue",
+      "u": 143.33,
+      "v": 89.07,
+      "area_px": 7024.5,
+      "area_fraction": 0.02287
+    },
+    "candidate_map_pose": [
+      1.7385,
+      -0.3237,
+      0.2238
+    ],
+    "distance_to_target_m": 0.326
+  },
+  "action": {
+    "replan_status": 4,
+    "planned_poses": 29,
+    "replanned_path_m": 2.005,
+    "status": 4,
+    "timed_out": false,
+    "wall_s": 8.561,
+    "truth_after": [
+      1.5886,
+      -0.3196,
+      0.2967
+    ],
+    "error_to_candidate_m": 0.15,
+    "heading_to_candidate_rad": 0.0729,
+    "stop_displacement_m": 0.0441,
+    "amcl_error_m": 0.0951
+  }
+}

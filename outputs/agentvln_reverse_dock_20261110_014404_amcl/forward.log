@@ -1,0 +1,16 @@
+1794300247.635136 [74] planner_se: selected interface "lo" is not multicast-capable: disabling multicast
+[INFO] [1794300247.643389369] [forward.planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794300247.645053464] [forward.planner_server]: Creating
+[INFO] [1794300247.650626748] [forward.global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1794300247.651377100] [forward.global_costmap.global_costmap]: Creating Costmap
+[INFO] [1794300276.094796371] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1794300276.096162402] [forward.planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[INFO] [1794300276.096665045] [forward.planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1794300276.100092902] [forward.global_costmap.global_costmap]: Destroying
+[INFO] [1794300276.130793789] [forward.planner_server]: Destroying

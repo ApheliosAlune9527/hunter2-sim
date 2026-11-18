@@ -1,0 +1,18 @@
+[INFO] [1794311814.682887742] [lifecycle_manager_navigation]: Creating
+[INFO] [1794311814.690261346] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[INFO] [1794311814.732274425] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[INFO] [1794311814.732338307] [lifecycle_manager_navigation]: [34m[1mConfiguring map_server[0m[0m
+[INFO] [1794311814.771451420] [lifecycle_manager_navigation]: [34m[1mConfiguring amcl[0m[0m
+[INFO] [1794311814.783742018] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[INFO] [1794311814.788195321] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[INFO] [1794311821.508986678] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[INFO] [1794311821.550610372] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[INFO] [1794311821.566254531] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[INFO] [1794311821.642238819] [lifecycle_manager_navigation]: [34m[1mActivating map_server[0m[0m
+[INFO] [1794311821.644870953] [lifecycle_manager_navigation]: [34m[1mActivating amcl[0m[0m
+[INFO] [1794311821.648493941] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[INFO] [1794311821.650324630] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[INFO] [1794311825.703541981] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[INFO] [1794311825.906391086] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[INFO] [1794311825.907937884] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[INFO] [1794311825.935587964] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m

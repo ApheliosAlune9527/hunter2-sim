@@ -1,0 +1,67 @@
+{
+  "stage": "bigfar_frame",
+  "robot_pose": [
+    2.0015,
+    0.4957,
+    0.5223
+  ],
+  "stamp_s": 18.0,
+  "K": [
+    606.7595825195312,
+    0.0,
+    320.0,
+    0.0,
+    606.7595825195312,
+    240.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "candidates": [
+    {
+      "id": 0,
+      "u": 498.94,
+      "v": 238.62,
+      "bbox_xywh": [
+        358,
+        0,
+        282,
+        480
+      ],
+      "area_px": 134095.5,
+      "area_fraction": 0.43651,
+      "depth_median_m": 1.527356,
+      "depth_valid": 625,
+      "depth_valid_fraction": 1.0
+    },
+    {
+      "id": 1,
+      "u": 267.42,
+      "v": 288.65,
+      "bbox_xywh": [
+        227,
+        207,
+        83,
+        167
+      ],
+      "area_px": 13133.5,
+      "area_fraction": 0.04275,
+      "depth_median_m": 2.912833,
+      "depth_valid": 625,
+      "depth_valid_fraction": 1.0
+    }
+  ],
+  "rule_area_far_choice": 1,
+  "rule_area_near_choice": 0,
+  "rule_depth_far_choice": 1,
+  "rule_depth_near_choice": 0,
+  "area_proxy_agrees_with_depth_far": true,
+  "area_proxy_agrees_with_depth_near": true,
+  "instruction_near": "\u7ecf\u8fc7\u7ea2\u724c\uff0c\u505c\u5728\u8f83\u8fd1\u7684\u90a3\u4e2a\u84dd\u7bb1\u524d\u65b9",
+  "instruction_far": "\u7ecf\u8fc7\u7ea2\u724c\uff0c\u505c\u5728\u8f83\u8fdc\u7684\u90a3\u4e2a\u84dd\u7bb1\u524d\u65b9",
+  "files": {
+    "rgb": "outputs/agentvln_hunter_20261108_step5/bigfar_swap_frame/rgb.png",
+    "depth": "outputs/agentvln_hunter_20261108_step5/bigfar_swap_frame/depth.npy",
+    "annotated": "outputs/agentvln_hunter_20261108_step5/bigfar_swap_frame/annotated.png"
+  }
+}

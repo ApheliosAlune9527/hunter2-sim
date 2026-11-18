@@ -1,0 +1,43 @@
+1794300479.724915 [74]    python3: selected interface "lo" is not multicast-capable: disabling multicast
+[指令] 停在较远的蓝箱前，车头正对箱面
+[视觉] 出生点蓝箱候选 1 个
+[行驶] 观察 前进，规划 1.12 m
+[视觉] 驶近时检测到两个蓝箱
+[停稳] 观察 状态 4，停稳 True
+[视觉] 已保存带编号的同步 RGB-D 观测
+[选箱] VLM 返回 #0，较近 #1 4.082 m，较远 #0 4.303 m
+[箱面] RGB-D 估计中心 [4.947926655166946, 2.332202271864247]，朝向 0.15°
+[行驶] 驶入调整区 前进，规划 2.29 m
+[停稳] 驶入调整区 状态 4，停稳 True
+[行驶] parking 前进，规划 1.66 m
+[停稳] parking 状态 4，停稳 True
+[行驶] parking 倒车，规划 0.52 m
+[停稳] parking 状态 4，停稳 True
+[行驶] parking 前进，规划 0.57 m
+[停稳] parking 状态 4，停稳 True
+[行驶] parking 倒车，规划 0.52 m
+[停稳] parking 状态 4，停稳 True
+[行驶] parking 前进，规划 0.47 m
+[停稳] parking 状态 4，停稳 True
+[行驶] parking 倒车，规划 0.85 m
+[停稳] parking 状态 4，停稳 True
+[行驶] parking 倒车，规划 0.52 m
+[停稳] parking 状态 4，停稳 True
+[行驶] parking 前进，规划 1.74 m
+[停稳] parking 状态 4，停稳 True
+
+========== 本轮联合验收 ==========
+总体结果 通过
+观察    前进 1.083 m / 倒车 0.000 m / 停稳 通过
+驶入调整区    前进 2.219 m / 倒车 0.000 m / 停稳 通过
+parking    前进 1.513 m / 倒车 0.000 m / 停稳 通过
+parking    前进 0.000 m / 倒车 0.423 m / 停稳 通过
+parking    前进 0.456 m / 倒车 0.000 m / 停稳 通过
+parking    前进 0.000 m / 倒车 0.428 m / 停稳 通过
+parking    前进 0.371 m / 倒车 0.000 m / 停稳 通过
+parking    前进 0.000 m / 倒车 0.686 m / 停稳 通过
+parking    前进 0.000 m / 倒车 0.423 m / 停稳 通过
+parking    前进 1.629 m / 倒车 0.000 m / 停稳 通过
+最小几何净空    14.9 cm
+停车结果    横向 1.0 cm / 朝向 4.8° / 箱前 44.6 cm
+报告 /mnt/d/rob-memory/outputs/agentvln_reverse_dock_20261110_014756_amcl/report.json

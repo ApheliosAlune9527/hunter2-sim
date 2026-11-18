@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "backend": "area",
+  "instruction": "\u7ecf\u8fc7\u7ea2\u724c\uff0c\u505c\u5728\u8f83\u8fd1\u7684\u90a3\u4e2a\u84dd\u7bb1\u524d\u65b9",
+  "expected_box": "blue_near",
+  "selected_candidate": 0,
+  "selected_box_truth": "blue_near",
+  "correct": true,
+  "candidate_truth": {
+    "0": "blue_near",
+    "1": "blue_far"
+  },
+  "queries": {},
+  "trace": [
+    {
+      "step": 0,
+      "action": {
+        "decision": "select_target",
+        "candidate_id": 0,
+        "reason": "area_proxy_large_is_near"
+      },
+      "t_ms": 0.0,
+      "selected": 0,
+      "selected_box_truth": "blue_near"
+    }
+  ],
+  "wall_ms": 0.0,
+  "model_calls": 0
+}

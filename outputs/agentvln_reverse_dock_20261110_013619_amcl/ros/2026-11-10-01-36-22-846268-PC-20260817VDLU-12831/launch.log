@@ -1,0 +1,10 @@
+1794299782.8507428 [INFO] [launch]: All log files can be found below /mnt/d/rob-memory/outputs/agentvln_reverse_dock_20261110_013619_amcl/ros/2026-11-10-01-36-22-846268-PC-20260817VDLU-12831
+1794299782.8518155 [INFO] [launch]: Default logging verbosity is set to INFO
+1794299782.9010227 [INFO] [map_server-1]: process started with pid [12873]
+1794299782.9048238 [INFO] [amcl-2]: process started with pid [12875]
+1794299782.9062581 [INFO] [planner_server-3]: process started with pid [12877]
+1794299782.9075716 [INFO] [controller_server-4]: process started with pid [12879]
+1794299782.9094534 [INFO] [velocity_smoother-5]: process started with pid [12881]
+1794299782.9108174 [INFO] [behavior_server-6]: process started with pid [12883]
+1794299782.9121430 [INFO] [bt_navigator-7]: process started with pid [12885]
+1794299782.9133334 [INFO] [lifecycle_manager-8]: process started with pid [12887]

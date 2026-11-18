@@ -1,0 +1,89 @@
+{
+  "status": "analytic_geometry_check_only",
+  "map_sha256": "98bb0c9ed71da56189d83658f9402eeb53d4bc71828981216e4dd66f86ec74f0",
+  "world_sha256": "521ca2d00b74e50b20d922b1489b288c1678d72a517bc42285c4504a0b1387a0",
+  "observation_pose": {
+    "x": 2.0,
+    "y": 0.5,
+    "yaw": 0.522
+  },
+  "expected_dock": {
+    "x": 3.538612,
+    "y": 1.385041,
+    "yaw": 0.522
+  },
+  "parking_zone": {
+    "x": 3.538612,
+    "y": 1.385041,
+    "yaw": 0.522,
+    "radius_m": 0.3,
+    "yaw_tol_rad": 0.5
+  },
+  "last_leg": {
+    "length_m": 1.7749998473873174,
+    "direction_rad": 0.5219998955631348,
+    "cross_track_m": -1.8537541989487333e-07
+  },
+  "projection": {
+    "near": {
+      "u": [
+        454.62009126664657,
+        514.2573803401646
+      ],
+      "v": [
+        202.28100275684218,
+        390.87598897263126
+      ],
+      "area": 10982.308113572304,
+      "margin": 88.12401102736874,
+      "depth": 2.608148573764964,
+      "front_depth": 2.5738100240916526
+    },
+    "far": {
+      "u": [
+        237.91138586881377,
+        403.65234844674796
+      ],
+      "v": [
+        103.35391904954074,
+        383.36638001359665
+      ],
+      "area": 43605.09144988754,
+      "margin": 95.63361998640335,
+      "depth": 2.7992384925048444,
+      "front_depth": 2.7086275929940604
+    },
+    "horizontal_gap_px": 50.967742819898604,
+    "far_to_near_area_ratio": 3.9704851656819673
+  },
+  "clearance_m": {
+    "near_at_goal": 0.7065015305736466,
+    "near_along_straight_sweep": 0.7065015305736466,
+    "far_along_straight_sweep": 0.743627745606753,
+    "non_free_map_cell_along_straight_sweep": 1.0223008564897067
+  },
+  "projection_sensitivity": {
+    "sample_count": 27,
+    "pose_offsets": {
+      "longitudinal_m": [
+        -0.1,
+        0,
+        0.1
+      ],
+      "lateral_m": [
+        -0.13,
+        0,
+        0.13
+      ],
+      "yaw_rad": [
+        -0.05,
+        0,
+        0.05
+      ]
+    },
+    "min_frame_edge_margin_px": 45.50179722114353,
+    "min_horizontal_gap_px": 42.639873370036526,
+    "min_far_to_near_area_ratio": 3.7553924696040175,
+    "min_optical_depth_difference_m": 0.15102388601944483
+  }
+}
