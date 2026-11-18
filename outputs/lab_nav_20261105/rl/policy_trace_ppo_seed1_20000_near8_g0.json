@@ -1,0 +1,952 @@
+{
+ "goal": [
+  1.035,
+  0.285
+ ],
+ "trace": [
+  {
+   "t": 0.1,
+   "distance_m": 1.631,
+   "v": 0.226,
+   "w": 0.094,
+   "reward": -0.02,
+   "contact": false
+  },
+  {
+   "t": 0.62,
+   "distance_m": 1.604,
+   "v": 0.251,
+   "w": 0.109,
+   "reward": 0.006,
+   "contact": false
+  },
+  {
+   "t": 1.14,
+   "distance_m": 1.536,
+   "v": 0.244,
+   "w": 0.11,
+   "reward": 0.021,
+   "contact": false
+  },
+  {
+   "t": 1.66,
+   "distance_m": 1.442,
+   "v": 0.234,
+   "w": 0.123,
+   "reward": 0.028,
+   "contact": false
+  },
+  {
+   "t": 2.17,
+   "distance_m": 1.356,
+   "v": 0.217,
+   "w": 0.116,
+   "reward": 0.021,
+   "contact": false
+  },
+  {
+   "t": 2.69,
+   "distance_m": 1.275,
+   "v": 0.192,
+   "w": 0.106,
+   "reward": 0.021,
+   "contact": false
+  },
+  {
+   "t": 3.2,
+   "distance_m": 1.208,
+   "v": 0.169,
+   "w": 0.088,
+   "reward": 0.014,
+   "contact": false
+  },
+  {
+   "t": 3.72,
+   "distance_m": 1.146,
+   "v": 0.149,
+   "w": 0.077,
+   "reward": 0.011,
+   "contact": false
+  },
+  {
+   "t": 4.24,
+   "distance_m": 1.096,
+   "v": 0.121,
+   "w": 0.064,
+   "reward": 0.007,
+   "contact": false
+  },
+  {
+   "t": 4.75,
+   "distance_m": 1.052,
+   "v": 0.104,
+   "w": 0.051,
+   "reward": 0.005,
+   "contact": false
+  },
+  {
+   "t": 5.27,
+   "distance_m": 1.016,
+   "v": 0.089,
+   "w": 0.04,
+   "reward": 0.003,
+   "contact": false
+  },
+  {
+   "t": 5.78,
+   "distance_m": 0.984,
+   "v": 0.08,
+   "w": 0.033,
+   "reward": 0.001,
+   "contact": false
+  },
+  {
+   "t": 6.3,
+   "distance_m": 0.956,
+   "v": 0.073,
+   "w": 0.026,
+   "reward": 0.0,
+   "contact": false
+  },
+  {
+   "t": 6.82,
+   "distance_m": 0.932,
+   "v": 0.05,
+   "w": 0.015,
+   "reward": -0.003,
+   "contact": false
+  },
+  {
+   "t": 7.33,
+   "distance_m": 0.915,
+   "v": 0.042,
+   "w": 0.012,
+   "reward": -0.004,
+   "contact": false
+  },
+  {
+   "t": 7.85,
+   "distance_m": 0.901,
+   "v": 0.039,
+   "w": 0.009,
+   "reward": -0.005,
+   "contact": false
+  },
+  {
+   "t": 8.36,
+   "distance_m": 0.887,
+   "v": 0.037,
+   "w": 0.007,
+   "reward": -0.005,
+   "contact": false
+  },
+  {
+   "t": 8.88,
+   "distance_m": 0.874,
+   "v": 0.034,
+   "w": 0.003,
+   "reward": -0.005,
+   "contact": false
+  },
+  {
+   "t": 9.39,
+   "distance_m": 0.862,
+   "v": 0.033,
+   "w": 0.002,
+   "reward": -0.005,
+   "contact": false
+  },
+  {
+   "t": 9.9,
+   "distance_m": 0.851,
+   "v": 0.032,
+   "w": 0.002,
+   "reward": -0.005,
+   "contact": false
+  },
+  {
+   "t": 10.42,
+   "distance_m": 0.841,
+   "v": 0.03,
+   "w": 0.002,
+   "reward": -0.006,
+   "contact": false
+  },
+  {
+   "t": 10.93,
+   "distance_m": 0.83,
+   "v": 0.029,
+   "w": 0.002,
+   "reward": -0.006,
+   "contact": false
+  },
+  {
+   "t": 11.44,
+   "distance_m": 0.821,
+   "v": 0.028,
+   "w": 0.002,
+   "reward": -0.006,
+   "contact": false
+  },
+  {
+   "t": 11.95,
+   "distance_m": 0.812,
+   "v": 0.027,
+   "w": 0.002,
+   "reward": -0.007,
+   "contact": false
+  },
+  {
+   "t": 12.47,
+   "distance_m": 0.804,
+   "v": 0.026,
+   "w": 0.001,
+   "reward": -0.007,
+   "contact": false
+  },
+  {
+   "t": 12.98,
+   "distance_m": 0.796,
+   "v": 0.022,
+   "w": 0.006,
+   "reward": -0.007,
+   "contact": false
+  },
+  {
+   "t": 13.49,
+   "distance_m": 0.789,
+   "v": 0.021,
+   "w": 0.005,
+   "reward": -0.007,
+   "contact": false
+  },
+  {
+   "t": 14.0,
+   "distance_m": 0.783,
+   "v": 0.02,
+   "w": 0.004,
+   "reward": -0.008,
+   "contact": false
+  },
+  {
+   "t": 14.52,
+   "distance_m": 0.777,
+   "v": 0.019,
+   "w": 0.003,
+   "reward": -0.008,
+   "contact": false
+  },
+  {
+   "t": 15.03,
+   "distance_m": 0.771,
+   "v": 0.018,
+   "w": 0.004,
+   "reward": -0.008,
+   "contact": false
+  },
+  {
+   "t": 15.54,
+   "distance_m": 0.766,
+   "v": 0.017,
+   "w": 0.004,
+   "reward": -0.008,
+   "contact": false
+  },
+  {
+   "t": 16.06,
+   "distance_m": 0.761,
+   "v": 0.016,
+   "w": 0.002,
+   "reward": -0.008,
+   "contact": false
+  },
+  {
+   "t": 16.57,
+   "distance_m": 0.756,
+   "v": 0.016,
+   "w": 0.003,
+   "reward": -0.008,
+   "contact": false
+  },
+  {
+   "t": 17.08,
+   "distance_m": 0.752,
+   "v": 0.015,
+   "w": 0.002,
+   "reward": -0.008,
+   "contact": false
+  },
+  {
+   "t": 17.6,
+   "distance_m": 0.748,
+   "v": 0.008,
+   "w": -0.012,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 18.11,
+   "distance_m": 0.746,
+   "v": 0.014,
+   "w": 0.002,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 18.62,
+   "distance_m": 0.743,
+   "v": 0.007,
+   "w": -0.012,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 19.13,
+   "distance_m": 0.74,
+   "v": 0.007,
+   "w": -0.01,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 19.65,
+   "distance_m": 0.737,
+   "v": 0.013,
+   "w": 0.003,
+   "reward": -0.008,
+   "contact": false
+  },
+  {
+   "t": 20.16,
+   "distance_m": 0.735,
+   "v": 0.005,
+   "w": -0.011,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 20.67,
+   "distance_m": 0.733,
+   "v": 0.006,
+   "w": -0.01,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 21.18,
+   "distance_m": 0.731,
+   "v": 0.012,
+   "w": 0.004,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 21.7,
+   "distance_m": 0.729,
+   "v": 0.005,
+   "w": -0.009,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 22.21,
+   "distance_m": 0.727,
+   "v": 0.005,
+   "w": -0.009,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 22.72,
+   "distance_m": 0.725,
+   "v": 0.011,
+   "w": 0.004,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 23.24,
+   "distance_m": 0.723,
+   "v": 0.004,
+   "w": -0.009,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 23.75,
+   "distance_m": 0.722,
+   "v": 0.01,
+   "w": 0.004,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 24.26,
+   "distance_m": 0.72,
+   "v": 0.004,
+   "w": -0.009,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 24.78,
+   "distance_m": 0.719,
+   "v": 0.01,
+   "w": 0.005,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 25.28,
+   "distance_m": 0.718,
+   "v": 0.004,
+   "w": -0.008,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 25.8,
+   "distance_m": 0.716,
+   "v": 0.005,
+   "w": -0.009,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 26.31,
+   "distance_m": 0.714,
+   "v": 0.006,
+   "w": -0.008,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 26.82,
+   "distance_m": 0.712,
+   "v": 0.012,
+   "w": 0.005,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 27.34,
+   "distance_m": 0.711,
+   "v": 0.011,
+   "w": 0.005,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 27.85,
+   "distance_m": 0.709,
+   "v": 0.005,
+   "w": -0.008,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 28.36,
+   "distance_m": 0.708,
+   "v": 0.005,
+   "w": -0.008,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 28.87,
+   "distance_m": 0.706,
+   "v": 0.011,
+   "w": 0.005,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 29.39,
+   "distance_m": 0.704,
+   "v": 0.011,
+   "w": 0.005,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 29.9,
+   "distance_m": 0.703,
+   "v": 0.005,
+   "w": -0.008,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 30.41,
+   "distance_m": 0.701,
+   "v": 0.005,
+   "w": -0.007,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 30.92,
+   "distance_m": 0.7,
+   "v": 0.011,
+   "w": 0.006,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 31.44,
+   "distance_m": 0.698,
+   "v": 0.005,
+   "w": -0.006,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 31.95,
+   "distance_m": 0.697,
+   "v": 0.005,
+   "w": -0.006,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 32.46,
+   "distance_m": 0.695,
+   "v": 0.011,
+   "w": 0.007,
+   "reward": -0.009,
+   "contact": false
+  },
+  {
+   "t": 32.98,
+   "distance_m": 0.694,
+   "v": 0.005,
+   "w": -0.005,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 33.49,
+   "distance_m": 0.693,
+   "v": 0.004,
+   "w": -0.005,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 34.0,
+   "distance_m": 0.692,
+   "v": 0.003,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 34.52,
+   "distance_m": 0.691,
+   "v": 0.003,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 35.03,
+   "distance_m": 0.69,
+   "v": 0.003,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 35.54,
+   "distance_m": 0.69,
+   "v": 0.003,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 36.05,
+   "distance_m": 0.689,
+   "v": 0.003,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 36.56,
+   "distance_m": 0.689,
+   "v": 0.003,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 37.08,
+   "distance_m": 0.688,
+   "v": 0.002,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 37.59,
+   "distance_m": 0.688,
+   "v": 0.002,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 38.1,
+   "distance_m": 0.687,
+   "v": 0.002,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 38.62,
+   "distance_m": 0.687,
+   "v": 0.002,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 39.13,
+   "distance_m": 0.686,
+   "v": 0.002,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 39.64,
+   "distance_m": 0.686,
+   "v": 0.002,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 40.16,
+   "distance_m": 0.686,
+   "v": 0.002,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 40.67,
+   "distance_m": 0.685,
+   "v": 0.002,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 41.18,
+   "distance_m": 0.685,
+   "v": 0.002,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 41.7,
+   "distance_m": 0.685,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 42.21,
+   "distance_m": 0.684,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 42.72,
+   "distance_m": 0.684,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 43.23,
+   "distance_m": 0.684,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 43.74,
+   "distance_m": 0.684,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 44.26,
+   "distance_m": 0.683,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 44.77,
+   "distance_m": 0.683,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 45.28,
+   "distance_m": 0.683,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 45.8,
+   "distance_m": 0.683,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 46.31,
+   "distance_m": 0.683,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 46.82,
+   "distance_m": 0.682,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 47.34,
+   "distance_m": 0.682,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 47.85,
+   "distance_m": 0.682,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 48.36,
+   "distance_m": 0.682,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 48.87,
+   "distance_m": 0.682,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 49.39,
+   "distance_m": 0.682,
+   "v": 0.001,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 49.9,
+   "distance_m": 0.681,
+   "v": 0.002,
+   "w": 0.001,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 50.41,
+   "distance_m": 0.681,
+   "v": 0.002,
+   "w": 0.001,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 50.92,
+   "distance_m": 0.681,
+   "v": 0.002,
+   "w": 0.001,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 51.44,
+   "distance_m": 0.68,
+   "v": 0.002,
+   "w": 0.001,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 51.95,
+   "distance_m": 0.68,
+   "v": 0.0,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 52.46,
+   "distance_m": 0.68,
+   "v": 0.0,
+   "w": 0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 52.98,
+   "distance_m": 0.68,
+   "v": 0.002,
+   "w": 0.001,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 53.49,
+   "distance_m": 0.679,
+   "v": 0.0,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 54.0,
+   "distance_m": 0.679,
+   "v": 0.002,
+   "w": 0.001,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 54.52,
+   "distance_m": 0.679,
+   "v": 0.0,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 55.03,
+   "distance_m": 0.679,
+   "v": 0.002,
+   "w": 0.001,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 55.54,
+   "distance_m": 0.679,
+   "v": 0.0,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 56.05,
+   "distance_m": 0.679,
+   "v": 0.0,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 56.56,
+   "distance_m": 0.679,
+   "v": 0.0,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 57.08,
+   "distance_m": 0.679,
+   "v": 0.0,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 57.6,
+   "distance_m": 0.679,
+   "v": 0.0,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 58.11,
+   "distance_m": 0.679,
+   "v": 0.0,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 58.63,
+   "distance_m": 0.679,
+   "v": 0.0,
+   "w": -0.0,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 59.15,
+   "distance_m": 0.678,
+   "v": 0.002,
+   "w": 0.001,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 59.67,
+   "distance_m": 0.678,
+   "v": 0.002,
+   "w": 0.001,
+   "reward": -0.01,
+   "contact": false
+  },
+  {
+   "t": 60.08,
+   "distance_m": 0.678,
+   "v": 0.002,
+   "w": 0.001,
+   "reward": -0.01,
+   "contact": false
+  }
+ ]
+}

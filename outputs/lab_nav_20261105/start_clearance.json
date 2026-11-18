@@ -1,0 +1,43 @@
+{
+  "map": "D:\\rob-memory\\outputs\\lab_nav_20261105\\lab_nav_map.pgm",
+  "spawn": {
+    "x": -0.21,
+    "y": -0.77,
+    "row": 382,
+    "col": 98,
+    "value": 254
+  },
+  "clearance_occupied_only_m": 0.804,
+  "clearance_including_unknown_m": 0.804,
+  "candidates": [
+    {
+      "threshold_m": 0.55,
+      "x": -0.165,
+      "y": -0.815,
+      "clearance_m": 0.804,
+      "distance_from_spawn_m": 0.0
+    },
+    {
+      "threshold_m": 0.65,
+      "x": -0.165,
+      "y": -0.815,
+      "clearance_m": 0.804,
+      "distance_from_spawn_m": 0.0
+    },
+    {
+      "threshold_m": 0.8,
+      "x": -0.165,
+      "y": -0.815,
+      "clearance_m": 0.804,
+      "distance_from_spawn_m": 0.0
+    },
+    {
+      "threshold_m": 1.0,
+      "x": -0.015,
+      "y": -0.515,
+      "clearance_m": 1.007,
+      "distance_from_spawn_m": 0.335
+    }
+  ],
+  "spawn_is_usable": true
+}

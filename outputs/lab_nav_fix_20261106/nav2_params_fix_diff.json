@@ -1,0 +1,85 @@
+{
+ "source": "knowledge_base/Hunter知识库/配置文件/hunter_nav_odom_config/nav2_params.yaml",
+ "output": "sim/experiments/lab_nav_fix_20261106/nav2_params_fix.yaml",
+ "lines": 384,
+ "edits": [
+  {
+   "param": "behaviour tree navigate_no_spin.xml",
+   "removed": "BackUp / Spin recovery",
+   "reason": "reverse and in-place rotation are outside the forward-only policy"
+  },
+  {
+   "param": "default_nav_to_pose_bt_xml",
+   "value": "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_no_spin.xml",
+   "replacements": 3,
+   "reason": "senior path was /home/car/..., does not exist on the desktop"
+  },
+  {
+   "param": "behaviour tree navigate_through_poses_no_spin.xml",
+   "removed": "BackUp / Spin recovery",
+   "reason": "reverse and in-place rotation are outside the forward-only policy"
+  },
+  {
+   "param": "default_nav_through_poses_bt_xml",
+   "value": "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_through_poses_no_spin.xml",
+   "replacements": 3,
+   "reason": "senior path was /home/car/..., does not exist on the desktop"
+  },
+  {
+   "param": "minimum_turning_radius",
+   "from": 1.6,
+   "to": 1.669,
+   "reason": "R = wheel_base / sin(steering_limit) = 0.650 / sin(0.4) = 1.669 m"
+  },
+  {
+   "param": "allow_reversing",
+   "from": true,
+   "to": false,
+   "reason": "forward-only baseline; measured -0.227 m/s reversal in the old round when this was true"
+  },
+  {
+   "param": "allow_unknown",
+   "from": true,
+   "to": false,
+   "replacements": 2,
+   "reason": "unknown space must be impassable; the map has 64,691 unknown cells"
+  },
+  {
+   "param": "motion_model_for_search",
+   "from": "REEDS_SHEPP",
+   "to": "DUBIN",
+   "reason": "the controller is forward-only; Reeds-Shepp plans reverse cusps it cannot execute, and the old record claimed DUBIN"
+  },
+  {
+   "param": "footprint",
+   "from": "[[0.52,0.395],[0.52,-0.395],[-0.50,-0.395],[-0.50,0.395]]",
+   "to": "[[-0.184, -0.393], [0.834, -0.393], [0.834, 0.393], [-0.184, 0.393]]",
+   "replacements": 2,
+   "reason": "chassis envelope plus 0.02 m (the model reaches x=0.814 m, so the inherited rectangle left 0.294 m of the nose outside); the swept-wheel envelope is stored separately and used only by offline audits, because its 0.437 m inscribed radius marks the whole corridor lethal"
+  },
+  {
+   "param": "behavior_server.behavior_plugins",
+   "from": [
+    "backup",
+    "drive_on_heading",
+    "assisted_teleop",
+    "wait"
+   ],
+   "to": [
+    "wait",
+    "drive_on_heading"
+   ],
+   "reason": "BackUp and Spin drive the base in ways the forward-only controller never commands; the plugin definitions stay in the file but are no longer advertised"
+  }
+ ],
+ "unchanged_families": [
+  "amcl",
+  "controller gains and limits",
+  "local_costmap",
+  "global_costmap",
+  "planner (SmacPlannerHybrid)",
+  "velocity smoother",
+  "behaviour server"
+ ],
+ "runtime_check": "verify_fix_config.py reads these back from the running nodes; a file assertion alone does not prove the launch loaded it"
+}

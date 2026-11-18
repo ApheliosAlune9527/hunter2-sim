@@ -1,0 +1,26 @@
+{
+ "source_world": "/mnt/d/rob-memory/outputs/lab_nav_20261105/lab_nav_world_drive.sdf",
+ "output_world": "/mnt/d/rob-memory/outputs/lab_nav_fix_20261106/lab_nav_world_contact.sdf",
+ "topic": "/world/hz_lab_2d/model/hz_hunter_full/link/base_link/sensor/chassis_contact/contact",
+ "chassis_collisions": [
+  "base_link_fixed_joint_lump__battery_and_main_chassis_collision",
+  "base_link_fixed_joint_lump__top_deck_collision_1",
+  "base_link_fixed_joint_lump__front_bumper_collision_2",
+  "base_link_fixed_joint_lump__rear_bumper_collision_3",
+  "base_link_fixed_joint_lump__mount_bottom_plate_collision_4",
+  "base_link_fixed_joint_lump__mount_left_post_collision_5",
+  "base_link_fixed_joint_lump__mount_right_post_collision_6",
+  "base_link_fixed_joint_lump__mount_top_plate_collision_7",
+  "base_link_fixed_joint_lump__sensor_housing_collision_8",
+  "base_link_fixed_joint_lump__sensor_housing_collision_9",
+  "base_link_fixed_joint_lump__gnss_housing_collision_10",
+  "base_link_fixed_joint_lump__lidar_housing_collision_11"
+ ],
+ "excluded": "front/rear tyre collisions, so normal wheel contact is not a hit",
+ "sensor": {
+  "name": "chassis_contact",
+  "type": "contact",
+  "update_rate": 50
+ },
+ "bridge": "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/lab_bridge_contact.yaml"
+}

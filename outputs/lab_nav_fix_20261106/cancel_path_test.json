@@ -1,0 +1,35 @@
+{
+ "record": {
+  "stops_confirmed": 1,
+  "stops_recorded": 1,
+  "stops_missing": [
+   {
+    "goal": "short_straight",
+    "round": 2,
+    "reason": "goal_did_not_end"
+   }
+  ],
+  "ok": true
+ },
+ "teardown": {
+  "cleanup": {
+   "attempted": true,
+   "log_dir": "/tmp/lab_cancel_selftest",
+   "returncode": 0,
+   "stdout": "[stop] stopped=1 skipped=0 still_alive=0",
+   "stderr": ""
+  },
+  "process_alive_after": false,
+  "ok": true
+ },
+ "reused_pid_refused": {
+  "cleanup_stdout": [
+   "[stop] stopped=0 skipped=1 still_alive=1"
+  ],
+  "process_alive_after": true,
+  "ok": true
+ },
+ "trigger_reproduced_here": false,
+ "note": "the trigger (cancel requested, never answered) was seen once in nav_eval_runs_truth_fixmap.json short_straight r2; this test proves the record and the teardown, not the trigger",
+ "ok": true
+}

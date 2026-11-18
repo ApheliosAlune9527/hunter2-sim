@@ -1,0 +1,56 @@
+{
+ "label": "full_sensors",
+ "profile": "full",
+ "wall_seconds": 25.000031888001104,
+ "topics": {
+  "/hz_sim/full/camera/depth_image": {
+   "count": 68,
+   "hz": 2.72,
+   "interval_mean_ms": 364.5,
+   "interval_p95_ms": 209.1,
+   "interval_max_ms": 11203.5
+  },
+  "/hz_sim/full/camera/image": {
+   "count": 68,
+   "hz": 2.72,
+   "interval_mean_ms": 364.5,
+   "interval_p95_ms": 209.3,
+   "interval_max_ms": 11203.4
+  },
+  "/hz_sim/full/lidar/points": {
+   "count": 136,
+   "hz": 5.44,
+   "interval_mean_ms": 181.5,
+   "interval_p95_ms": 110.5,
+   "interval_max_ms": 11095.0
+  },
+  "/hz_sim/full/imu": {
+   "count": 1356,
+   "hz": 54.24,
+   "interval_mean_ms": 18.1,
+   "interval_p95_ms": 10.5,
+   "interval_max_ms": 11034.1
+  },
+  "/hz_sim/full/joint_states": {
+   "count": 13491,
+   "hz": 539.64,
+   "interval_mean_ms": 1.8,
+   "interval_p95_ms": 1.2,
+   "interval_max_ms": 11019.1
+  },
+  "/hz_sim/full/odom": {
+   "count": 399,
+   "hz": 15.96,
+   "interval_mean_ms": 61.7,
+   "interval_p95_ms": 35.1,
+   "interval_max_ms": 11054.1
+  },
+  "/clock": {
+   "count": 13515,
+   "hz": 540.6
+  }
+ },
+ "sim_seconds": 24.579,
+ "realtime_factor": 0.9996,
+ "clock_rate_hz": 549.6
+}

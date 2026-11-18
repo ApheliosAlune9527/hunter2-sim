@@ -1,0 +1,110 @@
+{
+ "episodes": [
+  {
+   "goal": [
+    4.485,
+    0.835,
+    4.962,
+    18.9
+   ],
+   "steps": 586,
+   "return": -4.907,
+   "reason": "timeout",
+   "reset": {
+    "teleport_accepted": true,
+    "settled_truth": [
+     -0.21,
+     -0.77,
+     0.0
+    ],
+    "settled_odom": [
+     38.3438,
+     -2.5153,
+     0.4969
+    ],
+    "position_error_m": 0.0,
+    "initial_distance_m": 4.962,
+    "goal_map": [
+     4.485,
+     0.835
+    ]
+   },
+   "final": {
+    "distance_m": 3.2,
+    "truth": [
+     4.155,
+     -0.1119,
+     0.0004
+    ],
+    "odom": [
+     44.9053,
+     1.2113,
+     0.1574
+    ],
+    "sim_seconds": 60.01
+   }
+  },
+  {
+   "goal": [
+    2.385,
+    0.935,
+    3.105,
+    33.3
+   ],
+   "steps": 589,
+   "return": -12.756,
+   "reason": "timeout",
+   "reset": {
+    "teleport_accepted": true,
+    "settled_truth": [
+     -0.2061,
+     -0.77,
+     0.0001
+    ],
+    "settled_odom": [
+     44.9529,
+     1.2188,
+     0.1583
+    ],
+    "position_error_m": 0.0039,
+    "initial_distance_m": 3.102,
+    "goal_map": [
+     2.385,
+     0.935
+    ]
+   },
+   "final": {
+    "distance_m": 5.274,
+    "truth": [
+     4.1438,
+     -0.4338,
+     0.0018
+    ],
+    "odom": [
+     52.5119,
+     3.0842,
+     0.2844
+    ],
+    "sim_seconds": 60.1
+   }
+  }
+ ],
+ "checks": {
+  "episode_0_dt": true,
+  "episode_1_dt": true
+ },
+ "summary": {
+  "obs_shape_ok": true,
+  "obs_range_ok": true,
+  "max_reset_position_error_m": 0.0039,
+  "reset_errors_within_2cm": true,
+  "end_reasons": [
+   "timeout"
+  ],
+  "reasons_declared": true,
+  "reasons_seen": [
+   "timeout"
+  ],
+  "control_period_ok": true
+ }
+}

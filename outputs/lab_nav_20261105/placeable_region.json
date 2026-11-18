@@ -1,0 +1,159 @@
+{
+  "map": "D:\\rob-memory\\outputs\\lab_nav_20261105\\lab_nav_map.pgm",
+  "resolution_m": 0.05,
+  "origin_m": [
+    -5.09,
+    -4.89,
+    0.0
+  ],
+  "footprint_m": {
+    "x": [
+      -0.5,
+      0.52
+    ],
+    "y": [
+      -0.395,
+      0.395
+    ]
+  },
+  "headings_deg": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100,
+    105,
+    110,
+    115,
+    120,
+    125,
+    130,
+    135,
+    140,
+    145,
+    150,
+    155,
+    160,
+    165,
+    170,
+    175,
+    180,
+    185,
+    190,
+    195,
+    200,
+    205,
+    210,
+    215,
+    220,
+    225,
+    230,
+    235,
+    240,
+    245,
+    250,
+    255,
+    260,
+    265,
+    270,
+    275,
+    280,
+    285,
+    290,
+    295,
+    300,
+    305,
+    310,
+    315,
+    320,
+    325,
+    330,
+    335,
+    340,
+    345,
+    350,
+    355
+  ],
+  "spawn": {
+    "x": -0.21,
+    "y": -0.77,
+    "yaw": 0.0
+  },
+  "any_heading": {
+    "cells": 18772,
+    "area_m2": 46.93,
+    "note": "upper bound: admits at least one heading, an Ackermann vehicle cannot rotate in place"
+  },
+  "all_headings": {
+    "cells": 10389,
+    "area_m2": 25.97
+  },
+  "strict_largest_component": {
+    "cells": 8271,
+    "area_m2": 20.68
+  },
+  "spawn_placeable_all_headings": true,
+  "goals": [
+    {
+      "name": "short_straight",
+      "feasible": true,
+      "x": 1.885,
+      "y": 0.435,
+      "yaw": 0.522,
+      "clearance_m": 1.65,
+      "distance_from_spawn_m": 2.417,
+      "bearing_deg": 29.9,
+      "straight_corridor_free": true,
+      "col": 139,
+      "row": 358
+    },
+    {
+      "name": "mid_offset",
+      "feasible": true,
+      "x": 3.185,
+      "y": 1.235,
+      "yaw": 0.5335,
+      "clearance_m": 1.2,
+      "distance_from_spawn_m": 3.943,
+      "bearing_deg": 30.6,
+      "straight_corridor_free": true,
+      "col": 165,
+      "row": 342
+    },
+    {
+      "name": "long_run",
+      "feasible": true,
+      "x": 4.285,
+      "y": 2.535,
+      "yaw": 0.634,
+      "clearance_m": 0.65,
+      "distance_from_spawn_m": 5.579,
+      "bearing_deg": 36.3,
+      "straight_corridor_free": true,
+      "col": 187,
+      "row": 316
+    },
+    {
+      "name": "far_turn",
+      "feasible": false,
+      "reason": "no placeable cell with a free straight corridor"
+    }
+  ],
+  "preview": "D:\\rob-memory\\outputs\\lab_nav_20261105\\placeable_region.png"
+}

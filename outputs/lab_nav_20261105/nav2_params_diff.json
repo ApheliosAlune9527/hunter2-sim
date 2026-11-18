@@ -1,0 +1,46 @@
+{
+  "source": "knowledge_base/Hunter知识库/配置文件/hunter_nav_odom_config/nav2_params.yaml",
+  "output": "sim/experiments/lab_nav/nav2_params.yaml",
+  "source_sha256_lines": 384,
+  "edits": [
+    {
+      "key": "default_nav_to_pose_bt_xml",
+      "replacements": 3,
+      "value": "/mnt/d/rob-memory/sim/experiments/lab_nav/navigate_no_spin.xml"
+    },
+    {
+      "key": "default_nav_through_poses_bt_xml",
+      "replacements": 3,
+      "value": "/mnt/d/rob-memory/sim/experiments/lab_nav/navigate_through_poses_no_spin.xml"
+    },
+    {
+      "key": "minimum_turning_radius",
+      "from": 1.6,
+      "to": 1.669,
+      "reason": "wheel_base / sin(steering_limit) = 0.650 / sin(0.4)"
+    },
+    {
+      "key": "allow_reversing",
+      "from": true,
+      "to": false,
+      "reason": "sim run drove at -0.227 m/s on the first goal; forward-only matches the no-spin baseline"
+    },
+    {
+      "key": "allow_unknown",
+      "from": true,
+      "to": false,
+      "replacements": 2,
+      "reason": "task requires unknown space to be impassable; the map is trinary with 64,691 unknown cells"
+    }
+  ],
+  "unchanged_families": [
+    "amcl",
+    "controller (RPP gains/limits)",
+    "local_costmap",
+    "global_costmap",
+    "planner (SmacPlannerHybrid)",
+    "smoother",
+    "velocity_smoother",
+    "behavior_server"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "task": "handoff task 2 - virtual drive + minimal sensor loop",
+  "date": "2026-11-05",
+  "world": "outputs/lab_nav_20261105/lab_nav_world_drive.sdf",
+  "namespace": "/hz_sim/lab",
+  "world_name": "hz_lab_2d",
+  "drive": {
+    "plugin": "ignition::gazebo::systems::AckermannSteering",
+    "left_joint": "rear_left_wheel_joint",
+    "right_joint": "rear_right_wheel_joint",
+    "steering_joints": ["front_left_steering_joint", "front_right_steering_joint"],
+    "cmd_vel_topic": "/hz_sim/lab/cmd_vel",
+    "odom_topic": "/hz_sim/lab/odom",
+    "steering_limit_rad": 0.4,
+    "joint_hard_limit_rad": 0.58,
+    "wheel_base_m": 0.65,
+    "wheel_separation_m": 0.605,
+    "wheel_radius_m": 0.165
+  },
+  "sensor": {
+    "type": "gpu_lidar, single plane",
+    "topic": "/hz_sim/lab/scan",
+    "beams": 720,
+    "angle_min_rad": -3.1416,
+    "angle_max_rad": 3.1416,
+    "range_m": [0.1, 20.0],
+    "update_rate_hz": 10,
+    "finite_beams_in_first_message": 720
+  },
+  "removed_sensors": ["32-beam lidar", "rgbd camera", "imu"],
+  "measurements": {
+    "set_pose_accuracy": {
+      "requested": [2.535, 12.885, 2.7053],
+      "actual": [2.535, 12.885, 2.7053],
+      "max_error_m": 0.0,
+      "note": "read back from /world/hz_lab_2d/pose/info immediately after the call"
+    },
+    "straight_forward": {
+      "commanded_speed_mps": 0.05,
+      "odom_distance_m": 2.2052,
+      "truth_distance_m": 2.2098,
+      "relative_error": 0.0021,
+      "sim_seconds": 49.9
+    },
+    "reverse": {
+      "commanded_speed_mps": -0.05,
+      "odom_distance_m": 1.1696,
+      "truth_distance_m": 1.1696,
+      "relative_error": 0.0,
+      "sim_seconds": 29.0
+    },
+    "steering_at_full_lock": {
+      "command": {"linear_x": 0.1, "angular_z": 0.1},
+      "inner_wheel_rad": 0.4439,
+      "outer_wheel_rad": 0.3185,
+      "theory_inner_rad": 0.444,
+      "theory_outer_rad": 0.318,
+      "verdict": "joints reach the exact Ackermann pair"
+    },
+    "turning_radius": {
+      "expected_m": 1.669,
+      "measured_arc_over_angle_m": 1.627,
+      "measured_circle_fit_m": 1.873,
+      "deviation_arc_over_angle": -0.025,
+      "note": "circle fit is biased upward because the last two samples were taken while the vehicle pressed the far wall; arc/angle over 1.95 rad is the trustworthy number"
+    },
+    "performance": {
+      "max_step_size_s": 0.004,
+      "real_time_factor_measured": 0.19,
+      "wall_collision": "1589 boxes (triangle mesh for visual only)",
+      "cost_breakdown_500_iterations_wall_s": {
+        "step0.001_mesh_walls": 11.56,
+        "step0.001_no_sensors": 6.12,
+        "step0.001_no_sensors_no_walls": 2.61,
+        "step0.004_mesh_walls": 12.39,
+        "step0.004_box_walls": 9.67,
+        "step0.008_mesh_walls": 12.53
+      },
+      "conclusion": "cost is fixed per simulation iteration, not per simulated second; raising the step from 1 ms to 4 ms buys ~4x throughput almost for free"
+    }
+  },
+  "status": "passed",
+  "known_gaps": [
+    "no collision/contact topic yet (needed by task 4)",
+    "the 60 s episode budget of task 4 costs about 5 min wall time at RTF 0.19"
+  ]
+}

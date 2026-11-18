@@ -1,0 +1,298 @@
+HUNTER 2.0 仿真 Nav2 初学者操作教程 v2（2026-11-07）
+====================================================
+
+本版改了什么
+------------
+1) 顺序改了。v1 第 2 步先停栈、第 3 步再查话题，停完栈话题就没了；
+   本版是“启动 → 观察 → 定位 → 导航 → 取消 → 停车 → 退出”，中途不停栈。
+2) 增加 AMCL 模式：由你自己设初始位姿，并核对激光与地图是否对齐。
+3) 取消练习改成对一个“仍在执行”的目标按 Ctrl+C，同时看两样东西：
+   动作终态（CANCELED）和停车反馈。
+4) 验收数据换成修正未知区分类之后的新图结果。
+
+适用环境
+--------
+台式机 Windows + WSL2 Ubuntu-22.04，用户 aphelios，ROS 2 Humble，
+Gazebo Fortress，仿真隔离域 73（实车是域 88，两者分开）。
+本教程只用仿真；任何让实车动的操作都必须单独授权。
+
+全程工作目录：/mnt/d/rob-memory
+仿真入口目录：sim/experiments/lab_nav_fix_20261106
+结果目录：    outputs/lab_nav_fix_20261106
+
+
+第 0 步：先记住三件事
+---------------------
+1) 关窗口不等于停程序。仿真栈用 setsid 起到后台，只有 stop 脚本能真正结束它。
+2) 一次只敲一条命令，看清输出再敲下一条；
+   看到 [stack] FATAL 或 [env] FATAL 就先读那一行，不要继续往下敲。
+3) 绿色车体框永远应当落在白色格子里。
+   黑=占用，白=空闲，灰=未知；未知默认不可通行（allow_unknown: false）。
+
+
+第 1 步：启动仿真栈
+-------------------
+终端：Windows PowerShell
+
+真值定位（先从这个开始，最省事）：
+  wsl.exe -d Ubuntu-22.04 -u aphelios -- env GUI=1 bash /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/run_fix_stack.bash
+
+AMCL 定位（第 8 步要你自己设初始位姿，所以这里显式关掉自动播种）：
+  wsl.exe -d Ubuntu-22.04 -u aphelios -- env GUI=1 LOCALIZER=amcl INIT_POSE=manual bash /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/run_fix_stack.bash
+
+预期输出（顺序大致如下）：
+  [stack] world sha256=1100cd5...
+  [stack] gui=on
+  [stack] server pid=...
+  [stack] bridge pid=...
+  [stack] truth/odom_tf pid=...
+  [stack] nav2 pid=...
+  [stack] rviz pid=...
+  [stack] ready in 4s
+（AMCL 模式还会多一行：AMCL is waiting for a starting pose）
+
+同时弹出 Gazebo（三维场景）和 RViz（二维地图）两个窗口。
+
+要点：ready 不是“进程起来了”，而是 /clock 在走、TF 链能解析、
+Nav2 六个节点全部 activate 之后才打印的。
+
+
+第 2 步：开一个能发 ROS 命令的终端
+----------------------------------
+终端：Windows PowerShell（新开一个，别关掉第 1 步那个）
+
+  wsl.exe -d Ubuntu-22.04 -u aphelios
+
+进去后先加载环境（不能省：域不对就互相看不见）：
+
+  source /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/lab_nav_fix_env.bash
+
+预期：一行“已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / ...”
+
+
+第 3 步：看有哪些话题
+--------------------
+  ros2 topic list
+
+应该能看到（顺序无关）：
+  /clock  /cmd_vel  /contacts  /ground_truth  /joint_states
+  /map    /odom     /parameter_events  /rosout  /scan  /tf
+
+要点：
+  /scan   雷达实时扫描（会变）
+  /map    从文件读来的静态地图（不变）
+  /clock  仿真时间，所有节点靠它同步
+  /contacts 由桥接创建，但这个 Gazebo build 一条接触消息都不发，
+           所以它一直是空的——碰撞计数仍是“未测”，不要当成“零碰撞”。
+
+
+第 4 步：确认扫描是活的
+----------------------
+  ros2 topic hz /scan
+
+预期：约 10 Hz（每 0.1 秒一帧，间隔 0.097~0.103 s）。
+
+如果看到约 20 Hz，说明同一个世界起了两个桥接。回第 1 步的终端用 stop 脚本停掉，
+再重新启动；不要在两个桥上继续做实验。
+
+
+第 5 步：读地图的元数据
+----------------------
+  cd /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106
+  python3 -B map_probe.py
+
+预期：
+  width=241 height=465 resolution=0.05
+  origin=(-5.090, -4.890)
+  cell values: {-1: 64691, 0: 41446, 100: 5928}
+  unknown=64691 (57.7%) occupied=5928 (5.3%)
+
+要点：
+  241×465 格、每格 0.05 m，整张图约 12.05×23.25 m；
+  原点 (-5.09,-4.89) 是建图那次留下的，不是 (0,0)；
+  -1 未知占 57.7%，0 空闲，100 占用。
+  这里用的 YAML 是 lab_nav_map_fix.yaml（free_thresh 0.10），
+  旧 YAML 的 0.25 会把灰色格全当成空闲，等于“未知区可通行”。
+
+为什么不用 ros2 topic echo /map：地图是一条消息里 11 万个格子、且只发一次，
+命令行工具在这类 latched 大消息上常常收不到，会一直卡着。
+
+
+第 6 步（真值模式）：确认车在哪
+------------------------------
+  ros2 run tf2_ros tf2_echo map base_link
+
+预期：每秒刷新一次，出生点是
+  Translation: [-0.210, -0.770, 0.000]
+  Rotation: in Quaternion (xyzw) [0.000, 0.000, 0.000, 1.000]
+
+开头出现一次 Invalid frame ID "map" 是正常的（第一条消息还没到）。
+要点：这条链是 map → odom → base_link。真值模式由 truth_localisation.py 算 map→odom；
+AMCL 模式由 AMCL 算，两者不能同时发布，否则 TF 会来回跳。
+
+
+第 7 步（AMCL 模式）：自己设初始位姿
+-----------------------------------
+AMCL 在拿到起始位姿之前不会发布 map→odom，所以这一步是必须先做的。
+
+在 RViz 窗口里：
+  1) 点顶部工具栏的 “2D Pose Estimate”（绿色箭头图标）；
+  2) 在地图上找到出生点：靠近地图下方、坐标约 (-0.21, -0.77)；
+  3) 按住左键在该点点下，往 +x 方向（图中向右）拖出一小段，松开。
+
+预期现象：
+  - RViz 里出现一片橙色粒子（Particles），集中在车附近；
+  - 终端里下面这条能打印出位姿，且数字接近你点的位置：
+      ros2 topic echo /amcl_pose --once --field pose.pose.position
+  - map→base_link 也能解析了：
+      ros2 run tf2_ros tf2_echo map base_link
+
+不想用鼠标也可以发一条消息（在同一 WSL 终端里）：
+  ros2 topic pub --once /initialpose geometry_msgs/msg/PoseWithCovarianceStamped \
+  "{header: {frame_id: map}, pose: {pose: {position: {x: -0.21, y: -0.77}, orientation: {w: 1.0}}}}"
+
+要点：位姿设错（位置偏一米、或箭头朝向反了）时，导航会表现成“路径奇怪、总撞”，
+不是控制器坏了，先把初始位姿改对。
+
+
+第 8 步：核对激光与地图是否对齐
+-------------------------------
+看 RViz：红色 /scan 点应当贴着黑色墙线，粒子应当聚成一团而不是散满全图。
+
+对齐不好时（红点普遍偏出墙外/偏进墙里）：
+  再点一次 “2D Pose Estimate”，微调位置和朝向；
+  或者把车开到走廊开阔处重新设置（环境比初始点更像的地方）。
+
+真值模式下这一步自动是对的（位置是仿真直接给的），可以拿来对照：
+  切到真值模式看红点贴墙是什么样，再回 AMCL 看差多少。
+
+
+第 9 步：发一个已验证的目标
+---------------------------
+目标是 mid_offset：(3.185, 1.235)，朝向 0.5335 rad（约 30.6°）。
+四元数是 z=0.2636, w=0.9646（yaw/2 = 0.2668）。
+
+  ros2 action send_goal /navigate_to_pose nav2_msgs/action/NavigateToPose \
+  "{pose: {header: {frame_id: map}, pose: {position: {x: 3.185, y: 1.235, z: 0.0}, orientation: {z: 0.2636, w: 0.9646}}}}" --feedback
+
+预期：
+  Goal accepted with ID: ...
+  每秒一条 feedback，distance_remaining 逐渐变小
+  Goal finished with status: SUCCEEDED
+  车停在离目标 0.1~0.2 m 以内（控制器 xy_goal_tolerance 0.20 m 算到达）
+
+要点：成功有两层判据，不要混：
+  控制器自己认为到没到 —— 0.20 m；
+  外部评测认为到没到 —— 0.25 m，且要真值确认（防“假成功”）。
+
+如果想练更简单的一次，用正前方目标：
+  position {x: 3.6, y: -0.77}，orientation {w: 1.0}。
+
+
+第 10 步：取消一个“还在执行”的目标
+-----------------------------------
+再发一个远一点的目标（长走廊那条）：
+
+  ros2 action send_goal /navigate_to_pose nav2_msgs/action/NavigateToPose \
+  "{pose: {header: {frame_id: map}, pose: {position: {x: 4.285, y: 2.535, z: 0.0}, orientation: {z: 0.3121, w: 0.9500}}}}" --feedback
+
+等车真的动起来（feedback 里 distance_remaining 开始变小、约 2~3 秒），
+在同一个终端按 Ctrl+C。
+
+预期两件事，缺一不可：
+  1) 动作终态：Goal finished with status: CANCELED
+     （CANCELED 是“你让它停”；ABORTED 是“它做不到”，含义完全不同）
+  2) 停车反馈：见第 11 步，速度必须在 1 秒内落到阈值以下。
+
+要点：从按 Ctrl+C 到车真正停住有一段滑行，这是正常的；
+      “取消指令发出”和“车停稳”是两件事，要分别确认。
+
+
+第 11 步：确认真的停住了
+-----------------------
+  ros2 topic echo /odom --field twist.twist.linear.x
+
+预期：连续几十行 0.0（偶尔一个极小的残值属正常）。
+
+再确认位置不再变（另开一个终端或先 Ctrl+C 上一条）：
+
+  ros2 run tf2_ros tf2_echo map base_link
+
+预期：Translation 的数字不再变化（真值也停住了，不只是里程计说停）。
+
+更严格的判据（评测脚本里就是这么做的）：
+  里程计 |v| < 0.01 m/s、|w| < 0.01 rad/s 持续 1 个仿真秒，
+  并且真值在最后 1 秒内位移 < 0.01 m。
+
+
+第 12 步：正常退出
+------------------
+回到第 1 步那个 PowerShell 窗口（不是 WSL 里的 ROS 终端）：
+
+  wsl.exe -d Ubuntu-22.04 -u aphelios -- bash /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/stop_fix_stack.bash
+
+预期：  [stop] stopped=N skipped=0 still_alive=0
+  “already gone” 表示那个进程自己先没了，不算失败；只看 still_alive=0。
+
+确认之后再关 Gazebo / RViz 窗口。
+只关窗口会让桥接、定位、Nav2 留在后台等一个不存在的时钟，
+下次启动还会被“refusing to start: these recorded processes are still alive”拦住。
+
+
+第 13 步（可选）：跑一次批量评测
+--------------------------------
+栈起来之后，在 ROS 终端里：
+
+  cd /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106
+  python3 -B run_nav_eval_fix.py --tag my_run --rounds 3 --budget-sim 60 --wall-budget 150
+
+它会自动复位、发目标、按仿真时钟计时、超时就取消、再验证停稳，
+结果写到 outputs/lab_nav_fix_20261106/nav_eval_runs_my_run.json。
+
+注意：批量评测会自己发 /cmd_vel 复位和刹车，所以不要和手工操作同时进行
+（速度入口只能有一个）。
+
+
+常见问题
+--------
+Q1 终端报 [env] FATAL 或 [stack] FATAL
+   环境或启动条件不满足，脚本主动退出，只清理它自己登记的进程。
+   读那一行的原因，修好再启动，不要连着重试。
+
+Q2 车不动，但轮子在转
+   先确认栈真的 ready；再看是不是有两个桥接（/scan 20 Hz）；
+   真值模式下 /clock 停了会让 Nav2 一直等，看着像卡死。
+
+Q3 目标一直 ABORTED
+   先看目标是不是贴着墙：车头 0.834 m 加前视约 0.6 m 会超过到墙距离，
+   日志会出现 RegulatedPurePursuitController detected collision ahead! 和
+   Controller patience exceeded。换一个离墙远一点的目标。
+   再看起点/目标是否落在灰色未知区（未知不可通行）。
+
+Q4 不知道“成功了”该不该信
+   看状态码之外还要看真值终点误差；动作说 SUCCEEDED 而真值差几米属于假成功，
+   评测脚本会把这种轮次判为失败（truth_disagrees）。
+
+Q5 AMCL 一开始路径就很怪
+   九成是初始位姿设错。重新设一次，并看粒子是否聚成一团。
+
+Q6 提示 refusing to start: ... still alive
+   上一次没停干净。先跑第 12 步的 stop 脚本，再启动。
+
+
+当前验收数据（新图，未知区已正确分类）
+--------------------------------------
+真值定位：成功 6/9，停车确认 8/9（缺的那一轮是取消后动作未结束，没有停车证据）。
+AMCL    ：成功 7/9，停车确认 9/9。
+AMCL 精度：静止 4000 样本最大误差 0.0418 m（常值偏差，不抖）；
+           2.001 m 直线后末端误差 0.0951 m，航向误差 0.0069 rad。
+三个目标里 mid_offset、long_run 两种模式都 3/3；
+short_straight（2.4 m、26° 转向）只作诊断用例。
+
+
+还没被验证的事情（不要当成已知）
+--------------------------------
+1) 碰撞接触：这个 Gazebo build 的接触传感器一条消息都不发，
+   碰撞计数记为 not_measured，只用“轮速在积分而车不动”作为代理判据。
+2) 批量成功率是单批结果（每目标 3 轮），不是统计意义上的成功率。
+3) 长时驾驶、动态建图、完整传感器下的实时性：未验收。

@@ -1,0 +1,72 @@
+{
+ "source": "/mnt/d/rob-memory/inbox_car_20261108/hz_nav_ws_config_20261108/config/nav2_params.yaml",
+ "output": "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/nav2_params_carmatch.yaml",
+ "edits": [
+  {
+   "old": "default_nav_to_pose_bt_xml: \"/home/car/hz_nav_ws/config/navigate_no_spin.xml\"",
+   "new": "default_nav_to_pose_bt_xml: \"/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_no_spin_car.xml\"",
+   "occurrences": 3,
+   "why": "same tree as the car, kept next to this file instead of /home/car"
+  },
+  {
+   "old": "default_nav_through_poses_bt_xml: \"/home/car/hz_nav_ws/config/navigate_through_poses_no_spin.xml\"",
+   "new": "default_nav_through_poses_bt_xml: \"/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_through_poses_no_spin_car.xml\"",
+   "occurrences": 3,
+   "why": "same tree as the car, kept next to this file instead of /home/car"
+  },
+  {
+   "old": "/hz_nav/odom",
+   "new": "/odom",
+   "occurrences": 1,
+   "why": "the bridge publishes odom at /odom; the car file names it absolutely"
+  }
+ ],
+ "lines_changed": 7,
+ "lines_total": 384,
+ "kept_from_car": {
+  "footprint": "[[0.52, 0.395], [0.52, -0.395], [-0.50, -0.395], [-0.50, 0.395]]",
+  "allow_unknown": "true",
+  "motion_model_for_search": "REEDS_SHEPP",
+  "minimum_turning_radius": "1.6",
+  "allow_reversing": "true",
+  "desired_linear_vel": "0.10",
+  "behavior_plugins": "[\"backup\", \"drive_on_heading\", \"assisted_teleop\", \"wait\"]"
+ },
+ "delta_vs_car": [
+  [
+   44,
+   "    default_nav_to_pose_bt_xml: \"/home/car/hz_nav_ws/config/navigate_no_spin.xml\"",
+   "    default_nav_to_pose_bt_xml: \"/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_no_spin_car.xml\""
+  ],
+  [
+   45,
+   "    default_nav_through_poses_bt_xml: \"/home/car/hz_nav_ws/config/navigate_through_poses_no_spin.xml\"",
+   "    default_nav_through_poses_bt_xml: \"/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_through_poses_no_spin_car.xml\""
+  ],
+  [
+   49,
+   "    odom_topic: /hz_nav/odom",
+   "    odom_topic: /odom"
+  ],
+  [
+   108,
+   "    default_nav_to_pose_bt_xml: \"/home/car/hz_nav_ws/config/navigate_no_spin.xml\"",
+   "    default_nav_to_pose_bt_xml: \"/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_no_spin_car.xml\""
+  ],
+  [
+   109,
+   "    default_nav_through_poses_bt_xml: \"/home/car/hz_nav_ws/config/navigate_through_poses_no_spin.xml\"",
+   "    default_nav_through_poses_bt_xml: \"/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_through_poses_no_spin_car.xml\""
+  ],
+  [
+   114,
+   "    default_nav_to_pose_bt_xml: \"/home/car/hz_nav_ws/config/navigate_no_spin.xml\"",
+   "    default_nav_to_pose_bt_xml: \"/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_no_spin_car.xml\""
+  ],
+  [
+   115,
+   "    default_nav_through_poses_bt_xml: \"/home/car/hz_nav_ws/config/navigate_through_poses_no_spin.xml\"",
+   "    default_nav_through_poses_bt_xml: \"/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_through_poses_no_spin_car.xml\""
+  ]
+ ]
+}

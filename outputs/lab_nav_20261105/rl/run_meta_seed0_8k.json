@@ -1,0 +1,21 @@
+{
+ "total_timesteps": 8192,
+ "seed": 0,
+ "episode_s": 30.0,
+ "control_dt_s": 0.1,
+ "train_goals": 40,
+ "train_goal_filter": "full train split",
+ "wall_seconds": 819,
+ "episodes_logged": 28,
+ "reconstructed": true,
+ "note": "run_meta was overwritten when the 60k run started; these figures come from the completion message of that run and from its preserved model/evaluation",
+ "library": {
+  "torch": "2.14.1+cpu",
+  "gymnasium": "1.4.0",
+  "stable_baselines3": "2.9.2"
+ },
+ "reward_variant": "progress",
+ "later_added_fields": [
+  "reward_variant: value from the code path that ran; the meta writer did not log it then"
+ ]
+}

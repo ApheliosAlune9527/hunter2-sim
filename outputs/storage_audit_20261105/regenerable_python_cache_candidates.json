@@ -1,0 +1,800 @@
+[
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\Launch文件\\robot_bringup_launch\\__pycache__\\ars548_pointpillars.launch.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\Launch文件\\robot_bringup_launch\\ars548_pointpillars.launch.py",
+    "bytes": 3225,
+    "sha256": "562ab3806a4d976e9fda3901e080b2c26d9e6096ca99d86a67a4ef96f2f8bafa"
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\Launch文件\\robot_bringup_launch\\__pycache__\\ars548.launch.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\Launch文件\\robot_bringup_launch\\ars548.launch.py",
+    "bytes": 1113,
+    "sha256": "30f78004241f19c743aaff4601017075625a5f8c28039c0f7f2f180b1c8e3e3e"
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\Launch文件\\robot_bringup_launch\\__pycache__\\d435i.launch.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\Launch文件\\robot_bringup_launch\\d435i.launch.py",
+    "bytes": 980,
+    "sha256": "1d38ce664d7dc588c3f042969e161234f636fb1714829e5fd394088231b1763f"
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\Launch文件\\robot_bringup_launch\\__pycache__\\hunter.launch.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\Launch文件\\robot_bringup_launch\\hunter.launch.py",
+    "bytes": 871,
+    "sha256": "b50c58dde70a513c7c76f2887fe4665081e8dc43886bec7dd9079f5dcbcfdd58"
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\Launch文件\\robot_bringup_launch\\__pycache__\\xt32.launch.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\Launch文件\\robot_bringup_launch\\xt32.launch.py",
+    "bytes": 701,
+    "sha256": "b040667457a5f7e54a62b5a98279fd60252f60d6ebdda4f90af58da24739db06"
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_topo_nav\\__pycache__\\__init__.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_topo_nav\\__init__.py",
+    "bytes": 156,
+    "sha256": "c0f20600c1714e25fd7f1c5237dac7751ab21cc960601b29d1514504436efd5c"
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_topo_nav\\__pycache__\\capture_topo_pose.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_topo_nav\\capture_topo_pose.py",
+    "bytes": 4051,
+    "sha256": "ca19114561b61dde2bc3e5c32dcdf6cf4b81c53c2a696032fc17c528ebef870a"
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_topo_nav\\__pycache__\\event_to_topo.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_topo_nav\\event_to_topo.py",
+    "bytes": 2584,
+    "sha256": "93b068d703978fabe00d811808c817d85463e872c7655275ee951fe97f6ae117"
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_topo_nav\\__pycache__\\goto_topo.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_topo_nav\\goto_topo.py",
+    "bytes": 4122,
+    "sha256": "11b69db168fe513f38ae20dd237b0ae8dee1fe4398389b47c9b5851dde969e5f"
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_topo_nav\\__pycache__\\home_event_manager_v0.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_topo_nav\\home_event_manager_v0.py",
+    "bytes": 3537,
+    "sha256": "22b22b0e814110ab54ec4b8581833451ac8def197160c5fed91c6de2bdc3f2d4"
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_topo_nav\\__pycache__\\topo_marker_pub.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\脚本\\xt32_topo_nav\\topo_marker_pub.py",
+    "bytes": 3365,
+    "sha256": "39b586468cccac8ec0378fd00bfe83d80a1d43cc1375d5544a81b938de35de88"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\floral-ring-v01\\__pycache__\\build_ring.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\outputs\\floral-ring-v01\\build_ring.py",
+    "bytes": 26555,
+    "sha256": "5b441a89ea24ba679c09d498d1d5b29a236b4dd957bf85c16be1bce46ff87a2b"
+  },
+  {
+    "path": "D:\\rob-memory\\sim\\launch\\__pycache__\\hunter_full_ros.launch.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\sim\\launch\\hunter_full_ros.launch.py",
+    "bytes": 1642,
+    "sha256": "33128b33993835c8115381e1afb4a14931c54251c3db3315fc84c276124f308d"
+  },
+  {
+    "path": "D:\\rob-memory\\sim\\tools\\__pycache__\\check_full_ros_interfaces.cpython-310.pyc",
+    "source_path": "D:\\rob-memory\\sim\\tools\\check_full_ros_interfaces.py",
+    "bytes": 3392,
+    "sha256": "6d3e0199c91dd4d6cf1d69a20df5251104101dec32909b93ef06d560a2823c5e"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\rtree\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\rtree\\__init__.py",
+    "bytes": 451,
+    "sha256": "a9c605d55811f915cba254632d42460e65d804857c9c6f9f9290d346b330bab1"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\rtree\\__pycache__\\core.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\rtree\\core.py",
+    "bytes": 37356,
+    "sha256": "acf66f61841cc9994a5daa549c5f7103c5cc8d722ca3ce686d0d2f1f3775f64b"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\rtree\\__pycache__\\exceptions.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\rtree\\exceptions.py",
+    "bytes": 490,
+    "sha256": "37fa5c78907c66528f88530be72ee514a87aa906e7df3bf6f62b5251617a4f67"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\rtree\\__pycache__\\finder.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\rtree\\finder.py",
+    "bytes": 6387,
+    "sha256": "d31b14b1f5bbe1b3c8feca400527bcb24233c4b54f3cd1e7a48dbd75ac8691e2"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\rtree\\__pycache__\\index.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\rtree\\index.py",
+    "bytes": 124386,
+    "sha256": "c043bd176452b6525fd0a3f47dcd90ca66b1d3ce6826cc148069b537c341a449"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\gltf\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\gltf\\__init__.py",
+    "bytes": 66591,
+    "sha256": "54522bb38a9f1855c3023673ea3ec145fbe806285fc9d44f31ad62f768d9831d"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\gltf\\__pycache__\\extensions.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\gltf\\extensions.py",
+    "bytes": 13911,
+    "sha256": "4856f58db589c2103fcfff9437c53fc618d7838dad5fe1a1f79d4b95773c9b79"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__init__.py",
+    "bytes": 503,
+    "sha256": "397b84644358a7ba070c704ad5923a3db15bff2f11d4658ff88d7e56a96556f3"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\binvox.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\binvox.py",
+    "bytes": 21467,
+    "sha256": "052e81a57525167abdb1ccb7e7b182dbb0add939ba646689ebf183256f5d4f30"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\cascade.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\cascade.py",
+    "bytes": 2514,
+    "sha256": "760fc51458044cf505507faa5bc53c46bbdf297843f0499248d21b891de3b28a"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\common.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\common.py",
+    "bytes": 469,
+    "sha256": "e4c6c633de59cbfbc0a32230182b615573cb29722b071191e893d237e0d14a49"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\dae.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\dae.py",
+    "bytes": 18219,
+    "sha256": "999945f190c745cb5cfdf98bc92963a29da464c06ed0ecf40088b5b8a2815104"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\export.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\export.py",
+    "bytes": 10698,
+    "sha256": "6df9517bdc34e8b4bb8887e57762ba48d0fe8c6b897854f9be3aa8b193ef90c6"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\load.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\load.py",
+    "bytes": 22847,
+    "sha256": "1965b02c23ded7da8ebf8c0c628d161aa186aa6d69a722fc9f4c2f93a566e96a"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\misc.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\misc.py",
+    "bytes": 5631,
+    "sha256": "aa1bbfd22afd11ca33ce9e8f98dbf78d736376d885f0f24b32cbda29329ea266"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\obj.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\obj.py",
+    "bytes": 33302,
+    "sha256": "cbae48874e3ad95d038af6e195e85237c8716f8235d181116f7ee10fd54d5d80"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\off.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\off.py",
+    "bytes": 4052,
+    "sha256": "d860b4971458836a8165e5f86ec62afb7c88345e6712f5208b3ffb7d65ebcb5f"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\ply.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\ply.py",
+    "bytes": 36463,
+    "sha256": "997a40bdf0d5a7975d50bbe84b25ba004d65d1bc517b67504645c4ac08b0b3e5"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\stl.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\stl.py",
+    "bytes": 9669,
+    "sha256": "22113235eb924105b73fc08360a3fd416b238459f6d2de407a70a0b6d072c7cc"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\threedxml.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\threedxml.py",
+    "bytes": 15062,
+    "sha256": "ecb202da3edc9c488975280b79b55cda30de0bb04ff5199c9dd7ea1e74974d5b"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\threemf.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\threemf.py",
+    "bytes": 19868,
+    "sha256": "978ef800b1575b0e4e31148a3d5ffb76595b3b1054ecdbad275387d15feac9a7"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\urdf.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\urdf.py",
+    "bytes": 6628,
+    "sha256": "f376bcd777f3b841026449bd753ac6c6873594951011766cf492025edca8b0bd"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\xaml.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\xaml.py",
+    "bytes": 6058,
+    "sha256": "2cc603e7479884c2b27c5c01d7d2622d09332447d92e2e31bbd98ee6bdadc9d2"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\__pycache__\\xyz.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exchange\\xyz.py",
+    "bytes": 3395,
+    "sha256": "1a9e638bb9a6c3678fda77572ed43ac09704067f8224ddeceff0a302e270db16"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\interfaces\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\interfaces\\__init__.py",
+    "bytes": 257,
+    "sha256": "ae5b7a6ef0548f4201dc2aa4899c9e8a93b16e4f6ef28dcb482e3680b70f46ea"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\interfaces\\__pycache__\\blender.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\interfaces\\blender.py",
+    "bytes": 5958,
+    "sha256": "13bc288112ad398257f3255d58bd90ef24d5bca086ed9ea55fd7bd037ce2f239"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\interfaces\\__pycache__\\generic.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\interfaces\\generic.py",
+    "bytes": 5646,
+    "sha256": "c6991a2cfdb4058b539d65c365b3fffb5971102011349aaaf729ff71c9edfa12"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\exchange\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\exchange\\__init__.py",
+    "bytes": 198,
+    "sha256": "206f01e88368682d7078cf80509a70b15abdcbf1a6cf8f298ed93df6ced8b59c"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\exchange\\__pycache__\\dxf.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\exchange\\dxf.py",
+    "bytes": 36125,
+    "sha256": "11c24e0feb7aa970f6a21a414d4aca038460bc7b8c923f70cb4bd555270235f9"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\exchange\\__pycache__\\export.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\exchange\\export.py",
+    "bytes": 2716,
+    "sha256": "8d48066dceec10e2ab467a65dcce97002d91a949e4f6ef245b3aa9ed4358db5f"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\exchange\\__pycache__\\load.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\exchange\\load.py",
+    "bytes": 3455,
+    "sha256": "ddd1d581baec7a210cd7ea4efc06f2a7811c07c163cfefebbbde9ba863ee6ee9"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\exchange\\__pycache__\\misc.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\exchange\\misc.py",
+    "bytes": 7589,
+    "sha256": "b91be217711d5aaf905f4d21ed43fe5f2600a9e8805dac15f43473fd3037420b"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\exchange\\__pycache__\\svg_io.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\exchange\\svg_io.py",
+    "bytes": 30863,
+    "sha256": "a550c3cba432cb1272adde5a7f896482c30dad7df3324601129747842a9fa104"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__init__.py",
+    "bytes": 675,
+    "sha256": "04ce637b89955a517dd7be83343a1d67fc677c82e6a2b4a94421b95f55d0b392"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\arc.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\arc.py",
+    "bytes": 8987,
+    "sha256": "7f93319a5429acff8ae64e88a7f2061610edf7eb969c375817edc51ce7d1feef"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\creation.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\creation.py",
+    "bytes": 9821,
+    "sha256": "a6b0dae5cf2acc8f0a7fa0f16a91ed56a125f90d204414f96e63afcee2a69881"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\curve.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\curve.py",
+    "bytes": 5289,
+    "sha256": "f5821d6aaa19ed377b43b46ab327094f3dd637662d0139569363c2ab27745775"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\entities.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\entities.py",
+    "bytes": 30182,
+    "sha256": "0030c414a945e464894031b51edae6e9ef05a7ed8d9bf80f893ba84f344a9c4a"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\intersections.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\intersections.py",
+    "bytes": 2611,
+    "sha256": "607d30c5966aa3ed8660e70cf9d0e1ebd69cf2c933dd5f77e3c66f5026cb75ce"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\packing.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\packing.py",
+    "bytes": 27531,
+    "sha256": "d0c39732d5ae6784fcb868bea44b4ed5b40b850ac0c748a4a5912196662fbd92"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\path.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\path.py",
+    "bytes": 59452,
+    "sha256": "2678a613d6cfdedcb81c8c0ba0135ec9f7e44ca0c3790bb4874a1694b1bf5729"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\polygons.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\polygons.py",
+    "bytes": 36969,
+    "sha256": "4ecf7bace147985a522bb7263164cacb33b2223e36d176079639e5f99a6e9a9f"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\raster.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\raster.py",
+    "bytes": 3870,
+    "sha256": "ef6246d8e58159cd70e3df4872751abc72926b542dfc38e56b0f50a21ead719b"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\repair.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\repair.py",
+    "bytes": 4319,
+    "sha256": "a82ceaef22293fd8dd6391799b889ec3adcd401108a82ee784fb33318e4dbfed"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\segments.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\segments.py",
+    "bytes": 18893,
+    "sha256": "f09e0cb47f215a6f39da909efda7abe3b7b8089a537309cd51133e3867397cae"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\simplify.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\simplify.py",
+    "bytes": 14590,
+    "sha256": "184d846a81ce7eece44d8eaad5782122a487846dd71bb65d329e16e2c4c78640"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\traversal.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\traversal.py",
+    "bytes": 17836,
+    "sha256": "d65a0775833a2c7aec745ca4576c081044fa2b53b13f6bf3d894868549a7cd0d"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\__pycache__\\util.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\path\\util.py",
+    "bytes": 2328,
+    "sha256": "966b6323e095e3e8043c9f4080eded9d42efd6d02a1b2f02cde9ce85cbc1585a"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\ray\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\ray\\__init__.py",
+    "bytes": 541,
+    "sha256": "4e01a1f74d139fc04341ce35ae3507ba7da2e0aa17a9ea06ec197e31e2f8e356"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\ray\\__pycache__\\ray_pyembree.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\ray\\ray_pyembree.py",
+    "bytes": 12658,
+    "sha256": "600d8cd83d5ef91d25a033b5ff9a3da04d87bc2909bb52b5a740e6237975b0fb"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\ray\\__pycache__\\ray_triangle.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\ray\\ray_triangle.py",
+    "bytes": 13642,
+    "sha256": "12944b39034f8e9cf0b546830742db4aedadf7d235549a8884ef5f2326652cf3"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\ray\\__pycache__\\ray_util.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\ray\\ray_util.py",
+    "bytes": 3762,
+    "sha256": "9e4fe9c08e32242314d06312c5a7cb1fa869f5ac46538266c574cf5b8a9bcaca"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\resources\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\resources\\__init__.py",
+    "bytes": 3824,
+    "sha256": "96d52561421a1693a626febf3194918ff17c5cf584621288d0577582d980a6be"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\scene\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\scene\\__init__.py",
+    "bytes": 330,
+    "sha256": "1f845ab4d1680c4aba5b460afa4df6ae55d9b1943e4c628235bc3696b32ed21f"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\scene\\__pycache__\\cameras.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\scene\\cameras.py",
+    "bytes": 14535,
+    "sha256": "17ec06d9244a6c0293979ba7f0205e8d43bc09456e6ba3a825fc1c73ba2960e2"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\scene\\__pycache__\\lighting.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\scene\\lighting.py",
+    "bytes": 11413,
+    "sha256": "1a91f78ced5ca882d5b872a444f73358257546e2ef1a359e2ff76c7034a268f7"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\scene\\__pycache__\\scene.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\scene\\scene.py",
+    "bytes": 60912,
+    "sha256": "4154d11776a8ced5a74862e36d004456f4d1d3f6ab0e502b0915f74e016c7eac"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\scene\\__pycache__\\transforms.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\scene\\transforms.py",
+    "bytes": 30086,
+    "sha256": "c00a579b8f953940450a1ab7a9d2018cc24043ad857160c73d2a3d41be01e045"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\viewer\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\viewer\\__init__.py",
+    "bytes": 817,
+    "sha256": "29bef2b932269403e684eec8c510ca8726d7c9b7174c9246726c5c26898cb02e"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\viewer\\__pycache__\\notebook.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\viewer\\notebook.py",
+    "bytes": 4438,
+    "sha256": "37f63f0d4115b712cba28ea1a7998f442b10e3b32cb1c9e1a863d1c4b48322dc"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\viewer\\__pycache__\\trackball.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\viewer\\trackball.py",
+    "bytes": 10056,
+    "sha256": "1b4248de7ed60ffe1e51c70dd57bc25256632e03e4c54e8d0817766b223c76df"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\viewer\\__pycache__\\windowed.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\viewer\\windowed.py",
+    "bytes": 41116,
+    "sha256": "653f8c2af5621c5bde6f5d30e068c8cdb07a5f4651a6619b6559eb027761be02"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\__init__.py",
+    "bytes": 873,
+    "sha256": "1aa839c443573b9b76fe73fbbc19c3e9854ad09e8706592183becf3dd805936f"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\__pycache__\\base.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\base.py",
+    "bytes": 2150,
+    "sha256": "f31b369f06ce715703bab4c571430a34513b1c0823b9da24ae7eb9a9fc9469ef"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\__pycache__\\color.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\color.py",
+    "bytes": 45010,
+    "sha256": "f5d87935edbb049b58e14d70f3dc9ff749928a75a9f0216f957c84a6b526a765"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\__pycache__\\gloss.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\gloss.py",
+    "bytes": 14675,
+    "sha256": "7ea1389acafd5c20a094d51da0cc1ce67bb30f28ae9ae291eb435afd07e92b89"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\__pycache__\\material.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\material.py",
+    "bytes": 42532,
+    "sha256": "36e94b592e1338332b1914bd4e241125e82eaa72d1e532a38917613174775a19"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\__pycache__\\objects.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\objects.py",
+    "bytes": 3499,
+    "sha256": "e0cd24be680899f62db4a58609fd9ed25938ac22afabc7a63ffac128030496be"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\__pycache__\\texture.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\visual\\texture.py",
+    "bytes": 12112,
+    "sha256": "559f0f204c27dfa279eb90d167c48e9573bd1486f696fc4faa77bd8d12629398"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\__init__.py",
+    "bytes": 302,
+    "sha256": "6c8c1ff94265f9948a283b03b96ae2ecb82037d2c4ef2d220be095cfac24fb43"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\__pycache__\\base.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\base.py",
+    "bytes": 18984,
+    "sha256": "fbebeaa3b8d14f7d074a753d92047282c95457fcda4fa4662f89a23fe6f027db"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\__pycache__\\creation.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\creation.py",
+    "bytes": 12186,
+    "sha256": "363562c128b59935750e0b9ef1a9d72cf3732487c5fe4355fc83c5b9b0027b3a"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\__pycache__\\encoding.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\encoding.py",
+    "bytes": 56446,
+    "sha256": "832b1cceaf2ff9d4bf28826e18d803b4bc3245f2a608cf27b7be9cd8462c7ca4"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\__pycache__\\morphology.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\morphology.py",
+    "bytes": 7536,
+    "sha256": "81000b587bf21eaa749afed777a9e47a968286a0cb7699423f57c91264853667"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\__pycache__\\ops.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\ops.py",
+    "bytes": 17577,
+    "sha256": "97f69eea0086b5a035a9d82a3ed8b15dcc501384778393674f1a9a734239e92a"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\__pycache__\\runlength.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\runlength.py",
+    "bytes": 26890,
+    "sha256": "1a64f7cb21e71eda715bf56e495dd45417b07314c44cc496e89cabe275c7fe55"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\__pycache__\\transforms.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\voxel\\transforms.py",
+    "bytes": 8515,
+    "sha256": "64e5e0ded84bbcd36b8e62ca91d2c253fa6e262f949fee39734ffa3cce716e29"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\__init__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__init__.py",
+    "bytes": 2343,
+    "sha256": "4c820f32b9303bcab9ec74090cddc2bbb5ef3d32a7ae311d8b81fb45102a91b4"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\__main__.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__main__.py",
+    "bytes": 2378,
+    "sha256": "e6eb510d06c05be4a0115a84bc34dd74fc959536c55ebcb0e95a99ff6a9fdf62"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\base.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\base.py",
+    "bytes": 121992,
+    "sha256": "cb5681831059e51f1ad120e74ff96d11b4473ec3fae9153db7f1ec7ba23c5bcf"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\boolean.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\boolean.py",
+    "bytes": 7050,
+    "sha256": "5d9a0f1b2b3be2d93be5be1e6035536aa86dc70cb770ba0461644b3602f89000"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\bounds.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\bounds.py",
+    "bytes": 21808,
+    "sha256": "0eaccb4e45316f636a613a26f954b5dc1af463a6060ec773ecaff04cf9cdc84a"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\caching.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\caching.py",
+    "bytes": 25896,
+    "sha256": "42b144f0f8ecae0545a3dae05762f154f92f0be34bc57d00d2df8f048704d34a"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\collision.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\collision.py",
+    "bytes": 28099,
+    "sha256": "2a40d44eabbf8e08411d3c3c615e14282c04ee2fe2d05a4af0bdca0fbfb3717f"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\comparison.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\comparison.py",
+    "bytes": 4464,
+    "sha256": "7ffc37d022fa7091031ab87a3448bc1880d170e31766ea1d4a581b5911b6f226"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\constants.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\constants.py",
+    "bytes": 6426,
+    "sha256": "b7d06ed67ddfd4d25381b60d97267577f55f93ff726dc5ec678f9d57f437ea17"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\convex.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\convex.py",
+    "bytes": 10891,
+    "sha256": "e0c1900949f7842dec3089f1e6f65c32b804846677077075b02c65356d62c058"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\creation.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\creation.py",
+    "bytes": 52516,
+    "sha256": "d77e7a315e942ec0667e02e2a594c777e02539efecbc5dcc28b212825334094a"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\curvature.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\curvature.py",
+    "bytes": 9120,
+    "sha256": "0ed2bb2768b04ed2682ee95f36176733572b42289a9a94453bebab5e33ffee86"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\decomposition.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\decomposition.py",
+    "bytes": 1985,
+    "sha256": "6e100b89e8a84055e64c8689770216967f1c150118873c7731b9984cb7a8dbb6"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\exceptions.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\exceptions.py",
+    "bytes": 1687,
+    "sha256": "734a7d48c764eaac9a38808e480fef9c104ad11fe591134e8ab1cecf6c389622"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\geometry.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\geometry.py",
+    "bytes": 18281,
+    "sha256": "2dd2d3d40f87cc8ac5ffd9b44a6d9f4bee5b6bde3983961000cf8c801b887198"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\graph.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\graph.py",
+    "bytes": 33146,
+    "sha256": "30d4e00ec5509fc843aab4c0e8942a97270551f5d2efb0ddaff7916337d4f682"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\grouping.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\grouping.py",
+    "bytes": 28345,
+    "sha256": "af61c390acaf0206f7da4ff89575201bb1b1fc3f6616cc9aff9fc1ab53de7085"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\inertia.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\inertia.py",
+    "bytes": 11420,
+    "sha256": "b52c400ea59e70a94883777e153f47dab6ca3fbfe41aa4054921014a7fdc148b"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\intersections.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\intersections.py",
+    "bytes": 27972,
+    "sha256": "07a5cd3393906b96540275ed53b42798f59b6ea67453e1395a85f5fe69fd778d"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\interval.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\interval.py",
+    "bytes": 3743,
+    "sha256": "33ece3ed154f685b8483c46cf35444f7593a3e8faf0833de29c968aa302347c0"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\iteration.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\iteration.py",
+    "bytes": 6580,
+    "sha256": "e99a2f04029d209dc1796a1d3bcb12ffd1381dbf39ca31a46c68bd67fd9138b2"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\nsphere.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\nsphere.py",
+    "bytes": 5649,
+    "sha256": "88303677e57bd1709560bf98ffaf6982108b08a3633c37da1f2ecf372eff2900"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\parent.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\parent.py",
+    "bytes": 16452,
+    "sha256": "86be87c5ad5a5a8b65babdfa3969189c41db5d06271e09437113ae51a4979f76"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\permutate.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\permutate.py",
+    "bytes": 6682,
+    "sha256": "5dc1d7567c4b16569cd39f25452d024c7cc85f080dd5818ff4c30ec601c70d5c"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\points.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\points.py",
+    "bytes": 28913,
+    "sha256": "fb0f768d620ac7747bed1435bed990e8e5dcef97184cb38b9bab9270e718b4ab"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\poses.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\poses.py",
+    "bytes": 13276,
+    "sha256": "5e5fc814f17a2d0de007cea09cf25fdeb3dc0485a2914a229cfb0d57ef36484d"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\primitives.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\primitives.py",
+    "bytes": 45387,
+    "sha256": "fead15692bc17c38967920f6ab24bb61c6e3bc3a6ff99c0d8af3724c70e02317"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\proximity.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\proximity.py",
+    "bytes": 22418,
+    "sha256": "4310d3e872bc53dc3194be9d147d5e2d0f026dbcbcc925cf2e64ebbe711735c2"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\registration.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\registration.py",
+    "bytes": 43897,
+    "sha256": "64a96592e1bdb706b919e390ab64b4e527c4e24678246d68a8e9a642bb8b98a9"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\remesh.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\remesh.py",
+    "bytes": 16963,
+    "sha256": "346779cdb33422e7e6c2eb6052dfce3f02148520d21a3240e1b0cfebb9d5c901"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\rendering.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\rendering.py",
+    "bytes": 13976,
+    "sha256": "fa6baeadbff55964b17b835ff387770dfb6e47db7ecdc94fae57c26d0e66182e"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\repair.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\repair.py",
+    "bytes": 11887,
+    "sha256": "86ea2fc3f6c7a2db5564561a404fc2d67cd2022fe35869bab288fd5c509ac6cd"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\resolvers.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\resolvers.py",
+    "bytes": 25745,
+    "sha256": "d7dc6d1a21d8d249d988fbf2cf25d6f52150ce2ba24094d7508a606f6bf88663"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\sample.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\sample.py",
+    "bytes": 9393,
+    "sha256": "6d823c795a932afaae88eaab81e1a1ceb88bf4db3de3aafcc5fb3ca7279ddd67"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\schemas.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\schemas.py",
+    "bytes": 1570,
+    "sha256": "32b7e355a438bfe3dd776ba08d320a3544a8821df34170ffb83b755dd2a82085"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\smoothing.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\smoothing.py",
+    "bytes": 12965,
+    "sha256": "cc223db0b4529867d15cce484c3107747963bb68dfdb85e77d557c2ffe54ae67"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\transformations.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\transformations.py",
+    "bytes": 97269,
+    "sha256": "2fdf7e59ce8851e505feb8b4eae247a2413dc88fb9b93a2f0f52193831f6556a"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\triangles.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\triangles.py",
+    "bytes": 28847,
+    "sha256": "3d05e0d8e5311bdca8f69cd333cb57df52add12ca5bc88ea1c77070207166992"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\typed.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\typed.py",
+    "bytes": 3808,
+    "sha256": "244c8e8be7f202d0c174b289b9218304b5bb9a3c39f5bf9f5c772903f611e9b2"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\units.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\units.py",
+    "bytes": 5588,
+    "sha256": "dcdf19e6653e75b831a5bf0dd5d3092417ca08791bc509bc3bd2d88df994204b"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\util.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\util.py",
+    "bytes": 89207,
+    "sha256": "977d18a7820a750a9416a20ccb5eca849cc1028bfb2aaba46389f5de7efae5c0"
+  },
+  {
+    "path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\__pycache__\\version.cpython-312.pyc",
+    "source_path": "D:\\rob-memory\\tmp\\floral-ring-tools\\python\\trimesh\\version.py",
+    "bytes": 1874,
+    "sha256": "a2e9d502ac2b1830e87f791cfdcf092df5f7a06c39c02aba9f5e4f5945ab11a1"
+  }
+]

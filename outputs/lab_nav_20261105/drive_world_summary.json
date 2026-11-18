@@ -1,0 +1,39 @@
+{
+  "world": "outputs/lab_nav_20261105/lab_nav_world_drive.sdf",
+  "source": "outputs/lab_nav_20261105/lab_nav_world.sdf",
+  "changes": [
+    "added Sensors system (render_engine=ogre)",
+    "added Contact system (/world/.../contacts)",
+    "physics max_step_size -> 0.004 s (250 Hz)",
+    "replaced mesh wall collision with 1589 boxes",
+    "removed sensor camera",
+    "removed sensor imu",
+    "removed sensor lidar",
+    "added single-plane gpu_lidar -> /hz_sim/lab/scan (720x3, 10 Hz, 0.1-20 m)",
+    "added AckermannSteering -> /hz_sim/lab/cmd_vel, /hz_sim/lab/odom, /hz_sim/lab/tf",
+    "added JointStatePublisher -> /hz_sim/lab/joint_states",
+    "added OdometryPublisher -> /hz_sim/lab/ground_truth (map-frame truth)"
+  ],
+  "geometry": {
+    "wheel_base_m": 0.65,
+    "wheel_separation_m": 0.605,
+    "wheel_radius_m": 0.165,
+    "plugin_steering_limit_rad": 0.4,
+    "joint_hard_limit_rad": 0.58,
+    "min_turn_radius_from_plugin_limit_m": 1.669,
+    "min_turn_radius_from_joint_limit_m": 1.186,
+    "inner_wheel_angle_at_plugin_limit_rad": 0.444
+  },
+  "sensors_kept": [
+    "scan"
+  ],
+  "sensors_removed": [
+    "lidar(32 beam)",
+    "camera(rgbd)",
+    "imu"
+  ],
+  "performance": {
+    "max_step_size_s": 0.004,
+    "wall_collision": "1589 boxes (visual still uses walls.stl)"
+  }
+}

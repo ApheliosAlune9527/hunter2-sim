@@ -1,0 +1,14 @@
+{
+ "pose": {
+  "x": 0.985,
+  "y": 3.135,
+  "yaw": 0.0,
+  "z": 0.165
+ },
+ "free_m_ahead": 1.0,
+ "cells": {
+  "row": 304,
+  "col": 121
+ },
+ "note": "nose is 0.854 m ahead of the rear axle, so the bumper reaches the wall after (free_ahead - 0.854) metres of travel"
+}

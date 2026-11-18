@@ -1,0 +1,26 @@
+{
+ "total_timesteps": 20000,
+ "seed": 1,
+ "episode_s": 30.0,
+ "train_goals": 8,
+ "train_goal_filter": "nearest 8 by distance",
+ "control_dt_s": 0.1,
+ "observation": "72 min-pooled scan beams / 3 m, goal range / 6 m, goal bearing / pi, last v / 0.26, last w / 0.20",
+ "action": "linear velocity [0, 0.26] m/s, yaw rate [-0.20, 0.20] rad/s",
+ "reward": "2.0 * progress_m - 0.01 per step - 0.05 * |dv| + 5.0 on goal, -5.0 on contact",
+ "termination": "goal within 0.25 m, contact proxy, or 30 simulated seconds",
+ "truth_use": "teleport, success check, contact proxy; the policy input is scan and odometry only",
+ "library": {
+  "python": "3.10.12",
+  "torch": "2.14.1+cpu",
+  "gymnasium": "1.4.0",
+  "sb3": "2.9.2"
+ },
+ "started": "2026-11-06 12:39:48",
+ "wall_seconds": 2234.4,
+ "finished": "2026-11-06 13:17:03",
+ "reward_variant": "progress",
+ "later_added_fields": [
+  "reward_variant: value from the code path that ran; the meta writer did not log it then"
+ ]
+}

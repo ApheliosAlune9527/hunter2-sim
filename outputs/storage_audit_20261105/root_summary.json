@@ -1,0 +1,20 @@
+[
+  {
+    "root": "project",
+    "path": "D:\\rob-memory",
+    "files": 14190,
+    "bytes": 14212908154.0
+  },
+  {
+    "root": "migration",
+    "path": "D:\\rob-memory-migration-20261021",
+    "files": 14554,
+    "bytes": 19878285121.0
+  },
+  {
+    "root": "increment",
+    "path": "D:\\hunter_increment_since_20261021_20261031",
+    "files": 494,
+    "bytes": 263060248.0
+  }
+]

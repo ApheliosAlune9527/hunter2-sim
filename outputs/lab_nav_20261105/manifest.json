@@ -1,0 +1,81 @@
+{
+  "stage": "handoff task 1 - standalone lab navigation scene",
+  "date": "2026-11-05",
+  "map_decision": "unpatched 2026-11-01 lab_odom_06 (user decision: do not use the old-map patched variant; new furniture is real)",
+  "checks": {
+    "yaml_image_resolves": true,
+    "map_dimensions": [
+      241,
+      465
+    ],
+    "map_extent_m": [
+      12.05,
+      23.25
+    ],
+    "map_resolution": 0.05,
+    "map_origin": [
+      -5.09,
+      -4.89
+    ],
+    "map_classes": {
+      "occupied": 5928,
+      "free": 41446,
+      "unknown": 64691,
+      "other": 0
+    },
+    "start_cell": [
+      97,
+      382
+    ],
+    "start_cell_value": 254,
+    "start_cell_is_free": true,
+    "start_clearance_to_obstacle_m": 0.76,
+    "start_clearance_to_any_nonfree_m": 0.76,
+    "world_name": "hz_lab_2d",
+    "models": [
+      "floor",
+      "walls",
+      "hz_hunter_full"
+    ],
+    "robot_pose": [
+      -0.21,
+      -0.77,
+      0.165,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "robot_pose_matches_request": true,
+    "robot_collisions": 16,
+    "robot_sensors": [
+      "lidar",
+      "camera",
+      "imu"
+    ],
+    "robot_plugins": [],
+    "mesh_uri": "file:///mnt/d/rob-memory/outputs/lab_nav_20261105/walls.stl",
+    "mesh_uri_rewritten": true,
+    "mesh_uri_uses_wsl_mount": true,
+    "mesh_exists": true,
+    "mesh_bytes": 1326684,
+    "unknown_policy": "unknown cells (205) are not free; map_server trinary publishes them as unknown and the costmap treats them as impassable"
+  },
+  "hashes": {
+    "sources": {
+      "outputs/lab_map_compare_20261105/lab_odom_06_new.pgm": "98bb0c9ed71da56189d83658f9402eeb53d4bc71828981216e4dd66f86ec74f0",
+      "outputs/lab_scene_odom06_20261105/lab_scene_2d.sdf": "888058eec69cae7955442619d8335c8e34f7e45dd09d527fe982a91ce3421ece",
+      "outputs/lab_scene_odom06_20261105/walls.stl": "ff766553e8081120d9bdfab2e0fd11c36a3a3d4c61780c44675a2e9f388d6970"
+    },
+    "outputs": {
+      "outputs/lab_nav_20261105/lab_nav_map.pgm": "98bb0c9ed71da56189d83658f9402eeb53d4bc71828981216e4dd66f86ec74f0",
+      "outputs/lab_nav_20261105/walls.stl": "ff766553e8081120d9bdfab2e0fd11c36a3a3d4c61780c44675a2e9f388d6970",
+      "outputs/lab_nav_20261105/lab_nav_world.sdf": "f3dcd4d0c01253433849fcee2b4b117c2343ec88fdbf2372c804f83ca70d01b9",
+      "outputs/lab_nav_20261105/lab_nav_map.yaml": "13d7e4577c45f3c0dd92c6ef228d6befd84b6b29b1fc9a0d149fa549d51f8a8b"
+    }
+  },
+  "known_gaps": [
+    "robot control plugin removed on purpose; restored in task 2",
+    "world has no Sensors/Imu system plugin yet, so sensor tags emit nothing",
+    "wall height 2.4 m is an engineering assumption, unknown cells carry no geometry"
+  ]
+}

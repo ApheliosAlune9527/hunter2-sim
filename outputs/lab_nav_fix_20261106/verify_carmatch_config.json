@@ -1,0 +1,127 @@
+{
+ "ok": true,
+ "checks": [
+  {
+   "node": "/planner_server",
+   "parameter": "GridBased.motion_model_for_search",
+   "expected": "REEDS_SHEPP",
+   "got": "REEDS_SHEPP",
+   "pass": true,
+   "error": null
+  },
+  {
+   "node": "/planner_server",
+   "parameter": "GridBased.minimum_turning_radius",
+   "expected": 1.6,
+   "got": 1.6,
+   "pass": true,
+   "error": null
+  },
+  {
+   "node": "/planner_server",
+   "parameter": "GridBased.allow_unknown",
+   "expected": true,
+   "got": true,
+   "pass": true,
+   "error": null
+  },
+  {
+   "node": "/controller_server",
+   "parameter": "FollowPath.allow_reversing",
+   "expected": true,
+   "got": true,
+   "pass": true,
+   "error": null
+  },
+  {
+   "node": "/controller_server",
+   "parameter": "FollowPath.desired_linear_vel",
+   "expected": 0.1,
+   "got": 0.1,
+   "pass": true,
+   "error": null
+  },
+  {
+   "node": "/global_costmap/global_costmap",
+   "parameter": "footprint",
+   "expected": "[[0.52, 0.395], [0.52, -0.395], [-0.50, -0.395], [-0.50, 0.395]]",
+   "got": "[[0.52, 0.395], [0.52, -0.395], [-0.50, -0.395], [-0.50, 0.395]]",
+   "pass": true,
+   "error": null
+  },
+  {
+   "node": "/local_costmap/local_costmap",
+   "parameter": "footprint",
+   "expected": "[[0.52, 0.395], [0.52, -0.395], [-0.50, -0.395], [-0.50, 0.395]]",
+   "got": "[[0.52, 0.395], [0.52, -0.395], [-0.50, -0.395], [-0.50, 0.395]]",
+   "pass": true,
+   "error": null
+  },
+  {
+   "node": "/bt_navigator",
+   "parameter": "default_nav_to_pose_bt_xml",
+   "expected": "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_no_spin_car.xml",
+   "got": "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_no_spin_car.xml",
+   "pass": true,
+   "error": null
+  },
+  {
+   "node": "log:behavior_server",
+   "parameter": "plugin backup",
+   "expected": "Creating behavior plugin backup of type nav2_behaviors/BackUp",
+   "got": "Creating behavior plugin backup of type nav2_behaviors/BackUp",
+   "pass": true
+  },
+  {
+   "node": "log:behavior_server",
+   "parameter": "plugin drive_on_heading",
+   "expected": "Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading",
+   "got": "Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading",
+   "pass": true
+  },
+  {
+   "node": "log:behavior_server",
+   "parameter": "plugin assisted_teleop",
+   "expected": "Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop",
+   "got": "Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop",
+   "pass": true
+  },
+  {
+   "node": "log:behavior_server",
+   "parameter": "plugin wait",
+   "expected": "Creating behavior plugin wait of type nav2_behaviors/Wait",
+   "got": "Creating behavior plugin wait of type nav2_behaviors/Wait",
+   "pass": true
+  },
+  {
+   "node": "/map",
+   "parameter": "size",
+   "expected": "241x465",
+   "got": "241x465",
+   "pass": true
+  },
+  {
+   "node": "/map",
+   "parameter": "resolution",
+   "expected": 0.05,
+   "got": 0.05,
+   "pass": true
+  },
+  {
+   "node": "/scan",
+   "parameter": "frame_id",
+   "expected": "laser",
+   "got": "laser",
+   "pass": true
+  },
+  {
+   "node": "/scan",
+   "parameter": "finite_beams",
+   "expected": ">100",
+   "got": 720,
+   "pass": true
+  }
+ ],
+ "parameters_file": "nav2_params_carmatch.yaml",
+ "source": "/home/car/hz_nav_ws/config/nav2_params.yaml"
+}

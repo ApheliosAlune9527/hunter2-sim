@@ -1,0 +1,306 @@
+{
+ "model": "/mnt/d/rob-memory/outputs/lab_nav_20261105/rl/ppo_seed0_8k.zip",
+ "repeats": 1,
+ "policy_input": "scan + odometry",
+ "truth_used_for": [
+  "teleport",
+  "success_check",
+  "contact_proxy"
+ ],
+ "eval_goals": [
+  {
+   "goal": [
+    1.885,
+    0.435
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    2.717,
+    2.231,
+    1.578
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 3.286,
+   "path_length_m": 4.83,
+   "sim_seconds": 60.02,
+   "wall_seconds": 53.0,
+   "steps": 584,
+   "return": -7.601,
+   "contact_proxy": false,
+   "name": "short_straight",
+   "round": 1
+  },
+  {
+   "goal": [
+    3.185,
+    1.235
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    2.605,
+    2.229,
+    1.584
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 2.944,
+   "path_length_m": 4.856,
+   "sim_seconds": 60.02,
+   "wall_seconds": 67.0,
+   "steps": 579,
+   "return": -3.814,
+   "contact_proxy": false,
+   "name": "mid_offset",
+   "round": 1
+  },
+  {
+   "goal": [
+    4.285,
+    2.535
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    2.733,
+    2.231,
+    1.576
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 3.134,
+   "path_length_m": 4.856,
+   "sim_seconds": 60.02,
+   "wall_seconds": 60.0,
+   "steps": 579,
+   "return": -0.921,
+   "contact_proxy": false,
+   "name": "long_run",
+   "round": 1
+  }
+ ],
+ "held_out_goals": [
+  {
+   "goal": [
+    5.035,
+    -0.865
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    2.666,
+    2.231,
+    1.579
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 5.824,
+   "path_length_m": 4.84,
+   "sim_seconds": 60.02,
+   "wall_seconds": 60.0,
+   "steps": 579,
+   "return": -6.968,
+   "contact_proxy": false,
+   "name": "held_out_0"
+  },
+  {
+   "goal": [
+    4.835,
+    -1.015
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    2.669,
+    2.231,
+    1.579
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 5.818,
+   "path_length_m": 4.85,
+   "sim_seconds": 60.02,
+   "wall_seconds": 67.0,
+   "steps": 586,
+   "return": -7.415,
+   "contact_proxy": false,
+   "name": "held_out_1"
+  },
+  {
+   "goal": [
+    4.785,
+    -0.965
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    2.666,
+    2.231,
+    1.579
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 5.745,
+   "path_length_m": 4.849,
+   "sim_seconds": 60.01,
+   "wall_seconds": 52.8,
+   "steps": 586,
+   "return": -7.374,
+   "contact_proxy": false,
+   "name": "held_out_2"
+  },
+  {
+   "goal": [
+    4.985,
+    -1.015
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    2.679,
+    2.232,
+    1.578
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 5.906,
+   "path_length_m": 4.848,
+   "sim_seconds": 60.01,
+   "wall_seconds": 60.2,
+   "steps": 586,
+   "return": -7.292,
+   "contact_proxy": false,
+   "name": "held_out_3"
+  },
+  {
+   "goal": [
+    2.335,
+    0.085
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    2.538,
+    2.229,
+    1.584
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 3.64,
+   "path_length_m": 4.83,
+   "sim_seconds": 60.01,
+   "wall_seconds": 57.8,
+   "steps": 586,
+   "return": -7.793,
+   "contact_proxy": false,
+   "name": "held_out_4"
+  },
+  {
+   "goal": [
+    5.035,
+    -0.815
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    2.677,
+    2.232,
+    1.578
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 5.777,
+   "path_length_m": 4.846,
+   "sim_seconds": 60.0,
+   "wall_seconds": 53.7,
+   "steps": 593,
+   "return": -7.015,
+   "contact_proxy": false,
+   "name": "held_out_5"
+  }
+ ],
+ "constant_forward_control": [
+  {
+   "goal": [
+    1.885,
+    0.435
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    3.683,
+    -0.747,
+    0.006
+   ],
+   "success": false,
+   "end_reason": "",
+   "final_distance_m": 2.152,
+   "path_length_m": 3.893,
+   "sim_seconds": 30.29,
+   "wall_seconds": 28.3,
+   "steps": 300,
+   "return": -2.476,
+   "contact_proxy": false,
+   "name": "short_straight"
+  }
+ ],
+ "summary": {
+  "eval_goals": {
+   "attempts": 3,
+   "successes": 0,
+   "mean_final_distance_m": 3.121,
+   "mean_path_m": 4.847,
+   "mean_sim_seconds": 60.0,
+   "contacts": 0
+  },
+  "held_out": {
+   "attempts": 6,
+   "successes": 0,
+   "mean_final_distance_m": 5.452,
+   "mean_path_m": 4.844,
+   "mean_sim_seconds": 60.0,
+   "contacts": 0
+  },
+  "constant_forward": {
+   "attempts": 1,
+   "successes": 0,
+   "mean_final_distance_m": 2.152,
+   "mean_path_m": 3.893,
+   "mean_sim_seconds": 30.3,
+   "contacts": 0
+  }
+ },
+ "note": "8,192-step run; the model was renamed to ppo_seed0_8k.zip before the 60k run overwrote the old name"
+}

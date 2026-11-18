@@ -1,0 +1,34 @@
+{
+ "ok": true,
+ "cases": [
+  {
+   "case": "normal_short_round",
+   "ok": true
+  },
+  {
+   "case": "sim_budget_exceeded",
+   "ok": true
+  },
+  {
+   "case": "frozen_clock_hits_wall_limit",
+   "ok": true
+  },
+  {
+   "case": "wall_limit_is_inclusive",
+   "ok": true
+  },
+  {
+   "case": "sim_wins_before_wall",
+   "ok": true
+  },
+  {
+   "case": "note_names_wall_limit",
+   "ok": true
+  },
+  {
+   "case": "note_names_sim_budget",
+   "ok": true
+  }
+ ],
+ "elapsed_s": 0.002
+}

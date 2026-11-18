@@ -1,0 +1,685 @@
+{
+ "model": "outputs/lab_nav_20261105/rl/ppo_seed2_20000_near8_distance.zip",
+ "repeats": 3,
+ "policy_input": "scan + odometry",
+ "truth_used_for": [
+  "teleport",
+  "success_check",
+  "contact_proxy"
+ ],
+ "eval_goals": [
+  {
+   "goal": [
+    1.885,
+    0.435
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.516,
+    0.332,
+    1.16
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 0.405,
+   "path_length_m": 2.178,
+   "sim_seconds": 60.0,
+   "wall_seconds": 60.0,
+   "steps": 584,
+   "return": -1.844,
+   "contact_proxy": false,
+   "name": "short_straight",
+   "round": 1
+  },
+  {
+   "goal": [
+    1.885,
+    0.435
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.484,
+    0.329,
+    1.159
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 0.442,
+   "path_length_m": 2.146,
+   "sim_seconds": 60.02,
+   "wall_seconds": 59.5,
+   "steps": 579,
+   "return": -1.867,
+   "contact_proxy": false,
+   "name": "short_straight",
+   "round": 2
+  },
+  {
+   "goal": [
+    1.885,
+    0.435
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.484,
+    0.329,
+    1.159
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 0.443,
+   "path_length_m": 2.145,
+   "sim_seconds": 60.02,
+   "wall_seconds": 59.6,
+   "steps": 579,
+   "return": -1.868,
+   "contact_proxy": false,
+   "name": "short_straight",
+   "round": 3
+  },
+  {
+   "goal": [
+    3.185,
+    1.235
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.488,
+    0.338,
+    1.165
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 1.933,
+   "path_length_m": 2.155,
+   "sim_seconds": 60.02,
+   "wall_seconds": 60.1,
+   "steps": 579,
+   "return": -1.798,
+   "contact_proxy": false,
+   "name": "mid_offset",
+   "round": 1
+  },
+  {
+   "goal": [
+    3.185,
+    1.235
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.487,
+    0.338,
+    1.165
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 1.934,
+   "path_length_m": 2.155,
+   "sim_seconds": 60.04,
+   "wall_seconds": 60.0,
+   "steps": 586,
+   "return": -1.869,
+   "contact_proxy": false,
+   "name": "mid_offset",
+   "round": 2
+  },
+  {
+   "goal": [
+    3.185,
+    1.235
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.489,
+    0.338,
+    1.165
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 1.932,
+   "path_length_m": 2.156,
+   "sim_seconds": 60.01,
+   "wall_seconds": 60.0,
+   "steps": 586,
+   "return": -1.865,
+   "contact_proxy": false,
+   "name": "mid_offset",
+   "round": 3
+  },
+  {
+   "goal": [
+    4.285,
+    2.535
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.491,
+    0.342,
+    1.168
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 3.555,
+   "path_length_m": 2.16,
+   "sim_seconds": 60.01,
+   "wall_seconds": 60.0,
+   "steps": 586,
+   "return": -1.839,
+   "contact_proxy": false,
+   "name": "long_run",
+   "round": 1
+  },
+  {
+   "goal": [
+    4.285,
+    2.535
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.49,
+    0.342,
+    1.168
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 3.556,
+   "path_length_m": 2.16,
+   "sim_seconds": 60.01,
+   "wall_seconds": 60.0,
+   "steps": 586,
+   "return": -1.84,
+   "contact_proxy": false,
+   "name": "long_run",
+   "round": 2
+  },
+  {
+   "goal": [
+    4.285,
+    2.535
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.489,
+    0.342,
+    1.168
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 3.557,
+   "path_length_m": 2.159,
+   "sim_seconds": 60.02,
+   "wall_seconds": 60.0,
+   "steps": 593,
+   "return": -1.912,
+   "contact_proxy": false,
+   "name": "long_run",
+   "round": 3
+  }
+ ],
+ "held_out_goals": [
+  {
+   "goal": [
+    5.035,
+    -0.865
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.455,
+    0.265,
+    1.117
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 3.795,
+   "path_length_m": 2.076,
+   "sim_seconds": 60.08,
+   "wall_seconds": 60.2,
+   "steps": 595,
+   "return": -3.075,
+   "contact_proxy": false,
+   "name": "held_out_0"
+  },
+  {
+   "goal": [
+    4.835,
+    -1.015
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.454,
+    0.262,
+    1.115
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 3.657,
+   "path_length_m": 2.072,
+   "sim_seconds": 60.07,
+   "wall_seconds": 60.1,
+   "steps": 595,
+   "return": -3.188,
+   "contact_proxy": false,
+   "name": "held_out_1"
+  },
+  {
+   "goal": [
+    4.785,
+    -0.965
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.456,
+    0.263,
+    1.116
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 3.591,
+   "path_length_m": 2.075,
+   "sim_seconds": 60.07,
+   "wall_seconds": 60.1,
+   "steps": 595,
+   "return": -3.16,
+   "contact_proxy": false,
+   "name": "held_out_2"
+  },
+  {
+   "goal": [
+    4.985,
+    -1.015
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.454,
+    0.262,
+    1.115
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 3.797,
+   "path_length_m": 2.072,
+   "sim_seconds": 60.07,
+   "wall_seconds": 60.1,
+   "steps": 595,
+   "return": -3.169,
+   "contact_proxy": false,
+   "name": "held_out_3"
+  },
+  {
+   "goal": [
+    2.335,
+    0.085
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.468,
+    0.293,
+    1.135
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 0.935,
+   "path_length_m": 2.106,
+   "sim_seconds": 60.07,
+   "wall_seconds": 60.1,
+   "steps": 595,
+   "return": -2.476,
+   "contact_proxy": false,
+   "name": "held_out_4"
+  },
+  {
+   "goal": [
+    5.035,
+    -0.815
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.455,
+    0.266,
+    1.118
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 3.781,
+   "path_length_m": 2.076,
+   "sim_seconds": 60.07,
+   "wall_seconds": 60.1,
+   "steps": 595,
+   "return": -3.049,
+   "contact_proxy": false,
+   "name": "held_out_5"
+  }
+ ],
+ "train_near_goals": [
+  {
+   "goal": [
+    1.035,
+    0.285
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.619,
+    0.878,
+    1.499
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 0.826,
+   "path_length_m": 2.713,
+   "sim_seconds": 60.07,
+   "wall_seconds": 60.1,
+   "steps": 595,
+   "return": -4.365,
+   "contact_proxy": false,
+   "name": "train_near_0"
+  },
+  {
+   "goal": [
+    1.435,
+    0.085
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.241,
+    -0.082,
+    0.887
+   ],
+   "success": true,
+   "end_reason": "goal",
+   "final_distance_m": 0.245,
+   "path_length_m": 1.666,
+   "sim_seconds": 10.3,
+   "wall_seconds": 10.3,
+   "steps": 102,
+   "return": 7.175,
+   "contact_proxy": false,
+   "name": "train_near_1"
+  },
+  {
+   "goal": [
+    1.285,
+    0.335
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.341,
+    0.061,
+    0.984
+   ],
+   "success": true,
+   "end_reason": "goal",
+   "final_distance_m": 0.248,
+   "path_length_m": 1.841,
+   "sim_seconds": 12.72,
+   "wall_seconds": 12.7,
+   "steps": 126,
+   "return": 6.938,
+   "contact_proxy": false,
+   "name": "train_near_2"
+  },
+  {
+   "goal": [
+    1.735,
+    -0.815
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.429,
+    0.211,
+    1.082
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 1.112,
+   "path_length_m": 2.016,
+   "sim_seconds": 60.06,
+   "wall_seconds": 60.1,
+   "steps": 585,
+   "return": -4.209,
+   "contact_proxy": false,
+   "name": "train_near_3"
+  },
+  {
+   "goal": [
+    1.585,
+    0.235
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.372,
+    0.11,
+    1.016
+   ],
+   "success": true,
+   "end_reason": "goal",
+   "final_distance_m": 0.25,
+   "path_length_m": 1.9,
+   "sim_seconds": 15.3,
+   "wall_seconds": 15.3,
+   "steps": 149,
+   "return": 7.1,
+   "contact_proxy": false,
+   "name": "train_near_4"
+  },
+  {
+   "goal": [
+    1.635,
+    0.485
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.47,
+    0.292,
+    1.135
+   ],
+   "success": true,
+   "end_reason": "goal",
+   "final_distance_m": 0.25,
+   "path_length_m": 2.107,
+   "sim_seconds": 26.82,
+   "wall_seconds": 26.8,
+   "steps": 261,
+   "return": 6.327,
+   "contact_proxy": false,
+   "name": "train_near_5"
+  },
+  {
+   "goal": [
+    1.485,
+    0.935
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.54,
+    0.479,
+    1.256
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 0.401,
+   "path_length_m": 2.305,
+   "sim_seconds": 60.0,
+   "wall_seconds": 59.6,
+   "steps": 584,
+   "return": -1.861,
+   "contact_proxy": false,
+   "name": "train_near_6"
+  },
+  {
+   "goal": [
+    2.735,
+    -0.565
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    1.454,
+    0.264,
+    1.117
+   ],
+   "success": false,
+   "end_reason": "timeout",
+   "final_distance_m": 1.573,
+   "path_length_m": 2.074,
+   "sim_seconds": 60.0,
+   "wall_seconds": 59.6,
+   "steps": 584,
+   "return": -3.109,
+   "contact_proxy": false,
+   "name": "train_near_7"
+  }
+ ],
+ "constant_forward_control": [
+  {
+   "goal": [
+    1.885,
+    0.435
+   ],
+   "start": [
+    -0.21,
+    -0.77,
+    0.0
+   ],
+   "end": [
+    3.75,
+    -0.721,
+    0.013
+   ],
+   "success": false,
+   "end_reason": "",
+   "final_distance_m": 2.193,
+   "path_length_m": 3.96,
+   "sim_seconds": 30.82,
+   "wall_seconds": 30.8,
+   "steps": 300,
+   "return": -2.558,
+   "contact_proxy": false,
+   "name": "short_straight"
+  }
+ ],
+ "summary": {
+  "eval_goals": {
+   "attempts": 9,
+   "successes": 0,
+   "mean_final_distance_m": 1.973,
+   "mean_path_m": 2.157,
+   "mean_sim_seconds": 60.0,
+   "contacts": 0
+  },
+  "held_out": {
+   "attempts": 6,
+   "successes": 0,
+   "mean_final_distance_m": 3.259,
+   "mean_path_m": 2.079,
+   "mean_sim_seconds": 60.1,
+   "contacts": 0
+  },
+  "train_near": {
+   "attempts": 8,
+   "successes": 4,
+   "mean_final_distance_m": 0.613,
+   "mean_path_m": 2.078,
+   "mean_sim_seconds": 38.2,
+   "contacts": 0
+  },
+  "constant_forward": {
+   "attempts": 1,
+   "successes": 0,
+   "mean_final_distance_m": 2.193,
+   "mean_path_m": 3.96,
+   "mean_sim_seconds": 30.8,
+   "contacts": 0
+  }
+ }
+}

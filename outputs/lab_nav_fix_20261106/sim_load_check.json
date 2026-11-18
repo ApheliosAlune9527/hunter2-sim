@@ -1,0 +1,21 @@
+{
+ "world": "hz_lab_2d",
+ "models_seen": [
+  "floor",
+  "walls",
+  "hz_hunter_full"
+ ],
+ "models_expected": [
+  "floor",
+  "walls",
+  "hz_hunter_full"
+ ],
+ "models_ok": true,
+ "clock_messages": 200,
+ "sim_span_s": 0.796,
+ "wall_span_s": 0.798,
+ "sim_per_wall": 0.997,
+ "clock_advancing": true,
+ "note": "sim_per_wall describes this run only; it is not a platform constant",
+ "ok": true
+}

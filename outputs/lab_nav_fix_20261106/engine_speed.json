@@ -1,0 +1,10 @@
+{
+ "ogre2": {
+  "factor_last": null,
+  "iterations_per_s": null
+ },
+ "ogre": {
+  "factor_last": 1.0001,
+  "iterations_per_s": 186.5
+ }
+}

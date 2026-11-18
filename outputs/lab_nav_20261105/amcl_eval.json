@@ -1,0 +1,23 @@
+{
+ "spawn": [
+  -0.21,
+  -0.77,
+  0.0
+ ],
+ "static": {
+  "samples": 59,
+  "mean_error_m": 0.0437,
+  "max_error_m": 0.0437,
+  "drift_m": 0.0
+ },
+ "straight": {
+  "travelled_m": 2.011,
+  "end_error_m": 0.0926,
+  "heading_error_rad": 0.012
+ },
+ "ok": true,
+ "criteria": {
+  "static_max_error_m": 0.05,
+  "straight_end_error_m": 0.15
+ }
+}

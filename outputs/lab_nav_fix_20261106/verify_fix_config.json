@@ -1,0 +1,194 @@
+{
+ "checked_at": "2026-11-10T05:17:41",
+ "ok": true,
+ "params_file": "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/nav2_params_fix.yaml",
+ "checks": [
+  {
+   "check": "/planner_server GridBased.motion_model_for_search",
+   "expected": "DUBIN",
+   "got": "DUBIN",
+   "ok": true
+  },
+  {
+   "check": "/planner_server GridBased.minimum_turning_radius",
+   "expected": 1.669,
+   "got": 1.669,
+   "ok": true
+  },
+  {
+   "check": "/planner_server GridBased.allow_unknown",
+   "expected": false,
+   "got": false,
+   "ok": true
+  },
+  {
+   "check": "/controller_server FollowPath.allow_reversing",
+   "expected": false,
+   "got": false,
+   "ok": true
+  },
+  {
+   "check": "/controller_server FollowPath.use_rotate_to_heading",
+   "expected": false,
+   "got": false,
+   "ok": true
+  },
+  {
+   "check": "/behavior_server behavior_plugins",
+   "expected": [
+    "wait",
+    "drive_on_heading"
+   ],
+   "got": [
+    "wait",
+    "drive_on_heading"
+   ],
+   "ok": true
+  },
+  {
+   "check": "/global_costmap/global_costmap inflation_layer.inflation_radius",
+   "expected": 0.2,
+   "got": 0.2,
+   "ok": true
+  },
+  {
+   "check": "/local_costmap/local_costmap inflation_layer.inflation_radius",
+   "expected": 0.2,
+   "got": 0.2,
+   "ok": true
+  },
+  {
+   "check": "/bt_navigator default_nav_to_pose_bt_xml",
+   "expected": "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_no_spin.xml",
+   "got": "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_no_spin.xml",
+   "ok": true
+  },
+  {
+   "check": "/bt_navigator default_nav_through_poses_bt_xml",
+   "expected": "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_through_poses_no_spin.xml",
+   "got": "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_through_poses_no_spin.xml",
+   "ok": true
+  },
+  {
+   "check": "/global_costmap/global_costmap footprint",
+   "expected": [
+    [
+     -0.1841340815224328,
+     -0.39328311787379716
+    ],
+    [
+     0.83410481184721,
+     -0.39328311787379716
+    ],
+    [
+     0.83410481184721,
+     0.39328318108184757
+    ],
+    [
+     -0.1841340815224328,
+     0.39328318108184757
+    ]
+   ],
+   "got": [
+    [
+     -0.184,
+     -0.393
+    ],
+    [
+     0.834,
+     -0.393
+    ],
+    [
+     0.834,
+     0.393
+    ],
+    [
+     -0.184,
+     0.393
+    ]
+   ],
+   "raw": "[[-0.184, -0.393], [0.834, -0.393], [0.834, 0.393], [-0.184, 0.393]]",
+   "ok": true,
+   "equals_swept_rectangle": false,
+   "swept_half_width_m": 0.4369
+  },
+  {
+   "check": "/local_costmap/local_costmap footprint",
+   "expected": [
+    [
+     -0.1841340815224328,
+     -0.39328311787379716
+    ],
+    [
+     0.83410481184721,
+     -0.39328311787379716
+    ],
+    [
+     0.83410481184721,
+     0.39328318108184757
+    ],
+    [
+     -0.1841340815224328,
+     0.39328318108184757
+    ]
+   ],
+   "got": [
+    [
+     -0.184,
+     -0.393
+    ],
+    [
+     0.834,
+     -0.393
+    ],
+    [
+     0.834,
+     0.393
+    ],
+    [
+     -0.184,
+     0.393
+    ]
+   ],
+   "raw": "[[-0.184, -0.393], [0.834, -0.393], [0.834, 0.393], [-0.184, 0.393]]",
+   "ok": true,
+   "equals_swept_rectangle": false,
+   "swept_half_width_m": 0.4369
+  },
+  {
+   "check": "navigate_no_spin.xml has no reversing recovery",
+   "sha256": "93e6e80842905a2e7fb2f2ca066ff7137189d3be816adc31ab5c89eafe563d37",
+   "found": [],
+   "ok": true
+  },
+  {
+   "check": "navigate_through_poses_no_spin.xml has no reversing recovery",
+   "sha256": "de77cc52909d253a9633fdd9adfe9e2484f1a01de4f81131417083c4fe97bc45",
+   "found": [],
+   "ok": true
+  },
+  {
+   "check": "/map metadata",
+   "got": {
+    "width": 241,
+    "height": 465,
+    "resolution": 0.05000000074505806,
+    "origin": [
+     -5.09,
+     -4.89
+    ]
+   },
+   "ok": true
+  },
+  {
+   "check": "/scan",
+   "got": {
+    "frame": "laser",
+    "beams": 720,
+    "finite": 691,
+    "min": 0.1
+   },
+   "ok": true
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+"id","path","kind","files","bytes","GiB","decision","condition"
+"A1","D:\rob-memory-migration-20261021\desktop-restore\payload","directory","14293","14225257526","13.2483","建议清理解压副本","必须保留已验证的完整ZIP及其校验文件；14,293个解压文件与原ZIP一致"
+"A2","D:\rob-memory-migration-20261021\desktop-restore\wsl.3.0.3.0.x64.msi","file","1","367575040","0.3423","建议清理安装缓存","WSL已安装，非当前Ubuntu虚拟磁盘；保留恢复日志"
+"A3","D:\hunter_increment_since_20261021_20261031\Hunter_increment_20261021_to_20261031","directory","471","181265965","0.1688","建议清理解压副本","必须保留已验证的增量ZIP及校验文件、desktop-merge原件和回执；471文件与ZIP一致"
+"B1","逐文件见 presentation_cache_candidates.json","file_list","93","58013780","0.054","可清理历史PPT预览和中间PPTX","保留delivery/deliverables最终PPTX、所有作者脚本、source.json/combined.json/presentation.json及原始素材；非删除整个.build"
+"B2","逐文件见 regenerable_python_cache_candidates.json","file_list","133","2264196","0.0021","可清理可重建Python缓存","逐个确认对应.py源码仍存在，只处理列出的.pyc文件"
+"C1","逐文件见 historical_map_backup_verification.json","file_list","12","3521598123","3.2797","可从工作区归档移出，不属于垃圾","12份历史PCD已与完整包哈希核对；必须保留完整ZIP或另一份已验证备份，不能同时删唯一备份"

@@ -1,0 +1,171 @@
+HUNTER 2.0 仿真导航 命令清单
+WSL2 Ubuntu-22.04 / ROS 2 Humble / Gazebo Fortress / 本机仿真，不连实车
+
+说明
+本清单和师兄那份《建图导航.txt》是同一类东西：按“终端 1、终端 2……”排好，每条命令单独回车。
+区别只在于这里跑的是仿真：没有底盘服务、没有雷达驱动、没有 use_robot，整套由终端 1 一条命令拉起。
+“终端 1、终端 2”只是窗口编号，不是命令内容；不要复制提示符（PS C:\> 或 aphelios@...$）。
+
+本清单里除“在 RViz 上点 2D Pose Estimate”那一个鼠标动作外，所有命令都在本机跑过至少一次：
+启动、看话题、看扫描频率、核对参数、命令行设位姿、发 mid_offset（返回 Goal accepted）、
+人工发 /cmd_vel 让车前进（真值从 -0.210 走到 0.523）、停栈（stopped=4 still_alive=0）。
+
+
+========== 一、启动 ==========
+
+终端 1：整个仿真栈（场景 + 桥接 + 定位 + Nav2）。用真值定位，位置永远准，用来验导航本身。
+
+wsl.exe -d Ubuntu-22.04 -u aphelios -- env GUI=1 bash /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/run_fix_stack.bash
+
+预期：先打印仿真环境那一行，再打印 world sha256、gui=on、server/bridge/truth/nav2/rviz 各自的 pid，
+最后一行是 [stack] ready in 4s，然后回到 PowerShell 提示符。
+窗口里会弹出 Gazebo 和 RViz；回归提示符是正常的，进程已经脱离终端在后台跑。
+
+不要用“关窗口”来停止它。窗口关掉进程还在，下次启动会被拒绝（提示这些 pid 还活着）。
+
+
+终端 1（另一种）：用 AMCL 定位。这一步需要你自己在 RViz 里给初始位姿。
+
+wsl.exe -d Ubuntu-22.04 -u aphelios -- env GUI=1 LOCALIZER=amcl INIT_POSE=manual bash /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/run_fix_stack.bash
+
+预期：比上面多两行提示，说明 AMCL 还没有初始位姿、请在 RViz 用 2D Pose Estimate 点 (-0.21,-0.77) 朝 +x，
+并等待最多 600 秒。这两行出现后命令不会马上返回，这是正常的：
+AMCL 没有初始位姿就发不出 map→odom，Nav2 的代价地图就等不到坐标变换，整套会安静地停在那里。
+
+不带 GUI 的纯 headless：
+
+wsl.exe -d Ubuntu-22.04 -u aphelios -- bash /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/run_fix_stack.bash
+
+
+========== 二、操作终端 ==========
+
+终端 2：进入 WSL 并加载环境。所有 ros2 命令都在这个窗口里执行。
+
+wsl.exe -d Ubuntu-22.04 -u aphelios
+
+source /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/lab_nav_fix_env.bash
+
+预期：打印“已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / Radeon RX 9070 XT。”
+每个新开的 WSL 窗口都要重新 source 一次；这一步漏了，下面的 ros2 命令会看到空话题列表。
+
+
+终端 2：看话题和扫描。真机那份是看 /lidar_points 再转 /scan，这里扫描是仿真直接给的 /scan。
+
+ros2 topic list
+
+预期：能看到 /clock /scan /odom /ground_truth /joint_states /cmd_vel /map /plan 等。
+
+ros2 topic hz /scan
+
+预期：average rate: 10.0 左右，间隔 0.100s。若是 20 Hz，说明有两个桥接进程在同时发，先停栈再起。
+
+ros2 topic echo /scan --once --field header
+
+预期：frame_id: laser。
+
+ros2 topic info /scan
+
+预期：Publisher count: 1。多于 1 就是有残留进程。
+
+
+终端 2：核对参数是不是真的加载了（不是只看文件里写了什么）。
+
+python3 -B /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/verify_fix_config.py
+
+预期：十几项全 PASS，包括 DUBIN 运动模型、最小转弯半径 1.669、allow_unknown false、
+allow_reversing false、use_rotate_to_heading false、footprint、地图 241x465 分辨率 0.05、scan 的 frame。
+
+
+终端 3：给 AMCL 设初始位姿（只有 AMCL 模式需要；真值模式跳过）。
+
+做法一，RViz 里点：工具栏 2D Pose Estimate → 在地图 (-0.21,-0.77) 处按下、朝 +x 方向拖一小段松开。
+
+做法二，命令行等价（不想点鼠标时用）：
+
+ros2 topic pub --once /initialpose geometry_msgs/msg/PoseWithCovarianceStamped "{header: {frame_id: map}, pose: {pose: {position: {x: -0.21, y: -0.77}, orientation: {w: 1.0}}}}"
+
+预期：RViz 里出现一片橙色粒子云，终端 1 随后打印 [stack] ready in Ns。
+
+
+终端 4：发导航目标。下面这条是 2026-11-07 实测能到达的 mid_offset。
+
+ros2 action send_goal /navigate_to_pose nav2_msgs/action/NavigateToPose "{pose: {header: {frame_id: map}, pose: {position: {x: 3.185, y: 1.235, z: 0.0}, orientation: {z: 0.2636, w: 0.9646}}}}" --feedback
+
+预期：Goal accepted with ID，然后每秒一条 Feedback，distance_remaining 一点点变小，最后
+Goal finished with status: SUCCEEDED。车停下的位置离目标点大约 0.1~0.2 米，这是控制器的到达容差，不是没到。
+
+其余两个已验证目标（朝向都是“从起点看向目标”的方位角，四元数已经算好）：
+
+long_run      position: {x: 4.285, y: 2.535}   orientation: {z: 0.3117, w: 0.9502}
+short_straight position: {x: 1.885, y: 0.435}  orientation: {z: 0.2580, w: 0.9661}
+
+short_straight 是诊断用例：它只有 2.4 米远，但方位偏 26 度，最小转弯半径 1.669 米、禁倒车、
+禁原地转的条件下常常到不了，真值模式 0/3、AMCL 模式 1/3。要看成功率用 mid_offset 和 long_run。
+
+
+终端 4：取消正在跑的目标。
+
+在这个终端按 Ctrl+C。
+
+预期：动作以 CANCELED 结束（不是 ABORTED），车开始减速停住。
+ABORTED 是“它自己做不到”（撞墙检测、规划失败）；CANCELED 是“你让它停”。这两个要分清。
+
+注意：取消不是急停。实测取消后车还会滑行约 0.17 米，所以下一步要单独确认停稳。
+
+
+终端 5：确认真的停了。
+
+ros2 topic echo /odom --field twist.twist.linear.x
+
+预期：连续输出 0.0。若还在 0.1 上下，就是没停。看完按 Ctrl+C。
+
+ros2 run tf2_ros tf2_echo map base_link
+
+预期：每秒打印一次 Translation，位置几乎不动。开头可能有一句 Invalid frame ID "map"，
+那是还没收到第一帧变换，正常。
+
+
+终端 6：停止整套，并确认没有残留。
+
+bash /mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/stop_fix_stack.bash
+
+预期：[stop] stopped=4 skipped=0 still_alive=0。
+这条只杀启动时登记在 /tmp/lab_fix_stack/processes.tsv 里的进程（会核对内核启动时间，防止 pid 被复用），
+不按名字乱杀，所以不会误伤别人的进程。
+
+
+终端 7（可选）：人工直接开一段车，不用 Nav2。
+
+ros2 topic pub --rate 10 /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.10}, angular: {z: 0.0}}"
+
+预期：车沿当前朝向前进；按 Ctrl+C 停发，车会在 1 秒内停住。
+注意 /cmd_vel 是唯一的速度入口，Nav2 和人工不能同时发——要人工开车，先把 Nav2 那边停掉。
+
+
+========== 三、状态与退出码==========
+
+动作终态
+SUCCEEDED  到达（在容差内）
+ABORTED    自己放弃（撞墙检测触发、规划失败、超时）
+CANCELED   被你取消
+
+启动脚本退出码
+0  正常，栈在跑
+1  启动失败，本次登记的进程已经清理掉
+3  发现上次登记的进程还活着，拒绝重复启动（先执行终端 6）
+
+
+========== 四、几件没被验证的事 ==========
+
+碰撞计数：场景里没有可用的接触传感器，任何“0 碰撞”都不算数，一律记 not_measured。
+里程计漂移指标还没接进评测。
+长时驾驶、动态建图、实车部署都没做。
+实车任何可能让车动起来的操作都需要单独授权，本清单里的命令全部只作用于仿真。
+
+
+========== 五、文件在哪 ==========
+
+启动/停止：sim/experiments/lab_nav_fix_20261106/run_fix_stack.bash、stop_fix_stack.bash
+参数：同目录 nav2_params_fix.yaml（由 make_nav2_params_fix.py 从师兄原始参数派生，差异在同名 diff.json）
+地图：outputs/lab_nav_fix_20261106/lab_nav_map_fix.yaml
+结果与记录：outputs/lab_nav_fix_20261106/STATUS.md、README、本清单同目录的 初学者Nav2仿真操作教程.txt

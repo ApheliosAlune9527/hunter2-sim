@@ -1,0 +1,15 @@
+{
+  "audit_date": "2026-11-05",
+  "deleted_existing_files": false,
+  "size_unit": "logical bytes, GiB=1024^3",
+  "active_wsl": "D:\\rob-memory\\wsl\\Ubuntu22.04\\ext4.vhdx",
+  "primary_candidates_bytes": 14774098531,
+  "project_cache_candidates_bytes": 60277976,
+  "historical_map_archive_candidates_bytes": 3521598123,
+  "exact_duplicate_cache_subset_bytes": 23816644,
+  "exact_duplicate_cache_subset_files": 43,
+  "preserve_archive_paths": [
+    "D:\\rob-memory-migration-20261021\\rob-memory_迁移包_20261021.zip",
+    "D:\\hunter_increment_since_20261021_20261031\\Hunter_增量_20261021至20261031.zip"
+  ]
+}

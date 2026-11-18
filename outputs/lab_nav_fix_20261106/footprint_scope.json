@@ -1,0 +1,56 @@
+{
+ "costmap_footprint_half_width_m": 0.3933,
+ "params_file_footprint": [
+  [
+   -0.184,
+   -0.393
+  ],
+  [
+   0.834,
+   -0.393
+  ],
+  [
+   0.834,
+   0.393
+  ],
+  [
+   -0.184,
+   0.393
+  ]
+ ],
+ "params_match_json": true,
+ "wheel_outer_at_straight_m": 0.3733,
+ "wheel_outer_at_steering_limit_m": 0.4316,
+ "wheel_outer_at_inner_wheel_angle_m": 0.4369,
+ "steering_limit_rad": 0.4,
+ "inner_wheel_angle_rad": 0.444,
+ "wheels_stay_inside_footprint_upto_rad": 0.1254,
+ "wheels_stay_inside_footprint_upto_deg": 7.18,
+ "first_exceeding_angle_rad": 0.126,
+ "swept_envelope_half_width_m": 0.4369,
+ "meaning": "within the angle above the wheels do not leave the costmap polygon; beyond it they reach further, but the planner keeps the rigid body because the swept volume closes narrow corridors",
+ "corridors": {
+  "short_straight": {
+   "distance_m": 2.417,
+   "heading_rad": 0.522,
+   "min_clearance_m": 0.25,
+   "steering_needed_rad": 0.0,
+   "clear": true
+  },
+  "mid_offset": {
+   "distance_m": 3.943,
+   "heading_rad": 0.5335,
+   "min_clearance_m": 0.05,
+   "steering_needed_rad": 0.0,
+   "clear": true
+  },
+  "long_run": {
+   "distance_m": 5.579,
+   "heading_rad": 0.634,
+   "min_clearance_m": 0.05,
+   "steering_needed_rad": 0.0,
+   "clear": true
+  }
+ },
+ "ok": true
+}

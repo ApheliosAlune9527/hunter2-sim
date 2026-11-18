@@ -1,0 +1,62 @@
+[
+  {
+    "id": "A1",
+    "path": "D:\\rob-memory-migration-20261021\\desktop-restore\\payload",
+    "kind": "directory",
+    "files": 14293,
+    "bytes": 14225257526,
+    "GiB": 13.2483,
+    "decision": "建议清理解压副本",
+    "condition": "必须保留已验证的完整ZIP及其校验文件；14,293个解压文件与原ZIP一致"
+  },
+  {
+    "id": "A2",
+    "path": "D:\\rob-memory-migration-20261021\\desktop-restore\\wsl.3.0.3.0.x64.msi",
+    "kind": "file",
+    "files": 1,
+    "bytes": 367575040,
+    "GiB": 0.3423,
+    "decision": "建议清理安装缓存",
+    "condition": "WSL已安装，非当前Ubuntu虚拟磁盘；保留恢复日志"
+  },
+  {
+    "id": "A3",
+    "path": "D:\\hunter_increment_since_20261021_20261031\\Hunter_increment_20261021_to_20261031",
+    "kind": "directory",
+    "files": 471,
+    "bytes": 181265965,
+    "GiB": 0.1688,
+    "decision": "建议清理解压副本",
+    "condition": "必须保留已验证的增量ZIP及校验文件、desktop-merge原件和回执；471文件与ZIP一致"
+  },
+  {
+    "id": "B1",
+    "path": "逐文件见 presentation_cache_candidates.json",
+    "kind": "file_list",
+    "files": 93,
+    "bytes": 58013780,
+    "GiB": 0.054,
+    "decision": "可清理历史PPT预览和中间PPTX",
+    "condition": "保留delivery/deliverables最终PPTX、所有作者脚本、source.json/combined.json/presentation.json及原始素材；非删除整个.build"
+  },
+  {
+    "id": "B2",
+    "path": "逐文件见 regenerable_python_cache_candidates.json",
+    "kind": "file_list",
+    "files": 133,
+    "bytes": 2264196,
+    "GiB": 0.0021,
+    "decision": "可清理可重建Python缓存",
+    "condition": "逐个确认对应.py源码仍存在，只处理列出的.pyc文件"
+  },
+  {
+    "id": "C1",
+    "path": "逐文件见 historical_map_backup_verification.json",
+    "kind": "file_list",
+    "files": 12,
+    "bytes": 3521598123,
+    "GiB": 3.2797,
+    "decision": "可从工作区归档移出，不属于垃圾",
+    "condition": "12份历史PCD已与完整包哈希核对；必须保留完整ZIP或另一份已验证备份，不能同时删唯一备份"
+  }
+]

@@ -1,0 +1,40 @@
+{
+ "steps": {
+  "selfrun_mid": [
+   {
+    "goal": "mid_offset",
+    "success": true,
+    "action_status": 4,
+    "final_error_m": 0.1108,
+    "stop": true,
+    "cancel": {
+     "requested": null,
+     "acknowledged_goals": null,
+     "ended": null,
+     "final_status": null
+    }
+   }
+  ],
+  "selfrun_cancel": [
+   {
+    "goal": "long_run",
+    "success": false,
+    "action_status": 5,
+    "final_error_m": 4.5067,
+    "stop": true,
+    "cancel": {
+     "requested": true,
+     "acknowledged_goals": 1,
+     "ended": true,
+     "final_status": 5
+    }
+   }
+  ]
+ },
+ "files": {
+  "selfrun_mid": "nav_eval_runs_selfrun_mid.json",
+  "selfrun_cancel": "nav_eval_runs_selfrun_cancel.json"
+ },
+ "scan_on_wall": "pose_x=0.327 pose_y=-0.832 pose_yaw=1.571 beams_used=690 on_wall=690 off_wall=0 fraction_on_wall=1.000",
+ "amcl_pose": "- Translation: [-0.212, -0.832, 0.000]"
+}

@@ -1,5 +1,5 @@
 {
-  "source_map": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\lab_odom_06_new.pgm",
+  "source_map": "/mnt/d/rob-memory/outputs/lab_map_compare_20261105/lab_odom_06_new.pgm",
   "source_map_sha256": "98bb0c9ed71da56189d83658f9402eeb53d4bc71828981216e4dd66f86ec74f0",
   "resolution_m": 0.05,
   "origin_m": [
@@ -14,9 +14,9 @@
   },
   "wall_height_m": 2.4,
   "wall_boxes": 2211,
-  "wall_mesh": "D:\\rob-memory\\outputs\\lab_scene_odom06_20261105\\walls.stl",
-  "wall_mesh_sha256": "7e5975df1e4ceaae4625207deaa5f7e2517b1a62c86130987549663eba6de8e3",
-  "scene": "D:\\rob-memory\\outputs\\lab_scene_odom06_20261105\\lab_scene_2d.sdf",
+  "wall_mesh": "/mnt/d/rob-memory/outputs/lab_scene_odom06_20261105/walls.stl",
+  "wall_mesh_sha256": "ff766553e8081120d9bdfab2e0fd11c36a3a3d4c61780c44675a2e9f388d6970",
+  "scene": "/mnt/d/rob-memory/outputs/lab_scene_odom06_20261105/lab_scene_2d.sdf",
   "world": "hz_lab_2d",
   "vehicle_start": {
     "x": -0.21,

@@ -1,0 +1,14 @@
+{
+  "world": "/mnt/d/rob-memory/outputs/lab_nav_20261105/lab_nav_world.sdf",
+  "checks": {
+    "sdf_syntax_ok": true,
+    "sdf_syntax_output": "已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / Radeon RX 9070 XT。\nValid.",
+    "server_exit_code": 0,
+    "gazebo_error_count": 0,
+    "gazebo_errors": [],
+    "mesh_missing": false,
+    "sim_time_reached": false,
+    "model_list_raw": "已加载个人仿真环境：Humble / ROS 域 73 / 本机通信 / Radeon RX 9070 XT。\n\nService call to [/gazebo/worlds] timed out\nCommand failed when trying to get the world name of the running simulation."
+  },
+  "ok": true
+}

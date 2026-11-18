@@ -1,0 +1,569 @@
+{
+ "generated": "2026-11-06",
+ "environment": {
+  "class": "sim/experiments/lab_nav/rl/hz_nav_env.py (HzLabNavEnv), gym wrapper in gym_wrapper.py",
+  "observation": "76 floats: 72 scan beams pooled 10:1 by minimum, divided by 3 m and clipped at 1; goal range / 6 m; goal bearing / pi; last commanded v / 0.26; last w / 0.20",
+  "action": "2 floats in [-1,1]: v = (a0+1)/2 * 0.26 m/s, forward only because the baseline runs allow_reversing: false; w = a1 * 0.20 rad/s; the Ackermann limit comes from the vehicle model, not from clipping",
+  "control_period_sim_s": 0.1,
+  "reward": "2.0 * progress_m - 0.01 - 0.05 * |dv|; +5.0 on goal; -5.0 on contact",
+  "termination": "goal within 0.25 m, contact proxy, or the episode budget",
+  "reset": "set_pose teleport, read the pose back, re-seed the pose estimate from truth and the first odometry sample, then advance on odometry increments only"
+ },
+ "interface_validation": {
+  "episodes": [
+   {
+    "goal": [
+     4.485,
+     0.835,
+     4.962,
+     18.9
+    ],
+    "steps": 586,
+    "return": -4.907,
+    "reason": "timeout",
+    "reset": {
+     "teleport_accepted": true,
+     "settled_truth": [
+      -0.21,
+      -0.77,
+      0.0
+     ],
+     "settled_odom": [
+      38.3438,
+      -2.5153,
+      0.4969
+     ],
+     "position_error_m": 0.0,
+     "initial_distance_m": 4.962,
+     "goal_map": [
+      4.485,
+      0.835
+     ]
+    },
+    "final": {
+     "distance_m": 3.2,
+     "truth": [
+      4.155,
+      -0.1119,
+      0.0004
+     ],
+     "odom": [
+      44.9053,
+      1.2113,
+      0.1574
+     ],
+     "sim_seconds": 60.01
+    }
+   },
+   {
+    "goal": [
+     2.385,
+     0.935,
+     3.105,
+     33.3
+    ],
+    "steps": 589,
+    "return": -12.756,
+    "reason": "timeout",
+    "reset": {
+     "teleport_accepted": true,
+     "settled_truth": [
+      -0.2061,
+      -0.77,
+      0.0001
+     ],
+     "settled_odom": [
+      44.9529,
+      1.2188,
+      0.1583
+     ],
+     "position_error_m": 0.0039,
+     "initial_distance_m": 3.102,
+     "goal_map": [
+      2.385,
+      0.935
+     ]
+    },
+    "final": {
+     "distance_m": 5.274,
+     "truth": [
+      4.1438,
+      -0.4338,
+      0.0018
+     ],
+     "odom": [
+      52.5119,
+      3.0842,
+      0.2844
+     ],
+     "sim_seconds": 60.1
+    }
+   }
+  ],
+  "checks": {
+   "episode_0_dt": true,
+   "episode_1_dt": true
+  },
+  "summary": {
+   "obs_shape_ok": true,
+   "obs_range_ok": true,
+   "max_reset_position_error_m": 0.0039,
+   "reset_errors_within_2cm": true,
+   "end_reasons": [
+    "timeout"
+   ],
+   "reasons_declared": true,
+   "reasons_seen": [
+    "timeout"
+   ],
+   "control_period_ok": true
+  }
+ },
+ "termination_validation": {
+  "success_case": {
+   "goal": [
+    0.79,
+    -0.77
+   ],
+   "end": "goal",
+   "steps": 41,
+   "final_distance_m": 0.237,
+   "sim_seconds": 4.2,
+   "passed": true
+  },
+  "wall_approach_pose": {
+   "x": 0.285,
+   "y": 6.735,
+   "col": 107,
+   "row": 232
+  },
+  "collision_case": {
+   "goal": [
+    1.4849999999999999,
+    6.735
+   ],
+   "end": "collision",
+   "steps": 37,
+   "final_distance_m": 0.372,
+   "collisions": [],
+   "contact_proxy": true,
+   "contact_source": "wheel-odometry versus simulated pose (the Gazebo Contact topic is not published in this build)",
+   "passed": true
+  },
+  "both_passed": true
+ },
+ "split": {
+  "pool": 4995,
+  "train": 40,
+  "held_out": 12,
+  "held_out_min_distance_to_train_m": 0.75,
+  "filter": "straight corridor at the approach bearing must clear the footprint",
+  "note": "the three fixed evaluation goals are the ones the navigation baseline ran"
+ },
+ "runs": [
+  {
+   "run": "seed0_8k",
+   "model": "rl/ppo_seed0_8k.zip",
+   "training": {
+    "total_timesteps": 8192,
+    "seed": 0,
+    "episode_s": 30.0,
+    "control_dt_s": 0.1,
+    "train_goals": 40,
+    "train_goal_filter": "full train split",
+    "wall_seconds": 819,
+    "episodes_logged": 28,
+    "reconstructed": true,
+    "note": "run_meta was overwritten when the 60k run started; these figures come from the completion message of that run and from its preserved model/evaluation",
+    "library": {
+     "torch": "2.14.1+cpu",
+     "gymnasium": "1.4.0",
+     "stable_baselines3": "2.9.2"
+    },
+    "reward_variant": "progress",
+    "later_added_fields": [
+     "reward_variant: value from the code path that ran; the meta writer did not log it then"
+    ]
+   },
+   "learning_curve": null,
+   "evaluation": {
+    "eval_goals": {
+     "attempts": 3,
+     "successes": 0,
+     "mean_final_distance_m": 3.121,
+     "mean_path_m": 4.847,
+     "mean_sim_seconds": 60.0,
+     "contacts": 0
+    },
+    "held_out": {
+     "attempts": 6,
+     "successes": 0,
+     "mean_final_distance_m": 5.452,
+     "mean_path_m": 4.844,
+     "mean_sim_seconds": 60.0,
+     "contacts": 0
+    },
+    "constant_forward": {
+     "attempts": 1,
+     "successes": 0,
+     "mean_final_distance_m": 2.152,
+     "mean_path_m": 3.893,
+     "mean_sim_seconds": 30.3,
+     "contacts": 0
+    }
+   },
+   "repeats": 1,
+   "policy_input": "scan + odometry",
+   "truth_used_for": [
+    "teleport",
+    "success_check",
+    "contact_proxy"
+   ]
+  },
+  {
+   "run": "seed0_60000",
+   "model": "rl/ppo_seed0_60000.zip",
+   "training": {
+    "total_timesteps": 60000,
+    "seed": 0,
+    "episode_s": 30.0,
+    "control_dt_s": 0.1,
+    "observation": "72 min-pooled scan beams / 3 m, goal range / 6 m, goal bearing / pi, last v / 0.26, last w / 0.20",
+    "action": "linear velocity [0, 0.26] m/s, yaw rate [-0.20, 0.20] rad/s",
+    "reward": "2.0 * progress_m - 0.01 per step - 0.05 * |dv| + 5.0 on goal, -5.0 on contact",
+    "termination": "goal within 0.25 m, contact proxy, or 30 simulated seconds",
+    "truth_use": "teleport, success check, contact proxy; the policy input is scan and odometry only",
+    "library": {
+     "python": "3.10.12",
+     "torch": "2.14.1+cpu",
+     "gymnasium": "1.4.0",
+     "sb3": "2.9.2"
+    },
+    "started": "2026-11-06 10:32:50",
+    "wall_seconds": 6551.9,
+    "finished": "2026-11-06 12:22:02",
+    "train_goals": 40,
+    "train_goal_filter": "full train split",
+    "reward_variant": "progress",
+    "later_added_fields": [
+     "train_goals: value from the code path that ran; the meta writer did not log it then",
+     "train_goal_filter: value from the code path that ran; the meta writer did not log it then",
+     "reward_variant: value from the code path that ran; the meta writer did not log it then"
+    ]
+   },
+   "learning_curve": {
+    "episodes": 213,
+    "bins": [
+     {
+      "from_step": 0,
+      "episodes": 35,
+      "mean_return": -1.111,
+      "arrived": 3,
+      "contact": 8
+     },
+     {
+      "from_step": 10000,
+      "episodes": 36,
+      "mean_return": -0.358,
+      "arrived": 6,
+      "contact": 7
+     },
+     {
+      "from_step": 20000,
+      "episodes": 38,
+      "mean_return": 0.001,
+      "arrived": 7,
+      "contact": 6
+     },
+     {
+      "from_step": 30000,
+      "episodes": 36,
+      "mean_return": 1.396,
+      "arrived": 3,
+      "contact": 0
+     },
+     {
+      "from_step": 40000,
+      "episodes": 36,
+      "mean_return": 0.938,
+      "arrived": 6,
+      "contact": 3
+     },
+     {
+      "from_step": 50000,
+      "episodes": 32,
+      "mean_return": 1.252,
+      "arrived": 1,
+      "contact": 0
+     }
+    ],
+    "reason_recorded": 0,
+    "arrival_rate": 0.122,
+    "contact_rate": 0.113
+   },
+   "evaluation": {
+    "eval_goals": {
+     "attempts": 9,
+     "successes": 0,
+     "mean_final_distance_m": 1.664,
+     "mean_path_m": 2.491,
+     "mean_sim_seconds": 60.0,
+     "contacts": 0
+    },
+    "held_out": {
+     "attempts": 6,
+     "successes": 0,
+     "mean_final_distance_m": 2.572,
+     "mean_path_m": 2.917,
+     "mean_sim_seconds": 60.1,
+     "contacts": 0
+    },
+    "constant_forward": {
+     "attempts": 1,
+     "successes": 0,
+     "mean_final_distance_m": 2.106,
+     "mean_path_m": 3.888,
+     "mean_sim_seconds": 30.3,
+     "contacts": 0
+    }
+   },
+   "repeats": 3,
+   "policy_input": "scan + odometry",
+   "truth_used_for": [
+    "teleport",
+    "success_check",
+    "contact_proxy"
+   ]
+  },
+  {
+   "run": "seed1_20000_near8",
+   "model": "rl/ppo_seed1_20000_near8.zip",
+   "training": {
+    "total_timesteps": 20000,
+    "seed": 1,
+    "episode_s": 30.0,
+    "train_goals": 8,
+    "train_goal_filter": "nearest 8 by distance",
+    "control_dt_s": 0.1,
+    "observation": "72 min-pooled scan beams / 3 m, goal range / 6 m, goal bearing / pi, last v / 0.26, last w / 0.20",
+    "action": "linear velocity [0, 0.26] m/s, yaw rate [-0.20, 0.20] rad/s",
+    "reward": "2.0 * progress_m - 0.01 per step - 0.05 * |dv| + 5.0 on goal, -5.0 on contact",
+    "termination": "goal within 0.25 m, contact proxy, or 30 simulated seconds",
+    "truth_use": "teleport, success check, contact proxy; the policy input is scan and odometry only",
+    "library": {
+     "python": "3.10.12",
+     "torch": "2.14.1+cpu",
+     "gymnasium": "1.4.0",
+     "sb3": "2.9.2"
+    },
+    "started": "2026-11-06 12:39:48",
+    "wall_seconds": 2234.4,
+    "finished": "2026-11-06 13:17:03",
+    "reward_variant": "progress",
+    "later_added_fields": [
+     "reward_variant: value from the code path that ran; the meta writer did not log it then"
+    ]
+   },
+   "learning_curve": {
+    "episodes": 75,
+    "bins": [
+     {
+      "from_step": 0,
+      "episodes": 37,
+      "mean_return": -1.924,
+      "arrived": 8,
+      "contact": 1
+     },
+     {
+      "from_step": 10000,
+      "episodes": 36,
+      "mean_return": -1.214,
+      "arrived": 6,
+      "contact": 0
+     },
+     {
+      "from_step": 20000,
+      "episodes": 2,
+      "mean_return": -1.589,
+      "arrived": 0,
+      "contact": 0
+     }
+    ],
+    "reason_recorded": 75,
+    "arrival_rate": 0.187,
+    "contact_rate": 0.013
+   },
+   "evaluation": {
+    "eval_goals": {
+     "attempts": 9,
+     "successes": 0,
+     "mean_final_distance_m": 2.362,
+     "mean_path_m": 1.723,
+     "mean_sim_seconds": 60.0,
+     "contacts": 0
+    },
+    "train_near": {
+     "attempts": 8,
+     "successes": 0,
+     "mean_final_distance_m": 0.864,
+     "mean_path_m": 1.782,
+     "mean_sim_seconds": 60.0,
+     "contacts": 0
+    },
+    "held_out": {
+     "attempts": 6,
+     "successes": 0,
+     "mean_final_distance_m": 2.755,
+     "mean_path_m": 2.184,
+     "mean_sim_seconds": 60.1,
+     "contacts": 0
+    },
+    "constant_forward": {
+     "attempts": 1,
+     "successes": 0,
+     "mean_final_distance_m": 2.232,
+     "mean_path_m": 3.963,
+     "mean_sim_seconds": 30.8,
+     "contacts": 0
+    }
+   },
+   "repeats": 3,
+   "policy_input": "scan + odometry",
+   "truth_used_for": [
+    "teleport",
+    "success_check",
+    "contact_proxy"
+   ]
+  },
+  {
+   "run": "seed2_20000_near8_distance",
+   "model": "rl/ppo_seed2_20000_near8_distance.zip",
+   "training": {
+    "total_timesteps": 20000,
+    "seed": 2,
+    "episode_s": 30.0,
+    "train_goals": 8,
+    "reward_variant": "progress_distance",
+    "train_goal_filter": "nearest 8 by distance",
+    "control_dt_s": 0.1,
+    "observation": "72 min-pooled scan beams / 3 m, goal range / 6 m, goal bearing / pi, last v / 0.26, last w / 0.20",
+    "action": "linear velocity [0, 0.26] m/s, yaw rate [-0.20, 0.20] rad/s",
+    "reward": "2.0 * progress_m - 0.01 per step - 0.05 * |dv| + 5.0 on goal, -5.0 on contact",
+    "termination": "goal within 0.25 m, contact proxy, or 30 simulated seconds",
+    "truth_use": "teleport, success check, contact proxy; the policy input is scan and odometry only",
+    "library": {
+     "python": "3.10.12",
+     "torch": "2.14.1+cpu",
+     "gymnasium": "1.4.0",
+     "sb3": "2.9.2"
+    },
+    "started": "2026-11-06 13:44:08",
+    "wall_seconds": 2250.9,
+    "finished": "2026-11-06 14:21:38"
+   },
+   "learning_curve": {
+    "episodes": 84,
+    "bins": [
+     {
+      "from_step": 0,
+      "episodes": 40,
+      "mean_return": -11.194,
+      "arrived": 13,
+      "contact": 3
+     },
+     {
+      "from_step": 10000,
+      "episodes": 42,
+      "mean_return": -7.871,
+      "arrived": 15,
+      "contact": 0
+     },
+     {
+      "from_step": 20000,
+      "episodes": 2,
+      "mean_return": -4.677,
+      "arrived": 1,
+      "contact": 0
+     }
+    ],
+    "reason_recorded": 84,
+    "arrival_rate": 0.345,
+    "contact_rate": 0.036
+   },
+   "evaluation": {
+    "eval_goals": {
+     "attempts": 9,
+     "successes": 0,
+     "mean_final_distance_m": 1.973,
+     "mean_path_m": 2.157,
+     "mean_sim_seconds": 60.0,
+     "contacts": 0
+    },
+    "train_near": {
+     "attempts": 8,
+     "successes": 4,
+     "mean_final_distance_m": 0.613,
+     "mean_path_m": 2.078,
+     "mean_sim_seconds": 38.2,
+     "contacts": 0
+    },
+    "held_out": {
+     "attempts": 6,
+     "successes": 0,
+     "mean_final_distance_m": 3.259,
+     "mean_path_m": 2.079,
+     "mean_sim_seconds": 60.1,
+     "contacts": 0
+    },
+    "constant_forward": {
+     "attempts": 1,
+     "successes": 0,
+     "mean_final_distance_m": 2.193,
+     "mean_path_m": 3.96,
+     "mean_sim_seconds": 30.8,
+     "contacts": 0
+    }
+   },
+   "repeats": 3,
+   "policy_input": "scan + odometry",
+   "truth_used_for": [
+    "teleport",
+    "success_check",
+    "contact_proxy"
+   ]
+  }
+ ],
+ "reading": [
+  "8,192 steps: the policy drives and never arrives; this only proves the interface works.",
+  "60,000 steps on all 40 goals: still 0/9, but the mean final distance fell from 3.12 m to 1.66 m and the mean path from 4.85 m to 2.49 m, so it learned to approach.  Contact episodes disappear in the last 20k steps while arrivals stay near 10%.",
+  "20,000 steps on the nearest 8 goals: 0/8 on the very goals it trained on, with a mean final distance of 0.864 m.  A trace shows the vehicle driving to 0.679 m from the goal and then commanding zero for the rest of the episode -- stopping beat risking the last metre, because contact costs -5.0 and idling costs -0.01 per step.",
+  "Charging 0.03 per metre of remaining distance every step removes that trap: the same budget and goal pool goes from 0/8 to 4/8 with a mean final distance of 0.613 m.  The fixed goals and the held-out goals stay at zero, so finishing a practised goal and generalising are separate problems and only the first was fixed.",
+  "Returns are not comparable across the reward variants: the distance charge lowers the return of a successful episode from about +5.9 to +2.8, so arrival counts must be compared, not mean return."
+ ],
+ "comparison_with_the_baseline": {
+  "baseline": "Nav2 on the same world, same scan, same goals: 9/9 (outputs/lab_nav_20261105/task4_verification.json)",
+  "not_a_fair_comparison_yet": "the baseline is given the map, the policy is not; the policy's pose starts from truth at reset and then drifts on odometry",
+  "what_must_match_before_a_claim": [
+   "map or no map",
+   "localisation mode",
+   "sensor profile",
+   "speed limits",
+   "goal set",
+   "time budget"
+  ]
+ },
+ "artifacts": [
+  "rl_env_smoke.json",
+  "rl_termination_test.json",
+  "rl/goals.json",
+  "rl/README.md",
+  "rl/learning_curve_60000.png",
+  "rl/ppo_seed0_8k.zip",
+  "rl/ppo_seed0_60000.zip",
+  "rl/curve_seed0_60000.jsonl",
+  "rl/ppo_seed1_20000_near8.zip",
+  "rl/curve_seed1_20000_near8.jsonl",
+  "rl/ppo_seed2_20000_near8_distance.zip",
+  "rl/curve_seed2_20000_near8_distance.jsonl"
+ ]
+}

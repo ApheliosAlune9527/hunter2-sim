@@ -1,0 +1,39 @@
+{
+ "speed_mps": 0.15,
+ "window_s": 12.0,
+ "per_topic_age": {
+  "scan": {
+   "count": 91,
+   "age_mean_ms": 0.1,
+   "age_p50_ms": 0.0,
+   "age_p95_ms": 0.0,
+   "age_max_ms": 4.0,
+   "age_min_ms": 0.0
+  },
+  "odom": {
+   "count": 756,
+   "age_mean_ms": 0.0,
+   "age_p50_ms": 0.0,
+   "age_p95_ms": 0.0,
+   "age_max_ms": 0.0,
+   "age_min_ms": 0.0
+  },
+  "ground_truth": {
+   "count": 755,
+   "age_mean_ms": 0.0,
+   "age_p50_ms": 0.0,
+   "age_p95_ms": 0.0,
+   "age_max_ms": 0.0,
+   "age_min_ms": 0.0
+  },
+  "tf": {
+   "count": 907,
+   "age_mean_ms": 0.0,
+   "age_p50_ms": 0.0,
+   "age_p95_ms": 0.0,
+   "age_max_ms": 0.0,
+   "age_min_ms": 0.0
+  }
+ },
+ "note": "age = simulated clock at arrival minus the message stamp"
+}

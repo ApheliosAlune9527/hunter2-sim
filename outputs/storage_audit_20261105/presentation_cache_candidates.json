@@ -1,0 +1,467 @@
+[
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\candidate-v2.pptx",
+    "bytes": 48688,
+    "sha256": "e6f8a055e5823119524eaae19db85d5281202a4dfd54549073fa998995059791"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\candidate-v3.pptx",
+    "bytes": 48682,
+    "sha256": "f724403b8d3542184bd9d970ff82c35df1c37b639281deb5ed676f8a3292cd91"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\candidate.pptx",
+    "bytes": 48683,
+    "sha256": "9a617117fffe903d3473ce9de95a7f5d541e81a47f5c67667ec5c7cc87c0e044"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\overview.png",
+    "bytes": 532679,
+    "sha256": "38ca9cb2ab12da5b96efae595fbb695100841a4e100add87463b2d00360be5ec"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\slide-1.png",
+    "bytes": 119442,
+    "sha256": "9847ebed93ad42457688f8806351cde4e1b1c0375bc9d66df70352ca0e939698"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\slide-2.png",
+    "bytes": 157343,
+    "sha256": "5a1700ed17f0a896e2ede2bb97b3728dafe1d21fd6c8127b4ef8f3ffbac6637d"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\slide-3.png",
+    "bytes": 157661,
+    "sha256": "e7eefd35b631fa4dc712f7e6edcf9c5b881082ea8e187d33e8ba370f632a1450"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\slide-4.png",
+    "bytes": 108838,
+    "sha256": "ba29010a375bb1086dba112fd8328dbd5b0e1d6640dabe127a9fd342dca757c8"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\slide-5.png",
+    "bytes": 127793,
+    "sha256": "49ce498a88316a85a1f0b85f069d9e524c916bcd2896cbf62a19edf45d34608a"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\slide-6.png",
+    "bytes": 166093,
+    "sha256": "68506b859f7375a0816d11b71af89d9534f71915d445064bfcbefd82d528086c"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\candidate-preserved.pptx",
+    "bytes": 2934188,
+    "sha256": "5aba27e6d14e3b378ebd60fc8fbaf5aa46356577cfb07c7c33c930fc3605853d"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\combined-artifact.pptx",
+    "bytes": 1411952,
+    "sha256": "5f0cad49cc9b5a0f2380187bdd2d7f48a7db2e6a6afead60bc87cb6efefc6028"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\append-render\\slide-10.png",
+    "bytes": 383239,
+    "sha256": "524227fe43583a777a6ef5fd90622d4b53ff056a0a2837008c1f1bb92e03a7d9"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\append-render\\slide-11.png",
+    "bytes": 297609,
+    "sha256": "b1ac0f873ed7de2d40b0df333ebc7142094f7a8c30b1a43eda662dd4aab80cdc"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\append-render\\slide-12.png",
+    "bytes": 487103,
+    "sha256": "e28fa11e84b79434f87394b18dd0bf35c1bb81cdaaecfee4017ff97720fe94af"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\append-render\\slide-7.png",
+    "bytes": 428804,
+    "sha256": "240e767f7fc968e7aba9311cba9a628b7fbbd7b19d48582ff6b6f3bf2c2f112c"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\append-render\\slide-8.png",
+    "bytes": 458649,
+    "sha256": "2474cec3bc107764c8ebb8cfc8a14eee35034e8c20ae39ab68e8238653366404"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\append-render\\slide-9.png",
+    "bytes": 375770,
+    "sha256": "b0f42f042120571bfee74b2775cc0b4d286842344eac0ad0e3d8530306b4d92b"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-render\\slide-1.png",
+    "bytes": 119442,
+    "sha256": "9847ebed93ad42457688f8806351cde4e1b1c0375bc9d66df70352ca0e939698"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-render\\slide-10.png",
+    "bytes": 383239,
+    "sha256": "524227fe43583a777a6ef5fd90622d4b53ff056a0a2837008c1f1bb92e03a7d9"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-render\\slide-11.png",
+    "bytes": 297609,
+    "sha256": "b1ac0f873ed7de2d40b0df333ebc7142094f7a8c30b1a43eda662dd4aab80cdc"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-render\\slide-12.png",
+    "bytes": 487103,
+    "sha256": "e28fa11e84b79434f87394b18dd0bf35c1bb81cdaaecfee4017ff97720fe94af"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-render\\slide-2.png",
+    "bytes": 624195,
+    "sha256": "cef62c2e2f0a0c010b5e769e0ea90a78fdc8174b9031d2ae6ab1ada6a5d501fe"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-render\\slide-3.png",
+    "bytes": 289183,
+    "sha256": "9bfbd53b3d18a56843c47ce0f12fc9e1c468d642074715aafa13762547561440"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-render\\slide-4.png",
+    "bytes": 488025,
+    "sha256": "a5b96df58ebe0ba36488c7f60aa34662f8bcd7d56504325093991d32891bbfbc"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-render\\slide-5.png",
+    "bytes": 568098,
+    "sha256": "257f1e2ddf564cd147fb185f0fc4fceb5faa9e0dadebfba71bb046650a2cf814"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-render\\slide-6.png",
+    "bytes": 156122,
+    "sha256": "9f271cd1b5f28c5fae7904099d96e0915a4646cac83680280f88db688a020fcf"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-render\\slide-7.png",
+    "bytes": 428804,
+    "sha256": "240e767f7fc968e7aba9311cba9a628b7fbbd7b19d48582ff6b6f3bf2c2f112c"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-render\\slide-8.png",
+    "bytes": 458649,
+    "sha256": "2474cec3bc107764c8ebb8cfc8a14eee35034e8c20ae39ab68e8238653366404"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-render\\slide-9.png",
+    "bytes": 375770,
+    "sha256": "b0f42f042120571bfee74b2775cc0b4d286842344eac0ad0e3d8530306b4d92b"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\source-render\\slide-1.png",
+    "bytes": 119442,
+    "sha256": "9847ebed93ad42457688f8806351cde4e1b1c0375bc9d66df70352ca0e939698"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\source-render\\slide-2.png",
+    "bytes": 624195,
+    "sha256": "cef62c2e2f0a0c010b5e769e0ea90a78fdc8174b9031d2ae6ab1ada6a5d501fe"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\source-render\\slide-3.png",
+    "bytes": 289183,
+    "sha256": "9bfbd53b3d18a56843c47ce0f12fc9e1c468d642074715aafa13762547561440"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\source-render\\slide-4.png",
+    "bytes": 488025,
+    "sha256": "a5b96df58ebe0ba36488c7f60aa34662f8bcd7d56504325093991d32891bbfbc"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\source-render\\slide-5.png",
+    "bytes": 568098,
+    "sha256": "257f1e2ddf564cd147fb185f0fc4fceb5faa9e0dadebfba71bb046650a2cf814"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\source-render\\slide-6.png",
+    "bytes": 156122,
+    "sha256": "9f271cd1b5f28c5fae7904099d96e0915a4646cac83680280f88db688a020fcf"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\candidate.pptx",
+    "bytes": 2103362,
+    "sha256": "5300b7687415347c540ea02263a58ed024bac0757266a573d5f339d296c2f8d9"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\draft-01.png",
+    "bytes": 140788,
+    "sha256": "fba9417f3d67627e7cef955d2a8759a18e48ed7cf0e7e14d668d1157fc164446"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\draft-02.png",
+    "bytes": 405618,
+    "sha256": "c2033f91d1979141162ccb5c521a1939c05fa3e513f167bacc48fb33d233cd1d"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\draft-03.png",
+    "bytes": 241705,
+    "sha256": "5b82a3ff6f93e9de9df168c0eec788913bab18e312cdacf33c415812fb484eee"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\draft-04.png",
+    "bytes": 337117,
+    "sha256": "eb17477864675fcfcbbec75da3f043fa6cb3ccb66c2c073ad8e266adb91539ad"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\draft-05.png",
+    "bytes": 373387,
+    "sha256": "ac2b810adbd998e50b425343aad4e15c5edd51ac36099e366c5263af5abe4a9c"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\draft-06.png",
+    "bytes": 186018,
+    "sha256": "ec17f914068bd7bf4c9937eb9bd30a044ba5e8e359bb25b23a87a8720c4717ca"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\draft-07.png",
+    "bytes": 153649,
+    "sha256": "ebafebe7580d6e43d501f02a8d4693c5256c340767f95593f1b54a1d3362320e"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\draft-08.png",
+    "bytes": 160683,
+    "sha256": "c11c540590049c73303ad319dba25b973af37c7fdb8b973ea857839951e1853a"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\draft-09.png",
+    "bytes": 178895,
+    "sha256": "ff4a893a2a3420400769c242628840ec7e9772cc7b62536e2711c1730405845a"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\final-01.png",
+    "bytes": 140788,
+    "sha256": "fba9417f3d67627e7cef955d2a8759a18e48ed7cf0e7e14d668d1157fc164446"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\final-02.png",
+    "bytes": 405618,
+    "sha256": "c2033f91d1979141162ccb5c521a1939c05fa3e513f167bacc48fb33d233cd1d"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\final-03.png",
+    "bytes": 241705,
+    "sha256": "5b82a3ff6f93e9de9df168c0eec788913bab18e312cdacf33c415812fb484eee"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\final-04.png",
+    "bytes": 337117,
+    "sha256": "eb17477864675fcfcbbec75da3f043fa6cb3ccb66c2c073ad8e266adb91539ad"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\final-05.png",
+    "bytes": 373387,
+    "sha256": "ac2b810adbd998e50b425343aad4e15c5edd51ac36099e366c5263af5abe4a9c"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\final-06.png",
+    "bytes": 186018,
+    "sha256": "ec17f914068bd7bf4c9937eb9bd30a044ba5e8e359bb25b23a87a8720c4717ca"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\final-07.png",
+    "bytes": 153649,
+    "sha256": "ebafebe7580d6e43d501f02a8d4693c5256c340767f95593f1b54a1d3362320e"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\final-08.png",
+    "bytes": 160683,
+    "sha256": "c11c540590049c73303ad319dba25b973af37c7fdb8b973ea857839951e1853a"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\final-09.png",
+    "bytes": 178895,
+    "sha256": "ff4a893a2a3420400769c242628840ec7e9772cc7b62536e2711c1730405845a"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-01.png",
+    "bytes": 140788,
+    "sha256": "fba9417f3d67627e7cef955d2a8759a18e48ed7cf0e7e14d668d1157fc164446"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-02.png",
+    "bytes": 405618,
+    "sha256": "c2033f91d1979141162ccb5c521a1939c05fa3e513f167bacc48fb33d233cd1d"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-03.png",
+    "bytes": 241705,
+    "sha256": "5b82a3ff6f93e9de9df168c0eec788913bab18e312cdacf33c415812fb484eee"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-04.png",
+    "bytes": 337117,
+    "sha256": "eb17477864675fcfcbbec75da3f043fa6cb3ccb66c2c073ad8e266adb91539ad"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-05.png",
+    "bytes": 373387,
+    "sha256": "ac2b810adbd998e50b425343aad4e15c5edd51ac36099e366c5263af5abe4a9c"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-06.png",
+    "bytes": 186018,
+    "sha256": "ec17f914068bd7bf4c9937eb9bd30a044ba5e8e359bb25b23a87a8720c4717ca"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-07.png",
+    "bytes": 305661,
+    "sha256": "013f1f5de5b25d7d9170e1dd1f88df79708521d930f0bcb7310faea396f476e4"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-08.png",
+    "bytes": 322655,
+    "sha256": "204fa9e15a0f997f1bb41b188233b28ed9b9ff78b25be7593a933482caa47fe9"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-09.png",
+    "bytes": 282818,
+    "sha256": "b6eb93ee68c044d4689a3a5ec1460e090ff5b4e5c9e09788bc129421f2999bda"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-10.png",
+    "bytes": 284219,
+    "sha256": "b6e2fdf5c8842956190b8063b587da20532ddf33d5942408e23be96080258568"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-11.png",
+    "bytes": 224646,
+    "sha256": "7a5afee0b04ce208ed14cda64178b9b12b2d5ea6250f22cd5af27adeeff0099e"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-12.png",
+    "bytes": 336051,
+    "sha256": "674a8255286202dcf3f353abd01426f86a6c2ef550caa5a27c53f4e2915bd82b"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\candidate-v2.pptx",
+    "bytes": 8393041,
+    "sha256": "1e40e20ae8330e36c5dc0cafd2208a29c166db17a341b29a6f09017acce3aa8b"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\candidate.pptx",
+    "bytes": 8393027,
+    "sha256": "0dc7b2de34aa8b295bcbe6a155678b3b32dfae8594c9c296d52993743c740443"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\final-preview\\slide-01.png",
+    "bytes": 106396,
+    "sha256": "a6d025c1b4eee4820bc6ffb059a25312c1d606ed99accc1d58f686d31600a82e"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\final-preview\\slide-02.png",
+    "bytes": 742189,
+    "sha256": "e86574ebca4f67b2c2d41de4e84d1b0938f8117e548bc317da9274f1d5a184be"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\final-preview\\slide-03.png",
+    "bytes": 1294743,
+    "sha256": "d639af01d1e19cab4fdf75c53cac6042a998e13da8f409f09d8b05ff369dd6f2"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\final-preview\\slide-04.png",
+    "bytes": 636594,
+    "sha256": "ce690bd695291fe24bda5bc5527ce9a80802b971a63eaffae70b4b0bb84eead4"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\final-preview\\slide-05.png",
+    "bytes": 844615,
+    "sha256": "1eeade31c25e9a8a33df57947be5a382be2ae36db608b3e5936cef2f3d4fbec8"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\final-preview\\slide-06.png",
+    "bytes": 385409,
+    "sha256": "ded43e30ed60e8475dcd67736fe023f690f8165a6d1a4f20b998978eb4356974"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\final-preview\\slide-07.png",
+    "bytes": 1230952,
+    "sha256": "874ba0c4dca6c90092bd59ede1613d564b00f39996ca326de9dd28fa131e8ddd"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\final-preview\\slide-08.png",
+    "bytes": 130929,
+    "sha256": "a301c76e0bf48b75bd7bd7515dd1f94f34389916aa3f705d91fa7158ef13d5e0"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-01.png",
+    "bytes": 105691,
+    "sha256": "b177bdcf01a2615108b115f20dce3b3b1fb56ee237759de68c1acc51d4b86d5f"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-02.png",
+    "bytes": 742189,
+    "sha256": "e86574ebca4f67b2c2d41de4e84d1b0938f8117e548bc317da9274f1d5a184be"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-03.png",
+    "bytes": 1294743,
+    "sha256": "d639af01d1e19cab4fdf75c53cac6042a998e13da8f409f09d8b05ff369dd6f2"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-04.png",
+    "bytes": 636594,
+    "sha256": "ce690bd695291fe24bda5bc5527ce9a80802b971a63eaffae70b4b0bb84eead4"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-05.png",
+    "bytes": 844615,
+    "sha256": "1eeade31c25e9a8a33df57947be5a382be2ae36db608b3e5936cef2f3d4fbec8"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-06.png",
+    "bytes": 386842,
+    "sha256": "02f664c90528e4551908b6ba1eabd3418b1f45de978ce3b1a33e3cf25c1cf77d"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-07.png",
+    "bytes": 1230952,
+    "sha256": "874ba0c4dca6c90092bd59ede1613d564b00f39996ca326de9dd28fa131e8ddd"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-08.png",
+    "bytes": 128147,
+    "sha256": "9109b5153855990d4a90370c8f3b5491ff5ad2633e12c6468686bdf5e0e90968"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-01.png",
+    "bytes": 106396,
+    "sha256": "a6d025c1b4eee4820bc6ffb059a25312c1d606ed99accc1d58f686d31600a82e"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-02.png",
+    "bytes": 742189,
+    "sha256": "e86574ebca4f67b2c2d41de4e84d1b0938f8117e548bc317da9274f1d5a184be"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-03.png",
+    "bytes": 1294743,
+    "sha256": "d639af01d1e19cab4fdf75c53cac6042a998e13da8f409f09d8b05ff369dd6f2"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-04.png",
+    "bytes": 636594,
+    "sha256": "ce690bd695291fe24bda5bc5527ce9a80802b971a63eaffae70b4b0bb84eead4"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-05.png",
+    "bytes": 844615,
+    "sha256": "1eeade31c25e9a8a33df57947be5a382be2ae36db608b3e5936cef2f3d4fbec8"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-06.png",
+    "bytes": 385409,
+    "sha256": "ded43e30ed60e8475dcd67736fe023f690f8165a6d1a4f20b998978eb4356974"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-07.png",
+    "bytes": 1230952,
+    "sha256": "874ba0c4dca6c90092bd59ede1613d564b00f39996ca326de9dd28fa131e8ddd"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-08.png",
+    "bytes": 130929,
+    "sha256": "a301c76e0bf48b75bd7bd7515dd1f94f34389916aa3f705d91fa7158ef13d5e0"
+  }
+]

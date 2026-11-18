@@ -1,0 +1,32 @@
+{
+ "topic": "/chassis_contact",
+ "world": "/mnt/d/rob-memory/outputs/lab_nav_fix_20261106/lab_nav_world_contact.sdf",
+ "phases": {
+  "short_run": {
+   "from": [
+    -0.2099999999923411,
+    -0.7700000000080977
+   ],
+   "to": [
+    0.08999999424713367,
+    -0.7699999999565459
+   ],
+   "messages": 0
+  },
+  "wall_run": {
+   "from": [
+    0.08999999424713367,
+    -0.7699999999565459
+   ],
+   "to": [
+    4.745016070921867,
+    -0.7699622636733273
+   ],
+   "messages": 0,
+   "first": []
+  }
+ },
+ "ok": false,
+ "teleport_note": "no set_pose is used: a teleported vehicle stayed immobile, which produced a false negative in the first attempt",
+ "interpretation": "silent on the open floor and loud at the wall is the only combination that shows the sensor measures collisions rather than ordinary wheel contact"
+}

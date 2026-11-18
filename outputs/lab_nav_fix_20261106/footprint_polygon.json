@@ -1,0 +1,124 @@
+{
+ "source": "sim/hz_hunter_full_description/geometry_report.json",
+ "base_link": "rear-axle wheel-centre midpoint, X forward, Y left",
+ "inputs": {
+  "bare_chassis_bounds_m": {
+   "min": [
+    -0.1641340815224328,
+    -0.37328311787379714,
+    -0.1640987479558067
+   ],
+   "max": [
+    0.81410481184721,
+    0.37328318108184755,
+    0.212580000923872
+   ],
+   "size": [
+    0.9782388933696428,
+    0.7465662989556447,
+    0.37667874887967867
+   ]
+  },
+  "front_wheel_rectangle_m": {
+   "length": 0.3282,
+   "width": 0.1416,
+   "centre_x": 0.65,
+   "centre_y": [
+    -0.3025,
+    0.3025
+   ]
+  },
+  "steering_swept_rad": [
+   -0.444,
+   0.444
+  ],
+  "margin_m": 0.02
+ },
+ "swept_wheel_envelope_m": {
+  "min": [
+   0.47127840996588655,
+   -0.4369252640232851
+  ],
+  "max": [
+   0.8287215900341135,
+   0.4369252640232851
+  ]
+ },
+ "chassis_with_margin_m": {
+  "min": [
+   -0.1841340815224328,
+   -0.39328311787379716
+  ],
+  "max": [
+   0.83410481184721,
+   0.39328318108184757
+  ]
+ },
+ "footprint_polygon_m": [
+  [
+   -0.204,
+   -0.457
+  ],
+  [
+   0.854,
+   -0.457
+  ],
+  [
+   0.854,
+   0.457
+  ],
+  [
+   -0.204,
+   0.457
+  ]
+ ],
+ "footprint_string": "[[-0.204, -0.457], [0.854, -0.457], [0.854, 0.457], [-0.204, 0.457]]",
+ "old_footprint_m": {
+  "min": [
+   -0.5,
+   -0.395
+  ],
+  "max": [
+   0.52,
+   0.395
+  ],
+  "source": "senior nav2_params.yaml, copied verbatim"
+ },
+ "nose_gain_m": 0.334,
+ "why_a_rectangle": "the steered wheels sweep to y = +/-0.437 m, wider than the chassis at every x, so the convex hull of chassis and wheel envelope closes into a single rectangle",
+ "concave_alternative_m": [
+  [
+   -0.184,
+   -0.393
+  ],
+  [
+   0.452,
+   -0.393
+  ],
+  [
+   0.452,
+   -0.457
+  ],
+  [
+   0.854,
+   -0.457
+  ],
+  [
+   0.854,
+   0.457
+  ],
+  [
+   0.452,
+   0.457
+  ],
+  [
+   0.452,
+   0.393
+  ],
+  [
+   -0.184,
+   0.393
+  ]
+ ],
+ "concave_note": "keeps the rear at +/-0.393 instead of +/-0.457 and saves about 0.13 m of width behind the front axle, at the cost of a concave footprint; not used until a corridor needs it"
+}

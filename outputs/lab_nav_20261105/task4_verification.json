@@ -1,0 +1,127 @@
+{
+ "generated": "2026-11-06",
+ "budget_sim_seconds": 60.0,
+ "rounds": 3,
+ "goal_headings": "approach bearing at the goal, from the spawn; forcing yaw 0 instead was measured separately and removed the near goal entirely",
+ "overall": {
+  "attempts": 9,
+  "successes": 9,
+  "reported_successes": 9,
+  "false_successes": 0,
+  "stuck_rounds": 0,
+  "per_goal": {
+   "short_straight": {
+    "target": [
+     1.885,
+     0.435
+    ],
+    "attempts": 3,
+    "successes": 3,
+    "mean_final_error_m": 0.183,
+    "mean_sim_seconds": 11.79,
+    "mean_path_m": 2.336
+   },
+   "mid_offset": {
+    "target": [
+     3.185,
+     1.235
+    ],
+    "attempts": 3,
+    "successes": 3,
+    "mean_final_error_m": 0.158,
+    "mean_sim_seconds": 21.95,
+    "mean_path_m": 4.049
+   },
+   "long_run": {
+    "target": [
+     4.285,
+     2.535
+    ],
+    "attempts": 3,
+    "successes": 3,
+    "mean_final_error_m": 0.171,
+    "mean_sim_seconds": 24.76,
+    "mean_path_m": 5.536
+   }
+  },
+  "failures": []
+ },
+ "per_goal": {
+  "short_straight": {
+   "target": [
+    1.885,
+    0.435
+   ],
+   "attempts": 3,
+   "successes": 3,
+   "mean_final_error_m": 0.183,
+   "mean_sim_seconds": 11.79,
+   "mean_path_m": 2.336
+  },
+  "mid_offset": {
+   "target": [
+    3.185,
+    1.235
+   ],
+   "attempts": 3,
+   "successes": 3,
+   "mean_final_error_m": 0.158,
+   "mean_sim_seconds": 21.95,
+   "mean_path_m": 4.049
+  },
+  "long_run": {
+   "target": [
+    4.285,
+    2.535
+   ],
+   "attempts": 3,
+   "successes": 3,
+   "mean_final_error_m": 0.171,
+   "mean_sim_seconds": 24.76,
+   "mean_path_m": 5.536
+  }
+ },
+ "failures": [],
+ "yaw_zero_experiment": {
+  "why": "same three goals but every target heading forced to 0 rad",
+  "attempts": 9,
+  "successes": 6,
+  "finding": "short_straight failed 3/3 while mid_offset and long_run succeeded: the near goal is approached at ~26 deg bearing, so the vehicle arrives inside the position tolerance with ~0.5 rad of heading error, and a forward-only Dubins vehicle cannot correct that in the available space. Distance alone is not difficulty.",
+  "evidence": "nav_eval_runs_yaw0_headings.json, nav_eval_summary_yaw0_headings.csv"
+ },
+ "artifacts": [
+  "nav2_params_diff.json",
+  "nav_eval_goals.png",
+  "nav_eval_goals_nounknown2.png",
+  "nav_eval_runs.json",
+  "nav_eval_runs_nounknown2.json",
+  "nav_eval_summary.csv",
+  "nav_eval_summary_nounknown2.csv",
+  "nav_eval_tracks.json",
+  "nav_eval_tracks.png",
+  "nav_eval_tracks_nounknown2.png"
+ ],
+ "collision_source_correction": {
+  "issue": "the Gazebo Contact system is loaded (confirmed with a verbose run) but no /world/hz_lab_2d/contacts topic is ever advertised in this build, so the bridged /contacts topic carried nothing",
+  "consequence": "every '0 collisions' figure recorded from that topic means 'not measured', not 'no contact happened'",
+  "retrospective_check": {
+   "what": "footprint edge clearance against the occupancy grid, over the truth poses stored during each run (track_collision_audit.json)",
+   "worst_clearance_truth_runs_m": 0.2,
+   "worst_clearance_amcl_runs_m": 0.071,
+   "runs_with_overlap": [],
+   "limits": "samples the recorded poses only; a brief contact between samples is invisible, and pushing against a wall without footprint overlap is not a contact in this test"
+  },
+  "replacement_source": "a blocked detector: wheel odometry advancing while the simulated pose does not.  Validated by driving into a wall on purpose (rl_termination_test.json: collision reported after 1.1 m of a 1.6 m approach)",
+  "action_taken": "the evaluator and the RL environment now report contact_proxy with contact_source, and no longer present an empty topic as a clean run"
+ },
+ "planner_patch": {
+  "key": "allow_unknown",
+  "from": true,
+  "to": false,
+  "why": "the task requires unknown space to be impassable and the map has 64,691 unknown cells; the senior's map was fully explored so he could leave it true",
+  "effect": "9/9 (was 8/9 under the same batch with allow_unknown true, differing only in the one round that turned out to be a false success)",
+  "generator": "sim/experiments/lab_nav/make_nav2_params.py",
+  "diff_record": "outputs/lab_nav_20261105/nav2_params_diff.json"
+ },
+ "success_criterion": "status == STATUS_SUCCEEDED and truth final error <= 0.25 m; reported_success keeps the controller's claim, false_success marks a disagreement"
+}

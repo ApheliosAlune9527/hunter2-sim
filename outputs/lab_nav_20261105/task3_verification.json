@@ -1,0 +1,115 @@
+{
+ "task": "task3 truth-localisation nav loop",
+ "date": "2026-11-05T18:37:45",
+ "world": "outputs/lab_nav_20261105/lab_nav_world_drive.sdf",
+ "map": "outputs/lab_nav_20261105/lab_nav_map.pgm",
+ "tf_chain": "map -> odom (truth_localisation.py) -> base_link (truth_localisation.py) -> laser (static)",
+ "planner": {
+  "plugin": "SmacPlannerHybrid",
+  "motion_model": "DUBIN",
+  "minimum_turning_radius_m": 1.669,
+  "allow_unknown": false
+ },
+ "controller": {
+  "plugin": "RegulatedPurePursuitController",
+  "desired_linear_vel": 0.2,
+  "use_collision_detection": true,
+  "allow_reversing": false,
+  "use_rotate_to_heading": false
+ },
+ "acceptance_runs": [
+  {
+   "name": "straight_2p2m_collision_detection_on",
+   "goal": [
+    2.2,
+    -0.77,
+    0.0
+   ],
+   "status": 4,
+   "succeeded": true,
+   "final_error_m": 0.208,
+   "path_length_m": 2.202,
+   "yaw_error_rad": 0.001,
+   "plan_waypoints": 34,
+   "truth_samples": 1072,
+   "sim_seconds": 12.85,
+   "start": [
+    -0.21,
+    -0.77
+   ],
+   "end": [
+    1.992,
+    -0.7655
+   ]
+  },
+  {
+   "name": "lateral_1p2m_no_reverse",
+   "goal": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "status": null,
+   "succeeded": false,
+   "final_error_m": 0.599,
+   "path_length_m": 36.183,
+   "yaw_error_rad": 0.42,
+   "plan_waypoints": 262,
+   "truth_samples": 26623,
+   "sim_seconds": 330.5,
+   "start": [
+    -0.21,
+    -0.77
+   ],
+   "end": [
+    0.4062,
+    -0.0814
+   ],
+   "failure_reason": "looped without converging: goal is 1.2 m away laterally but the minimum turning radius is 1.669 m and reversing plus rotate-to-heading are disabled, so the vehicle circles instead of reaching the tolerance"
+  }
+ ],
+ "fixes_this_round": [
+  {
+   "bug": "scene mirrored about the map x-axis",
+   "detail": "wall meshes and collision boxes used world y = origin.y + row*res; ROS map row 0 is the highest y so the correct form is origin.y + (rows - row)*res",
+   "symptom": "vehicle spawned inside a phantom wall, cmd_vel produced wheel spin but no motion, ground truth frozen at z=1.20 when released from height",
+   "files": [
+    "sim/experiments/lab_scene/build_scene_from_2d.py",
+    "sim/experiments/lab_nav/build_lab_world.py"
+   ],
+   "verified": "wall boxes intersecting the spawn footprint: 2 before, 0 after; drop test settles at z=0.1569/0.1625/0.1650 from release heights 1.20/0.40/0.165"
+  },
+  {
+   "bug": "single-plane gpu_lidar collapsed to all-0.1 m ranges through ros_gz_bridge",
+   "detail": "with vertical samples < 3 the gz vertical_angle_step is nan and the bridge emits the minimum range for every beam",
+   "fix": "vertical samples 3 spanning -0.017..0.017 rad; scan height 0.62 m above the lidar housing",
+   "files": [
+    "sim/experiments/lab_nav/build_lab_world.py"
+   ]
+  },
+  {
+   "bug": "stack children died with the launching shell",
+   "detail": "background jobs received SIGHUP when the WSL command returned",
+   "fix": "setsid nohup for gz, bridge, truth and nav2 in run_lab_stack.bash, and stale *.log removed before the readiness grep"
+  }
+ ],
+ "known_limitations": [
+  "no reversing and no rotate-to-heading: laterally placed goals inside the 1.669 m turning radius are unreachable by design",
+  "wall height 2.4 m is an assumption; unknown cells generate no geometry but the floor is an infinite plane",
+  "ground truth is a plugin in the same world, so it is not an independent measurement source"
+ ],
+ "process_cleanup": "stack stopped through stop_lab_stack.bash plus pattern kill; verified 0 remaining sim processes",
+ "collision_source_correction": {
+  "issue": "the Gazebo Contact system is loaded (confirmed with a verbose run) but no /world/hz_lab_2d/contacts topic is ever advertised in this build, so the bridged /contacts topic carried nothing",
+  "consequence": "every '0 collisions' figure recorded from that topic means 'not measured', not 'no contact happened'",
+  "retrospective_check": {
+   "what": "footprint edge clearance against the occupancy grid, over the truth poses stored during each run (track_collision_audit.json)",
+   "worst_clearance_truth_runs_m": 0.2,
+   "worst_clearance_amcl_runs_m": 0.071,
+   "runs_with_overlap": [],
+   "limits": "samples the recorded poses only; a brief contact between samples is invisible, and pushing against a wall without footprint overlap is not a contact in this test"
+  },
+  "replacement_source": "a blocked detector: wheel odometry advancing while the simulated pose does not.  Validated by driving into a wall on purpose (rl_termination_test.json: collision reported after 1.1 m of a 1.6 m approach)",
+  "action_taken": "the evaluator and the RL environment now report contact_proxy with contact_source, and no longer present an empty topic as a clean run"
+ }
+}

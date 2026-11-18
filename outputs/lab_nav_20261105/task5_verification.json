@@ -1,0 +1,163 @@
+{
+ "localiser": "nav2_amcl (senior's amcl section, unchanged)",
+ "map_to_odom_owner": "amcl only; truth_localisation is not started in this mode, odom->base_link comes from odom_tf.py and base_link->laser is the same static transform truth mode uses",
+ "initial_pose": {
+  "mode": "map",
+  "x": -0.21,
+  "y": -0.77,
+  "yaw": 0.0,
+  "covariance": [
+   0.25,
+   0.25,
+   0.0685
+  ]
+ },
+ "ground_truth_use": "observed only (odometry plugin + /ground_truth); never fed back into the filter and never used as the TF source",
+ "static_test": {
+  "samples": 59,
+  "mean_error_m": 0.0437,
+  "max_error_m": 0.0437,
+  "drift_m": 0.0
+ },
+ "straight_line_test": {
+  "travelled_m": 2.011,
+  "end_error_m": 0.0926,
+  "heading_error_rad": 0.012
+ },
+ "acceptance": {
+  "static_max_error_lt_0.05": true,
+  "straight_end_error_lt_0.15": true
+ },
+ "navigation_repeats": {
+  "label": "amcl_localization",
+  "attempts": 9,
+  "successes": 7,
+  "reported_successes": 7,
+  "false_successes": 0,
+  "stuck_rounds": 1,
+  "per_goal": {
+   "short_straight": {
+    "target": [
+     1.885,
+     0.435
+    ],
+    "attempts": 3,
+    "successes": 2,
+    "mean_final_error_m": 1.11,
+    "mean_sim_seconds": 30.17,
+    "mean_path_m": 3.857
+   },
+   "mid_offset": {
+    "target": [
+     3.185,
+     1.235
+    ],
+    "attempts": 3,
+    "successes": 3,
+    "mean_final_error_m": 0.12,
+    "mean_sim_seconds": 18.88,
+    "mean_path_m": 3.916
+   },
+   "long_run": {
+    "target": [
+     4.285,
+     2.535
+    ],
+    "attempts": 3,
+    "successes": 2,
+    "mean_final_error_m": 0.118,
+    "mean_sim_seconds": 37.1,
+    "mean_path_m": 5.878
+   }
+  },
+  "failures": [
+   {
+    "goal": "short_straight",
+    "round": 1,
+    "status": -1,
+    "final_error_m": 3.136,
+    "path_length_m": 6.653,
+    "sim_seconds": 61.02,
+    "reason": "budget_exceeded",
+    "stuck": true
+   },
+   {
+    "goal": "long_run",
+    "round": 2,
+    "status": -1,
+    "final_error_m": 0.084,
+    "path_length_m": 6.49,
+    "sim_seconds": 61.01,
+    "reason": "budget_exceeded",
+    "stuck": false
+   }
+  ],
+  "truth_baseline_for_comparison": {
+   "attempts": 9,
+   "successes": 9,
+   "per_goal": {
+    "short_straight": {
+     "target": [
+      1.885,
+      0.435
+     ],
+     "attempts": 3,
+     "successes": 3,
+     "mean_final_error_m": 0.183,
+     "mean_sim_seconds": 11.79,
+     "mean_path_m": 2.336
+    },
+    "mid_offset": {
+     "target": [
+      3.185,
+      1.235
+     ],
+     "attempts": 3,
+     "successes": 3,
+     "mean_final_error_m": 0.158,
+     "mean_sim_seconds": 21.95,
+     "mean_path_m": 4.049
+    },
+    "long_run": {
+     "target": [
+      4.285,
+      2.535
+     ],
+     "attempts": 3,
+     "successes": 3,
+     "mean_final_error_m": 0.171,
+     "mean_sim_seconds": 24.76,
+     "mean_path_m": 5.536
+    }
+   },
+   "note": "same goals, same parameters, localisation replaced only"
+  },
+  "reading": "7/9 (short_straight 2/3, mid_offset 3/3, long_run 2/3). Both failures are budget expiries, not aborts; one of them finished 0.084 m from the goal without the action ever returning, which is a stop-short, not a navigation error. Compared with the same three goals under truth localisation (9/9), the cost of AMCL shows up as extra time and occasional non-return rather than as worse geometry."
+ },
+ "reset_policy": "teleport + /initialpose re-seed + 4 s of still scans before each round; without the settle the first plan was issued from an estimate that was 1.06 m wrong and the round never recovered",
+ "artifacts": [
+  "amcl_eval.json",
+  "nav_eval_goals_amcl.png",
+  "nav_eval_goals_amcl2.png",
+  "nav_eval_runs_amcl.json",
+  "nav_eval_runs_amcl2.json",
+  "nav_eval_summary_amcl.csv",
+  "nav_eval_summary_amcl2.csv",
+  "nav_eval_tracks_amcl.json",
+  "nav_eval_tracks_amcl.png",
+  "nav_eval_tracks_amcl2.png"
+ ],
+ "collision_source_correction": {
+  "issue": "the Gazebo Contact system is loaded (confirmed with a verbose run) but no /world/hz_lab_2d/contacts topic is ever advertised in this build, so the bridged /contacts topic carried nothing",
+  "consequence": "every '0 collisions' figure recorded from that topic means 'not measured', not 'no contact happened'",
+  "retrospective_check": {
+   "what": "footprint edge clearance against the occupancy grid, over the truth poses stored during each run (track_collision_audit.json)",
+   "worst_clearance_truth_runs_m": 0.2,
+   "worst_clearance_amcl_runs_m": 0.071,
+   "runs_with_overlap": [],
+   "limits": "samples the recorded poses only; a brief contact between samples is invisible, and pushing against a wall without footprint overlap is not a contact in this test"
+  },
+  "replacement_source": "a blocked detector: wheel odometry advancing while the simulated pose does not.  Validated by driving into a wall on purpose (rl_termination_test.json: collision reported after 1.1 m of a 1.6 m approach)",
+  "action_taken": "the evaluator and the RL environment now report contact_proxy with contact_source, and no longer present an empty topic as a clean run"
+ }
+}

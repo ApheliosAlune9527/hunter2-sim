@@ -1,0 +1,425 @@
+{
+ "date": "2026-11-07",
+ "map": {
+  "image": "outputs/lab_nav_20261105/lab_nav_map.pgm",
+  "sha256": "98bb0c9ed71da56189d83658f9402eeb53d4bc71828981216e4dd66f86ec74f0",
+  "yaml": "outputs/lab_nav_fix_20261106/lab_nav_map_fix.yaml",
+  "free_thresh": 0.1,
+  "why": "free_thresh 0.25 loaded the grey (p=0.196) cells as free; /map then held 0 unknown cells and allow_unknown: false protected nothing"
+ },
+ "parameters": {
+  "file": "sim/experiments/lab_nav_fix_20261106/nav2_params_fix.yaml",
+  "footprint": [
+   [
+    -0.184,
+    -0.393
+   ],
+   [
+    0.834,
+    -0.393
+   ],
+   [
+    0.834,
+    0.393
+   ],
+   [
+    -0.184,
+    0.393
+   ]
+  ],
+  "planner": "SmacPlannerHybrid / DUBIN / minimum_turning_radius 1.669",
+  "controller": "RegulatedPurePursuit / allow_reversing false / use_rotate_to_heading false",
+  "budget": {
+   "sim_seconds": 60,
+   "wall_seconds": 150
+  },
+  "success_criterion": "action SUCCEEDED and truth error <= 0.25 m"
+ },
+ "truth": {
+  "label": "truth_fixmap",
+  "attempts": 9,
+  "successes": 6,
+  "false_successes": 0,
+  "stops_confirmed": 8,
+  "stops_recorded": 8,
+  "stops_missing": [
+   {
+    "goal": "short_straight",
+    "round": 2,
+    "reason": "goal_did_not_end"
+   }
+  ],
+  "stops_recorded_but_failed": [],
+  "per_goal": {
+   "long_run": {
+    "attempts": 3,
+    "successes": 3,
+    "reasons": [
+     "succeeded",
+     "succeeded",
+     "succeeded"
+    ],
+    "mean_error_m": 0.1669
+   },
+   "mid_offset": {
+    "attempts": 3,
+    "successes": 3,
+    "reasons": [
+     "succeeded",
+     "succeeded",
+     "succeeded"
+    ],
+    "mean_error_m": 0.1573
+   },
+   "short_straight": {
+    "attempts": 3,
+    "successes": 0,
+    "reasons": [
+     "failed",
+     "failed",
+     "goal_did_not_end"
+    ],
+    "mean_error_m": 0.3602
+   }
+  },
+  "runs": [
+   {
+    "goal": "long_run",
+    "round": 0,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.1741,
+    "heading_error_rad": 0.0644,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "long_run",
+    "round": 1,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.1735,
+    "heading_error_rad": 0.0799,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "long_run",
+    "round": 2,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.153,
+    "heading_error_rad": 0.0633,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "mid_offset",
+    "round": 0,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.1587,
+    "heading_error_rad": 0.0679,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "mid_offset",
+    "round": 1,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.1571,
+    "heading_error_rad": 0.1023,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "mid_offset",
+    "round": 2,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.156,
+    "heading_error_rad": 0.0686,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "short_straight",
+    "round": 0,
+    "success": false,
+    "reason": "failed",
+    "action_status": 6,
+    "reported_success": false,
+    "final_error_m": 0.3554,
+    "heading_error_rad": 0.2898,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "short_straight",
+    "round": 1,
+    "success": false,
+    "reason": "failed",
+    "action_status": 6,
+    "reported_success": false,
+    "final_error_m": 0.365,
+    "heading_error_rad": 0.293,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "short_straight",
+    "round": 2,
+    "success": false,
+    "reason": "goal_did_not_end",
+    "action_status": null,
+    "reported_success": null,
+    "final_error_m": null,
+    "heading_error_rad": null,
+    "sim_seconds": 75.0,
+    "stop_recorded": false,
+    "stop_ok": null,
+    "missing_evidence": []
+   }
+  ]
+ },
+ "amcl": {
+  "label": "amcl_fixmap",
+  "attempts": 9,
+  "successes": 7,
+  "false_successes": 0,
+  "stops_confirmed": 9,
+  "stops_recorded": 9,
+  "stops_missing": [],
+  "stops_recorded_but_failed": [],
+  "per_goal": {
+   "short_straight": {
+    "attempts": 3,
+    "successes": 1,
+    "reasons": [
+     "stopped_short",
+     "failed",
+     "succeeded"
+    ],
+    "mean_error_m": 0.2429
+   },
+   "mid_offset": {
+    "attempts": 3,
+    "successes": 3,
+    "reasons": [
+     "succeeded",
+     "succeeded",
+     "succeeded"
+    ],
+    "mean_error_m": 0.0929
+   },
+   "long_run": {
+    "attempts": 3,
+    "successes": 3,
+    "reasons": [
+     "succeeded",
+     "succeeded",
+     "succeeded"
+    ],
+    "mean_error_m": 0.128
+   }
+  },
+  "runs": [
+   {
+    "goal": "short_straight",
+    "round": 0,
+    "success": false,
+    "reason": "stopped_short",
+    "action_status": 6,
+    "reported_success": false,
+    "final_error_m": 0.1374,
+    "heading_error_rad": 0.1583,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "short_straight",
+    "round": 1,
+    "success": false,
+    "reason": "failed",
+    "action_status": 6,
+    "reported_success": false,
+    "final_error_m": 0.4757,
+    "heading_error_rad": 0.4249,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "short_straight",
+    "round": 2,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.1155,
+    "heading_error_rad": 0.1298,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "mid_offset",
+    "round": 0,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.1371,
+    "heading_error_rad": 0.1075,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "mid_offset",
+    "round": 1,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.1004,
+    "heading_error_rad": 0.1325,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "mid_offset",
+    "round": 2,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.0412,
+    "heading_error_rad": 0.1343,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "long_run",
+    "round": 0,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.119,
+    "heading_error_rad": 0.0431,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "long_run",
+    "round": 1,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.1387,
+    "heading_error_rad": 0.0476,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   },
+   {
+    "goal": "long_run",
+    "round": 2,
+    "success": true,
+    "reason": "succeeded",
+    "action_status": 4,
+    "reported_success": true,
+    "final_error_m": 0.1263,
+    "heading_error_rad": 0.0655,
+    "sim_seconds": null,
+    "stop_recorded": true,
+    "stop_ok": true,
+    "missing_evidence": []
+   }
+  ]
+ },
+ "amcl_accuracy": {
+  "static": {
+   "samples": 4000,
+   "mean_error_m": 0.0418,
+   "max_error_m": 0.0418,
+   "min_error_m": 0.0418
+  },
+  "straight": {
+   "travelled_m": 2.001,
+   "end_error_m": 0.0951,
+   "end_heading_error_rad": 0.0069
+  },
+  "criteria": {
+   "static_max_lt_m": 0.05,
+   "straight_end_lt_m": 0.15
+  },
+  "ok": true,
+  "notes": "ground truth is observed only; the filter is seeded with /initialpose after the teleport because a teleport does not move the particles"
+ },
+ "comparison_with_pre_fix_map": {
+  "note": "the 6/9 and 7/9 recorded before this date were measured while the grey cells were loaded as free; they are kept as history, not as evidence about unknown space",
+  "truth_pre_fix": {
+   "attempts": 9,
+   "successes": 6
+  },
+  "amcl_pre_fix": {
+   "attempts": 9,
+   "successes": 7
+  }
+ },
+ "reading": [
+  "mid_offset and long_run reach the goal in every round in both modes.",
+  "short_straight is the hard one: 0/3 (truth) and 1/3 (amcl) with a 26 deg heading change at 2.4 m and a 1.669 m minimum turning radius; the planner cannot cut the corner any more now that the grey cells are blocked.",
+  "one truth round (short_straight r2) never ended after cancel: the cancel was requested, no goal was acknowledged, no terminal state arrived, and that is why it is also the one round with no stop evidence at all.",
+  "one bad round per mode is not a difference between localisers: with three rounds the noise band is wider than the gap.",
+  "amcl accuracy on the fixed map: static 0.0418 m constant bias, 2.001 m straight ends 0.0951 m off with 0.0069 rad heading error."
+ ],
+ "still_open": [
+  "collision contacts: not measured, this build publishes nothing on the contact sensor",
+  "drift figures for these batches are in the run files but not yet in a table"
+ ]
+}

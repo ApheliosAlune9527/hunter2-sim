@@ -1,0 +1,178 @@
+{
+ "truth": {
+  "runs": {
+   "short_straight_1": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.433,
+     "y": -0.681,
+     "t": 895.25
+    },
+    "samples": 1117
+   },
+   "short_straight_2": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.423,
+     "y": -0.682,
+     "t": 910.96
+    },
+    "samples": 1069
+   },
+   "short_straight_3": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.422,
+     "y": -0.681,
+     "t": 926.36
+    },
+    "samples": 1054
+   },
+   "mid_offset_1": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.414,
+     "y": -0.677,
+     "t": 942.52
+    },
+    "samples": 4587
+   },
+   "mid_offset_2": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.433,
+     "y": -0.681,
+     "t": 1007.15
+    },
+    "samples": 1490
+   },
+   "mid_offset_3": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.42,
+     "y": -0.677,
+     "t": 1027.72
+    },
+    "samples": 1501
+   },
+   "long_run_1": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.426,
+     "y": -0.684,
+     "t": 1047.88
+    },
+    "samples": 2270
+   },
+   "long_run_2": {
+    "min_edge_clearance_m": 0.2,
+    "at": {
+     "x": -0.49,
+     "y": -0.77,
+     "t": 1087.69
+    },
+    "samples": 3387
+   },
+   "long_run_3": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.422,
+     "y": -0.682,
+     "t": 1120.69
+    },
+    "samples": 2093
+   }
+  },
+  "runs_with_footprint_overlap": [],
+  "how": "footprint corners and edge samples tested against the occupancy grid distance field, using the truth poses stored during the run",
+  "limits": "samples the run poses; a brief contact between samples is invisible, and pushing against a wall without overlap is not a contact in this test"
+ },
+ "amcl": {
+  "runs": {
+   "short_straight_1": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.446,
+     "y": -0.703,
+     "t": 633.47
+    },
+    "samples": 1561
+   },
+   "short_straight_2": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.412,
+     "y": -0.675,
+     "t": 661.5
+    },
+    "samples": 1297
+   },
+   "short_straight_3": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.468,
+     "y": -0.702,
+     "t": 707.76
+    },
+    "samples": 2671
+   },
+   "mid_offset_1": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.413,
+     "y": -0.675,
+     "t": 741.56
+    },
+    "samples": 1723
+   },
+   "mid_offset_2": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.42,
+     "y": -0.678,
+     "t": 773.22
+    },
+    "samples": 1541
+   },
+   "mid_offset_3": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.418,
+     "y": -0.676,
+     "t": 818.46
+    },
+    "samples": 1561
+   },
+   "long_run_1": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.443,
+     "y": -0.687,
+     "t": 870.8
+    },
+    "samples": 5545
+   },
+   "long_run_2": {
+    "min_edge_clearance_m": 0.25,
+    "at": {
+     "x": 0.426,
+     "y": -0.682,
+     "t": 941.71
+    },
+    "samples": 4511
+   },
+   "long_run_3": {
+    "min_edge_clearance_m": 0.071,
+    "at": {
+     "x": 4.114,
+     "y": 3.368,
+     "t": 1040.51
+    },
+    "samples": 3359
+   }
+  },
+  "runs_with_footprint_overlap": [],
+  "how": "footprint corners and edge samples tested against the occupancy grid distance field, using the truth poses stored during the run",
+  "limits": "samples the run poses; a brief contact between samples is invisible, and pushing against a wall without overlap is not a contact in this test"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "footprint_m": [
+  [
+   -0.204,
+   -0.457
+  ],
+  [
+   0.854,
+   -0.457
+  ],
+  [
+   0.854,
+   0.457
+  ],
+  [
+   -0.204,
+   0.457
+  ]
+ ],
+ "spawn": [
+  -0.21,
+  -0.77
+ ],
+ "goals": {
+  "short_straight": {
+   "distance_m": 2.417,
+   "heading_rad": 0.522,
+   "overlaps": 0,
+   "first": [],
+   "clear": true
+  },
+  "mid_offset": {
+   "distance_m": 3.943,
+   "heading_rad": 0.5335,
+   "overlaps": 0,
+   "first": [],
+   "clear": true
+  },
+  "long_run": {
+   "distance_m": 5.579,
+   "heading_rad": 0.634,
+   "overlaps": 0,
+   "first": [],
+   "clear": true
+  }
+ },
+ "spawn_clear": true,
+ "ok": true
+}

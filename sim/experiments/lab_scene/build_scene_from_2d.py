@@ -31,8 +31,11 @@ START = {'x': -0.21, 'y': -0.77, 'z': 0.165, 'yaw': 0.0, 'source': 'T1.0 chosen 
 
 
 def sha(path):
+    digest = hashlib.sha256()
     with Path(path).open('rb') as stream:
-        return hashlib.file_digest(stream, 'sha256').hexdigest()
+        for chunk in iter(lambda: stream.read(1 << 20), b''):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def load_map():
@@ -54,7 +57,14 @@ def rectangles(mask):
     return boxes
 
 
-def write_stl(boxes, origin, height, path):
+def write_stl(boxes, origin, height, path, rows):
+    """Extrude occupied runs into a mesh.
+
+    ROS map images store row 0 at the *highest* world y, so world y for image row
+    ``r`` is ``origin.y + (rows - r) * RES``.  An earlier version used
+    ``origin.y + r * RES``, which mirrored every wall about the map's horizontal
+    centre line (fixed 2026-11-05: the robot spawned inside a phantom wall).
+    """
     faces = [(0, 2, 1), (0, 3, 2), (4, 5, 6), (4, 6, 7), (0, 1, 5), (0, 5, 4),
              (1, 2, 6), (1, 6, 5), (2, 3, 7), (2, 7, 6), (3, 0, 4), (3, 4, 7)]
     with path.open('wb') as stream:
@@ -63,8 +73,8 @@ def write_stl(boxes, origin, height, path):
         for x0, x1, y0, y1 in boxes:
             lo = origin[0] + x0 * RES
             hi = origin[0] + x1 * RES
-            bottom = origin[1] + y0 * RES
-            top = origin[1] + y1 * RES
+            bottom = origin[1] + (rows - y1) * RES
+            top = origin[1] + (rows - y0) * RES
             vertices = np.array([(lo, bottom, 0), (hi, bottom, 0), (hi, top, 0), (lo, top, 0),
                                  (lo, bottom, height), (hi, bottom, height),
                                  (hi, top, height), (lo, top, height)])
@@ -90,7 +100,7 @@ def build():
     height, width = pixels.shape
     boxes = rectangles(occupied)
     mesh = OUT / 'walls.stl'
-    write_stl(boxes, origin, WALL_HEIGHT, mesh)
+    write_stl(boxes, origin, WALL_HEIGHT, mesh, height)
 
     sdf = ET.Element('sdf', version='1.9')
     world = element(sdf, 'world', name=WORLD)

@@ -1,0 +1,33 @@
+{
+ "success_case": {
+  "goal": [
+   0.79,
+   -0.77
+  ],
+  "end": "goal",
+  "steps": 41,
+  "final_distance_m": 0.237,
+  "sim_seconds": 4.2,
+  "passed": true
+ },
+ "wall_approach_pose": {
+  "x": 0.285,
+  "y": 6.735,
+  "col": 107,
+  "row": 232
+ },
+ "collision_case": {
+  "goal": [
+   1.4849999999999999,
+   6.735
+  ],
+  "end": "collision",
+  "steps": 37,
+  "final_distance_m": 0.372,
+  "collisions": [],
+  "contact_proxy": true,
+  "contact_source": "wheel-odometry versus simulated pose (the Gazebo Contact topic is not published in this build)",
+  "passed": true
+ },
+ "both_passed": true
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\算法实现\\fast_lio2_完整源码\\spark_fast_lio\\PCD\\scans_1.pcd",
+    "bytes": 275842205,
+    "sha256": "e8ff97c6138e27f59edcec4b7536b62bbf3916e9165c9b3fc7ede283a07d28b2",
+    "archive_record_exists": true,
+    "archive_match": true
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\算法实现\\fast_lio2_完整源码\\spark_fast_lio\\PCD\\scans_10.pcd",
+    "bytes": 280803613,
+    "sha256": "9aa77fc5dcece193f600633b753fde73605ddbeff5187f61ec2ddae85bbd91fd",
+    "archive_record_exists": true,
+    "archive_match": true
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\算法实现\\fast_lio2_完整源码\\spark_fast_lio\\PCD\\scans_11.pcd",
+    "bytes": 280436221,
+    "sha256": "c93cf1545ab6f7b87d082a0b9afcea97993bef4cbd151a1862af9b77599d9ef2",
+    "archive_record_exists": true,
+    "archive_match": true
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\算法实现\\fast_lio2_完整源码\\spark_fast_lio\\PCD\\scans_2.pcd",
+    "bytes": 289492861,
+    "sha256": "932feb464a622a9c9e8861c65c0af8cd442aaf1cbcbc41b4210f15255dc73109",
+    "archive_record_exists": true,
+    "archive_match": true
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\算法实现\\fast_lio2_完整源码\\spark_fast_lio\\PCD\\scans_3.pcd",
+    "bytes": 275136509,
+    "sha256": "d04c735102e659bd6f69205cdcefb92897da4c8d439cce213b811c75b98e948c",
+    "archive_record_exists": true,
+    "archive_match": true
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\算法实现\\fast_lio2_完整源码\\spark_fast_lio\\PCD\\scans_4.pcd",
+    "bytes": 275040957,
+    "sha256": "d0bff6334be6f57caa41d4a7ca82126b64493bd4aa580ef6da26d02403275a99",
+    "archive_record_exists": true,
+    "archive_match": true
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\算法实现\\fast_lio2_完整源码\\spark_fast_lio\\PCD\\scans_5.pcd",
+    "bytes": 275231677,
+    "sha256": "64c44f7d2ffd2460ecf21d2ae4988c0587a2300b3a08b05997e89e65332701e9",
+    "archive_record_exists": true,
+    "archive_match": true
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\算法实现\\fast_lio2_完整源码\\spark_fast_lio\\PCD\\scans_6.pcd",
+    "bytes": 275177853,
+    "sha256": "805be163cade37ba21740f76a8b315589ba8677a4ebb28106266f18a9561d14e",
+    "archive_record_exists": true,
+    "archive_match": true
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\算法实现\\fast_lio2_完整源码\\spark_fast_lio\\PCD\\scans_7.pcd",
+    "bytes": 275114653,
+    "sha256": "5db0397831417c3c980a42eba6ffdd738cba85c3c5a95d5f5ec61924df5fd967",
+    "archive_record_exists": true,
+    "archive_match": true
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\算法实现\\fast_lio2_完整源码\\spark_fast_lio\\PCD\\scans_8.pcd",
+    "bytes": 275580989,
+    "sha256": "9f454d45dd4efe4087a195b64cd82d2c97389ff4aebc21b04c7ca2887c258d6f",
+    "archive_record_exists": true,
+    "archive_match": true
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\算法实现\\fast_lio2_完整源码\\spark_fast_lio\\PCD\\scans_9.pcd",
+    "bytes": 302558909,
+    "sha256": "7231cf2577cd4812d4f25d1531ec249b7af3898da71f951b368acae7defd2489",
+    "archive_record_exists": true,
+    "archive_match": true
+  },
+  {
+    "path": "D:\\rob-memory\\knowledge_base\\Hunter知识库\\配置文件\\地图文件\\all_raw_points.pcd",
+    "bytes": 441181676,
+    "sha256": "e3dc291c739f39202c958324fe3bf9286bcf7856f53ac768ccdb749382727c35",
+    "archive_record_exists": true,
+    "archive_match": true
+  }
+]

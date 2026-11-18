@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="MainTree">
+  <!-- Deliberately minimal: plan, follow, repeat. No recovery, no spinning,
+       no heading adjustment and no goal alignment, as required for the
+       Ackermann baseline. -->
+  <BehaviorTree ID="MainTree">
+    <RateController hz="1.0">
+      <Sequence>
+        <ComputePathToPose goal="{goal}" path="{path}" planner_id="GridBased"/>
+        <FollowPath path="{path}" controller_id="FollowPath"/>
+      </Sequence>
+    </RateController>
+  </BehaviorTree>
+</root>

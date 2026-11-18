@@ -1,0 +1,324 @@
+{
+ "slice": "fixed-condition component comparison, first pass",
+ "profiles": {
+  "lean_nav": {
+   "world": "outputs/lab_nav_20261105/lab_nav_world_drive.sdf",
+   "bridge": "sim/config/lab_nav_bridge.yaml",
+   "gui": false,
+   "purpose": "navigation baseline and training",
+   "rtf": 1.0,
+   "clock_hz": 250.1,
+   "wall_seconds": 20.0,
+   "topics": {
+    "/scan": {
+     "hz": 9.7,
+     "count": 194,
+     "nominal_hz": 10.0,
+     "delivered_ratio": 0.97,
+     "interval_p95_ms": 100.5
+    },
+    "/joint_states": {
+     "hz": 242.19,
+     "count": 4844,
+     "interval_p95_ms": 4.4
+    },
+    "/odom": {
+     "hz": 80.75,
+     "count": 1615,
+     "interval_p95_ms": 12.4
+    },
+    "/ground_truth": {
+     "hz": 80.7,
+     "count": 1614,
+     "interval_p95_ms": 12.4
+    }
+   }
+  },
+  "full_headless": {
+   "world": "sim/scenes/hz_hunter_full.sdf",
+   "bridge": "sim/config/hunter_full_bridge.yaml",
+   "gui": false,
+   "purpose": "reference full perception, server only",
+   "rtf": 0.9996,
+   "clock_hz": 549.6,
+   "wall_seconds": 25.0,
+   "topics": {
+    "/hz_sim/full/camera/depth_image": {
+     "hz": 2.72,
+     "count": 68,
+     "nominal_hz": 5.0,
+     "delivered_ratio": 0.544,
+     "interval_p95_ms": 209.1
+    },
+    "/hz_sim/full/camera/image": {
+     "hz": 2.72,
+     "count": 68,
+     "nominal_hz": 5.0,
+     "delivered_ratio": 0.544,
+     "interval_p95_ms": 209.3
+    },
+    "/hz_sim/full/lidar/points": {
+     "hz": 5.44,
+     "count": 136,
+     "nominal_hz": 10.0,
+     "delivered_ratio": 0.544,
+     "interval_p95_ms": 110.5
+    },
+    "/hz_sim/full/imu": {
+     "hz": 54.24,
+     "count": 1356,
+     "nominal_hz": 100.0,
+     "delivered_ratio": 0.542,
+     "interval_p95_ms": 10.5
+    },
+    "/hz_sim/full/joint_states": {
+     "hz": 539.64,
+     "count": 13491,
+     "interval_p95_ms": 1.2
+    },
+    "/hz_sim/full/odom": {
+     "hz": 15.96,
+     "count": 399,
+     "nominal_hz": 30.0,
+     "delivered_ratio": 0.532,
+     "interval_p95_ms": 35.1
+    }
+   }
+  },
+  "full_gui": {
+   "world": "sim/scenes/hz_hunter_full.sdf",
+   "bridge": "sim/config/hunter_full_bridge.yaml",
+   "gui": true,
+   "purpose": "reference full perception, with the GUI attached",
+   "rtf": 1.0,
+   "clock_hz": 995.4,
+   "wall_seconds": 15.0,
+   "topics": {
+    "/hz_sim/full/camera/depth_image": {
+     "hz": 5.0,
+     "count": 75,
+     "nominal_hz": 5.0,
+     "delivered_ratio": 1.0,
+     "interval_p95_ms": 206.2
+    },
+    "/hz_sim/full/lidar/points": {
+     "hz": 9.53,
+     "count": 143,
+     "nominal_hz": 10.0,
+     "delivered_ratio": 0.953,
+     "interval_p95_ms": 115.1
+    },
+    "/hz_sim/full/camera/image": {
+     "hz": 4.87,
+     "count": 73,
+     "nominal_hz": 5.0,
+     "delivered_ratio": 0.974,
+     "interval_p95_ms": 206.8
+    },
+    "/hz_sim/full/imu": {
+     "hz": 98.53,
+     "count": 1478,
+     "nominal_hz": 100.0,
+     "delivered_ratio": 0.985,
+     "interval_p95_ms": 10.5
+    },
+    "/hz_sim/full/joint_states": {
+     "hz": 980.64,
+     "count": 14710,
+     "interval_p95_ms": 1.2
+    },
+    "/hz_sim/full/odom": {
+     "hz": 28.87,
+     "count": 433,
+     "nominal_hz": 30.0,
+     "delivered_ratio": 0.962,
+     "interval_p95_ms": 34.9
+    }
+   }
+  }
+ },
+ "findings": [
+  "All three configurations hold the simulated clock at 1.00x real time; none of them is limited by physics or by the step size.",
+  "The lean navigation profile delivers 9.7 of 10 scan frames per second with a p95 interval of 100.5 ms, i.e. it is a real-time profile, not a slowed one.",
+  "The full sensor set delivers every sensor at nominal rate when the GUI is attached (lidar 9.53/10, camera 4.87/5, imu 98.5/100) and only about 54% of nominal when the same world runs server-only. Headless rendering through EGL is the slower path on this machine; dropping the GUI is not a way to buy sensor throughput here.",
+  "The earlier 0.14x realtime figure is not reproduced by any of these three configurations. It was recorded with a different load (GUI plus the full observation program) and should be treated as specific to that run until the same conditions are rebuilt."
+ ],
+ "next": "add depth/colour payload checks, and verify that the lean profile keeps the same framing for the navigation comparisons it will be used for",
+ "consistency_in_motion": {
+  "how": "drove 0.15 m/s for 12 s in the lean profile and compared each message stamp against the simulated clock at arrival",
+  "per_topic_age": {
+   "scan": {
+    "count": 91,
+    "age_mean_ms": 0.1,
+    "age_p50_ms": 0.0,
+    "age_p95_ms": 0.0,
+    "age_max_ms": 4.0,
+    "age_min_ms": 0.0
+   },
+   "odom": {
+    "count": 756,
+    "age_mean_ms": 0.0,
+    "age_p50_ms": 0.0,
+    "age_p95_ms": 0.0,
+    "age_max_ms": 0.0,
+    "age_min_ms": 0.0
+   },
+   "ground_truth": {
+    "count": 755,
+    "age_mean_ms": 0.0,
+    "age_p50_ms": 0.0,
+    "age_p95_ms": 0.0,
+    "age_max_ms": 0.0,
+    "age_min_ms": 0.0
+   },
+   "tf": {
+    "count": 907,
+    "age_mean_ms": 0.0,
+    "age_p50_ms": 0.0,
+    "age_p95_ms": 0.0,
+    "age_max_ms": 0.0,
+    "age_min_ms": 0.0
+   }
+  },
+  "resolution_caveat": "the clock is published at 250 Hz, so anything under 4 ms reads as zero; this establishes that no topic is more than one clock tick stale, not that the ages are exactly zero",
+  "frame_checks": {
+   "scan_frame_id": "laser",
+   "base_link_to_laser": {
+    "translation": [
+     0.539,
+     0.0,
+     0.62
+    ],
+    "rpy": [
+     0.0,
+     0.0,
+     1.571
+    ],
+    "matches_sdf_sensor_pose": true
+   },
+   "note": "the static transform and the sensor pose in the driven world agree, so obstacles land where they are seen"
+  },
+  "finding": "no topic in the lean profile is systematically late while driving; the 50 ms scan-versus-TF lag seen during task 3 came from having two TF authorities bridged at once, which this profile no longer does"
+ },
+ "point_cloud_for_livo": {
+  "inspected_via": "cloud_stats.py on /hz_sim/full/lidar/points while the full profile ran",
+  "message": {
+   "width": 720,
+   "height": 32,
+   "points": 23040,
+   "point_step": 32,
+   "fields": [
+    "x",
+    "y",
+    "z",
+    "intensity",
+    "ring"
+   ],
+   "frame_id": "hz_sim/full/hesai_lidar",
+   "finite_points_in_one_frame": 10690
+  },
+  "what_fast_livo2_needs_vs_what_exists": [
+   {
+    "need": "x, y, z",
+    "status": "present"
+   },
+   {
+    "need": "intensity / reflectance",
+    "status": "present but simulated, not calibrated against the physical Hesai; usable as a channel, not as a measured reflectance"
+   },
+   {
+    "need": "ring / beam index",
+    "status": "present"
+   },
+   {
+    "need": "per-point time offset for motion undistortion",
+    "status": "MISSING. There is no time or offset_time field, and no azimuth field either. A time could only be reconstructed by assuming column index maps linearly onto the sweep, which is an assumption, not a measurement."
+   },
+   {
+    "need": "per-point timestamps or a driver that supplies them",
+    "status": "not available from the Gazebo lidar plugin"
+   }
+  ],
+  "frame_name_note": "the frame id contains slashes (hz_sim/full/hesai_lidar); TF accepts it but several offline tools assume a plain name",
+  "conclusion": "the cloud is good enough for geometry, obstacle detection and a 2D projection, and is NOT good enough for FAST-LIVO2 as-is: the undistortion stage needs per-point time that this plugin does not emit. Recording the gap rather than inventing a time field."
+ },
+ "profile_differences": {
+  "lean_navigation": {
+   "world": "outputs/lab_nav_20261105/lab_nav_world_drive.sdf",
+   "sensors": [
+    "one planar gpu_lidar, 720x3 at 10 Hz, 0.1-20 m"
+   ],
+   "disabled": [
+    "rgbd camera",
+    "32-beam 3D lidar",
+    "imu"
+   ],
+   "systems": [
+    "Physics",
+    "UserCommands",
+    "SceneBroadcaster",
+    "Contact",
+    "Sensors"
+   ],
+   "clock": "250 Hz steps of 0.004 s",
+   "measured": {
+    "realtime_factor": 1.0,
+    "scan_hz": 9.7
+   }
+  },
+  "full_sensors": {
+   "world": "sim/scenes/hz_hunter_full.sdf",
+   "sensors": [
+    "3D lidar 720x32 at 10 Hz",
+    "rgbd camera 640x480 at 5 Hz",
+    "imu at 100 Hz",
+    "odometry at 30 Hz"
+   ],
+   "measured_headless": {
+    "realtime_factor": 1.0,
+    "lidar_hz": 5.44,
+    "camera_hz": 2.72,
+    "imu_hz": 54.2
+   },
+   "measured_with_gui": {
+    "realtime_factor": 1.0,
+    "lidar_hz": 9.53,
+    "camera_hz": 4.87,
+    "imu_hz": 98.5
+   }
+  },
+  "differences_that_matter_for_comparison": [
+   "the lean world has one planar scan; the full world has an organised 3D cloud, an rgbd image pair and an imu. A controller or policy given the same goal does not see the same observations, so navigation numbers from the two must not be tabulated side by side as if they were the same experiment",
+   "the lean world steps at 0.004 s, the full world keeps its own step size; both hold 1.00x realtime, so neither is physics-limited",
+   "headless delivery differs between the two: the lean scan reaches 9.7/10 Hz without a window, while the full sensor set only reaches ~54% of nominal headless and recovers to nominal with a window open. Any rate quoted for the full profile must say which one it was"
+  ],
+  "policy": "traditional navigation and RL comparisons are run in the lean profile; the full profile is kept for perception work, and every result records which profile produced it"
+ },
+ "scene_assumptions": [
+  "walls are 2D occupancy cells extruded to 2.4 m; the real furniture heights are unknown to the grid",
+  "unknown cells have no geometry in the world and are treated as impassable by the planner",
+  "the floor is a single flat plane: no steps, ramps or kerbs",
+  "the scan is a simulated single-plane ray cast at 0.62 m, with no dropouts, multipath or calibrated intensity",
+  "the map is the 2026-11-01 capture including furniture added after September; the repaired version is deliberately unused"
+ ],
+ "status": {
+  "profiles_measured": true,
+  "consistency_checked": true,
+  "livo_requirements_assessed": true,
+  "assumptions_documented": true,
+  "open": "livo still lacks per-point time; nothing else in task 6 is outstanding"
+ },
+ "collision_source_correction": {
+  "issue": "the Gazebo Contact system is loaded (confirmed with a verbose run) but no /world/hz_lab_2d/contacts topic is ever advertised in this build, so the bridged /contacts topic carried nothing",
+  "consequence": "every '0 collisions' figure recorded from that topic means 'not measured', not 'no contact happened'",
+  "retrospective_check": {
+   "what": "footprint edge clearance against the occupancy grid, over the truth poses stored during each run (track_collision_audit.json)",
+   "worst_clearance_truth_runs_m": 0.2,
+   "worst_clearance_amcl_runs_m": 0.071,
+   "runs_with_overlap": [],
+   "limits": "samples the recorded poses only; a brief contact between samples is invisible, and pushing against a wall without footprint overlap is not a contact in this test"
+  },
+  "replacement_source": "a blocked detector: wheel odometry advancing while the simulated pose does not.  Validated by driving into a wall on purpose (rl_termination_test.json: collision reported after 1.1 m of a 1.6 m approach)",
+  "action_taken": "the evaluator and the RL environment now report contact_proxy with contact_source, and no longer present an empty topic as a clean run"
+ }
+}

@@ -1,0 +1,347 @@
+[
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\candidate-v2.pptx.inspect.ndjson",
+    "bytes": 37465,
+    "sha256": "c0b0d4618c51c72b232b65c0302cf73063348a40a78c720e99b62ca52ff89f3a"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\candidate-v3.pptx.inspect.ndjson",
+    "bytes": 37465,
+    "sha256": "c0b0d4618c51c72b232b65c0302cf73063348a40a78c720e99b62ca52ff89f3a"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\candidate.pptx.inspect.ndjson",
+    "bytes": 37465,
+    "sha256": "c0b0d4618c51c72b232b65c0302cf73063348a40a78c720e99b62ca52ff89f3a"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\export_pptx.mjs",
+    "bytes": 2212,
+    "sha256": "6b5f108c4912554fa5964a933cd89137faa52e52b6466e347fc965c34e3aacc8"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\final-validation.json",
+    "bytes": 3771,
+    "sha256": "eac92c5b4f1b9e4d2e7c61335ccf0a1bf5a23e7d4131c3464f23f5b65d10f0c2"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\presentation.json",
+    "bytes": 190232,
+    "sha256": "c69c7e45e897f77f747513a7d1b9a059c9c332110378288dd7214b297069b058"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\slide-1.layout.json",
+    "bytes": 4459,
+    "sha256": "82cdc373c1378378df70abf556d2a6702c742b4d2b7176aedecd19cb8b78895a"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\slide-2.layout.json",
+    "bytes": 4551,
+    "sha256": "9e27fd1f0c38bb19fb6702584330110657ebc3f87c81e39a7404982fc600d771"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\slide-3.layout.json",
+    "bytes": 9450,
+    "sha256": "df09c27339ff0a38205ee4384f9472b6dc46066e5d8c701369232796d3fbca17"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\slide-4.layout.json",
+    "bytes": 5181,
+    "sha256": "18ce8c9b09945be656a0cfcbcbc6f699274815ca7c0f0a590720f823d52cc810"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\slide-5.layout.json",
+    "bytes": 4501,
+    "sha256": "7dcf9d6b95c065f629847f62a3c3ae72af431e9c1ed76691f339649675502b8c"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\.build\\slide-6.layout.json",
+    "bytes": 4333,
+    "sha256": "e7a05ccb60e58000e25d7051c010a9386c90b1e055065483438c7d6d38e3ed29"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\delivery\\Hunter_Nav2_组会20261028.pptx",
+    "bytes": 2103362,
+    "sha256": "5300b7687415347c540ea02263a58ed024bac0757266a573d5f339d296c2f8d9"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\group_meeting_20261020\\delivery\\Hunter_Nav2_Weekly_20261020.pptx",
+    "bytes": 1576598,
+    "sha256": "af4070b611fba12a7b563b37c5dd7ce8879a57a95edb8ea05a8dafad21be83e2"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\append-render\\slide-10.layout.json",
+    "bytes": 4379,
+    "sha256": "f7dd82f85454b04a1782dd7fe0a59ef0f770536a62232fe58d06c4405706cca3"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\append-render\\slide-11.layout.json",
+    "bytes": 4250,
+    "sha256": "b9218ea90bfa4987b0fba9977062b2c92472c24c2a03edc434ed8e7e4106267a"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\append-render\\slide-12.layout.json",
+    "bytes": 4385,
+    "sha256": "f314d56e4fe4ff912cd578fdec3fc9fb6f391c5eb09fd6900d97dbe4d072b14e"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\append-render\\slide-7.layout.json",
+    "bytes": 4357,
+    "sha256": "a5517133123ea9c9b2bef012e68411e0d75d01c75bf02e21a3c5c21d311a5112"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\append-render\\slide-8.layout.json",
+    "bytes": 4311,
+    "sha256": "dcd07a76ea394bae242401ccf5633b472f8deede706210925b3ca2a88e47906e"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\append-render\\slide-9.layout.json",
+    "bytes": 4398,
+    "sha256": "235380508dcfb191f9d9bc723f8d2e5cb0d3591c7f8234012458f6533f41b487"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\build_append.mjs",
+    "bytes": 11531,
+    "sha256": "6c00b0c84ff2658d7f20dad797c30d80b8e1a55fd9a1b081b49ec68b0938deb8"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\combined-artifact.pptx.inspect.ndjson",
+    "bytes": 67292,
+    "sha256": "106b138c255b6974ea739223dedaae44cad94a06a4976dca27376b07ccb2cf14"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\combined.json",
+    "bytes": 16607201,
+    "sha256": "bc16698158790c32df826f317d81eb07b197aeafb75c0ed47bcec3ef9200e71f"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\final-validation.json",
+    "bytes": 4132,
+    "sha256": "e5aaae2cd0f42078562da7cfa43c8028fbffad15c1d9e61716c25c35eb4ad8c3"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\finalize.mjs",
+    "bytes": 1741,
+    "sha256": "bd25e1d245f011e2b78c5f9215e5589e8ed89d9b1e3b174dc5c68fa65d636cd2"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\inspect_source.mjs",
+    "bytes": 982,
+    "sha256": "c41cbdeb0750c790f1f2c467251887919719a8001ed41e602f61bea4d02584f2"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\preservation-report.json",
+    "bytes": 548,
+    "sha256": "1ac18e55985c38c68b7c86d296226a9a401f7b49efc537c90c9b87667829b84e"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\preserve_original_append.py",
+    "bytes": 7591,
+    "sha256": "8880816484c61563cbf7eb6243845c1607ce36614f268097df588440df38d5c9"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\render_verify_final.mjs",
+    "bytes": 1052,
+    "sha256": "e836c154042c1dabd3075a2c4b849cde8f66c231ee115de6a0009ad7b58b34c6"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\source-inspection.ndjson",
+    "bytes": 26029,
+    "sha256": "8d9aabc76ae5348477e206c5d8aa64286c5cf8ec9e458b3dd822120a7bbfd68d"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\.build\\source.json",
+    "bytes": 18780766,
+    "sha256": "eba64a4a8654ded36717ec8abcef98176c13f708e0ef7233158925918df99cef"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_append_20261027\\delivery\\Hunter_Nav2_Weekly_追加20261027截图.pptx",
+    "bytes": 2934188,
+    "sha256": "5aba27e6d14e3b378ebd60fc8fbaf5aa46356577cfb07c7c33c930fc3605853d"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\author.mjs",
+    "bytes": 9094,
+    "sha256": "7761b1e7bd74e55d05c8f1b1dbb4d0a7950a8b32ae35a34be427f5a418d35452"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\candidate.pptx.inspect.ndjson",
+    "bytes": 50708,
+    "sha256": "bf6a12b13dff84fbbdb4c989d9d4903c3bbf849af4a22d3fa0080f091497c1e7"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\final-inspect.ndjson",
+    "bytes": 40299,
+    "sha256": "9ee3fea12144dcf15010519181e9fde4e2e614f37f21edb75121e9f1c97da607"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\source-inspect.ndjson",
+    "bytes": 51033,
+    "sha256": "9c184122fda4b189430b870c22fc2b70ffb793b25d904278774b94908811a24c"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\build\\validation.json",
+    "bytes": 4089,
+    "sha256": "83ff34911320c3995424607f44e1ac16156c2929e48787ccc296306d51a67d28"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\hunter_nav2_refined_20261028\\delivery\\Hunter_Nav2_组会20261028.pptx",
+    "bytes": 2363920,
+    "sha256": "7f3635dfba80a7550833efd065008c4be90031eaacabecaa00500a2949b35786"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\lab_map_compare_20261105\\lab_odom_06_new.pgm",
+    "bytes": 112080,
+    "sha256": "98bb0c9ed71da56189d83658f9402eeb53d4bc71828981216e4dd66f86ec74f0"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\lab_scene_odom06_20261105\\lab_scene_2d.sdf",
+    "bytes": 25512,
+    "sha256": "888058eec69cae7955442619d8335c8e34f7e45dd09d527fe982a91ce3421ece"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\candidate-v2.pptx.inspect.ndjson",
+    "bytes": 23510,
+    "sha256": "2ecc0e9c47656afee18d1fdd374daa4579bcac75a3549b2ea020430dc5a3475e"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\candidate.pptx.inspect.ndjson",
+    "bytes": 23501,
+    "sha256": "929abdab94427134f3bceae479752dc341469507ddccc401bdc640a89fb15e1d"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\create_deck.mjs",
+    "bytes": 14549,
+    "sha256": "e5983cd6cd393231f2b2e99e7651825f430d6c754fdaaa26ba4e3c8546770d54"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\delivery_verification.json",
+    "bytes": 344,
+    "sha256": "6a7ab5bc60708c719a4ea6ee7c24d94835c8102ca97aa45f7e6fafd556a572f5"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\finalization.validation.json",
+    "bytes": 3765,
+    "sha256": "10c619e18c3f82d41a3819539299813ff77186fdea8826140fbf29773d1420ca"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\finalize_deck.mjs",
+    "bytes": 2358,
+    "sha256": "2c2e62efc0c78c6ed937a64a63e5cafbe68e854779671a029a45e66956a858e1"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\font_policy.json",
+    "bytes": 66,
+    "sha256": "eb197764eabea99c6bb0f36933895d2a46bd6713ac1771670690cb1f40d802c7"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\inspection.ndjson",
+    "bytes": 22396,
+    "sha256": "b5620ee6073fa8d2925032a13ef6510ca6463ff83d3945c4bf16768fb86990a9"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-01.layout.json",
+    "bytes": 1587,
+    "sha256": "f94493e6a0d19179915f6cae6452e8f5776f22b74cd2c79fd315d9627cfc2fdc"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-02.layout.json",
+    "bytes": 2364,
+    "sha256": "7bbdd380b86710e618b6ab2356b05854575efec797d278c5d933a226e6d73700"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-03.layout.json",
+    "bytes": 2228,
+    "sha256": "62ff4303024a79a6158181934bc21506359974b359b5c75b41cc3c7e4af43dc3"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-04.layout.json",
+    "bytes": 2489,
+    "sha256": "14d0ccdeb941f190004b2b5e79ce39a086e4c430e46dee5901fdcdff3c4f457d"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-05.layout.json",
+    "bytes": 2552,
+    "sha256": "4df314dbdbd7d07eb19653a39db83965db3c124b6497815832d439a007bbe7b0"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-06.layout.json",
+    "bytes": 3377,
+    "sha256": "ae6b8e9ba912c882b68aa0f408a49d0b469304e80b44610279c4629e906bfb92"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-07.layout.json",
+    "bytes": 1130,
+    "sha256": "6a85e22f5cd47b82ee00bb70badcb2cd8815692a1da41ec481e527186d9ebec9"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview-v2\\slide-08.layout.json",
+    "bytes": 2267,
+    "sha256": "bb20dc6e5a30bb875a5c4132b32dad7abd9120d5c8fa2a9100b6f96792d584af"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-01.layout.json",
+    "bytes": 1584,
+    "sha256": "3009b60d6bc39f887764f635ada008c7cd809da282433db06f116ca4b342b203"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-02.layout.json",
+    "bytes": 2364,
+    "sha256": "d279d1f714a0bf30c8c2efc24da8a9c48111c1fa4f25a54d73d8e53253a44eb8"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-03.layout.json",
+    "bytes": 2228,
+    "sha256": "b3538c77f6c665bbf01585f7a044527768f9f257310432e8604a0272050951d9"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-04.layout.json",
+    "bytes": 2489,
+    "sha256": "afac7da32dd51909ed521a4d4d21d4f30ef1932e60045489559f5d2dc0751ec3"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-05.layout.json",
+    "bytes": 2552,
+    "sha256": "917e1f3da7b8ae81dc4111fe39565fc8e3b357eb256b58d0ac9e910b5ae3c218"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-06.layout.json",
+    "bytes": 3386,
+    "sha256": "b56d52e152612233d74ba30ffac7db17860a885b7f3b679023fdb427daa6f5e0"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-07.layout.json",
+    "bytes": 1130,
+    "sha256": "ba492d362e9d77f9608789cf1b6cc7908c7c548bdf74137d038499c3b8132934"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\preview\\slide-08.layout.json",
+    "bytes": 2252,
+    "sha256": "57ea3eafed1b22ed2217628a7f21b77e8d1e1d08ac5475bbfa4a9fc4d5add32c"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\.build\\source_images.json",
+    "bytes": 3467,
+    "sha256": "618588842cd1e0518833dbf59e4d3bfff2281796c2c46da7f1ac2c8147e42805"
+  },
+  {
+    "path": "D:\\rob-memory\\outputs\\weekly_mapping_ppt_20261014\\deliverables\\本周进展_Hunter小车建图复现.pptx",
+    "bytes": 8426675,
+    "sha256": "569c1628747fa4adf882e17f40a497b6a3dd9ae7b2c79fc8f5067d38c7c49aa3"
+  },
+  {
+    "path": "D:\\rob-memory\\sim\\scenes\\hz_hunter_full_manifest.json",
+    "bytes": 6929,
+    "sha256": "8cf0a8c7b9f2f2491cd38e1cab931ac947c351f257f3cec10db99a944c9fc24c"
+  },
+  {
+    "path": "D:\\rob-memory\\sim\\scenes\\hz_hunter_full.sdf",
+    "bytes": 28937,
+    "sha256": "6277c17fd91103286ef0f03dc4ea12123446883855d3d388800c46903a7504e4"
+  },
+  {
+    "path": "D:\\rob-memory\\sim\\tools\\hunter_full_entry_manifest.json",
+    "bytes": 2112,
+    "sha256": "3aae6b848d2a05d76f3079ed94f4922ce274633a016f370b20588732f887b20a"
+  }
+]

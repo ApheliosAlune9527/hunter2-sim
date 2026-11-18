@@ -1,0 +1,974 @@
+{
+ "round": "2026-11-07 corrected configuration",
+ "scene": {
+  "world": "hz_lab_2d (outputs/lab_nav_20261105/lab_nav_world_drive.sdf)",
+  "map": "outputs/lab_nav_20261105/lab_nav_map.pgm (2026-11-01, unpatched)",
+  "params": "sim/experiments/lab_nav_fix_20261106/nav2_params_fix.yaml",
+  "params_diff": "nav2_params_fix_diff.json",
+  "loaded_parameters_verified": true,
+  "footprint_m": [
+   [
+    -0.184,
+    -0.393
+   ],
+   [
+    0.834,
+    -0.393
+   ],
+   [
+    0.834,
+    0.393
+   ],
+   [
+    -0.184,
+    0.393
+   ]
+  ],
+  "footprint_source": "chassis envelope + 0.02 m margin; the swept front-wheel envelope is kept separately for offline audits"
+ },
+ "footprint_regression_case": {
+  "old_footprint": [
+   [
+    -0.5,
+    -0.395
+   ],
+   [
+    0.52,
+    -0.395
+   ],
+   [
+    0.52,
+    0.395
+   ],
+   [
+    -0.5,
+    0.395
+   ]
+  ],
+  "new_footprint": [
+   [
+    -0.204,
+    -0.457
+   ],
+   [
+    0.854,
+    -0.457
+   ],
+   [
+    0.854,
+    0.457
+   ],
+   [
+    -0.204,
+    0.457
+   ]
+  ],
+  "resolution_m": 0.05,
+  "cases": [
+   {
+    "name": "obstacle 0.60 m ahead",
+    "cases": {
+     "old": {
+      "collides": false,
+      "cells": []
+     },
+     "new": {
+      "collides": true,
+      "cells": [
+       [
+        0.6,
+        -0.45
+       ],
+       [
+        0.6,
+        -0.4
+       ],
+       [
+        0.6,
+        -0.35000000000000003
+       ],
+       [
+        0.6,
+        -0.30000000000000004
+       ],
+       [
+        0.6,
+        -0.25
+       ],
+       [
+        0.6,
+        -0.2
+       ],
+       [
+        0.6,
+        -0.15000000000000002
+       ],
+       [
+        0.6,
+        -0.1
+       ],
+       [
+        0.6,
+        -0.05
+       ],
+       [
+        0.6,
+        0.0
+       ],
+       [
+        0.6,
+        0.05
+       ],
+       [
+        0.6,
+        0.1
+       ],
+       [
+        0.6,
+        0.15000000000000002
+       ],
+       [
+        0.6,
+        0.2
+       ],
+       [
+        0.6,
+        0.25
+       ],
+       [
+        0.6,
+        0.30000000000000004
+       ],
+       [
+        0.6,
+        0.35000000000000003
+       ],
+       [
+        0.6,
+        0.4
+       ],
+       [
+        0.6,
+        0.45
+       ]
+      ]
+     }
+    },
+    "exposes_old_footprint": true
+   },
+   {
+    "name": "obstacle 0.60 m ahead, yaw 10 deg",
+    "cases": {
+     "old": {
+      "collides": false,
+      "cells": []
+     },
+     "new": {
+      "collides": true,
+      "cells": [
+       [
+        0.6,
+        -0.35000000000000003
+       ],
+       [
+        0.6,
+        -0.30000000000000004
+       ],
+       [
+        0.6,
+        -0.25
+       ],
+       [
+        0.6,
+        -0.2
+       ],
+       [
+        0.6,
+        -0.15000000000000002
+       ],
+       [
+        0.6,
+        -0.1
+       ],
+       [
+        0.6,
+        -0.05
+       ],
+       [
+        0.6,
+        0.0
+       ],
+       [
+        0.6,
+        0.05
+       ],
+       [
+        0.6,
+        0.1
+       ],
+       [
+        0.6,
+        0.15000000000000002
+       ],
+       [
+        0.6,
+        0.2
+       ],
+       [
+        0.6,
+        0.25
+       ],
+       [
+        0.6,
+        0.30000000000000004
+       ],
+       [
+        0.6,
+        0.35000000000000003
+       ],
+       [
+        0.6,
+        0.4
+       ],
+       [
+        0.6,
+        0.45
+       ],
+       [
+        0.6,
+        0.5
+       ],
+       [
+        0.6,
+        0.55
+       ]
+      ]
+     }
+    },
+    "exposes_old_footprint": true
+   },
+   {
+    "name": "obstacle 0.60 m ahead, yaw 20 deg",
+    "cases": {
+     "old": {
+      "collides": true,
+      "cells": [
+       [
+        0.6,
+        -0.2
+       ],
+       [
+        0.6,
+        -0.15000000000000002
+       ]
+      ]
+     },
+     "new": {
+      "collides": true,
+      "cells": [
+       [
+        0.6,
+        -0.25
+       ],
+       [
+        0.6,
+        -0.2
+       ],
+       [
+        0.6,
+        -0.15000000000000002
+       ],
+       [
+        0.6,
+        -0.1
+       ],
+       [
+        0.6,
+        -0.05
+       ],
+       [
+        0.6,
+        0.0
+       ],
+       [
+        0.6,
+        0.05
+       ],
+       [
+        0.6,
+        0.1
+       ],
+       [
+        0.6,
+        0.15000000000000002
+       ],
+       [
+        0.6,
+        0.2
+       ],
+       [
+        0.6,
+        0.25
+       ],
+       [
+        0.6,
+        0.30000000000000004
+       ],
+       [
+        0.6,
+        0.35000000000000003
+       ],
+       [
+        0.6,
+        0.4
+       ],
+       [
+        0.6,
+        0.45
+       ],
+       [
+        0.6,
+        0.5
+       ],
+       [
+        0.6,
+        0.55
+       ],
+       [
+        0.6,
+        0.6000000000000001
+       ]
+      ]
+     }
+    },
+    "exposes_old_footprint": false
+   },
+   {
+    "name": "obstacle 0.60 m ahead, yaw 35 deg",
+    "cases": {
+     "old": {
+      "collides": true,
+      "cells": [
+       [
+        0.6,
+        -0.05
+       ],
+       [
+        0.6,
+        0.0
+       ]
+      ]
+     },
+     "new": {
+      "collides": true,
+      "cells": [
+       [
+        0.6,
+        -0.1
+       ],
+       [
+        0.6,
+        -0.05
+       ],
+       [
+        0.6,
+        0.0
+       ],
+       [
+        0.6,
+        0.05
+       ],
+       [
+        0.6,
+        0.1
+       ],
+       [
+        0.6,
+        0.15000000000000002
+       ],
+       [
+        0.6,
+        0.2
+       ],
+       [
+        0.6,
+        0.25
+       ],
+       [
+        0.6,
+        0.30000000000000004
+       ],
+       [
+        0.6,
+        0.35000000000000003
+       ],
+       [
+        0.6,
+        0.4
+       ],
+       [
+        0.6,
+        0.45
+       ],
+       [
+        0.6,
+        0.5
+       ],
+       [
+        0.6,
+        0.55
+       ],
+       [
+        0.6,
+        0.6000000000000001
+       ]
+      ]
+     }
+    },
+    "exposes_old_footprint": false
+   },
+   {
+    "name": "obstacle 0.30 m ahead (both must collide)",
+    "cases": {
+     "old": {
+      "collides": true,
+      "cells": [
+       [
+        0.3,
+        -0.35000000000000003
+       ],
+       [
+        0.3,
+        -0.30000000000000004
+       ],
+       [
+        0.3,
+        -0.25
+       ],
+       [
+        0.3,
+        -0.2
+       ],
+       [
+        0.3,
+        -0.15000000000000002
+       ],
+       [
+        0.3,
+        -0.1
+       ],
+       [
+        0.3,
+        -0.05
+       ],
+       [
+        0.3,
+        0.0
+       ],
+       [
+        0.3,
+        0.05
+       ],
+       [
+        0.3,
+        0.1
+       ],
+       [
+        0.3,
+        0.15000000000000002
+       ],
+       [
+        0.3,
+        0.2
+       ],
+       [
+        0.3,
+        0.25
+       ],
+       [
+        0.3,
+        0.30000000000000004
+       ],
+       [
+        0.3,
+        0.35000000000000003
+       ]
+      ]
+     },
+     "new": {
+      "collides": true,
+      "cells": [
+       [
+        0.3,
+        -0.4
+       ],
+       [
+        0.3,
+        -0.35000000000000003
+       ],
+       [
+        0.3,
+        -0.30000000000000004
+       ],
+       [
+        0.3,
+        -0.25
+       ],
+       [
+        0.3,
+        -0.2
+       ],
+       [
+        0.3,
+        -0.15000000000000002
+       ],
+       [
+        0.3,
+        -0.1
+       ],
+       [
+        0.3,
+        -0.05
+       ],
+       [
+        0.3,
+        0.0
+       ],
+       [
+        0.3,
+        0.05
+       ],
+       [
+        0.3,
+        0.1
+       ],
+       [
+        0.3,
+        0.15000000000000002
+       ],
+       [
+        0.3,
+        0.2
+       ],
+       [
+        0.3,
+        0.25
+       ],
+       [
+        0.3,
+        0.30000000000000004
+       ],
+       [
+        0.3,
+        0.35000000000000003
+       ],
+       [
+        0.3,
+        0.4
+       ]
+      ]
+     }
+    },
+    "sanity": true
+   },
+   {
+    "name": "empty grid",
+    "cases": {
+     "old": {
+      "collides": false,
+      "cells": []
+     },
+     "new": {
+      "collides": false,
+      "cells": []
+     }
+    },
+    "sanity": true
+   }
+  ],
+  "head_on_case_exposes_old": true,
+  "cases_where_old_misses": 2,
+  "note": "at yaw 20/35 deg the rotated old rectangle also reaches the wall, so only the head-on and 10 deg cases separate the two footprints",
+  "sanity_ok": true,
+  "ok": true,
+  "method": "closed polygon vs cell centres, all cells inside the bounding box"
+ },
+ "corridor_check": {
+  "footprint_m": [
+   [
+    -0.204,
+    -0.457
+   ],
+   [
+    0.854,
+    -0.457
+   ],
+   [
+    0.854,
+    0.457
+   ],
+   [
+    -0.204,
+    0.457
+   ]
+  ],
+  "spawn": [
+   -0.21,
+   -0.77
+  ],
+  "goals": {
+   "short_straight": {
+    "distance_m": 2.417,
+    "heading_rad": 0.522,
+    "overlaps": 0,
+    "first": [],
+    "clear": true
+   },
+   "mid_offset": {
+    "distance_m": 3.943,
+    "heading_rad": 0.5335,
+    "overlaps": 0,
+    "first": [],
+    "clear": true
+   },
+   "long_run": {
+    "distance_m": 5.579,
+    "heading_rad": 0.634,
+    "overlaps": 0,
+    "first": [],
+    "clear": true
+   }
+  },
+  "spawn_clear": true,
+  "ok": true
+ },
+ "truth_localisation": {
+  "localizer": "truth",
+  "attempts": 9,
+  "successes": 6,
+  "false_successes": 0,
+  "stopped_cleanly": 9,
+  "per_goal": {
+   "short_straight": {
+    "attempts": 3,
+    "successes": 0,
+    "reasons": [
+     "failed"
+    ],
+    "mean_final_error_m": null,
+    "mean_sim_seconds": null
+   },
+   "mid_offset": {
+    "attempts": 3,
+    "successes": 3,
+    "reasons": [
+     "succeeded"
+    ],
+    "mean_final_error_m": 0.1525,
+    "mean_sim_seconds": 16.61
+   },
+   "long_run": {
+    "attempts": 3,
+    "successes": 3,
+    "reasons": [
+     "succeeded"
+    ],
+    "mean_final_error_m": 0.142,
+    "mean_sim_seconds": 23.19
+   }
+  },
+  "worst_odom_drift_m": 0.247,
+  "collisions": "not_measured",
+  "artifact": "nav_eval_runs_truth3.json",
+  "plot": "nav_eval_tracks_truth3.png"
+ },
+ "amcl_localisation_navigation": {
+  "localizer": "amcl",
+  "attempts": 9,
+  "successes": 7,
+  "false_successes": 0,
+  "stopped_cleanly": 9,
+  "per_goal": {
+   "short_straight": {
+    "attempts": 3,
+    "successes": 1,
+    "reasons": [
+     "failed",
+     "succeeded"
+    ],
+    "mean_final_error_m": 0.1012,
+    "mean_sim_seconds": 11.86
+   },
+   "mid_offset": {
+    "attempts": 3,
+    "successes": 3,
+    "reasons": [
+     "succeeded"
+    ],
+    "mean_final_error_m": 0.1415,
+    "mean_sim_seconds": 17.99
+   },
+   "long_run": {
+    "attempts": 3,
+    "successes": 3,
+    "reasons": [
+     "succeeded"
+    ],
+    "mean_final_error_m": 0.0978,
+    "mean_sim_seconds": 25.27
+   }
+  },
+  "worst_odom_drift_m": 0.3284,
+  "collisions": "not_measured",
+  "artifact": "nav_eval_runs_amcl3.json",
+  "plot": "nav_eval_tracks_amcl3.png"
+ },
+ "amcl_accuracy": {
+  "static": {
+   "samples": 4000,
+   "mean_error_m": 0.0462,
+   "max_error_m": 0.0462,
+   "min_error_m": 0.0462
+  },
+  "straight": {
+   "travelled_m": 2.0,
+   "end_error_m": 0.0896,
+   "end_heading_error_rad": 0.0172
+  },
+  "criteria": {
+   "static_max_lt_m": 0.05,
+   "straight_end_lt_m": 0.15
+  },
+  "passed": true,
+  "artifact": "amcl_eval_fix.json"
+ },
+ "collision_contacts": {
+  "status": "not_measured",
+  "why": "the contact sensor is attached and bridged, but this Gazebo build publishes no messages on it, including with the full collision list",
+  "attempts": {
+   "topic": "/chassis_contact",
+   "world": "/mnt/d/rob-memory/outputs/lab_nav_fix_20261106/lab_nav_world_contact.sdf",
+   "phases": {
+    "short_run": {
+     "from": [
+      -0.2099999999923411,
+      -0.7700000000080977
+     ],
+     "to": [
+      0.08999999424713367,
+      -0.7699999999565459
+     ],
+     "messages": 0
+    },
+    "wall_run": {
+     "from": [
+      0.08999999424713367,
+      -0.7699999999565459
+     ],
+     "to": [
+      4.745016070921867,
+      -0.7699622636733273
+     ],
+     "messages": 0,
+     "first": []
+    }
+   },
+   "ok": false,
+   "teleport_note": "no set_pose is used: a teleported vehicle stayed immobile, which produced a false negative in the first attempt",
+   "interpretation": "silent on the open floor and loud at the wall is the only combination that shows the sensor measures collisions rather than ordinary wheel contact"
+  },
+  "setup": {
+   "source_world": "/mnt/d/rob-memory/outputs/lab_nav_20261105/lab_nav_world_drive.sdf",
+   "output_world": "/mnt/d/rob-memory/outputs/lab_nav_fix_20261106/lab_nav_world_contact.sdf",
+   "topic": "/world/hz_lab_2d/model/hz_hunter_full/link/base_link/sensor/chassis_contact/contact",
+   "chassis_collisions": [
+    "base_link_fixed_joint_lump__battery_and_main_chassis_collision",
+    "base_link_fixed_joint_lump__top_deck_collision_1",
+    "base_link_fixed_joint_lump__front_bumper_collision_2",
+    "base_link_fixed_joint_lump__rear_bumper_collision_3",
+    "base_link_fixed_joint_lump__mount_bottom_plate_collision_4",
+    "base_link_fixed_joint_lump__mount_left_post_collision_5",
+    "base_link_fixed_joint_lump__mount_right_post_collision_6",
+    "base_link_fixed_joint_lump__mount_top_plate_collision_7",
+    "base_link_fixed_joint_lump__sensor_housing_collision_8",
+    "base_link_fixed_joint_lump__sensor_housing_collision_9",
+    "base_link_fixed_joint_lump__gnss_housing_collision_10",
+    "base_link_fixed_joint_lump__lidar_housing_collision_11"
+   ],
+   "excluded": "front/rear tyre collisions, so normal wheel contact is not a hit",
+   "sensor": {
+    "name": "chassis_contact",
+    "type": "contact",
+    "update_rate": 50
+   },
+   "bridge": "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/lab_bridge_contact.yaml"
+  },
+  "proxy_in_use": "wheel speed integrating while the truth pose does not move (hz_nav_env._blocked); this is a proxy and is labelled as one"
+ },
+ "still_not_measured": [
+  "collision events (see above; the old \"0 collisions\" claims stay withdrawn)",
+  "negative obstacles, dynamic actors, or walls taller than the 2.4 m assumption",
+  "long-run (>5 min) drift and thermal/CPU effects"
+ ],
+ "round2_acceptance": {
+  "why": "the four items asked for on 2026-11-07: fail-fast startup, footprint re-acceptance against the runtime values, one forward-only policy in both trees, and a timeout that cancels and then proves the vehicle stopped",
+  "startup_failure_handling": {
+   "env_file": "sim/experiments/lab_nav_fix_20261106/lab_nav_fix_env.bash -- every failure returns non-zero (identity, missing hz_sim_env.bash, domain, localhost-only, RMW, partition)",
+   "stack_script": "run_fix_stack.bash -- sources are checked, ign/ros2 must exist, world and bridge must be readable, and fail_start() stops only the registered processes before exiting 1"
+  },
+  "footprint_runtime_values": {
+   "costmap_half_width_m": 0.3933,
+   "equals_swept_rectangle": [
+    false,
+    false
+   ],
+   "wheels_inside_footprint_upto_deg": 7.18,
+   "wheel_outer_at_inner_wheel_angle_m": 0.4369,
+   "corridors": {
+    "short_straight": {
+     "distance_m": 2.417,
+     "heading_rad": 0.522,
+     "min_clearance_m": 0.25,
+     "steering_needed_rad": 0.0,
+     "clear": true
+    },
+    "mid_offset": {
+     "distance_m": 3.943,
+     "heading_rad": 0.5335,
+     "min_clearance_m": 0.05,
+     "steering_needed_rad": 0.0,
+     "clear": true
+    },
+    "long_run": {
+     "distance_m": 5.579,
+     "heading_rad": 0.634,
+     "min_clearance_m": 0.05,
+     "steering_needed_rad": 0.0,
+     "clear": true
+    }
+   },
+   "note": "the planner keeps the rigid chassis (0.393 m half width); beyond 7.18 deg of steering a front wheel reaches further, up to 0.437 m at full lock. The demo corridors are straight, so the wheels stay inside. The swept rectangle is used only by offline audits."
+  },
+  "forward_only_policy": {
+   "behavior_plugins": [
+    "wait",
+    "drive_on_heading"
+   ],
+   "bt_paths_loaded": [
+    "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_no_spin.xml",
+    "/mnt/d/rob-memory/sim/experiments/lab_nav_fix_20261106/navigate_through_poses_no_spin.xml"
+   ],
+   "bt_has_no_backup_or_spin": true
+  },
+  "timeout_and_cancel": {
+   "normal_case": {
+    "reason": "succeeded",
+    "action_status": 4,
+    "final_error_m": 0.1563,
+    "stop": {
+     "ok": true,
+     "held_s": 1.0,
+     "v_max": 0.009953583882142958,
+     "w_max": 0.001913378500863083,
+     "waited_s": 1.552,
+     "truth_displacement_m": 0.0002,
+     "truth_window_s": 1.0,
+     "truth_speed_mps": 0.0002,
+     "truth_still": true
+    },
+    "budget": {
+     "sim_seconds": 16.912,
+     "wall_seconds": 16.911,
+     "budget_sim_s": 60.0,
+     "wall_limit_s": 240.0,
+     "over_budget": false,
+     "over_wall_limit": false,
+     "hit": null,
+     "sim_per_wall": 1.0001
+    }
+   },
+   "timeout_case": {
+    "reason": "timeout_sim_budget",
+    "action_status": 5,
+    "cancel": {
+     "reason": "budget_sim",
+     "requested": true,
+     "acknowledged_goals": 1,
+     "ended": true,
+     "final_status": 5
+    },
+    "stop": {
+     "ok": true,
+     "held_s": 1.0,
+     "v_max": 0.00680000000886416,
+     "w_max": 0.0004543672975374149,
+     "waited_s": 2.232,
+     "truth_displacement_m": 0.0001,
+     "truth_window_s": 1.0,
+     "truth_speed_mps": 0.0001,
+     "truth_still": true
+    },
+    "budget": {
+     "sim_seconds": 6.02,
+     "wall_seconds": 6.021,
+     "budget_sim_s": 6.0,
+     "wall_limit_s": 120.0,
+     "over_budget": true,
+     "over_wall_limit": false,
+     "hit": "sim",
+     "sim_per_wall": 0.9998
+    }
+   },
+   "cancel_ended": true,
+   "final_status_is_cancelled": true,
+   "stopped_after_cancel": true,
+   "budget_hit": "sim"
+  },
+  "watchdog_selftest": {
+   "ok": true,
+   "cases": [
+    {
+     "case": "normal_short_round",
+     "ok": true
+    },
+    {
+     "case": "sim_budget_exceeded",
+     "ok": true
+    },
+    {
+     "case": "frozen_clock_hits_wall_limit",
+     "ok": true
+    },
+    {
+     "case": "wall_limit_is_inclusive",
+     "ok": true
+    },
+    {
+     "case": "sim_wins_before_wall",
+     "ok": true
+    },
+    {
+     "case": "note_names_wall_limit",
+     "ok": true
+    },
+    {
+     "case": "note_names_sim_budget",
+     "ok": true
+    }
+   ],
+   "elapsed_s": 0.002
+  },
+  "artifacts": [
+   "nav_eval_runs_mid_ok.json",
+   "nav_eval_runs_mid_timeout.json",
+   "verify_fix_config.json",
+   "footprint_scope.json",
+   "watchdog_selftest.json",
+   "nav2_params_fix_diff.json"
+  ],
+  "still_open": [
+   "collision contacts remain not_measured",
+   "the near-side goal (short_straight) remains a diagnostic case only"
+  ]
+ }
+}

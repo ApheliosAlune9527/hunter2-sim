@@ -1,0 +1,10 @@
+goal,round,success,reported_success,status,final_error_m,path_length_m,yaw_error_rad,sim_seconds,wall_seconds,realtime_factor,collisions,plan_waypoints
+short_straight,1,True,True,4,0.183,2.34,0.203,12.44,12.44,1.0,0,7
+short_straight,2,True,True,4,0.183,2.334,0.178,11.42,11.42,1.0,0,7
+short_straight,3,True,True,4,0.183,2.334,0.179,11.51,11.51,1.0,0,7
+mid_offset,1,True,True,4,0.156,3.863,0.076,16.71,16.71,1.0,0,6
+mid_offset,2,True,True,4,0.16,3.858,0.07,16.36,16.36,1.0,0,6
+mid_offset,3,True,True,4,0.158,4.427,0.036,32.77,32.77,1.0,0,6
+long_run,1,True,True,4,0.165,5.542,0.053,23.77,23.77,1.0,0,10
+long_run,2,True,True,4,0.189,5.528,0.083,27.39,27.39,1.0,0,10
+long_run,3,True,True,4,0.158,5.538,0.047,23.11,23.11,1.0,0,4
