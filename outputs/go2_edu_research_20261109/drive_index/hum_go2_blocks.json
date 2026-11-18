@@ -1,0 +1,87 @@
+[
+ {
+  "line": 104,
+  "title": "20.Continual Learning and Lifting of Koopman Dynamics for Linear Control of Legged Robots",
+  "text": "本文中，来自卡内基梅隆大学机器人研究所的学者们通过提出一种持续学习算法来解决这些挑战，该算法旨在迭代改进高维腿式机器人的 Koopman 动力学。关键思想是逐步扩展数据集和潜在空间维度，使学习到的 Koopman 动力学能够收敛到真实系统动力学的精确近似值。理论分析表明，学者们的方法的线性近似误差单调收敛。实验结果表明，学者们的方法使用简单的线性 MPC 控制器在各种地形上对 Unitree G1/H1/A1/Go2 和 ANYmal D 等机器人实现了高控制性能。这项工作首次成功将线性化 Koopman 动力学应用于高维腿式机器人的运动控制，从而实现了可扩展的基于模型的控制解决方案。"
+ },
+ {
+  "line": 517,
+  "title": "DemoHLM: From One Demonstration to Generalizable Humanoid Loco-Manipulation",
+  "text": "在实验中，论文使用了三种机器人平台进行验证：PAL Robotics Talos 人形机器人、Unitree G1 人形机器人以及 Unitree Go2 四足机器人，在六种灵活动作场景下进行了五种浮动基座表示方法的优化测试，总计 30 次实验。"
+ },
+ {
+  "line": 519,
+  "title": null,
+  "text": "In the experiments, three robot platforms were used for validation: the PAL Robotics Talos humanoid, the Unitree G1 humanoid, and the Unitree Go2 quadruped, testing five floating-base representations across six agile motion scenarios for a total of 30 optimization runs."
+ },
+ {
+  "line": 781,
+  "title": "LoGoPlanner: Localization Grounded Navigation Policy with Metric-aware Visual Geometry",
+  "text": "TurtleBot 在有结构化障碍物的办公室场景；Unitree Go2 在包含任意形状障碍物的杂乱家庭环境；Unitree G1 在工业场景中遇到路障障碍物，评估了 20 条轨迹。"
+ },
+ {
+  "line": 805,
+  "title": "GROUND SLOW, MOVE FAST: A DUAL-SYSTEM FOUNDATION MODEL FOR GENERALIZABLE VISION-AND-LANGUAGE NAVIGATION",
+  "text": "我们在三类真实机器人平台上进行了验证：轮式（TurtleBot4）、四足（Unitree Go2）和人形（Unitree G1）。实验结果显示，DualVLN 在所有 VLN 基准测试中均优于现有方法，并且在真实场景中展现了长时航迹规划能力与动态环境下的实时适应性。"
+ },
+ {
+  "line": 951,
+  "title": "Off-Policy Actor-Critic with Sigmoid-Bounded Entropy for Real-World Robot Learning",
+  "text": "将强化学习部署到真实世界仍面临诸多挑战，包括样本效率低、奖励信号稀疏以及视觉观测噪声较大等问题。已有研究通过引入示范数据或人类反馈来提升学习效率与鲁棒性，但离线到在线的方法通常需要大规模数据且训练过程不稳定，而依赖 VLA 的强化学习又高度依赖大规模预训练与微调。因此，一种数据需求低、成本可控的真实世界强化学习方法仍然缺乏。为此，本文提出 SigEnt-SAC，一种离策略的 actor–critic 方法，能够仅依赖单条专家轨迹从零开始学习。其核心设计在于引入Sigmoid 有界熵项，有效避免由负熵驱动的优化过程将策略推向分布外动作，同时显著缓解 Q 函数振荡问题。我们在 D4RL 基准任务上对 SigEnt-SAC 与多种代表性方法进行了对比实验，结果表明该方法能够显著降低 Q 函数振荡，并以更快速度达到 100% 的任务成功率。进一步地，我们在多种真实机器人平台上验证了 SigEnt-SAC 的有效性，涵盖四类真实世界任务，智能体直接基于原始图像输入和稀疏奖励进行学习。实验结果显示，SigEnt-SAC 仅需少量真实交互即可学得成功策略，展示了一条低成本、具备实际可行性的真实世界强化学习部署路径。实验所使用的硬件平台包括：用于基于视觉的取球并射门任务的 AgileX LIMO Pro 与 TurtleBot3 Waffle；用于视觉操纵任务的 RealMan RM65-B 机械臂；以及用于基于视觉的运动控制任务的 Unitree Go2 四足机器人和 Unitree G1 人形机器人。"
+ },
+ {
+  "line": 960,
+  "title": "Making Infeasible Tasks Feasible: Planning to Reconfigure Disconnected 3D Environments with Movable Objects",
+  "text": "为解决这一挑战，本文提出 BRiDGE（Block-based Reconfiguration in Disconnected 3D Geometric Environments），一种基于采样的规划方法，通过在机器人和物体配置空间上逐步构建树状结构，生成可行规划，明确哪些物体需要移动、放置位置及操作顺序，同时考虑可移动物体数量有限的约束。为加速规划，我们引入了非均匀采样策略。理论分析表明，该方法具有概率完备性。我们通过大量数值仿真和硬件实验验证了其有效性，并在真实机器人平台上展示了如何将这些能力分布于两种机器人：Unitree Go2 四足机器人与 Unitree G1 人形机器人，实现协同操作与三维复杂环境导航。"
+ },
+ {
+  "line": 985,
+  "title": "AgentRob: From Virtual Forum Agents to Hijacked Physical Robots",
+  "text": "由大语言模型（LLM）驱动的自主智能体已在虚拟环境中展现出显著能力，但其与物理世界的融合仍主要局限于直接控制接口。本文提出 AgentRob 框架，通过模型上下文协议（Model Context Protocol, MCP）将在线社区论坛、LLM 驱动的智能体与实体机器人连接起来，构建起三者之间的桥梁。AgentRob 提出一种全新的交互范式，使自主智能体能够参与在线论坛：读取帖子内容、解析其中的自然语言指令、调度实体机器人执行相应动作，并将执行结果反馈至社区。系统整体由三层结构构成：论坛层提供异步、持久化的多智能体交互环境；智能体层包含论坛智能体，轮询并响应以 @mention 方式定向触发的指令；机器人层则由基于视觉-语言模型（VLM）的控制器以及 Unitree Go2 / Unitree G1 硬件组成，通过迭代式工具调用机制将高层指令转化为机器人基础动作。该框架支持多个具备不同身份与物理载体的智能体在同一论坛中并发运行，验证了基于论坛媒介实现多智能体机器人协同调度的可行性。"
+ },
+ {
+  "line": 1120,
+  "title": "Articulated-Body Dynamics Network: Dynamics-Grounded Prior for Robot Learning",
+  "text": "Recent work in reinforcement learning has shown that incorporating structural priors for articulated robots, such as link connectivity, into policy networks improves learning efficiency. However, dynamics properties, despite their fundamental role in determining how forces and motion propagate through the body, remain largely underexplored as an inductive bias for policy learning. To address this gap, we present the Articulated-Body Dynamics Network (ABD-Net), a novel graph neural network architecture grounded in the computational structure of forward dynamics. Specifically, we adapt the inertia propagation mechanism from the Articulated Body Algorithm, systematically aggregating inertial quantities from child to parent links in a tree-structured manner, while replacing physical quantities with learnable parameters. Embedding ABD-NET into the policy actor enables dynamics-informed representations that capture how actions propagate through the body, leading to efficient and robust policy learning. Through experiments with simulated humanoid, quadruped, and hopper robots, our approach demonstrates increased sample efficiency and generalization to dynamics shifts compared to transform"
+ },
+ {
+  "line": 1124,
+  "title": "SysNav: Multi-Level Systematic Cooperation Enables Real-World, Cross-Embodiment Object Navigation",
+  "text": "Object navigation (ObjectNav) in real-world environments is a complex problem that requires simultaneously addressing multiple challenges, including complex spatial structure, long-horizon planning and semantic understanding. Recent advances in Vision-Language Models (VLMs) offer promising capabilities for semantic understanding, yet effectively integrating them into real-world navigation systems remains a non-trivial challenge. In this work, we formulate real-world ObjectNav as a system-level problem and introduce SysNav, a three-level ObjectNav system designed for real-world crossembodiment deployment. SysNav decouples semantic reasoning, navigation planning and motion control to ensure robustness and generalizability. At the high-level, we summarize the environment into a structured scene representation and leverage VLMs to provide semantic-grounded navigation guidance. At the mid-level, we introduce a hierarchical room-based navigation strategy that reserves VLM guidance for room-level decisions, which effectively utilizes its reasoning ability while ensuring system efficiency. At the low-level, planned waypoints are executed through different embodiment-specific motion control"
+ },
+ {
+  "line": 1127,
+  "title": "Can a Robot Walk the Robotic Dog: Triple-Zero Collaborative Navigation for Heterogeneous Multi-Agent Systems",
+  "text": "我们提出了一种名为“三零路径规划”（Triple Zero Path Planning, TZPP）的异构多机器人系统协同框架，该框架具有零训练、零先验知识和零仿真的独特优势。TZPP 采用了“协调者-探索者”架构：由人形机器人负责任务协调，而四足机器人则在多模态大语言模型的引导下，负责探索并确定可行路径。我们在宇树（Unitree）G1 和 Go2 机器人上部署了 TZPP，并在包含密集障碍物和稀缺地标的多种室内外环境中进行了评估。实验结果表明，TZPP 具有出色的鲁棒性，不仅达到了媲美人类的执行效率，还对未知场景展现出了极强的适应能力。通过彻底摆脱对繁琐训练和仿真的依赖，TZPP 为异构机器人协同的真实世界部署提供了一条极为实用的路径。"
+ },
+ {
+  "line": 1131,
+  "title": "Safe-SAGE: Social-Semantic Adaptive Guidance for Safe Engagement through Laplace-Modulated Poisson Safety Functions",
+  "text": "传统的安全关键控制方法（如控制 barrier 函数）存在“语义盲区”，即无论障碍物的上下文意义如何，机器人都会表现出相同的避障行为。这种局限性导致系统对所有障碍物一视同仁，而忽略了它们背后不同的语义含义。我们提出了 Safe-SAGE (Social-Semantic Adaptive Guidance for Safe Engagement)，这是一个统一的框架，通过使用拉普拉斯引导场调制的泊松安全函数（PSF），桥接了高层语义理解与底层安全关键控制之间的鸿沟。我们的方法通过融合多传感器点云、基于视觉的实例分割以及持久物体跟踪来感知环境，从而在超出相机视野后仍能维持最新的语义信息。随后，利用多层安全滤波器对系统输入进行调制，基于环境语义理解实现安全导航。该安全滤波器由模型预测控制（MPC）层和控制 barrier 函数（CBF）层组成。两层均利用 PSF 和引导场的通量调制，针对环境中不同的障碍物引入不同程度的保守性策略和多智能体避让规范。我们的框架使 Unitree G1 人形机器人和 Go2 四足机器人能够在语义丰富、动态变化的环境中，根据上下文调整安全裕度并实现安全导航。"
+ },
+ {
+  "line": 1135,
+  "title": "Layered Safety: Enhancing Autonomous Collision Avoidance via Multistage CBF Safety Filters",
+  "text": "本文提出了一种通用的端到端框架，用于构建稳健且可靠的分层安全过滤器，仅利用局部感知数据即可在广泛的应用场景中实现动态避障。给定以机器人为中心的点云数据，我们首先构建占据地图，并以此合成泊松安全函数（PSF）。生成的 PSF 在两个不同的安全过滤阶段中被用作控制屏障函数（CBF）。在第一阶段，我们提出了一种预测安全过滤器，根据名义上的潜在不安全指令计算最优安全轨迹，使生成的短期规划在有限预测时界内满足 CBF 条件。在第二阶段，瞬时速度指令通过基于 CBF 的实时安全过滤器进一步修正，并由全阶低层机器人控制器进行跟踪。在假设准确跟踪速度指令的前提下，我们获得了全阶系统的形式化安全保证。通过详细的帕累托分析，我们验证了该多阶段架构相比传统单阶段安全过滤器的最优性和稳健性。我们还在 Unitree Go2 和 G1 等多种足式机器人平台上进一步证明了该避障方法在各种真实动态场景下的有效性和通用性。"
+ },
+ {
+  "line": 1392,
+  "title": "ABot-Claw: A Foundation for Persistent, Cooperative, and Self-Evolving Robotic Agents",
+  "text": "当前具身智能系统在开放世界环境中，仍然面临高层推理能力与底层物理执行之间的显著鸿沟。尽管视觉—语言—动作（Vision-Language-Action, VLA）模型已具备较强的感知能力与直观响应能力，但其开放环（open-loop）特性限制了其在长时序任务中的表现。引入“系统2”认知机制的智能体虽然提升了规划能力，但大多仍运行于封闭沙盒环境中，依赖预定义工具集，且缺乏对真实系统的充分控制能力。OpenClaw 提供了具备完整系统权限的本地化运行时环境，但尚缺少支持长时程、多机器人执行任务所需的具身控制架构。为此，我们提出了 ABot-Claw——一种面向具身智能场景的 OpenClaw 扩展系统，其核心集成了以下三项关键机制：（1）统一的具身接口与基于能力驱动的调度机制，用于实现异构机器人之间的协同控制；（2）以视觉为中心、跨具身形态的多模态记忆系统，用于实现持久化上下文保持与具身语义检索；以及（3）基于评论家（critic）的闭环反馈机制与通用奖励模型，用于在线任务进度评估、局部纠错与动态重规划。ABot-Claw 采用由 OpenClaw 层、共享服务层以及机器人具身层组成的解耦式架构，从而实现了现实世界中的真实交互，打通了从自然语言意图到物理动作执行的完整闭环，并支持机器人智能体在开放、动态环境中的渐进式自演化能力。为验证所提出 ABot-Claw 系统的有效性与通用性，我们在三种异构机器人平台上开展了实验，包括宇树（Unitree）G1 人形机器人、宇树（Unitree）Go2 四足机器人以及 AgileX Piper 机械臂平台。"
+ },
+ {
+  "line": 2030,
+  "title": "Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs",
+  "text": "我们在无人机-地面无轮机器人（Drone-UGV）搜寻与调度任务中进行了评估，其中每种条件下的每个任务都在 Gazebo 中进行了实况执行；同时在人形-四足机器人运输任务中进行了评估，该任务使用了硬件等效的技能接口，并在 Unitree G1 和 Go2 真实机器人上进行了两次物理试验。通过独立改变规划器知识和运行时强制执行机制，我们发现检索（Retrieval）将技能接地率从 51% 提升至 96%，但仍会让知情规划器调度 23-29% 的故障步骤。逐次调度强制执行将错误调度减少至 0% 且无误拦截，持留计划消融实验证实，是安全门禁（Gate）而非计划变体起到了决定性作用。实操执行让这种差异在物理世界中得以体现：在没有强制执行的情况下，所有 8 个注入的故障都越过了编排边界，其中 6 个产生了机器人运动；而在有强制执行的情况下，所有 8 个故障在运动发生前均被拒绝。"
+ },
+ {
+  "line": 2909,
+  "title": "RFPO: Rectified Flow Policy Optimization for Embodied Control",
+  "text": "在 Unitree Go2、Boston Dynamics Spot、Unitree H1 以及 Unitree G1 等多种四足与人形机器人平台上的广泛评估表明，RFPO 能够在单步执行下完美保留全步长控制性能，其单步回报率在零初始化与随机初始化下均保持在对应 64 步数值的 2.4% 以内。具体以 Unitree Go2 为例，单步执行在保留 98.5% 的 64 步累积奖励的同时，将机载平均推理延迟从 4.39 ms 大幅降低至 0.08 ms，实现了高达 54.9 倍的加速比，并通过真实的机器人硬件实验充分验证了稳定可靠的单步移动控制能力。"
+ },
+ {
+  "line": 2930,
+  "title": "What Should a Navigator Remember? Spatiotemporal Memory for Zero-Shot Vision-Language Navigation",
+  "text": "Zero-shot vision-and-language navigation (VLN) requires an agent to use past observations without navigation-specific training. We study what information an 8B-scale navigation system should retain and how it should be organized for subsequent decisions. Our agent combines instruction progress, hierarchically compressed observation history anchored to poses, and accumulated geometry in complementary task, temporal, and spatial memories. An 8B observer summarizes observations, and an 8B reasoner uses the memories to select waypoint intents or request additional views, a geometric controller executes the selected targets. A semantic information perspective motivates the distinction between retaining evidence, making it accessible to the reasoner, and acquiring further observations. On R2R-CE val-unseen, the complete system achieves the highest among the evaluated Qwen3-based zero-shot baselines. Removing temporal memory reduces SR and sharply increases average path length from 16.9 to 39.1m, removing the spatial-map and planning component reduces SR as well. Real-world experiments on a Unitree Go2 show that our zero-shot method achieves higher success rates than the post-trained base"
+ }
+]

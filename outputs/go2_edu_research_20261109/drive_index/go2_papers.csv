@@ -1,0 +1,227 @@
+﻿num,title,primary,tags,url
+597,Walking on Roofs Exploring the Potential of Walking Robots for Construction Work on Roofs,application,application,https://drive.google.com/drive/folders/1VR-bhxbeH5sc4cHtvOnqYWCzcB0GZMVU
+651,RecMorph Topology-Guided Spatial Recurrence for Generalized Morphology Control,control_mpc,control_mpc,https://drive.google.com/drive/folders/1WUXNZKNDOVI_qyaJiyX3-EF4FSalcvTP
+607,Weakly Supervised Discovery of Motion Styles for Compositional Robot Control,control_mpc,control_mpc,https://drive.google.com/drive/folders/1eRAFTaUpYkLR8RtgVLsNX4zCG2QYLQqD
+470,Racing a Wheeled Quadruped Active Load Transfer Mitigation via Model Predictive Control,control_mpc,control_mpc,https://drive.google.com/drive/folders/1qdnxjTjF57KHyazpOqZ3AIz3cg3D8twG
+428,Safe Large-Scale Robust Nonlinear MPC in Milliseconds via Reachability-Constrained System Level Synthesis on the GPU,control_mpc,control_mpc;safety,https://drive.google.com/drive/folders/1DnADYA5HXyoqRwLaHmL2sotzAw3lufc0
+411,Safety-Critical Centralized Nonlinear MPC for Cooperative Payload Transportation by Two Quadrupedal Robots,control_mpc,control_mpc;multi_robot;safety,https://drive.google.com/drive/folders/1uu3FhnPmDqnGKZK48sU-kx1LMulsoePx
+383,QuadFM Foundational Text-Driven Quadruped Motion Dataset for Generation and Control,control_mpc,control_mpc;sim_benchmark,https://drive.google.com/drive/folders/1_sVPerlPGtb_uHH7ys8CGXk2fDonUohe
+353,Bellman Value Decomposition for Task Logic in Safe Optimal Control,control_mpc,control_mpc;safety,https://drive.google.com/drive/folders/1KvfxFu8VNCloMCb-5zX0k9GjhSYod7TG
+321,Online Trajectory Optimization for Arbitrary-Shaped Mobile Robots via Polynomial Separating Hypersurfaces,control_mpc,control_mpc,https://drive.google.com/drive/folders/1Qf7jbzPmHDzeXzzLzXhStd0NINCEby6I
+299,Impact of Robot Facial-Audio Expressions on Human Robot Trust Dynamics and Trust Repair,control_mpc,control_mpc;hri_social,https://drive.google.com/drive/folders/1AO5K4pC7yq0J93YP51dPnMZWn1EP1xJu
+264,Reference-Free Sampling-Based Model Predictive Control,control_mpc,control_mpc,https://drive.google.com/drive/folders/1ZRTdoxFF9moTUnG8uHd5qkfzmqSpy-IR
+248,FR-Net ：Learning Robust Quadrupedal Fall Recovery on Challenging Terrains through Mass-Contact Prediction,control_mpc,control_mpc;safety,https://drive.google.com/drive/folders/1p-zPr5VYKwKizL9W01yiwjNxa489SxEV
+,MODEL-BASED DIFFUSION SAMPLING FOR PREDICTIVE CONTROL IN OFFLINE DECISION MAKING,control_mpc,control_mpc,
+,further mitigates yaw drift through multi-contact geometric consistency and degrades gracefully to a,control_mpc,control_mpc,
+,Control the ARmada: LMM Coordination for Multi-Robot AR-HRC,control_mpc,control_mpc;multi_robot,
+603,MagGAT Structure-Aware Spatiotemporal Graph Attention for Motor-Induced Magnetic Interference Compensation in Quadruped Robots,hardware,hardware,https://drive.google.com/drive/folders/169dDbLYp24UE4_GgpnEjyrLkeGAPjjFb
+435,Take the Dog to the Park Quadruped Robot for Joint Attention Training with Autistic Children in Naturalistic Settings,hardware,hardware,https://drive.google.com/drive/folders/1tB-k-LqZr_FFulNLd8J2qwgzmB27me2K
+419,Toward Empathetic Robotic Dogs for Joint Attention Support in Autism Intervention,hardware,hardware,https://drive.google.com/drive/folders/1tl-OguysqR9g5aBilBRttzFae-JnTqb6
+374,A Deployable Bio-inspired Compliant Leg Design for Enhanced Leaping in Quadruped Robots,hardware,hardware,https://drive.google.com/drive/folders/1i3zVagjxduswyJoZyiPXmLSfdEpmTB-Q
+439,Cognitive Trust in HRI “Pay Attention to Me and I’ll Trust You Even If You Are Wrong”,hri_social,hri_social,https://drive.google.com/drive/folders/1tCtB6yRk9QRqHewNTapJIYkfCcGUEFLR
+600,LLA-MPPI Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations,humanoid,control_mpc;humanoid,https://drive.google.com/drive/folders/1WB1qzNnckcO1akEjDKwoPGoqTZ3XM_AP
+414,Terrain-Reactive Locomotion Policies from Vision-Language-Action Priors Bridging Semantic Commands and Whole-Body Quadruped Control,humanoid,locomotion_rl;control_mpc;vln_vla;perception;humanoid,https://drive.google.com/drive/folders/18xuzeKKwh7qsOMAhFGeSoj9H7CfXVnnz
+388,Whole-Body Safe Control of Robotic Systems with Koopman Neural Dynamics,humanoid,control_mpc;humanoid;safety,https://drive.google.com/drive/folders/14nQ98zd4nasvId1f_y-ZBlbSlQKYHhWN
+337,GPO Growing Policy Optimization for Legged Robot Locomotion and Whole-Body Control,humanoid,locomotion_rl;control_mpc;humanoid,https://drive.google.com/drive/folders/14t30VAX9eVeGc3XABjvAMzLObOhO_9Ej
+292,Zero-Splat TeleAssist A Zero-Shot Pose Estimation Framework for Semantic Teleoperation,humanoid,control_mpc;perception;humanoid,https://drive.google.com/drive/folders/1nQtyqaa77nY9Hh4-wQBOYsGC0q3QLMD8
+661,PRISM Bridging Multimodality and Real-Time Control in Multisensory Policies,locomotion_rl,locomotion_rl;control_mpc,https://drive.google.com/drive/folders/1sR1BkJBsGOvqGcq8ypHspcHqLb6RWo7M
+611,CAST Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1jLOV-jfv6D6D7nhoVja0JMB36F4xFsvV
+606,PROMO Preference-conditioned Multi-Objective Reinforcement Learning for Quadrupedal Robots,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1f1m4ADymH43IFU7ewth-7OkIkjII4PJU
+601,Efficient Test-Time Adaptation For Robot Policies,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1Ak3iht5rGaJwrklNpcPYWjZGKn4u5k7c
+595,Transporting Unsecured Stacked Payloads with a Quadrupedal Robot via Multi-Objective Reinforcement Learning,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1blQXuDl1Ytqae4q3I_y6tql-Uzo7_qqW
+592,SG-CPG Severity-Gated Central Pattern Generators for Adaptive Quadruped Locomotion under Continuous Actuator Degradation,locomotion_rl,locomotion_rl;hardware,https://drive.google.com/drive/folders/1eAaMiTF8fZ2u3a-fDoSNeGVCStMZ3YU-
+591,PROOF Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1NgusT90usKyegNdDUn7cySAP4_0tdPFb
+590,Feedback-Modulated Harmonic Policies for Quadruped Locomotion,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1wWJTjqqWdVGJHqVDXG9pBkxUIXd7Upkj
+587,SHOES Sim-to-real Hardware-adaptation via On-policy Expansion of Skills for Legged Robots,locomotion_rl,locomotion_rl;sim_benchmark,https://drive.google.com/drive/folders/1z93pkwSKAx22llUNxgmumKLvB9lV6JxD
+577,Accelerating Visual Policy Learning with Sampling-Based Model Predictive Control,locomotion_rl,locomotion_rl;control_mpc;perception,https://drive.google.com/drive/folders/10NjtwoMYdsbNwHLH-JdfSKxJGmu9g9GL
+551,SCAPE Scenario-Conditioned Simulation-Augmented Policy Evaluation,locomotion_rl,locomotion_rl;sim_benchmark,https://drive.google.com/drive/folders/1DtlavzacKd89qmOTzeA-j3AJjTLk6fB_
+546,Learning to Walk With Less A Dyna-Style Approach to Quadrupedal Locomotion,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1B_9QXON9ZFDU5AyzM501o-dATuTmN_Om
+543,Rapid Embodiment Adaptation for Quadrupedal Locomotion,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1upgxIm3IWad320Ko0WPMrP8fm6ML9wDB
+523,MIRROR Multisensory Implicit Rejection-sampled RObotic policy,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1w5H7E07KCyuQG4XNWndAwGepNgYrSiS3
+481,MPC-Injection Biasing Off-Policy Locomotion RL Toward Controller-Induced Behavior Basins,locomotion_rl,locomotion_rl;control_mpc,https://drive.google.com/drive/folders/1wONP1mHPSYJNoNcvpZrDjyZWuxjPY3Wo
+479,LoComposition Terrain-Adaptive Energy-Efficient Quadruped Locomotion without Gait Priors,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1PQxTp5-U-SY9r0JTSVGkIQJFsGx9opzR
+475,SLowRL Safe Low-Rank Adaptation for Bridging the Sim-to-Real Gap in Legged Locomotion,locomotion_rl,locomotion_rl;sim_benchmark;safety,https://drive.google.com/drive/folders/1AUWE4jZL2-UP7__lmFCroCF8QUXp57RT
+474,Continual Quadruped Robots Coordination via Semantic Skill Discovery,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1EOyz9Eyn5h7zLgOAsvkUBCPJH0ey2Lxp
+473,StairMaster Learning to Conquer Risky Hollow Stairs for Agile Quadrupedal Robots,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1a6U1yTaiQEe7Y9s5ZEvj-TDCjA4W2Dlm
+468,Kine2Go Kinematic dataset for the Unitree Go2 robot with diverse gaits and motions,locomotion_rl,locomotion_rl;control_mpc;sim_benchmark,https://drive.google.com/drive/folders/13KU3-mQqL4oM5PAsHmJj1geshhWtapLd
+446,MUJICA Multi-skill Unified Joint Integration of Control Architecture for Wheeled-Legged Robots,locomotion_rl,locomotion_rl;control_mpc;hardware,https://drive.google.com/drive/folders/14yVeUjFGH-xsgr051OArmlxSr3vMosOL
+445,Efficient On-policy Visual-RL via Stochastic Decoupled Policy Gradient,locomotion_rl,locomotion_rl;perception,https://drive.google.com/drive/folders/1tiuCq4Z7t1olnAkM-eaEXACcfGe1FGQF
+422,Simulator Adaptation for Sim-to-Real Learning of Legged Locomotion via Proprioceptive Distribution Matching,locomotion_rl,locomotion_rl;sim_benchmark,https://drive.google.com/drive/folders/1fMBh8kUXNmeqZGOmt9ANbuZ8au9NLCs9
+420,Learning Task-Invariant Properties via Dreamer Enabling Efficient Policy Transfer for Quadruped Robots,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1SHALznwWU128KAOsRCDp59QMjCPIAASU
+417,Quadruped Parkour Learning Sparsely Gated Mixture of Experts with Visual Input,locomotion_rl,locomotion_rl;perception,https://drive.google.com/drive/folders/1cZ0NsRHtrW8ZcRkM71q0o4Qo_2YfIcRH
+416,Artificial plateau neurons with in-situ spike-malleability for rhythmic quadrupedal locomotion,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1MXwprF70wQbdV4ktxhaZPTNeaus6WhEO
+410,OpenGo An OpenClaw-Based Robotic Dog with Real-Time Skill Switching,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1CWbnMITQ50vx3_2XvzZOGbXG0UBxhnkg
+391,Watch Your Step Learning Semantically-Guided Locomotion in Cluttered Environment,locomotion_rl,locomotion_rl;sim_benchmark,https://drive.google.com/drive/folders/1PGIy4i2mAG-URVev43P2ts_ONhFA4LAo
+380,ADMM-Based Distributed MPC with Control Barrier Functions for Safe Multi-Robot Quadrupedal Locomotion,locomotion_rl,locomotion_rl;control_mpc;multi_robot;safety,https://drive.google.com/drive/folders/1Wz6NqIJdDD10fDOvqEGdiZrh47MJvivi
+377,SLowRL Safe Low-Rank Adaptation Reinforcement Learning for Locomotion,locomotion_rl,locomotion_rl;safety,https://drive.google.com/drive/folders/1XNrx94YOnpkE1lWAqP5ws96bFSx4lcop
+376,REAL Robust Extreme Agility via Spatio-Temporal Policy Learning and Physics-Guided Filtering,locomotion_rl,locomotion_rl;safety,https://drive.google.com/drive/folders/1U4I_bXA8wyEn1e8OThwgxFH0wCXRk_Gl
+359,Coupled Local and Global World Models for Efficient First Order RL,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1y7d69Jlu5C7gIDinSBGm_YC6hhsy0_Y2
+351,Intelligent Gait Synthesis for Autonomous Ground Robots A Reinforcement Learning Approach,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1ztw7krAGcJvvHxWQ9q8Y7h8A1y5lra8-
+344,PRISM Performer RS-IMLE for Single-pass Multisensory Imitation Learning,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1BIaW654T47lsPeB94RNTXQJVARMbfaoq
+342,UEREBot Learning Safe Quadrupedal Locomotion under Unstructured Environments and High-Speed Dynamic Obstacles,locomotion_rl,locomotion_rl;safety,https://drive.google.com/drive/folders/1-SFW6HCwQe8D-pnsFsOZEvOrQpZ-X0li
+341,Toward Reliable Sim-to-Real Predictability for MoE-based Robust Quadrupedal Locomotion,locomotion_rl,locomotion_rl;sim_benchmark;safety,https://drive.google.com/drive/folders/1Z3F8cbDwNxhotM5wRz74gMoigvjWWL9x
+320,Offline Imitation Learning upon Arbitrary Demonstrations by Pre-Training Dynamics Representations,locomotion_rl,locomotion_rl;control_mpc,https://drive.google.com/drive/folders/1TS0bGXrbPZCGrKLK5GYJI3hQYDjDDlvW
+316,UniLegs Universal Multi-Legged Robot Control through Morphology-Agnostic Policy Distillation,locomotion_rl,locomotion_rl;control_mpc,https://drive.google.com/drive/folders/1nbH-zUzUs8bjBTRKTL5Tvi-WP3zvpbiG
+294,Playful DoggyBot Learning Agile and Precise Quadrupedal Locomotion,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1sP3v8PeXCmuXc0FwoWjDNZIfvJflJt2C
+271,Robot Squid Game Quadrupedal Locomotion for Traversing Narrow Tunnels,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1-7KZ0TKuuzdbhEoHBzWFqvaW1JS9Sw8-
+265,Quadrupedal gait on oscillating surfaces,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/15mTvmiRuM6FbcYUWlMk3eCqXRfxDS9ZA
+256,Towards Dynamic Quadrupedal Gaits ：A Symmetry-Guided RL Hierarchy Enables Free Gait Transitions at Varying Speeds,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1FCnSHu11cuImWW9Xkb3zXI9xSXSo-Y0t
+255,PGTT ：Phase-Guided Terrain Traversal for Perceptive Legged Locomotion,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1rUSEIQVI7yXy96z1d3Ma-nDgqJJh6_pY
+254,Bridge the Gap：Enhancing Quadruped Locomotion with Vertical Ground Perturbations,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/1pcFk4W5694SrJjBbwH5_UQCN-W6lsQnO
+249,First Order Model-Based RL through Decoupled Backpropagation,locomotion_rl,locomotion_rl,https://drive.google.com/drive/folders/15DpJMJb-AIFc3g6WMxs58jRk_olNIFve
+247,Non-conflicting Energy Minimization in Reinforcement Learning based Robot Control,locomotion_rl,locomotion_rl;control_mpc,https://drive.google.com/drive/folders/1gbX_J1KSc9xGr-i89_6GAY39q_3_nC5p
+,McARL:Morphology-Control-Aware Reinforcement Learning for Generalizable Quadrupedal Locomotion,locomotion_rl,locomotion_rl;control_mpc,
+,MS-PPO: Morphological-Symmetry-Equivariant Policy for Legged Robot Locomotion,locomotion_rl,locomotion_rl,
+615,Have You Seen It Clearly Uncertainty-Guided Belief Refinement for Zero-Shot Object Navigation,manipulation,navigation;manipulation,https://drive.google.com/drive/folders/1sxhdCMRiOBhscQXK0LbDL4BVn9qMgxIX
+609,Navigation Explainability for Object Avoidance with LLMs for Assistive Robots,manipulation,navigation;manipulation,https://drive.google.com/drive/folders/15DWejGGmUeBhfCsZ2npy0MkYQJ7_o69R
+602,Unified Whole-Body Control for Quadrupedal Tactile-Informed Loco-Manipulation,manipulation,control_mpc;manipulation;humanoid,https://drive.google.com/drive/folders/1eMjXdvFaPftBuulgsoa1W9y1S_Zy_-Nd
+599,LocoPilot Single-Operator Bilateral Teleoperation for Loco-Manipulation Policy Learning,manipulation,locomotion_rl;manipulation;humanoid,https://drive.google.com/drive/folders/1EjDrbMimpAhAFF4EUp_a6Nq3mPD_poQU
+594,Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation,manipulation,control_mpc;manipulation,https://drive.google.com/drive/folders/1WKSzGGSfDfyLPtQYIiQKuCQZTOeIpYte
+581,Contact as a Decision Variable Capability-Tradeoff Contact Selection for Legged Loco-Manipulation,manipulation,control_mpc;manipulation,https://drive.google.com/drive/folders/1lB77gELpopI0yG028ReOMyA4DqkPQs9P
+555,CompCPZ Preserving Multi-Modal Intent in Language-Guided Robot Manipulation,manipulation,vln_vla;manipulation,https://drive.google.com/drive/folders/1NJ5jB29HqwyJO4UucgG5g56AaaLrJfum
+522,TAC-LOCO Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation,manipulation,control_mpc;manipulation;humanoid,https://drive.google.com/drive/folders/1H-bA-rHRZP9Ral5jxqJjNe6n9hfQOxU5
+511,Beyond Transformers Linear Attention Policy for Open-Vocabulary Object Goal Navigation,manipulation,locomotion_rl;navigation;manipulation,https://drive.google.com/drive/folders/1sES1OOykRVCM_sVMEsV-b5G5krq0aIL5
+443,Dynamic Legged Ball Manipulation on Rugged Terrains with Hierarchical Reinforcement Learning,manipulation,locomotion_rl;manipulation,https://drive.google.com/drive/folders/1lFOQTjlf8mHIJXrFdPVm-3dkjXyKu2XA
+437,F2F-AP Flow-to-Future Asynchronous Policy for Real-time Dynamic Manipulation,manipulation,locomotion_rl;manipulation,https://drive.google.com/drive/folders/1xrNtffI5de-haijVSIs_RObXumdyene2
+436,ANCHOR A Physically Grounded Closed-Loop Framework for Robust Home-Service Mobile Manipulation,manipulation,manipulation;safety,https://drive.google.com/drive/folders/1rliiRBkD2je-HuGv42UcU-f6Tn2zLqKo
+430,CMP Robust Whole-Body Tracking for Loco-Manipulation via Competence Manifold Projection,manipulation,perception;manipulation;humanoid;safety,https://drive.google.com/drive/folders/1MPuK1qhzZWPR1A1qeDiWC6YgXS0v2WZ1
+425,AnchorVLA Anchored Diffusion for Efficient End-to-End Mobile Manipulation,manipulation,manipulation,https://drive.google.com/drive/folders/18VMOvXve0erx2gB9xDpnjkAE8o33I1XP
+421,Learning Tactile-Aware Quadrupedal Loco-Manipulation Policies,manipulation,locomotion_rl;manipulation,https://drive.google.com/drive/folders/1tiAVIF5703wBDBxtrJ7LhGt8OQORvomb
+372,Safe Whole-Body Loco-Manipulation via Combined Model and Learning-based Control,manipulation,control_mpc;manipulation;humanoid;safety,https://drive.google.com/drive/folders/1eidtdYzCZmOlRwjWPq2bWa_lhnVq8NVH
+358,Stairway to Success An Online Floor-Aware Zero-Shot Object-Goal Navigation Framework via LLM-Driven Coarse-to-Fine Exploration,manipulation,navigation;vln_vla;manipulation,https://drive.google.com/drive/folders/1_N8DtmxJw8n7c5afzf2k-aIQmLhH8gsm
+355,User-Centric Object Navigation A Benchmark with Integrated User Habits for Personalized Embodied Object Search,manipulation,navigation;vln_vla;manipulation;sim_benchmark;application,https://drive.google.com/drive/folders/1WRDsSmJXawa6v4ZdPaUAs9cjPpMXrIWc
+346,A Nonlinear MPC Framework for Loco-Manipulation of Quadrupedal Robots with Non-Negligible Manipulator Dynamics,manipulation,control_mpc;manipulation,https://drive.google.com/drive/folders/1u3XBCiRbp4kxBn3Hs8r-zQovcbSfB2g0
+318,EdgeNavMamba Mamba-Optimized Object Detection for Energy-Efficient Edge Devices,manipulation,perception;manipulation,https://drive.google.com/drive/folders/1VqTfrzu3zX_QrL4wO-KtbLMeV8NWDc1G
+301,FALCON Actively Decoupled Visuomotor Policies for Loco-Manipulation with Foundation-Model-Based Coordination,manipulation,locomotion_rl;manipulation,https://drive.google.com/drive/folders/1o1XN-ACxkfUJCH5wqkGTMxHc0Hj0adTK
+297,A Unified Framework to Learn Collision-Free Loco-Manipulation via Adversarial Motion Priors,manipulation,manipulation;safety,https://drive.google.com/drive/folders/1VupuCqDyY8IY_NGfp_NYjv-Z2Y-qgwTv
+291,Schrodinger’s Navigator Imagining an Ensemble of Futures for Zero-Shot Object Navigation,manipulation,navigation;manipulation,https://drive.google.com/drive/folders/1d0INEDu3CgsI2VE40OuLcf2YcbkjWHxe
+250,MLM ：Learning Multi-task Loco-Manipulation Whole-Body Control for Quadruped Robot with Arm,manipulation,control_mpc;manipulation;humanoid,https://drive.google.com/drive/folders/1Dt0nKHX2BMjhCXWJ5h_xbgC8vgrC1zsG
+232,LOVON Legged Open-Vocabulary Object Navigator,manipulation,manipulation,https://drive.google.com/drive/folders/1kkB6mUQGAjq2V3WL1SDcVXSidi_0ZXL2
+228,Bipedalism for Quadrupedal Robots Versatile Loco-Manipulation through Risk-Adaptive Reinforcement Learning,manipulation,locomotion_rl;manipulation;safety,https://drive.google.com/drive/folders/1c_67c0EDpTVgjwXRpnl0TxDtXN1rqSUF
+,Helpful DoggyBot: Open-World Object Fetching using Legged Robots and Vision-Language Models,manipulation,vln_vla;perception;manipulation,
+441,Inverse Safety Filtering Inferring Constraints from Safety Filters for Decentralized Coordination,multi_robot,multi_robot;safety,https://drive.google.com/drive/folders/1gnPuBkWa10oyI0pChLLVezvRa7IX7sfU
+664,CoSMO Conformal Semantic Mapping for Open-World Safe Robot Navigation,navigation,navigation;safety,https://drive.google.com/drive/folders/1RmV9uRpCDcw8u_5kJcLnQy5mlmEfCoAf
+620,MSR-SLAM A Multi-Stage Map-Refinement Framework for Reliable LiDAR–Inertial SLAM in GPS-Denied Environments,navigation,navigation;perception,https://drive.google.com/drive/folders/1R_0GQQybGI5bF7-3-qY0pwK5pr3Aq5Du
+618,Scaffolding Foundation Models into Physical-World Agents Pushes the Frontier of Long-Horizon Navigation,navigation,navigation,https://drive.google.com/drive/folders/1xoidJVXmYrPk3NHsfAOLW7n-qXSWzEjM
+614,VAMPS Visual and Motor Policies from Sampling-Based Planning,navigation,locomotion_rl;navigation;perception;hardware,https://drive.google.com/drive/folders/1ORlnIGGQAAuTgHFOEhWSnJRYl332MsPf
+613,AVALON Zero-Shot Indoor Navigation with Human-Seeded Topological Memory,navigation,navigation,https://drive.google.com/drive/folders/1XrQ13iiGhMYDgxKNiVDNXHf-IivOMQW_
+610,Predict Before You Step Auditable Occupancy Forecasting for Dynamic Obstacle Avoidance under Sparse Guidance,navigation,navigation,https://drive.google.com/drive/folders/10YoVGlOrrNAw7Ua6Bahw4g_pSO0VNWET
+608,EIDA Execution-Interface Dynamics Adaptation for Real-to-Sim-to-Real Robot Navigation,navigation,locomotion_rl;control_mpc;navigation;sim_benchmark,https://drive.google.com/drive/folders/1YjlRtEBcie7J7K6q7Zko-7RuAymrN8E0
+604,CMP-IRRT A Perception-Assisted Height-Adaptive Planner for Quadruped Robots,navigation,navigation;perception,https://drive.google.com/drive/folders/1LGsZr6ekydnBce_RDCyExSjqFMH2vSfS
+596,E2DRL End-to-End Differentiable Reinforcement Learning for 3D Obstacle Avoidance in Quadruped Robots,navigation,locomotion_rl;navigation,https://drive.google.com/drive/folders/1DWUtbZgc_hmlxotXPhFf0GcioxEsbCR-
+589,Taming an End-to-End Autonomous Driving Policy for Urban Navigation of Quadruped Robots,navigation,locomotion_rl;navigation,https://drive.google.com/drive/folders/10h9O3f81KP-EYobcSYXE2D3qXpj3lFDp
+588,Anticipatory Gait Switching for Quadrupeds via Look-Ahead MDP Planning,navigation,locomotion_rl;navigation,https://drive.google.com/drive/folders/1cMOr6C_nxe5tI7C-J8FYTJDczxKtKBgG
+586,GG-Nav Goal-oriented Grounding Chain-of-Thought Elicits Reasoning in Navigation Foundation Models,navigation,navigation,https://drive.google.com/drive/folders/1wEfwIIQlYaWNEOEsN6hZfme8qyHlRVJk
+559,Robot-Body-Aware Traversal Risk Graph Planning for Wheeled-Legged Robots in Complex Terrain,navigation,navigation;safety,https://drive.google.com/drive/folders/131ga8aLr9UqbH0ydfmTH_A2KNkOBtDIm
+554,Learning-Based Measurement-Robust Control Barrier Functions for Obstacle Avoidance under State Estimation Error,navigation,control_mpc;navigation;safety,https://drive.google.com/drive/folders/1gIRXtE5mu70mN7g6DO6-I3iM-l_EW2Fu
+553,Semantic-Geometric Fusion NMPC for Executable Mapless Quadruped Navigation on Tactile Paving,navigation,navigation,https://drive.google.com/drive/folders/1xJF455K_MI0PWf4bkVZc2y0fChOMAaLD
+552,OccPlanner Goal-Aware Occupancy-Conditioned Diffusion Planner for Pixel-Goal Navigation,navigation,navigation,https://drive.google.com/drive/folders/1aWi6n6og0KNxoDl9zbt5ZrsosIhhcpeW
+547,Residual-Based Adaptive Kalman Filtering for Legged Robot State Estimation,navigation,control_mpc;navigation,https://drive.google.com/drive/folders/1KzKovT4fOGKVAenHvpU2eRQj9tysfL8H
+524,NavCMPO Critic-Guided MeanFlow Policy Optimization for Adaptive Navigation,navigation,locomotion_rl;navigation,https://drive.google.com/drive/folders/1oAxMlaAe2hO8WKpt6Abyb0K2etqSNqif
+519,Learning Agile Navigation in Crowded Environments for Quadruped Robots,navigation,locomotion_rl;navigation,https://drive.google.com/drive/folders/1tAhJuRnNPZdMpF9RF_dUzjf6ne-s1YFp
+518,Predictive Training with Latent Imagination for Visual Quadruped Navigation,navigation,navigation;perception,https://drive.google.com/drive/folders/1jCcVggaN6DJDwPUZVflAOX27G9yssNXb
+517,Towards Platform-Agnostic Geospatial Awareness Fusing Satellite Priors with LiDAR Laser Point cloud for Seamless Indoor-Outdoor Navigation,navigation,navigation;perception,https://drive.google.com/drive/folders/154S0PGparyB30F9E0PSqvygi_ZoweyMa
+496,SGM-SLAM Scene Graph Matching for Data-Efficient Distributed SLAM,navigation,navigation;multi_robot,https://drive.google.com/drive/folders/1X_pKBzbIMLAsCd_s_0B1IxJaoMVPpRLD
+484,MSTR-PPO A Multi-Scale Temporal Residual PPO Controller for Freeze-Prone Indoor Navigation,navigation,control_mpc;navigation,https://drive.google.com/drive/folders/1JSXsLErDQXOnvM4c5ullxddXJZoq6nhE
+480,FlashNav Ultra-Fast Policy Training for Robot Navigation within 20 Seconds,navigation,locomotion_rl;navigation,https://drive.google.com/drive/folders/1WX7aDSiewsq4xyukf-ZY9IBrdg7SCtdO
+477,Deskewed LiDAR Odometry for Quadruped Robots in Environments with Varying Elevation,navigation,navigation;perception,https://drive.google.com/drive/folders/1ggg8hGwUKaqoiBleh2H-DPQ8-Xsd8_MT
+471,Long-Distance Real-World Navigation of the Legged-Wheeled Robot Go2-W Using Deep Reinforcement Learning,navigation,locomotion_rl;navigation,https://drive.google.com/drive/folders/1W1afub2C1_mNHWH2AfamtFiD5ofk_WBh
+469,Autonomous Navigation System for Library Service Robot Based on Unitree Go2 Edu,navigation,navigation,https://drive.google.com/drive/folders/1wa4G2h_wZpsN760qDT3DmfyBWVWgJPYc
+467,A Taxonomy of Environmental Cues for Quadruped Robot Navigation in Construction Environments Informed by Human Operator Behavior,navigation,navigation;application,https://drive.google.com/drive/folders/186vcirqUtV9jsyeUMtxDk5T4bB5Yvbd-
+440,Safe Navigation in Unknown and Cluttered Environments via Direction-Aware Convex Free-Region Generation,navigation,navigation;safety,https://drive.google.com/drive/folders/1UWmlvuIopqxdhrBgmk_WTk3LEAcjw1Wu
+434,Think before Go Hierarchical Reasoning for Image-goal Navigation,navigation,navigation,https://drive.google.com/drive/folders/11N4rPMIiBEFrzQG9aHWOYOWi5m3LlCkW
+427,Learning from Demonstration with Failure Awareness for Safe Robot Navigation,navigation,navigation;safety,https://drive.google.com/drive/folders/1p1qBV5bhBz5HiqgPSIZTJJc6Z9124oS9
+424,"FSUNav A Cerebrum-Cerebellum Architecture for Fast, Safe, and Universal Zero-Shot Goal-Oriented Navigation",navigation,navigation;safety,https://drive.google.com/drive/folders/1yuJ8AwMxoegnojqWVtQR98BtEsGtdJUj
+415,PriPG-RL Privileged Planner-Guided Reinforcement Learning for Partially Observable Systems with Anytime-Feasible MPC,navigation,locomotion_rl;control_mpc;navigation,https://drive.google.com/drive/folders/1bsIdd-Kx_uFwunY15Qzo0Rc4fZBW-aEw
+413,Natural Gradient Gaussian Approximation Filter on Lie Groups for Robot State Estimation,navigation,control_mpc;navigation,https://drive.google.com/drive/folders/1a9R4HuAjvp865rMTMN6KnfVNd1kxO-zY
+407,DreamFlow Local Navigation Beyond Observation via Conditional Flow Matching in the Latent Space,navigation,navigation,https://drive.google.com/drive/folders/1ci49h6HJEXJNqObqvZXzmKCxR3MhY3tM
+406,Navigation beyond Wayfinding Robots Collaborating with Visually Impaired Users for Environmental Interactions,navigation,navigation,https://drive.google.com/drive/folders/1BzN1pdfJEkaTQYNhXVOBPwZ-RBV29pAG
+397,SaferPath Hierarchical Visual Navigation with Learned Guidance and Safety-Constrained Control,navigation,control_mpc;navigation;perception;safety,https://drive.google.com/drive/folders/1cK3BilWH2LJKui5fj2mPLxUwyo5aB2a-
+396,GuideTWSI A Diverse Tactile Walking Surface Indicator Dataset from Synthetic and Real-World Images for Blind and Low-Vision Navigation,navigation,navigation;perception;sim_benchmark,https://drive.google.com/drive/folders/1IWSa37j-qtrI5Bt2W6EwFwsywyI2xHXU
+395,Beyond Imitation Reinforcement Learning Fine-Tuning for Adaptive Diffusion Navigation Policies,navigation,locomotion_rl;navigation,https://drive.google.com/drive/folders/1hhAPByt9PSAdw-o5TJyL4DvEt7JnDsMs
+390,Maximum Entropy Behavior Exploration for Sim2Real Zero-Shot Reinforcement Learning,navigation,locomotion_rl;navigation;sim_benchmark,https://drive.google.com/drive/folders/1yROQrkHzuezV2irtEXadV0KbSab-9ZAP
+389,NavGSim High-Fidelity Gaussian Splatting Simulator for Large-Scale Navigation,navigation,navigation;sim_benchmark,https://drive.google.com/drive/folders/1vGORj61-C5a2phK0i3FxpyYT4s70CBSM
+386,SEA-Nav Efficient Policy Learning for Safe and Agile Quadruped Navigation in Cluttered Environments,navigation,locomotion_rl;navigation;safety,https://drive.google.com/drive/folders/12tWhhmPhluxIZCEllZnRk4q61_eVmBVS
+384,SmoothTurn Learning to Turn Smoothly for Agile Navigation with Quadrupedal Robots,navigation,locomotion_rl;navigation,https://drive.google.com/drive/folders/1WEFudEGCeK3Fhdd_EBvmftnPFLrz_pHy
+379,NavThinker Action-Conditioned World Models for Coupled Prediction and Planning in Social Navigation,navigation,navigation;hri_social,https://drive.google.com/drive/folders/1EPtKdkZjWLnFHbh0QVveJ5sKiys4zRTy
+378,OA-NBV Occlusion-Aware Next-Best-View Planning for Human-Centered Active Perception on Mobile Robots,navigation,navigation;perception,https://drive.google.com/drive/folders/1VMT0--jiGYC5Q1EYa8YLDOM-rEZBfbpi
+362,Self-Imitated Diffusion Policy for Efficient and Robust Visual Navigation,navigation,locomotion_rl;navigation;perception;safety,https://drive.google.com/drive/folders/19gSMMwr9exAcu3CCCHwC6T92-x3VqYe9
+350,TRANS Terrain-aware Reinforcement Learning for Agile Navigation of Quadruped Robots under Social Interactions,navigation,locomotion_rl;navigation;hri_social,https://drive.google.com/drive/folders/11651933ddTIK14LndpS5Z-vsse3nmxLv
+349,Seq-DeepIPC Sequential Sensing for End-to-End Control in Legged Robot Navigation,navigation,control_mpc;navigation,https://drive.google.com/drive/folders/124I8-wPuk0X9RCrE0O_1tF693boNT0kD
+345,Fast Task Planning with Neuro-Symbolic Relaxation,navigation,navigation,https://drive.google.com/drive/folders/1uvELOZQLUF01fOhbnjWiJry_Xvx9tFo2
+340,Contact-Anchored Proprioceptive Odometry for Quadruped Robots,navigation,control_mpc;navigation,https://drive.google.com/drive/folders/14Q_g4cDyj6rbs_t-GLDIer3v-Bswe8_V
+315,REBot Reflexive Evasion Robot for Instantaneous Dynamic Obstacle Avoidance,navigation,navigation,https://drive.google.com/drive/folders/1iKkpPo1A9TqRR7xwE90nF1XfPKzbcjLh
+300,GuideNav User-Informed Development of a Vision-Only Robotic Navigation Assistant For Blind Travelers,navigation,navigation;perception,https://drive.google.com/drive/folders/1xP5BEqcmqejGl8ULoYV8Ho24_d8r1K7t
+298,REASAN Learning Reactive Safe Navigation for Legged Robots,navigation,navigation;safety,https://drive.google.com/drive/folders/1_8b3VjnTUgKy3-rkEzEZ8QzMBqFGhMU1
+295,GuangMing-Explorer A Four-Legged Robot Platform for Autonomous Exploration in General Environments,navigation,navigation,https://drive.google.com/drive/folders/1stNxc_tNztCePmVQvgKAh9YQZbHsr_5O
+272,MacroNav Multi-Task Context Representation Learning Enables Efficient Navigation in Unknown Environments,navigation,navigation,https://drive.google.com/drive/folders/157JqS8MGSteY3x3aEurzc3w7rV7J9ZFm
+266,X-IONet Cross-Platform Inertial Odometry Network with Dual-Stage Attention,navigation,navigation,https://drive.google.com/drive/folders/1KLdT1y0fgAPnuhyIySnISRcXABh9aAV4
+244,Teleoperator-Aware and Safety-Critical Adaptive Nonlinear MPC for Shared Autonomy in Obstacle Avoidance of Legged Robots,navigation,control_mpc;navigation;safety,https://drive.google.com/drive/folders/1j_DE9KgbC2OxJMi0-37xidsAEaHEVxef
+237,Autonomous Navigation and Real-Time 3D Reconstruction of Interior Spaces Using a Quadruped Robot,navigation,navigation,https://drive.google.com/drive/folders/1ge8P9bJ4rEWtfGlQHmhJ_CKah5n19PLC
+198,ANAVI ：Audio Noise Awareness using Visuals of Indoor environments for NAVIgation,navigation,navigation,https://drive.google.com/drive/folders/1mg37G65uKcrNdWhFxH5bhsywuB4-UoXr
+196,Robust State Estimation for Legged Robots with Dual Beta Kalman Filter,navigation,control_mpc;navigation;safety,https://drive.google.com/drive/folders/1PBQ0O1WkUEnuPx8W-t_l_F4s6Aq_zIMU
+149,Sailing Through Point Clouds： Safe Navigation Using Point Cloud Based Control Barrier Functions,navigation,control_mpc;navigation;perception;safety,https://drive.google.com/drive/folders/1OApyLy6CwSY34rx6vtVr68St7iF8wYD3
+,SemGeoNav:A Safety-Guided Visual Navigation Approach with Semantic Reasoning and Geometric Planning,navigation,navigation;perception;safety,
+605,A Model-Based Approach to Security Assessment of Robotic Systems in Healthcare The Case of a Quadruped Robot,other,,https://drive.google.com/drive/folders/1ikok232tR3xGhLt2XbT-pvEG5hKp7_20
+515,Unleashing Infinite Motion Scaling Expressive Quadrupedal Motion via Generative Video Priors,other,,https://drive.google.com/drive/folders/1zKr-OIwh2-EXKfOpgYYeEL7wV7q6NeP9
+482,High-Load-Density Electro-Permanent Magnetic Foot with Controllable Adhesion for Quadruped Wall-Climbing Robots,other,,https://drive.google.com/drive/folders/1o4ASVtNlMLOVBFlwYs9CK7U_Szjj1tkk
+426,RoboHaptics Designing Haptic Interactions for Lower Body withQuadruped Robot Dogs,other,,https://drive.google.com/drive/folders/1JUTQPSAi8kxJtrD32kUxe4MI31Kh_0Gg
+418,Will People Enjoy a Robot Trainer A Case Study with Snoopie the Pacerbot,other,,https://drive.google.com/drive/folders/182ULcPUGYVK6eoJQcSF2rku9mR0KjUm1
+409,Who Let the Robot Dogs Out Digital Forensic Analysis of Quadruped Robot,other,,https://drive.google.com/drive/folders/1bbZfFHKFkdonzmGwbbJnK4_O-08ea86q
+401,From Woofs to Words Towards Intelligent Robotic Guide Dogs with Verbal Communication,other,,https://drive.google.com/drive/folders/1xQ8ojrTQH1kBj2_k5gYgNLv7t7airQbX
+399,Learning Quadruped Walking from Seconds of Demonstration,other,,https://drive.google.com/drive/folders/10UbB9TlB97MF6byXOMu544kLdsPJmzdm
+382,MorFiC Fixing Value Miscalibration for Zero-Shot Quadruped Transfer,other,,https://drive.google.com/drive/folders/1V_o39KuztTArjPED8FATMJBgPaZvV7GX
+348,Scaling Law of Neural Koopman Operators,other,,https://drive.google.com/drive/folders/1N3J_cLI7L4Uq0C8p9lxIcw0QNqQLAaVT
+347,Evaluating Dynamic Surface Compensation for Robots with Projected AR,other,,https://drive.google.com/drive/folders/1yrVVyFKLicqxug3sAnrYhfe9dNrR920J
+296,Playing with Robots Performing Arts Techniques for Designingand Understanding Robot Group Movement,other,,https://drive.google.com/drive/folders/1kOaOEbuEdYuayJD1tKfzUmPmUv9tr1sc
+246,A Geometric Method for Base Parameter Analysis in Robot Inertia Identification Based on Projective Geometric Algebra,other,,https://drive.google.com/drive/folders/1QjDiSjRdHsNfA2OHfiYd2Eul7gPM1Es6
+234,Hybrid ACO for Blockchain-Managed Robotic Swarms,other,,https://drive.google.com/drive/folders/1DWGje9Tlz2uTxSVoObvlgt7AC5edLHVr
+222,Autonomous operation of a robot dog for point-cloud data acquisition,other,,https://drive.google.com/drive/folders/1Y-nCxySO5oyspmi-QUzbx6SvcF6suzoL
+219,Fast and Cost-effective Speculative Edge-Cloud Decoding with Early Exits,other,,https://drive.google.com/drive/folders/1DK6082PV0q8gl0wZFMZl1Pjthu3v0IyN
+,"EDU) using closed-loop trajectories. On Astrall point-foot robot A, a ∼200 m horizontal loop and a",other,,
+,publicly release the complete implementation (github.com/ShineMinxing/Ros2Go2Estimator.git) and the,other,,
+,"Milo, a Fully Autonomous Indoor/Outdoor Robotic Guide Dog",other,,
+548,Vision-Based Autonomous Quadrupedal Robot for Rapid Post-Earthquake Crack-Based Building Damage Detection,perception,perception,https://drive.google.com/drive/folders/1jUYBJRDKF6lz7PwOMq59hbdhKQgCV1A2
+393,vAccSOL Efficient and Transparent AI Vision Offloading for Mobile Robots,perception,perception,https://drive.google.com/drive/folders/1MrYeLAFJhKFN4B6tB59Z_j1Zpl6UyLtE
+375,Robust Visual Servoing for Quadruped Robots ISS-Based Target Tracking With Secondary Formation Objectives,perception,perception;multi_robot;safety,https://drive.google.com/drive/folders/1DOCutLWIRj1pscyrb5saVPIEUrIFxjpr
+314,M-SEVIQ A Multi-band Stereo Event Visual-Inertial Quadruped-based Dataset for Perception under Rapid Motion and Challenging Illumination,perception,perception;sim_benchmark,https://drive.google.com/drive/folders/14ksQnzC8JU3lloz4UOQPGEKIBYHJjXJJ
+293,ReSPIRe Informative and Reusable Belief Tree Search for Robot Probabilistic Search and Tracking in Unknown Environments,perception,perception;application,https://drive.google.com/drive/folders/1Cx3caHY348-27g9CA_TBZj4K-xGx35wv
+343,Risk Awareness and Management for Autonomous Robots Assessing Non-Perceivable Hazards through Context-Aware Safety Adaptation,safety,safety,https://drive.google.com/drive/folders/10eVBvKtyGme4khb_9jvrk_GHHSATHcl2
+472,ForEnt A Multi-Modal Dataset for Characterizing Quadruped Robot Entrapments in Forest Environments,sim_benchmark,sim_benchmark,https://drive.google.com/drive/folders/1Hay98io7nOLU5_zVN0phOg8RVpbPp5rb
+408,Simulation Distillation Pretraining World Models in Simulation for Rapid Real-World Adaptation,sim_benchmark,sim_benchmark,https://drive.google.com/drive/folders/1UCCI1xOPmrOn-dZT9DZwmNM8nnMSic9Z
+619,Structure over Reasoning Unified Zero-Shot Navigation with a Small Vision-Language Model,vln_vla,navigation;vln_vla;perception;hardware,https://drive.google.com/drive/folders/1BssSDi4fLzCCpkeGLRRvyXLrsl8f8Iv3
+617,Reliability-Aware Sparse Route Memory for Round-Trip Vision-Language Navigation,vln_vla,navigation;vln_vla;perception,https://drive.google.com/drive/folders/1QEmybCxTFnME0WH7xYqLky2epAWEBBJL
+616,InsightMap Structured Spatial Modeling for Embodied Multimodal Reasoning,vln_vla,vln_vla,https://drive.google.com/drive/folders/1ClZOoxBCmiAs7A0heAdIVML2dDKBT5qf
+612,SparseNav Instruction-conditioned Sparse Semantic Perception for Training-Free Vision-Language Navigation,vln_vla,navigation;vln_vla;perception,https://drive.google.com/drive/folders/1X5c9_14IFXhH1rsfPz51V0P7SQkp8BqJ
+598,On-Device Vision-Language Reasoning for Context-Aware Event Verification and Label-Free Detector Training on an Assistive Quadruped,vln_vla,vln_vla;perception,https://drive.google.com/drive/folders/105YU66cUuPwhsHzUuzMr8PpX6EkihknW
+584,ROOT Discovering Rewards for User-Specified Embodied Behaviors,vln_vla,vln_vla,https://drive.google.com/drive/folders/192CU2y3iBDEAF-Lm4jLNI5So3MUc7iEG
+582,Talk2Escape Conversational Grounding for Vision-and-Language Navigation,vln_vla,navigation;vln_vla;perception,https://drive.google.com/drive/folders/1PC6p7rOpojrAmbHT9MyTD66hdXWko-DW
+520,TypeGo An OS Runtime for Embodied Agents,vln_vla,vln_vla,https://drive.google.com/drive/folders/1oFDiMGoMsR-FqVZ_gh4HaItSnyO7yVxe
+516,From Language to Navigation Goals A Vision-Language Approach for Semantic Navigation of Mobile Robots Using RGB-D Perception,vln_vla,navigation;vln_vla;perception,https://drive.google.com/drive/folders/1zUHwermGx-AgEoe53KX6Fq4-DbcCgyLf
+483,fARfetch Enabling Collocated AR-HRC in Large Visually Diverse Environments with VLM-Driven AR Content Adaptation,vln_vla,vln_vla,https://drive.google.com/drive/folders/1A1usla0Ne819iDNnY_73oWCPithBuLI6
+476,Bayesian Optimization for Learning Nonlinear MPC in Autonomous Agent Navigation,vln_vla,control_mpc;navigation;vln_vla,https://drive.google.com/drive/folders/1LlXNaVW-20Bpl325bGDNyp8USvPuFXc2
+450,TravExplorer Cross-Floor Embodied Exploration via Traversability-Aware 3-D Planning,vln_vla,navigation;vln_vla,https://drive.google.com/drive/folders/1pEYv3OVZvzOAtHqCAPs-kUG--fW3yQTO
+442,Collaborative Map-based and Route-based Policy Learning for Continuous Vision-and-Language Navigation,vln_vla,locomotion_rl;navigation;vln_vla;perception;multi_robot,https://drive.google.com/drive/folders/1FPHm_wYAub4neAi60KBslsDHjkE2UCJp
+438,AsyncShield A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation,vln_vla,navigation;vln_vla,https://drive.google.com/drive/folders/12U4ZolEJ7Cru3y9UZhQi9m2eeFK6YBYe
+431,MEMOR-E In-Context and Fine-Tuned LLM Personalization for Alzheimer’s Assistive Robotics,vln_vla,vln_vla,https://drive.google.com/drive/folders/1KeXwmJWdnB4wZvXt5O-NQ6HTo9jZy_Q5
+429,SpaAct Spatially-Activated Transition Learning with Curriculum Adaptation for Vision-Language Navigation,vln_vla,navigation;vln_vla;perception,https://drive.google.com/drive/folders/1TYc3c_VdtHl0lN1E-vfdjByJ0eB6CNKa
+405,PEPA a Persistently Autonomous Embodied Agent with Personalities,vln_vla,vln_vla,https://drive.google.com/drive/folders/1cApomr02SStN89v-N_7ecyrhhUiYRxA5
+404,"DecoVLN Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation",vln_vla,navigation;vln_vla;perception,https://drive.google.com/drive/folders/1zOk6uXfa9H3Ev91rTu8caRKPayxBroZP
+403,SPAN-Nav Generalized Spatial Awareness for Versatile Vision-Language Navigation,vln_vla,navigation;vln_vla;perception,https://drive.google.com/drive/folders/1mePit_TTKIFOAo2vAPL1H8YMxqV8z7H9
+400,FloorPlan-VLN A New Paradigm for Floor Plan Guided Vision-Language Navigation,vln_vla,navigation;vln_vla;perception,https://drive.google.com/drive/folders/1ZthR_xt2xlihyF5rpvLNh8wB0EBWh1GG
+394,Task-Aware Positioning for Improvisational Tasks in Mobile Construction Robots via an AI Agent with Multi-LMM Modules,vln_vla,vln_vla;application,https://drive.google.com/drive/folders/1nrUJnA1NlXwZOj6LRtu07QC74Mh81pC4
+392,AgentVLN Towards Agentic Vision-and-Language Navigation,vln_vla,navigation;vln_vla;perception,https://drive.google.com/drive/folders/1QjJT00H9hmv_NOP_xWMcmsnJy1UQq9S7
+385,CoT-VLNBench A Benchmark for Visual Chain-of-Thought Reasoning in Vision-Language-Navigation Robots,vln_vla,navigation;vln_vla;perception;sim_benchmark,https://drive.google.com/drive/folders/1KfsSEe3f9cufoQDlPo5dUhO6n6p7heEP
+381,History-Conditioned Spatio-Temporal Visual Token Pruning for Efficient Vision-Language Navigation,vln_vla,navigation;vln_vla;perception,https://drive.google.com/drive/folders/1Ht-GP-D2dSBBCdpxIBEQf0Cyeqq-fm_J
+361,Context-Aware Generation and Modulation of Expressive Motion Behavior using Multimodal Foundation Models,vln_vla,vln_vla,https://drive.google.com/drive/folders/1Aawk1JY0dhw9I_kTfEb5Y14fAeXOt3xJ
+360,TIC-VLA A Think-in-Control Vision-Language-Action Model for Robot Navigation in Dynamic Environments,vln_vla,control_mpc;navigation;vln_vla;perception,https://drive.google.com/drive/folders/1uMjV6sPfPbgSu1f9Oxr3jf5TiRxec2LR
+357,Zero-Shot Visual Anomaly Detection on a Quadruped Robot Using State of the Art Visual Language Models,vln_vla,vln_vla;perception,https://drive.google.com/drive/folders/1r1n0gkLfBoGdu4KIpKyNBzBr2LddvLe9
+356,Co-jump Cooperative Jumping with Quadrupedal Robots via Multi-Agent Reinforcement Learning,vln_vla,locomotion_rl;vln_vla;multi_robot,https://drive.google.com/drive/folders/1VMvT_BC0-_v5FBx7sq-_O-HqIgLeAPcS
+354,Sparse Video Generation Propels Real-World Beyond-the-View Vision-Language Navigation,vln_vla,navigation;vln_vla;perception,https://drive.google.com/drive/folders/1iN9aoX8wvgCcin4kdilZkBMXMNk8U1-a
+322,Zero-shot adaptable task planning for autonomous construction robots a comparative study of lightweight single and multi-AI agent systems,vln_vla,navigation;vln_vla;hardware;application,https://drive.google.com/drive/folders/1HaIzvqeOQYT7QqJ_Pdol4d6Jd0ZW3liZ
+319,CoINS Counterfactual Interactive Navigation via Skill-Aware VLM,vln_vla,locomotion_rl;navigation;vln_vla,https://drive.google.com/drive/folders/1NOgqIEspUWrpFkJKyBzESsEpYE44uRnI
+273,Co-NavGPT Multi-Robot Cooperative Visual Semantic Navigation Using Vision Language Models,vln_vla,navigation;vln_vla;perception;multi_robot,https://drive.google.com/drive/folders/1u1Xsx2ttFxTZXDb0YYYXctmlBpmxWLvI
+268,SocialNav Training Human-Inspired Foundation Model for Socially-Aware Embodied Navigation,vln_vla,navigation;vln_vla,https://drive.google.com/drive/folders/1z3LXJe32L5i8eL4E2qAvl226kI8q8Ulm
+257,Real2USD ：Scene Representations in Universal Scene Description Language,vln_vla,vln_vla,https://drive.google.com/drive/folders/1Ri0umoZT68LzaxIeDgxOvzfZCz5mHhdx
+218,Jailbreaking LLM-Controlled Robots,vln_vla,vln_vla,https://drive.google.com/drive/folders/18zuvSF0xHjgqmXoTSBLorirE4Ncojg6U
+,Autonomous Construction-Site Safety Inspection Using Mobile Robots: A Multilayer VLM LLM Pipeline,vln_vla,vln_vla;safety;application,

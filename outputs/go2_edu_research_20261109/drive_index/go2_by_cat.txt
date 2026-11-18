@@ -1,0 +1,212 @@
+##### navigation
+664	CoSMO Conformal Semantic Mapping for Open-World Safe Robot Navigation
+620	MSR-SLAM A Multi-Stage Map-Refinement Framework for Reliable LiDAR–Inertial SLAM in GPS-Denied Environments
+618	Scaffolding Foundation Models into Physical-World Agents Pushes the Frontier of Long-Horizon Navigation
+614	VAMPS Visual and Motor Policies from Sampling-Based Planning
+613	AVALON Zero-Shot Indoor Navigation with Human-Seeded Topological Memory
+610	Predict Before You Step Auditable Occupancy Forecasting for Dynamic Obstacle Avoidance under Sparse Guidance
+608	EIDA Execution-Interface Dynamics Adaptation for Real-to-Sim-to-Real Robot Navigation
+604	CMP-IRRT A Perception-Assisted Height-Adaptive Planner for Quadruped Robots
+596	E2DRL End-to-End Differentiable Reinforcement Learning for 3D Obstacle Avoidance in Quadruped Robots
+589	Taming an End-to-End Autonomous Driving Policy for Urban Navigation of Quadruped Robots
+588	Anticipatory Gait Switching for Quadrupeds via Look-Ahead MDP Planning
+586	GG-Nav Goal-oriented Grounding Chain-of-Thought Elicits Reasoning in Navigation Foundation Models
+559	Robot-Body-Aware Traversal Risk Graph Planning for Wheeled-Legged Robots in Complex Terrain
+554	Learning-Based Measurement-Robust Control Barrier Functions for Obstacle Avoidance under State Estimation Error
+553	Semantic-Geometric Fusion NMPC for Executable Mapless Quadruped Navigation on Tactile Paving
+552	OccPlanner Goal-Aware Occupancy-Conditioned Diffusion Planner for Pixel-Goal Navigation
+547	Residual-Based Adaptive Kalman Filtering for Legged Robot State Estimation
+524	NavCMPO Critic-Guided MeanFlow Policy Optimization for Adaptive Navigation
+519	Learning Agile Navigation in Crowded Environments for Quadruped Robots
+518	Predictive Training with Latent Imagination for Visual Quadruped Navigation
+517	Towards Platform-Agnostic Geospatial Awareness Fusing Satellite Priors with LiDAR Laser Point cloud for Seamless Indoor-Outdoor Navigation
+496	SGM-SLAM Scene Graph Matching for Data-Efficient Distributed SLAM
+484	MSTR-PPO A Multi-Scale Temporal Residual PPO Controller for Freeze-Prone Indoor Navigation
+480	FlashNav Ultra-Fast Policy Training for Robot Navigation within 20 Seconds
+477	Deskewed LiDAR Odometry for Quadruped Robots in Environments with Varying Elevation
+471	Long-Distance Real-World Navigation of the Legged-Wheeled Robot Go2-W Using Deep Reinforcement Learning
+469	Autonomous Navigation System for Library Service Robot Based on Unitree Go2 Edu
+467	A Taxonomy of Environmental Cues for Quadruped Robot Navigation in Construction Environments Informed by Human Operator Behavior
+440	Safe Navigation in Unknown and Cluttered Environments via Direction-Aware Convex Free-Region Generation
+434	Think before Go Hierarchical Reasoning for Image-goal Navigation
+427	Learning from Demonstration with Failure Awareness for Safe Robot Navigation
+424	FSUNav A Cerebrum-Cerebellum Architecture for Fast, Safe, and Universal Zero-Shot Goal-Oriented Navigation
+415	PriPG-RL Privileged Planner-Guided Reinforcement Learning for Partially Observable Systems with Anytime-Feasible MPC
+413	Natural Gradient Gaussian Approximation Filter on Lie Groups for Robot State Estimation
+407	DreamFlow Local Navigation Beyond Observation via Conditional Flow Matching in the Latent Space
+406	Navigation beyond Wayfinding Robots Collaborating with Visually Impaired Users for Environmental Interactions
+397	SaferPath Hierarchical Visual Navigation with Learned Guidance and Safety-Constrained Control
+396	GuideTWSI A Diverse Tactile Walking Surface Indicator Dataset from Synthetic and Real-World Images for Blind and Low-Vision Navigation
+395	Beyond Imitation Reinforcement Learning Fine-Tuning for Adaptive Diffusion Navigation Policies
+390	Maximum Entropy Behavior Exploration for Sim2Real Zero-Shot Reinforcement Learning
+389	NavGSim High-Fidelity Gaussian Splatting Simulator for Large-Scale Navigation
+386	SEA-Nav Efficient Policy Learning for Safe and Agile Quadruped Navigation in Cluttered Environments
+384	SmoothTurn Learning to Turn Smoothly for Agile Navigation with Quadrupedal Robots
+379	NavThinker Action-Conditioned World Models for Coupled Prediction and Planning in Social Navigation
+378	OA-NBV Occlusion-Aware Next-Best-View Planning for Human-Centered Active Perception on Mobile Robots
+362	Self-Imitated Diffusion Policy for Efficient and Robust Visual Navigation
+350	TRANS Terrain-aware Reinforcement Learning for Agile Navigation of Quadruped Robots under Social Interactions
+349	Seq-DeepIPC Sequential Sensing for End-to-End Control in Legged Robot Navigation
+345	Fast Task Planning with Neuro-Symbolic Relaxation
+340	Contact-Anchored Proprioceptive Odometry for Quadruped Robots
+315	REBot Reflexive Evasion Robot for Instantaneous Dynamic Obstacle Avoidance
+300	GuideNav User-Informed Development of a Vision-Only Robotic Navigation Assistant For Blind Travelers
+298	REASAN Learning Reactive Safe Navigation for Legged Robots
+295	GuangMing-Explorer A Four-Legged Robot Platform for Autonomous Exploration in General Environments
+272	MacroNav Multi-Task Context Representation Learning Enables Efficient Navigation in Unknown Environments
+266	X-IONet Cross-Platform Inertial Odometry Network with Dual-Stage Attention
+244	Teleoperator-Aware and Safety-Critical Adaptive Nonlinear MPC for Shared Autonomy in Obstacle Avoidance of Legged Robots
+237	Autonomous Navigation and Real-Time 3D Reconstruction of Interior Spaces Using a Quadruped Robot
+198	ANAVI ：Audio Noise Awareness using Visuals of Indoor environments for NAVIgation
+196	Robust State Estimation for Legged Robots with Dual Beta Kalman Filter
+149	Sailing Through Point Clouds： Safe Navigation Using Point Cloud Based Control Barrier Functions
+-	SemGeoNav:A Safety-Guided Visual Navigation Approach with Semantic Reasoning and Geometric Planning
+##### locomotion_rl
+661	PRISM Bridging Multimodality and Real-Time Control in Multisensory Policies
+611	CAST Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning
+606	PROMO Preference-conditioned Multi-Objective Reinforcement Learning for Quadrupedal Robots
+601	Efficient Test-Time Adaptation For Robot Policies
+595	Transporting Unsecured Stacked Payloads with a Quadrupedal Robot via Multi-Objective Reinforcement Learning
+592	SG-CPG Severity-Gated Central Pattern Generators for Adaptive Quadruped Locomotion under Continuous Actuator Degradation
+591	PROOF Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion
+590	Feedback-Modulated Harmonic Policies for Quadruped Locomotion
+587	SHOES Sim-to-real Hardware-adaptation via On-policy Expansion of Skills for Legged Robots
+577	Accelerating Visual Policy Learning with Sampling-Based Model Predictive Control
+551	SCAPE Scenario-Conditioned Simulation-Augmented Policy Evaluation
+546	Learning to Walk With Less A Dyna-Style Approach to Quadrupedal Locomotion
+543	Rapid Embodiment Adaptation for Quadrupedal Locomotion
+523	MIRROR Multisensory Implicit Rejection-sampled RObotic policy
+481	MPC-Injection Biasing Off-Policy Locomotion RL Toward Controller-Induced Behavior Basins
+479	LoComposition Terrain-Adaptive Energy-Efficient Quadruped Locomotion without Gait Priors
+475	SLowRL Safe Low-Rank Adaptation for Bridging the Sim-to-Real Gap in Legged Locomotion
+474	Continual Quadruped Robots Coordination via Semantic Skill Discovery
+473	StairMaster Learning to Conquer Risky Hollow Stairs for Agile Quadrupedal Robots
+468	Kine2Go Kinematic dataset for the Unitree Go2 robot with diverse gaits and motions
+446	MUJICA Multi-skill Unified Joint Integration of Control Architecture for Wheeled-Legged Robots
+445	Efficient On-policy Visual-RL via Stochastic Decoupled Policy Gradient
+422	Simulator Adaptation for Sim-to-Real Learning of Legged Locomotion via Proprioceptive Distribution Matching
+420	Learning Task-Invariant Properties via Dreamer Enabling Efficient Policy Transfer for Quadruped Robots
+417	Quadruped Parkour Learning Sparsely Gated Mixture of Experts with Visual Input
+416	Artificial plateau neurons with in-situ spike-malleability for rhythmic quadrupedal locomotion
+410	OpenGo An OpenClaw-Based Robotic Dog with Real-Time Skill Switching
+391	Watch Your Step Learning Semantically-Guided Locomotion in Cluttered Environment
+380	ADMM-Based Distributed MPC with Control Barrier Functions for Safe Multi-Robot Quadrupedal Locomotion
+377	SLowRL Safe Low-Rank Adaptation Reinforcement Learning for Locomotion
+376	REAL Robust Extreme Agility via Spatio-Temporal Policy Learning and Physics-Guided Filtering
+359	Coupled Local and Global World Models for Efficient First Order RL
+351	Intelligent Gait Synthesis for Autonomous Ground Robots A Reinforcement Learning Approach
+344	PRISM Performer RS-IMLE for Single-pass Multisensory Imitation Learning
+342	UEREBot Learning Safe Quadrupedal Locomotion under Unstructured Environments and High-Speed Dynamic Obstacles
+341	Toward Reliable Sim-to-Real Predictability for MoE-based Robust Quadrupedal Locomotion
+320	Offline Imitation Learning upon Arbitrary Demonstrations by Pre-Training Dynamics Representations
+316	UniLegs Universal Multi-Legged Robot Control through Morphology-Agnostic Policy Distillation
+294	Playful DoggyBot Learning Agile and Precise Quadrupedal Locomotion
+271	Robot Squid Game Quadrupedal Locomotion for Traversing Narrow Tunnels
+265	Quadrupedal gait on oscillating surfaces
+256	Towards Dynamic Quadrupedal Gaits ：A Symmetry-Guided RL Hierarchy Enables Free Gait Transitions at Varying Speeds
+255	PGTT ：Phase-Guided Terrain Traversal for Perceptive Legged Locomotion
+254	Bridge the Gap：Enhancing Quadruped Locomotion with Vertical Ground Perturbations
+249	First Order Model-Based RL through Decoupled Backpropagation
+247	Non-conflicting Energy Minimization in Reinforcement Learning based Robot Control
+-	McARL:Morphology-Control-Aware Reinforcement Learning for Generalizable Quadrupedal Locomotion
+-	MS-PPO: Morphological-Symmetry-Equivariant Policy for Legged Robot Locomotion
+##### vln_vla
+619	Structure over Reasoning Unified Zero-Shot Navigation with a Small Vision-Language Model
+617	Reliability-Aware Sparse Route Memory for Round-Trip Vision-Language Navigation
+616	InsightMap Structured Spatial Modeling for Embodied Multimodal Reasoning
+612	SparseNav Instruction-conditioned Sparse Semantic Perception for Training-Free Vision-Language Navigation
+598	On-Device Vision-Language Reasoning for Context-Aware Event Verification and Label-Free Detector Training on an Assistive Quadruped
+584	ROOT Discovering Rewards for User-Specified Embodied Behaviors
+582	Talk2Escape Conversational Grounding for Vision-and-Language Navigation
+520	TypeGo An OS Runtime for Embodied Agents
+516	From Language to Navigation Goals A Vision-Language Approach for Semantic Navigation of Mobile Robots Using RGB-D Perception
+483	fARfetch Enabling Collocated AR-HRC in Large Visually Diverse Environments with VLM-Driven AR Content Adaptation
+476	Bayesian Optimization for Learning Nonlinear MPC in Autonomous Agent Navigation
+450	TravExplorer Cross-Floor Embodied Exploration via Traversability-Aware 3-D Planning
+442	Collaborative Map-based and Route-based Policy Learning for Continuous Vision-and-Language Navigation
+438	AsyncShield A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation
+431	MEMOR-E In-Context and Fine-Tuned LLM Personalization for Alzheimer’s Assistive Robotics
+429	SpaAct Spatially-Activated Transition Learning with Curriculum Adaptation for Vision-Language Navigation
+405	PEPA a Persistently Autonomous Embodied Agent with Personalities
+404	DecoVLN Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation
+403	SPAN-Nav Generalized Spatial Awareness for Versatile Vision-Language Navigation
+400	FloorPlan-VLN A New Paradigm for Floor Plan Guided Vision-Language Navigation
+394	Task-Aware Positioning for Improvisational Tasks in Mobile Construction Robots via an AI Agent with Multi-LMM Modules
+392	AgentVLN Towards Agentic Vision-and-Language Navigation
+385	CoT-VLNBench A Benchmark for Visual Chain-of-Thought Reasoning in Vision-Language-Navigation Robots
+381	History-Conditioned Spatio-Temporal Visual Token Pruning for Efficient Vision-Language Navigation
+361	Context-Aware Generation and Modulation of Expressive Motion Behavior using Multimodal Foundation Models
+360	TIC-VLA A Think-in-Control Vision-Language-Action Model for Robot Navigation in Dynamic Environments
+357	Zero-Shot Visual Anomaly Detection on a Quadruped Robot Using State of the Art Visual Language Models
+356	Co-jump Cooperative Jumping with Quadrupedal Robots via Multi-Agent Reinforcement Learning
+354	Sparse Video Generation Propels Real-World Beyond-the-View Vision-Language Navigation
+322	Zero-shot adaptable task planning for autonomous construction robots a comparative study of lightweight single and multi-AI agent systems
+319	CoINS Counterfactual Interactive Navigation via Skill-Aware VLM
+273	Co-NavGPT Multi-Robot Cooperative Visual Semantic Navigation Using Vision Language Models
+268	SocialNav Training Human-Inspired Foundation Model for Socially-Aware Embodied Navigation
+257	Real2USD ：Scene Representations in Universal Scene Description Language
+218	Jailbreaking LLM-Controlled Robots
+-	Autonomous Construction-Site Safety Inspection Using Mobile Robots: A Multilayer VLM LLM Pipeline
+##### manipulation
+615	Have You Seen It Clearly Uncertainty-Guided Belief Refinement for Zero-Shot Object Navigation
+609	Navigation Explainability for Object Avoidance with LLMs for Assistive Robots
+602	Unified Whole-Body Control for Quadrupedal Tactile-Informed Loco-Manipulation
+599	LocoPilot Single-Operator Bilateral Teleoperation for Loco-Manipulation Policy Learning
+594	Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation
+581	Contact as a Decision Variable Capability-Tradeoff Contact Selection for Legged Loco-Manipulation
+555	CompCPZ Preserving Multi-Modal Intent in Language-Guided Robot Manipulation
+522	TAC-LOCO Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation
+511	Beyond Transformers Linear Attention Policy for Open-Vocabulary Object Goal Navigation
+443	Dynamic Legged Ball Manipulation on Rugged Terrains with Hierarchical Reinforcement Learning
+437	F2F-AP Flow-to-Future Asynchronous Policy for Real-time Dynamic Manipulation
+436	ANCHOR A Physically Grounded Closed-Loop Framework for Robust Home-Service Mobile Manipulation
+430	CMP Robust Whole-Body Tracking for Loco-Manipulation via Competence Manifold Projection
+425	AnchorVLA Anchored Diffusion for Efficient End-to-End Mobile Manipulation
+421	Learning Tactile-Aware Quadrupedal Loco-Manipulation Policies
+372	Safe Whole-Body Loco-Manipulation via Combined Model and Learning-based Control
+358	Stairway to Success An Online Floor-Aware Zero-Shot Object-Goal Navigation Framework via LLM-Driven Coarse-to-Fine Exploration
+355	User-Centric Object Navigation A Benchmark with Integrated User Habits for Personalized Embodied Object Search
+346	A Nonlinear MPC Framework for Loco-Manipulation of Quadrupedal Robots with Non-Negligible Manipulator Dynamics
+318	EdgeNavMamba Mamba-Optimized Object Detection for Energy-Efficient Edge Devices
+301	FALCON Actively Decoupled Visuomotor Policies for Loco-Manipulation with Foundation-Model-Based Coordination
+297	A Unified Framework to Learn Collision-Free Loco-Manipulation via Adversarial Motion Priors
+291	Schrodinger’s Navigator Imagining an Ensemble of Futures for Zero-Shot Object Navigation
+250	MLM ：Learning Multi-task Loco-Manipulation Whole-Body Control for Quadruped Robot with Arm
+232	LOVON Legged Open-Vocabulary Object Navigator
+228	Bipedalism for Quadrupedal Robots Versatile Loco-Manipulation through Risk-Adaptive Reinforcement Learning
+-	Helpful DoggyBot: Open-World Object Fetching using Legged Robots and Vision-Language Models
+##### control_mpc
+651	RecMorph Topology-Guided Spatial Recurrence for Generalized Morphology Control
+607	Weakly Supervised Discovery of Motion Styles for Compositional Robot Control
+470	Racing a Wheeled Quadruped Active Load Transfer Mitigation via Model Predictive Control
+428	Safe Large-Scale Robust Nonlinear MPC in Milliseconds via Reachability-Constrained System Level Synthesis on the GPU
+411	Safety-Critical Centralized Nonlinear MPC for Cooperative Payload Transportation by Two Quadrupedal Robots
+383	QuadFM Foundational Text-Driven Quadruped Motion Dataset for Generation and Control
+353	Bellman Value Decomposition for Task Logic in Safe Optimal Control
+321	Online Trajectory Optimization for Arbitrary-Shaped Mobile Robots via Polynomial Separating Hypersurfaces
+299	Impact of Robot Facial-Audio Expressions on Human Robot Trust Dynamics and Trust Repair
+264	Reference-Free Sampling-Based Model Predictive Control
+248	FR-Net ：Learning Robust Quadrupedal Fall Recovery on Challenging Terrains through Mass-Contact Prediction
+-	MODEL-BASED DIFFUSION SAMPLING FOR PREDICTIVE CONTROL IN OFFLINE DECISION MAKING
+-	further mitigates yaw drift through multi-contact geometric consistency and degrades gracefully to a
+-	Control the ARmada: LMM Coordination for Multi-Robot AR-HRC
+##### other
+605	A Model-Based Approach to Security Assessment of Robotic Systems in Healthcare The Case of a Quadruped Robot
+515	Unleashing Infinite Motion Scaling Expressive Quadrupedal Motion via Generative Video Priors
+482	High-Load-Density Electro-Permanent Magnetic Foot with Controllable Adhesion for Quadruped Wall-Climbing Robots
+426	RoboHaptics Designing Haptic Interactions for Lower Body withQuadruped Robot Dogs
+418	Will People Enjoy a Robot Trainer A Case Study with Snoopie the Pacerbot
+409	Who Let the Robot Dogs Out Digital Forensic Analysis of Quadruped Robot
+401	From Woofs to Words Towards Intelligent Robotic Guide Dogs with Verbal Communication
+399	Learning Quadruped Walking from Seconds of Demonstration
+382	MorFiC Fixing Value Miscalibration for Zero-Shot Quadruped Transfer
+348	Scaling Law of Neural Koopman Operators
+347	Evaluating Dynamic Surface Compensation for Robots with Projected AR
+296	Playing with Robots Performing Arts Techniques for Designingand Understanding Robot Group Movement
+246	A Geometric Method for Base Parameter Analysis in Robot Inertia Identification Based on Projective Geometric Algebra
+234	Hybrid ACO for Blockchain-Managed Robotic Swarms
+222	Autonomous operation of a robot dog for point-cloud data acquisition
+219	Fast and Cost-effective Speculative Edge-Cloud Decoding with Early Exits
+-	EDU) using closed-loop trajectories. On Astrall point-foot robot A, a ∼200 m horizontal loop and a
+-	publicly release the complete implementation (github.com/ShineMinxing/Ros2Go2Estimator.git) and the
+-	Milo, a Fully Autonomous Indoor/Outdoor Robotic Guide Dog

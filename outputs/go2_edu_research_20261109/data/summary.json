@@ -1,0 +1,70 @@
+{
+ "quadruped": {
+  "total": 666,
+  "primary": {
+   "manipulation": 78,
+   "humanoid": 13,
+   "vln_vla": 84,
+   "navigation": 143,
+   "locomotion_rl": 190,
+   "perception": 30,
+   "control_mpc": 43,
+   "hri_social": 5,
+   "multi_robot": 5,
+   "safety": 7,
+   "sim_benchmark": 5,
+   "hardware": 8,
+   "application": 2,
+   "other": 53
+  },
+  "tags": {
+   "locomotion_rl": 253,
+   "control_mpc": 173,
+   "navigation": 204,
+   "vln_vla": 95,
+   "perception": 134,
+   "manipulation": 78,
+   "humanoid": 29,
+   "hri_social": 17,
+   "multi_robot": 32,
+   "sim_benchmark": 33,
+   "safety": 94,
+   "hardware": 31,
+   "application": 13
+  }
+ },
+ "humanoid": {
+  "total": 632,
+  "primary": {
+   "manipulation": 141,
+   "humanoid": 335,
+   "vln_vla": 43,
+   "navigation": 12,
+   "locomotion_rl": 34,
+   "perception": 7,
+   "control_mpc": 11,
+   "hri_social": 3,
+   "multi_robot": 1,
+   "safety": 5,
+   "sim_benchmark": 3,
+   "hardware": 1,
+   "application": 0,
+   "other": 36
+  },
+  "tags": {
+   "locomotion_rl": 186,
+   "control_mpc": 181,
+   "navigation": 60,
+   "vln_vla": 106,
+   "perception": 123,
+   "manipulation": 141,
+   "humanoid": 433,
+   "hri_social": 43,
+   "multi_robot": 6,
+   "sim_benchmark": 38,
+   "safety": 69,
+   "hardware": 12,
+   "application": 8
+  }
+ }
+}

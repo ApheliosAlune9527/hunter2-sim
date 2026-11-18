@@ -1,0 +1,402 @@
+[
+ {
+  "id": "1pmKknqDL3FCc27krQdFTjtqJqCXoeag8",
+  "name": "1.Expressive Whole-Body Control for Humanoid Robots",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064941556,
+  "url": "https://drive.google.com/drive/folders/1pmKknqDL3FCc27krQdFTjtqJqCXoeag8"
+ },
+ {
+  "id": "1SRGM4IKIl5jBUR9MW9w6KEBLcQ_KGlZr",
+  "name": "2.Learning Human-to-Humanoid Real-Time Whole-Body Teleoperation",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942339,
+  "url": "https://drive.google.com/drive/folders/1SRGM4IKIl5jBUR9MW9w6KEBLcQ_KGlZr"
+ },
+ {
+  "id": "1-4n1bhrqKEH4es3VvRcAiHtSeC9SmJyB",
+  "name": "3.HumanoidBench：用于全身运动和操纵的模拟人形基准",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943014,
+  "url": "https://drive.google.com/drive/folders/1-4n1bhrqKEH4es3VvRcAiHtSeC9SmJyB"
+ },
+ {
+  "id": "1p8GzWeDflWDowm5Da7Few3cN66FF9r2h",
+  "name": "4.Humanoid Parkour Learning",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943397,
+  "url": "https://drive.google.com/drive/folders/1p8GzWeDflWDowm5Da7Few3cN66FF9r2h"
+ },
+ {
+  "id": "1Vou6klfXeeD9S_5xGQWxWhgu4OyhJNLJ",
+  "name": "5.OmniH2O ：Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943693,
+  "url": "https://drive.google.com/drive/folders/1Vou6klfXeeD9S_5xGQWxWhgu4OyhJNLJ"
+ },
+ {
+  "id": "1d8hntTeQ95rJM_jGPWncV9WuSiF4Janq",
+  "name": "6.HumanPlus： Humanoid Shadowing and Imitation from Humans",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943981,
+  "url": "https://drive.google.com/drive/folders/1d8hntTeQ95rJM_jGPWncV9WuSiF4Janq"
+ },
+ {
+  "id": "1EV4Hib9SrYjUFSzx8HzhEzr5yr0tiGxf",
+  "name": "7.Blind Walking Balance Control and Disturbance Rejection of the Bipedal Humanoid Robot Xiao-Man via Reinforcement Learning",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943985,
+  "url": "https://drive.google.com/drive/folders/1EV4Hib9SrYjUFSzx8HzhEzr5yr0tiGxf"
+ },
+ {
+  "id": "1zb0VRAgY_vjXu-pJEBJriKnX_PdfR-k7",
+  "name": "8.WoCoCo ：Learning Whole-Body Humanoid Control with Sequential Contacts",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943994,
+  "url": "https://drive.google.com/drive/folders/1zb0VRAgY_vjXu-pJEBJriKnX_PdfR-k7"
+ },
+ {
+  "id": "1bmwB8yTV7hdAVREYehoWByRjsRLWu0Te",
+  "name": "9.Open-TeleVision Teleoperation with Immersive Active Visual Feedback",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064944017,
+  "url": "https://drive.google.com/drive/folders/1bmwB8yTV7hdAVREYehoWByRjsRLWu0Te"
+ },
+ {
+  "id": "1bHPImKxATyYajtvGd9S5Ew_2mcge09B_",
+  "name": "10.Design and Control of a Bipedal Robotic Character",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064941632,
+  "url": "https://drive.google.com/drive/folders/1bHPImKxATyYajtvGd9S5Ew_2mcge09B_"
+ },
+ {
+  "id": "1fYlOEjcIcR6ziQGpyucJNeCOo55T4AcR",
+  "name": "11.SkillMimic： Learning Reusable Basketball Skills from Demonstrations",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064941747,
+  "url": "https://drive.google.com/drive/folders/1fYlOEjcIcR6ziQGpyucJNeCOo55T4AcR"
+ },
+ {
+  "id": "1dqIzaMEUp5uJjXX3w2cztdVjbqGARzrF",
+  "name": "12.ACE： A Cross-Platform Visual-Exoskeletons System for Low-Cost Dexterous Teleoperation",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064941791,
+  "url": "https://drive.google.com/drive/folders/1dqIzaMEUp5uJjXX3w2cztdVjbqGARzrF"
+ },
+ {
+  "id": "1MlFHgo8mlf1XYsiEixEQuWL0ZnliWRRQ",
+  "name": "13.BiGym：A Demo-Driven Mobile Bi-Manual Manipulation Benchmark",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064941807,
+  "url": "https://drive.google.com/drive/folders/1MlFHgo8mlf1XYsiEixEQuWL0ZnliWRRQ"
+ },
+ {
+  "id": "1EIsnJxr-BGMCMJmeabiV5-3i6UDiMhoM",
+  "name": "14.Learning Smooth Humanoid Locomotion through Lipschitz-Constrained Policies",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064941821,
+  "url": "https://drive.google.com/drive/folders/1EIsnJxr-BGMCMJmeabiV5-3i6UDiMhoM"
+ },
+ {
+  "id": "1T2V9shFp-2xrxwY5LMk9PTu8fFkSGM7N",
+  "name": "15.Learning Getting-Up Policies for Real-World Humanoid Robots",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064941926,
+  "url": "https://drive.google.com/drive/folders/1T2V9shFp-2xrxwY5LMk9PTu8fFkSGM7N"
+ },
+ {
+  "id": "1DNYaLEuG-_zIgoGTc9XrhC9Bi736R4Wk",
+  "name": "16.Learning Humanoid Standing-up Control across Diverse Postures",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942142,
+  "url": "https://drive.google.com/drive/folders/1DNYaLEuG-_zIgoGTc9XrhC9Bi736R4Wk"
+ },
+ {
+  "id": "1le9CZrpBypsX_BxlCmN4VSXrKZYm_4za",
+  "name": "17.SPARK ：A Modular Benchmark for Humanoid Robot Safety",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942195,
+  "url": "https://drive.google.com/drive/folders/1le9CZrpBypsX_BxlCmN4VSXrKZYm_4za"
+ },
+ {
+  "id": "10J6Xn6uY4qE_ogoAmj_RKyHL2rd7tTsC",
+  "name": "18.Dexterous Safe Control for Humanoids in Cluttered Environments via Projected Safe Set Algorithm",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942224,
+  "url": "https://drive.google.com/drive/folders/10J6Xn6uY4qE_ogoAmj_RKyHL2rd7tTsC"
+ },
+ {
+  "id": "1_zbTMRkENtkqL_Y6aOWmuEiMIJR5xbts",
+  "name": "19.ASAP：Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942256,
+  "url": "https://drive.google.com/drive/folders/1_zbTMRkENtkqL_Y6aOWmuEiMIJR5xbts"
+ },
+ {
+  "id": "1tQeWuOOHTOl4YjEq6m5aE9oyrd2bANQ_",
+  "name": "20.Continual Learning and Lifting of Koopman Dynamics for Linear Control of Legged Robots",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942377,
+  "url": "https://drive.google.com/drive/folders/1tQeWuOOHTOl4YjEq6m5aE9oyrd2bANQ_"
+ },
+ {
+  "id": "1YVfV5b3I64X6EceIoTWwez6ravOqe414",
+  "name": "21.GRUtopia Dream General Robots in a City at Scale",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942395,
+  "url": "https://drive.google.com/drive/folders/1YVfV5b3I64X6EceIoTWwez6ravOqe414"
+ },
+ {
+  "id": "1nzAX0X0aL7UAooDDoxzEwSVxcny1ufnz",
+  "name": "22. Humanoids in Hospitals A Technical Study of Humanoid Surrogates",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942463,
+  "url": "https://drive.google.com/drive/folders/1nzAX0X0aL7UAooDDoxzEwSVxcny1ufnz"
+ },
+ {
+  "id": "15LNJkgU1PrwcKfqHBPSi6rI0SIi8pMIq",
+  "name": "23. HOMIE Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942603,
+  "url": "https://drive.google.com/drive/folders/15LNJkgU1PrwcKfqHBPSi6rI0SIi8pMIq"
+ },
+ {
+  "id": "1vdN-bE48aZQ_5VFHOoPGabrzeSi4wYk-",
+  "name": "24. ExBody2 Advanced Expressive Humanoid Whole-Body Control",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942709,
+  "url": "https://drive.google.com/drive/folders/1vdN-bE48aZQ_5VFHOoPGabrzeSi4wYk-"
+ },
+ {
+  "id": "1oeWEjauzQ7CDacx0fJMmdpnUo4w10smI",
+  "name": "25. COMPASS Cross-embOdiment Mobility Policy via ResiduAl RL and Skill Synthesis",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942828,
+  "url": "https://drive.google.com/drive/folders/1oeWEjauzQ7CDacx0fJMmdpnUo4w10smI"
+ },
+ {
+  "id": "1c9KRvtbJMXqsfYC0QlHlZYL1nvRHVL7k",
+  "name": "26. HumanoidOlympics Sports Environments for Physically Simulated Humanoids",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942970,
+  "url": "https://drive.google.com/drive/folders/1c9KRvtbJMXqsfYC0QlHlZYL1nvRHVL7k"
+ },
+ {
+  "id": "1KpPnWa_0valuD-eZ397n5TkLSskIA5kv",
+  "name": "27. Post-Convergence Sim-to-Real Policy Transfer A Principled Alternative to Cherry-Picking",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942980,
+  "url": "https://drive.google.com/drive/folders/1KpPnWa_0valuD-eZ397n5TkLSskIA5kv"
+ },
+ {
+  "id": "1mc2bdSLYebvFc8txckKI4mmQpn-Rgt6u",
+  "name": "28. I-CTRL Imitation to Control Humanoid Robots Through Bounded Residual Reinforcement Learning",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064942986,
+  "url": "https://drive.google.com/drive/folders/1mc2bdSLYebvFc8txckKI4mmQpn-Rgt6u"
+ },
+ {
+  "id": "1Urx573r0J2452e-_ny0faEkyk9EIRora",
+  "name": "29. UMC Unified Resilient Controller for Legged Robots with Joint Malfunctions",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943008,
+  "url": "https://drive.google.com/drive/folders/1Urx573r0J2452e-_ny0faEkyk9EIRora"
+ },
+ {
+  "id": "1NtTzj9uaDZIQaE3ovHeNmtwsuMURXJf5",
+  "name": "30.VR-Robo A Real-to-Sim-to-Real Framework for Visual Robot Navigation and Locomotion",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943044,
+  "url": "https://drive.google.com/drive/folders/1NtTzj9uaDZIQaE3ovHeNmtwsuMURXJf5"
+ },
+ {
+  "id": "1pMEWfVViSmXUwdztUTmYfQ_rAr9HV7BL",
+  "name": "31. Guiding Collision-Free Humanoid Multi-Contact Locomotion using Convex Kinematic Relaxations and Dynamic Optimization",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943072,
+  "url": "https://drive.google.com/drive/folders/1pMEWfVViSmXUwdztUTmYfQ_rAr9HV7BL"
+ },
+ {
+  "id": "1QEwwAA9P5CzHa0oI64t0DeqvpsAEbtre",
+  "name": "32. Toward Task Generalization via Memory Augmentation in Meta-Reinforcement Learning",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943076,
+  "url": "https://drive.google.com/drive/folders/1QEwwAA9P5CzHa0oI64t0DeqvpsAEbtre"
+ },
+ {
+  "id": "1pXfpkouY7lG_L0PFmAojltegDiLSWdIa",
+  "name": "33. Physically Consistent Humanoid Loco-Manipulation using Latent Diffusion Models",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943079,
+  "url": "https://drive.google.com/drive/folders/1pXfpkouY7lG_L0PFmAojltegDiLSWdIa"
+ },
+ {
+  "id": "1xISmjHxvLw93KbSYtzRrUrbJQY_KDjun",
+  "name": "34. InterMimic Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943119,
+  "url": "https://drive.google.com/drive/folders/1xISmjHxvLw93KbSYtzRrUrbJQY_KDjun"
+ },
+ {
+  "id": "1XD8BiIVPvlq8QRtMm-9UWbIfXQQwC-6j",
+  "name": "35. Humanoid-VLA Towards Universal Humanoid Control with Visual Integration",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943192,
+  "url": "https://drive.google.com/drive/folders/1XD8BiIVPvlq8QRtMm-9UWbIfXQQwC-6j"
+ },
+ {
+  "id": "1hH_yOOQn9ym0VnzUGOgVgZb1wAQrWWnZ",
+  "name": "36. Variations of Augmented Lagrangian for Robotic Multi-Contact Simulation",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943196,
+  "url": "https://drive.google.com/drive/folders/1hH_yOOQn9ym0VnzUGOgVgZb1wAQrWWnZ"
+ },
+ {
+  "id": "1vQ-OBOpiAcFqwN9_0X1ik0FlDbTX2bg6",
+  "name": "37. Embrace Collisions Humanoid Shadowing for Deployable Contact-Agnostics Motions",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943227,
+  "url": "https://drive.google.com/drive/folders/1vQ-OBOpiAcFqwN9_0X1ik0FlDbTX2bg6"
+ },
+ {
+  "id": "1OWX7eBO9Ds2nmPlFR8Z3krXvG0nFET83",
+  "name": "38.Towards Dynamical Safety on Humanoids with Stochastic Controllers with",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943243,
+  "url": "https://drive.google.com/drive/folders/1OWX7eBO9Ds2nmPlFR8Z3krXvG0nFET83"
+ },
+ {
+  "id": "16BpMOh4aaX1k8m7AYYpmDlDL3GuL9bcN",
+  "name": "39. Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943245,
+  "url": "https://drive.google.com/drive/folders/16BpMOh4aaX1k8m7AYYpmDlDL3GuL9bcN"
+ },
+ {
+  "id": "18Ent6ahgIyEObF-t2EgzqJ_11r9fpH6V",
+  "name": "40. FALCON Learning Force-Adaptive Humanoid Loco-Manipulation",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943448,
+  "url": "https://drive.google.com/drive/folders/18Ent6ahgIyEObF-t2EgzqJ_11r9fpH6V"
+ },
+ {
+  "id": "1R9Sm6_q9yVZfU9FqSgMPqxlbgzFDaXtE",
+  "name": "41. StyleLoco Generative Adversarial Distillation for Natural Humanoid Robot Locomotion",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943470,
+  "url": "https://drive.google.com/drive/folders/1R9Sm6_q9yVZfU9FqSgMPqxlbgzFDaXtE"
+ },
+ {
+  "id": "1JehwjZvO4Vlevkfd8NoqLRxRbC6VwoiE",
+  "name": "42.Gait-Conditioned Reinforcement Learning with Multi-Phase Curriculum for Humanoid Locomotion",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943507,
+  "url": "https://drive.google.com/drive/folders/1JehwjZvO4Vlevkfd8NoqLRxRbC6VwoiE"
+ },
+ {
+  "id": "1Mg7g0LTNScYJQuFDwxZ-4TE2YueBsmWW",
+  "name": "43.AMO Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943524,
+  "url": "https://drive.google.com/drive/folders/1Mg7g0LTNScYJQuFDwxZ-4TE2YueBsmWW"
+ },
+ {
+  "id": "1BNzOnQ4VxA1O9KgndHUqGbCwo_gf2UDp",
+  "name": "44. LangWBC Language-directed Humanoid Whole-Body Control via End-to-end Learning",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943565,
+  "url": "https://drive.google.com/drive/folders/1BNzOnQ4VxA1O9KgndHUqGbCwo_gf2UDp"
+ },
+ {
+  "id": "1XY0WbxmfSc0yTZR8oORjS__WNiKK4BfU",
+  "name": "45.H2-COMPACT Human-Humanoid Co-Manipulation via Adaptive Contact Trajectory Policies",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943594,
+  "url": "https://drive.google.com/drive/folders/1XY0WbxmfSc0yTZR8oORjS__WNiKK4BfU"
+ },
+ {
+  "id": "1MsLBr9PDpZPjKTRWcv67wgA2PPiFR2hj",
+  "name": "46. HuB Learning Extreme Humanoid Balance",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1750064943633,
+  "url": "https://drive.google.com/drive/folders/1MsLBr9PDpZPjKTRWcv67wgA2PPiFR2hj"
+ },
+ {
+  "id": "1KdAtACK2WzkzIuPfB01zzbPoXajVjrl3",
+  "name": "47.KungfuBot Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1752065035921,
+  "url": "https://drive.google.com/drive/folders/1KdAtACK2WzkzIuPfB01zzbPoXajVjrl3"
+ },
+ {
+  "id": "1qvKtZArVfFBzkNo_jvARIP3ISbz4TirM",
+  "name": "48.Hierarchical Vision-Language Planning for Multi-Step Humanoid Manipulation",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1752065108589,
+  "url": "https://drive.google.com/drive/folders/1qvKtZArVfFBzkNo_jvARIP3ISbz4TirM"
+ },
+ {
+  "id": "19NZaL936_MrJQ1-xBGAlS6fX89Vy0pDf",
+  "name": "49.Preferenced Oracle Guided Multi-mode Policies for Dynamic Bipedal Loco-Manipulation",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1752065108589,
+  "url": "https://drive.google.com/drive/folders/19NZaL936_MrJQ1-xBGAlS6fX89Vy0pDf"
+ },
+ {
+  "id": "1wb_Jj6P4h4aGsFnj0TC_UNpm_siO1lzB",
+  "name": "50.DoublyAware Dual Planning and Policy Awareness for Temporal Difference Learning in Humanoid Locomotion",
+  "mime": "application/vnd.google-apps.folder",
+  "size": null,
+  "modified_ms": 1752065109009,
+  "url": "https://drive.google.com/drive/folders/1wb_Jj6P4h4aGsFnj0TC_UNpm_siO1lzB"
+ }
+]

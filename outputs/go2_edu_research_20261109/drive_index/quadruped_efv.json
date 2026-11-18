@@ -1,0 +1,3998 @@
+[
+ {
+  "id": "1zy1V2FpSTsvoLHhOPtYXdlQeiHmvCVhw",
+  "url": "https://drive.google.com/drive/folders/1zy1V2FpSTsvoLHhOPtYXdlQeiHmvCVhw",
+  "kind": "Folder",
+  "title": "1.Provably Stabilizing Controllers for Quadrupedal Robot Locomotion on Dynamic Rigid Platforms"
+ },
+ {
+  "id": "1G3UP-qyniQZpkgbTBp6sryoaGK1lwS8r",
+  "url": "https://drive.google.com/drive/folders/1G3UP-qyniQZpkgbTBp6sryoaGK1lwS8r",
+  "kind": "Folder",
+  "title": "10.Fast and Efficient Locomotion via Learned Gait Transitions"
+ },
+ {
+  "id": "111nILEQofEjMYiR-sdeOsFjOAR1R_ISa",
+  "url": "https://drive.google.com/drive/folders/111nILEQofEjMYiR-sdeOsFjOAR1R_ISa",
+  "kind": "Folder",
+  "title": "100.ViT-A Legged Robot Path Planning using Vision Transformer A"
+ },
+ {
+  "id": "1wDTWFqxrboeLOyjmr7pixriCXf6Dgd4_",
+  "url": "https://drive.google.com/drive/folders/1wDTWFqxrboeLOyjmr7pixriCXf6Dgd4_",
+  "kind": "Folder",
+  "title": "101.SYNLOCO： Synthesizing Central Pattern Generator and Reinforcement Learning for Quadruped Locomotion"
+ },
+ {
+  "id": "1D_wX1M9tzFFCXKZkdgnjOhwRxWXlL10C",
+  "url": "https://drive.google.com/drive/folders/1D_wX1M9tzFFCXKZkdgnjOhwRxWXlL10C",
+  "kind": "Folder",
+  "title": "102.DecAP ：Decaying Action Priors for Accelerated Learning of Torque-Based Legged Locomotion Policies"
+ },
+ {
+  "id": "1Kz0_HFCXBrelVBMe53mK2YwLvOleIc5k",
+  "url": "https://drive.google.com/drive/folders/1Kz0_HFCXBrelVBMe53mK2YwLvOleIc5k",
+  "kind": "Folder",
+  "title": "103.Hamilton-Jacobi Reachability Analysis for Hybrid Systems with Controlled and Forced Transitions"
+ },
+ {
+  "id": "1gAAKV1uyFhupmMsEfeUo59-dOXPH8IBs",
+  "url": "https://drive.google.com/drive/folders/1gAAKV1uyFhupmMsEfeUo59-dOXPH8IBs",
+  "kind": "Folder",
+  "title": "104.Learning Agile Locomotion and Adaptive Behaviors via RL-augmented MPC"
+ },
+ {
+  "id": "1G2QaP9ovwGq9HJE_qTcM5_uIj9k7qiKl",
+  "url": "https://drive.google.com/drive/folders/1G2QaP9ovwGq9HJE_qTcM5_uIj9k7qiKl",
+  "kind": "Folder",
+  "title": "105.Learning Vision-based Pursuit-Evasion Robot Policies"
+ },
+ {
+  "id": "1zbu1oKsVqukaSiBT0-wEU6qsSce7Bz1y",
+  "url": "https://drive.google.com/drive/folders/1zbu1oKsVqukaSiBT0-wEU6qsSce7Bz1y",
+  "kind": "Folder",
+  "title": "106.ARMP ：Autoregressive Motion Planning for Quadruped Locomotion and Navigation in Complex Indoor Environments"
+ },
+ {
+  "id": "1XUKSqMVPBioglqR00SVz_cwD17G7H_eg",
+  "url": "https://drive.google.com/drive/folders/1XUKSqMVPBioglqR00SVz_cwD17G7H_eg",
+  "kind": "Folder",
+  "title": "107.Learning a Single Policy for Diverse Behaviors on a Quadrupedal Robot using Scalable Motion Imitation"
+ },
+ {
+  "id": "15kByW968NUIGPgqEEyUXtvfSUeC3MNIz",
+  "url": "https://drive.google.com/drive/folders/15kByW968NUIGPgqEEyUXtvfSUeC3MNIz",
+  "kind": "Folder",
+  "title": "108.ManyQuadrupeds： Learning a Single Locomotion Policy for Diverse Quadruped Robots"
+ },
+ {
+  "id": "1QJzGVB5EqbKsJk1muPmQNHSNQYZHT3Vv",
+  "url": "https://drive.google.com/drive/folders/1QJzGVB5EqbKsJk1muPmQNHSNQYZHT3Vv",
+  "kind": "Folder",
+  "title": "109.Learning Agile Locomotion and Adaptive Behaviors via RL-augmented MPC"
+ },
+ {
+  "id": "1Hj_iuoVxxFR31x0taNM9yGj_Nx9tw-zV",
+  "url": "https://drive.google.com/drive/folders/1Hj_iuoVxxFR31x0taNM9yGj_Nx9tw-zV",
+  "kind": "Folder",
+  "title": "11.Distributed-force-feedback-basedreflex with onlinel earning for adaptive quadruped motorcontrol"
+ },
+ {
+  "id": "1Bx0GaVIFRs6GuNS0oBxUAYK5IlggsuyU",
+  "url": "https://drive.google.com/drive/folders/1Bx0GaVIFRs6GuNS0oBxUAYK5IlggsuyU",
+  "kind": "Folder",
+  "title": "110.Expanding Versatility of Agile Locomotion through Policy Transitions Using Latent State Representation"
+ },
+ {
+  "id": "1qPhOL0Q4ffVi0hJByIZy4R0iswDnvXh7",
+  "url": "https://drive.google.com/drive/folders/1qPhOL0Q4ffVi0hJByIZy4R0iswDnvXh7",
+  "kind": "Folder",
+  "title": "111.FT-Net ：Learning Failure Recovery and Fault-tolerant Locomotion For Quadruped Robots"
+ },
+ {
+  "id": "1pLAawixJDIQZu4F5JJIysi6RCneYNwag",
+  "url": "https://drive.google.com/drive/folders/1pLAawixJDIQZu4F5JJIysi6RCneYNwag",
+  "kind": "Folder",
+  "title": "112.Quadrupedal Footstep Planning using Learned Motion Models of a Black-Box Controller"
+ },
+ {
+  "id": "1OyqvCrNTdvLx_mv6l1jnmXgqNmPuAMK5",
+  "url": "https://drive.google.com/drive/folders/1OyqvCrNTdvLx_mv6l1jnmXgqNmPuAMK5",
+  "kind": "Folder",
+  "title": "113.Learning to See Physical Properties with Active Sensing Motor Policies"
+ },
+ {
+  "id": "1toXoWDHqxAu1DrxKk9nJoYEiJWo0vNJC",
+  "url": "https://drive.google.com/drive/folders/1toXoWDHqxAu1DrxKk9nJoYEiJWo0vNJC",
+  "kind": "Folder",
+  "title": "114.Generalized Animal Imitator： Agile Locomotion with Versatile Motion Prior"
+ },
+ {
+  "id": "1seqBNAao-q0Wx_NDwj4IcaX5I-Jwc34C",
+  "url": "https://drive.google.com/drive/folders/1seqBNAao-q0Wx_NDwj4IcaX5I-Jwc34C",
+  "kind": "Folder",
+  "title": "115.FT-Net： Learning Failure Recovery and Fault-Tolerant Locomotion for Quadruped Robots"
+ },
+ {
+  "id": "1M39r0HxyBwXk8etuU-wJt2SpoVgQHMsB",
+  "url": "https://drive.google.com/drive/folders/1M39r0HxyBwXk8etuU-wJt2SpoVgQHMsB",
+  "kind": "Folder",
+  "title": "116.Not Only Rewards But Also Constraints Applications on Legged Robot Locomotion"
+ },
+ {
+  "id": "1yfGfFzuMTUNGrB19fJ8ao2I3OA6RcejA",
+  "url": "https://drive.google.com/drive/folders/1yfGfFzuMTUNGrB19fJ8ao2I3OA6RcejA",
+  "kind": "Folder",
+  "title": "117.Tuning Legged Locomotion Controllers via Safe Bayesian Optimization"
+ },
+ {
+  "id": "1SJ00s96wFW2TWcKX5VsU9LFnfvk9tl3A",
+  "url": "https://drive.google.com/drive/folders/1SJ00s96wFW2TWcKX5VsU9LFnfvk9tl3A",
+  "kind": "Folder",
+  "title": "118.Hierarchical Optimization-based Control for Whole-body Loco-manipulation of Heavy Objects"
+ },
+ {
+  "id": "14HIpaTSii4Tq-tFVbQciGr8VHtwobZQr",
+  "url": "https://drive.google.com/drive/folders/14HIpaTSii4Tq-tFVbQciGr8VHtwobZQr",
+  "kind": "Folder",
+  "title": "119.DiPPeR ： Diffusion-based 2D Path Planner applied on Legged Robots"
+ },
+ {
+  "id": "1I94WuLofcRLv5NDo5CbItYEJPL-MZJYm",
+  "url": "https://drive.google.com/drive/folders/1I94WuLofcRLv5NDo5CbItYEJPL-MZJYm",
+  "kind": "Folder",
+  "title": "12.Zero-Shot Terrain Generalization for Visual Locomotion Policies"
+ },
+ {
+  "id": "1RkniJywWeH5W8QZuskgCS4j8MEP_rhVr",
+  "url": "https://drive.google.com/drive/folders/1RkniJywWeH5W8QZuskgCS4j8MEP_rhVr",
+  "kind": "Folder",
+  "title": "120.Adapt On-the-Go： Behavior Modulation for Single-Life Robot Deployment"
+ },
+ {
+  "id": "1y0lGluEgkhGl0p0Lhgl76HPdIosv0gNm",
+  "url": "https://drive.google.com/drive/folders/1y0lGluEgkhGl0p0Lhgl76HPdIosv0gNm",
+  "kind": "Folder",
+  "title": "121.Rethinking Sim2Real Lower Fidelity Simulation Leads to Higher Sim2Real Transfer in Navigation"
+ },
+ {
+  "id": "1Nu8Dti4dCr98bmeHRbCdlY7K192KJ1YH",
+  "url": "https://drive.google.com/drive/folders/1Nu8Dti4dCr98bmeHRbCdlY7K192KJ1YH",
+  "kind": "Folder",
+  "title": "122.Adaptive Control Strategy for Quadruped Robots in Actuator Degradation Scenarios"
+ },
+ {
+  "id": "1iIdOurzzgeGZalHCDvgZN2kv_6vWLcjS",
+  "url": "https://drive.google.com/drive/folders/1iIdOurzzgeGZalHCDvgZN2kv_6vWLcjS",
+  "kind": "Folder",
+  "title": "123.Hybrid Internal Model ：Learning Agile Legged Locomotion with Simulated Robot Response"
+ },
+ {
+  "id": "1W4bQuJKxqCr8i3q99sqAKYdxJCoSwLEV",
+  "url": "https://drive.google.com/drive/folders/1W4bQuJKxqCr8i3q99sqAKYdxJCoSwLEV",
+  "kind": "Folder",
+  "title": "124.Agile But Safe ：Learning Collision-Free High-Speed Legged Locomotion"
+ },
+ {
+  "id": "1hNb7JxIFt51DVYk2BH0NS41u7frXiV66",
+  "url": "https://drive.google.com/drive/folders/1hNb7JxIFt51DVYk2BH0NS41u7frXiV66",
+  "kind": "Folder",
+  "title": "125.Dexterous Legged Locomotion in Confined 3D Spaces with Reinforcement Learning"
+ },
+ {
+  "id": "1YdjN4Oc7uiZ0xk93Del6avlQL3u9we_o",
+  "url": "https://drive.google.com/drive/folders/1YdjN4Oc7uiZ0xk93Del6avlQL3u9we_o",
+  "kind": "Folder",
+  "title": "126.Curriculum-Based Reinforcement Learning for Quadrupedal Jumping： A Reference-free Design"
+ },
+ {
+  "id": "1vhuBd9IAIiam4NRcBf4qExgnXP3NzW_R",
+  "url": "https://drive.google.com/drive/folders/1vhuBd9IAIiam4NRcBf4qExgnXP3NzW_R",
+  "kind": "Folder",
+  "title": "127.DogSurf ：Quadruped Robot Capable of GRU-based Surface Recognition for Blind Person Navigation"
+ },
+ {
+  "id": "1Ne7I91o3a0A9jgyx3TwN8MqViSw3Iy1Z",
+  "url": "https://drive.google.com/drive/folders/1Ne7I91o3a0A9jgyx3TwN8MqViSw3Iy1Z",
+  "kind": "Folder",
+  "title": "128.CognitiveDog： Large Multimodal Model Based System to Translate Vision and Language into Action of Quadruped Robot"
+ },
+ {
+  "id": "1XijhBdN0CmEuIhDK_WApDCMBo78rSk-7",
+  "url": "https://drive.google.com/drive/folders/1XijhBdN0CmEuIhDK_WApDCMBo78rSk-7",
+  "kind": "Folder",
+  "title": "129.Expressive Whole-Body Control for Humanoid Robots"
+ },
+ {
+  "id": "1MgDNh2ZLP38keDgRC_vzPQO8IKRx4ldU",
+  "url": "https://drive.google.com/drive/folders/1MgDNh2ZLP38keDgRC_vzPQO8IKRx4ldU",
+  "kind": "Folder",
+  "title": "13.NeuralSim Augmenting Differentiable Simulators with Neural Networks"
+ },
+ {
+  "id": "1E8_5vG4gwWHJRagUf-wniI3z_ffwz9c7",
+  "url": "https://drive.google.com/drive/folders/1E8_5vG4gwWHJRagUf-wniI3z_ffwz9c7",
+  "kind": "Folder",
+  "title": "130.RL + Model-based Control：Using On-demand Optimal Control to Learn Versatile Legged Locomotion"
+ },
+ {
+  "id": "1KXLCl2HY3QBhcy8xF9DaWBBK0hRGSDWn",
+  "url": "https://drive.google.com/drive/folders/1KXLCl2HY3QBhcy8xF9DaWBBK0hRGSDWn",
+  "kind": "Folder",
+  "title": "131.Deep  Compliant Control for Legged Robots"
+ },
+ {
+  "id": "1Yb0pL00FggWVmHCLghxvnx4Mip8xQQi7",
+  "url": "https://drive.google.com/drive/folders/1Yb0pL00FggWVmHCLghxvnx4Mip8xQQi7",
+  "kind": "Folder",
+  "title": "132.ZSL-RPPO ：Zero-Shot Learning for Quadrupedal Locomotion in Challenging Terrains using Recurrent Proximal Policy Optimization"
+ },
+ {
+  "id": "1XaZxjWftSDQG-JyyANgAgNOCo8M4M372",
+  "url": "https://drive.google.com/drive/folders/1XaZxjWftSDQG-JyyANgAgNOCo8M4M372",
+  "kind": "Folder",
+  "title": "133.GAMMA ：Graspability-Aware Mobile MAnipulation Policy Learning based on Online Grasping Pose Fusion"
+ },
+ {
+  "id": "1NvHOSeL4dI_t3rjFp8j_YdXvjPD8VHLg",
+  "url": "https://drive.google.com/drive/folders/1NvHOSeL4dI_t3rjFp8j_YdXvjPD8VHLg",
+  "kind": "Folder",
+  "title": "134.MorAL： Learning Morphologically Adaptive Locomotion Controllerfor Quadruped on Challenging Terrain"
+ },
+ {
+  "id": "1DXy6Fs41LAd1yy7OL2gRv8Ddbc2Htyp9",
+  "url": "https://drive.google.com/drive/folders/1DXy6Fs41LAd1yy7OL2gRv8Ddbc2Htyp9",
+  "kind": "Folder",
+  "title": "135. Analytical solution to a time-varying LIP model for quadrupedal walking on a  vertically oscillating surface"
+ },
+ {
+  "id": "1-_oP2rUNzDCSy1Yi-pFnZSmQbQgSm0TO",
+  "url": "https://drive.google.com/drive/folders/1-_oP2rUNzDCSy1Yi-pFnZSmQbQgSm0TO",
+  "kind": "Folder",
+  "title": "136.Quadruped-Frog ：Rapid Online Optimization of Continuous Quadruped Jumping"
+ },
+ {
+  "id": "1gCulmPG_t-QlOEi2UzAVlXcSvgZPy0r6",
+  "url": "https://drive.google.com/drive/folders/1gCulmPG_t-QlOEi2UzAVlXcSvgZPy0r6",
+  "kind": "Folder",
+  "title": "137.Barrier Functions Inspired Reward Shaping for Reinforcement Learning"
+ },
+ {
+  "id": "1FFyXRLqvTe-Cq0kroEkjlDiOmw92kgD3",
+  "url": "https://drive.google.com/drive/folders/1FFyXRLqvTe-Cq0kroEkjlDiOmw92kgD3",
+  "kind": "Folder",
+  "title": "138.Learning Quadrupedal Locomotion with Impaired Joints Using Random Joint Masking"
+ },
+ {
+  "id": "1eHgZfYHm6UY-5hR_U_nH54wcEGV4MVK5",
+  "url": "https://drive.google.com/drive/folders/1eHgZfYHm6UY-5hR_U_nH54wcEGV4MVK5",
+  "kind": "Folder",
+  "title": "139.Learning Generalizable Feature Fields for Mobile Manipulation"
+ },
+ {
+  "id": "1LSaXIY8Yw57OY8eidVELfp88q_9F2sHw",
+  "url": "https://drive.google.com/drive/folders/1LSaXIY8Yw57OY8eidVELfp88q_9F2sHw",
+  "kind": "Folder",
+  "title": "14.From Pixels to Legs Hierarchical Learning of Quadruped Locomotion"
+ },
+ {
+  "id": "1URFiwQwSKEaLS1E0I51gl7lKFsHsuIGM",
+  "url": "https://drive.google.com/drive/folders/1URFiwQwSKEaLS1E0I51gl7lKFsHsuIGM",
+  "kind": "Folder",
+  "title": "140.Perceive With Confidence ：Statistical Safety Assurances for Navigation with Learning-Based Perception"
+ },
+ {
+  "id": "1jaz1_4n8_e4TnT2qC-4AZXblT57TMxfz",
+  "url": "https://drive.google.com/drive/folders/1jaz1_4n8_e4TnT2qC-4AZXblT57TMxfz",
+  "kind": "Folder",
+  "title": "141.Learning Safer Footstep Planning Policies for Legged Robots via Model-Based Priors"
+ },
+ {
+  "id": "1_30QbQhudE2UkHlWwZyqzd3yayzbGeCJ",
+  "url": "https://drive.google.com/drive/folders/1_30QbQhudE2UkHlWwZyqzd3yayzbGeCJ",
+  "kind": "Folder",
+  "title": "142.PA-LOCO： Learning Perturbation-Adaptive Locomotion for Quadruped Robots"
+ },
+ {
+  "id": "1Bk9LJt15DhhcsGSHP1PnZZIHs41qrWnx",
+  "url": "https://drive.google.com/drive/folders/1Bk9LJt15DhhcsGSHP1PnZZIHs41qrWnx",
+  "kind": "Folder",
+  "title": "143.Learning Force Control for Legged Manipulation"
+ },
+ {
+  "id": "1raxygBGDkhUFu-9GL5pTxv6EFJl-FFjN",
+  "url": "https://drive.google.com/drive/folders/1raxygBGDkhUFu-9GL5pTxv6EFJl-FFjN",
+  "kind": "Folder",
+  "title": "144.On the Benefits of GPU Sample-Based Stochastic  Predictive Controllers for Legged Locomotion"
+ },
+ {
+  "id": "1hmN_Q0hmgdVKtccGUCwsQpgKqEuN8dKR",
+  "url": "https://drive.google.com/drive/folders/1hmN_Q0hmgdVKtccGUCwsQpgKqEuN8dKR",
+  "kind": "Folder",
+  "title": "145"
+ },
+ {
+  "id": "1EAtTYpsX-NyDugWhY9TTK9123lVS7cUH",
+  "url": "https://drive.google.com/drive/folders/1EAtTYpsX-NyDugWhY9TTK9123lVS7cUH",
+  "kind": "Folder",
+  "title": "146.LocoMan ：Advancing Versatile Quadrupedal Dexterity with Lightweight Loco-Manipulators"
+ },
+ {
+  "id": "1LDjJYlUOzP6UpQv4vVe3V3iawr4Zzj1V",
+  "url": "https://drive.google.com/drive/folders/1LDjJYlUOzP6UpQv4vVe3V3iawr4Zzj1V",
+  "kind": "Folder",
+  "title": "147.Slip Detection and Recovery for Quadruped Robots via Hybrid Position Force Control"
+ },
+ {
+  "id": "1ceZ5NzwPDCfqFUeuFsjAjYscdyp5aOKO",
+  "url": "https://drive.google.com/drive/folders/1ceZ5NzwPDCfqFUeuFsjAjYscdyp5aOKO",
+  "kind": "Folder",
+  "title": "148.Adaptive Energy Regularization for Autonomous Gait Transition and Energy-Efficient Quadruped Locomotion"
+ },
+ {
+  "id": "1OApyLy6CwSY34rx6vtVr68St7iF8wYD3",
+  "url": "https://drive.google.com/drive/folders/1OApyLy6CwSY34rx6vtVr68St7iF8wYD3",
+  "kind": "Folder",
+  "title": "149.Sailing Through Point Clouds： Safe Navigation Using Point Cloud Based Control Barrier Functions"
+ },
+ {
+  "id": "16YJZM7BZl_auamioS1gBQyNYgpXuqgcE",
+  "url": "https://drive.google.com/drive/folders/16YJZM7BZl_auamioS1gBQyNYgpXuqgcE",
+  "kind": "Folder",
+  "title": "15.SimGAN Hybrid simulator identification for domain adaptation via adversarial RL"
+ },
+ {
+  "id": "1b2L48QnWpAuEjigqsjMZxGX0OdUyVZHc",
+  "url": "https://drive.google.com/drive/folders/1b2L48QnWpAuEjigqsjMZxGX0OdUyVZHc",
+  "kind": "Folder",
+  "title": "150.Viability Leads to the Emergence of Gait Transitions in Learning Agile Quadrupedal Locomotion on Challenging Terrains"
+ },
+ {
+  "id": "1XAJJnWQMI622hraQdM7IuTELsLz2DFKR",
+  "url": "https://drive.google.com/drive/folders/1XAJJnWQMI622hraQdM7IuTELsLz2DFKR",
+  "kind": "Folder",
+  "title": "151.Sound Matters ：Auditory Detectability of Mobile Robots"
+ },
+ {
+  "id": "1BdGZn5EyzVVqeV1FdpgmtkegWjidd6iS",
+  "url": "https://drive.google.com/drive/folders/1BdGZn5EyzVVqeV1FdpgmtkegWjidd6iS",
+  "kind": "Folder",
+  "title": "152.Simultaneous State Estimation and Contact Detection for Legged Robots by Multiple-Model Kalman Filtering"
+ },
+ {
+  "id": "1Xdid3dnClUtm4oS4dDR39T8EYppFSdl4",
+  "url": "https://drive.google.com/drive/folders/1Xdid3dnClUtm4oS4dDR39T8EYppFSdl4",
+  "kind": "Folder",
+  "title": "153.Spatio-Temporal Motion Retargeting for Quadruped Robots"
+ },
+ {
+  "id": "1FBoSAOIBHkpyeG5oxGRXVW6Zf6r-rs5u",
+  "url": "https://drive.google.com/drive/folders/1FBoSAOIBHkpyeG5oxGRXVW6Zf6r-rs5u",
+  "kind": "Folder",
+  "title": "154.Optimization-Based Reference Generator for Nonlinear Model Predictive Control of Legged Robots"
+ },
+ {
+  "id": "1ZEEz4NtJBttmS2A9qgtMox-wt-43v4__",
+  "url": "https://drive.google.com/drive/folders/1ZEEz4NtJBttmS2A9qgtMox-wt-43v4__",
+  "kind": "Folder",
+  "title": "155.Learning H-Infinity Locomotion Control"
+ },
+ {
+  "id": "136UtUhj8GQHQF_SmPETz6kZ5386HdEzG",
+  "url": "https://drive.google.com/drive/folders/136UtUhj8GQHQF_SmPETz6kZ5386HdEzG",
+  "kind": "Folder",
+  "title": "156.Hybrid Dynamics Modeling and Trajectory Planning for a Cable-Trailer System with a Quadruped Robot"
+ },
+ {
+  "id": "1B_rBkhK2AywM-9rs1fFYGIgakx88ifA5",
+  "url": "https://drive.google.com/drive/folders/1B_rBkhK2AywM-9rs1fFYGIgakx88ifA5",
+  "kind": "Folder",
+  "title": "157.HT-LIP Model based Robust Control of Quadrupedal Robot Locomotion under Unknown Vertical Ground Motion"
+ },
+ {
+  "id": "15ZY_emK-80xoxPN7Z_gZ08YdoHRt-CH0",
+  "url": "https://drive.google.com/drive/folders/15ZY_emK-80xoxPN7Z_gZ08YdoHRt-CH0",
+  "kind": "Folder",
+  "title": "158.Learning Visual Quadrupedal Loco-Manipulation from Demonstrations"
+ },
+ {
+  "id": "162wsON3BqsNdu_ZVmaP30NkH7INxl5u3",
+  "url": "https://drive.google.com/drive/folders/162wsON3BqsNdu_ZVmaP30NkH7INxl5u3",
+  "kind": "Folder",
+  "title": "159.DrEureka：Language Model Guided Sim-To-Real Transfer"
+ },
+ {
+  "id": "1iYRoIKH7DOuATD0XvPQnehAEUkfh1RNd",
+  "url": "https://drive.google.com/drive/folders/1iYRoIKH7DOuATD0XvPQnehAEUkfh1RNd",
+  "kind": "Folder",
+  "title": "16.Protective Policy Transfer"
+ },
+ {
+  "id": "1kTHPIJPcJ2M5YautgtiU3ZAYofzyKE57",
+  "url": "https://drive.google.com/drive/folders/1kTHPIJPcJ2M5YautgtiU3ZAYofzyKE57",
+  "kind": "Folder",
+  "title": "160.CrossLoco ：Human Motion Driven Control of Legged Robots via Guided Unsupervised Reinforcement Learning"
+ },
+ {
+  "id": "1Ttbua8L2hzmJqkGNJbxqTr40BGahBQjP",
+  "url": "https://drive.google.com/drive/folders/1Ttbua8L2hzmJqkGNJbxqTr40BGahBQjP",
+  "kind": "Folder",
+  "title": "161.FootVision ：A Vision-Based Multi-FunctionalSensorized Foot for Quadruped Robots"
+ },
+ {
+  "id": "1g9IIQiiVvTS-R-VFWNN4TABhhWoFPXn4",
+  "url": "https://drive.google.com/drive/folders/1g9IIQiiVvTS-R-VFWNN4TABhhWoFPXn4",
+  "kind": "Folder",
+  "title": "162.Visual Whole-Body Control for  Legged Loco-Manipulation"
+ },
+ {
+  "id": "17aI7CcnVCXs42P21no-d9Dnut_f9CgeJ",
+  "url": "https://drive.google.com/drive/folders/17aI7CcnVCXs42P21no-d9Dnut_f9CgeJ",
+  "kind": "Folder",
+  "title": "163.Quadruped robot traversing 3D complex environments with limited perception"
+ },
+ {
+  "id": "1Qy93ht_oRhjlp9M6C1bnI3xKMaeewLvk",
+  "url": "https://drive.google.com/drive/folders/1Qy93ht_oRhjlp9M6C1bnI3xKMaeewLvk",
+  "kind": "Folder",
+  "title": "164.Predictive Control with Indirect Adaptive Laws for Payload Transportation by Quadrupedal Robots"
+ },
+ {
+  "id": "1bEteCNdoLqNu8OXwpa0ECkhv5JcNGiOe",
+  "url": "https://drive.google.com/drive/folders/1bEteCNdoLqNu8OXwpa0ECkhv5JcNGiOe",
+  "kind": "Folder",
+  "title": "165.Fast Decentralized State Estimation for Legged Robot Locomotion via EKF and MHE"
+ },
+ {
+  "id": "1fM3734_z8B4TMnq28OgkP92sKNW4qO09",
+  "url": "https://drive.google.com/drive/folders/1fM3734_z8B4TMnq28OgkP92sKNW4qO09",
+  "kind": "Folder",
+  "title": "166.Robust Convex Model Predictive Control for Quadruped Locomotion under Uncertainties"
+ },
+ {
+  "id": "16IRqUHzApibYI_pzGP0gkBiBEKxjUxNb",
+  "url": "https://drive.google.com/drive/folders/16IRqUHzApibYI_pzGP0gkBiBEKxjUxNb",
+  "kind": "Folder",
+  "title": "167.Observer-based Distributed MPC for Collaborative Quadrotor-Quadruped Manipulation of a Cable-Towed Load"
+ },
+ {
+  "id": "1oUfUwrh63l_3oTSq2wjFVfRvA1GDyyme",
+  "url": "https://drive.google.com/drive/folders/1oUfUwrh63l_3oTSq2wjFVfRvA1GDyyme",
+  "kind": "Folder",
+  "title": "168.Learning Efficient and Robust Multi-Modal Quadruped Locomotion：A Hierarchical Approach"
+ },
+ {
+  "id": "1KHWMPSZF6v7S6xPdNzNDZ1Hn8G_mYIPF",
+  "url": "https://drive.google.com/drive/folders/1KHWMPSZF6v7S6xPdNzNDZ1Hn8G_mYIPF",
+  "kind": "Folder",
+  "title": "169.Distributed Model Predictive Formation Control with Gait Synchronization for Multiple Quadruped Robots"
+ },
+ {
+  "id": "1M3iW7YfDLtepRmWYURQvKUy0zF2N7mNT",
+  "url": "https://drive.google.com/drive/folders/1M3iW7YfDLtepRmWYURQvKUy0zF2N7mNT",
+  "kind": "Folder",
+  "title": "17.Learning Visual-Locomotion Policies that Generalize to Diverse Environments"
+ },
+ {
+  "id": "1Innotf2w3HMQiAdVsd8-eSZCFJkPfw7v",
+  "url": "https://drive.google.com/drive/folders/1Innotf2w3HMQiAdVsd8-eSZCFJkPfw7v",
+  "kind": "Folder",
+  "title": "170.Optimal Prescribed-Time Control based Reactive Planning System for Quadruped Robot Navigation"
+ },
+ {
+  "id": "1QROn207OD6zHwU0vzn8O504KyhbaRRMj",
+  "url": "https://drive.google.com/drive/folders/1QROn207OD6zHwU0vzn8O504KyhbaRRMj",
+  "kind": "Folder",
+  "title": "171.Learning-based legged locomotion; state of the art and future perspectives"
+ },
+ {
+  "id": "1YsVLlJrSHoLl7daZzGkcsKy5PLK-vAKv",
+  "url": "https://drive.google.com/drive/folders/1YsVLlJrSHoLl7daZzGkcsKy5PLK-vAKv",
+  "kind": "Folder",
+  "title": "172.Panoptic-SLAM ：Visual SLAM in Dynamic Environments using Panoptic Segmentation"
+ },
+ {
+  "id": "1XGWvd9z4eJG-CiUtnVdDtJm0L2hwDrWv",
+  "url": "https://drive.google.com/drive/folders/1XGWvd9z4eJG-CiUtnVdDtJm0L2hwDrWv",
+  "kind": "Folder",
+  "title": "173.Learning Bipedal Walking on a Quadruped Robot via Adversarial Motion Priors"
+ },
+ {
+  "id": "1MJwRTzgVrp9B0f1ueJy3KxQ2-_Hn7PSu",
+  "url": "https://drive.google.com/drive/folders/1MJwRTzgVrp9B0f1ueJy3KxQ2-_Hn7PSu",
+  "kind": "Folder",
+  "title": "174..Learning Safe Locomotion for Quadrupedal Robots by Derived-Action Optimization"
+ },
+ {
+  "id": "1J9N9DJ5PgxuP0wuJLJm-8KuL-yJdX2uE",
+  "url": "https://drive.google.com/drive/folders/1J9N9DJ5PgxuP0wuJLJm-8KuL-yJdX2uE",
+  "kind": "Folder",
+  "title": "175.UMI on Legs： Making Manipulation Policies Mobile with Manipulation-Centric Whole-body Controllers"
+ },
+ {
+  "id": "1KNuT_42Qeo7w16T4FIN4AcwHIvIfGi9c",
+  "url": "https://drive.google.com/drive/folders/1KNuT_42Qeo7w16T4FIN4AcwHIvIfGi9c",
+  "kind": "Folder",
+  "title": "176.A learning-based control pipeline for generic motor skills for quadruped robots"
+ },
+ {
+  "id": "1Cm5Wj-2Y0PnhVzaauGgbjJ_6jBpLZ25E",
+  "url": "https://drive.google.com/drive/folders/1Cm5Wj-2Y0PnhVzaauGgbjJ_6jBpLZ25E",
+  "kind": "Folder",
+  "title": "177.VERO ：A vacuum-cleaner-equipped quadruped robot for efficient litter removal"
+ },
+ {
+  "id": "15VETU6GisYiwDNcH6t5TX6_LT9vg8W24",
+  "url": "https://drive.google.com/drive/folders/15VETU6GisYiwDNcH6t5TX6_LT9vg8W24",
+  "kind": "Folder",
+  "title": "178.Cross Anything ：General Quadruped Robot Navigation through Complex Terrains"
+ },
+ {
+  "id": "1P_m0fojZPHCPVWIvYVhAsdLCbRzoVBxZ",
+  "url": "https://drive.google.com/drive/folders/1P_m0fojZPHCPVWIvYVhAsdLCbRzoVBxZ",
+  "kind": "Folder",
+  "title": "179.Learning-Based Roller Skating for Quadruped Robots Using Passive Wheels"
+ },
+ {
+  "id": "1RZrIZYaSpTC0tKXb7XCMiS0d44MnXXzK",
+  "url": "https://drive.google.com/drive/folders/1RZrIZYaSpTC0tKXb7XCMiS0d44MnXXzK",
+  "kind": "Folder",
+  "title": "18.RMA Rapid Motor Adaptation for Legged Robots"
+ },
+ {
+  "id": "1r5FYsXLOwMsas3oq81BLlbjGoRgHGSuX",
+  "url": "https://drive.google.com/drive/folders/1r5FYsXLOwMsas3oq81BLlbjGoRgHGSuX",
+  "kind": "Folder",
+  "title": "180.Multi-Contact Inertial Estimation and Localization in Legged Robots"
+ },
+ {
+  "id": "1yWJOwBKYfIff5zfcinvWkTBE7BQ-I4Zq",
+  "url": "https://drive.google.com/drive/folders/1yWJOwBKYfIff5zfcinvWkTBE7BQ-I4Zq",
+  "kind": "Folder",
+  "title": "181.Commonsense Reasoning for Legged Robot Adaptation with Vision-Language Models"
+ },
+ {
+  "id": "187Hgp-eMpBhasQut0BNBtKIfUgN_Jjbd",
+  "url": "https://drive.google.com/drive/folders/187Hgp-eMpBhasQut0BNBtKIfUgN_Jjbd",
+  "kind": "Folder",
+  "title": "182.Grow Your Limits： Continuous Improvement with Real-World RL for Robotic Locomotion"
+ },
+ {
+  "id": "1xwYGfmGCTCfbyN-EMXCeWxxVglGcTMkC",
+  "url": "https://drive.google.com/drive/folders/1xwYGfmGCTCfbyN-EMXCeWxxVglGcTMkC",
+  "kind": "Folder",
+  "title": "183.Accelerating Model Predictive Control for Legged Robots through Distributed Optimization"
+ },
+ {
+  "id": "1AzSpM7HTvpzGb2QN4dNRrl1OzNzebPx7",
+  "url": "https://drive.google.com/drive/folders/1AzSpM7HTvpzGb2QN4dNRrl1OzNzebPx7",
+  "kind": "Folder",
+  "title": "184.PACC： A Passive-Arm Approach for High-Payload Collaborative Carrying with Quadruped Robots Using Model Predictive Control"
+ },
+ {
+  "id": "1QFDiUfy02dS-jEEo3qrknVPdv4X4NSK9",
+  "url": "https://drive.google.com/drive/folders/1QFDiUfy02dS-jEEo3qrknVPdv4X4NSK9",
+  "kind": "Folder",
+  "title": "185.Safety Probability Estimation in Dimension Reduction Space for Model-Free Safe-RL of Robotics"
+ },
+ {
+  "id": "1ice_ifQjdPzSjjYtdY7TpTCdW66f1YYW",
+  "url": "https://drive.google.com/drive/folders/1ice_ifQjdPzSjjYtdY7TpTCdW66f1YYW",
+  "kind": "Folder",
+  "title": "186.Auto-Tuning of Controller and Online Trajectory Planner for Legged Robots"
+ },
+ {
+  "id": "1tz_23VkSAi-OIhzCddLLQm0DkoOZHgpP",
+  "url": "https://drive.google.com/drive/folders/1tz_23VkSAi-OIhzCddLLQm0DkoOZHgpP",
+  "kind": "Folder",
+  "title": "187.Robust Robot Walker ：Learning Agile Locomotion over Tiny Traps"
+ },
+ {
+  "id": "1vVBl_LBrd63BorLoAr9tclH2PhPa2cC2",
+  "url": "https://drive.google.com/drive/folders/1vVBl_LBrd63BorLoAr9tclH2PhPa2cC2",
+  "kind": "Folder",
+  "title": "188.Agile Continuous Jumping in Discontinuous Terrains"
+ },
+ {
+  "id": "13VOcnhagYHmHqRhnesmCfPyWCYqA4Lbn",
+  "url": "https://drive.google.com/drive/folders/13VOcnhagYHmHqRhnesmCfPyWCYqA4Lbn",
+  "kind": "Folder",
+  "title": "189.Full-Order Sampling-Based MPC for Torque-Level Locomotion Control via Diffusion-Style Annealing"
+ },
+ {
+  "id": "1Juk1p1JIQipRr2w-8ZoHNuDmsjpMbE0t",
+  "url": "https://drive.google.com/drive/folders/1Juk1p1JIQipRr2w-8ZoHNuDmsjpMbE0t",
+  "kind": "Folder",
+  "title": "19.Learning a Contact-Adaptive Controller for Robust Efficient Legged Locomotion"
+ },
+ {
+  "id": "1anH7nhXbFn0PE97WoNsHfGhb_9Rj8CZT",
+  "url": "https://drive.google.com/drive/folders/1anH7nhXbFn0PE97WoNsHfGhb_9Rj8CZT",
+  "kind": "Folder",
+  "title": "190.Open source SLAM based on L1 radar on Unitree Go2"
+ },
+ {
+  "id": "1xHbQqBaZTfRjye3Hez_E2iqa007p6apb",
+  "url": "https://drive.google.com/drive/folders/1xHbQqBaZTfRjye3Hez_E2iqa007p6apb",
+  "kind": "Folder",
+  "title": "191.SARO： Space-Aware Robot System for Terrain Crossing via Vision-Language Model"
+ },
+ {
+  "id": "1tsOes3gi2w9AblCvuKOo4xGvSTATbcU1",
+  "url": "https://drive.google.com/drive/folders/1tsOes3gi2w9AblCvuKOo4xGvSTATbcU1",
+  "kind": "Folder",
+  "title": "192.Stage-Wise Reward Shaping for Acrobatic Robots：A Constrained Multi-Objective Reinforcement Learning Approach"
+ },
+ {
+  "id": "1uYLsvVm1qGbW8ISVQ8RZWj7gBnbPvnm3",
+  "url": "https://drive.google.com/drive/folders/1uYLsvVm1qGbW8ISVQ8RZWj7gBnbPvnm3",
+  "kind": "Folder",
+  "title": "193.Neural Circuit Architectural Priors for Quadruped Locomotion"
+ },
+ {
+  "id": "17GnanJ0UvU43lg9xNYYb4dh_rJh0zv3a",
+  "url": "https://drive.google.com/drive/folders/17GnanJ0UvU43lg9xNYYb4dh_rJh0zv3a",
+  "kind": "Folder",
+  "title": "194.RobotKeyframing： Learning Locomotion with High-Level Objectives via Mixture of Dense and Sparse Rewards"
+ },
+ {
+  "id": "1Z5O2aWlSN6rdtcUTmB_jMJPMOG1xhpg5",
+  "url": "https://drive.google.com/drive/folders/1Z5O2aWlSN6rdtcUTmB_jMJPMOG1xhpg5",
+  "kind": "Folder",
+  "title": "195.Simultaneous Ground Reaction Force and State Estimation via Constrained Moving Horizon Estimation"
+ },
+ {
+  "id": "1PBQ0O1WkUEnuPx8W-t_l_F4s6Aq_zIMU",
+  "url": "https://drive.google.com/drive/folders/1PBQ0O1WkUEnuPx8W-t_l_F4s6Aq_zIMU",
+  "kind": "Folder",
+  "title": "196.Robust State Estimation for Legged Robots with Dual Beta Kalman Filter"
+ },
+ {
+  "id": "14j16qJ_wnmP_qD2ww6zmsbFJ-GhjslNv",
+  "url": "https://drive.google.com/drive/folders/14j16qJ_wnmP_qD2ww6zmsbFJ-GhjslNv",
+  "kind": "Folder",
+  "title": "197.Chance-Constrained Convex MPC for Robust Quadruped Locomotion Under Parametric and Additive Uncertainties"
+ },
+ {
+  "id": "1mg37G65uKcrNdWhFxH5bhsywuB4-UoXr",
+  "url": "https://drive.google.com/drive/folders/1mg37G65uKcrNdWhFxH5bhsywuB4-UoXr",
+  "kind": "Folder",
+  "title": "198.ANAVI ：Audio Noise Awareness using Visuals of Indoor environments for NAVIgation"
+ },
+ {
+  "id": "1OwPCEoSD3LAQINt489nZ0UZ9ljqf8W1Y",
+  "url": "https://drive.google.com/drive/folders/1OwPCEoSD3LAQINt489nZ0UZ9ljqf8W1Y",
+  "kind": "Folder",
+  "title": "199.Online Optimization of Central Pattern Generators for Quadruped Locomotion"
+ },
+ {
+  "id": "1AJ8CXJY_sKNziQ-mW5c2KAQgVYHi3s1W",
+  "url": "https://drive.google.com/drive/folders/1AJ8CXJY_sKNziQ-mW5c2KAQgVYHi3s1W",
+  "kind": "Folder",
+  "title": "2.Building an Intelligent Robot Dog with the NVIDIA Isaac SDK _ NVIDIA Developer Blog"
+ },
+ {
+  "id": "1CDenDCrt1CioFba9ysulZrLv9LwN8cMk",
+  "url": "https://drive.google.com/drive/folders/1CDenDCrt1CioFba9ysulZrLv9LwN8cMk",
+  "kind": "Folder",
+  "title": "20.Hierarchical and Nonlinear Control Algorithms for Robust Quadrupedal Locomotion"
+ },
+ {
+  "id": "1DsYzVeWtCPohP43C0vAG9JJ3Y7arE7i2",
+  "url": "https://drive.google.com/drive/folders/1DsYzVeWtCPohP43C0vAG9JJ3Y7arE7i2",
+  "kind": "Folder",
+  "title": "200.Jailbreaking LLM-Controlled Robots"
+ },
+ {
+  "id": "1UveTghDAEZs2b40ZemAdJaTgLZ3gs8pv",
+  "url": "https://drive.google.com/drive/folders/1UveTghDAEZs2b40ZemAdJaTgLZ3gs8pv",
+  "kind": "Folder",
+  "title": "201.Preference Aligned Diffusion Planner for Quadrupedal Locomotion Control"
+ },
+ {
+  "id": "1w9WI5wdhZszzae3AJ580W6pIAdVNoOda",
+  "url": "https://drive.google.com/drive/folders/1w9WI5wdhZszzae3AJ580W6pIAdVNoOda",
+  "kind": "Folder",
+  "title": "202.NaVILA： Legged Robot Vision-Language-Action Model for Navigation"
+ },
+ {
+  "id": "1RrZaIHSNzsEmzDAUg-nOayDHOUhcXTHd",
+  "url": "https://drive.google.com/drive/folders/1RrZaIHSNzsEmzDAUg-nOayDHOUhcXTHd",
+  "kind": "Folder",
+  "title": "203.NVILA： Efficient Frontier Visual Language Models"
+ },
+ {
+  "id": "1hb6Pt4xZVxQjnB3oFcVXFFIsL7ayKmn2",
+  "url": "https://drive.google.com/drive/folders/1hb6Pt4xZVxQjnB3oFcVXFFIsL7ayKmn2",
+  "kind": "Folder",
+  "title": "204.Discovery of skill switching criteria for learning agile quadruped locomotion"
+ },
+ {
+  "id": "1qsbWwn2_25HYxjrXOVDOtJ9Su6eS5AIW",
+  "url": "https://drive.google.com/drive/folders/1qsbWwn2_25HYxjrXOVDOtJ9Su6eS5AIW",
+  "kind": "Folder",
+  "title": "205.Benchmarking Model Predictive Control and Reinforcement Learning Based Control for Legged Robot Locomotion in MuJoCo Simulation"
+ },
+ {
+  "id": "1uURl8GFvCQt_lhT4Q3NEcXfhl2T2Nk1Q",
+  "url": "https://drive.google.com/drive/folders/1uURl8GFvCQt_lhT4Q3NEcXfhl2T2Nk1Q",
+  "kind": "Folder",
+  "title": "206.SLIM： Sim-to-Real Legged Instructive Manipulation via Long-Horizon Visuomotor Learning"
+ },
+ {
+  "id": "1IfgCaqesPNeiN0g7pki-l6PqO4ZIjG8F",
+  "url": "https://drive.google.com/drive/folders/1IfgCaqesPNeiN0g7pki-l6PqO4ZIjG8F",
+  "kind": "Folder",
+  "title": "207.One Filter to Deploy Them All Robust Safety for Quadrupedal Navigation in Unknown Environments"
+ },
+ {
+  "id": "18xemgF3PvvDq52F7tu7dD-6Z3xGjcYAc",
+  "url": "https://drive.google.com/drive/folders/18xemgF3PvvDq52F7tu7dD-6Z3xGjcYAc",
+  "kind": "Folder",
+  "title": "208.GainAdaptor： Learning Quadrupedal Locomotion with Dual Actors for Adaptable and Energy-Efficient Walking on Various Terrains"
+ },
+ {
+  "id": "12Pac7m9Yc7B-b8g5xuhTyec312i6NuAa",
+  "url": "https://drive.google.com/drive/folders/12Pac7m9Yc7B-b8g5xuhTyec312i6NuAa",
+  "kind": "Folder",
+  "title": "209.Ask1： Development and Reinforcement Learning-Based Control of a Custom Quadruped Robot"
+ },
+ {
+  "id": "132rH7Tne7GRcGP25tW6uxv4NGbRJ6daf",
+  "url": "https://drive.google.com/drive/folders/132rH7Tne7GRcGP25tW6uxv4NGbRJ6daf",
+  "kind": "Folder",
+  "title": "21.Perceptive Autonomous Stair Climbing for Quadrupedal Robots"
+ },
+ {
+  "id": "1o4BOvp0lzuaW0sSI-wB2Wf2VSNyjNrZN",
+  "url": "https://drive.google.com/drive/folders/1o4BOvp0lzuaW0sSI-wB2Wf2VSNyjNrZN",
+  "kind": "Folder",
+  "title": "210.Evaluation of the Energy Consumption of a Mobile"
+ },
+ {
+  "id": "1FnAfnd8SVb0u5i3RMZejyJ76CBCC7FsY",
+  "url": "https://drive.google.com/drive/folders/1FnAfnd8SVb0u5i3RMZejyJ76CBCC7FsY",
+  "kind": "Folder",
+  "title": "211.Enabling Navigation and Mission-Based Control on a Low-Cost Unitree Go1 Air Quadrupedal Robot"
+ },
+ {
+  "id": "1zR0-wSsx7QLKWVlyheG-cvc9kQV1SwMX",
+  "url": "https://drive.google.com/drive/folders/1zR0-wSsx7QLKWVlyheG-cvc9kQV1SwMX",
+  "kind": "Folder",
+  "title": "212.Soft Contact Model for Robust Locomotion of Legged Robots"
+ },
+ {
+  "id": "18FHzCd_BKYRdy4Ue8bTDanOXTPz_TkL4",
+  "url": "https://drive.google.com/drive/folders/18FHzCd_BKYRdy4Ue8bTDanOXTPz_TkL4",
+  "kind": "Folder",
+  "title": "213.Automated Tree Detection for Forest Inventory Analysis Using Low-Cost Quadrupedal Robots"
+ },
+ {
+  "id": "1Juw01rI4gJIb2sT8S7It6roQNoRMmPlZ",
+  "url": "https://drive.google.com/drive/folders/1Juw01rI4gJIb2sT8S7It6roQNoRMmPlZ",
+  "kind": "Folder",
+  "title": "214. Autonomous Navigation Of Quadrupeds Using Coverage Path Planning"
+ },
+ {
+  "id": "1vSgHUqaZIzta2a_NbxwUPMP2hd-5kmSR",
+  "url": "https://drive.google.com/drive/folders/1vSgHUqaZIzta2a_NbxwUPMP2hd-5kmSR",
+  "kind": "Folder",
+  "title": "215. MULE Multi-terrain and Unknown Load Adaptation for Effective Quadrupedal Locomotion"
+ },
+ {
+  "id": "10RLXk5AoGM_KyAQ4WdMoKCILIT3cD1nW",
+  "url": "https://drive.google.com/drive/folders/10RLXk5AoGM_KyAQ4WdMoKCILIT3cD1nW",
+  "kind": "Folder",
+  "title": "216. A2I-Calib An Anti-noise Active Multi-IMU Spatial-temporal Calibration Framework for Legged Robots"
+ },
+ {
+  "id": "1K1K6h3VSnX25UkOmxJ3QDVw7LZfAptMs",
+  "url": "https://drive.google.com/drive/folders/1K1K6h3VSnX25UkOmxJ3QDVw7LZfAptMs",
+  "kind": "Folder",
+  "title": "217.SATA Safe and Adaptive Torque-Based Locomotion Policies Inspired by Animal Learning"
+ },
+ {
+  "id": "18zuvSF0xHjgqmXoTSBLorirE4Ncojg6U",
+  "url": "https://drive.google.com/drive/folders/18zuvSF0xHjgqmXoTSBLorirE4Ncojg6U",
+  "kind": "Folder",
+  "title": "218. Jailbreaking LLM-Controlled Robots"
+ },
+ {
+  "id": "1DK6082PV0q8gl0wZFMZl1Pjthu3v0IyN",
+  "url": "https://drive.google.com/drive/folders/1DK6082PV0q8gl0wZFMZl1Pjthu3v0IyN",
+  "kind": "Folder",
+  "title": "219. Fast and Cost-effective Speculative Edge-Cloud Decoding with Early Exits"
+ },
+ {
+  "id": "1jFi4FbZKcgo_urZ9minPnBLtMqYfBrzx",
+  "url": "https://drive.google.com/drive/folders/1jFi4FbZKcgo_urZ9minPnBLtMqYfBrzx",
+  "kind": "Folder",
+  "title": "22.Reinforcement Learning with Evolutionary Trajectory Generator A General Approach for Quadrupedal Locomotion"
+ },
+ {
+  "id": "1dwElnIoeRI2Y13uEUyikFDXWLEGGY-2_",
+  "url": "https://drive.google.com/drive/folders/1dwElnIoeRI2Y13uEUyikFDXWLEGGY-2_",
+  "kind": "Folder",
+  "title": "220. McARLMorphology-Control-Aware Reinforcement Learning for Generalizable Quadrupedal Locomotion"
+ },
+ {
+  "id": "14VhabYlZTY8rxEj_MvAmtIM6pd32gSK8",
+  "url": "https://drive.google.com/drive/folders/14VhabYlZTY8rxEj_MvAmtIM6pd32gSK8",
+  "kind": "Folder",
+  "title": "221. PROBE Proprioceptive Obstacle Detection and Estimation while Navigating in Clutter"
+ },
+ {
+  "id": "1Y-nCxySO5oyspmi-QUzbx6SvcF6suzoL",
+  "url": "https://drive.google.com/drive/folders/1Y-nCxySO5oyspmi-QUzbx6SvcF6suzoL",
+  "kind": "Folder",
+  "title": "222.Autonomous operation of a robot dog for point-cloud data acquisition"
+ },
+ {
+  "id": "1egj6v9ZBvO4tUY4fp-ZOTNwbHe_uAffF",
+  "url": "https://drive.google.com/drive/folders/1egj6v9ZBvO4tUY4fp-ZOTNwbHe_uAffF",
+  "kind": "Folder",
+  "title": "223.Sim2Sim on Legged Robots"
+ },
+ {
+  "id": "1CLw_X7IKC70Gq9mSWr-aGv8F00lrASLy",
+  "url": "https://drive.google.com/drive/folders/1CLw_X7IKC70Gq9mSWr-aGv8F00lrASLy",
+  "kind": "Folder",
+  "title": "224.Physics-informed Neural Motion Planning via Domain Decomposition in Large Environments"
+ },
+ {
+  "id": "1tVK6kADPyOW-R4WnjMo6W3iKRi9NpNM9",
+  "url": "https://drive.google.com/drive/folders/1tVK6kADPyOW-R4WnjMo6W3iKRi9NpNM9",
+  "kind": "Folder",
+  "title": "225.Hybrid Mode Sample-Based Control"
+ },
+ {
+  "id": "1eOUMfUTv9K4ebjCXhmruXE_Xu36Numbt",
+  "url": "https://drive.google.com/drive/folders/1eOUMfUTv9K4ebjCXhmruXE_Xu36Numbt",
+  "kind": "Folder",
+  "title": "226.An Inertial Odometry and Enhanced Occupancy Grid Inertial SLAM for Legged Robots"
+ },
+ {
+  "id": "1r8PEJxAqH7rz1I_akEhViWqcid7n-xXq",
+  "url": "https://drive.google.com/drive/folders/1r8PEJxAqH7rz1I_akEhViWqcid7n-xXq",
+  "kind": "Folder",
+  "title": "227.RAMBO RL-augmented Model-based Whole-body Control"
+ },
+ {
+  "id": "1c_67c0EDpTVgjwXRpnl0TxDtXN1rqSUF",
+  "url": "https://drive.google.com/drive/folders/1c_67c0EDpTVgjwXRpnl0TxDtXN1rqSUF",
+  "kind": "Folder",
+  "title": "228. Bipedalism for Quadrupedal Robots Versatile Loco-Manipulation through Risk-Adaptive Reinforcement Learning"
+ },
+ {
+  "id": "1TasYc9OhzCJZuQKez08Ey6EqkEBxUcF-",
+  "url": "https://drive.google.com/drive/folders/1TasYc9OhzCJZuQKez08Ey6EqkEBxUcF-",
+  "kind": "Folder",
+  "title": "229.LNO-Driven Deep RL-MPC Hierarchical"
+ },
+ {
+  "id": "1KZevlzAotN3JOub1BXlq1YRC1-r50HHd",
+  "url": "https://drive.google.com/drive/folders/1KZevlzAotN3JOub1BXlq1YRC1-r50HHd",
+  "kind": "Folder",
+  "title": "23.Learning to Navigate Sidewalks in Outdoor Environments"
+ },
+ {
+  "id": "1mpcqyN5fh-TV0vjiyak6MCrWIab9fjDs",
+  "url": "https://drive.google.com/drive/folders/1mpcqyN5fh-TV0vjiyak6MCrWIab9fjDs",
+  "kind": "Folder",
+  "title": "230.Dynamic Proxemic Model for Human–Robot Interactions Using the Golden Ratio"
+ },
+ {
+  "id": "1YdafplqUsJ65Z5tunPE_bxQxwtauLttY",
+  "url": "https://drive.google.com/drive/folders/1YdafplqUsJ65Z5tunPE_bxQxwtauLttY",
+  "kind": "Folder",
+  "title": "231. Refining Motion for Peak Performance Identifying Optimal Gait Parameters for Energy-Efficient Quadrupedal Bounding"
+ },
+ {
+  "id": "1kkB6mUQGAjq2V3WL1SDcVXSidi_0ZXL2",
+  "url": "https://drive.google.com/drive/folders/1kkB6mUQGAjq2V3WL1SDcVXSidi_0ZXL2",
+  "kind": "Folder",
+  "title": "232.LOVON Legged Open-Vocabulary Object Navigator"
+ },
+ {
+  "id": "10kcGrdjzuhhvpmXmV13A9M9odOaYfAmZ",
+  "url": "https://drive.google.com/drive/folders/10kcGrdjzuhhvpmXmV13A9M9odOaYfAmZ",
+  "kind": "Folder",
+  "title": "233.A Walk to Remember MLLM Memory-Driven Visual Navigation"
+ },
+ {
+  "id": "1DWGje9Tlz2uTxSVoObvlgt7AC5edLHVr",
+  "url": "https://drive.google.com/drive/folders/1DWGje9Tlz2uTxSVoObvlgt7AC5edLHVr",
+  "kind": "Folder",
+  "title": "234.Hybrid ACO for Blockchain-Managed Robotic Swarms"
+ },
+ {
+  "id": "1RdMmCmscnGGaDX42X3PNMeMRAy-C3w3H",
+  "url": "https://drive.google.com/drive/folders/1RdMmCmscnGGaDX42X3PNMeMRAy-C3w3H",
+  "kind": "Folder",
+  "title": "235. From Walking to Running A Comprehensive Clock Torque Actuated SLIP Framework for Trotting in Quadrupedal Locomotion"
+ },
+ {
+  "id": "1VK-hwj3Wpgw16QuPgU2R-iS-aND_CWuS",
+  "url": "https://drive.google.com/drive/folders/1VK-hwj3Wpgw16QuPgU2R-iS-aND_CWuS",
+  "kind": "Folder",
+  "title": "236.From Tabula Rasa to Emergent Abilities Discovering Robot Skills via Real-World Unsupervised Quality-Diversity"
+ },
+ {
+  "id": "1ge8P9bJ4rEWtfGlQHmhJ_CKah5n19PLC",
+  "url": "https://drive.google.com/drive/folders/1ge8P9bJ4rEWtfGlQHmhJ_CKah5n19PLC",
+  "kind": "Folder",
+  "title": "237. Autonomous Navigation and Real-Time 3D Reconstruction of Interior Spaces Using a Quadruped Robot"
+ },
+ {
+  "id": "1mfwO1BfHBtJuAWbfsjfMzzRKDUZNfSnn",
+  "url": "https://drive.google.com/drive/folders/1mfwO1BfHBtJuAWbfsjfMzzRKDUZNfSnn",
+  "kind": "Folder",
+  "title": "238.Multiple gait locomotion generation for quadruped robots based on trajectory planning and reinforcement learning"
+ },
+ {
+  "id": "1P2AWsay1PvKfr1LLjW_-Yp4cQDopg_AT",
+  "url": "https://drive.google.com/drive/folders/1P2AWsay1PvKfr1LLjW_-Yp4cQDopg_AT",
+  "kind": "Folder",
+  "title": "239.Fault Joint Detection and Adaptive Fault-Tolerant Control of Legged Robots Under Joint Partial Failures"
+ },
+ {
+  "id": "141rRkfGi-R_Z2h3h9-p2LhsxjSnHEn0E",
+  "url": "https://drive.google.com/drive/folders/141rRkfGi-R_Z2h3h9-p2LhsxjSnHEn0E",
+  "kind": "Folder",
+  "title": "24.Visual-Locomotion Learning to Walk on Complex Terrains with Vision"
+ },
+ {
+  "id": "1OZR1uoM5V5lJ3cBMUlWP76Rb5RzJX61u",
+  "url": "https://drive.google.com/drive/folders/1OZR1uoM5V5lJ3cBMUlWP76Rb5RzJX61u",
+  "kind": "Folder",
+  "title": "240. A control scheme for collaborative object transportation between a human and a quadruped robot using the MIGHTY suction cup"
+ },
+ {
+  "id": "1C_Xy8ftTwiFYndbyCjiuFqyHdc4VZ6JO",
+  "url": "https://drive.google.com/drive/folders/1C_Xy8ftTwiFYndbyCjiuFqyHdc4VZ6JO",
+  "kind": "Folder",
+  "title": "241.A Nonlinear MPC Framework for Loco-Manipulation of Quadrupedal Robots with Non-Negligible Manipulator Dynamics"
+ },
+ {
+  "id": "1vTAsfwWpE3OAyaplG8teOWV6bZzpuk6p",
+  "url": "https://drive.google.com/drive/folders/1vTAsfwWpE3OAyaplG8teOWV6bZzpuk6p",
+  "kind": "Folder",
+  "title": "242.ODYSSEY Open-World Quadrupeds Exploration and Manipulation for Long-Horizon Tasks"
+ },
+ {
+  "id": "1_NOpGTuYJA40zMNOJUc280Fa1CCM0qWz",
+  "url": "https://drive.google.com/drive/folders/1_NOpGTuYJA40zMNOJUc280Fa1CCM0qWz",
+  "kind": "Folder",
+  "title": "243. QuadWBG Generalizable Quadrupedal Whole-Body Grasping"
+ },
+ {
+  "id": "1j_DE9KgbC2OxJMi0-37xidsAEaHEVxef",
+  "url": "https://drive.google.com/drive/folders/1j_DE9KgbC2OxJMi0-37xidsAEaHEVxef",
+  "kind": "Folder",
+  "title": "244.Teleoperator-Aware and Safety-Critical Adaptive Nonlinear MPC for Shared Autonomy in Obstacle Avoidance of Legged Robots"
+ },
+ {
+  "id": "1YzztCxbtq_P1C46siI-P8qxACf8Iydxh",
+  "url": "https://drive.google.com/drive/folders/1YzztCxbtq_P1C46siI-P8qxACf8Iydxh",
+  "kind": "Folder",
+  "title": "245.Learning to Walk with Less ：a Dyna-Style Approach to Quadrupedal Locomotion"
+ },
+ {
+  "id": "1QjDiSjRdHsNfA2OHfiYd2Eul7gPM1Es6",
+  "url": "https://drive.google.com/drive/folders/1QjDiSjRdHsNfA2OHfiYd2Eul7gPM1Es6",
+  "kind": "Folder",
+  "title": "246.A Geometric Method for Base Parameter Analysis in Robot Inertia Identification Based on Projective Geometric Algebra"
+ },
+ {
+  "id": "1gbX_J1KSc9xGr-i89_6GAY39q_3_nC5p",
+  "url": "https://drive.google.com/drive/folders/1gbX_J1KSc9xGr-i89_6GAY39q_3_nC5p",
+  "kind": "Folder",
+  "title": "247.Non-conflicting Energy Minimization in Reinforcement Learning based Robot Control"
+ },
+ {
+  "id": "1p-zPr5VYKwKizL9W01yiwjNxa489SxEV",
+  "url": "https://drive.google.com/drive/folders/1p-zPr5VYKwKizL9W01yiwjNxa489SxEV",
+  "kind": "Folder",
+  "title": "248.FR-Net ：Learning Robust Quadrupedal Fall Recovery on Challenging Terrains through Mass-Contact Prediction"
+ },
+ {
+  "id": "15DpJMJb-AIFc3g6WMxs58jRk_olNIFve",
+  "url": "https://drive.google.com/drive/folders/15DpJMJb-AIFc3g6WMxs58jRk_olNIFve",
+  "kind": "Folder",
+  "title": "249.First Order Model-Based RL through Decoupled Backpropagation"
+ },
+ {
+  "id": "1wIDxH7rPJkZUj3s2KHCitssOYaheDwQ4",
+  "url": "https://drive.google.com/drive/folders/1wIDxH7rPJkZUj3s2KHCitssOYaheDwQ4",
+  "kind": "Folder",
+  "title": "25.Vision-aided Dynamic Quadrupedal Locomotion on Discrete Terrain using Motion Libraries"
+ },
+ {
+  "id": "1Dt0nKHX2BMjhCXWJ5h_xbgC8vgrC1zsG",
+  "url": "https://drive.google.com/drive/folders/1Dt0nKHX2BMjhCXWJ5h_xbgC8vgrC1zsG",
+  "kind": "Folder",
+  "title": "250.MLM ：Learning Multi-task Loco-Manipulation Whole-Body Control for Quadruped Robot with Arm"
+ },
+ {
+  "id": "1dSc31_h4VG8DC3GNITvK7j79cl3kkb4o",
+  "url": "https://drive.google.com/drive/folders/1dSc31_h4VG8DC3GNITvK7j79cl3kkb4o",
+  "kind": "Folder",
+  "title": "251.Learning Unified Force and Position Control for Legged Loco-Manipulation"
+ },
+ {
+  "id": "17qmnIY5G214e-gXubduz4_2hTArX4wy5",
+  "url": "https://drive.google.com/drive/folders/17qmnIY5G214e-gXubduz4_2hTArX4wy5",
+  "kind": "Folder",
+  "title": "252.LocoFormer Generalist Locomotion via Long-Context Adaptation"
+ },
+ {
+  "id": "1cp5Br8EvmB8OKjAXDgIJ8VrfUr1VkRkj",
+  "url": "https://drive.google.com/drive/folders/1cp5Br8EvmB8OKjAXDgIJ8VrfUr1VkRkj",
+  "kind": "Folder",
+  "title": "253.Gait in Eight： Efficient On-Robot Learning for Omnidirectional Quadruped Locomotion"
+ },
+ {
+  "id": "1pcFk4W5694SrJjBbwH5_UQCN-W6lsQnO",
+  "url": "https://drive.google.com/drive/folders/1pcFk4W5694SrJjBbwH5_UQCN-W6lsQnO",
+  "kind": "Folder",
+  "title": "254.Bridge the Gap：Enhancing Quadruped Locomotion with Vertical Ground Perturbations"
+ },
+ {
+  "id": "1rUSEIQVI7yXy96z1d3Ma-nDgqJJh6_pY",
+  "url": "https://drive.google.com/drive/folders/1rUSEIQVI7yXy96z1d3Ma-nDgqJJh6_pY",
+  "kind": "Folder",
+  "title": "255.PGTT ：Phase-Guided Terrain Traversal for Perceptive Legged Locomotion"
+ },
+ {
+  "id": "1FCnSHu11cuImWW9Xkb3zXI9xSXSo-Y0t",
+  "url": "https://drive.google.com/drive/folders/1FCnSHu11cuImWW9Xkb3zXI9xSXSo-Y0t",
+  "kind": "Folder",
+  "title": "256.Towards Dynamic Quadrupedal Gaits ：A Symmetry-Guided RL Hierarchy Enables Free Gait Transitions at Varying Speeds"
+ },
+ {
+  "id": "1Ri0umoZT68LzaxIeDgxOvzfZCz5mHhdx",
+  "url": "https://drive.google.com/drive/folders/1Ri0umoZT68LzaxIeDgxOvzfZCz5mHhdx",
+  "kind": "Folder",
+  "title": "257.Real2USD ：Scene Representations in Universal Scene Description Language"
+ },
+ {
+  "id": "1bV8HtvKxhx7IgF-1pJdrSX0odLz8Y38y",
+  "url": "https://drive.google.com/drive/folders/1bV8HtvKxhx7IgF-1pJdrSX0odLz8Y38y",
+  "kind": "Folder",
+  "title": "258.Real-Time Gait Adaptation for Quadrupeds using Model Predictive Control and Reinforcement Learning"
+ },
+ {
+  "id": "12RKD0OIyIA5qTp_ADawpai5aQq53Nv6r",
+  "url": "https://drive.google.com/drive/folders/12RKD0OIyIA5qTp_ADawpai5aQq53Nv6r",
+  "kind": "Folder",
+  "title": "259.Load-bearing Assessment for Safe Locomotion of Quadruped Robots"
+ },
+ {
+  "id": "1AhMixFRxcHpq-3-g_B6bfWJwLAm1jwA0",
+  "url": "https://drive.google.com/drive/folders/1AhMixFRxcHpq-3-g_B6bfWJwLAm1jwA0",
+  "kind": "Folder",
+  "title": "26.Balancing Control and Pose Optimization for Wheel-legged Robots Navigating Uneven Terrains"
+ },
+ {
+  "id": "1VyeBJu7Czo8EQMoe408fvrftTb5TrN_J",
+  "url": "https://drive.google.com/drive/folders/1VyeBJu7Czo8EQMoe408fvrftTb5TrN_J",
+  "kind": "Folder",
+  "title": "260.Primal-Dual iLQR for GPU-Accelerated Learning and Control in Legged Robots"
+ },
+ {
+  "id": "1mcV1MU3f3pwwnjTLzNx_mPKdj8Tfnfi3",
+  "url": "https://drive.google.com/drive/folders/1mcV1MU3f3pwwnjTLzNx_mPKdj8Tfnfi3",
+  "kind": "Folder",
+  "title": "261.Whole-Body Inverse Dynamics MPC for Legged Loco-Manipulation"
+ },
+ {
+  "id": "1aHszWezry7Y1a21HV4sqEBOtgSO5Sb9R",
+  "url": "https://drive.google.com/drive/folders/1aHszWezry7Y1a21HV4sqEBOtgSO5Sb9R",
+  "kind": "Folder",
+  "title": "262.TARC Time-Adaptive Robotic Control"
+ },
+ {
+  "id": "1M3QEgiyrWBdodokOX7V9kGLNprburGTY",
+  "url": "https://drive.google.com/drive/folders/1M3QEgiyrWBdodokOX7V9kGLNprburGTY",
+  "kind": "Folder",
+  "title": "263.Learning a Unified Policy for Position and Force Control in Legged Loco-Manipulation"
+ },
+ {
+  "id": "1ZRTdoxFF9moTUnG8uHd5qkfzmqSpy-IR",
+  "url": "https://drive.google.com/drive/folders/1ZRTdoxFF9moTUnG8uHd5qkfzmqSpy-IR",
+  "kind": "Folder",
+  "title": "264.Reference-Free Sampling-Based Model Predictive Control"
+ },
+ {
+  "id": "15mTvmiRuM6FbcYUWlMk3eCqXRfxDS9ZA",
+  "url": "https://drive.google.com/drive/folders/15mTvmiRuM6FbcYUWlMk3eCqXRfxDS9ZA",
+  "kind": "Folder",
+  "title": "265.Quadrupedal gait on oscillating surfaces"
+ },
+ {
+  "id": "1KLdT1y0fgAPnuhyIySnISRcXABh9aAV4",
+  "url": "https://drive.google.com/drive/folders/1KLdT1y0fgAPnuhyIySnISRcXABh9aAV4",
+  "kind": "Folder",
+  "title": "266.X-IONet Cross-Platform Inertial Odometry Network with Dual-Stage Attention"
+ },
+ {
+  "id": "1MEUbLkCYrPywzTi6Bj_sPmAHniksvLZd",
+  "url": "https://drive.google.com/drive/folders/1MEUbLkCYrPywzTi6Bj_sPmAHniksvLZd",
+  "kind": "Folder",
+  "title": "267.Towards Unstructured MAPF Multi-Quadruped MAPF Demo"
+ },
+ {
+  "id": "1z3LXJe32L5i8eL4E2qAvl226kI8q8Ulm",
+  "url": "https://drive.google.com/drive/folders/1z3LXJe32L5i8eL4E2qAvl226kI8q8Ulm",
+  "kind": "Folder",
+  "title": "268.SocialNav Training Human-Inspired Foundation Model for Socially-Aware Embodied Navigation"
+ },
+ {
+  "id": "1Ay_gedSWx7aGbA8B04iAgJW7cJgJ5dnM",
+  "url": "https://drive.google.com/drive/folders/1Ay_gedSWx7aGbA8B04iAgJW7cJgJ5dnM",
+  "kind": "Folder",
+  "title": "269.Learning Robust Quadrupedal Locomotion Through Terrain Interaction via Deep Reinforcement Learning"
+ },
+ {
+  "id": "1uYwz7SzIgJjmy5mVQY2iJfmWgJfbg5iT",
+  "url": "https://drive.google.com/drive/folders/1uYwz7SzIgJjmy5mVQY2iJfmWgJfbg5iT",
+  "kind": "Folder",
+  "title": "27.Quadruped Guidance Robot for the Visually Impaired"
+ },
+ {
+  "id": "1swa2ooiDnvTCyAx1r-jPHZ79wGK2ZYZP",
+  "url": "https://drive.google.com/drive/folders/1swa2ooiDnvTCyAx1r-jPHZ79wGK2ZYZP",
+  "kind": "Folder",
+  "title": "270.Zero-Splat TeleAssist A Zero-Shot Pose Estimation Framework for Semantic Teleoperation"
+ },
+ {
+  "id": "1-7KZ0TKuuzdbhEoHBzWFqvaW1JS9Sw8-",
+  "url": "https://drive.google.com/drive/folders/1-7KZ0TKuuzdbhEoHBzWFqvaW1JS9Sw8-",
+  "kind": "Folder",
+  "title": "271.Robot Squid Game Quadrupedal Locomotion for Traversing Narrow Tunnels"
+ },
+ {
+  "id": "157JqS8MGSteY3x3aEurzc3w7rV7J9ZFm",
+  "url": "https://drive.google.com/drive/folders/157JqS8MGSteY3x3aEurzc3w7rV7J9ZFm",
+  "kind": "Folder",
+  "title": "272.MacroNav Multi-Task Context Representation Learning Enables Efficient Navigation in Unknown Environments"
+ },
+ {
+  "id": "1u1Xsx2ttFxTZXDb0YYYXctmlBpmxWLvI",
+  "url": "https://drive.google.com/drive/folders/1u1Xsx2ttFxTZXDb0YYYXctmlBpmxWLvI",
+  "kind": "Folder",
+  "title": "273.Co-NavGPT Multi-Robot Cooperative Visual Semantic Navigation Using Vision Language Models"
+ },
+ {
+  "id": "1onNSvXHZwx1Cp6bv_49l1fgih9NnMe4e",
+  "url": "https://drive.google.com/drive/folders/1onNSvXHZwx1Cp6bv_49l1fgih9NnMe4e",
+  "kind": "Folder",
+  "title": "274.Runtime Learning Machine"
+ },
+ {
+  "id": "1ruabma6l-SzqRRqWd64cLNK9EDinmPUO",
+  "url": "https://drive.google.com/drive/folders/1ruabma6l-SzqRRqWd64cLNK9EDinmPUO",
+  "kind": "Folder",
+  "title": "275.eGAIT Multi-Skilled Policy for Energy-efficient Gait Transitions"
+ },
+ {
+  "id": "1GRnd4JIKQHXbaD4h5BqUe4UeuCAMs00L",
+  "url": "https://drive.google.com/drive/folders/1GRnd4JIKQHXbaD4h5BqUe4UeuCAMs00L",
+  "kind": "Folder",
+  "title": "276.LILO Light Detection and Ranging, Inertial and Leg Odometry Combined Simultaneous Localization and Mapping Based on Kalman Filter for Legged Robots"
+ },
+ {
+  "id": "17uLNTVBRP6-yrmjBn19udESwU8_oW73D",
+  "url": "https://drive.google.com/drive/folders/17uLNTVBRP6-yrmjBn19udESwU8_oW73D",
+  "kind": "Folder",
+  "title": "277.RGB-Based Staircase Detection for Quadrupedal Robots Implementation and Analysis"
+ },
+ {
+  "id": "146h_ZXvVO2KmG0avThGoFSZnjmc7h-Ew",
+  "url": "https://drive.google.com/drive/folders/146h_ZXvVO2KmG0avThGoFSZnjmc7h-Ew",
+  "kind": "Folder",
+  "title": "278.Learning and Reconstruction of Mobile Robot Trajectories with LSTM Autoencoders A Data-Driven Framework for Real-World Deployment"
+ },
+ {
+  "id": "1YWw5IQuVGiQnCdnkdf_l-VLzna9W3zhh",
+  "url": "https://drive.google.com/drive/folders/1YWw5IQuVGiQnCdnkdf_l-VLzna9W3zhh",
+  "kind": "Folder",
+  "title": "279.Platform-Agnostic Reinforcement Learning Framework for Safe Exploration of Cluttered Environments with Graph Attention"
+ },
+ {
+  "id": "1ER8PiurEkIO-tXa4WqABiuBTQYuumNsi",
+  "url": "https://drive.google.com/drive/folders/1ER8PiurEkIO-tXa4WqABiuBTQYuumNsi",
+  "kind": "Folder",
+  "title": "28.Adversarial Motion Priors Make Good Substitutes for Complex Reward Functions"
+ },
+ {
+  "id": "1zRXSEjToq2ujvZWiCv8dOxALj2qFRUpo",
+  "url": "https://drive.google.com/drive/folders/1zRXSEjToq2ujvZWiCv8dOxALj2qFRUpo",
+  "kind": "Folder",
+  "title": "280.Adaptive Gait Pattern Switching under External Disturbances Using Multi-Modal MPC"
+ },
+ {
+  "id": "10Nu8u0dpOZnpEEf8ZywuIN8Y-WGR3U8H",
+  "url": "https://drive.google.com/drive/folders/10Nu8u0dpOZnpEEf8ZywuIN8Y-WGR3U8H",
+  "kind": "Folder",
+  "title": "281.Bootstrapped LLM Semantics for Context-Aware Path Planning"
+ },
+ {
+  "id": "1tTTYd4zf-tVyQCd1W1frr1gdfNKOiRey",
+  "url": "https://drive.google.com/drive/folders/1tTTYd4zf-tVyQCd1W1frr1gdfNKOiRey",
+  "kind": "Folder",
+  "title": "282.Dual-MPC Footstep Planning for Robust Quadruped Locomotion"
+ },
+ {
+  "id": "1cGhPM0oDp1XcLUPyYuvBKUp4NjSVC9Dy",
+  "url": "https://drive.google.com/drive/folders/1cGhPM0oDp1XcLUPyYuvBKUp4NjSVC9Dy",
+  "kind": "Folder",
+  "title": "283.Virtual Traffic Lights for Multi-Robot Navigation Decentralized Planning with Centralized Conflict Resolution"
+ },
+ {
+  "id": "1g5PbP8Zr98nEs1zZYnMw316Nnf89LAFk",
+  "url": "https://drive.google.com/drive/folders/1g5PbP8Zr98nEs1zZYnMw316Nnf89LAFk",
+  "kind": "Folder",
+  "title": "284.RoboAuditor-LLM A Robotic System for Energy Auditing via a Large Language Model and an Actionable Semantic Feature Map"
+ },
+ {
+  "id": "1MiEXq9m7l3EtwlVuUIMjZLkuYU6lj3t8",
+  "url": "https://drive.google.com/drive/folders/1MiEXq9m7l3EtwlVuUIMjZLkuYU6lj3t8",
+  "kind": "Folder",
+  "title": "285.Monocular Vision-Based Obstacle Height Estimation for Mobile Robot"
+ },
+ {
+  "id": "1LouOJxKiUchx7DY510kHSdyV-U_NeySo",
+  "url": "https://drive.google.com/drive/folders/1LouOJxKiUchx7DY510kHSdyV-U_NeySo",
+  "kind": "Folder",
+  "title": "29.DayDreamer-World Models for Physical Robot Learning"
+ },
+ {
+  "id": "1d0INEDu3CgsI2VE40OuLcf2YcbkjWHxe",
+  "url": "https://drive.google.com/drive/folders/1d0INEDu3CgsI2VE40OuLcf2YcbkjWHxe",
+  "kind": "Folder",
+  "title": "291.Schrodinger’s Navigator Imagining an Ensemble of Futures for Zero-Shot Object Navigation"
+ },
+ {
+  "id": "1nQtyqaa77nY9Hh4-wQBOYsGC0q3QLMD8",
+  "url": "https://drive.google.com/drive/folders/1nQtyqaa77nY9Hh4-wQBOYsGC0q3QLMD8",
+  "kind": "Folder",
+  "title": "292.Zero-Splat TeleAssist A Zero-Shot Pose Estimation Framework for Semantic Teleoperation"
+ },
+ {
+  "id": "1Cx3caHY348-27g9CA_TBZj4K-xGx35wv",
+  "url": "https://drive.google.com/drive/folders/1Cx3caHY348-27g9CA_TBZj4K-xGx35wv",
+  "kind": "Folder",
+  "title": "293.ReSPIRe Informative and Reusable Belief Tree Search for Robot Probabilistic Search and Tracking in Unknown Environments"
+ },
+ {
+  "id": "1sP3v8PeXCmuXc0FwoWjDNZIfvJflJt2C",
+  "url": "https://drive.google.com/drive/folders/1sP3v8PeXCmuXc0FwoWjDNZIfvJflJt2C",
+  "kind": "Folder",
+  "title": "294.Playful DoggyBot Learning Agile and Precise Quadrupedal Locomotion"
+ },
+ {
+  "id": "1stNxc_tNztCePmVQvgKAh9YQZbHsr_5O",
+  "url": "https://drive.google.com/drive/folders/1stNxc_tNztCePmVQvgKAh9YQZbHsr_5O",
+  "kind": "Folder",
+  "title": "295.GuangMing-Explorer A Four-Legged Robot Platform for Autonomous Exploration in General Environments"
+ },
+ {
+  "id": "1kOaOEbuEdYuayJD1tKfzUmPmUv9tr1sc",
+  "url": "https://drive.google.com/drive/folders/1kOaOEbuEdYuayJD1tKfzUmPmUv9tr1sc",
+  "kind": "Folder",
+  "title": "296.Playing with Robots Performing Arts Techniques for Designingand Understanding Robot Group Movement"
+ },
+ {
+  "id": "1VupuCqDyY8IY_NGfp_NYjv-Z2Y-qgwTv",
+  "url": "https://drive.google.com/drive/folders/1VupuCqDyY8IY_NGfp_NYjv-Z2Y-qgwTv",
+  "kind": "Folder",
+  "title": "297.A Unified Framework to Learn Collision-Free Loco-Manipulation via Adversarial Motion Priors"
+ },
+ {
+  "id": "1_8b3VjnTUgKy3-rkEzEZ8QzMBqFGhMU1",
+  "url": "https://drive.google.com/drive/folders/1_8b3VjnTUgKy3-rkEzEZ8QzMBqFGhMU1",
+  "kind": "Folder",
+  "title": "298.REASAN Learning Reactive Safe Navigation for Legged Robots"
+ },
+ {
+  "id": "1AO5K4pC7yq0J93YP51dPnMZWn1EP1xJu",
+  "url": "https://drive.google.com/drive/folders/1AO5K4pC7yq0J93YP51dPnMZWn1EP1xJu",
+  "kind": "Folder",
+  "title": "299.Impact of Robot Facial-Audio Expressions on Human Robot Trust Dynamics and Trust Repair"
+ },
+ {
+  "id": "1vsPuIyj21nqoM0GnsTM-A8zdSte5rkvx",
+  "url": "https://drive.google.com/drive/folders/1vsPuIyj21nqoM0GnsTM-A8zdSte5rkvx",
+  "kind": "Folder",
+  "title": "3.Autonomous Social Distancing in Urban Environments using a Quadruped Robot"
+ },
+ {
+  "id": "1yjMphvYH43ca6hakbJBBAmeLV58fusxp",
+  "url": "https://drive.google.com/drive/folders/1yjMphvYH43ca6hakbJBBAmeLV58fusxp",
+  "kind": "Folder",
+  "title": "30.Animal Motions on Legged Robots Using Nonlinear Model Predictive Control"
+ },
+ {
+  "id": "1xP5BEqcmqejGl8ULoYV8Ho24_d8r1K7t",
+  "url": "https://drive.google.com/drive/folders/1xP5BEqcmqejGl8ULoYV8Ho24_d8r1K7t",
+  "kind": "Folder",
+  "title": "300.GuideNav User-Informed Development of a Vision-Only Robotic Navigation Assistant For Blind Travelers"
+ },
+ {
+  "id": "1o1XN-ACxkfUJCH5wqkGTMxHc0Hj0adTK",
+  "url": "https://drive.google.com/drive/folders/1o1XN-ACxkfUJCH5wqkGTMxHc0Hj0adTK",
+  "kind": "Folder",
+  "title": "301.FALCON Actively Decoupled Visuomotor Policies for Loco-Manipulation with Foundation-Model-Based Coordination"
+ },
+ {
+  "id": "1PhntzCgZoXK7KH6EH0XMAfcre52I3w-w",
+  "url": "https://drive.google.com/drive/folders/1PhntzCgZoXK7KH6EH0XMAfcre52I3w-w",
+  "kind": "Folder",
+  "title": "302.Real-DRL Teach and Learn at Runtime"
+ },
+ {
+  "id": "1kPjRh7ag8hVMEprj1UfdOqG127rXXSJj",
+  "url": "https://drive.google.com/drive/folders/1kPjRh7ag8hVMEprj1UfdOqG127rXXSJj",
+  "kind": "Folder",
+  "title": "303.A Navigation System to Improve Quadruped Robot’s Autonomous Path Planning and Locomotion on Outdoor Construction Sites"
+ },
+ {
+  "id": "1qFve1Gw2JkMQWAjpDMD3gTW_X1UgPMqT",
+  "url": "https://drive.google.com/drive/folders/1qFve1Gw2JkMQWAjpDMD3gTW_X1UgPMqT",
+  "kind": "Folder",
+  "title": "304.A Framework for Deploying Learning-based Quadruped Loco-Manipulation"
+ },
+ {
+  "id": "1P14DkU-h54w_aZuRiOvlB_u75X5Z0rVK",
+  "url": "https://drive.google.com/drive/folders/1P14DkU-h54w_aZuRiOvlB_u75X5Z0rVK",
+  "kind": "Folder",
+  "title": "305.Drift of the Uncharted A Speculative Fiction About Rising Sea-Level Landscapes through Robotic Performance"
+ },
+ {
+  "id": "15JXtXFE-IPDTljt0MKYn1sNcsC1FRaKN",
+  "url": "https://drive.google.com/drive/folders/15JXtXFE-IPDTljt0MKYn1sNcsC1FRaKN",
+  "kind": "Folder",
+  "title": "306.Spatially-enhanced recurrent memory for long-range mapless navigation via end-to-end reinforcement learning"
+ },
+ {
+  "id": "12VqL1NpuO6eRt7lOVpXONqJrHpu_KQgE",
+  "url": "https://drive.google.com/drive/folders/12VqL1NpuO6eRt7lOVpXONqJrHpu_KQgE",
+  "kind": "Folder",
+  "title": "307.Pedipulation in Quadruped Robots Using a Heuristic Inverse Kinematics Solver"
+ },
+ {
+  "id": "1pNkRKlkNrDzyU35DpSkTh-XAnF8J6e2O",
+  "url": "https://drive.google.com/drive/folders/1pNkRKlkNrDzyU35DpSkTh-XAnF8J6e2O",
+  "kind": "Folder",
+  "title": "308.Physics-Based Motion Imitation with Adversarial DifferentialDiscriminators"
+ },
+ {
+  "id": "15Z9rSvsRcT7OSYR79Yx0GBHQ4hlPeWTB",
+  "url": "https://drive.google.com/drive/folders/15Z9rSvsRcT7OSYR79Yx0GBHQ4hlPeWTB",
+  "kind": "Folder",
+  "title": "309.Dynamic Policy Learning for Legged Robot with Simplified Model Pretraining and Model Homotopy Transfer"
+ },
+ {
+  "id": "1Wvtwq9Em893mTSYnnSIl7yKyDyBIPWIX",
+  "url": "https://drive.google.com/drive/folders/1Wvtwq9Em893mTSYnnSIl7yKyDyBIPWIX",
+  "kind": "Folder",
+  "title": "31.Hierarchical Reinforcement Learning for Precise Soccer Shooting Skills using a Quadrupedal Robot"
+ },
+ {
+  "id": "1DAa9V_Rzf5hB88whD1TMznVeGerxOzKS",
+  "url": "https://drive.google.com/drive/folders/1DAa9V_Rzf5hB88whD1TMznVeGerxOzKS",
+  "kind": "Folder",
+  "title": "310.Collaborative Quadruped Transportation in 3D Terrain with Constrained Diffusion"
+ },
+ {
+  "id": "1jIP67OljoqzNa4GBtnQpl5EWPgeSOkzv",
+  "url": "https://drive.google.com/drive/folders/1jIP67OljoqzNa4GBtnQpl5EWPgeSOkzv",
+  "kind": "Folder",
+  "title": "311.Navigating the Wild Pareto-Optimal Visual Decision-Making in Image Space"
+ },
+ {
+  "id": "1yDKfBsChRCUzhGPGM87AGzxloy_C9BQ_",
+  "url": "https://drive.google.com/drive/folders/1yDKfBsChRCUzhGPGM87AGzxloy_C9BQ_",
+  "kind": "Folder",
+  "title": "312.Learning Embodied Quadruped Agents for Posture-Aware Locomotion"
+ },
+ {
+  "id": "1MiQsp_hVFQ9ru1JDvtaIeWTXcR8twQmY",
+  "url": "https://drive.google.com/drive/folders/1MiQsp_hVFQ9ru1JDvtaIeWTXcR8twQmY",
+  "kind": "Folder",
+  "title": "313.Signal Temporal Logic Compliant Co-design of Planning and Control"
+ },
+ {
+  "id": "14ksQnzC8JU3lloz4UOQPGEKIBYHJjXJJ",
+  "url": "https://drive.google.com/drive/folders/14ksQnzC8JU3lloz4UOQPGEKIBYHJjXJJ",
+  "kind": "Folder",
+  "title": "314.M-SEVIQ A Multi-band Stereo Event Visual-Inertial Quadruped-based Dataset for Perception under Rapid Motion and Challenging Illumination"
+ },
+ {
+  "id": "1iKkpPo1A9TqRR7xwE90nF1XfPKzbcjLh",
+  "url": "https://drive.google.com/drive/folders/1iKkpPo1A9TqRR7xwE90nF1XfPKzbcjLh",
+  "kind": "Folder",
+  "title": "315.REBot Reflexive Evasion Robot for Instantaneous Dynamic Obstacle Avoidance"
+ },
+ {
+  "id": "1nbH-zUzUs8bjBTRKTL5Tvi-WP3zvpbiG",
+  "url": "https://drive.google.com/drive/folders/1nbH-zUzUs8bjBTRKTL5Tvi-WP3zvpbiG",
+  "kind": "Folder",
+  "title": "316.UniLegs Universal Multi-Legged Robot Control through Morphology-Agnostic Policy Distillation"
+ },
+ {
+  "id": "1Fdpa4Cdz_WorX5wqv5Vm664HwRwWf1vV",
+  "url": "https://drive.google.com/drive/folders/1Fdpa4Cdz_WorX5wqv5Vm664HwRwWf1vV",
+  "kind": "Folder",
+  "title": "317.Transferable Latent-to-Latent Locomotion Policy for Efficient and Versatile Motion Control of Diverse Legged Robots"
+ },
+ {
+  "id": "1VqTfrzu3zX_QrL4wO-KtbLMeV8NWDc1G",
+  "url": "https://drive.google.com/drive/folders/1VqTfrzu3zX_QrL4wO-KtbLMeV8NWDc1G",
+  "kind": "Folder",
+  "title": "318.EdgeNavMamba Mamba-Optimized Object Detection for Energy-Efficient Edge Devices"
+ },
+ {
+  "id": "1NOgqIEspUWrpFkJKyBzESsEpYE44uRnI",
+  "url": "https://drive.google.com/drive/folders/1NOgqIEspUWrpFkJKyBzESsEpYE44uRnI",
+  "kind": "Folder",
+  "title": "319.CoINS Counterfactual Interactive Navigation via Skill-Aware VLM"
+ },
+ {
+  "id": "1UsfLuEbZ9T5jm7z_6Ikmc35xQkfihu-Q",
+  "url": "https://drive.google.com/drive/folders/1UsfLuEbZ9T5jm7z_6Ikmc35xQkfihu-Q",
+  "kind": "Folder",
+  "title": "32.Deep Whole-Body Control Learning a Unified Policy for Manipulation and Locomotion"
+ },
+ {
+  "id": "1TS0bGXrbPZCGrKLK5GYJI3hQYDjDDlvW",
+  "url": "https://drive.google.com/drive/folders/1TS0bGXrbPZCGrKLK5GYJI3hQYDjDDlvW",
+  "kind": "Folder",
+  "title": "320.Offline Imitation Learning upon Arbitrary Demonstrations by Pre-Training Dynamics Representations"
+ },
+ {
+  "id": "1Qf7jbzPmHDzeXzzLzXhStd0NINCEby6I",
+  "url": "https://drive.google.com/drive/folders/1Qf7jbzPmHDzeXzzLzXhStd0NINCEby6I",
+  "kind": "Folder",
+  "title": "321.Online Trajectory Optimization for Arbitrary-Shaped Mobile Robots via Polynomial Separating Hypersurfaces"
+ },
+ {
+  "id": "1HaIzvqeOQYT7QqJ_Pdol4d6Jd0ZW3liZ",
+  "url": "https://drive.google.com/drive/folders/1HaIzvqeOQYT7QqJ_Pdol4d6Jd0ZW3liZ",
+  "kind": "Folder",
+  "title": "322.Zero-shot adaptable task planning for autonomous construction robots a comparative study of lightweight single and multi-AI agent systems"
+ },
+ {
+  "id": "1lR26w_p_PdlNoGNI-MNXectlC53ueyKp",
+  "url": "https://drive.google.com/drive/folders/1lR26w_p_PdlNoGNI-MNXectlC53ueyKp",
+  "kind": "Folder",
+  "title": "323.VLingNav Embodied Navigation with Adaptive Reasoning and Visual-Assisted Linguistic Memory"
+ },
+ {
+  "id": "133j1jVuAIPU-ljWgLWBdTr5Cbf53ilbK",
+  "url": "https://drive.google.com/drive/folders/133j1jVuAIPU-ljWgLWBdTr5Cbf53ilbK",
+  "kind": "Folder",
+  "title": "324.Energy-Efficient Omnidirectional Locomotion for Wheeled Quadrupeds via Predictive Energy-Aware Nominal Gait Selection"
+ },
+ {
+  "id": "112sWnmo1hjk5eWsCug9ouFp-3gcXo5ix",
+  "url": "https://drive.google.com/drive/folders/112sWnmo1hjk5eWsCug9ouFp-3gcXo5ix",
+  "kind": "Folder",
+  "title": "325.Dynamics-Driven Policy Transfer to Heavy Wheel-Legged Robots via Imitation and Optimization"
+ },
+ {
+  "id": "157ZGdZ1IK9XDA93dzFsipyWZ9TYGMGCx",
+  "url": "https://drive.google.com/drive/folders/157ZGdZ1IK9XDA93dzFsipyWZ9TYGMGCx",
+  "kind": "Folder",
+  "title": "326.MPPF Mobile Probe Potential Field for Real-Time Multi-Agent Navigation in Industrial Environments"
+ },
+ {
+  "id": "1Ne145Uy2-wOhi5yL1WGpqyjhfMIfcSPI",
+  "url": "https://drive.google.com/drive/folders/1Ne145Uy2-wOhi5yL1WGpqyjhfMIfcSPI",
+  "kind": "Folder",
+  "title": "327.Symbolic learning of interpretable reduced-order models for jumping quadruped robots"
+ },
+ {
+  "id": "1MsGzuMjLoeVLbS19FKdCV-Wx_pe9jimG",
+  "url": "https://drive.google.com/drive/folders/1MsGzuMjLoeVLbS19FKdCV-Wx_pe9jimG",
+  "kind": "Folder",
+  "title": "328.HAC-LOCO Learning Hierarchical Active Compliance Control for Quadruped Locomotion under Continuous External Disturbances"
+ },
+ {
+  "id": "1P5aTJn47gL2va1ujULzxiKBAL9QiBPfP",
+  "url": "https://drive.google.com/drive/folders/1P5aTJn47gL2va1ujULzxiKBAL9QiBPfP",
+  "kind": "Folder",
+  "title": "329.Language as Cost Proactive Hazard Mapping using VLM for Robot Navigation"
+ },
+ {
+  "id": "1_cs2a4BwVlbMfxMfExKbCr3jQmIKmTkO",
+  "url": "https://drive.google.com/drive/folders/1_cs2a4BwVlbMfxMfExKbCr3jQmIKmTkO",
+  "kind": "Folder",
+  "title": "33.PI-ARS Accelerating Evolution-Learned Visual-Locomotion with Predictive Information Representations"
+ },
+ {
+  "id": "1wshCazNFZK-Nqx8S9zKr9rkvmCwlUEWj",
+  "url": "https://drive.google.com/drive/folders/1wshCazNFZK-Nqx8S9zKr9rkvmCwlUEWj",
+  "kind": "Folder",
+  "title": "330.Traversability-Aware Legged Navigation by Learning from Real-World Visual Data"
+ },
+ {
+  "id": "1Tmxi4TbjcVmuMUH-0lJ9OzrbWFtqLXc-",
+  "url": "https://drive.google.com/drive/folders/1Tmxi4TbjcVmuMUH-0lJ9OzrbWFtqLXc-",
+  "kind": "Folder",
+  "title": "331.Towards Safe Imitation Learning via Potential Field-Guided Flow Matching"
+ },
+ {
+  "id": "1nkgMl65DYnbA8ZJxuGdB2MZZHqvkf7A8",
+  "url": "https://drive.google.com/drive/folders/1nkgMl65DYnbA8ZJxuGdB2MZZHqvkf7A8",
+  "kind": "Folder",
+  "title": "332.DeFM Learning Foundation Representations from Depth for Robotics"
+ },
+ {
+  "id": "1Eh8G1XPxyGNGTwfyigtXr9iWSr_rXv8v",
+  "url": "https://drive.google.com/drive/folders/1Eh8G1XPxyGNGTwfyigtXr9iWSr_rXv8v",
+  "kind": "Folder",
+  "title": "333.Online Hierarchical Policy Learning using Physics Priors for Robot Navigation in Unknown Environments"
+ },
+ {
+  "id": "1URqOdQQnpkYi8X_o40T1k2NIPIh2dKzm",
+  "url": "https://drive.google.com/drive/folders/1URqOdQQnpkYi8X_o40T1k2NIPIh2dKzm",
+  "kind": "Folder",
+  "title": "334.LoopSR Looping Sim-and-Real for Lifelong Policy Adaptation of"
+ },
+ {
+  "id": "1BYv9xYUpdJQgtX-QxeVeoTZqIJ_LIvo5",
+  "url": "https://drive.google.com/drive/folders/1BYv9xYUpdJQgtX-QxeVeoTZqIJ_LIvo5",
+  "kind": "Folder",
+  "title": "335.From knowing to doing Learning diverse motor skills through instruction learning"
+ },
+ {
+  "id": "1COWCeD20fSHQn-qxoH-VCKTkq_h8hm-1",
+  "url": "https://drive.google.com/drive/folders/1COWCeD20fSHQn-qxoH-VCKTkq_h8hm-1",
+  "kind": "Folder",
+  "title": "336.UNCLE-Grasp Uncertainty-Aware Grasping of Leaf-Occluded Strawberries"
+ },
+ {
+  "id": "14t30VAX9eVeGc3XABjvAMzLObOhO_9Ej",
+  "url": "https://drive.google.com/drive/folders/14t30VAX9eVeGc3XABjvAMzLObOhO_9Ej",
+  "kind": "Folder",
+  "title": "337.GPO Growing Policy Optimization for Legged Robot Locomotion and Whole-Body Control"
+ },
+ {
+  "id": "1JCsI6w3oLDaqSeft9C2Vdtamu-Sa0QAA",
+  "url": "https://drive.google.com/drive/folders/1JCsI6w3oLDaqSeft9C2Vdtamu-Sa0QAA",
+  "kind": "Folder",
+  "title": "338.VTAO-BiManip Masked Visual-Tactile-Action Pre-training with Object Understanding for Bimanual Dexterous Manipulation"
+ },
+ {
+  "id": "1557RyvQSl1pUETBVsJ-mQxuwf_jY2ZTT",
+  "url": "https://drive.google.com/drive/folders/1557RyvQSl1pUETBVsJ-mQxuwf_jY2ZTT",
+  "kind": "Folder",
+  "title": "339.Spatially-enhanced recurrent memory for long-range mapless navigation via end-to-end reinforcement learning"
+ },
+ {
+  "id": "11LRStX-K09g2_vbgsUR77tFFX3rfamdG",
+  "url": "https://drive.google.com/drive/folders/11LRStX-K09g2_vbgsUR77tFFX3rfamdG",
+  "kind": "Folder",
+  "title": "34.Zero-Shot Retargeting of Learned Quadruped Locomotion Policies Using Hybrid Kinodynamic Model Predictive Control"
+ },
+ {
+  "id": "14Q_g4cDyj6rbs_t-GLDIer3v-Bswe8_V",
+  "url": "https://drive.google.com/drive/folders/14Q_g4cDyj6rbs_t-GLDIer3v-Bswe8_V",
+  "kind": "Folder",
+  "title": "340.Contact-Anchored Proprioceptive Odometry for Quadruped Robots"
+ },
+ {
+  "id": "1Z3F8cbDwNxhotM5wRz74gMoigvjWWL9x",
+  "url": "https://drive.google.com/drive/folders/1Z3F8cbDwNxhotM5wRz74gMoigvjWWL9x",
+  "kind": "Folder",
+  "title": "341.Toward Reliable Sim-to-Real Predictability for MoE-based Robust Quadrupedal Locomotion"
+ },
+ {
+  "id": "1-SFW6HCwQe8D-pnsFsOZEvOrQpZ-X0li",
+  "url": "https://drive.google.com/drive/folders/1-SFW6HCwQe8D-pnsFsOZEvOrQpZ-X0li",
+  "kind": "Folder",
+  "title": "342.UEREBot Learning Safe Quadrupedal Locomotion under Unstructured Environments and High-Speed Dynamic Obstacles"
+ },
+ {
+  "id": "10eVBvKtyGme4khb_9jvrk_GHHSATHcl2",
+  "url": "https://drive.google.com/drive/folders/10eVBvKtyGme4khb_9jvrk_GHHSATHcl2",
+  "kind": "Folder",
+  "title": "343.Risk Awareness and Management for Autonomous Robots Assessing Non-Perceivable Hazards through Context-Aware Safety Adaptation"
+ },
+ {
+  "id": "1BIaW654T47lsPeB94RNTXQJVARMbfaoq",
+  "url": "https://drive.google.com/drive/folders/1BIaW654T47lsPeB94RNTXQJVARMbfaoq",
+  "kind": "Folder",
+  "title": "344.PRISM Performer RS-IMLE for Single-pass Multisensory Imitation Learning"
+ },
+ {
+  "id": "1uvELOZQLUF01fOhbnjWiJry_Xvx9tFo2",
+  "url": "https://drive.google.com/drive/folders/1uvELOZQLUF01fOhbnjWiJry_Xvx9tFo2",
+  "kind": "Folder",
+  "title": "345.Fast Task Planning with Neuro-Symbolic Relaxation"
+ },
+ {
+  "id": "1u3XBCiRbp4kxBn3Hs8r-zQovcbSfB2g0",
+  "url": "https://drive.google.com/drive/folders/1u3XBCiRbp4kxBn3Hs8r-zQovcbSfB2g0",
+  "kind": "Folder",
+  "title": "346.A Nonlinear MPC Framework for Loco-Manipulation of Quadrupedal Robots with Non-Negligible Manipulator Dynamics"
+ },
+ {
+  "id": "1yrVVyFKLicqxug3sAnrYhfe9dNrR920J",
+  "url": "https://drive.google.com/drive/folders/1yrVVyFKLicqxug3sAnrYhfe9dNrR920J",
+  "kind": "Folder",
+  "title": "347.Evaluating Dynamic Surface Compensation for Robots with Projected AR"
+ },
+ {
+  "id": "1N3J_cLI7L4Uq0C8p9lxIcw0QNqQLAaVT",
+  "url": "https://drive.google.com/drive/folders/1N3J_cLI7L4Uq0C8p9lxIcw0QNqQLAaVT",
+  "kind": "Folder",
+  "title": "348.Scaling Law of Neural Koopman Operators"
+ },
+ {
+  "id": "124I8-wPuk0X9RCrE0O_1tF693boNT0kD",
+  "url": "https://drive.google.com/drive/folders/124I8-wPuk0X9RCrE0O_1tF693boNT0kD",
+  "kind": "Folder",
+  "title": "349.Seq-DeepIPC Sequential Sensing for End-to-End Control in Legged Robot Navigation"
+ },
+ {
+  "id": "1OWT3K5WRr8eYWPJmOix2lrs2SGTpFXCi",
+  "url": "https://drive.google.com/drive/folders/1OWT3K5WRr8eYWPJmOix2lrs2SGTpFXCi",
+  "kind": "Folder",
+  "title": "35.Safe Reinforcement Learning for Legged Locomotion"
+ },
+ {
+  "id": "11651933ddTIK14LndpS5Z-vsse3nmxLv",
+  "url": "https://drive.google.com/drive/folders/11651933ddTIK14LndpS5Z-vsse3nmxLv",
+  "kind": "Folder",
+  "title": "350.TRANS Terrain-aware Reinforcement Learning for Agile Navigation of Quadruped Robots under Social Interactions"
+ },
+ {
+  "id": "1ztw7krAGcJvvHxWQ9q8Y7h8A1y5lra8-",
+  "url": "https://drive.google.com/drive/folders/1ztw7krAGcJvvHxWQ9q8Y7h8A1y5lra8-",
+  "kind": "Folder",
+  "title": "351.Intelligent Gait Synthesis for Autonomous Ground Robots A Reinforcement Learning Approach"
+ },
+ {
+  "id": "1lR1yz5NGlKrTrZ55XkjNShIV4QVECgGW",
+  "url": "https://drive.google.com/drive/folders/1lR1yz5NGlKrTrZ55XkjNShIV4QVECgGW",
+  "kind": "Folder",
+  "title": "352.IRIS Learning-Driven Task-Specific Cinema Robot Arm for Visuomotor Motion Control"
+ },
+ {
+  "id": "1KvfxFu8VNCloMCb-5zX0k9GjhSYod7TG",
+  "url": "https://drive.google.com/drive/folders/1KvfxFu8VNCloMCb-5zX0k9GjhSYod7TG",
+  "kind": "Folder",
+  "title": "353.Bellman Value Decomposition for Task Logic in Safe Optimal Control"
+ },
+ {
+  "id": "1iN9aoX8wvgCcin4kdilZkBMXMNk8U1-a",
+  "url": "https://drive.google.com/drive/folders/1iN9aoX8wvgCcin4kdilZkBMXMNk8U1-a",
+  "kind": "Folder",
+  "title": "354.Sparse Video Generation Propels Real-World Beyond-the-View Vision-Language Navigation"
+ },
+ {
+  "id": "1WRDsSmJXawa6v4ZdPaUAs9cjPpMXrIWc",
+  "url": "https://drive.google.com/drive/folders/1WRDsSmJXawa6v4ZdPaUAs9cjPpMXrIWc",
+  "kind": "Folder",
+  "title": "355.User-Centric Object Navigation A Benchmark with Integrated User Habits for Personalized Embodied Object Search"
+ },
+ {
+  "id": "1VMvT_BC0-_v5FBx7sq-_O-HqIgLeAPcS",
+  "url": "https://drive.google.com/drive/folders/1VMvT_BC0-_v5FBx7sq-_O-HqIgLeAPcS",
+  "kind": "Folder",
+  "title": "356.Co-jump Cooperative Jumping with Quadrupedal Robots via Multi-Agent Reinforcement Learning"
+ },
+ {
+  "id": "1r1n0gkLfBoGdu4KIpKyNBzBr2LddvLe9",
+  "url": "https://drive.google.com/drive/folders/1r1n0gkLfBoGdu4KIpKyNBzBr2LddvLe9",
+  "kind": "Folder",
+  "title": "357.Zero-Shot Visual Anomaly Detection on a Quadruped Robot Using State of the Art Visual Language Models"
+ },
+ {
+  "id": "1_N8DtmxJw8n7c5afzf2k-aIQmLhH8gsm",
+  "url": "https://drive.google.com/drive/folders/1_N8DtmxJw8n7c5afzf2k-aIQmLhH8gsm",
+  "kind": "Folder",
+  "title": "358.Stairway to Success An Online Floor-Aware Zero-Shot Object-Goal Navigation Framework via LLM-Driven Coarse-to-Fine Exploration"
+ },
+ {
+  "id": "1y7d69Jlu5C7gIDinSBGm_YC6hhsy0_Y2",
+  "url": "https://drive.google.com/drive/folders/1y7d69Jlu5C7gIDinSBGm_YC6hhsy0_Y2",
+  "kind": "Folder",
+  "title": "359.Coupled Local and Global World Models for Efficient First Order RL"
+ },
+ {
+  "id": "1XioYePHVwV3waGo5cmb6nMX1X_Sw9wM1",
+  "url": "https://drive.google.com/drive/folders/1XioYePHVwV3waGo5cmb6nMX1X_Sw9wM1",
+  "kind": "Folder",
+  "title": "36.Creating a Dynamic Quadrupedal Robotic Goalkeeper with Reinforcement Learning"
+ },
+ {
+  "id": "1uMjV6sPfPbgSu1f9Oxr3jf5TiRxec2LR",
+  "url": "https://drive.google.com/drive/folders/1uMjV6sPfPbgSu1f9Oxr3jf5TiRxec2LR",
+  "kind": "Folder",
+  "title": "360.TIC-VLA A Think-in-Control Vision-Language-Action Model for Robot Navigation in Dynamic Environments"
+ },
+ {
+  "id": "1Aawk1JY0dhw9I_kTfEb5Y14fAeXOt3xJ",
+  "url": "https://drive.google.com/drive/folders/1Aawk1JY0dhw9I_kTfEb5Y14fAeXOt3xJ",
+  "kind": "Folder",
+  "title": "361.Context-Aware Generation and Modulation of Expressive Motion Behavior using Multimodal Foundation Models"
+ },
+ {
+  "id": "19gSMMwr9exAcu3CCCHwC6T92-x3VqYe9",
+  "url": "https://drive.google.com/drive/folders/19gSMMwr9exAcu3CCCHwC6T92-x3VqYe9",
+  "kind": "Folder",
+  "title": "362.Self-Imitated Diffusion Policy for Efficient and Robust Visual Navigation"
+ },
+ {
+  "id": "1lihxqFNEAxrtgiqICvl131UXcNkWVHWg",
+  "url": "https://drive.google.com/drive/folders/1lihxqFNEAxrtgiqICvl131UXcNkWVHWg",
+  "kind": "Folder",
+  "title": "363.ALORE Autonomous Large-Object Rearrangement with a Legged Manipulator"
+ },
+ {
+  "id": "16flLZqY1O-9Gsp_Fwo4KiRlzOMeqoHC0",
+  "url": "https://drive.google.com/drive/folders/16flLZqY1O-9Gsp_Fwo4KiRlzOMeqoHC0",
+  "kind": "Folder",
+  "title": "364.INHerit-SG Incremental Hierarchical Semantic Scene Graphs with RAG-Style Retrieval"
+ },
+ {
+  "id": "1__p8qUgKhMtHMb5MHvUF2AbvxGBjkL0f",
+  "url": "https://drive.google.com/drive/folders/1__p8qUgKhMtHMb5MHvUF2AbvxGBjkL0f",
+  "kind": "Folder",
+  "title": "365.A Three-Level Whole-Body Disturbance Rejection Control Framework for Dynamic Motions in Legged Robots"
+ },
+ {
+  "id": "1r7AWEGCryI1TW7uqvf6tipzSqGdSt5BH",
+  "url": "https://drive.google.com/drive/folders/1r7AWEGCryI1TW7uqvf6tipzSqGdSt5BH",
+  "kind": "Folder",
+  "title": "366.System Identification under Constraints and Disturbance A Bayesian Estimation Approach"
+ },
+ {
+  "id": "1G2F21oAo1CXjqdafOJpeKwP7OkfuEkyy",
+  "url": "https://drive.google.com/drive/folders/1G2F21oAo1CXjqdafOJpeKwP7OkfuEkyy",
+  "kind": "Folder",
+  "title": "367.Insect-inspired adaptive behavioral compensation strategy against olfactory sensory deficiency for robotic odor source localization"
+ },
+ {
+  "id": "1ERpYYZ9nqfgw0Mf0BpQ-SFZ1OpK2PNKf",
+  "url": "https://drive.google.com/drive/folders/1ERpYYZ9nqfgw0Mf0BpQ-SFZ1OpK2PNKf",
+  "kind": "Folder",
+  "title": "368.CoLF Learning Consistent Leader-Follower Policies for Vision-Language-Guided Multi-Robot Cooperative Transport"
+ },
+ {
+  "id": "1Km-6pV4kfAz9FS94cJ-y4Meru31Ap5wK",
+  "url": "https://drive.google.com/drive/folders/1Km-6pV4kfAz9FS94cJ-y4Meru31Ap5wK",
+  "kind": "Folder",
+  "title": "369.What Matters for Simulation to Online Reinforcement Learning on Real Robots"
+ },
+ {
+  "id": "1XlT_94GBkQhyAaDHSa2hptX6qgZudHxr",
+  "url": "https://drive.google.com/drive/folders/1XlT_94GBkQhyAaDHSa2hptX6qgZudHxr",
+  "kind": "Folder",
+  "title": "37.Nonlinear Model Predictive Control for Quadrupedal Locomotion Using Second-Order Sensitivity Analysis"
+ },
+ {
+  "id": "11QzXOTpA7Nn3QXw4dL0NowPUx6EHlZXK",
+  "url": "https://drive.google.com/drive/folders/11QzXOTpA7Nn3QXw4dL0NowPUx6EHlZXK",
+  "kind": "Folder",
+  "title": "370.Event-Triggered Indirect Herding Control of a Cooperative Agent"
+ },
+ {
+  "id": "1cMZqkj32eRzFRePs1zIK7DJPEhBjop2d",
+  "url": "https://drive.google.com/drive/folders/1cMZqkj32eRzFRePs1zIK7DJPEhBjop2d",
+  "kind": "Folder",
+  "title": "371.LocoVLM Grounding Vision and Language for Adapting Versatile Legged Locomotion Policies"
+ },
+ {
+  "id": "1eidtdYzCZmOlRwjWPq2bWa_lhnVq8NVH",
+  "url": "https://drive.google.com/drive/folders/1eidtdYzCZmOlRwjWPq2bWa_lhnVq8NVH",
+  "kind": "Folder",
+  "title": "372.Safe Whole-Body Loco-Manipulation via Combined Model and Learning-based Control"
+ },
+ {
+  "id": "1k5nDBQkOyD6x9yD1wBR0GLv3Vy87003A",
+  "url": "https://drive.google.com/drive/folders/1k5nDBQkOyD6x9yD1wBR0GLv3Vy87003A",
+  "kind": "Folder",
+  "title": "373.Demo Control the ARmada LMM Coordination for Multi-Robot AR-HRC"
+ },
+ {
+  "id": "1i3zVagjxduswyJoZyiPXmLSfdEpmTB-Q",
+  "url": "https://drive.google.com/drive/folders/1i3zVagjxduswyJoZyiPXmLSfdEpmTB-Q",
+  "kind": "Folder",
+  "title": "374.A Deployable Bio-inspired Compliant Leg Design for Enhanced Leaping in Quadruped Robots"
+ },
+ {
+  "id": "1DOCutLWIRj1pscyrb5saVPIEUrIFxjpr",
+  "url": "https://drive.google.com/drive/folders/1DOCutLWIRj1pscyrb5saVPIEUrIFxjpr",
+  "kind": "Folder",
+  "title": "375.Robust Visual Servoing for Quadruped Robots ISS-Based Target Tracking With Secondary Formation Objectives"
+ },
+ {
+  "id": "1U4I_bXA8wyEn1e8OThwgxFH0wCXRk_Gl",
+  "url": "https://drive.google.com/drive/folders/1U4I_bXA8wyEn1e8OThwgxFH0wCXRk_Gl",
+  "kind": "Folder",
+  "title": "376.REAL Robust Extreme Agility via Spatio-Temporal Policy Learning and Physics-Guided Filtering"
+ },
+ {
+  "id": "1XNrx94YOnpkE1lWAqP5ws96bFSx4lcop",
+  "url": "https://drive.google.com/drive/folders/1XNrx94YOnpkE1lWAqP5ws96bFSx4lcop",
+  "kind": "Folder",
+  "title": "377.SLowRL Safe Low-Rank Adaptation Reinforcement Learning for Locomotion"
+ },
+ {
+  "id": "1VMT0--jiGYC5Q1EYa8YLDOM-rEZBfbpi",
+  "url": "https://drive.google.com/drive/folders/1VMT0--jiGYC5Q1EYa8YLDOM-rEZBfbpi",
+  "kind": "Folder",
+  "title": "378.OA-NBV Occlusion-Aware Next-Best-View Planning for Human-Centered Active Perception on Mobile Robots"
+ },
+ {
+  "id": "1EPtKdkZjWLnFHbh0QVveJ5sKiys4zRTy",
+  "url": "https://drive.google.com/drive/folders/1EPtKdkZjWLnFHbh0QVveJ5sKiys4zRTy",
+  "kind": "Folder",
+  "title": "379.NavThinker Action-Conditioned World Models for Coupled Prediction and Planning in Social Navigation"
+ },
+ {
+  "id": "19Su_hOo2s0GyTlirAu64RhDvjYNV_0cW",
+  "url": "https://drive.google.com/drive/folders/19Su_hOo2s0GyTlirAu64RhDvjYNV_0cW",
+  "kind": "Folder",
+  "title": "38.Robust Predictive Control for Quadrupedal Locomotion Learning to Close the Gap between Reduced- and Full-Order Models"
+ },
+ {
+  "id": "1Wz6NqIJdDD10fDOvqEGdiZrh47MJvivi",
+  "url": "https://drive.google.com/drive/folders/1Wz6NqIJdDD10fDOvqEGdiZrh47MJvivi",
+  "kind": "Folder",
+  "title": "380.ADMM-Based Distributed MPC with Control Barrier Functions for Safe Multi-Robot Quadrupedal Locomotion"
+ },
+ {
+  "id": "1Ht-GP-D2dSBBCdpxIBEQf0Cyeqq-fm_J",
+  "url": "https://drive.google.com/drive/folders/1Ht-GP-D2dSBBCdpxIBEQf0Cyeqq-fm_J",
+  "kind": "Folder",
+  "title": "381.History-Conditioned Spatio-Temporal Visual Token Pruning for Efficient Vision-Language Navigation"
+ },
+ {
+  "id": "1V_o39KuztTArjPED8FATMJBgPaZvV7GX",
+  "url": "https://drive.google.com/drive/folders/1V_o39KuztTArjPED8FATMJBgPaZvV7GX",
+  "kind": "Folder",
+  "title": "382.MorFiC Fixing Value Miscalibration for Zero-Shot Quadruped Transfer"
+ },
+ {
+  "id": "1_sVPerlPGtb_uHH7ys8CGXk2fDonUohe",
+  "url": "https://drive.google.com/drive/folders/1_sVPerlPGtb_uHH7ys8CGXk2fDonUohe",
+  "kind": "Folder",
+  "title": "383.QuadFM Foundational Text-Driven Quadruped Motion Dataset for Generation and Control"
+ },
+ {
+  "id": "1WEFudEGCeK3Fhdd_EBvmftnPFLrz_pHy",
+  "url": "https://drive.google.com/drive/folders/1WEFudEGCeK3Fhdd_EBvmftnPFLrz_pHy",
+  "kind": "Folder",
+  "title": "384.SmoothTurn Learning to Turn Smoothly for Agile Navigation with Quadrupedal Robots"
+ },
+ {
+  "id": "1KfsSEe3f9cufoQDlPo5dUhO6n6p7heEP",
+  "url": "https://drive.google.com/drive/folders/1KfsSEe3f9cufoQDlPo5dUhO6n6p7heEP",
+  "kind": "Folder",
+  "title": "385.CoT-VLNBench A Benchmark for Visual Chain-of-Thought Reasoning in Vision-Language-Navigation Robots"
+ },
+ {
+  "id": "12tWhhmPhluxIZCEllZnRk4q61_eVmBVS",
+  "url": "https://drive.google.com/drive/folders/12tWhhmPhluxIZCEllZnRk4q61_eVmBVS",
+  "kind": "Folder",
+  "title": "386.SEA-Nav Efficient Policy Learning for Safe and Agile Quadruped Navigation in Cluttered Environments"
+ },
+ {
+  "id": "1KfXzuGV12W9FuQnLDmOUOVoYQ_EgeKe9",
+  "url": "https://drive.google.com/drive/folders/1KfXzuGV12W9FuQnLDmOUOVoYQ_EgeKe9",
+  "kind": "Folder",
+  "title": "387.CoMaTrack Competitive Multi-Agent Game-Theoretic Tracking with Vision-Language-Action Models"
+ },
+ {
+  "id": "14nQ98zd4nasvId1f_y-ZBlbSlQKYHhWN",
+  "url": "https://drive.google.com/drive/folders/14nQ98zd4nasvId1f_y-ZBlbSlQKYHhWN",
+  "kind": "Folder",
+  "title": "388.Whole-Body Safe Control of Robotic Systems with Koopman Neural Dynamics"
+ },
+ {
+  "id": "1vGORj61-C5a2phK0i3FxpyYT4s70CBSM",
+  "url": "https://drive.google.com/drive/folders/1vGORj61-C5a2phK0i3FxpyYT4s70CBSM",
+  "kind": "Folder",
+  "title": "389.NavGSim High-Fidelity Gaussian Splatting Simulator for Large-Scale Navigation"
+ },
+ {
+  "id": "1ndUt3ATj4guaqHoVQANyM46GvO1a8egJ",
+  "url": "https://drive.google.com/drive/folders/1ndUt3ATj4guaqHoVQANyM46GvO1a8egJ",
+  "kind": "Folder",
+  "title": "39.GLiDE Generalizable Quadrupedal Locomotion in Diverse Environments with a Centroidal Model"
+ },
+ {
+  "id": "1yROQrkHzuezV2irtEXadV0KbSab-9ZAP",
+  "url": "https://drive.google.com/drive/folders/1yROQrkHzuezV2irtEXadV0KbSab-9ZAP",
+  "kind": "Folder",
+  "title": "390.Maximum Entropy Behavior Exploration for Sim2Real Zero-Shot Reinforcement Learning"
+ },
+ {
+  "id": "1PGIy4i2mAG-URVev43P2ts_ONhFA4LAo",
+  "url": "https://drive.google.com/drive/folders/1PGIy4i2mAG-URVev43P2ts_ONhFA4LAo",
+  "kind": "Folder",
+  "title": "391.Watch Your Step Learning Semantically-Guided Locomotion in Cluttered Environment"
+ },
+ {
+  "id": "1QjJT00H9hmv_NOP_xWMcmsnJy1UQq9S7",
+  "url": "https://drive.google.com/drive/folders/1QjJT00H9hmv_NOP_xWMcmsnJy1UQq9S7",
+  "kind": "Folder",
+  "title": "392.AgentVLN Towards Agentic Vision-and-Language Navigation"
+ },
+ {
+  "id": "1MrYeLAFJhKFN4B6tB59Z_j1Zpl6UyLtE",
+  "url": "https://drive.google.com/drive/folders/1MrYeLAFJhKFN4B6tB59Z_j1Zpl6UyLtE",
+  "kind": "Folder",
+  "title": "393.vAccSOL Efficient and Transparent AI Vision Offloading for Mobile Robots"
+ },
+ {
+  "id": "1nrUJnA1NlXwZOj6LRtu07QC74Mh81pC4",
+  "url": "https://drive.google.com/drive/folders/1nrUJnA1NlXwZOj6LRtu07QC74Mh81pC4",
+  "kind": "Folder",
+  "title": "394.Task-Aware Positioning for Improvisational Tasks in Mobile Construction Robots via an AI Agent with Multi-LMM Modules"
+ },
+ {
+  "id": "1hhAPByt9PSAdw-o5TJyL4DvEt7JnDsMs",
+  "url": "https://drive.google.com/drive/folders/1hhAPByt9PSAdw-o5TJyL4DvEt7JnDsMs",
+  "kind": "Folder",
+  "title": "395.Beyond Imitation Reinforcement Learning Fine-Tuning for Adaptive Diffusion Navigation Policies"
+ },
+ {
+  "id": "1IWSa37j-qtrI5Bt2W6EwFwsywyI2xHXU",
+  "url": "https://drive.google.com/drive/folders/1IWSa37j-qtrI5Bt2W6EwFwsywyI2xHXU",
+  "kind": "Folder",
+  "title": "396.GuideTWSI A Diverse Tactile Walking Surface Indicator Dataset from Synthetic and Real-World Images for Blind and Low-Vision Navigation"
+ },
+ {
+  "id": "1cK3BilWH2LJKui5fj2mPLxUwyo5aB2a-",
+  "url": "https://drive.google.com/drive/folders/1cK3BilWH2LJKui5fj2mPLxUwyo5aB2a-",
+  "kind": "Folder",
+  "title": "397.SaferPath Hierarchical Visual Navigation with Learned Guidance and Safety-Constrained Control"
+ },
+ {
+  "id": "1av6kqUXd5ig4dzU-I607gekbf1A6HMFh",
+  "url": "https://drive.google.com/drive/folders/1av6kqUXd5ig4dzU-I607gekbf1A6HMFh",
+  "kind": "Folder",
+  "title": "398.Sensor-Driven Preventive Preservation of Underground Heritage A Case Study of the Wine Cellars of Baltanás"
+ },
+ {
+  "id": "10UbB9TlB97MF6byXOMu544kLdsPJmzdm",
+  "url": "https://drive.google.com/drive/folders/10UbB9TlB97MF6byXOMu544kLdsPJmzdm",
+  "kind": "Folder",
+  "title": "399.Learning Quadruped Walking from Seconds of Demonstration"
+ },
+ {
+  "id": "19uwSSwiUOOYlFNiRWlxrOj3q1iNyuWJd",
+  "url": "https://drive.google.com/drive/folders/19uwSSwiUOOYlFNiRWlxrOj3q1iNyuWJd",
+  "kind": "Folder",
+  "title": "4.Learning Agile Robotic Locomotion Skills byImitating Animals"
+ },
+ {
+  "id": "1fBEJ99tVDm7Yt6pnks6xGj1_-oFGmcye",
+  "url": "https://drive.google.com/drive/folders/1fBEJ99tVDm7Yt6pnks6xGj1_-oFGmcye",
+  "kind": "Folder",
+  "title": "40.Vision-aided Dynamic Quadrupedal Locomotion on Discrete Terrain using Motion Libraries"
+ },
+ {
+  "id": "1ZthR_xt2xlihyF5rpvLNh8wB0EBWh1GG",
+  "url": "https://drive.google.com/drive/folders/1ZthR_xt2xlihyF5rpvLNh8wB0EBWh1GG",
+  "kind": "Folder",
+  "title": "400.FloorPlan-VLN A New Paradigm for Floor Plan Guided Vision-Language Navigation"
+ },
+ {
+  "id": "1xQ8ojrTQH1kBj2_k5gYgNLv7t7airQbX",
+  "url": "https://drive.google.com/drive/folders/1xQ8ojrTQH1kBj2_k5gYgNLv7t7airQbX",
+  "kind": "Folder",
+  "title": "401.From Woofs to Words Towards Intelligent Robotic Guide Dogs with Verbal Communication"
+ },
+ {
+  "id": "101k-tzjsGO5NoJkCUGyn_QROoJ17g557",
+  "url": "https://drive.google.com/drive/folders/101k-tzjsGO5NoJkCUGyn_QROoJ17g557",
+  "kind": "Folder",
+  "title": "402.OGScene3D Incremental Open-Vocabulary 3D Gaussian Scene Graph Mapping for Scene Understanding"
+ },
+ {
+  "id": "1mePit_TTKIFOAo2vAPL1H8YMxqV8z7H9",
+  "url": "https://drive.google.com/drive/folders/1mePit_TTKIFOAo2vAPL1H8YMxqV8z7H9",
+  "kind": "Folder",
+  "title": "403.SPAN-Nav Generalized Spatial Awareness for Versatile Vision-Language Navigation"
+ },
+ {
+  "id": "1zOk6uXfa9H3Ev91rTu8caRKPayxBroZP",
+  "url": "https://drive.google.com/drive/folders/1zOk6uXfa9H3Ev91rTu8caRKPayxBroZP",
+  "kind": "Folder",
+  "title": "404.DecoVLN Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation"
+ },
+ {
+  "id": "1cApomr02SStN89v-N_7ecyrhhUiYRxA5",
+  "url": "https://drive.google.com/drive/folders/1cApomr02SStN89v-N_7ecyrhhUiYRxA5",
+  "kind": "Folder",
+  "title": "405.PEPA a Persistently Autonomous Embodied Agent with Personalities"
+ },
+ {
+  "id": "1BzN1pdfJEkaTQYNhXVOBPwZ-RBV29pAG",
+  "url": "https://drive.google.com/drive/folders/1BzN1pdfJEkaTQYNhXVOBPwZ-RBV29pAG",
+  "kind": "Folder",
+  "title": "406.Navigation beyond Wayfinding Robots Collaborating with Visually Impaired Users for Environmental Interactions"
+ },
+ {
+  "id": "1ci49h6HJEXJNqObqvZXzmKCxR3MhY3tM",
+  "url": "https://drive.google.com/drive/folders/1ci49h6HJEXJNqObqvZXzmKCxR3MhY3tM",
+  "kind": "Folder",
+  "title": "407.DreamFlow Local Navigation Beyond Observation via Conditional Flow Matching in the Latent Space"
+ },
+ {
+  "id": "1UCCI1xOPmrOn-dZT9DZwmNM8nnMSic9Z",
+  "url": "https://drive.google.com/drive/folders/1UCCI1xOPmrOn-dZT9DZwmNM8nnMSic9Z",
+  "kind": "Folder",
+  "title": "408.Simulation Distillation Pretraining World Models in Simulation for Rapid Real-World Adaptation"
+ },
+ {
+  "id": "1bbZfFHKFkdonzmGwbbJnK4_O-08ea86q",
+  "url": "https://drive.google.com/drive/folders/1bbZfFHKFkdonzmGwbbJnK4_O-08ea86q",
+  "kind": "Folder",
+  "title": "409.Who Let the Robot Dogs Out Digital Forensic Analysis of Quadruped Robot"
+ },
+ {
+  "id": "1RFB47NgoGuNLFl81m3ZulKucZSUlKJdZ",
+  "url": "https://drive.google.com/drive/folders/1RFB47NgoGuNLFl81m3ZulKucZSUlKJdZ",
+  "kind": "Folder",
+  "title": "41.Legged Locomotion in Challenging Terrains using Egocentric Vision"
+ },
+ {
+  "id": "1CWbnMITQ50vx3_2XvzZOGbXG0UBxhnkg",
+  "url": "https://drive.google.com/drive/folders/1CWbnMITQ50vx3_2XvzZOGbXG0UBxhnkg",
+  "kind": "Folder",
+  "title": "410.OpenGo An OpenClaw-Based Robotic Dog with Real-Time Skill Switching"
+ },
+ {
+  "id": "1uu3FhnPmDqnGKZK48sU-kx1LMulsoePx",
+  "url": "https://drive.google.com/drive/folders/1uu3FhnPmDqnGKZK48sU-kx1LMulsoePx",
+  "kind": "Folder",
+  "title": "411.Safety-Critical Centralized Nonlinear MPC for Cooperative Payload Transportation by Two Quadrupedal Robots"
+ },
+ {
+  "id": "1G3MQBsPl_U7hI2vArhVKW2wu7G1nGYgc",
+  "url": "https://drive.google.com/drive/folders/1G3MQBsPl_U7hI2vArhVKW2wu7G1nGYgc",
+  "kind": "Folder",
+  "title": "412.A Numerical Model for Estimating the Equivalent Magnetic Moment Induced on Electromagnetic Motors by High Intensity Magnetic Fields"
+ },
+ {
+  "id": "1a9R4HuAjvp865rMTMN6KnfVNd1kxO-zY",
+  "url": "https://drive.google.com/drive/folders/1a9R4HuAjvp865rMTMN6KnfVNd1kxO-zY",
+  "kind": "Folder",
+  "title": "413.Natural Gradient Gaussian Approximation Filter on Lie Groups for Robot State Estimation"
+ },
+ {
+  "id": "18xuzeKKwh7qsOMAhFGeSoj9H7CfXVnnz",
+  "url": "https://drive.google.com/drive/folders/18xuzeKKwh7qsOMAhFGeSoj9H7CfXVnnz",
+  "kind": "Folder",
+  "title": "414.Terrain-Reactive Locomotion Policies from Vision-Language-Action Priors Bridging Semantic Commands and Whole-Body Quadruped Control"
+ },
+ {
+  "id": "1bsIdd-Kx_uFwunY15Qzo0Rc4fZBW-aEw",
+  "url": "https://drive.google.com/drive/folders/1bsIdd-Kx_uFwunY15Qzo0Rc4fZBW-aEw",
+  "kind": "Folder",
+  "title": "415.PriPG-RL Privileged Planner-Guided Reinforcement Learning for Partially Observable Systems with Anytime-Feasible MPC"
+ },
+ {
+  "id": "1MXwprF70wQbdV4ktxhaZPTNeaus6WhEO",
+  "url": "https://drive.google.com/drive/folders/1MXwprF70wQbdV4ktxhaZPTNeaus6WhEO",
+  "kind": "Folder",
+  "title": "416.Artificial plateau neurons with in-situ spike-malleability for rhythmic quadrupedal locomotion"
+ },
+ {
+  "id": "1cZ0NsRHtrW8ZcRkM71q0o4Qo_2YfIcRH",
+  "url": "https://drive.google.com/drive/folders/1cZ0NsRHtrW8ZcRkM71q0o4Qo_2YfIcRH",
+  "kind": "Folder",
+  "title": "417.Quadruped Parkour Learning Sparsely Gated Mixture of Experts with Visual Input"
+ },
+ {
+  "id": "182ULcPUGYVK6eoJQcSF2rku9mR0KjUm1",
+  "url": "https://drive.google.com/drive/folders/182ULcPUGYVK6eoJQcSF2rku9mR0KjUm1",
+  "kind": "Folder",
+  "title": "418.Will People Enjoy a Robot Trainer A Case Study with Snoopie the Pacerbot"
+ },
+ {
+  "id": "1tl-OguysqR9g5aBilBRttzFae-JnTqb6",
+  "url": "https://drive.google.com/drive/folders/1tl-OguysqR9g5aBilBRttzFae-JnTqb6",
+  "kind": "Folder",
+  "title": "419.Toward Empathetic Robotic Dogs for Joint Attention Support in Autism Intervention"
+ },
+ {
+  "id": "1IaELfm829LQYadQp0a_CKwZuYi4fK24B",
+  "url": "https://drive.google.com/drive/folders/1IaELfm829LQYadQp0a_CKwZuYi4fK24B",
+  "kind": "Folder",
+  "title": "42.Hierarchical Adaptive Loco-manipulation Control for Quadruped Robots"
+ },
+ {
+  "id": "1SHALznwWU128KAOsRCDp59QMjCPIAASU",
+  "url": "https://drive.google.com/drive/folders/1SHALznwWU128KAOsRCDp59QMjCPIAASU",
+  "kind": "Folder",
+  "title": "420.Learning Task-Invariant Properties via Dreamer Enabling Efficient Policy Transfer for Quadruped Robots"
+ },
+ {
+  "id": "1tiAVIF5703wBDBxtrJ7LhGt8OQORvomb",
+  "url": "https://drive.google.com/drive/folders/1tiAVIF5703wBDBxtrJ7LhGt8OQORvomb",
+  "kind": "Folder",
+  "title": "421.Learning Tactile-Aware Quadrupedal Loco-Manipulation Policies"
+ },
+ {
+  "id": "1fMBh8kUXNmeqZGOmt9ANbuZ8au9NLCs9",
+  "url": "https://drive.google.com/drive/folders/1fMBh8kUXNmeqZGOmt9ANbuZ8au9NLCs9",
+  "kind": "Folder",
+  "title": "422.Simulator Adaptation for Sim-to-Real Learning of Legged Locomotion via Proprioceptive Distribution Matching"
+ },
+ {
+  "id": "1lrxy0qv8zvCfzO9qpgAwI86g40Hl5c6p",
+  "url": "https://drive.google.com/drive/folders/1lrxy0qv8zvCfzO9qpgAwI86g40Hl5c6p",
+  "kind": "Folder",
+  "title": "423.Dual-Anchoring Addressing State Drift in Vision-Language Navigation"
+ },
+ {
+  "id": "1yuJ8AwMxoegnojqWVtQR98BtEsGtdJUj",
+  "url": "https://drive.google.com/drive/folders/1yuJ8AwMxoegnojqWVtQR98BtEsGtdJUj",
+  "kind": "Folder",
+  "title": "424.FSUNav A Cerebrum-Cerebellum Architecture for Fast, Safe, and Universal Zero-Shot Goal-Oriented Navigation"
+ },
+ {
+  "id": "18VMOvXve0erx2gB9xDpnjkAE8o33I1XP",
+  "url": "https://drive.google.com/drive/folders/18VMOvXve0erx2gB9xDpnjkAE8o33I1XP",
+  "kind": "Folder",
+  "title": "425.AnchorVLA Anchored Diffusion for Efficient End-to-End Mobile Manipulation"
+ },
+ {
+  "id": "1JUTQPSAi8kxJtrD32kUxe4MI31Kh_0Gg",
+  "url": "https://drive.google.com/drive/folders/1JUTQPSAi8kxJtrD32kUxe4MI31Kh_0Gg",
+  "kind": "Folder",
+  "title": "426.RoboHaptics Designing Haptic Interactions for Lower Body withQuadruped Robot Dogs"
+ },
+ {
+  "id": "1p1qBV5bhBz5HiqgPSIZTJJc6Z9124oS9",
+  "url": "https://drive.google.com/drive/folders/1p1qBV5bhBz5HiqgPSIZTJJc6Z9124oS9",
+  "kind": "Folder",
+  "title": "427.Learning from Demonstration with Failure Awareness for Safe Robot Navigation"
+ },
+ {
+  "id": "1DnADYA5HXyoqRwLaHmL2sotzAw3lufc0",
+  "url": "https://drive.google.com/drive/folders/1DnADYA5HXyoqRwLaHmL2sotzAw3lufc0",
+  "kind": "Folder",
+  "title": "428.Safe Large-Scale Robust Nonlinear MPC in Milliseconds via Reachability-Constrained System Level Synthesis on the GPU"
+ },
+ {
+  "id": "1TYc3c_VdtHl0lN1E-vfdjByJ0eB6CNKa",
+  "url": "https://drive.google.com/drive/folders/1TYc3c_VdtHl0lN1E-vfdjByJ0eB6CNKa",
+  "kind": "Folder",
+  "title": "429.SpaAct Spatially-Activated Transition Learning with Curriculum Adaptation for Vision-Language Navigation"
+ },
+ {
+  "id": "1nOGgCEGIT70PR98vgxZFXI_-DioeVkV8",
+  "url": "https://drive.google.com/drive/folders/1nOGgCEGIT70PR98vgxZFXI_-DioeVkV8",
+  "kind": "Folder",
+  "title": "43.Visual CPG-RL Learning Central Pattern Generators for Visually-Guided Quadruped Navigation"
+ },
+ {
+  "id": "1MPuK1qhzZWPR1A1qeDiWC6YgXS0v2WZ1",
+  "url": "https://drive.google.com/drive/folders/1MPuK1qhzZWPR1A1qeDiWC6YgXS0v2WZ1",
+  "kind": "Folder",
+  "title": "430.CMP Robust Whole-Body Tracking for Loco-Manipulation via Competence Manifold Projection"
+ },
+ {
+  "id": "1KeXwmJWdnB4wZvXt5O-NQ6HTo9jZy_Q5",
+  "url": "https://drive.google.com/drive/folders/1KeXwmJWdnB4wZvXt5O-NQ6HTo9jZy_Q5",
+  "kind": "Folder",
+  "title": "431.MEMOR-E In-Context and Fine-Tuned LLM Personalization for Alzheimer’s Assistive Robotics"
+ },
+ {
+  "id": "1X3u-EoiClUo9PiaAxpXFPYqeyHN-ZIkb",
+  "url": "https://drive.google.com/drive/folders/1X3u-EoiClUo9PiaAxpXFPYqeyHN-ZIkb",
+  "kind": "Folder",
+  "title": "432.Kinematic-Cognitive Trade-Offs in Human-Robot Coordinated Walk Distance Stability vs. Speed Dis-similarity with Cognitive Load"
+ },
+ {
+  "id": "1YxArwGqxphuX9Vwqc0v2m_KyoedyQRYB",
+  "url": "https://drive.google.com/drive/folders/1YxArwGqxphuX9Vwqc0v2m_KyoedyQRYB",
+  "kind": "Folder",
+  "title": "433.SGM-SLAM Scene Graph Matching for Data-Efficient Distributed SLAM"
+ },
+ {
+  "id": "11N4rPMIiBEFrzQG9aHWOYOWi5m3LlCkW",
+  "url": "https://drive.google.com/drive/folders/11N4rPMIiBEFrzQG9aHWOYOWi5m3LlCkW",
+  "kind": "Folder",
+  "title": "434.Think before Go Hierarchical Reasoning for Image-goal Navigation"
+ },
+ {
+  "id": "1tB-k-LqZr_FFulNLd8J2qwgzmB27me2K",
+  "url": "https://drive.google.com/drive/folders/1tB-k-LqZr_FFulNLd8J2qwgzmB27me2K",
+  "kind": "Folder",
+  "title": "435.Take the Dog to the Park Quadruped Robot for Joint Attention Training with Autistic Children in Naturalistic Settings"
+ },
+ {
+  "id": "1rliiRBkD2je-HuGv42UcU-f6Tn2zLqKo",
+  "url": "https://drive.google.com/drive/folders/1rliiRBkD2je-HuGv42UcU-f6Tn2zLqKo",
+  "kind": "Folder",
+  "title": "436.ANCHOR A Physically Grounded Closed-Loop Framework for Robust Home-Service Mobile Manipulation"
+ },
+ {
+  "id": "1xrNtffI5de-haijVSIs_RObXumdyene2",
+  "url": "https://drive.google.com/drive/folders/1xrNtffI5de-haijVSIs_RObXumdyene2",
+  "kind": "Folder",
+  "title": "437.F2F-AP Flow-to-Future Asynchronous Policy for Real-time Dynamic Manipulation"
+ },
+ {
+  "id": "12U4ZolEJ7Cru3y9UZhQi9m2eeFK6YBYe",
+  "url": "https://drive.google.com/drive/folders/12U4ZolEJ7Cru3y9UZhQi9m2eeFK6YBYe",
+  "kind": "Folder",
+  "title": "438.AsyncShield A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation"
+ },
+ {
+  "id": "1tCtB6yRk9QRqHewNTapJIYkfCcGUEFLR",
+  "url": "https://drive.google.com/drive/folders/1tCtB6yRk9QRqHewNTapJIYkfCcGUEFLR",
+  "kind": "Folder",
+  "title": "439.Cognitive Trust in HRI “Pay Attention to Me and I’ll Trust You Even If You Are Wrong”"
+ },
+ {
+  "id": "1GEbFwpKLXZn0Xfhf8UiIPfZuJNGaNWJd",
+  "url": "https://drive.google.com/drive/folders/1GEbFwpKLXZn0Xfhf8UiIPfZuJNGaNWJd",
+  "kind": "Folder",
+  "title": "44.Cascaded Compositional Residual Learning for Interactive Behaviors"
+ },
+ {
+  "id": "1UWmlvuIopqxdhrBgmk_WTk3LEAcjw1Wu",
+  "url": "https://drive.google.com/drive/folders/1UWmlvuIopqxdhrBgmk_WTk3LEAcjw1Wu",
+  "kind": "Folder",
+  "title": "440.Safe Navigation in Unknown and Cluttered Environments via Direction-Aware Convex Free-Region Generation"
+ },
+ {
+  "id": "1gnPuBkWa10oyI0pChLLVezvRa7IX7sfU",
+  "url": "https://drive.google.com/drive/folders/1gnPuBkWa10oyI0pChLLVezvRa7IX7sfU",
+  "kind": "Folder",
+  "title": "441.Inverse Safety Filtering Inferring Constraints from Safety Filters for Decentralized Coordination"
+ },
+ {
+  "id": "1FPHm_wYAub4neAi60KBslsDHjkE2UCJp",
+  "url": "https://drive.google.com/drive/folders/1FPHm_wYAub4neAi60KBslsDHjkE2UCJp",
+  "kind": "Folder",
+  "title": "442.Collaborative Map-based and Route-based Policy Learning for Continuous Vision-and-Language Navigation"
+ },
+ {
+  "id": "1lFOQTjlf8mHIJXrFdPVm-3dkjXyKu2XA",
+  "url": "https://drive.google.com/drive/folders/1lFOQTjlf8mHIJXrFdPVm-3dkjXyKu2XA",
+  "kind": "Folder",
+  "title": "443.Dynamic Legged Ball Manipulation on Rugged Terrains with Hierarchical Reinforcement Learning"
+ },
+ {
+  "id": "1NHf64UjnQS310xl566kD_wlK_yZ-C524",
+  "url": "https://drive.google.com/drive/folders/1NHf64UjnQS310xl566kD_wlK_yZ-C524",
+  "kind": "Folder",
+  "title": "444.HiPAN Hierarchical Posture-Adaptive Navigation for Quadruped Robots in Unstructured 3D Environments"
+ },
+ {
+  "id": "1tiuCq4Z7t1olnAkM-eaEXACcfGe1FGQF",
+  "url": "https://drive.google.com/drive/folders/1tiuCq4Z7t1olnAkM-eaEXACcfGe1FGQF",
+  "kind": "Folder",
+  "title": "445.Efficient On-policy Visual-RL via Stochastic Decoupled Policy Gradient"
+ },
+ {
+  "id": "14yVeUjFGH-xsgr051OArmlxSr3vMosOL",
+  "url": "https://drive.google.com/drive/folders/14yVeUjFGH-xsgr051OArmlxSr3vMosOL",
+  "kind": "Folder",
+  "title": "446.MUJICA Multi-skill Unified Joint Integration of Control Architecture for Wheeled-Legged Robots"
+ },
+ {
+  "id": "1XyuOF-BOeujSpgWNzDQTx59QlqX9FqSY",
+  "url": "https://drive.google.com/drive/folders/1XyuOF-BOeujSpgWNzDQTx59QlqX9FqSY",
+  "kind": "Folder",
+  "title": "447.Dynamics Aware Quadrupedal Locomotion via Intrinsic Dynamics Head"
+ },
+ {
+  "id": "1Ge1BWPW3Lay_PSsaSlcwM00--f9eTus_",
+  "url": "https://drive.google.com/drive/folders/1Ge1BWPW3Lay_PSsaSlcwM00--f9eTus_",
+  "kind": "Folder",
+  "title": "448.Short Paper The Starlink Robot A Platform and Dataset for Mobile Satellite Communication"
+ },
+ {
+  "id": "1elujFkTvcjag1Pe_hqBN8gjdVlwsdFUw",
+  "url": "https://drive.google.com/drive/folders/1elujFkTvcjag1Pe_hqBN8gjdVlwsdFUw",
+  "kind": "Folder",
+  "title": "449.OCELOT Odometry and Contact Estimation for Legged Robots"
+ },
+ {
+  "id": "18dJODKpGLPFn1OQ8pO7clNKnf_yZYGRL",
+  "url": "https://drive.google.com/drive/folders/18dJODKpGLPFn1OQ8pO7clNKnf_yZYGRL",
+  "kind": "Folder",
+  "title": "45.QUADRUPED SLAM USING THE A1’S ONBOARD SENSORS"
+ },
+ {
+  "id": "1pEYv3OVZvzOAtHqCAPs-kUG--fW3yQTO",
+  "url": "https://drive.google.com/drive/folders/1pEYv3OVZvzOAtHqCAPs-kUG--fW3yQTO",
+  "kind": "Folder",
+  "title": "450.TravExplorer Cross-Floor Embodied Exploration via Traversability-Aware 3-D Planning"
+ },
+ {
+  "id": "1LWOu9_Fi56e6M-Qh2xg-JfUJIRNQDYI2",
+  "url": "https://drive.google.com/drive/folders/1LWOu9_Fi56e6M-Qh2xg-JfUJIRNQDYI2",
+  "kind": "Folder",
+  "title": "451.EXACT-MPPI Exact Signed-Distance Navigation for Arbitrary-Footprint Robots from Point Clouds via Path Integral Control"
+ },
+ {
+  "id": "1Hy0IUcU9wpW1lkL1hoJ2MRQlZ0oyhEo1",
+  "url": "https://drive.google.com/drive/folders/1Hy0IUcU9wpW1lkL1hoJ2MRQlZ0oyhEo1",
+  "kind": "Folder",
+  "title": "452.CANINE Coaching Visually Impaired Users for Interactive Navigation with a Robot Guide Dog"
+ },
+ {
+  "id": "1rJfKLSV7HC0L6Bsxcefe_A35j6iMkevC",
+  "url": "https://drive.google.com/drive/folders/1rJfKLSV7HC0L6Bsxcefe_A35j6iMkevC",
+  "kind": "Folder",
+  "title": "453.NavOL Navigation Policy with Online Imitation Learning"
+ },
+ {
+  "id": "1hcC-oCnZQ1BsSPpGr4OsxA3fm1hM4mC0",
+  "url": "https://drive.google.com/drive/folders/1hcC-oCnZQ1BsSPpGr4OsxA3fm1hM4mC0",
+  "kind": "Folder",
+  "title": "454.Constraint-Aware Diffusion Priors for High-Fidelity and Versatile Quadruped Locomotion"
+ },
+ {
+  "id": "1Xt4YJIkGxe_Oimg2D08wxK9DsvIrbnjr",
+  "url": "https://drive.google.com/drive/folders/1Xt4YJIkGxe_Oimg2D08wxK9DsvIrbnjr",
+  "kind": "Folder",
+  "title": "455.Real-Time Behavior Recognition Using a Legged Robot for Animal–Robot Interaction"
+ },
+ {
+  "id": "18YKYLpUmlq25B07xFsrfB55mkzUrohQ7",
+  "url": "https://drive.google.com/drive/folders/18YKYLpUmlq25B07xFsrfB55mkzUrohQ7",
+  "kind": "Folder",
+  "title": "456.HCLM A Hierarchical Framework for Cooperative Loco-Manipulation with Dual Quadrupeds"
+ },
+ {
+  "id": "1p1S6I_K_9uRGrvdZcn6DZ_kwIULYzO1a",
+  "url": "https://drive.google.com/drive/folders/1p1S6I_K_9uRGrvdZcn6DZ_kwIULYzO1a",
+  "kind": "Folder",
+  "title": "457.Asymptotically Optimal Ergodic Coverage on Generalized Motion Fields"
+ },
+ {
+  "id": "1DMlE7a8LTMi6_SegWtahkLgbrAwtACYt",
+  "url": "https://drive.google.com/drive/folders/1DMlE7a8LTMi6_SegWtahkLgbrAwtACYt",
+  "kind": "Folder",
+  "title": "458.Multi-Floor Exploration for Ground Robots via an Incremental Reachable Graph and Structural Priors"
+ },
+ {
+  "id": "1xpSwDQWQNpuDZcb4sGLtXATRiFqArDwH",
+  "url": "https://drive.google.com/drive/folders/1xpSwDQWQNpuDZcb4sGLtXATRiFqArDwH",
+  "kind": "Folder",
+  "title": "459.Urbanverse Scaling urban simulation by watching city-tour videos"
+ },
+ {
+  "id": "1LBItVvba_rmbZuRcULEe3muIdNAPPpU6",
+  "url": "https://drive.google.com/drive/folders/1LBItVvba_rmbZuRcULEe3muIdNAPPpU6",
+  "kind": "Folder",
+  "title": "46.Synthesizing Reactive Test Environments for Autonomous Systems：Testing Reach-Avoid Specifications with Multi-Commodity Flows"
+ },
+ {
+  "id": "1NpeiJlgBo-mJg2zG7ws4sVAOqXnRs-CR",
+  "url": "https://drive.google.com/drive/folders/1NpeiJlgBo-mJg2zG7ws4sVAOqXnRs-CR",
+  "kind": "Folder",
+  "title": "460.PlanGS Active 3D Gaussian Reconstruction with Real-Time Planning"
+ },
+ {
+  "id": "15DTcjoCLyGPgqQ63Y0Of03TrvStED4P1",
+  "url": "https://drive.google.com/drive/folders/15DTcjoCLyGPgqQ63Y0Of03TrvStED4P1",
+  "kind": "Folder",
+  "title": "461.Tightening Mixed-Integer Convex Relaxations for Efficient Temporal Logic Motion Planning via Logic Network Flow"
+ },
+ {
+  "id": "1SmXOkqPepkBoFM_SXn5wTC3E7uvky3hd",
+  "url": "https://drive.google.com/drive/folders/1SmXOkqPepkBoFM_SXn5wTC3E7uvky3hd",
+  "kind": "Folder",
+  "title": "462.SigLoMa Learning Open-World Quadrupedal Loco-Manipulation from Ego-Centric Vision"
+ },
+ {
+  "id": "1Nk9pg3DYSsXYTLwcXr_MzsEWnW8VeHvX",
+  "url": "https://drive.google.com/drive/folders/1Nk9pg3DYSsXYTLwcXr_MzsEWnW8VeHvX",
+  "kind": "Folder",
+  "title": "463.SPICD-Net A Siamese PointNet Framework for Autonomous Indoor Change Detection in 3D LiDAR Point Clouds"
+ },
+ {
+  "id": "1Xyc3Cu5TOffQs5kJfSCFYS8grfRVo_RJ",
+  "url": "https://drive.google.com/drive/folders/1Xyc3Cu5TOffQs5kJfSCFYS8grfRVo_RJ",
+  "kind": "Folder",
+  "title": "464.MCNav Memory-Aware Dynamic Cognitive Map for Zero-shot Goal-oriented Navigation"
+ },
+ {
+  "id": "1NaSTKw1lr8tPeDhn3qG1FVwOsLBw7_vy",
+  "url": "https://drive.google.com/drive/folders/1NaSTKw1lr8tPeDhn3qG1FVwOsLBw7_vy",
+  "kind": "Folder",
+  "title": "465.Melding LLM and temporal logic for reliable human-swarm collaboration in complex scenarios"
+ },
+ {
+  "id": "1NlrEvFBclVSPvkJbaoAvCqOcyCDPg0sZ",
+  "url": "https://drive.google.com/drive/folders/1NlrEvFBclVSPvkJbaoAvCqOcyCDPg0sZ",
+  "kind": "Folder",
+  "title": "466.Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation"
+ },
+ {
+  "id": "186vcirqUtV9jsyeUMtxDk5T4bB5Yvbd-",
+  "url": "https://drive.google.com/drive/folders/186vcirqUtV9jsyeUMtxDk5T4bB5Yvbd-",
+  "kind": "Folder",
+  "title": "467.A Taxonomy of Environmental Cues for Quadruped Robot Navigation in Construction Environments Informed by Human Operator Behavior"
+ },
+ {
+  "id": "13KU3-mQqL4oM5PAsHmJj1geshhWtapLd",
+  "url": "https://drive.google.com/drive/folders/13KU3-mQqL4oM5PAsHmJj1geshhWtapLd",
+  "kind": "Folder",
+  "title": "468.Kine2Go Kinematic dataset for the Unitree Go2 robot with diverse gaits and motions"
+ },
+ {
+  "id": "1wa4G2h_wZpsN760qDT3DmfyBWVWgJPYc",
+  "url": "https://drive.google.com/drive/folders/1wa4G2h_wZpsN760qDT3DmfyBWVWgJPYc",
+  "kind": "Folder",
+  "title": "469.Autonomous Navigation System for Library Service Robot Based on Unitree Go2 Edu"
+ },
+ {
+  "id": "1rp7cvVSoN7xAyeGJVcwJ1s4t67Jl0YeP",
+  "url": "https://drive.google.com/drive/folders/1rp7cvVSoN7xAyeGJVcwJ1s4t67Jl0YeP",
+  "kind": "Folder",
+  "title": "47.Towards Safe Landing of Falling Quadruped Robots Using a 3-DoF Morphable Inertial Tail"
+ },
+ {
+  "id": "1qdnxjTjF57KHyazpOqZ3AIz3cg3D8twG",
+  "url": "https://drive.google.com/drive/folders/1qdnxjTjF57KHyazpOqZ3AIz3cg3D8twG",
+  "kind": "Folder",
+  "title": "470.Racing a Wheeled Quadruped Active Load Transfer Mitigation via Model Predictive Control"
+ },
+ {
+  "id": "1W1afub2C1_mNHWH2AfamtFiD5ofk_WBh",
+  "url": "https://drive.google.com/drive/folders/1W1afub2C1_mNHWH2AfamtFiD5ofk_WBh",
+  "kind": "Folder",
+  "title": "471.Long-Distance Real-World Navigation of the Legged-Wheeled Robot Go2-W Using Deep Reinforcement Learning"
+ },
+ {
+  "id": "1Hay98io7nOLU5_zVN0phOg8RVpbPp5rb",
+  "url": "https://drive.google.com/drive/folders/1Hay98io7nOLU5_zVN0phOg8RVpbPp5rb",
+  "kind": "Folder",
+  "title": "472.ForEnt A Multi-Modal Dataset for Characterizing Quadruped Robot Entrapments in Forest Environments"
+ },
+ {
+  "id": "1a6U1yTaiQEe7Y9s5ZEvj-TDCjA4W2Dlm",
+  "url": "https://drive.google.com/drive/folders/1a6U1yTaiQEe7Y9s5ZEvj-TDCjA4W2Dlm",
+  "kind": "Folder",
+  "title": "473.StairMaster Learning to Conquer Risky Hollow Stairs for Agile Quadrupedal Robots"
+ },
+ {
+  "id": "1EOyz9Eyn5h7zLgOAsvkUBCPJH0ey2Lxp",
+  "url": "https://drive.google.com/drive/folders/1EOyz9Eyn5h7zLgOAsvkUBCPJH0ey2Lxp",
+  "kind": "Folder",
+  "title": "474.Continual Quadruped Robots Coordination via Semantic Skill Discovery"
+ },
+ {
+  "id": "1AUWE4jZL2-UP7__lmFCroCF8QUXp57RT",
+  "url": "https://drive.google.com/drive/folders/1AUWE4jZL2-UP7__lmFCroCF8QUXp57RT",
+  "kind": "Folder",
+  "title": "475.SLowRL Safe Low-Rank Adaptation for Bridging the Sim-to-Real Gap in Legged Locomotion"
+ },
+ {
+  "id": "1LlXNaVW-20Bpl325bGDNyp8USvPuFXc2",
+  "url": "https://drive.google.com/drive/folders/1LlXNaVW-20Bpl325bGDNyp8USvPuFXc2",
+  "kind": "Folder",
+  "title": "476.Bayesian Optimization for Learning Nonlinear MPC in Autonomous Agent Navigation"
+ },
+ {
+  "id": "1ggg8hGwUKaqoiBleh2H-DPQ8-Xsd8_MT",
+  "url": "https://drive.google.com/drive/folders/1ggg8hGwUKaqoiBleh2H-DPQ8-Xsd8_MT",
+  "kind": "Folder",
+  "title": "477.Deskewed LiDAR Odometry for Quadruped Robots in Environments with Varying Elevation"
+ },
+ {
+  "id": "1lU4sAwutYxo2n9Hz4g5Gh5zJ3ngvTCAL",
+  "url": "https://drive.google.com/drive/folders/1lU4sAwutYxo2n9Hz4g5Gh5zJ3ngvTCAL",
+  "kind": "Folder",
+  "title": "478.SemGeoNavA Safety-Guided Visual Navigation Approach with Semantic Reasoning and Geometric Planning"
+ },
+ {
+  "id": "1PQxTp5-U-SY9r0JTSVGkIQJFsGx9opzR",
+  "url": "https://drive.google.com/drive/folders/1PQxTp5-U-SY9r0JTSVGkIQJFsGx9opzR",
+  "kind": "Folder",
+  "title": "479.LoComposition Terrain-Adaptive Energy-Efficient Quadruped Locomotion without Gait Priors"
+ },
+ {
+  "id": "1wF3QUJO81RLg5oPq2fDwg1MEkpmtd4jD",
+  "url": "https://drive.google.com/drive/folders/1wF3QUJO81RLg5oPq2fDwg1MEkpmtd4jD",
+  "kind": "Folder",
+  "title": "48.Versatile Real-Time Motion Synthesis via Kino-Dynamic MPC with Hybrid-Systems DDP"
+ },
+ {
+  "id": "1WX7aDSiewsq4xyukf-ZY9IBrdg7SCtdO",
+  "url": "https://drive.google.com/drive/folders/1WX7aDSiewsq4xyukf-ZY9IBrdg7SCtdO",
+  "kind": "Folder",
+  "title": "480.FlashNav Ultra-Fast Policy Training for Robot Navigation within 20 Seconds"
+ },
+ {
+  "id": "1wONP1mHPSYJNoNcvpZrDjyZWuxjPY3Wo",
+  "url": "https://drive.google.com/drive/folders/1wONP1mHPSYJNoNcvpZrDjyZWuxjPY3Wo",
+  "kind": "Folder",
+  "title": "481.MPC-Injection Biasing Off-Policy Locomotion RL Toward Controller-Induced Behavior Basins"
+ },
+ {
+  "id": "1o4ASVtNlMLOVBFlwYs9CK7U_Szjj1tkk",
+  "url": "https://drive.google.com/drive/folders/1o4ASVtNlMLOVBFlwYs9CK7U_Szjj1tkk",
+  "kind": "Folder",
+  "title": "482.High-Load-Density Electro-Permanent Magnetic Foot with Controllable Adhesion for Quadruped Wall-Climbing Robots"
+ },
+ {
+  "id": "1A1usla0Ne819iDNnY_73oWCPithBuLI6",
+  "url": "https://drive.google.com/drive/folders/1A1usla0Ne819iDNnY_73oWCPithBuLI6",
+  "kind": "Folder",
+  "title": "483.fARfetch Enabling Collocated AR-HRC in Large Visually Diverse Environments with VLM-Driven AR Content Adaptation"
+ },
+ {
+  "id": "1JSXsLErDQXOnvM4c5ullxddXJZoq6nhE",
+  "url": "https://drive.google.com/drive/folders/1JSXsLErDQXOnvM4c5ullxddXJZoq6nhE",
+  "kind": "Folder",
+  "title": "484.MSTR-PPO A Multi-Scale Temporal Residual PPO Controller for Freeze-Prone Indoor Navigation"
+ },
+ {
+  "id": "1jnHlfv9MUbntpo98kuvcfXdt5qylT5j4",
+  "url": "https://drive.google.com/drive/folders/1jnHlfv9MUbntpo98kuvcfXdt5qylT5j4",
+  "kind": "Folder",
+  "title": "485.Mixture-of-Experts RL for Fault-Tolerant Legged Locomotion"
+ },
+ {
+  "id": "175rgZEkV5ABvYYtbFztGJnoijEG9ny-I",
+  "url": "https://drive.google.com/drive/folders/175rgZEkV5ABvYYtbFztGJnoijEG9ny-I",
+  "kind": "Folder",
+  "title": "486.OctoSense Self-Supervised Learning for Multimodal Robot Perception"
+ },
+ {
+  "id": "1pSbDUpqx-62YaIdVqFf4BvkBLYDya67S",
+  "url": "https://drive.google.com/drive/folders/1pSbDUpqx-62YaIdVqFf4BvkBLYDya67S",
+  "kind": "Folder",
+  "title": "487.Asymmetric physics enables efficient learning in quadrupedal robot swarms"
+ },
+ {
+  "id": "1iytyF9khSxXNNO1l6rCx94OYkolQI6Ta",
+  "url": "https://drive.google.com/drive/folders/1iytyF9khSxXNNO1l6rCx94OYkolQI6Ta",
+  "kind": "Folder",
+  "title": "488.Shield-Loco Shielding Locomotion Policies with Predictive Safety Filtering"
+ },
+ {
+  "id": "1PujwQLHvDkK7wW4O5NE0er-xL2FUEDrF",
+  "url": "https://drive.google.com/drive/folders/1PujwQLHvDkK7wW4O5NE0er-xL2FUEDrF",
+  "kind": "Folder",
+  "title": "489.QuadVerse An Integrated Framework Aligning Visual-Physical Reality for Quadruped Simulation"
+ },
+ {
+  "id": "1y9VrML-zS1hTbk8bwQRmpuferKVXl2Qw",
+  "url": "https://drive.google.com/drive/folders/1y9VrML-zS1hTbk8bwQRmpuferKVXl2Qw",
+  "kind": "Folder",
+  "title": "49.Learning and Deploying Robust Locomotion Policies with Minimal Dynamics Randomization"
+ },
+ {
+  "id": "1zVZZDEWZl9GnkcUzOifpmWXhuCFerCEb",
+  "url": "https://drive.google.com/drive/folders/1zVZZDEWZl9GnkcUzOifpmWXhuCFerCEb",
+  "kind": "Folder",
+  "title": "490.Affordance-Based Hierarchical Reinforcement Learning for Quadruped Pedipulation"
+ },
+ {
+  "id": "1YFW0jptEwfm3IIw-NEalJcI5oNyl99--",
+  "url": "https://drive.google.com/drive/folders/1YFW0jptEwfm3IIw-NEalJcI5oNyl99--",
+  "kind": "Folder",
+  "title": "491.Large Language Model and Knowledge Graph-Based Intelligent Control Framework for Smart Manufacturing"
+ },
+ {
+  "id": "1OFW8_wqINPaU_PSuYqaVE9rTmLTAOryG",
+  "url": "https://drive.google.com/drive/folders/1OFW8_wqINPaU_PSuYqaVE9rTmLTAOryG",
+  "kind": "Folder",
+  "title": "492.AllDayNav Lifelong Navigation via Real-World Reinforcement Learning"
+ },
+ {
+  "id": "16ovmMecQWiq9XZW7KQKAQHm-xTnqQN3Y",
+  "url": "https://drive.google.com/drive/folders/16ovmMecQWiq9XZW7KQKAQHm-xTnqQN3Y",
+  "kind": "Folder",
+  "title": "493.VOiLA Vectorized Online Planning with Learned Diffusion Model for POMDP Agents"
+ },
+ {
+  "id": "18zQm7Sd2Xck_h6X33SFSf78LFdOSVKoR",
+  "url": "https://drive.google.com/drive/folders/18zQm7Sd2Xck_h6X33SFSf78LFdOSVKoR",
+  "kind": "Folder",
+  "title": "494.FT-WBC Learning Fault-Tolerant Whole-Body Control for Legged Loco-Manipulation"
+ },
+ {
+  "id": "1sF5MsA0hnHWh_ZKJ0HZekgADG_4piohC",
+  "url": "https://drive.google.com/drive/folders/1sF5MsA0hnHWh_ZKJ0HZekgADG_4piohC",
+  "kind": "Folder",
+  "title": "495.SCAN-Planner Spatial Collision-Aware Local Planning for Route-Guided Long-Range Quadruped Navigation"
+ },
+ {
+  "id": "1X_pKBzbIMLAsCd_s_0B1IxJaoMVPpRLD",
+  "url": "https://drive.google.com/drive/folders/1X_pKBzbIMLAsCd_s_0B1IxJaoMVPpRLD",
+  "kind": "Folder",
+  "title": "496.SGM-SLAM Scene Graph Matching for Data-Efficient Distributed SLAM"
+ },
+ {
+  "id": "1lhWEP0ZZ7sfnwxn7uA5KRoJpZ_7Qzj9P",
+  "url": "https://drive.google.com/drive/folders/1lhWEP0ZZ7sfnwxn7uA5KRoJpZ_7Qzj9P",
+  "kind": "Folder",
+  "title": "497.Speech-to-trajectory learning intuitive verbal guidance for robot motion"
+ },
+ {
+  "id": "1N1-eh_7tTf0FKVdiPv9uI6PD0XlB5t4I",
+  "url": "https://drive.google.com/drive/folders/1N1-eh_7tTf0FKVdiPv9uI6PD0XlB5t4I",
+  "kind": "Folder",
+  "title": "498.Redesigning Regularization for Effective Policy Smoothing"
+ },
+ {
+  "id": "1qT28ofiBEJpi43Ul3hQw_Z3AXrg9_125",
+  "url": "https://drive.google.com/drive/folders/1qT28ofiBEJpi43Ul3hQw_Z3AXrg9_125",
+  "kind": "Folder",
+  "title": "499.Safe, Real-Time Active Model Discrimination and Fault Diagnosis for Nonlinear Systems via Differentiable Reachability"
+ },
+ {
+  "id": "16wsXxh6LeX_LiAJos-3XBKBbBWpRtklX",
+  "url": "https://drive.google.com/drive/folders/16wsXxh6LeX_LiAJos-3XBKBbBWpRtklX",
+  "kind": "Folder",
+  "title": "5.Generic Neural Locomotion ControlFramework for Legged Robots"
+ },
+ {
+  "id": "1TS20HSo2IiKzZIbuC8YMLFVT77_zkzzg",
+  "url": "https://drive.google.com/drive/folders/1TS20HSo2IiKzZIbuC8YMLFVT77_zkzzg",
+  "kind": "Folder",
+  "title": "50.Hybrid iLQR Model Predictive Control for Contact Implicit Stabilization on Legged Robots"
+ },
+ {
+  "id": "1THlEpXmgaq9t2G0yapceSrjnO1Hy1rfu",
+  "url": "https://drive.google.com/drive/folders/1THlEpXmgaq9t2G0yapceSrjnO1Hy1rfu",
+  "kind": "Folder",
+  "title": "500.Physics-Guided Robotic Radiation Source Localization along Arbitrary Measurement Paths in Unstructured Environments"
+ },
+ {
+  "id": "1V_QiTzJenarzWc3V91yD19Vo-HrO6EaV",
+  "url": "https://drive.google.com/drive/folders/1V_QiTzJenarzWc3V91yD19Vo-HrO6EaV",
+  "kind": "Folder",
+  "title": "501.Metis A Generalizable and Efficient World-Action Model for Autonomous Driving and Urban Navigation"
+ },
+ {
+  "id": "12adSR3yG-bwimfNkOZ55l7_RqhfSdrxT",
+  "url": "https://drive.google.com/drive/folders/12adSR3yG-bwimfNkOZ55l7_RqhfSdrxT",
+  "kind": "Folder",
+  "title": "502.RoamFlow Reinforcement-Aligned One-Step Action MeanFlow Policy for Image-Goal Navigation"
+ },
+ {
+  "id": "1wjr7xHXSdYNoUcLBPDGkuvXQ7Q18Xmar",
+  "url": "https://drive.google.com/drive/folders/1wjr7xHXSdYNoUcLBPDGkuvXQ7Q18Xmar",
+  "kind": "Folder",
+  "title": "503.FlowDec Temporal Conditional Flow Decorruptor for Robust Continuous Vision-Language Navigation"
+ },
+ {
+  "id": "1bzTtbagZt6UfrEnrpnVWP5o5a0g_ZJZ1",
+  "url": "https://drive.google.com/drive/folders/1bzTtbagZt6UfrEnrpnVWP5o5a0g_ZJZ1",
+  "kind": "Folder",
+  "title": "504.Toward Autonomous UGV-Based Radio-Frequency Measurement Campaigns Tutorial and Application"
+ },
+ {
+  "id": "1IwNGRjoU1ztpn3OMVCo1Jy1EPrdLjGTm",
+  "url": "https://drive.google.com/drive/folders/1IwNGRjoU1ztpn3OMVCo1Jy1EPrdLjGTm",
+  "kind": "Folder",
+  "title": "505.EffiNav Fusing Depth and Vision-Language for Efficient Object Goal Navigation"
+ },
+ {
+  "id": "1QDOmDTr8SroNBOkENPbHgV7v4tZTjuhR",
+  "url": "https://drive.google.com/drive/folders/1QDOmDTr8SroNBOkENPbHgV7v4tZTjuhR",
+  "kind": "Folder",
+  "title": "506.Qwen-RobotNav Technical Report A Scalable Navigation Model Designed for an Agentic Navigation System"
+ },
+ {
+  "id": "1-TOnqtpYplhbcleR6ir-8qbjSgdnirvy",
+  "url": "https://drive.google.com/drive/folders/1-TOnqtpYplhbcleR6ir-8qbjSgdnirvy",
+  "kind": "Folder",
+  "title": "507.WaveForward An Omnidirectional Passive Wheeled Quadruped Robot with Casters"
+ },
+ {
+  "id": "1PvqLe7CPVuco6xk3Y0RLhfNpxQdtySkg",
+  "url": "https://drive.google.com/drive/folders/1PvqLe7CPVuco6xk3Y0RLhfNpxQdtySkg",
+  "kind": "Folder",
+  "title": "508.Learning Contact Representation for Leg Odometry"
+ },
+ {
+  "id": "17Vc45yhAiyEfAkkenCqwa8d1KXTQq_oO",
+  "url": "https://drive.google.com/drive/folders/17Vc45yhAiyEfAkkenCqwa8d1KXTQq_oO",
+  "kind": "Folder",
+  "title": "509.X-Morph Human Motion Priors for Scalable Robot Learning Across Morphologies"
+ },
+ {
+  "id": "1h9Au7Fo3GLm46U1vF9yb69b9x2Cw1lSP",
+  "url": "https://drive.google.com/drive/folders/1h9Au7Fo3GLm46U1vF9yb69b9x2Cw1lSP",
+  "kind": "Folder",
+  "title": "51.Real-time Trajectory Optimization and Control for Ball Bumping with Quadruped Robots"
+ },
+ {
+  "id": "1ItcJTumC_96fkNdOmuFIHplwoU4IcQJC",
+  "url": "https://drive.google.com/drive/folders/1ItcJTumC_96fkNdOmuFIHplwoU4IcQJC",
+  "kind": "Folder",
+  "title": "510.From Seeing to Experiencing Scaling Navigation Foundation Models with Reinforcement Learning"
+ },
+ {
+  "id": "1sES1OOykRVCM_sVMEsV-b5G5krq0aIL5",
+  "url": "https://drive.google.com/drive/folders/1sES1OOykRVCM_sVMEsV-b5G5krq0aIL5",
+  "kind": "Folder",
+  "title": "511.Beyond Transformers Linear Attention Policy for Open-Vocabulary Object Goal Navigation"
+ },
+ {
+  "id": "12exNkCSzdh-4f0SQGhm3ox2fTJzud9wF",
+  "url": "https://drive.google.com/drive/folders/12exNkCSzdh-4f0SQGhm3ox2fTJzud9wF",
+  "kind": "Folder",
+  "title": "512.Empowering Multi-Robot Cooperation via Sequential World Models"
+ },
+ {
+  "id": "1TdcvHtyiE7vl3EmKlQEbpmiUkc7_UKSu",
+  "url": "https://drive.google.com/drive/folders/1TdcvHtyiE7vl3EmKlQEbpmiUkc7_UKSu",
+  "kind": "Folder",
+  "title": "513.LocalNav Distilling Frontier VLMs and Embodied RL for On-Device Object Goal Navigation"
+ },
+ {
+  "id": "17maStNutA0GkD2tvRKGVIDJuZ0mq6S5I",
+  "url": "https://drive.google.com/drive/folders/17maStNutA0GkD2tvRKGVIDJuZ0mq6S5I",
+  "kind": "Folder",
+  "title": "514.Joint On-and-Off Policy Learning for Vision-and-Language Navigation"
+ },
+ {
+  "id": "1zKr-OIwh2-EXKfOpgYYeEL7wV7q6NeP9",
+  "url": "https://drive.google.com/drive/folders/1zKr-OIwh2-EXKfOpgYYeEL7wV7q6NeP9",
+  "kind": "Folder",
+  "title": "515.Unleashing Infinite Motion Scaling Expressive Quadrupedal Motion via Generative Video Priors"
+ },
+ {
+  "id": "1zUHwermGx-AgEoe53KX6Fq4-DbcCgyLf",
+  "url": "https://drive.google.com/drive/folders/1zUHwermGx-AgEoe53KX6Fq4-DbcCgyLf",
+  "kind": "Folder",
+  "title": "516.From Language to Navigation Goals A Vision-Language Approach for Semantic Navigation of Mobile Robots Using RGB-D Perception"
+ },
+ {
+  "id": "154S0PGparyB30F9E0PSqvygi_ZoweyMa",
+  "url": "https://drive.google.com/drive/folders/154S0PGparyB30F9E0PSqvygi_ZoweyMa",
+  "kind": "Folder",
+  "title": "517.Towards Platform-Agnostic Geospatial Awareness Fusing Satellite Priors with LiDAR Laser Point cloud for Seamless Indoor-Outdoor Navigation"
+ },
+ {
+  "id": "1jCcVggaN6DJDwPUZVflAOX27G9yssNXb",
+  "url": "https://drive.google.com/drive/folders/1jCcVggaN6DJDwPUZVflAOX27G9yssNXb",
+  "kind": "Folder",
+  "title": "518.Predictive Training with Latent Imagination for Visual Quadruped Navigation"
+ },
+ {
+  "id": "1tAhJuRnNPZdMpF9RF_dUzjf6ne-s1YFp",
+  "url": "https://drive.google.com/drive/folders/1tAhJuRnNPZdMpF9RF_dUzjf6ne-s1YFp",
+  "kind": "Folder",
+  "title": "519.Learning Agile Navigation in Crowded Environments for Quadruped Robots"
+ },
+ {
+  "id": "1N4Hyiox4zJafk4JP1kaLn56FLLUBS5Pa",
+  "url": "https://drive.google.com/drive/folders/1N4Hyiox4zJafk4JP1kaLn56FLLUBS5Pa",
+  "kind": "Folder",
+  "title": "52.Layered Control for Cooperative Locomotion of Two Quadrupedal RobotsCentralized and Distributed Approaches"
+ },
+ {
+  "id": "1oFDiMGoMsR-FqVZ_gh4HaItSnyO7yVxe",
+  "url": "https://drive.google.com/drive/folders/1oFDiMGoMsR-FqVZ_gh4HaItSnyO7yVxe",
+  "kind": "Folder",
+  "title": "520.TypeGo An OS Runtime for Embodied Agents"
+ },
+ {
+  "id": "1CgIUZSLmJ2wXPQ4C2qjbyIvKzsMkSxte",
+  "url": "https://drive.google.com/drive/folders/1CgIUZSLmJ2wXPQ4C2qjbyIvKzsMkSxte",
+  "kind": "Folder",
+  "title": "521.Milo, a Fully Autonomous IndoorOutdoor Robotic Guide Dog"
+ },
+ {
+  "id": "1H-bA-rHRZP9Ral5jxqJjNe6n9hfQOxU5",
+  "url": "https://drive.google.com/drive/folders/1H-bA-rHRZP9Ral5jxqJjNe6n9hfQOxU5",
+  "kind": "Folder",
+  "title": "522.TAC-LOCO Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation"
+ },
+ {
+  "id": "1w5H7E07KCyuQG4XNWndAwGepNgYrSiS3",
+  "url": "https://drive.google.com/drive/folders/1w5H7E07KCyuQG4XNWndAwGepNgYrSiS3",
+  "kind": "Folder",
+  "title": "523.MIRROR Multisensory Implicit Rejection-sampled RObotic policy"
+ },
+ {
+  "id": "1oAxMlaAe2hO8WKpt6Abyb0K2etqSNqif",
+  "url": "https://drive.google.com/drive/folders/1oAxMlaAe2hO8WKpt6Abyb0K2etqSNqif",
+  "kind": "Folder",
+  "title": "524.NavCMPO Critic-Guided MeanFlow Policy Optimization for Adaptive Navigation"
+ },
+ {
+  "id": "1K42k0iSm7V-eP6XoGbFrNkZdWHowQGKP",
+  "url": "https://drive.google.com/drive/folders/1K42k0iSm7V-eP6XoGbFrNkZdWHowQGKP",
+  "kind": "Folder",
+  "title": "525.ADMM-Based Safety-Critical Distributed NMPC for Cooperative Transportation by Quadrupedal Robots"
+ },
+ {
+  "id": "1Cn3o15RmfiUSxrXttWVbuJhHUn24D4gT",
+  "url": "https://drive.google.com/drive/folders/1Cn3o15RmfiUSxrXttWVbuJhHUn24D4gT",
+  "kind": "Folder",
+  "title": "526.SONG A Photorealistic 3D Gaussian Simulation Platform for Benchmarking Social Navigation"
+ },
+ {
+  "id": "1EwmO8-nWuztWmXH8eg9r1nRkWrCGizFX",
+  "url": "https://drive.google.com/drive/folders/1EwmO8-nWuztWmXH8eg9r1nRkWrCGizFX",
+  "kind": "Folder",
+  "title": "527.An Edge-Deployable Visible-Thermal Framework for Cow-Head Detection and Cross-Camera Association in Robotic Dairy Monitoring"
+ },
+ {
+  "id": "1u7TiwBiQ8R64Qsm9b7eSb9SJIwNjNilL",
+  "url": "https://drive.google.com/drive/folders/1u7TiwBiQ8R64Qsm9b7eSb9SJIwNjNilL",
+  "kind": "Folder",
+  "title": "528.Vectorized Online POMDP Planning with Neural POMDP Models"
+ },
+ {
+  "id": "1q8uJshFM5zFvKL5_FExzFg_rpqSYsrIV",
+  "url": "https://drive.google.com/drive/folders/1q8uJshFM5zFvKL5_FExzFg_rpqSYsrIV",
+  "kind": "Folder",
+  "title": "529.Implicit Virtual Leader Decentralized Vision-Only Relative Pose Estimation for Multi-Robot Formations"
+ },
+ {
+  "id": "1GKNynwk2sqReaD7oSxCs3Z3GfTrepmAw",
+  "url": "https://drive.google.com/drive/folders/1GKNynwk2sqReaD7oSxCs3Z3GfTrepmAw",
+  "kind": "Folder",
+  "title": "53.Legs as Manipulator Pushing Quadrupedal Agility Beyond Locomotion"
+ },
+ {
+  "id": "1VFhNhdGujmLCiTgcHYJvvJddxe-dwrFc",
+  "url": "https://drive.google.com/drive/folders/1VFhNhdGujmLCiTgcHYJvvJddxe-dwrFc",
+  "kind": "Folder",
+  "title": "530.LLM-Powered Interactive Robotic Action Synthesis from Multimodal Speech, Gestures, and Music"
+ },
+ {
+  "id": "10yj34pCJxUXsNTBhUb75_EiygmlqGQUe",
+  "url": "https://drive.google.com/drive/folders/10yj34pCJxUXsNTBhUb75_EiygmlqGQUe",
+  "kind": "Folder",
+  "title": "531.Beyond Episodic Evaluation Memory Architectural Bottlenecks in Sequential Embodied Question Answering"
+ },
+ {
+  "id": "1IoOjBh7WRi0DZoCchgBY19Pu40lvuChe",
+  "url": "https://drive.google.com/drive/folders/1IoOjBh7WRi0DZoCchgBY19Pu40lvuChe",
+  "kind": "Folder",
+  "title": "532.Covariance Volume Maximization for Embodied Latent Exploration in Deep Reinforcement Learning"
+ },
+ {
+  "id": "1KmVrc9v9XCE1X6IyGYtwLLEdNOXjpcFb",
+  "url": "https://drive.google.com/drive/folders/1KmVrc9v9XCE1X6IyGYtwLLEdNOXjpcFb",
+  "kind": "Folder",
+  "title": "533.EA-Nav Learning Safe Visual Navigation Policies with Embodiment Awareness"
+ },
+ {
+  "id": "1DV55ejo7vTpDJYpA4jX4re8_ql6xRE3A",
+  "url": "https://drive.google.com/drive/folders/1DV55ejo7vTpDJYpA4jX4re8_ql6xRE3A",
+  "kind": "Folder",
+  "title": "534.DDS-Mamba-YOLO Improved adaptive state-space modeling for tomato fruit and leaf disease detection"
+ },
+ {
+  "id": "1GDriWs1hIl24LQT31CdkMAGLwVhuri6I",
+  "url": "https://drive.google.com/drive/folders/1GDriWs1hIl24LQT31CdkMAGLwVhuri6I",
+  "kind": "Folder",
+  "title": "535.SoftNav Injecting 3D Scene Tokens into VLMs for Embodied Navigation"
+ },
+ {
+  "id": "1QpzC5uwXnKq3ms2WSHDbQuDfXlEOey30",
+  "url": "https://drive.google.com/drive/folders/1QpzC5uwXnKq3ms2WSHDbQuDfXlEOey30",
+  "kind": "Folder",
+  "title": "536.EAGOR Embodied Reasoning in Omni-direction"
+ },
+ {
+  "id": "1qRy3_yIOEVpL-GXNlBPXev9riOAK9SJo",
+  "url": "https://drive.google.com/drive/folders/1qRy3_yIOEVpL-GXNlBPXev9riOAK9SJo",
+  "kind": "Folder",
+  "title": "537.I Move Therefore I Learn Experience-Based Traversability in Outdoor Robotics"
+ },
+ {
+  "id": "1WcmGleaXH5smJcYvy7IXDJnRFE5MelN3",
+  "url": "https://drive.google.com/drive/folders/1WcmGleaXH5smJcYvy7IXDJnRFE5MelN3",
+  "kind": "Folder",
+  "title": "538.Hierarchical Object Representation for Spatial Robot Perception Points, Meshes, and Superquadrics"
+ },
+ {
+  "id": "1T5jnOqdugLDPoKlXF13Cr7o_uj65vs8F",
+  "url": "https://drive.google.com/drive/folders/1T5jnOqdugLDPoKlXF13Cr7o_uj65vs8F",
+  "kind": "Folder",
+  "title": "539.UniLM-Nav A Unified Framework for Zero-Shot Last-Mile Navigation"
+ },
+ {
+  "id": "1BtC020qIdOhz36nxsGsUBXtj3nEnoG5R",
+  "url": "https://drive.google.com/drive/folders/1BtC020qIdOhz36nxsGsUBXtj3nEnoG5R",
+  "kind": "Folder",
+  "title": "54.A Simple Controller for Omnidirectional Trotting of Quadrupedal Robots Command Following and Waypoint Tracking"
+ },
+ {
+  "id": "173Iw6Tq7svqbkK5iEUseSkL_j-PVlwmK",
+  "url": "https://drive.google.com/drive/folders/173Iw6Tq7svqbkK5iEUseSkL_j-PVlwmK",
+  "kind": "Folder",
+  "title": "540.A Robust Shear-Based Optical Tactile Sensor for Quadruped-Mounted Manipulation"
+ },
+ {
+  "id": "1BY2-03b1lOgFtI-l4c0T9VZ0zvxem7aX",
+  "url": "https://drive.google.com/drive/folders/1BY2-03b1lOgFtI-l4c0T9VZ0zvxem7aX",
+  "kind": "Folder",
+  "title": "541.MonoGlass3D Monocular 3-D Glass Detection With Plane Regression and Adaptive Feature Fusion"
+ },
+ {
+  "id": "187_fPrvjhpwwZ39AF6e9-8bEfxABs3R7",
+  "url": "https://drive.google.com/drive/folders/187_fPrvjhpwwZ39AF6e9-8bEfxABs3R7",
+  "kind": "Folder",
+  "title": "542.Act on What You See Unlocking Safe Social Navigation in Vision-Language-Action Models"
+ },
+ {
+  "id": "1upgxIm3IWad320Ko0WPMrP8fm6ML9wDB",
+  "url": "https://drive.google.com/drive/folders/1upgxIm3IWad320Ko0WPMrP8fm6ML9wDB",
+  "kind": "Folder",
+  "title": "543.Rapid Embodiment Adaptation for Quadrupedal Locomotion"
+ },
+ {
+  "id": "1Dr0ZQDghlrlMlUcq7AWN4wfUqshKWCGh",
+  "url": "https://drive.google.com/drive/folders/1Dr0ZQDghlrlMlUcq7AWN4wfUqshKWCGh",
+  "kind": "Folder",
+  "title": "544.Motion Control Technology for Quadruped Robots Based on Reinforcement Learning"
+ },
+ {
+  "id": "1v05S8DUJw7SH3CtF-3dGPJRGrKsFv8U5",
+  "url": "https://drive.google.com/drive/folders/1v05S8DUJw7SH3CtF-3dGPJRGrKsFv8U5",
+  "kind": "Folder",
+  "title": "545.Modeling mechanical disturbances induced by high intensity magnetic fields on electric motors"
+ },
+ {
+  "id": "1B_9QXON9ZFDU5AyzM501o-dATuTmN_Om",
+  "url": "https://drive.google.com/drive/folders/1B_9QXON9ZFDU5AyzM501o-dATuTmN_Om",
+  "kind": "Folder",
+  "title": "546.Learning to Walk With Less A Dyna-Style Approach to Quadrupedal Locomotion"
+ },
+ {
+  "id": "1KzKovT4fOGKVAenHvpU2eRQj9tysfL8H",
+  "url": "https://drive.google.com/drive/folders/1KzKovT4fOGKVAenHvpU2eRQj9tysfL8H",
+  "kind": "Folder",
+  "title": "547.Residual-Based Adaptive Kalman Filtering for Legged Robot State Estimation"
+ },
+ {
+  "id": "1jUYBJRDKF6lz7PwOMq59hbdhKQgCV1A2",
+  "url": "https://drive.google.com/drive/folders/1jUYBJRDKF6lz7PwOMq59hbdhKQgCV1A2",
+  "kind": "Folder",
+  "title": "548.Vision-Based Autonomous Quadrupedal Robot for Rapid Post-Earthquake Crack-Based Building Damage Detection"
+ },
+ {
+  "id": "1c_8Dcdwavtg3iV8Dx3_jGUN_TznANUQa",
+  "url": "https://drive.google.com/drive/folders/1c_8Dcdwavtg3iV8Dx3_jGUN_TznANUQa",
+  "kind": "Folder",
+  "title": "549.Open-DiffLoco Open-Source Differentiable Learning for Deployable Blind Quadruped Locomotion"
+ },
+ {
+  "id": "1K8poTrixzYkwkWZVH76ElhwbC0zkjE1o",
+  "url": "https://drive.google.com/drive/folders/1K8poTrixzYkwkWZVH76ElhwbC0zkjE1o",
+  "kind": "Folder",
+  "title": "55.Balancing Control and Pose Optimization for Wheel-legged Robots Navigating High Obstacles"
+ },
+ {
+  "id": "1937yzMR7L053iVwE2PFOCX7YPfYmdI3Q",
+  "url": "https://drive.google.com/drive/folders/1937yzMR7L053iVwE2PFOCX7YPfYmdI3Q",
+  "kind": "Folder",
+  "title": "550.TRACE Ergodic Trajectory Optimization for Active Scene Reconstruction"
+ },
+ {
+  "id": "1DtlavzacKd89qmOTzeA-j3AJjTLk6fB_",
+  "url": "https://drive.google.com/drive/folders/1DtlavzacKd89qmOTzeA-j3AJjTLk6fB_",
+  "kind": "Folder",
+  "title": "551.SCAPE Scenario-Conditioned Simulation-Augmented Policy Evaluation"
+ },
+ {
+  "id": "1aWi6n6og0KNxoDl9zbt5ZrsosIhhcpeW",
+  "url": "https://drive.google.com/drive/folders/1aWi6n6og0KNxoDl9zbt5ZrsosIhhcpeW",
+  "kind": "Folder",
+  "title": "552.OccPlanner Goal-Aware Occupancy-Conditioned Diffusion Planner for Pixel-Goal Navigation"
+ },
+ {
+  "id": "1xJF455K_MI0PWf4bkVZc2y0fChOMAaLD",
+  "url": "https://drive.google.com/drive/folders/1xJF455K_MI0PWf4bkVZc2y0fChOMAaLD",
+  "kind": "Folder",
+  "title": "553.Semantic-Geometric Fusion NMPC for Executable Mapless Quadruped Navigation on Tactile Paving"
+ },
+ {
+  "id": "1gIRXtE5mu70mN7g6DO6-I3iM-l_EW2Fu",
+  "url": "https://drive.google.com/drive/folders/1gIRXtE5mu70mN7g6DO6-I3iM-l_EW2Fu",
+  "kind": "Folder",
+  "title": "554.Learning-Based Measurement-Robust Control Barrier Functions for Obstacle Avoidance under State Estimation Error"
+ },
+ {
+  "id": "1NJ5jB29HqwyJO4UucgG5g56AaaLrJfum",
+  "url": "https://drive.google.com/drive/folders/1NJ5jB29HqwyJO4UucgG5g56AaaLrJfum",
+  "kind": "Folder",
+  "title": "555.CompCPZ Preserving Multi-Modal Intent in Language-Guided Robot Manipulation"
+ },
+ {
+  "id": "1Q4N5Ib2gCnDJURbcnQZBcjXcWweslb8w",
+  "url": "https://drive.google.com/drive/folders/1Q4N5Ib2gCnDJURbcnQZBcjXcWweslb8w",
+  "kind": "Folder",
+  "title": "556.An Edge-Deployable Method for Cow-Head Detection and Cross-Camera Association in Visible–Thermal Robotic Dairy Monitoring"
+ },
+ {
+  "id": "15PgxF1oTT64Xlwbb1bZwkZk99wuwaH4p",
+  "url": "https://drive.google.com/drive/folders/15PgxF1oTT64Xlwbb1bZwkZk99wuwaH4p",
+  "kind": "Folder",
+  "title": "557.Embodied Multimodal Grounding for Open-Vocabulary Mobile Manipulation via Semantic 3D Gaussian Splatting"
+ },
+ {
+  "id": "1mtWyAXHvYsr-FbJvaoMUhwUcJS-4CpFt",
+  "url": "https://drive.google.com/drive/folders/1mtWyAXHvYsr-FbJvaoMUhwUcJS-4CpFt",
+  "kind": "Folder",
+  "title": "558.GuideFetch A Task Coordination Framework for Concurrent Navigation and Object Retrieval in Assistive Robot Dogs"
+ },
+ {
+  "id": "131ga8aLr9UqbH0ydfmTH_A2KNkOBtDIm",
+  "url": "https://drive.google.com/drive/folders/131ga8aLr9UqbH0ydfmTH_A2KNkOBtDIm",
+  "kind": "Folder",
+  "title": "559.Robot-Body-Aware Traversal Risk Graph Planning for Wheeled-Legged Robots in Complex Terrain"
+ },
+ {
+  "id": "1QsUDchaTLSaKNZonHuAgKlXUo99mCMPV",
+  "url": "https://drive.google.com/drive/folders/1QsUDchaTLSaKNZonHuAgKlXUo99mCMPV",
+  "kind": "Folder",
+  "title": "56.Contact-timing and Trajectory Optimization for 3D Jumping on Quadruped Robots"
+ },
+ {
+  "id": "1dDNMN7MUQCYt_E_aLcnxa25hfmtz4Wfk",
+  "url": "https://drive.google.com/drive/folders/1dDNMN7MUQCYt_E_aLcnxa25hfmtz4Wfk",
+  "kind": "Folder",
+  "title": "560.Efficient Ripeness Monitoring in Open-Facility Environments Using a Quadruped Robot and Panoramic AI Recognition"
+ },
+ {
+  "id": "1f_Fiy8VXDobdJCNawPVwIVEzVy7QKRhe",
+  "url": "https://drive.google.com/drive/folders/1f_Fiy8VXDobdJCNawPVwIVEzVy7QKRhe",
+  "kind": "Folder",
+  "title": "561.Dog Walk Narrating Human-AI Alignment through Companion Robots"
+ },
+ {
+  "id": "1vCx-nU_ecVM4Uj5a1qjkBD1WJte8WYK1",
+  "url": "https://drive.google.com/drive/folders/1vCx-nU_ecVM4Uj5a1qjkBD1WJte8WYK1",
+  "kind": "Folder",
+  "title": "562.Spatiotemporal Agility Time-Constrained Reinforcement Learning for Vision-Guided Dynamic Quadrupedal Interception"
+ },
+ {
+  "id": "1-Pxf16LqSomVUpo6zua9YYPXnSPi2ZJ7",
+  "url": "https://drive.google.com/drive/folders/1-Pxf16LqSomVUpo6zua9YYPXnSPi2ZJ7",
+  "kind": "Folder",
+  "title": "563.RAEM Robust Autonomous Exploration for Multi-Floor Environments with a Quadruped Robot"
+ },
+ {
+  "id": "1YYtty2ZI6FfeqKux9QOo4DuJJFNj4VxY",
+  "url": "https://drive.google.com/drive/folders/1YYtty2ZI6FfeqKux9QOo4DuJJFNj4VxY",
+  "kind": "Folder",
+  "title": "564.AECNav Active Evidence Consolidation for Efficient Zero-Shot Open-Vocabulary Object Navigation"
+ },
+ {
+  "id": "1xyptwvAmAKcxP50spLAI6x3_ghXf8Ija",
+  "url": "https://drive.google.com/drive/folders/1xyptwvAmAKcxP50spLAI6x3_ghXf8Ija",
+  "kind": "Folder",
+  "title": "565.Trajectory-Level Automatic Curriculum Learning for Legged Locomotion on Unstructured Terrain"
+ },
+ {
+  "id": "1i8Je2jHtzH-_yVESOAIVOy-97LzbXXCe",
+  "url": "https://drive.google.com/drive/folders/1i8Je2jHtzH-_yVESOAIVOy-97LzbXXCe",
+  "kind": "Folder",
+  "title": "566.TONAV Task-Oriented Navigation and Action-Velocity Chunk Learning for Articulated Object Quadrupedal Mobile Manipulation"
+ },
+ {
+  "id": "1FUq9eSJwipvNYotkPozsn5TlCZLiXwBd",
+  "url": "https://drive.google.com/drive/folders/1FUq9eSJwipvNYotkPozsn5TlCZLiXwBd",
+  "kind": "Folder",
+  "title": "567.SC2-WM A Self-Correcting World Model with Closed-Loop Feedback for Vision-and-Language Navigation in Continuous Environments"
+ },
+ {
+  "id": "1buww3_oEz12ofeLbsK71l_Qc--GQNgC-",
+  "url": "https://drive.google.com/drive/folders/1buww3_oEz12ofeLbsK71l_Qc--GQNgC-",
+  "kind": "Folder",
+  "title": "568.From Routes to Steps Separating Semantic Progress from Local Execution in Vision-and-Language Navigation"
+ },
+ {
+  "id": "15HkVzXaAr1anwcigCUFGK3IuYRVqABTr",
+  "url": "https://drive.google.com/drive/folders/15HkVzXaAr1anwcigCUFGK3IuYRVqABTr",
+  "kind": "Folder",
+  "title": "569.A hierarchical multi-encoder fusion architecture for robust quadrupedal locomotion"
+ },
+ {
+  "id": "10n-C87DURqNHlN0kWrjMxsgR2AaIg95q",
+  "url": "https://drive.google.com/drive/folders/10n-C87DURqNHlN0kWrjMxsgR2AaIg95q",
+  "kind": "Folder",
+  "title": "57.Contact Optimization for Non-Prehensile Loco-Manipulation via Hierarchical Model Predictive Control"
+ },
+ {
+  "id": "1a7ypj5jegqzY9fnrsVsddrZeMz4C57P8",
+  "url": "https://drive.google.com/drive/folders/1a7ypj5jegqzY9fnrsVsddrZeMz4C57P8",
+  "kind": "Folder",
+  "title": "570.Provable Ordering and Continuity in Vision-Language Pretraining for Generalizable Embodied Agents"
+ },
+ {
+  "id": "12aUjN2WyGixpp5NrPOsoQm_WxnbnIUsr",
+  "url": "https://drive.google.com/drive/folders/12aUjN2WyGixpp5NrPOsoQm_WxnbnIUsr",
+  "kind": "Folder",
+  "title": "571.SoFar Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation"
+ },
+ {
+  "id": "1xUxGx6ismKrmB_meD5L2800XdyekaWrm",
+  "url": "https://drive.google.com/drive/folders/1xUxGx6ismKrmB_meD5L2800XdyekaWrm",
+  "kind": "Folder",
+  "title": "572.Embodied-Navigator Point, Think, Memorize, and Align for Efficient Navigation"
+ },
+ {
+  "id": "1TTeA5Ju8forZPgTDIRH7WYGBMKu56s-R",
+  "url": "https://drive.google.com/drive/folders/1TTeA5Ju8forZPgTDIRH7WYGBMKu56s-R",
+  "kind": "Folder",
+  "title": "573.Probabilistic Control Barrier Functions Safety in Probability for Discrete-Time Stochastic Systems"
+ },
+ {
+  "id": "1Pcmu2pM8yR5NKO7nPvcprUzeXVsm6o09",
+  "url": "https://drive.google.com/drive/folders/1Pcmu2pM8yR5NKO7nPvcprUzeXVsm6o09",
+  "kind": "Folder",
+  "title": "574.Hybrid Zero-Shot Interactive Navigation with LLMs Path Planning Under Dual Constraints of Speech and Environment"
+ },
+ {
+  "id": "1bJ9x629IMhCT5wD6A6rb4USjSCnOozOQ",
+  "url": "https://drive.google.com/drive/folders/1bJ9x629IMhCT5wD6A6rb4USjSCnOozOQ",
+  "kind": "Folder",
+  "title": "575.Observation-Constrained Joint-Space Viewpoint Optimization for Robotic Inspection of Cylindrical Cavities"
+ },
+ {
+  "id": "1YAgBF-QFbnQFuKLn9wjT9f_DoTKb9-A3",
+  "url": "https://drive.google.com/drive/folders/1YAgBF-QFbnQFuKLn9wjT9f_DoTKb9-A3",
+  "kind": "Folder",
+  "title": "576.Video2DoorTraversal Push Door Traversal via Simulated Door Twins"
+ },
+ {
+  "id": "10NjtwoMYdsbNwHLH-JdfSKxJGmu9g9GL",
+  "url": "https://drive.google.com/drive/folders/10NjtwoMYdsbNwHLH-JdfSKxJGmu9g9GL",
+  "kind": "Folder",
+  "title": "577.Accelerating Visual Policy Learning with Sampling-Based Model Predictive Control"
+ },
+ {
+  "id": "1nCR2l8Bevl4ABr4My2dMzpQCfpJkzQ69",
+  "url": "https://drive.google.com/drive/folders/1nCR2l8Bevl4ABr4My2dMzpQCfpJkzQ69",
+  "kind": "Folder",
+  "title": "578.LocoWM High-Precision Locomotion through World-Model-Guided Residual Adaptation"
+ },
+ {
+  "id": "1UUzJ0YAyKLHTfII9KNRxv9f758_y-Pvo",
+  "url": "https://drive.google.com/drive/folders/1UUzJ0YAyKLHTfII9KNRxv9f758_y-Pvo",
+  "kind": "Folder",
+  "title": "579.SABER Learning Attention-based Semantic Affordance for Legged Locomotion"
+ },
+ {
+  "id": "13MZt9nFqAJQ1Kvy4nCzWHzOwqc5h2u91",
+  "url": "https://drive.google.com/drive/folders/13MZt9nFqAJQ1Kvy4nCzWHzOwqc5h2u91",
+  "kind": "Folder",
+  "title": "58.Multi-contact MPC for Dynamic Loco-manipulation on Humanoid Robots"
+ },
+ {
+  "id": "1nQsYvjuomPMtUx5twpH_jJvumFa5vPvx",
+  "url": "https://drive.google.com/drive/folders/1nQsYvjuomPMtUx5twpH_jJvumFa5vPvx",
+  "kind": "Folder",
+  "title": "580.MimicAgent Quadruped Skills via Prompt-to-Trajectory Generation"
+ },
+ {
+  "id": "1lB77gELpopI0yG028ReOMyA4DqkPQs9P",
+  "url": "https://drive.google.com/drive/folders/1lB77gELpopI0yG028ReOMyA4DqkPQs9P",
+  "kind": "Folder",
+  "title": "581.Contact as a Decision Variable Capability-Tradeoff Contact Selection for Legged Loco-Manipulation"
+ },
+ {
+  "id": "1PC6p7rOpojrAmbHT9MyTD66hdXWko-DW",
+  "url": "https://drive.google.com/drive/folders/1PC6p7rOpojrAmbHT9MyTD66hdXWko-DW",
+  "kind": "Folder",
+  "title": "582.Talk2Escape Conversational Grounding for Vision-and-Language Navigation"
+ },
+ {
+  "id": "1o5-6Lm4n47yYxMD41wY_3YhwK1-byJT8",
+  "url": "https://drive.google.com/drive/folders/1o5-6Lm4n47yYxMD41wY_3YhwK1-byJT8",
+  "kind": "Folder",
+  "title": "583.OmniMimic Dynamics-completed Motion Augmentation for Multi-style Omnidirectional Quadruped Locomotion"
+ },
+ {
+  "id": "192CU2y3iBDEAF-Lm4jLNI5So3MUc7iEG",
+  "url": "https://drive.google.com/drive/folders/192CU2y3iBDEAF-Lm4jLNI5So3MUc7iEG",
+  "kind": "Folder",
+  "title": "584.ROOT Discovering Rewards for User-Specified Embodied Behaviors"
+ },
+ {
+  "id": "1kqekbm0Yi7Df2mJw0Dd8Tpbt8sHaQc6n",
+  "url": "https://drive.google.com/drive/folders/1kqekbm0Yi7Df2mJw0Dd8Tpbt8sHaQc6n",
+  "kind": "Folder",
+  "title": "585.RangeNav Task-Aligned LiDAR Range-Image Pretraining for Robot Navigation"
+ },
+ {
+  "id": "1wEfwIIQlYaWNEOEsN6hZfme8qyHlRVJk",
+  "url": "https://drive.google.com/drive/folders/1wEfwIIQlYaWNEOEsN6hZfme8qyHlRVJk",
+  "kind": "Folder",
+  "title": "586.GG-Nav Goal-oriented Grounding Chain-of-Thought Elicits Reasoning in Navigation Foundation Models"
+ },
+ {
+  "id": "1z93pkwSKAx22llUNxgmumKLvB9lV6JxD",
+  "url": "https://drive.google.com/drive/folders/1z93pkwSKAx22llUNxgmumKLvB9lV6JxD",
+  "kind": "Folder",
+  "title": "587.SHOES Sim-to-real Hardware-adaptation via On-policy Expansion of Skills for Legged Robots"
+ },
+ {
+  "id": "1cMOr6C_nxe5tI7C-J8FYTJDczxKtKBgG",
+  "url": "https://drive.google.com/drive/folders/1cMOr6C_nxe5tI7C-J8FYTJDczxKtKBgG",
+  "kind": "Folder",
+  "title": "588.Anticipatory Gait Switching for Quadrupeds via Look-Ahead MDP Planning"
+ },
+ {
+  "id": "10h9O3f81KP-EYobcSYXE2D3qXpj3lFDp",
+  "url": "https://drive.google.com/drive/folders/10h9O3f81KP-EYobcSYXE2D3qXpj3lFDp",
+  "kind": "Folder",
+  "title": "589.Taming an End-to-End Autonomous Driving Policy for Urban Navigation of Quadruped Robots"
+ },
+ {
+  "id": "1zEIfDoDCBCXLk_pJS4tQLZCjtvc-M4hy",
+  "url": "https://drive.google.com/drive/folders/1zEIfDoDCBCXLk_pJS4tQLZCjtvc-M4hy",
+  "kind": "Folder",
+  "title": "59.Probabilistic Contact State Estimation for Legged Robots using Inertial Information"
+ },
+ {
+  "id": "1wWJTjqqWdVGJHqVDXG9pBkxUIXd7Upkj",
+  "url": "https://drive.google.com/drive/folders/1wWJTjqqWdVGJHqVDXG9pBkxUIXd7Upkj",
+  "kind": "Folder",
+  "title": "590.Feedback-Modulated Harmonic Policies for Quadruped Locomotion"
+ },
+ {
+  "id": "1NgusT90usKyegNdDUn7cySAP4_0tdPFb",
+  "url": "https://drive.google.com/drive/folders/1NgusT90usKyegNdDUn7cySAP4_0tdPFb",
+  "kind": "Folder",
+  "title": "591.PROOF Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion"
+ },
+ {
+  "id": "1eAaMiTF8fZ2u3a-fDoSNeGVCStMZ3YU-",
+  "url": "https://drive.google.com/drive/folders/1eAaMiTF8fZ2u3a-fDoSNeGVCStMZ3YU-",
+  "kind": "Folder",
+  "title": "592.SG-CPG Severity-Gated Central Pattern Generators for Adaptive Quadruped Locomotion under Continuous Actuator Degradation"
+ },
+ {
+  "id": "1i-FQUD2xsyHbbzrMnkTkFxb49uki1bHv",
+  "url": "https://drive.google.com/drive/folders/1i-FQUD2xsyHbbzrMnkTkFxb49uki1bHv",
+  "kind": "Folder",
+  "title": "593.Magnet-Aware Control of Legged Robots"
+ },
+ {
+  "id": "1WKSzGGSfDfyLPtQYIiQKuCQZTOeIpYte",
+  "url": "https://drive.google.com/drive/folders/1WKSzGGSfDfyLPtQYIiQKuCQZTOeIpYte",
+  "kind": "Folder",
+  "title": "594.Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation"
+ },
+ {
+  "id": "1blQXuDl1Ytqae4q3I_y6tql-Uzo7_qqW",
+  "url": "https://drive.google.com/drive/folders/1blQXuDl1Ytqae4q3I_y6tql-Uzo7_qqW",
+  "kind": "Folder",
+  "title": "595.Transporting Unsecured Stacked Payloads with a Quadrupedal Robot via Multi-Objective Reinforcement Learning"
+ },
+ {
+  "id": "1DWUtbZgc_hmlxotXPhFf0GcioxEsbCR-",
+  "url": "https://drive.google.com/drive/folders/1DWUtbZgc_hmlxotXPhFf0GcioxEsbCR-",
+  "kind": "Folder",
+  "title": "596.E2DRL End-to-End Differentiable Reinforcement Learning for 3D Obstacle Avoidance in Quadruped Robots"
+ },
+ {
+  "id": "1VR-bhxbeH5sc4cHtvOnqYWCzcB0GZMVU",
+  "url": "https://drive.google.com/drive/folders/1VR-bhxbeH5sc4cHtvOnqYWCzcB0GZMVU",
+  "kind": "Folder",
+  "title": "597.Walking on Roofs Exploring the Potential of Walking Robots for Construction Work on Roofs"
+ },
+ {
+  "id": "105YU66cUuPwhsHzUuzMr8PpX6EkihknW",
+  "url": "https://drive.google.com/drive/folders/105YU66cUuPwhsHzUuzMr8PpX6EkihknW",
+  "kind": "Folder",
+  "title": "598.On-Device Vision-Language Reasoning for Context-Aware Event Verification and Label-Free Detector Training on an Assistive Quadruped"
+ },
+ {
+  "id": "1EjDrbMimpAhAFF4EUp_a6Nq3mPD_poQU",
+  "url": "https://drive.google.com/drive/folders/1EjDrbMimpAhAFF4EUp_a6Nq3mPD_poQU",
+  "kind": "Folder",
+  "title": "599.LocoPilot Single-Operator Bilateral Teleoperation for Loco-Manipulation Policy Learning"
+ },
+ {
+  "id": "17uYiOnUUH4T9eDB2cer5QJWOKrXbOaj6",
+  "url": "https://drive.google.com/drive/folders/17uYiOnUUH4T9eDB2cer5QJWOKrXbOaj6",
+  "kind": "Folder",
+  "title": "6.Learning a Contact-Adaptive Controller for Robust,Efficient Legged Locomotion"
+ },
+ {
+  "id": "1kFqNXSdsiV-vtE6w3eJp9F_Pp4hSVm5V",
+  "url": "https://drive.google.com/drive/folders/1kFqNXSdsiV-vtE6w3eJp9F_Pp4hSVm5V",
+  "kind": "Folder",
+  "title": "60.DreamWaQ Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning"
+ },
+ {
+  "id": "1WB1qzNnckcO1akEjDKwoPGoqTZ3XM_AP",
+  "url": "https://drive.google.com/drive/folders/1WB1qzNnckcO1akEjDKwoPGoqTZ3XM_AP",
+  "kind": "Folder",
+  "title": "600.LLA-MPPI Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations"
+ },
+ {
+  "id": "1Ak3iht5rGaJwrklNpcPYWjZGKn4u5k7c",
+  "url": "https://drive.google.com/drive/folders/1Ak3iht5rGaJwrklNpcPYWjZGKn4u5k7c",
+  "kind": "Folder",
+  "title": "601.Efficient Test-Time Adaptation For Robot Policies"
+ },
+ {
+  "id": "1eMjXdvFaPftBuulgsoa1W9y1S_Zy_-Nd",
+  "url": "https://drive.google.com/drive/folders/1eMjXdvFaPftBuulgsoa1W9y1S_Zy_-Nd",
+  "kind": "Folder",
+  "title": "602.Unified Whole-Body Control for Quadrupedal Tactile-Informed Loco-Manipulation"
+ },
+ {
+  "id": "169dDbLYp24UE4_GgpnEjyrLkeGAPjjFb",
+  "url": "https://drive.google.com/drive/folders/169dDbLYp24UE4_GgpnEjyrLkeGAPjjFb",
+  "kind": "Folder",
+  "title": "603.MagGAT Structure-Aware Spatiotemporal Graph Attention for Motor-Induced Magnetic Interference Compensation in Quadruped Robots"
+ },
+ {
+  "id": "1LGsZr6ekydnBce_RDCyExSjqFMH2vSfS",
+  "url": "https://drive.google.com/drive/folders/1LGsZr6ekydnBce_RDCyExSjqFMH2vSfS",
+  "kind": "Folder",
+  "title": "604.CMP-IRRT A Perception-Assisted Height-Adaptive Planner for Quadruped Robots"
+ },
+ {
+  "id": "1ikok232tR3xGhLt2XbT-pvEG5hKp7_20",
+  "url": "https://drive.google.com/drive/folders/1ikok232tR3xGhLt2XbT-pvEG5hKp7_20",
+  "kind": "Folder",
+  "title": "605.A Model-Based Approach to Security Assessment of Robotic Systems in Healthcare The Case of a Quadruped Robot"
+ },
+ {
+  "id": "1f1m4ADymH43IFU7ewth-7OkIkjII4PJU",
+  "url": "https://drive.google.com/drive/folders/1f1m4ADymH43IFU7ewth-7OkIkjII4PJU",
+  "kind": "Folder",
+  "title": "606.PROMO Preference-conditioned Multi-Objective Reinforcement Learning for Quadrupedal Robots"
+ },
+ {
+  "id": "1eRAFTaUpYkLR8RtgVLsNX4zCG2QYLQqD",
+  "url": "https://drive.google.com/drive/folders/1eRAFTaUpYkLR8RtgVLsNX4zCG2QYLQqD",
+  "kind": "Folder",
+  "title": "607.Weakly Supervised Discovery of Motion Styles for Compositional Robot Control"
+ },
+ {
+  "id": "1YjlRtEBcie7J7K6q7Zko-7RuAymrN8E0",
+  "url": "https://drive.google.com/drive/folders/1YjlRtEBcie7J7K6q7Zko-7RuAymrN8E0",
+  "kind": "Folder",
+  "title": "608.EIDA Execution-Interface Dynamics Adaptation for Real-to-Sim-to-Real Robot Navigation"
+ },
+ {
+  "id": "15DWejGGmUeBhfCsZ2npy0MkYQJ7_o69R",
+  "url": "https://drive.google.com/drive/folders/15DWejGGmUeBhfCsZ2npy0MkYQJ7_o69R",
+  "kind": "Folder",
+  "title": "609.Navigation Explainability for Object Avoidance with LLMs for Assistive Robots"
+ },
+ {
+  "id": "1WgqKjeysE3Czbu5k0I705VA_ofsQLAgY",
+  "url": "https://drive.google.com/drive/folders/1WgqKjeysE3Czbu5k0I705VA_ofsQLAgY",
+  "kind": "Folder",
+  "title": "61.Tuning Robot Control for Generalization with Multiplicity of Behavior"
+ },
+ {
+  "id": "10YoVGlOrrNAw7Ua6Bahw4g_pSO0VNWET",
+  "url": "https://drive.google.com/drive/folders/10YoVGlOrrNAw7Ua6Bahw4g_pSO0VNWET",
+  "kind": "Folder",
+  "title": "610.Predict Before You Step Auditable Occupancy Forecasting for Dynamic Obstacle Avoidance under Sparse Guidance"
+ },
+ {
+  "id": "1jLOV-jfv6D6D7nhoVja0JMB36F4xFsvV",
+  "url": "https://drive.google.com/drive/folders/1jLOV-jfv6D6D7nhoVja0JMB36F4xFsvV",
+  "kind": "Folder",
+  "title": "611.CAST Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning"
+ },
+ {
+  "id": "1X5c9_14IFXhH1rsfPz51V0P7SQkp8BqJ",
+  "url": "https://drive.google.com/drive/folders/1X5c9_14IFXhH1rsfPz51V0P7SQkp8BqJ",
+  "kind": "Folder",
+  "title": "612.SparseNav Instruction-conditioned Sparse Semantic Perception for Training-Free Vision-Language Navigation"
+ },
+ {
+  "id": "1XrQ13iiGhMYDgxKNiVDNXHf-IivOMQW_",
+  "url": "https://drive.google.com/drive/folders/1XrQ13iiGhMYDgxKNiVDNXHf-IivOMQW_",
+  "kind": "Folder",
+  "title": "613.AVALON Zero-Shot Indoor Navigation with Human-Seeded Topological Memory"
+ },
+ {
+  "id": "1ORlnIGGQAAuTgHFOEhWSnJRYl332MsPf",
+  "url": "https://drive.google.com/drive/folders/1ORlnIGGQAAuTgHFOEhWSnJRYl332MsPf",
+  "kind": "Folder",
+  "title": "614.VAMPS Visual and Motor Policies from Sampling-Based Planning"
+ },
+ {
+  "id": "1sxhdCMRiOBhscQXK0LbDL4BVn9qMgxIX",
+  "url": "https://drive.google.com/drive/folders/1sxhdCMRiOBhscQXK0LbDL4BVn9qMgxIX",
+  "kind": "Folder",
+  "title": "615.Have You Seen It Clearly Uncertainty-Guided Belief Refinement for Zero-Shot Object Navigation"
+ },
+ {
+  "id": "1ClZOoxBCmiAs7A0heAdIVML2dDKBT5qf",
+  "url": "https://drive.google.com/drive/folders/1ClZOoxBCmiAs7A0heAdIVML2dDKBT5qf",
+  "kind": "Folder",
+  "title": "616.InsightMap Structured Spatial Modeling for Embodied Multimodal Reasoning"
+ },
+ {
+  "id": "1QEmybCxTFnME0WH7xYqLky2epAWEBBJL",
+  "url": "https://drive.google.com/drive/folders/1QEmybCxTFnME0WH7xYqLky2epAWEBBJL",
+  "kind": "Folder",
+  "title": "617.Reliability-Aware Sparse Route Memory for Round-Trip Vision-Language Navigation"
+ },
+ {
+  "id": "1xoidJVXmYrPk3NHsfAOLW7n-qXSWzEjM",
+  "url": "https://drive.google.com/drive/folders/1xoidJVXmYrPk3NHsfAOLW7n-qXSWzEjM",
+  "kind": "Folder",
+  "title": "618.Scaffolding Foundation Models into Physical-World Agents Pushes the Frontier of Long-Horizon Navigation"
+ },
+ {
+  "id": "1BssSDi4fLzCCpkeGLRRvyXLrsl8f8Iv3",
+  "url": "https://drive.google.com/drive/folders/1BssSDi4fLzCCpkeGLRRvyXLrsl8f8Iv3",
+  "kind": "Folder",
+  "title": "619.Structure over Reasoning Unified Zero-Shot Navigation with a Small Vision-Language Model"
+ },
+ {
+  "id": "1wSCSX6fcE19MYhD7B8lrGU01BujtUe7g",
+  "url": "https://drive.google.com/drive/folders/1wSCSX6fcE19MYhD7B8lrGU01BujtUe7g",
+  "kind": "Folder",
+  "title": "62.DribbleBot Dynamic Legged Manipulation in the Wild"
+ },
+ {
+  "id": "1R_0GQQybGI5bF7-3-qY0pwK5pr3Aq5Du",
+  "url": "https://drive.google.com/drive/folders/1R_0GQQybGI5bF7-3-qY0pwK5pr3Aq5Du",
+  "kind": "Folder",
+  "title": "620.MSR-SLAM A Multi-Stage Map-Refinement Framework for Reliable LiDAR–Inertial SLAM in GPS-Denied Environments"
+ },
+ {
+  "id": "1qATC1ro5OYuqWDr6WdCPyB5_vgX85oZY",
+  "url": "https://drive.google.com/drive/folders/1qATC1ro5OYuqWDr6WdCPyB5_vgX85oZY",
+  "kind": "Folder",
+  "title": "621.Teleoperated Quadruped Robot-Based SLAM LiDAR for Standardized Tree Stem Diameter Derivation in Spanish Mediterranean Savanna-like Woodlands A Field Feasibility Study"
+ },
+ {
+  "id": "1ND5-UFIOs-638086Cxj0LqW10PRjw1eN",
+  "url": "https://drive.google.com/drive/folders/1ND5-UFIOs-638086Cxj0LqW10PRjw1eN",
+  "kind": "Folder",
+  "title": "622.ReCo Response-Consistent Locomotion with Policy-Aware MPC for Legged Manipulation"
+ },
+ {
+  "id": "1n1A0LJPS6yQZBy_6iFA2kmPYro1-N1nt",
+  "url": "https://drive.google.com/drive/folders/1n1A0LJPS6yQZBy_6iFA2kmPYro1-N1nt",
+  "kind": "Folder",
+  "title": "623.LEAP-CBF A Safety Filter for Uncertain Systems with Least-Effort Adversarial Potentials"
+ },
+ {
+  "id": "17AERTK0X2kHajDjybIi2ghcOhwiSYTwD",
+  "url": "https://drive.google.com/drive/folders/17AERTK0X2kHajDjybIi2ghcOhwiSYTwD",
+  "kind": "Folder",
+  "title": "624.Better Situational Awareness in AR-HRC A Comparative Study of Augmented Reality and Mobile Interfaces for Human-Robot Collaboration"
+ },
+ {
+  "id": "14VG-dkoKyLnd4SPAHQ1Ft66PSn7mI1pt",
+  "url": "https://drive.google.com/drive/folders/14VG-dkoKyLnd4SPAHQ1Ft66PSn7mI1pt",
+  "kind": "Folder",
+  "title": "625.LiteNWM Efficient Latent World Models for Onboard Visual Navigation in the Wild"
+ },
+ {
+  "id": "1RCDlOtq89hqMHIhi3oA_O4hz54SKZnbE",
+  "url": "https://drive.google.com/drive/folders/1RCDlOtq89hqMHIhi3oA_O4hz54SKZnbE",
+  "kind": "Folder",
+  "title": "626.JEPLO Joint-Embedding Predictive Learning for LiDAR-Based Legged Locomotion"
+ },
+ {
+  "id": "1FPSlVeSG2zB4lcBmqthqfuHls9g1VcAb",
+  "url": "https://drive.google.com/drive/folders/1FPSlVeSG2zB4lcBmqthqfuHls9g1VcAb",
+  "kind": "Folder",
+  "title": "627.Load-Aware Quadruped Navigation with Online Contact-based Geometry Estimation"
+ },
+ {
+  "id": "1ypAJCXf8dFi-uBauo5d8aF16QTNXL82v",
+  "url": "https://drive.google.com/drive/folders/1ypAJCXf8dFi-uBauo5d8aF16QTNXL82v",
+  "kind": "Folder",
+  "title": "628.SuperNav An Agentic Navigation System for Any Task in Any Scene"
+ },
+ {
+  "id": "1TC1KU1GmA_VNo8pmxfXcIsJmtB89N-k5",
+  "url": "https://drive.google.com/drive/folders/1TC1KU1GmA_VNo8pmxfXcIsJmtB89N-k5",
+  "kind": "Folder",
+  "title": "629.A Field-Validated GNSS-Assisted Quadruped Robotic System for Remote Multi-Waypoint Radiation Inspection"
+ },
+ {
+  "id": "1VmBgU_yDBljux-dc_9hU0kPMIJQCXqLP",
+  "url": "https://drive.google.com/drive/folders/1VmBgU_yDBljux-dc_9hU0kPMIJQCXqLP",
+  "kind": "Folder",
+  "title": "63.Fast Contact-Implicit Model Predictive Control"
+ },
+ {
+  "id": "19Gl0eDu2KjpLUKhytbA6mPcPj2yVPdxZ",
+  "url": "https://drive.google.com/drive/folders/19Gl0eDu2KjpLUKhytbA6mPcPj2yVPdxZ",
+  "kind": "Folder",
+  "title": "630.Residual-gated generative additive joint-bias identification and uncertainty-weighted fault compensation for quadruped robots with scarce data"
+ },
+ {
+  "id": "1eUAI6t65NTE7GR3hXfc-9Lru3g-nSNoD",
+  "url": "https://drive.google.com/drive/folders/1eUAI6t65NTE7GR3hXfc-9Lru3g-nSNoD",
+  "kind": "Folder",
+  "title": "631.REDACT Robust Perceptive Locomotion under Unseen Visual Corruption"
+ },
+ {
+  "id": "1Gxz5ww4DddYN-Gr54iqT4yPqvfAig-ol",
+  "url": "https://drive.google.com/drive/folders/1Gxz5ww4DddYN-Gr54iqT4yPqvfAig-ol",
+  "kind": "Folder",
+  "title": "632.Feeling Through the Load Compliant Quadruped Locomotion under Payload Interactions"
+ },
+ {
+  "id": "1VDU3FWeaBJwuAJxpsfiMmEZEGShvD6Zx",
+  "url": "https://drive.google.com/drive/folders/1VDU3FWeaBJwuAJxpsfiMmEZEGShvD6Zx",
+  "kind": "Folder",
+  "title": "633.GAUGE Planner-Conditioned Active Calibration of Opaque Quadruped Velocity Interfaces"
+ },
+ {
+  "id": "16YJhkRSstGiHd4deM8ogl5o1ekokaIZ8",
+  "url": "https://drive.google.com/drive/folders/16YJhkRSstGiHd4deM8ogl5o1ekokaIZ8",
+  "kind": "Folder",
+  "title": "634.AdaOcc Adaptive 3D Occupancy Prediction for Embodied Tasks"
+ },
+ {
+  "id": "1ZvWqVdiQP6kgfkmFRU2ozHgQ_lGOCgCb",
+  "url": "https://drive.google.com/drive/folders/1ZvWqVdiQP6kgfkmFRU2ozHgQ_lGOCgCb",
+  "kind": "Folder",
+  "title": "635.Affordance-Conditioned Decision Making Bridging the Semantic-Spatial Gap in Zero-Shot Cross-Floor Vision-and-Language Navigation"
+ },
+ {
+  "id": "18Dfr2MrErq12wctC8zfkpZk0ruy_ntti",
+  "url": "https://drive.google.com/drive/folders/18Dfr2MrErq12wctC8zfkpZk0ruy_ntti",
+  "kind": "Folder",
+  "title": "636.TACET Context-Appropriate Acoustic-Social Navigation for Quadrupeds"
+ },
+ {
+  "id": "16LXRz8oBb4uZumpiE5eb8Plev__WoX1E",
+  "url": "https://drive.google.com/drive/folders/16LXRz8oBb4uZumpiE5eb8Plev__WoX1E",
+  "kind": "Folder",
+  "title": "637.LAG-IO Multi-IMU State Estimation for Legged Robots Using Factor Graphs"
+ },
+ {
+  "id": "1K4h1VtPGgWGMNFExnhnUqIbrjLKoTB2l",
+  "url": "https://drive.google.com/drive/folders/1K4h1VtPGgWGMNFExnhnUqIbrjLKoTB2l",
+  "kind": "Folder",
+  "title": "638.Seeing the Invisible Physics-Guided Visual Prompting for Temperature- and Radiation-Aware VLA Navigation"
+ },
+ {
+  "id": "1IvCr0IhUekkoRdBvKTTmkJejk4HFBLW5",
+  "url": "https://drive.google.com/drive/folders/1IvCr0IhUekkoRdBvKTTmkJejk4HFBLW5",
+  "kind": "Folder",
+  "title": "639.Disturbance-aware adaptive compensation in hybrid force-position locomotion policy for legged robots"
+ },
+ {
+  "id": "1PP30JLmudLX6NatqOjXiAWs5x0Lt84-P",
+  "url": "https://drive.google.com/drive/folders/1PP30JLmudLX6NatqOjXiAWs5x0Lt84-P",
+  "kind": "Folder",
+  "title": "64.Enhanced Balance for Legged Robots Using Reaction Wheels"
+ },
+ {
+  "id": "1SyIQ2yLFqQ7QUhPOeLsnqyLM07iHZPiu",
+  "url": "https://drive.google.com/drive/folders/1SyIQ2yLFqQ7QUhPOeLsnqyLM07iHZPiu",
+  "kind": "Folder",
+  "title": "640.Winning a Won Game Strict Reach-Avoid-Stay Control Barrier Functions for High-Dimensional Black-Box Systems"
+ },
+ {
+  "id": "1twmEmfkG3PhceelUqUOJAxztXp8BU2uQ",
+  "url": "https://drive.google.com/drive/folders/1twmEmfkG3PhceelUqUOJAxztXp8BU2uQ",
+  "kind": "Folder",
+  "title": "641.ERM-Track Disturbance-Aware and Reliability-Guided Multi-Object Tracking for Unmanned Ground Vehicles (UGVs) Under Dynamic Viewpoints"
+ },
+ {
+  "id": "1raZ6KzeRkpBofsJ48nTD7Ktm8SPXd-hQ",
+  "url": "https://drive.google.com/drive/folders/1raZ6KzeRkpBofsJ48nTD7Ktm8SPXd-hQ",
+  "kind": "Folder",
+  "title": "642.Towards Reinforcement Learning for Space Robotics Fast Training and Reliable Real-World Transfer"
+ },
+ {
+  "id": "1g4fFWbq-hNNmGwyWLVZXMNAgw8kzsuoB",
+  "url": "https://drive.google.com/drive/folders/1g4fFWbq-hNNmGwyWLVZXMNAgw8kzsuoB",
+  "kind": "Folder",
+  "title": "643.HM3D-M3 A Benchmark for Multi-Agent, Multi-Modal, Multi-Object Goal Navigation"
+ },
+ {
+  "id": "1NSeDu5rpB0FOpohQKNgv_tCBaeZ0LD83",
+  "url": "https://drive.google.com/drive/folders/1NSeDu5rpB0FOpohQKNgv_tCBaeZ0LD83",
+  "kind": "Folder",
+  "title": "644.OpenHEART Opening Heterogeneous Articulated Objects with a Legged Manipulator"
+ },
+ {
+  "id": "1Li19CSK3J5oVE11y4XL28aY-KaXTLlYy",
+  "url": "https://drive.google.com/drive/folders/1Li19CSK3J5oVE11y4XL28aY-KaXTLlYy",
+  "kind": "Folder",
+  "title": "645.OptiGeo Efficient Monocular Geometry for Embodied Perception in Optically Challenging Scenes"
+ },
+ {
+  "id": "1WmoWMKVChsFL-L2cUuSd23XrBD7dYWC9",
+  "url": "https://drive.google.com/drive/folders/1WmoWMKVChsFL-L2cUuSd23XrBD7dYWC9",
+  "kind": "Folder",
+  "title": "646.Flexible locomotion learning with diffusion model predictive control"
+ },
+ {
+  "id": "1AgKnYfvwnll1sJ4mEjZ1vMY2FrxHv9CO",
+  "url": "https://drive.google.com/drive/folders/1AgKnYfvwnll1sJ4mEjZ1vMY2FrxHv9CO",
+  "kind": "Folder",
+  "title": "647.Bayesian Active Learning for Intent Disambiguation in Interactive Robot Planning"
+ },
+ {
+  "id": "1puVaByNRCWseP4o-N2EHvztrUqjpqkvt",
+  "url": "https://drive.google.com/drive/folders/1puVaByNRCWseP4o-N2EHvztrUqjpqkvt",
+  "kind": "Folder",
+  "title": "648.NavAble A Large-Scale Dataset and Synthetic Data Generation Pipeline for Blind Navigation"
+ },
+ {
+  "id": "1ON0uZBXKQf8odNLXNOeXdmoAPYdSNmN3",
+  "url": "https://drive.google.com/drive/folders/1ON0uZBXKQf8odNLXNOeXdmoAPYdSNmN3",
+  "kind": "Folder",
+  "title": "649.Generative Flow on Symbolic Abstractions for Embodiment Capability Discovery"
+ },
+ {
+  "id": "1I8G0Dtb94mAiV9eWKAX62xeoGEbkrMyy",
+  "url": "https://drive.google.com/drive/folders/1I8G0Dtb94mAiV9eWKAX62xeoGEbkrMyy",
+  "kind": "Folder",
+  "title": "65.Learning Torque Control for Quadrupedal Locomotion"
+ },
+ {
+  "id": "1-MDojlWkQOOZcXSAQg_LIxTxHkqsP3Xp",
+  "url": "https://drive.google.com/drive/folders/1-MDojlWkQOOZcXSAQg_LIxTxHkqsP3Xp",
+  "kind": "Folder",
+  "title": "650.CLOSER Evidence-Aware Active Visual Verification for Embodied Object-Goal Navigation"
+ },
+ {
+  "id": "1WUXNZKNDOVI_qyaJiyX3-EF4FSalcvTP",
+  "url": "https://drive.google.com/drive/folders/1WUXNZKNDOVI_qyaJiyX3-EF4FSalcvTP",
+  "kind": "Folder",
+  "title": "651.RecMorph Topology-Guided Spatial Recurrence for Generalized Morphology Control"
+ },
+ {
+  "id": "1HxMcaZmzpcy2C-yFUnqm-xVuCCU8572f",
+  "url": "https://drive.google.com/drive/folders/1HxMcaZmzpcy2C-yFUnqm-xVuCCU8572f",
+  "kind": "Folder",
+  "title": "652.TrackVLA++ Unleashing Reasoning and Memory Capabilities in VLA Models for Embodied Visual Tracking"
+ },
+ {
+  "id": "1EYqWQbd90tf9WfkD5kWI6L9uf0yBKX3h",
+  "url": "https://drive.google.com/drive/folders/1EYqWQbd90tf9WfkD5kWI6L9uf0yBKX3h",
+  "kind": "Folder",
+  "title": "653.PanoVLN Towards Effective Panoramic Vision-and-Language Navigation"
+ },
+ {
+  "id": "1dRBLNLZ4w_ITQYfVMGW8MxqaQx71Sp38",
+  "url": "https://drive.google.com/drive/folders/1dRBLNLZ4w_ITQYfVMGW8MxqaQx71Sp38",
+  "kind": "Folder",
+  "title": "654.Local-Minimum Escaper Programmatic Subgoal Generation for Robust Navigation in Unknown Environments"
+ },
+ {
+  "id": "1da0gSjO3xeNiyB7i2iENp2LctMldwGV2",
+  "url": "https://drive.google.com/drive/folders/1da0gSjO3xeNiyB7i2iENp2LctMldwGV2",
+  "kind": "Folder",
+  "title": "655.NavHarness Adaptive Goals for Agentic Vision-Language Navigation"
+ },
+ {
+  "id": "1QACDfq0eLP7up6VvRhuNo9mheDKT5DQe",
+  "url": "https://drive.google.com/drive/folders/1QACDfq0eLP7up6VvRhuNo9mheDKT5DQe",
+  "kind": "Folder",
+  "title": "656.CAIMAN Causal Action Influence Detection for Sample-Efficient Loco-Manipulation"
+ },
+ {
+  "id": "18DID87l_Kph1ixg5B7saL1AcVyQCxEZB",
+  "url": "https://drive.google.com/drive/folders/18DID87l_Kph1ixg5B7saL1AcVyQCxEZB",
+  "kind": "Folder",
+  "title": "657.VP-EVT Active Visibility Preservation for Embodied Visual Tracking"
+ },
+ {
+  "id": "1xcBB9FruM34i1OdSWLTa0dPt73oLbTuy",
+  "url": "https://drive.google.com/drive/folders/1xcBB9FruM34i1OdSWLTa0dPt73oLbTuy",
+  "kind": "Folder",
+  "title": "658.LLM-guided Planar Loco-Manipulation for Quadruped Robots"
+ },
+ {
+  "id": "1tHJKIAx-bFVhElwnbWv2_a-VueGFQlf3",
+  "url": "https://drive.google.com/drive/folders/1tHJKIAx-bFVhElwnbWv2_a-VueGFQlf3",
+  "kind": "Folder",
+  "title": "659.Training-Free Target-Aware Refinement of 3D Gaussian Language Map"
+ },
+ {
+  "id": "1yoAfZzymv3gLJ79lwZzdoro32SdnQlC2",
+  "url": "https://drive.google.com/drive/folders/1yoAfZzymv3gLJ79lwZzdoro32SdnQlC2",
+  "kind": "Folder",
+  "title": "66.Proprioception and Tail Control Enable Extreme Terrain Traversal by Quadruped Robots"
+ },
+ {
+  "id": "1JyF1iussUUGxRI7Y5PJ3HZxKf-Apk9aj",
+  "url": "https://drive.google.com/drive/folders/1JyF1iussUUGxRI7Y5PJ3HZxKf-Apk9aj",
+  "kind": "Folder",
+  "title": "660.Seek Before You Move Evidence Seeking for Progress Grounding in Vision-Language Navigation"
+ },
+ {
+  "id": "1sR1BkJBsGOvqGcq8ypHspcHqLb6RWo7M",
+  "url": "https://drive.google.com/drive/folders/1sR1BkJBsGOvqGcq8ypHspcHqLb6RWo7M",
+  "kind": "Folder",
+  "title": "661.PRISM Bridging Multimodality and Real-Time Control in Multisensory Policies"
+ },
+ {
+  "id": "1d2gyfoedMaiCNjcL-szgcZ0SS0-yziuA",
+  "url": "https://drive.google.com/drive/folders/1d2gyfoedMaiCNjcL-szgcZ0SS0-yziuA",
+  "kind": "Folder",
+  "title": "662.Beyond Isolated Entities Relation-Aware Multi-Entity Modeling for Unsupervised Video Anomaly Detection"
+ },
+ {
+  "id": "1LyDxgBAF_9tEBX3hnz68I-_uipxkTYoI",
+  "url": "https://drive.google.com/drive/folders/1LyDxgBAF_9tEBX3hnz68I-_uipxkTYoI",
+  "kind": "Folder",
+  "title": "663.Revealing and Bridging the Physical Executability Gap in Vision-Language Navigation"
+ },
+ {
+  "id": "1RmV9uRpCDcw8u_5kJcLnQy5mlmEfCoAf",
+  "url": "https://drive.google.com/drive/folders/1RmV9uRpCDcw8u_5kJcLnQy5mlmEfCoAf",
+  "kind": "Folder",
+  "title": "664.CoSMO Conformal Semantic Mapping for Open-World Safe Robot Navigation"
+ },
+ {
+  "id": "1w3AWqhR_vynkUG2mzyVpYquXJKqcJ3cr",
+  "url": "https://drive.google.com/drive/folders/1w3AWqhR_vynkUG2mzyVpYquXJKqcJ3cr",
+  "kind": "Folder",
+  "title": "665.Turning Safety into Competence Minimally Exploitable Robot Policies via Safety-Filtered Reinforcement Learning"
+ },
+ {
+  "id": "1o7C9ntmZ72AEbUANNVV20vUwQ62k0eVX",
+  "url": "https://drive.google.com/drive/folders/1o7C9ntmZ72AEbUANNVV20vUwQ62k0eVX",
+  "kind": "Folder",
+  "title": "666.Safe Multi-Robot Coordination via VLM–LLM Reasoning and Reachability Analysis"
+ },
+ {
+  "id": "18wRGU96-CChh19FLxS_4GU4iyjmaUxFY",
+  "url": "https://drive.google.com/drive/folders/18wRGU96-CChh19FLxS_4GU4iyjmaUxFY",
+  "kind": "Folder",
+  "title": "667.CollisionSplatting Collision-Aware Motion Planning in 3DGS Scenes with Image-Conditioned Objectives and Adjustable Conservatism"
+ },
+ {
+  "id": "1bWn2ah0VgZim38hgmuO31QaZhajr0FQJ",
+  "url": "https://drive.google.com/drive/folders/1bWn2ah0VgZim38hgmuO31QaZhajr0FQJ",
+  "kind": "Folder",
+  "title": "668.RoboMMT Learning Stable Tracking of Modulated Expressive and Interactive Robot Motion"
+ },
+ {
+  "id": "1lFmRXLoUmJPv64hjY_rPp3YJ3obC_zzB",
+  "url": "https://drive.google.com/drive/folders/1lFmRXLoUmJPv64hjY_rPp3YJ3obC_zzB",
+  "kind": "Folder",
+  "title": "669.LEAP Gradient Flow Augmented Lagrangian Trajectory Optimization for Contact Constrained Robots"
+ },
+ {
+  "id": "1adBNlNpSmiNqvN0GwFS5h5W_lqMd6S6I",
+  "url": "https://drive.google.com/drive/folders/1adBNlNpSmiNqvN0GwFS5h5W_lqMd6S6I",
+  "kind": "Folder",
+  "title": "67.Learning and Adapting Agile Locomotion Skills by Transferring Experience"
+ },
+ {
+  "id": "1nh9uyzgZ5ptnC3aYkLLxRvM0KX8zDw4R",
+  "url": "https://drive.google.com/drive/folders/1nh9uyzgZ5ptnC3aYkLLxRvM0KX8zDw4R",
+  "kind": "Folder",
+  "title": "670.OmniNav Robust Long-Horizon Target Navigation in Dynamic Environments"
+ },
+ {
+  "id": "11T-OMcFSZ3iZS_QmMQHY5KWIB2I3W46f",
+  "url": "https://drive.google.com/drive/folders/11T-OMcFSZ3iZS_QmMQHY5KWIB2I3W46f",
+  "kind": "Folder",
+  "title": "671.Damage-Aware Quadruped Locomotion Zero-Shot Adaptation to Motor Failures via Pain-Inspired Reinforcement Learning"
+ },
+ {
+  "id": "1lh3ZPAbz_3xTVI8AwXC5f3nSACjR0KO3",
+  "url": "https://drive.google.com/drive/folders/1lh3ZPAbz_3xTVI8AwXC5f3nSACjR0KO3",
+  "kind": "Folder",
+  "title": "68.CPG-RL Learning Central Pattern Generators for Quadruped Locomotion"
+ },
+ {
+  "id": "1Fa56e6LNZehEk_gN-ySCyy3ZRTEupU32",
+  "url": "https://drive.google.com/drive/folders/1Fa56e6LNZehEk_gN-ySCyy3ZRTEupU32",
+  "kind": "Folder",
+  "title": "69.Puppeteer and Marionette Learning Anticipatory Quadrupedal Locomotion Based on Interactions of a Central Pattern Generator and Supraspinal Drive"
+ },
+ {
+  "id": "1mFy3wj5Ixw9sYm_bkD33BsAG0HSk_M7M",
+  "url": "https://drive.google.com/drive/folders/1mFy3wj5Ixw9sYm_bkD33BsAG0HSk_M7M",
+  "kind": "Folder",
+  "title": "7.Dynamics Randomization Revisited"
+ },
+ {
+  "id": "1mLlAJw8bQIVawuRtsfJ3pobfjQAWLp5u",
+  "url": "https://drive.google.com/drive/folders/1mLlAJw8bQIVawuRtsfJ3pobfjQAWLp5u",
+  "kind": "Folder",
+  "title": "70.Foundations of Spatial Perception for Robotics Hierarchical Representations and Real-time Systems"
+ },
+ {
+  "id": "1r05KxNK-ZdbX0x8i1hPL3Ja84q5JT6mx",
+  "url": "https://drive.google.com/drive/folders/1r05KxNK-ZdbX0x8i1hPL3Ja84q5JT6mx",
+  "kind": "Folder",
+  "title": "71.Roll-Drop accounting for observation noise with a single parameter"
+ },
+ {
+  "id": "19yIIZ6qNvvJRNlFiYpN-ZX4aPS275d9_",
+  "url": "https://drive.google.com/drive/folders/19yIIZ6qNvvJRNlFiYpN-ZX4aPS275d9_",
+  "kind": "Folder",
+  "title": "72.AMP in the wild Learning robust agile natural legged locomotion skills"
+ },
+ {
+  "id": "1ZFOQOp7xby-_m6PfpQNI4xANzIVlEipc",
+  "url": "https://drive.google.com/drive/folders/1ZFOQOp7xby-_m6PfpQNI4xANzIVlEipc",
+  "kind": "Folder",
+  "title": "73.Reactive Landing Controller for Quadruped Robots"
+ },
+ {
+  "id": "11QeJXKWOl_jhSPQHt_y3VBAysB7pro5o",
+  "url": "https://drive.google.com/drive/folders/11QeJXKWOl_jhSPQHt_y3VBAysB7pro5o",
+  "kind": "Folder",
+  "title": "74.Sim-to-Real Transfer for Quadrupedal Locomotion via Terrain Transformer"
+ },
+ {
+  "id": "1Gzt-HFk6bLJ_bCV0QxcvUHpJj5ysA7AR",
+  "url": "https://drive.google.com/drive/folders/1Gzt-HFk6bLJ_bCV0QxcvUHpJj5ysA7AR",
+  "kind": "Folder",
+  "title": "75.Multi-embodiment Legged Robot Control as a Sequence Modeling Problem"
+ },
+ {
+  "id": "1EVpqUEYfFS0IrxxVTbW_Cm9VHfPbVbGI",
+  "url": "https://drive.google.com/drive/folders/1EVpqUEYfFS0IrxxVTbW_Cm9VHfPbVbGI",
+  "kind": "Folder",
+  "title": "76.Brain-inspired multimodal hybrid neural network for robot place recognition"
+ },
+ {
+  "id": "1UpThTeJUaJnAuAmEK2_3Dv19j7biatyd",
+  "url": "https://drive.google.com/drive/folders/1UpThTeJUaJnAuAmEK2_3Dv19j7biatyd",
+  "kind": "Folder",
+  "title": "77. System Configuration and Navigation of a Guide Dog Robot Toward Animal Guide Dog-Level Guiding Work"
+ },
+ {
+  "id": "1ztHnRssbhOujJagCkeNlO4aYAp2FwKAS",
+  "url": "https://drive.google.com/drive/folders/1ztHnRssbhOujJagCkeNlO4aYAp2FwKAS",
+  "kind": "Folder",
+  "title": "78.Dynamic Walking of Bipedal Robots on Uneven Stepping Stones via Adaptive-frequency MPC"
+ },
+ {
+  "id": "1TscCHV3b0tiQyTgmm9kELe6GOGGnF5GH",
+  "url": "https://drive.google.com/drive/folders/1TscCHV3b0tiQyTgmm9kELe6GOGGnF5GH",
+  "kind": "Folder",
+  "title": "79. RL + Model-based Control Using On-demand Optimal Control to Learn Versatile Legged Locomotion"
+ },
+ {
+  "id": "1qLvtNncYxIJSjWaCnMx-en-BqrcWkSxq",
+  "url": "https://drive.google.com/drive/folders/1qLvtNncYxIJSjWaCnMx-en-BqrcWkSxq",
+  "kind": "Folder",
+  "title": "8.Planning  in  Learned  Latent  Action  Spaces  for  Generalizable  LeggedLocomotion"
+ },
+ {
+  "id": "1o_NvgyV2u2yGc5SnsLTgaiHlTdVIEe8d",
+  "url": "https://drive.google.com/drive/folders/1o_NvgyV2u2yGc5SnsLTgaiHlTdVIEe8d",
+  "kind": "Folder",
+  "title": "80.DeepTransition Viability Leads to the Emergence of Gait Transitions in Learning Anticipatory Quadrupedal Locomotion Skills"
+ },
+ {
+  "id": "1_Jk-Ox6wCLJSyN3-X2OHhmm_ZPJfD63C",
+  "url": "https://drive.google.com/drive/folders/1_Jk-Ox6wCLJSyN3-X2OHhmm_ZPJfD63C",
+  "kind": "Folder",
+  "title": "81.CAJun Continuous Adaptive Jumping using a Learned Centroidal Controller"
+ },
+ {
+  "id": "1daZaViXSf0ry4M7Hvq8N40KtBgjp9-ca",
+  "url": "https://drive.google.com/drive/folders/1daZaViXSf0ry4M7Hvq8N40KtBgjp9-ca",
+  "kind": "Folder",
+  "title": "82.SLoMo A General System for Legged Robot Motion Imitation from Casual Videos"
+ },
+ {
+  "id": "1rwzidSOpzbGv3373OFy-Nuam3rwyr1hX",
+  "url": "https://drive.google.com/drive/folders/1rwzidSOpzbGv3373OFy-Nuam3rwyr1hX",
+  "kind": "Folder",
+  "title": "83.Learning Robust and Agile Legged Locomotion Using Adversarial Motion Priors"
+ },
+ {
+  "id": "1-eWeBN8exHoX-JzkXyfOo9q9OvG2rNKc",
+  "url": "https://drive.google.com/drive/folders/1-eWeBN8exHoX-JzkXyfOo9q9OvG2rNKc",
+  "kind": "Folder",
+  "title": "84.Neural Volumetric Memory for Visual Locomotion Control"
+ },
+ {
+  "id": "1SXxHtQlj55qU6g66H-EYS2CqSdXsH99V",
+  "url": "https://drive.google.com/drive/folders/1SXxHtQlj55qU6g66H-EYS2CqSdXsH99V",
+  "kind": "Folder",
+  "title": "85.Adaptive Force-Based Control of Dynamic Legged Locomotion over Uneven Terrain"
+ },
+ {
+  "id": "1MhayqB7kyCFmYC8azwm2WHNI0QCcB5mf",
+  "url": "https://drive.google.com/drive/folders/1MhayqB7kyCFmYC8azwm2WHNI0QCcB5mf",
+  "kind": "Folder",
+  "title": "86.Vision-Based Reactive Temporal Logic Motion Planning for Quadruped Robots in Unstructured Dynamic Environments"
+ },
+ {
+  "id": "1LdgxoCSBtsYVYHPH18ljGPqNI-023oA4",
+  "url": "https://drive.google.com/drive/folders/1LdgxoCSBtsYVYHPH18ljGPqNI-023oA4",
+  "kind": "Folder",
+  "title": "87.Performance and Usability Evaluation Scheme for Mobile Manipulator Teleoperation"
+ },
+ {
+  "id": "1M8_0FDPiogvsZWzWxTsl7A4Nj7GtvLH7",
+  "url": "https://drive.google.com/drive/folders/1M8_0FDPiogvsZWzWxTsl7A4Nj7GtvLH7",
+  "kind": "Folder",
+  "title": "88.Bio-inspired Gait Transitions for Quadruped Locomotion"
+ },
+ {
+  "id": "1KG04PAcGHF3AIN0K_Qd47kMtoKgtreuQ",
+  "url": "https://drive.google.com/drive/folders/1KG04PAcGHF3AIN0K_Qd47kMtoKgtreuQ",
+  "kind": "Folder",
+  "title": "89.Recognition and Estimation of Human FingerPointing with an RGB Camera for Robot Directive"
+ },
+ {
+  "id": "1LDo2-W2DiIq6NGPMCXyOFe-R5HTjRpWB",
+  "url": "https://drive.google.com/drive/folders/1LDo2-W2DiIq6NGPMCXyOFe-R5HTjRpWB",
+  "kind": "Folder",
+  "title": "9.Adaptive Force-based Control for Legged Robots"
+ },
+ {
+  "id": "1EuU-1itfhUDoY61fpQZvLNshANfIpZ8C",
+  "url": "https://drive.google.com/drive/folders/1EuU-1itfhUDoY61fpQZvLNshANfIpZ8C",
+  "kind": "Folder",
+  "title": "90.RL + Model-based Control Using On-demand Optimal Control to Learn Versatile Legged Locomotion"
+ },
+ {
+  "id": "1yppf6nEQHO7U4_QGnCHduhIqo00RDD7s",
+  "url": "https://drive.google.com/drive/folders/1yppf6nEQHO7U4_QGnCHduhIqo00RDD7s",
+  "kind": "Folder",
+  "title": "91.Robot Parkour Learning"
+ },
+ {
+  "id": "1UxTQhyOOM6uYsvIAIMH0tZcwM5dkVVBb",
+  "url": "https://drive.google.com/drive/folders/1UxTQhyOOM6uYsvIAIMH0tZcwM5dkVVBb",
+  "kind": "Folder",
+  "title": "92.Wasserstein Distributionally Robust Chance Constrained Trajectory Optimization for Mobile Robots within Uncertain Safe Corridor"
+ },
+ {
+  "id": "1jNSxQ3VYEUqEAX-p1HsnQRKfnhrNDYGC",
+  "url": "https://drive.google.com/drive/folders/1jNSxQ3VYEUqEAX-p1HsnQRKfnhrNDYGC",
+  "kind": "Folder",
+  "title": "93.VERF Runtime Monitoring of Pose Estimation with Neural Radiance Fields"
+ },
+ {
+  "id": "1yleK_KiZs7WUI220Mu0FKnCAxLnK2Ej4",
+  "url": "https://drive.google.com/drive/folders/1yleK_KiZs7WUI220Mu0FKnCAxLnK2Ej4",
+  "kind": "Folder",
+  "title": "94.Dynamic Object Tracking for Quadruped Manipulator with Spherical Image-Based Approach"
+ },
+ {
+  "id": "13qKV572-RJRrNommE6CKBlmdChpkznue",
+  "url": "https://drive.google.com/drive/folders/13qKV572-RJRrNommE6CKBlmdChpkznue",
+  "kind": "Folder",
+  "title": "95.Collaborative Navigation and Manipulation of a Cable-towed Load by Multiple Quadrupedal Robots"
+ },
+ {
+  "id": "1222ffUgyGiZN6eMC01pV_8za73aTn6Jr",
+  "url": "https://drive.google.com/drive/folders/1222ffUgyGiZN6eMC01pV_8za73aTn6Jr",
+  "kind": "Folder",
+  "title": "96.Walking in Narrow Spaces Safety-critical Locomotion Control for Quadrupedal Robots with Duality-based Optimization"
+ },
+ {
+  "id": "14CiO2X4l1ZtMWVNNSdlWXYY2NFyvUDxL",
+  "url": "https://drive.google.com/drive/folders/14CiO2X4l1ZtMWVNNSdlWXYY2NFyvUDxL",
+  "kind": "Folder",
+  "title": "97.GenLoco ：Generalized Locomotion Controllers for Quadrupedal Robots"
+ },
+ {
+  "id": "1F0eD5B0oQs9qQ06xWHiJhP17u2naHP2c",
+  "url": "https://drive.google.com/drive/folders/1F0eD5B0oQs9qQ06xWHiJhP17u2naHP2c",
+  "kind": "Folder",
+  "title": "98.Robust Quadrupedal Locomotion via Risk-Averse Policy Learning"
+ },
+ {
+  "id": "1lgWY-DJO-r3uUGjUtZD0NBp_hEAZ_Kgs",
+  "url": "https://drive.google.com/drive/folders/1lgWY-DJO-r3uUGjUtZD0NBp_hEAZ_Kgs",
+  "kind": "Folder",
+  "title": "99.Dynamic Hybrid Locomotion and Jumping for Wheeled-Legged Quadrupeds"
+ }
+]

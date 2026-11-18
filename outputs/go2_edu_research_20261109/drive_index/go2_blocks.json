@@ -1,0 +1,1142 @@
+[
+ {
+  "line": 694,
+  "title": "149.Sailing Through Point Clouds: Safe Navigation Using Point Cloud Based Control Barrier Functions",
+  "text": "在现实场景中部署机器人系统时，在非结构化环境中安全导航的能力至关重要。 最近，基于控制屏障函数（CBF）的方法在合成安全关键控制器方面非常有效。来自纽约大学和坦登工程学院的学者们提出了一种新颖的基于 CBF 的局部规划器，由两个组件组成：Vessel 和 Mariner。 Vessel 是一种基于缩放因子的新型 CBF 公式，仅使用点云数据来合成 CBF。 Mariner 是一个基于 CBF 的预览控制框架，用于缓解导航过程中陷入虚假平衡的情况。 为了证明他们提出的方法的有效性，学者们首先将提出的基于点云的 CBF 公式与其他基于点云的 CBF 公式进行比较。 然后，通过在各种环境中对 Unitree B1 和 Unitree Go2 四足机器人进行实验研究，展示了他们提出的方法的性能及其与全局规划器的集成。"
+ },
+ {
+  "line": 919,
+  "title": "196.Robust State Estimation for Legged Robots with Dual Beta Kalman Filter",
+  "text": "为了解决这一限制，来自清华大学和北京大学的学者们提出了一个综合测量模型，通过分析足部接触点与机器人身体中心之间的相对运动，该模型既考虑了足部滑动，也考虑了可变的腿长。学者们表明，腿长是一个可观察的量，这意味着可以通过设计辅助滤波器明确推断出其值。为此，学者们引入了一个双重估计框架，该框架迭代地使用参数滤波器来估计腿长参数，使用状态滤波器来估计机器人的状态。为了防止此迭代框架中的误差累积，他们使用腿部静态方程为参数滤波器构建了一个部分测量模型。这种方法确保腿长估计仅依赖于关节扭矩和足部接触力，避免了状态估计误差对参数估计的影响。与可以直接估计的腿长不同，足部滑动不能用当前的传感器配置直接测量。但是，由于足部打滑发生的频率较低，因此可以将其视为测量数据中的异常值。为了减轻这些异常值的影响，学者们提出了 beta 卡尔曼滤波器 (beta KF)，它使用 beta 散度重新定义规范卡尔曼滤波中的估计损失。这种散度可以自适应地为异常值分配较低的权重，从而增强估计算法的稳健性。这些技术共同构成了双 beta 卡尔曼滤波器 (Dual beta KF)，这是一种用于腿式机器人稳健状态估计的新型算法。在 Unitree GO2 机器人上的实验结果表明，双 beta KF 的性能明显优于最先进的方法。"
+ },
+ {
+  "line": 930,
+  "title": "198.ANAVI: Audio Noise Awareness using Visuals of Indoor environments for NAVIgation",
+  "text": "在本文中，来自卡内基梅隆大学的学者们提出使用室内视觉效果进行导航的音频噪声感知，以实现更安静的机器人路径规划。虽然人类天生就意识到自己发出的噪音及其对周围人的影响，但机器人目前缺乏这种意识。实现机器人音频感知的一个关键挑战是估计机器人在听众位置的行为会有多大。由于声音取决于房间的几何形状和材料组成，学者们训练机器人通过对室内环境的视觉观察被动感知响度。为此，学者们生成有关模拟家庭中不同听众位置的“脉冲”声音有多大的数据，并训练他们的声学噪声预测器 (ANP)。接下来，学者们收集与不同导航动作相对应的声学曲线。将 ANP 与动作声学统一起来，他们展示了轮式（Hello Robot Stretch）和腿式（Unitree Go2）机器人的实验，以便这些机器人遵守环境的噪声限制。"
+ },
+ {
+  "line": 941,
+  "title": "200.Jailbreaking LLM-Controlled Robots",
+  "text": "为了评估在机器人领域部署 LLM 的风险，来自宾夕法尼亚大学的学者们在本文中介绍了 RoboPAIR，这是第一个旨在越狱 LLM 控制机器人的算法。与现有的针对 LLM 聊天机器人的文本攻击不同，RoboPAIR 会引发 LLM 控制的机器人做出有害的物理动作，学者们在三种场景中通过实验证明了这一现象：(i) 白盒设置，其中攻击者可以完全访问 NVIDIA Dolphins 自动驾驶 LLM，(ii) 灰盒设置，其中攻击者可以部分访问配备 GPT-4o 规划器的 Clearpath Robotics Jackal UGV 机器人，以及 (iii) 黑盒设置，其中攻击者只能查询访问集成 GPT-3.5 的 Unitree Robotics Go2 机器狗。在每种情况下以及在三个新的有害机器人动作数据集中，学者们证明 RoboPAIR 以及几个静态基线可以快速有效地发现越狱，通常实现 100% 的攻击成功率。学者们的结果首次揭示，鉴于越狱机器人在现实世界中造成物理损坏的可能性很大，越狱 LLM 的风险远远超出了文本生成。事实上，我们在 Unitree Go2 上的结果代表了已部署的商业机器人系统首次成功越狱。解决这一新出现的漏洞对于确保 LLM 在机器人技术中的安全部署至关重要。"
+ },
+ {
+  "line": 1035,
+  "title": "Jailbreaking LLM-Controlled Robots",
+  "text": "大型语言模型（LLMs）的最新引入通过在操作、移动和自动驾驶等多样领域实现上下文推理和直观的人机交互，彻底革新了机器人技术领域。当被视为独立技术时，LLM 已知易受越狱攻击，即恶意提示者通过绕过 LLM 安全防护措施来诱导产生有害文本。为评估在机器人技术中部署 LLM 的风险，本文引入 RoboPAIR—— 首个旨在对 LLM 控制的机器人进行越狱的算法。与现有的针对 LLM 聊天机器人的文本攻击不同，RoboPAIR 会从 LLM 控制的机器人中诱导出有害的物理动作，我们在三种场景中通过实验证明了这一现象：（i）白盒场景，攻击者可完全访问 NVIDIA Dolphins 自动驾驶 LLM；（ii）灰盒场景，攻击者可部分访问配备 GPT-4o 规划器的 Clearpath Robotics Jackal UGV 机器人；（iii）黑盒场景，攻击者仅能查询访问集成了 GPT-3.5 的宇树机器人 Go2 机器狗。在每种场景中，通过三个新的有害机器人动作数据集，我们证明 RoboPAIR 以及几个静态基线方法能够快速有效地找到越狱方法，通常实现 100% 的攻击成功率。我们的结果首次揭示，鉴于越狱机器人可能在现实世界中造成物理损害的明显可能性，LLM 越狱的风险远远超出了文本生成的范畴。事实上，我们在宇树 Go2 上的结果代表了首次成功越狱已部署的商用机器人系统。解决这一新兴漏洞对于确保 LLM 在机器人技术中的安全部署至关重要。"
+ },
+ {
+  "line": 1039,
+  "title": "219. Fast and Cost-effective Speculative Edge-Cloud Decoding with Early Exits",
+  "text": "我们提出一种快速且经济高效的推测性边缘云解码框架，其服务器端部署大型目标模型、设备端运行轻量草稿模型。通过在目标模型中引入早期退出机制，令牌可在验证中途生成，使客户端能在最终验证前抢先生成后续令牌，从而利用空闲时间并增强边缘与云端的并行处理能力。在 NVIDIA Jetson Nano（客户端）与 A100 GPU（服务器）上采用 Vicuna-68M（草稿模型）和 Llama2-7B（目标模型）的实验表明，相比基于云端的自回归解码，该方法延迟最高降低 35%，结合抢先生成策略可额外提升 11%。为验证实际应用价值，我们在宇树 Go2 四足机器人上部署基于视觉语言模型（VLM）的控制方案，较传统云端自回归解码实现 21% 的速度提升。这些结果表明，该框架在资源受限的边缘设备上运行实时 LLM 与 VLM 应用具有显著潜力。"
+ },
+ {
+  "line": 1043,
+  "title": "220. McARL:Morphology-Control-Aware Reinforcement Learning for Generalizable Quadrupedal Locomotion",
+  "text": "我们提出形态 - 控制感知强化学习（McARL），这是一种克服超参数调优和迁移损失挑战的新方法，可实现跨机器人形态的可泛化运动控制。通过将从指定形态范围采样的随机形态向量融入演员 - 评论家网络，我们构建了形态条件策略，使策略能够学习可泛化至相似特征机器人的参数。实验表明，使用 McARL 在宇树 Go1 机器人上训练的单一策略可迁移至不同形态（如宇树 Go2 机器人），无需重新训练或微调即可实现高达 3.5 m/s 的零样本迁移速度，在训练用 Go1 机器人上更可达 6.0 m/s，并可泛化至 A1 和 Mini Cheetah 等其他形态。我们还分析了形态差异对迁移性能的影响，结果显示 McARL 相较 PPO 变体在 Go2、Mini Cheetah 和 A1 上的迁移性能提升 44-150%，凸显了其优于现有方法的优势。"
+ },
+ {
+  "line": 1056,
+  "title": "222. Autonomous operation of a robot dog for point-cloud data acquisition",
+  "text": "In this work, we investigate Simulation - to - Simulation (Sim2Sim) transfer in the context of robotic reinforcement learning (RL). While Sim2Real has received significant attention, Sim2Sim remains relatively under - explored despite offering an important and controlled setting to study generalization across environments. We focus on transferring locomotion policies trained in Isaac Gym to MuJoCo, two simulators with distinct dynamics and physics modeling. We apply Domain Randomization (DR) during training to expose the policy to diverse environmental configurations and assess its zero - shot transfer capability to the target simulator. Furthermore, we lay the groundwork for Active Domain Randomization (ADR), which intelligently selects challenging environment parameters during training. Our experiments with Unitree Go2 and H1_2 robots demonstrate that DR significantly enhances Sim2Sim performance for quadruped locomotion. We analyze key transfer bottlenecks, identify effective randomization dimensions, and propose future enhancements toward scalable simulator - agnostic policy learning."
+ },
+ {
+  "line": 1080,
+  "title": "228. Bipedalism for Quadrupedal Robots: Versatile Loco-Manipulation through Risk-Adaptive Reinforcement Learning",
+  "text": "Loco-manipulation of quadrupedal robots has broadened robotic applications, but using legs as manipulators often compromises locomotion, while mounting arms complicates the system. To mitigate this issue, we introduce bipedalism for quadrupedal robots, thus freeing the front legs for versatile interactions with the environment. We propose a risk-adaptive distributional Reinforcement Learning (RL) framework designed for quadrupedal robots walking on their hind legs, balancing worst-case conservativeness with optimal performance in this inherently unstable task. During training, the adaptive risk preference is dynamically adjusted based on the uncertainty of the return, measured by the coefficient of variation of the estimated return distribution. Extensive experiments in simulation show our method's superior performance over baselines. Real-world deployment on a Unitree Go2 robot further demonstrates the versatility of our policy, enabling tasks like cart pushing, obstacle probing, and payload transport, while showcasing robustness against challenging dynamics and external disturbances."
+ },
+ {
+  "line": 1100,
+  "title": "232. LOVON: Legged Open-Vocabulary Object Navigator",
+  "text": "大量评估表明，该系统能够成功完成涉及实时检测、搜索和向开放式词汇动态目标导航的长序列任务。此外，在不同腿部机器人（宇树 Go2、B2 和 H1-2）上进行的真实世界实验，充分展示了 LOVON 的兼容性和极具吸引力的即插即用特性。"
+ },
+ {
+  "line": 1109,
+  "title": "234. Hybrid ACO for Blockchain-Managed Robotic Swarms",
+  "text": "我们部署了多台搭载激光雷达的宇树 Go2 机器狗，让它们以协同与竞争的方式对划分的子区域进行测绘，并根据实时反馈和所选策略进行任务重分配。在协同模式下，机器人共享数据以提高效率和精度；在竞争模式下，机器人独立工作以减少冗余并优化资源。集群合约还能通过合并后的地图验证子区域的完全覆盖情况。结果表明，将基于区块链的管理与混合蚁群优化算法相结合，可显著提升测绘性能，为现实世界中的多机器人系统提供了一种稳健且可扩展的解决方案。"
+ },
+ {
+  "line": 1126,
+  "title": "237. Autonomous Navigation and Real-Time 3D Reconstruction of Interior Spaces Using a Quadruped Robot",
+  "text": "本论文设计并评估了一款基于 ROS2（机器人操作系统 2）的应用程序，该程序可使宇树 Go2 四足机器人借助同步定位与地图构建（SLAM）技术，在室内环境中同时执行自主导航、实时建图与三维重建任务。搭载机载传感器的该机器人系统，目标是生成可提供详细三维扫描信息的高分辨率点云。本次评估聚焦于该平台的实际可行性、运行可靠性与精度表现。"
+ },
+ {
+  "line": 1163,
+  "title": "241. A Nonlinear MPC Framework for Loco-Manipulation of Quadrupedal Robots with Non-Negligible Manipulator Dynamics",
+  "text": "研究人员通过大量数值仿真与硬件实验，对该分层控制架构进行了验证 —— 实验平台为 15 千克的宇树 Go2 四足机器人，其上搭载了 4.4 千克、4 自由度的 Kinova 机械臂。由于 Kinova 机械臂的动力学特性相对于 Go2 机器人本体不可忽略，实验结果表明，所提 NMPC 框架在执行多样移动 - 操作任务时展现出稳健的稳定性，能有效应对外部扰动、负载变化与崎岖地形。"
+ },
+ {
+  "line": 1189,
+  "title": "244.Teleoperator-Aware and Safety-Critical Adaptive Nonlinear MPC for Shared Autonomy in Obstacle Avoidance of Legged Robots",
+  "text": "通过将控制屏障函数 (CBF) 约束集成到计算高效的 NMPC 中来增强安全性，确保尽管人机行为存在不确定性，安全集仍具有前向不变性。该控制架构采用分层结构：基于 CBF 的高级 ANMPC（10 Hz）生成混合的人机速度参考；中级动态感知 NMPC（60 Hz）强制降阶单刚体 (SRB) 动力学来跟踪这些参考；低级非线性全身控制器（500 Hz）通过二次规划施加全阶动力学来跟踪中级轨迹。学者们在 Unitree Go2 四足机器人上进行的大量数值和硬件实验以及用户研究验证了该框架，展示了实时避障、人类意图参数在线学习以及安全的远程操作员协作功能。"
+ },
+ {
+  "line": 1202,
+  "title": "246.A Geometric Method for Base Parameter Analysis in Robot Inertia Identification Based on Projective Geometric Algebra",
+  "text": "学者们所提出的方法和算法已在四个机器人上进行了验证：Puma560、Unitree Go2、2RRU-1RRS 并联运动机构 (PKM) 和 2PRS-1PSR PKM。在所有情况下，算法均成功识别出完整的基础参数集。值得注意的是，该方法该方法表现出较高的鲁棒性和计算效率，尤其是在PKMs的情况下。通过全面的演示，证明了该方法的通用性、鲁棒性和高效性。"
+ },
+ {
+  "line": 1208,
+  "title": "247.Non-conflicting Energy Minimization in Reinforcement Learning based Robot Control",
+  "text": "在本文中，来自俄勒冈州立大学的学者们提出了一种无超参数梯度优化方法，用于在不影响任务性能的情况下最小化能量消耗。受近期多任务学习研究的启发，学者们的方法在任务目标和能量目标之间应用策略梯度投影，从而获得在不影响任务性能的情况下最小化能量消耗的策略更新。学者们在 DM-Control 和 HumanoidBench 的标准运动基准上评估了这项技术，结果表明，在保持同等任务性能的同时，能耗降低了 64%。此外，他们在 Unitree GO2 四足机器人上进行了实验，展示了节能策略的 Sim2Real 迁移。这个方法易于在标准 RL 流程中实现，代码改动极小，适用于任何策略梯度方法，并为节能控制策略的奖励塑造提供了一种原则性的替代方案。"
+ },
+ {
+  "line": 1215,
+  "title": "248.FR-Net: Learning Robust Quadrupedal Fall Recovery on Challenging Terrains through Mass-Contact Prediction",
+  "text": "这个框架完全在模拟环境中使用特权学习进行训练，无需在部署期间提供明确的地形数据即可指导策略学习。学者们在模拟环境中展示了FR-Net 在不同四足平台上的泛化能力，并通过在 Go2 机器人上进行 10 个具有挑战性的场景的大量真实实验来验证其性能。结果表明，明确的质量接触预测是实现稳健跌倒恢复的关键，这为可泛化的四足技能提供了一个有希望的方向。"
+ },
+ {
+  "line": 1222,
+  "title": "249.First Order Model-Based RL through Decoupled Backpropagation",
+  "text": "来自美国纽约大学和法国图卢兹大学的学者们提出了一种将轨迹生成与梯度计算分离的方法：使用模拟器展开轨迹，而梯度则通过模拟器学习到的可微分模型通过反向传播计算。这种混合设计即使在模拟器梯度不可用的情况下也能实现高效一致的一阶策略优化，并能够从模拟部署中学习到更准确的评价指标。学者们的方法实现了 SHAC 等专用优化器的采样效率和速度，同时保持了 PPO 等标准方法的通用性，并避免了其他一阶 MBRL 方法中观察到的不良行为。学者们在基准控制任务上对算法进行了实证验证，并在真实的 Go2 四足机器人上证明了其在四足和双足运动任务中的有效性。"
+ },
+ {
+  "line": 1228,
+  "title": "250.MLM: Learning Multi-task Loco-Manipulation Whole-Body Control for Quadruped Robot with Arm",
+  "text": "为了解决这个问题，来自上海交通大学和上海人工智能实验室的学者们提出了MLM，一个由真实世界和模拟数据驱动的强化学习框架。它使配备六自由度机械臂的四足机器人能够自主或在人类远程操作下执行多任务的全身操控。为了解决在操控学习过程中平衡多任务的问题，学者们引入了一个具有自适应、基于课程的采样机制的轨迹库。这种方法使策略能够有效地利用真实世界收集的轨迹来学习多任务操控。为了解决仅依赖历史观测的部署场景，并提高跨不同空间范围任务的策略执行性能，学者们提出了一个轨迹-速度预测策略网络。它可以预测不可观测的未来轨迹和速度。通过利用丰富的模拟数据和基于课程的奖励机制，他们的控制器在模拟中实现了全身行为，并实现了零样本迁移到现实世界部署。模拟中的消融研究验证了学者们方法的必要性和有效性，而在搭载 Airbot 机械臂的 Go2 机器人上进行的真实实验则证明了该策略在多任务执行中的良好性能。"
+ },
+ {
+  "line": 1250,
+  "title": "254.Bridge the Gap:Enhancing Quadruped Locomotion with Vertical Ground Perturbations",
+  "text": "In this study, researchers from the Technical University of Darmstadt proposed a novel approach to enhance the robustness of quadrupedal robot locomotion by training a Unitree Go2 robot on a vibrating bridge. The vibrating bridge is a 13.24-meter-long steel-concrete structure with a 2.0 Hz characteristic frequency designed to perturb motion. Using reinforcement learning (RL) and the Proximal Policy Optimization (PPO) algorithm in a MuJoCo simulation, the researchers trained 15 different locomotion policies, combining five gaits (trotting, pacing, hopping, free, and default) across three training conditions: a rigid bridge and two vibrating bridge settings with different height adjustments (relative to the bridge deck or the ground). Domain randomization ensured zero-shot transfer of the model to real bridges. Experimental results showed that the policies trained on the vibrating bridge exhibited greater stability and adaptability than those trained on a rigid surface. The researchers' framework achieves robust gait patterns even without previous experience with bridges. These findings highlight the potential of simulation-based reinforcement learning for improving quadruped locomot"
+ },
+ {
+  "line": 1254,
+  "title": "255.PGTT: Phase-Guided Terrain Traversal for Perceptive Legged Locomotion",
+  "text": "在本文中，来自希腊帕特雷大学的学者们提出了相位引导地形遍历 (PGTT)，这是一种感知感知的深度强化学习方法，它通过纯粹的奖励塑造来强制执行步态结构，从而克服了这些限制，与振荡器/反向运动条件的动作先验相比，它减少了策略学习中的归纳偏差。PGTT 将每条腿的相位编码为三次 Hermite 样条函数，该样条函数使摆动高度适应局部高度图统计数据，并添加摆动相位接触惩罚，同时该策略直接作用于关节空间，支持形态无关的部署。 PGTT 在 MuJoCo (MJX) 中，基于程序生成的阶梯状地形进行训练，并采用课程和领域随机化，在推力扰动（中位数比次优方法高 7.5%）和离散障碍物（高 9%）下均取得了最高的成功率，且速度跟踪效果相当，并且收敛到有效策略的速度比强大的端到端基线策略快约 2 倍。学者们使用实时 LiDAR 海拔到高度图流程在 Unitree Go2 上验证了 PGTT，并报告了使用相同超参数在 ANYmal-C 上获得的初步结果。这些发现表明，地形自适应、相位引导的奖励塑造是一种简单通用的机制，可实现跨平台的稳健感知运动。"
+ },
+ {
+  "line": 1260,
+  "title": "256.Towards Dynamic Quadrupedal Gaits: A Symmetry-Guided RL Hierarchy Enables Free Gait Transitions at Varying Speeds",
+  "text": "在本研究中，由纽约雪城大学的学者们提出了一个统一的强化学习框架，利用动态腿式系统的固有对称性和速度-周期关系来生成多功能的四足步态。学者们提出了一种对称引导的奖励函数设计，该设计融合了时间、形态和时间反转对称性。通过关注保留的对称性和自然动力学，学者们的方法无需预先设定轨迹，从而实现了小跑、跳跃、半跳跃和飞奔等多种运动模式之间的平滑过渡。他们的方法已在 Unitree Go2 机器人上实现，在模拟和硬件测试中均展现出在各种速度范围内的稳健性能，显著提高了步态适应性，而无需进行大量的奖励调整或明确的足部位置控制。这项工作提供了对动态运动策略的见解，并强调了对称性在机器人步态设计中的重要作用。"
+ },
+ {
+  "line": 1266,
+  "title": "257.Real2USD: Scene Representations in Universal Scene Description Language",
+  "text": "在本文中，来自宾夕法尼亚大学的学者们提出，在通用场景描述 (USD) 语言是一种有效且通用的表示方法，可用于基于 LLM 的机器人任务，以表示环境中的几何、光度和语义信息。学者们的论点很简单：USD 是一种基于 XML 的场景图，LLM 和人类均可读取，并且足够丰富，可以支持几乎所有任务——皮克斯开发了这种语言来存储资源、场景甚至电影。他们演示了一个“Real to USD”系统，该系统使用搭载激光雷达和 RGB 摄像头的 Unitree Go2 四足机器人。该系统 (i) 构建了包含各种物体和大量玻璃等复杂场景的室内环境的 USD 显式表征；(ii) 使用谷歌 Gemini 解析 USD，以展示场景理解、复杂推理和规划能力。学者们还使用 Nvidia 的 Issac Sim 在模拟仓库和医院环境中研究了该系统的不同方面。"
+ },
+ {
+  "line": 1307,
+  "title": "Reference-Free Sampling-Based Model Predictive Control",
+  "text": "我们在 Go2 四足机器人 上验证了该方法，展示了多种自发步态及基本跳跃能力。在仿真环境中，我们进一步展示了更复杂的行为，例如后空翻、动态倒立平衡，以及人形机器人上的行走运动，整个过程均无需参考轨迹跟踪或离线预训练。"
+ },
+ {
+  "line": 1312,
+  "title": "Quadrupedal gait on oscillating surfaces",
+  "text": "我们采用 Unitree Go2 四足机器人，并基于 Proximal Policy Optimization（PPO）算法与 MuJoCo 物理引擎在仿真中训练了 18 个步态策略。这些策略覆盖六种步态模式（默认、trot、小跑、pace 侧步、bound 弹跳、pronk 跳跃、free 自由步态），并对应三种训练环境：静止地面、以及两个不同高度控制策略（相对地面或相对桥面）的振动桥梁设置。通过域随机化，我们实现了策略在真实系统上的零样本迁移（zero-shot transfer）。"
+ },
+ {
+  "line": 1320,
+  "title": "X-IONet: Cross-Platform Inertial Odometry Network with Dual-Stage Attention",
+  "text": "我们在 RoNIN 行人数据集与新采集的 Unitree Go2 四足机器人数据集上的广泛实验进一步验证了其卓越性能。"
+ },
+ {
+  "line": 1333,
+  "title": "SocialNav: Training Human-Inspired Foundation Model for Socially-Aware Embodied Navigation",
+  "text": "我们将不同方法部署在配备 NVIDIA A10 GPU 的云服务器上，并用于指导 Unitree Go2 机器人进行导航。"
+ },
+ {
+  "line": 1344,
+  "title": "Zero-Splat TeleAssist: A Zero-Shot Pose Estimation Framework for Semantic Teleoperation",
+  "text": "我们在真实实验室环境中对该框架进行了验证，使用多种异构机器人进行测试，包括 Boston Dynamics Spot（黄色四足机器人）、Unitree Go2（灰色小型四足机器人）和 AgileX Hunter（轮式无人地面车），均在俯视 RGB 摄像机（1080p，15 FPS）监控下进行操作。"
+ },
+ {
+  "line": 1350,
+  "title": "Robot Squid Game Quadrupedal Locomotion for Traversing Narrow Tunnels",
+  "text": "通过在训练阶段合成多样化的隧道结构，并将导航策略蒸馏为可泛化的策略，我们的方法能够在传统方法失效的复杂空间约束下，实现一致的穿越性能。我们通过仿真和真实实验验证了该方法，使四足机器人能够成功穿越受限的复杂隧道环境。为了评估 SQUID 策略的仿真到现实迁移能力，我们将训练得到的模型部署在 Unitree Go2 四足机器人上，并在受控隧道环境中进行测试。"
+ },
+ {
+  "line": 1358,
+  "title": "MacroNav: Multi-Task Context Representation Learning Enables Efficient Navigation in Unknown Environments",
+  "text": "大量实验表明，该上下文编码器能够高效且稳健地理解环境。我们以 Unitree Go2 机器人作为实验平台，并在真实环境中进行了部署验证。结果显示，MacroNav 在成功率（Success Rate, SR）和路径加权成功率（Success weighted by Path Length, SPL）上均显著优于最先进的导航方法，同时保持了低计算成本。代码将在论文接受后开源。"
+ },
+ {
+  "line": 1364,
+  "title": "Co-NavGPT: Multi-Robot Cooperative Visual Semantic Navigation Using Vision Language Models",
+  "text": "在 Habitat-Matterport 3D (HM3D) 基准中的实验结果表明，Co-NavGPT 在成功率和导航效率方面均显著优于现有方法，并且无需执行任务特定训练。消融研究进一步验证了来自 VLM 的语义先验的重要性。我们还在真实场景中使用 Unitree Go2 四足机器人对该框架进行了验证。"
+ },
+ {
+  "line": 1465,
+  "title": "MS-PPO: Morphological-Symmetry-Equivariant Policy for Legged Robot Locomotion",
+  "text": "这一设计避免了传统方法中为强制对称性而引入的繁琐奖励设计或高成本数据增强过程。我们在仿真环境中对 MS-PPO 进行了系统评估，实验对象包括 Unitree Go2 与 Xiaomi CyberDog2 足式机器人，涵盖小跑（trotting）、跳跃式行走（pronking）、坡地行走以及双足转向等多种运动任务，并进一步将学习到的策略成功部署到真实硬件平台。"
+ },
+ {
+  "line": 1472,
+  "title": "Helpful DoggyBot: Open-World Object Fetching using Legged Robots and Vision-Language Models",
+  "text": "实验平台采用 Unitree Go2 四足机器人，并搭载一个定制设计的 3D 打印夹爪，该夹爪由 Dynamixel XM430-W350-T 伺服电机驱动。我们在两个此前从未见过的真实室内环境中对系统进行了评估，整个过程无需任何真实世界数据采集或再训练。实验结果表明，该系统具备零样本泛化能力，能够在新环境中完成复杂任务，例如根据用户指令，在攀爬越过一张双人床（queen-size bed）后，成功抓取随机放置的毛绒玩具，任务成功率达到 60%。"
+ },
+ {
+  "line": 1480,
+  "title": "MODEL-BASED DIFFUSION SAMPLING FOR PREDICTIVE CONTROL IN OFFLINE DECISION MAKING",
+  "text": "此外，我们还进行了初步研究，将 MPDiffuser 扩展至基于视觉输入的控制任务，展示了其向高维感知输入扩展的潜力。最后，我们将该方法成功部署到真实的 Unitree Go2 四足机器人上，验证了 MPDiffuser 在现实世界控制任务中的实用性与可行性。"
+ },
+ {
+  "line": 1489,
+  "title": "Autonomous Construction-Site Safety Inspection Using Mobile Robots: A Multilayer VLM LLM Pipeline",
+  "text": "在系统实现方面，本文采用了一台四足机器人平台：Unitree Go2 Edu。该机器人内置 RGB 相机，并外接了一套 K1 机械臂以及一台 Robosense Helios32 激光雷达，用于支持多模态感知与自主巡检任务。"
+ },
+ {
+  "line": 1496,
+  "title": "Schrodinger’s Navigator: Imagining an Ensemble of Futures for Zero-Shot Object Navigation",
+  "text": "我们在 Unitree Go2 四足机器人上，围绕三种具有挑战性的场景开展了实验评估，包括：严重的静态遮挡、未知风险区域以及动态移动目标。实验结果表明，在遮挡密集的环境中，薛定谔导航器在自定位精度、目标定位能力以及整体任务成功率等指标上，均持续优于多种具有代表性的 ZSON 基线方法。"
+ },
+ {
+  "line": 1510,
+  "title": "ReSPIRe Informative and Reusable Belief Tree Search for Robot Probabilistic Search and Tracking in Unknown Environments",
+  "text": "为验证所提方法在不同机器人平台上的通用性，我们分别在室内环境中采用 TurtleBot4 轮式机器人进行实验，并在室外环境中使用 Unitree Go2 四足机器人开展实验，进一步证明了 ReSPIRe 的跨平台适用性。"
+ },
+ {
+  "line": 1515,
+  "title": "Playful DoggyBot: Learning Agile and Precise Quadrupedal Locomotion",
+  "text": "在本工作中，我们采用了一种感知–控制解耦的系统架构，并基于强化学习（Reinforcement Learning，RL），旨在探索四足机器人在高动态运动过程中与物体交互时所能达到的操作精度上限。实验结果表明，所使用的 Unitree Go2 四足机器人在机身前部安装了一个被动夹爪后，能够完成类似真实受训犬类的目标跟踪与捕获任务。"
+ },
+ {
+  "line": 1522,
+  "title": "GuangMing-Explorer: A Four-Legged Robot Platform for Autonomous Exploration in General Environments",
+  "text": "大量真实世界实验结果表明，该平台在执行自主探索任务时展现出良好的有效性与效率，凸显了其在复杂、非结构化环境中进行实际部署的潜力。本文所提出的自主探索平台基于 Unitree Go2 四足机器人构建，为面向真实应用的自主探索系统提供了一套完整且可复现的解决方案。"
+ },
+ {
+  "line": 1529,
+  "title": "Playing with Robots: Performing Arts Techniques for Designingand Understanding Robot Group Movement",
+  "text": "上述运动模式均基于 Unitree Go2 四足机器人平台实现。该平台因其优越的运动能力，且在人机交互（HCI）领域中被广泛采用，为群体行为与社交运动研究提供了良好的实验基础。"
+ },
+ {
+  "line": 1538,
+  "title": "A Unified Framework to Learn Collision-Free Loco-Manipulation via Adversarial Motion Priors",
+  "text": "Designing a whole-body controller for loco-manipulation in unstructured real-world environments remains a formidable challenge. Previous approaches have primarily focused on extending the workspace of robotic arms while maintaining quadrupedal landing postures. However, these methods fail to fully exploit the mobility of legged robots. To address these limitations, we propose a unified framework for collision-free loco-manipulation in real-world applications. The framework comprises two key modules: (1) a Loco-manipulation Motion Prior, which generates loco-manipulation skill trajectories via Trajectory Optimization (TO), and (2) a Collision-free Manipulation module using a Model Predictive Path Integral (MPPI)-based trajectory generator and a vector-based trajectory follower. Extensive experiments have been conducted in both simulation and real-world scenarios to evaluate our framework’s tracking accuracy, whole-body coordination, and workspace expansion capabilities. Supplementary and videos are available at: https://sites.google.com/view/loco-mani-amp/ Our robot system integrates a 12-DoF legged robot, the Unitree Go2, with a robotic arm, the Unitree D1."
+ },
+ {
+  "line": 1545,
+  "title": "REASAN: Learning Reactive Safe Navigation for Legged Robots",
+  "text": "在真实部署中，我们将 REASAN 完全运行在 Unitree Go2 四足机器人上，配备 Livox Mid-360 LiDAR 与 Jetson AGX Orin（64 GB），实现了端到端、高效的自主反应导航。"
+ },
+ {
+  "line": 1550,
+  "title": "Impact of Robot Facial-Audio Expressions on Human Robot Trust Dynamics and Trust Repair",
+  "text": "Despite recent advances in robotics and human-robot collaboration in the AEC industry, trust has mostly been treated as a static factor, with little guidance on how it changes across events during collaboration. This paper investigates how a robot’s task performance and its expressive responses after outcomes shape the dynamics of human trust over time. To this end, we designed a controlled within-subjects study with two construction-inspired tasks, Material Delivery (physical assistance) and Information Gathering (perceptual assistance), and measured trust repeatedly (four times per task) using the 14-item Trust Perception Scale for HRI plus a redelegation choice. The robot produced two multimodal expressions, a “glad” display with a brief confirmation after success, and a “sad” display with an apology and a request for a second chance after failure. The study was conducted in a lab environment with 30 participants and a quadruped platform, and we evaluated trust dynamics and repair across both tasks. Results show that robot success reliably increases trust, failure causes sharp drops, and apology-based expressions partially restores trust (44% recovery in Material Delivery; 38% i"
+ },
+ {
+  "line": 1553,
+  "title": "GuideNav: User-Informed Development of a Vision-Only Robotic Navigation Assistant For Blind Travelers",
+  "text": "尽管在面向盲人及低视力（BLV）群体的移动辅助系统用户研究中取得了显著进展，但能够直接为机器人导航设计提供参考的研究仍然十分有限。为弥补这一空白，我们开展了一项全面的人类研究，包括对26名导盲犬使用者、4名白手杖使用者、9名导盲犬训练师及1名O&M培训师的访谈，并进行了超过15小时的导盲犬辅助步行观察。去标识化处理后，我们开源了该数据集，以促进以人为本的辅助系统开发和设计决策。基于这项基础研究的洞见，我们开发了 GuideNav，一种仅依赖视觉的“教学-重复”（teach-and-repeat）导航系统。受导盲犬训练及协助使用者方式的启发，GuideNav 可以让机器人自主重复由有视力的人演示的路径。具体而言，该系统构建了所教授路线的拓扑表示，结合视觉位置识别与时间滤波，并利用相对位姿估计器计算导航动作——整个过程无需依赖昂贵、笨重且耗电的传感器如LiDAR。实地测试表明，GuideNav 在五个户外环境中均能实现公里级的路径跟随，即使在教学与重复运行过程中场景明显变化，也能保持可靠性。针对3名导盲犬使用者和1名导盲犬训练师的用户研究进一步验证了系统的可行性，这也是我们所知的首个四足移动机器人系统以类似导盲犬的方式成功完成路径重现。系统基于 Unitree Go2 四足机器人 构建，并配备了刚性背带手柄，以实现与用户的刚性连接。"
+ },
+ {
+  "line": 1559,
+  "title": "FALCON: Actively Decoupled Visuomotor Policies for Loco-Manipulation with Foundation-Model-Based Coordination",
+  "text": "我们在两个具有挑战性的 loco-manipulation 任务上评估了 FALCON，这些任务需要同时完成导航、末端执行器精确放置以及紧密的底盘–机械臂协调。结果表明，FALCON 不仅超过了集中式和去中心化的基线方法，还表现出更高的鲁棒性和对分布外场景的泛化能力。在真实机器人平台上，我们将解耦的视觉-运动策略及若干基线策略部署在由 Unitree Go2 四足机器人底盘与 Airbot 机械臂组成的四足移动操作平台上，验证了方法的可行性与有效性。"
+ },
+ {
+  "line": 1632,
+  "title": "M-SEVIQ A Multi-band Stereo Event Visual-Inertial Quadruped-based Dataset for Perception under Rapid Motion and Challenging Illumination",
+  "text": "腿式机器人的敏捷运动对视觉感知提出了极高要求。传统的帧式摄像头在高速运动或低光环境下容易产生模糊图像，从而限制了感知性能。相比之下，事件摄像头能够异步捕捉亮度变化，具备低延迟、高时间分辨率和高动态范围的优势，使其在快速运动和复杂光照条件下具有稳健感知能力。然而，现有的事件摄像头数据集在立体配置、多波段感知及不同光照条件下仍存在局限。为填补这一空白，我们构建了 M-SEVIQ，一个多波段立体事件视觉与惯性四足机器人数据集。数据采集平台为 Unitree Go2，配备立体事件摄像头、帧式摄像头、惯性测量单元（IMU）和关节编码器。该数据集包含 30 多条真实世界序列，涵盖不同速度等级、光照波长及光照条件。此外，数据集提供了全面的校准信息，包括内参、外参及时间对齐，以便于精确的传感器融合与基准测试。M-SEVIQ 可支持敏捷机器人感知、传感器融合、语义分割及多模态视觉在复杂环境下的研究。"
+ },
+ {
+  "line": 1636,
+  "title": "REBot: Reflexive Evasion Robot for Instantaneous Dynamic Obstacle Avoidance",
+  "text": "动态障碍物避让（DOA）对于在有移动障碍物或人类的环境中运行的四足机器人至关重要。现有方法通常依赖基于导航的轨迹重新规划，这类方法假设有足够的反应时间，当障碍物快速接近时往往会失败。在这种场景下，四足机器人需要具备反射式规避能力，以实现即时、低延迟的机动操作。本文提出 Reflexive Evasion Robot（REBot），一种控制框架，使四足机器人能够实现实时反射式障碍物避让。REBot 在有限状态机内集成了避让策略与恢复策略，通过精心设计的学习课程、正则化机制和自适应奖励，实现了动态障碍物避让任务中的稳健规避与快速稳定。我们在仿真与真实环境中（Unitree Go2 四足机器人）对 REBot 进行了广泛验证，结果显示其在避让成功率、能效以及对快速移动障碍物的鲁棒性方面均显著优于现有方法。演示视频与附录可访问：https://rebot-2025.github.io/。"
+ },
+ {
+  "line": 1642,
+  "title": "UniLegs: Universal Multi-Legged Robot Control through Morphology-Agnostic Policy Distillation",
+  "text": "本研究提供了一种可扩展的方案，用于开发通用腿式机器人控制器，在保持接近最优性能的同时实现对多样形态的泛化能力。实验训练集包含五种不同形态：三种四足机器人（Unitree A1、Aliengo 和 ANYbotics ANYmal），以及六足和八足机器人，用于表示更复杂的运动学结构；在零-shot 泛化测试中，我们使用训练集中未出现的 Unitree Go2 四足机器人进行验证，评估方法的跨形态泛化能力。"
+ },
+ {
+  "line": 1653,
+  "title": "EdgeNavMamba: Mamba-Optimized Object Detection for Energy-Efficient Edge Devices",
+  "text": "实验结果表明，在 NVIDIA Jetson Orin Nano 和 Raspberry Pi 5 等边缘设备上，学生模型相比教师模型实现了模型尺寸减少 67%、每次推理能耗降低最多 73%，同时保持相同性能。在 MiniWorld 和 IsaacLab 仿真环境中，EdgeNavMamba 同样保持高检测精度，并将参数量相比基线减少 31%。真实部署平台包括搭载 Jetson Orin Nano 加速器的：(a) Unitree Go2 四足机器人 和 (b) Yahboom Rosmaster 巡航轮式机器人，验证了该方法在资源受限设备上的实用性与高效性。"
+ },
+ {
+  "line": 1660,
+  "title": "CoINS: Counterfactual Interactive Navigation via Skill-Aware VLM",
+  "text": "实验平台为 Unitree Go2 四足机器人，配备 ARX5 机械臂；环境感知采用 Unitree L1 LiDAR 获取地形信息。"
+ },
+ {
+  "line": 1665,
+  "title": "Offline Imitation Learning upon Arbitrary Demonstrations by Pre-Training Dynamics Representations",
+  "text": "在预训练阶段，我们提出了一种受噪声对比估计（Noise Contrastive Estimation, NCE）启发的可行损失函数，用于学习动力学表示。MuJoCo 仿真实验表明，该算法能够仅通过单条专家轨迹就模仿专家策略。在真实四足机器人 Unitree Go2 上的实验也验证了该方法的有效性：通过利用从仿真数据中预训练的动力学表示，仅用少量真实演示即可学习机器人行走。"
+ },
+ {
+  "line": 1669,
+  "title": "Online Trajectory Optimization for Arbitrary-Shaped Mobile Robots via Polynomial Separating Hypersurfaces",
+  "text": "一种新兴的轨迹优化方法通过联合优化机器人构型与分离超平面来实现避障。然而，由于线性分离器仅适用于凸集，这类方法通常需要将机器人和障碍物都近似为凸形体，在狭窄、拥挤或强非凸环境中往往过于保守，甚至直接失效。本文彻底消除了这一限制，提出使用由多项式函数参数化的非线性分离超曲面来实现避障。我们首先推广了经典的分离超平面定理，严格证明了：任意两个不相交的、有界闭集在欧几里得空间中都可以被一个多项式超曲面分离。这一结果为任意几何形状之间的非线性分离提供了坚实的理论基础。在此基础上，我们构建了一个非线性规划（NLP）问题，同时优化机器人的运动轨迹以及分离多项式的系数，从而实现具备几何感知能力的避障，无需对机器人或障碍物进行保守的凸化近似。该优化问题仍可通过标准 NLP 求解器高效求解。在仿真和真实机器人实验中，我们使用非凸形态的机器人验证了该方法的有效性。结果表明，在传统凸近似方法失败的复杂环境中，我们的方法依然能够生成平滑、无碰撞且敏捷的运动轨迹。在真实实验中，我们在 Unitree Go2 四足机器人上安装了一个 L 形框架，进一步验证了该方法在真实非凸机器人系统中的实用性与鲁棒性。"
+ },
+ {
+  "line": 1673,
+  "title": "Zero-shot adaptable task planning for autonomous construction robots a comparative study of lightweight single and multi-AI agent systems",
+  "text": "机器人被认为将在未来建筑行业中发挥重要作用，但目前仍面临成本高昂以及难以适应动态任务等挑战。本文探讨了**基础模型（foundation models）**在提升建筑机器人任务规划适应性与泛化能力方面的潜力。研究提出并实现了四种模型，基于轻量级、开源的大语言模型（LLMs）和视觉语言模型（VLMs），包括一个单智能体模型以及三个通过协作生成机器人行动规划的多智能体团队模型。我们在三种建筑作业角色下对这些模型进行了评估，分别为油漆工、安全检查员和地面铺装工。实验结果表明，四智能体团队在大多数评价指标上均优于当前最先进的 GPT-4o，同时成本仅为其十分之一。此外，三智能体和四智能体团队展现出更强的泛化能力。通过分析智能体行为对输出结果的影响，本文加深了对 AI 团队协作机制的理解，并为其在建筑领域之外的多样化非结构化环境中的进一步研究提供了支持。实验平台为一台 Unitree Go2 Edu 四足机器人，其上搭载了 K1 机械臂 和 Robosense Helios32 激光雷达。"
+ },
+ {
+  "line": 1739,
+  "title": "GPO Growing Policy Optimization for Legged Robot Locomotion and Whole-Body Control",
+  "text": "由于动作空间维度高、硬件约束严格以及探索能力受限，针对足式机器人的强化学习（Reinforcement Learning，RL）策略训练仍然面临诸多挑战。现有的运动与全身控制方法在基于位置控制的场景中表现良好，通常依赖环境相关的启发式设计（如奖励塑形、课程学习和人工初始化），但在基于力矩控制的情形下效果显著下降，因为此时对动作空间进行充分探索并获得有效的梯度信号要困难得多。为此，我们提出了一种名为 Growing Policy Optimization（GPO）的训练框架，通过引入一种随时间变化的动作变换，在训练初期限制有效动作空间，从而促进更高效的数据采集与策略学习，随后逐步放宽该限制以增强探索能力并提升期望回报。我们从理论上证明了该动作变换能够保持 PPO 的更新规则不变，仅引入有界且逐渐消失的梯度畸变，从而保证训练过程的稳定性。我们在四足和六足机器人上对 GPO 进行了系统评估，并实现了将仿真中训练得到的策略零样本部署到真实硬件平台。实验结果表明，采用 GPO 训练的策略在各类任务中均取得了更优性能，验证了其作为一种通用、与环境无关的足式运动学习优化框架的有效性。为进一步验证 GPO 的实际效果，我们将学习到的策略部署在 Unitree Go2 四足机器人上，并与多种代表性基线方法进行了对比，包括基于力矩的 PPO、纯力矩 DeCAP 以及位置辅助 DeCAP。"
+ },
+ {
+  "line": 1747,
+  "title": "Contact-Anchored Proprioceptive Odometry for Quadruped Robots",
+  "text": "在缺乏相机或激光雷达的情况下，实现足式机器人的可靠里程计仍然充满挑战，主要原因在于 IMU 漂移以及关节速度测量噪声。本文提出了一种纯本体感知状态估计方法，仅依赖 IMU 和电机测量数据，对机体位姿与速度进行联合估计，并采用统一建模框架，适用于双足、四足及轮足机器人。其核心思想是将每条处于接触状态的支撑腿视为运动学锚点：通过基于关节力矩的足端力/力矩估计筛选可靠接触点，并利用相应的落足位置在世界坐标系下提供间歇性约束，从而有效抑制长期漂移。为防止长时间运动中的高度漂移问题，本文提出了一种轻量级的高度聚类与时间衰减校正方法，将新记录的落足高度对齐至先前观测到的支撑平面。针对编码器量化误差对足端速度观测的影响，采用基于逆运动学的立方容积卡尔曼滤波方法，直接从关节角度与角速度中滤波估计足端速度。在实现层面，该方法通过多接触几何一致性约束进一步抑制航向角漂移，并在 IMU 航向约束不可用或不可靠时，能够平滑退化为基于运动学推导的航向参考。我们在四个平台上对该方法进行了闭环轨迹实验验证，包括三台 Astrall 四足机器人和一台 Unitree Go2 EDU。在 Astrall A 型点足机器人上，约 200 米水平闭环和约 15 米垂直闭环的回环误差分别为 0.1638 米和 0.219 米；在 B 型轮足机器人上，对应误差分别为 0.2264 米和 0.199 米。在 C 型轮足机器人上，约 700 米水平闭环的误差为 7.68 米，约 20 米垂直闭环的误差为 0.540 米。Unitree Go2 EDU 在约 120 米水平闭环中的误差为 2.2138 米，在约 8 米垂直闭环中的高度误差小于 0.1 米。我们已公开完整实现代码（github.com/ShineMinxing/Ros2Go2Estimator.git）以及 Go2 EDU 实验的 ROS 数据包（含同步视频），以支持可复现评估。"
+ },
+ {
+  "line": 1759,
+  "title": "further mitigates yaw drift through multi-contact geometric consistency and degrades gracefully to a",
+  "text": "We evaluate the method on four quadruped platforms (three Astrall robots and a Unitree Go2"
+ },
+ {
+  "line": 1763,
+  "title": "EDU) using closed-loop trajectories. On Astrall point-foot robot A, a ∼200 m horizontal loop and a",
+  "text": "yields 7.68 m error and a ∼20 m vertical loop yields 0.540 m error. Unitree Go2 EDU closes a ∼120 m"
+ },
+ {
+  "line": 1766,
+  "title": "publicly release the complete implementation (github.com/ShineMinxing/Ros2Go2Estimator.git) and the",
+  "text": "ROS bags of the Go2 EDU trials, including synchronized video, to enable reproducible evaluation."
+ },
+ {
+  "line": 1769,
+  "title": "Toward Reliable Sim-to-Real Predictability for MoE-based Robust Quadrupedal Locomotion",
+  "text": "强化学习在四足机器人敏捷运动控制方面展现出强大潜力，即便仅依赖本体感知信息也能实现优异表现。然而在实际应用中，仿真到现实（sim-to-real）差距以及复杂地形下的奖励过拟合问题，往往导致策略难以有效迁移，而实体测试本身又存在风险高、效率低等局限。为应对上述挑战，本文提出了一套统一框架，包括基于专家混合（Mixture-of-Experts, MoE）的多地形运动控制策略，以及名为 RoboGauge 的预测评估系统，用于量化仿真到现实的可迁移性。该 MoE 策略通过门控机制调度一组专门化专家网络，对潜在地形特征与运动指令建模进行解耦分解，仅凭本体感知信息即可实现更强的部署鲁棒性与泛化能力。RoboGauge 则通过在不同地形类型、难度等级和域随机化条件下开展仿真到仿真（sim-to-sim）测试，构建多维本体感知评估指标体系，从而在无需大量实体实验的情况下，实现对 MoE 策略的可靠筛选与预测评估。基于 Unitree Go2 的实验结果表明，该方法在多种未见过的复杂地形上均实现了稳健运动，包括雪地、沙地、楼梯、坡地以及 30 cm 高障碍物。在专门的高速测试中，机器人最高速度达到 4 m/s，并在高速运动状态下自发形成窄步态模式，表现出与高速稳定性提升相关的涌现行为。"
+ },
+ {
+  "line": 1773,
+  "title": "UEREBot: Learning Safe Quadrupedal Locomotion under Unstructured Environments and High-Speed Dynamic Obstacles",
+  "text": "四足机器人正日益被部署于非结构化环境中。在此类场景下实现安全运动，需要同时满足长时域目标推进能力、复杂地形与静态约束条件下的可通行性，以及对高速动态障碍物的碰撞规避。然而，单一系统往往难以同时兼顾这三项目标：基于规划的方法可能响应过慢，而纯反应式方法则可能牺牲目标推进效率与地形通过能力。为解决这一矛盾，本文提出 UEREBot（Unstructured-Environment Reflexive Evasion Robot，非结构化环境反射式规避机器人）分层框架，将相对缓慢的全局规划与瞬时反射式规避机制相分离，并在执行过程中实现协调融合。UEREBot 将任务建模为受约束最优控制问题的蓝图结构，采用时空规划器为机器人提供面向目标的参考引导与威胁信号；随后通过一种具备威胁感知能力的切换机制，将导航决策与反射动作融合为名义控制指令，并利用控制障碍函数（Control Barrier Function, CBF）屏障作为最终执行安全保障。我们在 Isaac Lab 仿真环境中对 UEREBot 进行了系统评估，并将其部署于搭载机载感知系统的 Unitree Go2 四足机器人上进行验证。在包含复杂静态结构与高速动态障碍物的多样化环境中，UEREBot 相较于代表性基线方法实现了更高的避障成功率和更稳定的运动表现，同时保持了持续的目标推进能力，展现出更优的安全性与效率权衡。"
+ },
+ {
+  "line": 1777,
+  "title": "Risk Awareness and Management for Autonomous Robots: Assessing Non-Perceivable Hazards through Context-Aware Safety Adaptation",
+  "text": "自主机器人能够在多种复杂条件下运行，因此必须始终确保其行为安全。由此引出一个关键问题：如何全面界定所有不安全状态。在这一过程中，设备制造商有责任明确安全运行条件，而实际操作人员则负责确保这些条件得到满足。然而，随着应用场景日益多样化，制造商往往难以预知用户将如何使用机器人，使得制造商与操作人员之间的责任接口变得愈发复杂。此外，另一个挑战在于，某些危险情形无法仅凭传感器检测识别，而必须通过限制机器人的运行域来加以管理和规避。本文围绕上述挑战展开讨论，并提出一种将情境感知风险评估机制融入机器人运行时自主系统的方法。该方法的核心思想在真实车间场景中进行了验证，实验平台包括 Unitree Go2 足式机器人以及一辆自主驾驶的 Unimog 卡车。"
+ },
+ {
+  "line": 1781,
+  "title": "PRISM Performer RS-IMLE for Single-pass Multisensory Imitation Learning",
+  "text": "机器人模仿学习通常要求模型在满足实时控制频率的同时，刻画多模态动作分布，并兼容多种感知模态。尽管近年来诸如扩散模型、流匹配（Flow Matching）以及隐式最大似然估计（IMLE）等生成式方法取得了令人鼓舞的成果，但它们往往只能满足上述需求中的一部分。为此，本文提出 PRISM，一种基于 IMLE 批量全局拒绝采样变体的单次前向（single-pass）策略。PRISM 将时序多模态感知编码器（融合 RGB、深度、触觉、音频及本体感知信息）与基于 Performer 架构的线性注意力生成器相结合，实现高效建模。我们在多种真实硬件平台上验证了 PRISM 的有效性，包括搭载 7 自由度机械臂 D1 的 Unitree GO2 进行的移动操作任务，以及基于 UR5 机械臂的桌面操作任务。在预操作泊车、高精度插入、多目标抓取与放置等具有挑战性的实体任务中，PRISM 在成功率上较当前最先进的扩散策略提升 10–25%，同时保持 30–50 Hz 的高频闭环控制能力。我们还在大规模仿真基准上对方法进行了验证，包括 CALVIN、MetaWorld 和 Robomimic。在 CALVIN（10% 数据划分）设置下，PRISM 的成功率相较扩散模型提升约 25%，相较流匹配方法提升约 20%，同时将轨迹抖动（jerk）降低 20 至 50 倍。上述结果表明，PRISM 在避免迭代采样带来时延的同时，兼顾了多模态动作覆盖能力，是一种兼具高速度、高精度与多感知融合能力的高效模仿学习策略。"
+ },
+ {
+  "line": 1785,
+  "title": "Fast Task Planning with Neuro-Symbolic Relaxation",
+  "text": "现实世界中的任务规划通常需要在包含大量对象及其复杂关系与属性的场景中进行长时域推理，这使得传统符号规划方法面临组合爆炸问题。为缩减搜索空间，近年来的方法通常依赖神经网络预测少量“重要”对象，仅在由这些对象构成的简化任务上进行优先搜索。然而，这种简单的神经-符号（NeSy）融合方式可能遗漏关键对象，或在不可解的简化任务上浪费计算资源。为实现快速且可靠的规划，本文提出一种 NeSy 松弛策略 Flax，将神经重要性预测与符号扩展机制相结合。具体而言，我们首先训练图神经网络预测对象的重要性，构建简化任务并利用符号规划器进行求解；随后，通过求解规则松弛后的任务快速获得一个粗略规划方案，并将该方案中涉及的所有对象重新整合回简化任务，以恢复可能被忽略但至关重要的元素；最后，应用互补规则对更新后的任务进行细化，使其在保持紧凑性的同时兼具可靠性。我们在合成与真实迷宫导航基准上开展了大量实验，任务要求机器人穿越迷宫并与可移动障碍物进行交互。实验结果表明，与当前最先进的 NeSy 基线方法相比，Flax 将平均成功率提升了 20.82%，并将平均实际规划时间缩短了 17.65%。我们认为，Flax 为复杂环境中实现快速、可扩展的长时域任务规划提供了一条切实可行的路径。为进一步验证 Flax 的实际应用能力，如图 6 所示，我们将训练完成的模型部署于一台 Unitree Go2 四足机器人平台，该平台配备 Livox Mid-360 激光雷达、6 自由度 D1 机械臂以及安装于夹爪附近的 Intel RealSense D455 深度相机。"
+ },
+ {
+  "line": 1789,
+  "title": "A Nonlinear MPC Framework for Loco-Manipulation of Quadrupedal Robots with Non-Negligible Manipulator Dynamics",
+  "text": "模型预测控制（MPC）结合降阶模板模型已成为动态足式运动轨迹优化的有力工具。然而，当四足机器人执行移动操作任务（loco-manipulation）时，系统复杂度显著提升，尤其是在搭载高自由度机械臂且其动力学不可忽略的情况下，需要具备高计算效率的 MPC 算法以处理高自由度模型。本文提出一种针对四足机器人移动操作任务的高效非线性模型预测控制（NMPC）框架，适用于机械臂动力学与四足基座动力学耦合不可忽略的场景。该方法采用分解策略，将基于单刚体（Single Rigid Body, SRB）等模板的运动规划模型与机械臂的全阶动力学模型进行耦合，实现扭矩层级控制下的协同优化。该分解机制使得 NMPC 问题能够以滚动时域方式在 60 Hz 下高效求解。由 NMPC 生成的最优状态与输入轨迹用于运动层，由运行频率为 500 Hz 的低层非线性全身控制器（WBC）进行跟踪，而机械臂的最优扭矩指令则直接下发执行。该分层控制架构通过大量数值仿真与硬件实验进行验证，实验平台为一台 15 kg 的 Unitree Go2 四足机器人，其搭载 4.4 kg、4 自由度的 Kinova Arm 机械臂。由于 Kinova 机械臂的动力学相对于 Go2 基座不可忽略，所提出的 NMPC 框架在多种移动操作任务中表现出良好的鲁棒稳定性，能够有效应对外部扰动、负载变化以及不平整地形等挑战。"
+ },
+ {
+  "line": 1793,
+  "title": "Evaluating Dynamic Surface Compensation for Robots with Projected AR",
+  "text": "基于投影仪的增强现实（AR）技术使机器人能够在无需头戴设备的情况下向多个观察者传达空间相关信息，例如投影导航路径等。然而，这类系统通常要求投影表面平整且纹理较弱；否则必须对表面进行补偿以保证投影图像的原始效果。但现有的补偿方法通常假设投影仪—相机—表面之间的配置是静态的，在复杂且纹理丰富的动态环境中（如机器人实际导航场景）往往难以适用。本文在一台 Unitree Go2 四足机器人上，在搜索与救援场景中针对不连续、非平面且纹理复杂的表面，对当前最先进的基于深度学习的投影补偿方法进行了实验评估。我们提供了关于这些方法关键性能局限性的实证分析，指出其普遍依赖预先标定且无法在机器人移动过程中实现实时自适应，从而揭示了静态补偿能力与动态机器人通信需求之间的根本性差距。基于此，我们提出未来研究方向，旨在实现面向动态环境的实时运动自适应投影补偿机制，以提升机器人通信在复杂场景中的实用性。"
+ },
+ {
+  "line": 1797,
+  "title": "Scaling Law of Neural Koopman Operators",
+  "text": "数据驱动的神经 Koopman 算子理论已成为非线性机器人系统线性化与控制的重要工具。然而，这类模型的性能本质上依赖于样本规模与模型潜在维度之间的权衡关系，而该尺度规律（scaling law）尚未被系统揭示。本文构建了一个严格的理论与实证框架，推导并验证了连接样本数量、潜在空间维度与下游控制性能之间的缩放规律。我们从理论上给出了 Koopman 逼近误差的上界，将其明确分解为采样误差与投影误差，并证明这两项误差随数据规模和潜在维度以特定速率衰减，从而为尺度规律提供了严格依据。基于理论分析结果，本文进一步提出两种轻量级正则化方法用于神经 Koopman 算子学习：协方差损失（covariance loss）用于稳定潜在特征结构，逆控制损失（inverse control loss）用于约束模型与物理执行结构的一致性。系统性实验覆盖六个机器人环境，结果表明模型拟合误差符合所推导的缩放规律，且所引入的正则化方法显著提升动力学建模精度与闭环控制性能。综合来看，本文为在控制任务中合理分配数据采集成本与模型表达能力提供了一套简洁有效的指导原则。为评估高维欠驱动运动场景下的性能，我们在 Unitree Go2 四足机器人与 Unitree G1 人形机器人平台上进行了实验验证。"
+ },
+ {
+  "line": 1801,
+  "title": "Seq-DeepIPC: Sequential Sensing for End-to-End Control in Legged Robot Navigation",
+  "text": "我们提出 Seq-DeepIPC，一种面向真实环境中足式机器人导航的序列化端到端感知—控制模型。该方法通过紧密融合多模态感知（RGB-D + GNSS）与时序信息，实现感知与控制的协同优化，从而提升自主导航能力。模型联合预测语义分割与深度信息，为规划与控制提供更丰富的空间特征表示。为实现边缘设备上的高效部署，我们采用轻量级网络作为编码器，在降低计算开销的同时保持较高精度。在航向估计方面，我们移除噪声较大的 IMU 依赖，改为通过对连续 GNSS 坐标进行差分分析来推导全局航向，从而简化系统结构。我们构建了一个更大规模且更具多样性的多场景数据集，涵盖道路与草地等地形，并在一台 Unitree Go2 机器人平台上进行了系统验证。对比实验与消融研究表明，序列输入显著提升了模型在感知与控制任务中的性能，而其他基线方法未表现出同样收益。Seq-DeepIPC 在模型规模合理的前提下实现了具有竞争力甚至更优的表现；尽管基于 GNSS 的航向估计在高楼遮挡环境下可靠性下降，但在开阔区域表现稳定。总体而言，Seq-DeepIPC 将端到端导航拓展至更具通用性与时序感知能力的足式机器人系统。为支持后续研究，我们将在 GitHub（https://github.com/oskarnatan/Seq-DeepIPC）公开代码。数据集与传感器信息摘要见表"
+ },
+ {
+  "line": 1806,
+  "title": "TRANS Terrain-aware Reinforcement Learning for Agile Navigation of Quadruped Robots under Social Interactions",
+  "text": "本文提出 TRANS（Terrain-aware Reinforcement learning for Agile Navigation under Social interactions），一种用于非结构化地形下四足机器人社交导航的深度强化学习框架。传统四足导航方法通常将运动规划与运动控制分离，忽略了全身约束与地形感知能力；而端到端方法虽然更为一体化，但往往依赖高频感知输入，计算开销大且易受传感器噪声影响。此外，大多数现有方法假设环境静态，难以适用于人类密集的动态场景。为解决上述问题，本文提出一种两阶段训练框架，包含三个深度强化学习（DRL）流程：（1）TRANS-Loco 采用非对称 actor–critic（AC）结构进行四足机器人运动控制，在不显式依赖地形或接触信息的情况下，实现对不平整地形的跨越；（2）TRANS-Nav 采用对称 AC 框架实现社交导航，将变换后的 LiDAR 数据直接映射为基于差分驱动运动学的机器人动作；（3）统一流程 TRANS 将 TRANS-Loco 与 TRANS-Nav 融合，支持在复杂地形与社会交互环境中的地形感知型四足导航。我们在多种运动与社交导航基准上开展了系统性对比实验，结果表明该方法优于现有基线方法；硬件实验进一步验证了其仿真到现实迁移的可行性。实验基于 Unitree Go2 四足机器人平台完成。"
+ },
+ {
+  "line": 1810,
+  "title": "Intelligent Gait Synthesis for Autonomous Ground Robots: A Reinforcement Learning Approach",
+  "text": "我们提出 Reinforcement Learning Contrastive Optimization（RLCO），一种融合对比学习与强化学习的四足机器人运动控制框架，旨在提升策略学习的样本效率与动作序列稳定性。现有强化学习方法在四足运动控制中面临两个关键问题：样本利用效率低以及动作序列缺乏足够的时间一致性，导致在复杂环境下稳定性不足。为解决这一问题，我们引入一种基于历史—预测动作对齐的对比学习机制，通过约束过去动作与预测动作之间的表示一致性，确保动作序列在时间维度上保持连贯，从而增强运动控制的稳定性与物理合理性。该共优化机制在保留强化学习强探索能力的同时，提升动作输出的可预测性与连续性，使策略能够更好地适应复杂任务。实验结果表明，该方法在非结构化地形下显著提升了运动控制精度与环境适应能力。通过对不同训练策略的对比分析，我们系统验证了 RLCO 框架的有效性。室外实地测试涵盖楼梯、坡地及草地等场景，结果表明机器人能够快速适应多种地面条件。实验基于 Unitree Go2 四足机器人在真实环境中完成。"
+ },
+ {
+  "line": 1819,
+  "title": "Bellman Value Decomposition for Task Logic in Safe Optimal Control",
+  "text": "现实任务通常涉及目标达成与安全约束之间的复杂组合。在高维场景下，这一问题更加突出：形式自动机方法变得繁琐复杂，而稀疏奖励的组合通常需要大量手工调参。针对这一挑战，本文从贝尔曼值（Bellman Value）的内在结构出发，将问题自然组织为更具结构化的形式，以提升学习效率与自动化性能。我们证明，对于由时序逻辑定义的复杂任务，其贝尔曼值可以分解为一个贝尔曼值图结构，并通过一组经典贝尔曼方程（Bellman Equations, BEs）进行连接，包括 Reach-Avoid BE、Avoid BE，以及一种新提出的 Reach-Avoid-Loop BE。基于该分解结构，我们提出 VDPPO 方法，将分解后的值图嵌入双层神经网络中，通过自举式方式隐式建模各子值之间的依赖关系，从而求解最优值函数与策略。我们在多种仿真与真实硬件场景中进行了验证，测试对象包括涉及异构团队与非线性动力学的复杂高维任务。结果表明，该方法相较于现有基线显著提升性能，并能够自动平衡安全性与任务可达性。最后，我们在 Herding 与 Delivery 场景中开展硬件实验，使用一组 Crazyflie（CF）无人机与 Unitree Go2 机器人进行协同任务，展示 VDPPO 在高维真实环境与异构协作条件下求解复杂任务规范的能力。"
+ },
+ {
+  "line": 1823,
+  "title": "Sparse Video Generation Propels Real-World Beyond-the-View Vision-Language Navigation",
+  "text": "视觉—语言导航是否必须依赖细粒度且冗长的语言指令？尽管详细指令有助于决策，但这种方式在本质上与现实场景中导航任务的目标相矛盾——理想情况下，智能体应具备仅依赖高层意图即可在未知环境中自主导航的能力。这一目标带来了一个重大挑战：超视距导航（Beyond-the-View Navigation，BVN），即机器人必须在缺乏密集逐步指导的情况下，定位远距离且不可见的目标。现有基于大语言模型（LLM）的方法虽然擅长遵循细粒度指令，但由于其训练依赖短时监督，往往表现出短视行为；而简单延长监督时长又会破坏 LLM 的训练稳定性。本文指出，视频生成模型天然受益于长时域监督，从而能够更好地对齐语言指令，因此在 BVN 任务中具有独特优势。基于这一洞察，我们首次将视频生成模型引入该领域。然而，直接生成长达数十秒的视频会带来过高延迟，难以满足实时部署需求。为解决这一问题，我们提出 SparseVideoNav，通过生成一个覆盖 20 秒长时域的稀疏未来轨迹预测，实现亚秒级轨迹推理，相比未优化版本实现 27 倍加速。大规模真实环境零样本实验表明，SparseVideoNav 在 BVN 任务上的成功率达到当前最先进 LLM 基线的 2.5 倍，并首次在复杂夜间场景中实现该类能力。我们在 Unitree Go2 四足机器人平台上开展真实世界实验验证。"
+ },
+ {
+  "line": 1827,
+  "title": "User-Centric Object Navigation A Benchmark with Integrated User Habits for Personalized Embodied Object Search",
+  "text": "在家庭环境中的对象导航（Object Navigation, ON）任务近年来受到广泛关注。然而，现有 ON 基准通常将目标物体放置在遵循通用场景先验的位置，未考虑不同用户的个性化摆放习惯。这种忽略限制了导航智能体在真实个性化家庭场景中的适应能力。为解决这一问题，我们提出以用户习惯为核心的对象导航（User-centric Object Navigation，UcON）基准，将用户特定的物体摆放习惯显式纳入任务建模与评估框架。该基准要求智能体利用用户习惯信息进行更具针对性的决策与导航推理。UcON 规模约涵盖 22,600 条用户习惯，覆盖 489 个物体类别。据我们所知，这是首个在大规模层面上显式定义并评估习惯条件下对象导航任务的基准，同时覆盖最广泛的目标物体类别。基于该框架，我们进一步提出一种习惯检索模块，用于提取与目标物体相关的用户习惯信息，并辅助智能体推断目标更可能出现的位置，从而提升导航效率。实验结果表明，在用户习惯驱动的物体摆放条件下，当前最先进方法性能出现明显下降，而引入用户习惯信息后，成功率显著提升。代码已公开于：https://github.com/whcpumpkin/User-Centric-Object-Navigation。实验所使用的机器人平台（图2）为 Unitree GO2 Edu，其搭载一台安装在四根 0.5 米支撑杆上的 Astra Pro Plus RGB-D 相机。"
+ },
+ {
+  "line": 1831,
+  "title": "Co-jump: Cooperative Jumping with Quadrupedal Robots via Multi-Agent Reinforcement Learning",
+  "text": "尽管单体四足机器人运动控制已取得显著进展，但单个机器人在物理驱动能力上仍然受到本身执行器极限的制约。为突破这一边界，我们提出 Co-jump——一种两台四足机器人协同完成高于各自单机能力的跳跃任务。在该任务中，两台机器人需要在无显式通信与预定义运动原语的条件下，实现高冲击接触动力学下的同步协调。我们针对这一问题，在去中心化框架下构建了基于多智能体近端策略优化（Multi-Agent Proximal Policy Optimization, MAPPO）并结合渐进式课程学习策略的训练方法，有效缓解了机械耦合系统中稀疏奖励带来的探索困难。仿真与真实硬件实验结果表明，该方法能够稳定实现多方向跳跃，并成功跃升至 1.5 m 高的平台。实验中其中一台机器人实现足端最高 1.1 m 的抬升高度，相比单机四足机器人约 0.45 m 的跳跃高度提升 144%，显著增强了垂直运动性能。值得强调的是，该精确协同仅依赖本体感知信息实现，无需通信机制，从而为受限环境中的无通信协作运动奠定基础。我们部署了两台四足机器人，其中 Unitree Go2 作为跳跃机器人（Robot J，约 15 kg），另一台 Js01 作为发射机器人（Robot L，约 90 kg）。"
+ },
+ {
+  "line": 1835,
+  "title": "Zero-Shot Visual Anomaly Detection on a Quadruped Robot Using State of the Art Visual Language Models",
+  "text": "在动态真实环境中进行异常检测对机器人系统仍然是一项重大挑战，传统基于视觉规则或手工特征的方法难以在缺乏任务专用训练的情况下理解复杂语义上下文。近年来视觉语言模型（Visual Language Models, VLMs）的发展为机器人实现零样本、语义感知驱动的感知能力提供了新的可能，但其在移动机器人平台上的实际部署仍然研究不足。本研究中，一台四足机器人按照预设路径与任务计划，在室内外环境中自主巡逻并执行实时零样本异常检测任务。机器人搭载机载 RGB 相机，并集成 VLM 对视觉数据进行语义推理，无需任何微调即可识别异常。异常检测通过基于提示的语义推理直接实现，可识别物体摆放异常、结构缺陷以及环境风险等问题。整个系统基于 ROS2 架构实现，以确保通信、控制与实时决策流程的高效协同。我们评估了两种推理部署方式：一种是在机器人本地运行轻量级 VLM 以实现边缘计算；另一种是使用性能更强的云端 VLM 进行远程推理。实验结果表明，两种配置均能够有效识别多种异常情况，验证了将四足平台与 VLM 零样本感知结合用于动态环境持续监测的可行性。此外，我们在多个最先进 VLM 模型上开展了系统性基准测试，包括 Gemini-2.5-Pro、GPT-5、Claude Sonnet 4.5、Gemma3-27B、Qwen3-VL-30B 以及 LLaVA-13B，并与人工评估结果进行对比分析。该对比研究系统性评估了模型行为与人类判断的一致性，为具身感知任务中现代 VLM 的优势与局限提供了更深入的洞察。实验所采用的机器人平台为 Unitree Go2 EDU+，该四足机器人专为室内外多场景应用设计。"
+ },
+ {
+  "line": 1839,
+  "title": "Stairway to Success: An Online Floor-Aware Zero-Shot Object-Goal Navigation Framework via LLM-Driven Coarse-to-Fine Exploration",
+  "text": "可部署的服务与配送机器人在多层建筑中执行对象目标导航时面临显著挑战，因为现有系统通常基于单层假设，并依赖离线构建的全局一致地图，难以处理跨楼层过渡与垂直空间推理等问题。尤其在未知建筑环境中，楼层间的结构关系与通行路径需要实时推断，使多层场景成为对象目标导航的重要难点。虽然 HM3D 与 MP3D 等基准已涵盖多层真实环境，但现有方法缺乏支持在线、楼层感知的导航能力。为弥合这一差距，我们提出 ASCENT，一种用于零样本对象目标导航的在线框架，使机器人无需预建地图或针对新目标类别重新训练即可运行。该框架包含两个核心模块：（1）多楼层抽象模块，动态构建分层环境表示，结合楼梯感知的障碍建模与跨楼层拓扑建模，实现对多层结构的实时理解；（2）粗到细推理模块，将前沿边界排序机制与 LLM 驱动的语境分析相结合，支持多层导航决策中的高层语义与低层运动规划协同。我们在 HM3D 与 MP3D 基准上进行评估，结果优于当前最先进的零样本方法，并在真实环境中部署于 Unitree Go2 四足机器人上进行验证。项目网页：https://zeying-gong.github.io/projects/ascent/"
+ },
+ {
+  "line": 1843,
+  "title": "Coupled Local and Global World Models for Efficient First Order RL",
+  "text": "世界模型（World Models）为更准确地建模复杂动力学提供了一条有前景的路径，尤其是在接触、非刚性形变以及复杂感知信息（如视觉输入）难以通过标准仿真器精确刻画的场景下。然而，这类模型在计算上通常代价较高，难以直接与主流强化学习（RL）算法高效结合，而后者虽然已在复杂运动控制任务中取得成功，但在操作类任务中仍面临挑战。本文提出一种完全绕过传统仿真器的方法，在基于真实机器人与环境交互数据学习得到的世界模型内部直接训练强化学习策略。核心贡献在于一种新颖的解耦一阶梯度（First-order Gradient, FoG）方法，使大规模扩散型世界模型可用于策略优化：其中，完整规模的世界模型负责生成高精度的前向轨迹，而一个轻量级潜在空间替代模型用于近似其局部动力学，从而实现高效梯度计算。这种局部与全局世界模型的耦合机制在保证高保真展开的同时，使反向传播具备计算可行性。我们在 Push-T 操作任务上验证了该方法，相比 PPO 显著提升样本效率，并进一步在以四足机器人为主体的自我中心物体操作任务中进行了测试。实验表明，在无需依赖手工物理仿真的情况下，在数据驱动世界模型内部进行策略学习，是解决图像空间中难以建模的强化学习任务的一种有效路径。我们在两个真实系统上开展研究：一是带有固定基座相机的桌面机械臂 Flexiv Rizon-10S，二是搭载机载相机的 Unitree Go2 四足移动机器人。"
+ },
+ {
+  "line": 1847,
+  "title": "TIC-VLA A Think-in-Control Vision-Language-Action Model for Robot Navigation in Dynamic Environments",
+  "text": "在动态且以人为中心的环境中，机器人必须在遵循语言指令的同时保持实时反应控制能力。视觉-语言-动作（Vision-Language-Action, VLA）模型为这一问题提供了有前景的框架，但现有方法通常假设感知推理与控制决策在时间上同步，忽略了语义推理相对于实时动作执行存在固有延迟的现实情况。为此，我们提出 Think-in-Control（TIC）-VLA，一种感知延迟可建模的框架，显式刻画语义推理延迟对动作生成的影响。TIC-VLA 构建了一个延迟语义—控制接口，使动作生成同时条件于延迟语义状态、显式延迟元信息以及当前观测，从而使策略能够补偿异步推理带来的时间偏差。我们进一步提出一种延迟一致的训练流程，在模仿学习与在线强化学习阶段注入推理延迟，使训练过程与异步部署场景保持一致。为支持真实场景评估，我们构建了 DynaNav，一个物理精确、视觉逼真的仿真平台，用于语言引导的动态环境导航任务。大规模仿真与真实机器人实验表明，TIC-VLA 在多秒级推理延迟条件下仍能保持稳定的实时控制性能，并且整体表现优于现有 VLA 方法。导航策略在 Unitree Go2 四足机器人上完成真实世界部署与测试。项目网页：https://ucla-mobility.github.io/TIC-VLA/"
+ },
+ {
+  "line": 1851,
+  "title": "Context-Aware Generation and Modulation of Expressive Motion Behavior using Multimodal Foundation Models",
+  "text": "富有表现力的机器人运动能够显著提升人机交互质量，例如增强用户参与度、亲和力以及任务完成效果。本文提出一种方法，可根据多模态（文本、音频、视频）上下文描述自动生成并调制复杂的全身表达性动作序列。该方法基于对“动画十二原则”的统一数学建模，并通过动态运动基元（DMPs）实现可解释、可组合的运动生成框架，同时结合多模态基础模型生成高度上下文感知的动作序列及参数化变体。相比现有方法，该框架在灵活性与通用性方面具有优势，能够跨不同运动学结构的机器人平台迁移。系统还集成于连续控制框架，并通过知识蒸馏训练更小规模模型，在提升token效率的同时显著降低推理延迟。用户研究结果表明，在类人机器人平台 Pepper 上，参与者认为本方法生成的动作与交互语境匹配度更高。系统还在不同结构平台上验证，包括四足机器人 Unitree Go2 与机械臂 Kinova Gen3 Lite，结果显示在动作库更丰富的 Pepper 上可生成更多样化序列，而在动作库较小的 Go2 与 Gen3 Lite 上虽仍能生成完整全身表达动作，但存在一定重复模式。"
+ },
+ {
+  "line": 1855,
+  "title": "Self-Imitated Diffusion Policy for Efficient and Robust Visual Navigation",
+  "text": "扩散策略（Diffusion Policy, DP）在视觉导航中展现出强大的潜力，能够建模多模态轨迹分布。然而，大多数 DP 方法依赖的标准模仿学习（IL）往往继承专家示范中的次优性与冗余性，因此在推理阶段通常需要计算开销较大的“先生成后筛选”流程，并借助额外的选择器进行过滤。为解决这一问题，本文提出 Self-Imitated Diffusion Policy（SIDP），一种通过选择性模仿自身采样轨迹来实现规划优化的框架。具体而言，SIDP 引入奖励引导的自模仿机制，鼓励策略持续生成高质量且一致性更强的轨迹，从而减少对大规模采样与后处理筛选的依赖。在训练阶段，作者采用奖励驱动的课程学习策略以提升数据利用效率，并结合目标无关探索进行轨迹增强，提高规划鲁棒性。大规模仿真实验表明，SIDP 显著优于现有方法；真实机器人实验进一步验证了其在多平台上的有效性。在 NVIDIA Jetson Orin Nano 上，SIDP 推理时间为 110ms，相比基线 NavDP 的 273ms 提升约 2.5 倍，实现了高效实时部署。图 7 展示了该方法在 Unitree Go2 与 Agilex T-Rex 平台上的稳定真实世界表现。"
+ },
+ {
+  "line": 1896,
+  "title": "Safe Whole-Body Loco-Manipulation via Combined Model and Learning-based Control",
+  "text": "Simultaneous locomotion and manipulation enables robots to interact with their environment beyond the constraints of a fixed base. However, coordinating legged locomotion with arm manipulation, while considering safety and compliance during contact interaction remains challenging. To this end, we propose a whole-body controller that combines a model-based admittance control for the manipulator arm with a Reinforcement Learning (RL) policy for legged locomotion. The admittance controller maps external wrenches--such as those applied by a human during physical interaction--into desired end-effector velocities, allowing for compliant behavior. The velocities are tracked jointly by the arm and leg controllers, enabling a unified 6-DoF force response. The model-based design permits accurate force control and safety guarantees via a Reference Governor (RG), while robustness is further improved by a Kalman filter enhanced with neural networks for reliable base velocity estimation. We validate our approach in both simulation and hardware using the Unitree Go2 quadruped robot with a 6-DoF arm and wrist-mounted 6-DoF Force/Torque sensor. Results demonstrate accurate tracking of interaction-d"
+ },
+ {
+  "line": 1901,
+  "title": "Control the ARmada: LMM Coordination for Multi-Robot AR-HRC",
+  "text": "Augmented reality (AR) has shown strong potential to enable more flexible interaction in human-robot collaboration (HRC) by conveying a robot’s state and intent [1, 3] and enabling intuitive control [1]. However, while many systems exist that demonstrate AR’s ability to enhance robot control, they often incorporate control for only a singular robotic collaborator, with interaction techniques that require direct manipulation of virtual content; in scenarios with many robots, these manipulations would become much more frequent, lowering task efficiency through repeated manual interventions. Moreover, increased focus on virtual content could reduce awareness of the real environment [2], posing safety risks if this environment contains hazards. Motivated by these challenges, we present ARmada, an AR-HRC system leveraging edge scene understanding and an LMM to enhance environmental awareness and enable AR control in multi-robot settings. System Design: ARmada has 4 primary components: a Meta Quest 3 AR headset, a Unitree Go2 quadruped robot, an edge server, and a cloud LMM. Due to space constraints, the additional robot collaborators are 6 virtual drones; however, the system can include"
+ },
+ {
+  "line": 1905,
+  "title": "A Deployable Bio-inspired Compliant Leg Design for Enhanced Leaping in Quadruped Robots",
+  "text": "Quadruped robots are becoming increasingly essential for various applications, including industrial inspection and catastrophe search and rescue. These scenarios require robots to possess enhanced agility and obstacle-navigation skills. Nonetheless, the performance of current platforms is often constrained by insufficient peak motor power, limiting their ability to perform explosive jumps. To address this challenge, this paper proposes a bio-inspired method that emulates the energy-storage mechanism found in froghopper legs. We designed a Deployable Compliant Leg (DCL) utilizing a specialized 3D-printed elastic material, Polyether block amide (PEBA), featuring a lightweight internal lattice structure. This structure functions analogously to biological tendons, storing elastic energy during the robot’s squatting phase and rapidly releasing it to augment motor output during the leap. The proposed mechanical design significantly enhances the robot’s vertical jumping capability. Through finite element analysis (FEA) and experimental validation, we demonstrate a relative performance improvement of 17.1 % in vertical jumping height. Experiments were conducted on a physical Unitree Go2 ro"
+ },
+ {
+  "line": 1908,
+  "title": "Robust Visual Servoing for Quadruped Robots: ISS-Based Target Tracking With Secondary Formation Objectives",
+  "text": "This work presents the design, implementation, and experimental validation of a visual servo control scheme formulated at the task-space level and applied to a quadruped robot equipped with an active two degree of freedom (2DoF) vision system for continuous tracking of moving targets. The proposed controller is based on a differential kinematic model that maps the robot's task-space velocity references to the kinematic evolution of the active vision system, incorporating a target velocity estimator that enables dynamic compensation of the target motion projected onto the image plane. The control architecture exploits the kinematic redundancy of the robotic system to simultaneously address multiple control objectives within a hierarchical framework. The primary task ensures target centering in the image plane, thereby maintaining visibility within the robot's field of view (FoV), while the secondary task regulates relative formation by controlling the distance and orientation between the robot and the target. Quadruped locomotion is handled by a low-level gait controller and is not modified by the proposed scheme. Closed-loop stability is rigorously analyzed using Lyapunov theory, d"
+ },
+ {
+  "line": 1913,
+  "title": "REAL: Robust Extreme Agility via Spatio-Temporal Policy Learning and Physics-Guided Filtering",
+  "text": "Extreme legged parkour demands rapid terrain assessment and precise foot placement under highly dynamic conditions. While recent learning-based systems achieve impressive agility, they remain fundamentally fragile to perceptual degradation, where even brief visual noise or latency can cause catastrophic failure. To overcome this, we propose Robust Extreme Agility Learning (REAL), an end-to-end framework for reliable parkour under sensory corruption. Instead of relying on perfectly clean perception, REAL tightly couples vision, proprioceptive history, and temporal memory. We distill a cross-modal teacher policy into a deployable student equipped with a FiLM-modulated Mamba backbone to actively filter visual noise and build short-term terrain memory actively. Furthermore, a physics-guided Bayesian state estimator enforces rigid-body consistency during high-impact maneuvers. Validated on a Unitree Go2 quadruped, REAL successfully traverses extreme obstacles even with a 1-meter visual blind zone, while strictly satisfying real-time control constraints with a bounded 13.1 ms inference time."
+ },
+ {
+  "line": 1917,
+  "title": "SLowRL: Safe Low-Rank Adaptation Reinforcement Learning for Locomotion",
+  "text": "Sim-to-real transfer of locomotion policies often leads to performance degradation due to the inevitable sim-to-real gap. Naively fine-tuning these policies directly on hardware is problematic, as it poses risks of mechanical failure and suffers from high sample inefficiency. In this paper, we address the challenge of safely and efficiently fine-tuning reinforcement learning (RL) policies for dynamic locomotion tasks. Specifically, we focus on fine-tuning policies learned in simulation directly on hardware, while explicitly enforcing safety constraints. In doing so, we introduce SLowRL —a framework that combines Low-Rank Adaptation (LoRA) with training-time safety enforcement via a recovery policy. We evaluate our method both in simulation and on a real Unitree Go2 quadruped robot for jump and trot tasks. Experimental results show that our method achieves a 46.5% reduction in fine-tuning time and near-zero safety violations compared to standard proximal policy optimization (PPO) baselines. Notably, we find that a rank-1 adaptation alone is sufficient to recover pre-trained performance in the real world, while maintaining stable and safe real-world fine-tuning. These results demonst"
+ },
+ {
+  "line": 1922,
+  "title": "OA-NBV: Occlusion-Aware Next-Best-View Planning for Human-Centered Active Perception on Mobile Robots",
+  "text": "在仿真与真实实验中，OA-NBV均实现了超过90%的成功率，而基线NBV方法在存在遮挡时性能显著下降。除成功率外，OA-NBV还显著提升了观测质量：与最强基线相比，其在不同设置下将归一化目标面积提升至少81%，关键点可见性提升至少58%，因此可以作为一个即插即用的视角选择模块，服务于多种以人为中心的下游任务。真实实验平台为Unitree Go2 Edu四足机器人，搭载Unitree L1激光雷达以及RealSense D435i RGB-D相机。"
+ },
+ {
+  "line": 1927,
+  "title": "NavThinker: Action-Conditioned World Models for Coupled Prediction and Planning in Social Navigation",
+  "text": "Social navigation requires robots to act safely in dynamic human environments. Effective behavior demands thinking ahead: reasoning about how the scene and pedestrians evolve under different robot actions rather than reacting to current observations alone. This creates a coupled predictionplanning challenge, where robot actions and human motion mutually influence each other. To address this challenge, we propose NavThinker, a future-aware framework that couples an action-conditioned world model with on-policy reinforcement learning. The world model operates in the Depth Anything V2 patch feature space and performs autoregressive prediction of future scene geometry and human motion; multi-head decoders then produce future depth maps and human trajectories, yielding a future-aware state aligned with traversability and interaction risk. Crucially, we train the policy with DD-PPO while injecting world-model think-ahead signals via: (i) actionconditioned future features fused into the current observation embedding and (ii) social reward shaping from predicted human trajectories. Experiments on single- and multi-robot Social-HM3D show state-of-the-art navigation success, with zero-shot t"
+ },
+ {
+  "line": 1930,
+  "title": "ADMM-Based Distributed MPC with Control Barrier Functions for Safe Multi-Robot Quadrupedal Locomotion",
+  "text": "本文提出了一种针对多足机器人系统安全关键轨迹规划的全分布式模型预测控制（MPC）框架，并引入了控制屏障函数（CBF）约束。CBF 约束的引入导致智能体之间产生显式的耦合，使得生成的优化问题无法直接分解。为了解决这一挑战，我们利用基于交替方向乘子法（ADMM）的结构化分布式优化框架，对中心化的安全关键 MPC 问题进行了重构。通过引入一种带有共识约束的新型点-边分裂（node-edge splitting）表述形式，该方法将全局问题分解为独立的点局部（node-local）和边局部（edge-local）二次规划问题，仅需邻居间的通信即可并行求解。这使得系统在保持安全性和动力学可行性的同时，实现了计算负载对称的全分布式轨迹优化。该框架被集成到四足机器人的分层运动控制架构中，结合了高层分布式轨迹规划、执行单刚体动力学的中层非线性 MPC，以及执行全阶机器人动力学的底层全身控制（WBC）。通过两台 Unitree Go2 四足机器人的硬件实验，以及多达四台机器人在包含崎岖地形和外部干扰的随机环境中导航的数值仿真，验证了该方法的有效性。结果表明，所提出的分布式方案达到了与中心化 MPC 相当的性能，同时在四台机器人的案例中将平均单周期规划时间缩短了 51%，实现了高效的实时分布式部署。"
+ },
+ {
+  "line": 1934,
+  "title": "History-Conditioned Spatio-Temporal Visual Token Pruning for Efficient Vision-Language Navigation",
+  "text": "视觉语言导航（VLN）使机器人能够根据视觉环境遵循自然语言指令，是具身机器人系统的核心能力。近期的视觉-语言-动作（VLA）模型虽然展现出强大的导航性能，但其高昂的计算成本带来的延迟限制了实时部署。我们提出了一种专为基于 VLA 的视觉语言导航设计的免训练时空视觉标记裁剪框架。我们对当前视图应用空间标记选择，并对历史记忆进行时空压缩，从而在减少冗余计算的同时实现高效的长程推理。利用基于注意力的标记重要性和查询引导的时空过滤，该方法在无需重新训练或修改预训练模型的情况下保留了与导航相关的信息，实现了在现有 VLA 系统中的插件式集成。通过在标准 VLN 基准测试上的实验，我们证实该方法显著优于现有的裁剪策略。在极度裁剪的场景下，它依然能保持卓越的导航准确度，同时维持极具竞争力的推理效率。在 Unitree Go2 四足机器人上的实机部署进一步验证了在实际机器人约束下，该方法能够实现可靠且低延迟的指令遵循导航。我们希望这项工作有助于弥合大规模多模态建模与机器人导航系统中高效、实时具身部署之间的差距。"
+ },
+ {
+  "line": 1938,
+  "title": "MorFiC: Fixing Value Miscalibration for Zero-Shot Quadruped Transfer",
+  "text": "在具有不同形态的四足机器人之间泛化已学习的运动策略仍然是一个挑战。在单一机器人上训练的策略在部署到具有不同质量分布、运动学、关节限制或驱动约束的实体上时往往会失效，从而被迫对每个机器人进行重新训练。我们提出了 MorFiC，一种利用单一共享策略实现跨形态零样本运动控制的强化学习方法。MorFiC 解决了多形态 Actor-Critic 训练中的一个关键失效模式：共享 Critic 往往会平均化不同实体间不兼容的价值目标，导致优势函数（advantage）校准失衡。为了解决这一问题，MorFiC 通过由机器人物理和控制参数驱动的形态感知调制来调节 Critic，在共享网络中生成针对特定形态的价值估计。通过在仿真中使用单一源机器人进行形态随机化训练，MorFiC 可以迁移至未见过的机器人，并在多个目标上超越了以形态为条件的 PPO 基准测试，提升了稳定平均速度和最长稳定运行时间，其中在 A1 上速度提升了 16.1%，在 Cheetah 上提升约 2 倍，在 B1 上提升约 5 倍。我们进一步表明，MorFiC 降低了跨形态的价值预测误差方差并稳定了优势估计，证明了改进的价值函数校准对应着更强的迁移性能。最后，我们演示了在两台 Unitree Go1 和 Go2 机器人上无需微调的零样本部署，表明 Critic 端调节是实现跨形态泛化的一种实用方法。"
+ },
+ {
+  "line": 1943,
+  "title": "QuadFM: Foundational Text-Driven Quadruped Motion Dataset for Generation and Control",
+  "text": "我们进一步提出了 Gen2Control RL，这是一个联合训练通用运动控制器和文本生成运动生成器的统一框架，能够在边缘硬件上实现高效的端到端推理。在搭载 NVIDIA Orin 的 Unitree Go2 四足机器人实机上，我们的系统实现了实时运动合成（延迟小于 500 毫秒）。仿真和现实世界的实验结果表明，该系统在保持鲁棒物理交互的同时，能够产生逼真且多样化的运动。"
+ },
+ {
+  "line": 1950,
+  "title": "SmoothTurn: Learning to Turn Smoothly for Agile Navigation with Quadrupedal Robots",
+  "text": "仿真和实机实验结果均表明，SmoothTurn 学习到了一种敏捷的运动策略，能够在目标点之间实现平滑转弯，并展现出如切换目标时的动量控制、提前转向未来目标以及规划高效路径等涌现行为。我们在补充材料中提供了学习动作的视频演示。源代码和训练好的策略将在论文接收后公开。在实机实验中，我们将仿真训练的策略部署在了 Unitree Go2 四足机器人上。"
+ },
+ {
+  "line": 1954,
+  "title": "CoT-VLNBench: A Benchmark for Visual Chain-of-Thought Reasoning in Vision-Language-Navigation Robots",
+  "text": "视觉语言模型（VLMs）在具身导航任务中展现出巨大的潜力。然而，现有的以机器人为中心的数据集主要侧重于感知和预测等传统 3D 任务，缺乏对视觉语言任务的充分支持。视觉语言导航（VLN）是实现在复杂环境中具有类人特性且可解释导航的关键能力。在本研究中，我们推出了 CoT-VLNBench，这是首个专门为四足机器人导航中的思维链（CoT）推理设计的大规模基准测试和数据集。我们的数据集涵盖了多样的室内外场景、多步导航轨迹以及丰富的自然语言指令，并全部附有细粒度的 CoT 推理轨迹标注。具体而言，该数据集包含 17.5 万帧图像、525 万个 3D 边界框以及 87.5 万个视觉问答（VQA）对。这一综合资源能够对具身智能体的感知和逐步推理能力进行全面评估。此外，我们提出了一种新颖的 CoT-VLN 模型，这是一个最先进的 7B 级 VLN 模型，它集成了视觉、语言和推理模块，以实现可解释且有效的导航。广泛的实验表明，我们的方法在这一新基准上显著优于现有的非 VLM 基准模型，强调了 CoT-VLN 在具身导航中的重要性。我们希望 CoT-VLNBench 能成为推动机器人、视觉、语言和推理交叉领域研究的有价值资源。我们手动改装并操作了一台 Unitree Go2 机器人，以采集各种环境下的轮足四足运动数据。"
+ },
+ {
+  "line": 1958,
+  "title": "SEA-Nav: Efficient Policy Learning for Safe and Agile Quadruped Navigation in Cluttered Environments",
+  "text": "在密集的杂乱环境中高效训练四足机器人导航仍然是一项重大挑战。现有方法要么在简单障碍物分布中缺乏安全性和敏捷性，要么在复杂环境中运动缓慢，且往往需要极长的训练阶段。为此，我们提出了 SEA-Nav（安全、高效且敏捷的导航），这是一种用于四足机器人导航的强化学习框架。在多样化且密集的障碍物环境中，一个基于可微控制屏障函数（CBF）的屏蔽机制约束导航策略输出安全的策略速度指令。同时，我们引入了自适应碰撞重放机制和危险探索奖励，以增加从关键经验中学习的概率，引导高效的探索与利用。最后，通过结合运动学动作约束来确保速度指令的安全性，从而促进物理部署的成功。据我们所知，这是首个在分钟级训练时间内实现极具挑战性的真实世界四足机器人导航的方法。我们在 Unitree Go2 四足机器人上针对不同的障碍物环境对该方法进行了评估。"
+ },
+ {
+  "line": 1966,
+  "title": "Whole-Body Safe Control of Robotic Systems with Koopman Neural Dynamics",
+  "text": "具有强非线性、高维动力学的机器人控制仍然具有挑战性，因为带有安全约束的直接非线性优化通常难以实现实时计算。Koopman 算子提供了一种在提升空间中线性表示非线性系统的方法，从而能够使用高效的线性控制。我们提出了一个数据驱动框架，从数据中学习 Koopman 嵌入和算子，并将所得线性模型与安全集算法（SSA）相结合。这使得跟踪和安全约束可以在单个二次规划（QP）中求解，在无需独立安全过滤器的情况下确保了可行性和最优性。我们在 Kinova Gen3 机械臂和 Go2 四足机器人上验证了该方法，展示了精确的跟踪和避障能力。"
+ },
+ {
+  "line": 1970,
+  "title": "NavGSim: High-Fidelity Gaussian Splatting Simulator for Large-Scale Navigation",
+  "text": "为机器人模拟真实环境被广泛公认为是机器人学习中的一项关键挑战，特别是在渲染和物理模拟方面。在导航任务中，由于轨迹往往延伸跨越多个房间或整个楼层，这一挑战变得更加突出。在这项工作中，我们推出了 NavGSim，这是一款基于高斯泼溅（Gaussian Splatting）的模拟器，旨在生成高保真、大规模的导航环境。基于分层 3D 高斯泼溅框架，NavGSim 能够在跨越数百平方米的广阔场景中实现照片级逼真的渲染。为了模拟导航碰撞，我们引入了一种基于高斯泼溅的切片技术，直接从重建的高斯分布中提取可通行区域。此外，为了便于使用，我们提供了支持多 GPU 开发的全面 NavGSim API，包括用于自定义场景重建、机器人配置、策略训练和评估的工具。为了评估 NavGSim 的有效性，我们使用从 NavGSim 收集的轨迹训练了一个视觉-语言-动作（VLA）模型，并在模拟环境和 Unitree Go2 机器人的真实环境中评估其性能。我们的结果表明，NavGSim 显著增强了 VLA 模型的场景理解能力，使策略能够有效处理多样化的导航查询。"
+ },
+ {
+  "line": 1974,
+  "title": "Maximum Entropy Behavior Exploration for Sim2Real Zero-Shot Reinforcement Learning",
+  "text": "零样本强化学习（Zero-shot RL）算法旨在从无奖励数据集中学习一系列策略，并在测试时直接针对任何奖励函数恢复出最优策略。自然地，预训练数据集的质量决定了恢复策略在各项任务中的表现。然而，在对下游任务缺乏先验知识的情况下，预先收集相关且多样化的数据集仍是一项挑战。在这项工作中，我们基于前向-后向（Forward-Backward, FB）算法，研究了用于真实机器人系统四足控制的零样本强化学习。我们观察到，无向探索产生的数据多样性较低，导致下游性能不佳，并使得策略在硬件直接部署时难以奏效。因此，我们提出了 FB-MEBE，这是一种在线零样本强化学习算法，它将无监督行为探索策略与正则化评论家（Critic）相结合。FB-MEBE 通过最大化所达成行为分布的熵来促进探索；此外，正则化评论家将恢复的策略引导向更自然且符合物理规律的行为。我们通过实验证明，与一系列模拟下游任务中的其他探索策略相比，FB-MEBE 实现了性能提升，并生成了无需进一步微调即可无缝部署到 Unitree Go2 硬件上的自然策略。视频和代码可在我们的网站获取。"
+ },
+ {
+  "line": 1979,
+  "title": "Watch Your Step: Learning Semantically-Guided Locomotion in Cluttered Environment",
+  "text": "虽然足式机器人展示了在崎岖地形上令人印象深刻的机动性，但在杂乱环境中的安全使用仍是一项挑战。一个关键问题是它们无法避开踩踏低矮物体，例如平地上的高价值小型设备或线缆。这种局限性源于高层语义理解与底层控制之间的脱节，以及在实际操作过程中高程图（Elevation Maps）存在的误差。为了解决这一问题，我们引入了 SemLoco：一个旨在密集的杂乱环境中实现精确避障的强化学习（RL）框架。SemLoco 采用两阶段强化学习方法，结合了软约束和硬约束，并进行像素级的足端安全性推理，从而实现更准确的落脚点选择。此外，SemLoco 整合了语义地图来分配通行成本，而不仅仅依赖几何数据。SemLoco 显著减少了碰撞并提高了敏感物体周围的安全性，使得在传统控制器可能导致损坏的情况下实现可靠导航成为可能。在 Unitree Go2 上的实验结果进一步表明，SemLoco 可以有效地应用于更复杂、非结构化的真实环境。"
+ },
+ {
+  "line": 1983,
+  "title": "AgentVLN: Towards Agentic Vision-and-Language Navigation",
+  "text": "视觉语言导航（VLN）要求具身智能体在陌生环境中将复杂的自然语言指令转化为长程导航任务。虽然视觉语言模型（VLM）提供了强大的 2D 语义理解能力，但目前的 VLN 系统仍受限于空间感知不足、2D-3D 表示不匹配以及单目尺度模糊等问题。在本文中，我们提出了 AgentVLN：一种可部署在边缘计算平台上的新型高效具身导航框架。我们将 VLN 建模为一个部分可观测半马尔可夫决策过程（POSMDP），并引入了“VLM 作为大脑”的范式，通过即插即用的技能库将高层语义推理与感知及规划解耦。为了解决多层级表示的不一致性，我们设计了一种跨空间表示映射，将感知层的 3D 拓扑路标点投影到图像平面，为 VLM 生成像素级对齐的视觉提示。以此为桥梁，我们集成了上下文感知的自我纠错和主动探索策略，以从遮挡中恢复并抑制长轨迹上的误差累积。为了进一步解决非结构化环境中指令的空间模糊性，我们提出了一种查询驱动的感知思维链（QD-PCoT）方案，使智能体具备主动寻求几何深度信息的元认知能力。最后，我们构建了 AgentVLN-Instruct：一个根据目标可见性进行动态阶段路由的大规模指令微调数据集。大量实验表明，AgentVLN 在长程 VLN 基准测试中持续优于先前的最先进（SOTA）方法，为下一代具身导航模型的轻量化部署提供了一种实用的范式。我们采用 Unitree Go2 四足机器人作为物理平台，并配备 Intel RealSense D455 摄像头以获取第一人称观测结果。"
+ },
+ {
+  "line": 1989,
+  "title": "vAccSOL: Efficient and Transparent AI Vision Offloading for Mobile Robots",
+  "text": "我们在包含商用四足机器人 Unitree Go2 的真实测试床上对 vAccSOL 进行了评估，涵盖了图像分类、视频分类和语义分割等 12 种深度学习模型。与 PyTorch 编译器基准相比，SOL 实现了相当或更优的推理性能。通过边缘卸载（offloading），vAccSOL 与 PyTorch 相比可降低机器人侧高达 80% 的功耗，并降低边缘侧高达 60% 的功耗，同时将视觉流水线的帧率提升高达 24 倍，从而延长了电池供电机器人的作业寿命。"
+ },
+ {
+  "line": 1995,
+  "title": "Task-Aware Positioning for Improvisational Tasks in Mobile Construction Robots via an AI Agent with Multi-LMM Modules",
+  "text": "由于建筑施工环境具有不断变化的特性，工地的许多任务往往以即兴（improvisational）的方式发生。现有的移动建筑机器人研究在处理即兴任务方面仍存在局限性，因为这类任务所需的地点、发生时间以及执行任务所需的上下文信息均无法预先获知。我们提出了一个能够理解以自然语言给出的即兴任务、识别任务所需地点并进行自我定位的智能体。该智能体功能被分解为三个并行运行的大型多模态模型（LMM）模块，从而实现了利用 LMM 进行任务解读与拆解、基于施工图纸的导航，以及识别非预定义任务地点的视觉推理。该智能体在 Unitree Go2 四足机器人上得以实现，在三项旨在评估即兴任务处理能力的测试中，其识别任务地点并定位的成功率达到了 92.2%。本研究使移动建筑机器人能够自主执行非预定义的任务。"
+ },
+ {
+  "line": 1999,
+  "title": "Beyond Imitation: Reinforcement Learning Fine-Tuning for Adaptive Diffusion Navigation Policies",
+  "text": "基于扩散模型的机器人导航策略在大型模仿学习数据集上训练，能够直接从机器人的视觉观测中生成多峰轨迹，绕过了传统的定位-建图-规划流程，并实现了强大的零样本泛化能力。然而，它们的性能仍受限于离线数据集的覆盖范围；当部署在未见过的设置中时，分布偏移（distribution shift）往往会导致轨迹误差累积和关键安全故障。利用强化学习（RL）微调扩散策略具有挑战性，因为其迭代去噪结构阻碍了有效的梯度反向传播，同时也使得训练额外的价值网络（Value Network）不仅计算成本高昂且稳定性较差。为了解决这些问题，我们提出了一种专门为基于扩散的导航设计的强化学习微调框架。该方法利用了扩散模型固有的多轨迹采样机制，并采用群体相对策略优化（Group Relative Policy Optimization, GRPO），通过估算采样轨迹间的相对优势来避免对独立价值网络的需求。为了在实现适应性的同时保留预训练的表示，我们冻结了视觉编码器，并有选择地更新更高层的解码器和动作头，通过在线环境反馈增强安全意识行为。在 Isaac Sim 的 PointGoal 任务中，我们的方法在未见过场景下的成功率（Success Rate）从 52.0% 提升至 58.7%，SPL 从 0.49 提升至 0.54，同时降低了碰撞频率。进一步的实验表明，微调后的策略可以零样本迁移至真实的四足机器人平台 Unitree Go2，并在几何分布外（out-of-distribution）环境中保持稳定表现，这表明其对新领域的适应性和安全泛化能力得到了提升。"
+ },
+ {
+  "line": 2003,
+  "title": "GuideTWSI A Diverse Tactile Walking Surface Indicator Dataset from Synthetic and Real-World Images for Blind and Low-Vision Navigation",
+  "text": "触觉地面定向标志（Tactile Walking Surface Indicators, TWSIs）是盲人及低视力（BLV）行人在寻找路口和危险区域时依赖的关键安全地标。通过对导盲犬使用者、训练员及定向行走（O&M）专家的观察，我们确认了可靠且准确的 TWSI 分割对于 BLV 人士导航辅助的关键重要性。实现这种可靠性需要大规模的标注数据。然而，TWSIs 在现有的城市感知数据集中严重缺失，即便是现有的专用铺装数据集也存在局限性：它们缺乏与机器人相关的视角（如第一人称视角或俯视图），且在地理分布上偏向于东亚常见的“条形引导砖”（用于沿人行道持续引导的平行凸起条纹）。这种狭隘的关注点忽略了“截断圆顶砖（truncated domes）”——即在北美和欧洲广泛使用，用于路缘、道口和站台边缘作为可检测警告标志的圆形凸起阵列。因此，仅在条形砖数据上训练的模型难以泛化到圆顶警告标志，导致在安全关键环境中出现漏检和错误停顿。该系统基于配备 RealSense D435 摄像头的 Unitree Go2 四足机器人构建，摄像头采用下倾角度部署，专门用于截断圆顶砖的分割。"
+ },
+ {
+  "line": 2007,
+  "title": "SaferPath: Hierarchical Visual Navigation with Learned Guidance and Safety-Constrained Control",
+  "text": "视觉导航是移动机器人的核心能力，然而端到端的学习方法在未见过的、杂乱或狭窄的环境中往往面临泛化性和安全性方面的挑战。这些局限性在密集的室内设置中尤为明显，此类环境下极易发生碰撞，且端到端模型经常失效。为了解决这一问题，我们提出了 SaferPath：一个分层视觉导航框架。该框架利用现有端到端模型所学习到的引导信息，并通过一个安全约束优化控制模块对其进行精炼。SaferPath 将视觉观测转化为可通行区域地图，并使用模型预测斯坦变分进化策略（MP-SVES）对引导轨迹进行修正，仅需几次迭代即可高效生成安全轨迹。修正后的轨迹由 MPC 控制器进行跟踪，确保了在复杂环境中的稳健导航。在包含未见障碍物、密集非结构化空间和狭窄走廊等场景的大量实验表明，SaferPath 一致地提高了成功率并减少了碰撞，表现优于 ViNT 和 NoMaD 等代表性基准模型，并在挑战性的现实设置中实现了安全导航。部署在 Unitree Go2 上的 SaferPath 成功避开了未见障碍物和动态障碍物，通过了狭窄空间，并始终保持在安全区域内。"
+ },
+ {
+  "line": 2015,
+  "title": "Learning Quadruped Walking from Seconds of Demonstration",
+  "text": "四足运动为理解“无模型学习（model-free learning）”何时能超越“基于模型的控制设计（model-based control）”提供了一个天然场景，它通过利用数据模式来绕过离散接触优化以及模态切换组合爆炸带来的困难。基于极限环结构、庞加莱回归映射（Poincaré return maps）以及神经网络的局部数值特性，我们对为什么四足机器人的模仿学习在小样本情况下依然天生有效进行了原理性分析。这种理解促成了一种新的模仿学习方法，该方法能够调节潜空间变量与输出动作变量之间的对齐关系。硬件实验证实，仅需几秒钟的演示就足以从零开始完全离线地训练出具有合理鲁棒性的各种运动策略。我们在 Unitree Go2 四足机器人及其对应的 IsaacLab 仿真器上进行了实验。"
+ },
+ {
+  "line": 2019,
+  "title": "FloorPlan-VLN: A New Paradigm for Floor Plan Guided Vision-Language Navigation",
+  "text": "由于建筑施工环境具有不断变化的特性，工地的许多任务往往以即兴（improvisational）的方式发生。现有的移动建筑机器人研究在处理即兴任务方面仍存在局限性，因为这类任务所需的地点、发生时间以及执行任务所需的上下文信息均无法预先获知。我们提出了一个能够理解以自然语言给出的即兴任务、识别任务所需地点并进行自我定位的智能体。该智能体功能被分解为三个并行运行的大型多模态模型（LMM）模块，从而实现了利用 LMM 进行任务解读与拆解、基于施工图纸的导航，以及识别非预定义任务地点的视觉推理。该智能体在 Unitree Go2 四足机器人上得以实现，在三项旨在评估即兴任务处理能力的测试中，其识别任务地点并定位的成功率达到了 92.2%。本研究使移动建筑机器人能够自主执行非预定义的任务。"
+ },
+ {
+  "line": 2023,
+  "title": "From Woofs to Words: Towards Intelligent Robotic Guide Dogs with Verbal Communication",
+  "text": "辅助机器人技术是机器人学的一个重要分支，专注于提升残障人士的福祉。机器人导盲犬是一种辅助型四足机器人，旨在帮助视障人士避障和导航。在机器人导盲犬上实现语言能力，绝非简单地将现有对话系统移植到移动机器人上。其面临的新挑战包括将语言与动态变化的环境相结合（语境落地），以及增强人类使用者对空间的感知。为了应对这些挑战，我们为机器人导盲犬开发了一种新型对话系统，利用大语言模型将导航规划和场景信息转化为语言。其目标是实现语言交流，以支持使用者与机器人团队之间的协同决策。在实验中，我们通过人工研究评估了不同的语言化策略，并通过仿真研究评估了导航任务的效率和准确性。我们采用 Unitree Go2 作为四足机器人平台，并将其与我们的对话系统进行了集成。"
+ },
+ {
+  "line": 2032,
+  "title": "SPAN-Nav: Generalized Spatial Awareness for Versatile Vision-Language Navigation",
+  "text": "最近利用视觉语言模型（VLM）的具身导航方法在通用的视觉语言导航（VLN）中表现出了强大的泛化能力。然而，由于空间感知不足，在复杂环境中进行可靠的路径规划仍然具有挑战性。在这项工作中，我们介绍了 SPAN-Nav：一个旨在通过 RGB 视频流为具身导航注入通用 3D 空间感知的端到端基础模型。SPAN-Nav 通过在广泛的室内外环境中执行占据预测（occupancy prediction）任务，从多样化的场景中提取空间先验。为了减轻计算负担，我们引入了一种紧凑的空间先验表示方法，发现单个 Token 就足以封装导航任务所需的粗粒度线索。此外，受思维链（CoT）机制启发，SPAN-Nav 利用这单个空间 Token，通过端到端框架显式地将空间线索注入到动作推理中。凭借多任务共同训练，SPAN-Nav 从通用的空间先验中捕获任务自适应线索，使强大的空间感知能力甚至能泛化到缺乏显式空间监督的任务中。为了支持全面的空间学习，我们提出了一个包含 420 万个占据标注的大规模数据集，涵盖了多种导航任务下的室内外场景。SPAN-Nav 在横跨不同场景和多样导航任务的三个基准测试中均达到了最先进（SOTA）的性能。最后，真实世界实验验证了我们的方法在复杂物理场景下的稳健泛化能力和实际可靠性。在实际部署中，SPAN-Nav 运行在 Unitree Go2 四足机器人上，该机器人配备了四台 SG3S11AFxK 摄像头以实现多视图 RGB 流传输。"
+ },
+ {
+  "line": 2037,
+  "title": "DecoVLN: Decoupling Observation, Reasoning, and Correction for Vision-and-Language Navigation",
+  "text": "视觉语言导航（VLN）要求智能体遵循长程指令并在复杂的 3D 环境中进行导航。然而，现有方法面临两个主要挑战：构建有效的长期记忆库以及克服复合误差（compounding errors）问题。为了解决这些问题，我们提出了 DecoVLN：一个专为长程导航中稳健的流式感知和闭环控制而设计的有效框架。首先，我们将长期记忆构建建模为一个优化问题，并引入了自适应精炼机制，通过迭代优化统一评分函数，从历史候选池中筛选帧。该函数共同平衡了三个关键标准：与指令的语义相关性、已选记忆的视觉多样性以及历史轨迹的时间覆盖范围。其次，为了缓解复合误差，我们引入了一种状态-动作对级别的纠错微调策略。通过利用状态间的测地线距离（geodesic distance）来精确量化与专家轨迹的偏差，智能体在信任区域内收集高质量的状态-动作对，同时过滤掉相关性较低的污染数据。这提升了纠错的效率和稳定性。大量实验证明了 DecoVLN 的有效性，并且我们已将其部署在真实环境中。我们采用 Unitree Go2 作为四足机器人平台，该平台将实时第一人称视频流传输到配备单张 RTX4090 GPU 的服务器上。"
+ },
+ {
+  "line": 2042,
+  "title": "PEPA: a Persistently Autonomous Embodied Agent with Personalities",
+  "text": "生物体通过内部产生的目标和自我维持的行为组织表现出持久的自主性，而目前的具身智能体仍受外部设定的目标驱动。这种对预定义任务规范的依赖限制了它们在持续的人工干预不切实际、动态且非结构化的环境中进行长期部署的能力。我们提出，人格特质为实现持久自主性提供了一种内在的组织原则。类似于基因型偏好塑造生物行为倾向，人格使智能体能够自主产生目标并在没有外部监督的情况下维持行为演化。为了实现这一目标，我们开发了 PEPA：一个通过三个相互作用系统运行的三层认知架构。系统 3（Sys3）自主合成与人格相符的目标，并通过情节记忆和每日自我反思对其进行提炼；系统 2（Sys2）进行审慎推理，将目标转化为可执行的动作计划；系统 1（Sys1）将智能体植入感觉运动交互中，执行动作并记录经验。我们通过在多层办公楼中的四足机器人真实部署验证了该框架。在不依赖固定任务规范的情况下，机器人自主地在用户请求和人格驱动的动机之间进行仲裁，据此搭乘电梯并探索环境。针对五种不同人格原型的定量分析展示了稳定且与特质相符的行为。结果证实，人格驱动的认知架构能够实现持久具身系统所特有的持续自主运行。硬件配置采用 Unitree Go2-W 轮足机器人作为移动底座，提供足式和轮式两种运动模式，以便穿越楼梯和平地。"
+ },
+ {
+  "line": 2046,
+  "title": "Navigation beyond Wayfinding: Robots Collaborating with Visually Impaired Users for Environmental Interactions",
+  "text": "机器人导航系统在支持盲人及视力障碍（BVI）人士的寻路和避障方面已显示出巨大潜力。然而，大多数现有系统都假设路径畅通，忽略了导航中一个至关重要的方面——即需要通过操纵物体来辅助移动的环境交互。这些交互对于“人-机”组合而言极具挑战性，因为它们需要：(i) 对交互目标（如按下电梯按钮）进行精确的定位和操纵；(ii) 用户与机器人运动之间的动态协调（如拉开椅子坐下）。我们提出了一种协作式的人机交互方法，将机器人导盲犬精确的感知和定位能力与用户进行物理操纵的能力相结合。该系统在两种模式之间切换：引导模式（Lead Mode），由机器人检测并引导用户走向目标；适应模式（Adaptation Mode），当用户与环境交互（如开门）时，机器人会调整自身的运动。评估结果表明，与传统的白手杖和非自适应引导系统相比，我们的系统使导航更加安全、平稳且高效，且随着任务对定位交互目标精度的要求提高，性能差距进一步拉大。这些发现凸显了人机协作在推动辅助技术向更具泛化性和现实意义的导航支持迈进方面的潜力。为了支持室内外不同地形的适应性，我们采用了低成本的 Unitree Go2 四足机器人。"
+ },
+ {
+  "line": 2050,
+  "title": "DreamFlow: Local Navigation Beyond Observation via Conditional Flow Matching in the Latent Space",
+  "text": "在杂乱环境中的局部导航经常受到密集障碍物和频繁局部极小值的影响。传统的局部规划器依赖于启发式方法且易于失败，而基于深度强化学习（DRL）的方法虽然具有适应性，但受限于有限的车载传感能力。由于机器人无法感知其视野之外的结构，这些局限性会导致导航失败。在本文中，我们提出了 DreamFlow：一个基于 DRL 的局部导航框架，通过条件流匹配（Conditional Flow Matching, CFM）扩展了机器人的感知视野。所提出的基于 CFM 的预测模块学习了以导航上下文为条件的局部高程图潜表示与更广泛空间表示之间的概率映射。这使得导航策略能够预测未观测到的环境特征，并主动避开潜在的局部极小值。实验结果表明，DreamFlow 在仿真中的潜状态预测准确性和导航性能方面均优于现有方法。该方法在杂乱的真实世界环境中通过四足机器人得到了进一步验证。真实世界实验是在 Unitree Go2 机器人上进行的。"
+ },
+ {
+  "line": 2054,
+  "title": "Simulation Distillation: Pretraining World Models in Simulation for Rapid Real-World Adaptation",
+  "text": "仿真到现实（Sim-to-real）的迁移仍然是机器人技术中的一个核心挑战，因为模拟与现实世界动力学之间的不匹配经常导致任务失败。虽然强化学习为适应性提供了一种原则性机制，但现有的仿真到现实微调方法在现实机器人典型的低数据场景下，往往难以进行有效的探索和长程信用分配（long-horizon credit assignment）。我们引入了仿真蒸馏（Simulation Distillation, SimDist）：这是一个仿真到现实的框架，它将模拟器的结构先验蒸馏到潜世界模型（latent world model）中，并通过在线规划和监督动力学微调实现快速的现实世界适应。通过直接从仿真中迁移奖励和价值模型，SimDist 能够从原始感知中提供密集的规划信号，而无需在部署期间进行价值学习。因此，现实世界的适应过程简化为了短程系统辨识，规避了长程信用分配问题，从而实现了快速、稳定的性能提升。在精密操作和四足运动任务中，SimDist 在数据效率、稳定性和最终性能方面均显著优于以往的方法。我们在 Unitree Go2 平台上进行了四足运动实验，动作指令以 12 个关节的位置目标形式给出。"
+ },
+ {
+  "line": 2058,
+  "title": "Who Let the Robot Dogs Out? Digital Forensic Analysis of Quadruped Robot",
+  "text": "四足机器人正日益广泛应用于工业、安全与消费等领域，通常以集成化系统的形式运行，涵盖机器人本体、控制接口、配套应用以及云服务。尽管部署规模不断扩大，针对四足机器人系统的数字取证分析仍有待深入研究。本文将四足机器人概念化为由多个相互作用组件构成的“信息物理生态系统”，并通过实证分析其运行过程中产生、分布与留存的数字取证痕迹。我们以在统一时间轴上关联分散于生态系统各处的残留痕迹为核心，重建机器人的运行情境。以 Unitree Go2 Pro 平台为案例，该平台体现了当代四足机器人的结构与功能特征。分析对关键取证痕迹进行了分类，并识别出跨组件的关联关系，证明可以构建统一时间线，将操作者行为与机器人响应加以关联。进一步地，本文提出一种集成化取证分析方法，并实现了一个原型工具，以支持对关联痕迹的可视化探索。案例研究表明，即使在机器人出现异常行为的情况下，该方法与工具仍能够有效重建其运行情境。本研究为四足机器人取证提供了基础性见解，并强调了在新兴四足机器人生态系统中开展事后证据分析的实践考量。"
+ },
+ {
+  "line": 2062,
+  "title": "OpenGo: An OpenClaw-Based Robotic Dog with Real-Time Skill Switching",
+  "text": "单一机器人智能体在适应复杂任务与多场景方面仍面临显著挑战，尤其是在动态环境中实时获取、组织并灵活切换多种技能的能力，已成为具身智能的基础要求。我们提出 OpenGo——一款基于 OpenClaw 的具身机器狗，能够根据场景与任务指令实现技能的实时切换。具体而言，该智能体具备：（1）可定制的技能库，支持便捷的技能导入与自主技能验证；（2）调度器，可依据任务提示或自然语言指令选择并调用不同技能；（3）自学习框架，可基于任务完成情况与人类反馈对技能进行持续微调。我们将该系统部署于 Unitree 的 Go2 机器狗平台上，并验证了其在技能自检与自主切换方面的能力。此外，通过集成飞书平台通信，我们实现了自然语言引导与人类反馈，使得缺乏经验的用户也能通过简单指令对机器狗进行控制。"
+ },
+ {
+  "line": 2066,
+  "title": "Safety-Critical Centralized Nonlinear MPC for Cooperative Payload Transportation by Two Quadrupedal Robots",
+  "text": "本文提出了一种面向安全关键场景的集中式非线性模型预测控制（NMPC）框架，用于两台四足机器人协同搬运负载。通过将机器人—负载耦合系统建模为离散时间的非线性微分—代数系统（DAE），刻画由完整约束与交互力/力矩所体现的耦合动力学关系。为在复杂环境中保障安全性，本文构建了基于控制屏障函数（CBF）的 NMPC 方法，在优化过程中对机器人及负载同时施加避碰约束。该方法将交互力/力矩保留为决策变量，从而形成具有结构化特征的 DAE 约束最优控制问题，并支持高效的实时求解与执行。我们在两台 Unitree Go2 四足机器人平台上开展了大量硬件实验，在存在质量与转动惯量不确定性以及外部推扰的复杂环境中完成协同搬运任务，验证了所提算法的有效性。"
+ },
+ {
+  "line": 2074,
+  "title": "Natural Gradient Gaussian Approximation Filter on Lie Groups for Robot State Estimation",
+  "text": "针对在李群流形（如足式机器人）上演化的机器人系统，实现精确的状态估计是达成敏捷控制的前提。然而，该问题受到定义在曲率流形上的非线性观测模型所带来的挑战：现有滤波方法通常依赖在切空间进行局部线性化来处理非线性，从而导致误差逐步累积。为此，本文将流形上的滤波问题重新表述为关于高斯分布增量变量的参数优化问题，从而避免了线性化过程。在该框架下，增量通过指数映射被投影到李群上，并以乘法形式作用于先验估计，得到后验状态。进一步地，我们提出了一种自然梯度优化方法，其迭代过程利用增量变量的费舍尔信息矩阵来刻画切空间的曲率特性。在此基础上，形成了名为 NANO-L（基于李群的自然梯度高斯近似）滤波器的迭代算法。借助李导数中的扰动模型，本文证明：对于机器人定位任务中广泛采用的不变观测模型，NANO-L 的协方差更新可获得精确的闭式解，从而无需迭代更新，显著提升了计算效率。在 Unitree GO2 足式机器人跨多种地形的硬件实验中，NANO-L 在相当的计算开销下将估计误差降低约 40%，优于常用滤波方法。"
+ },
+ {
+  "line": 2078,
+  "title": "Terrain-Reactive Locomotion Policies from Vision-Language-Action Priors: Bridging Semantic Commands and Whole-Body Quadruped Control",
+  "text": "视觉-语言-动作（VLA）模型已在桌面操作任务中展现出卓越能力，但尚未应用于全身四足运动控制领域；该领域的动作空间高维、强依赖地形，并要求以 50–200 Hz 的频率进行反应式控制。本文提出 LocoVLA，一种将预训练 VLA 模型与四足机器人运动控制器相结合的分层框架。系统采用冻结的 VLA 主干网络，处理自视角相机图像与自然语言导航指令，生成具备地形感知能力的语义规划——即包含多种运动原语（如行走、小跑、攀爬、匍匐、跳跃）及其对应速度与航向目标的序列。底层控制策略通过强化学习在仿真中训练并迁移至真实硬件，负责执行各类运动原语，并依据本体感觉感知到的局部地形几何，自适应调整足端落点与机身姿态。本文的关键技术贡献在于提出“语义到运动”桥接模块：该模块在深度图提取的地形嵌入条件下，将 VLA 输出的离散原语标记转化为可供底层控制器使用的连续参考轨迹。在 Unitree Go2 机器人上的实验涵盖 5 类户外地形（平地、坡地、楼梯、碎石、草地）与 12 条语言指令，结果表明，LocoVLA 的指令完成率达到 87.5%，显著优于未使用 VLA 规划的基线方法（71.3%），并在累计 2.8 公里的行进过程中实现零跌倒，展现出稳健的运动能力。"
+ },
+ {
+  "line": 2082,
+  "title": "PriPG-RL: Privileged Planner-Guided Reinforcement Learning for Partially Observable Systems with Anytime-Feasible MPC",
+  "text": "本文研究在部分可观测条件下训练强化学习（RL）策略的问题，通过引入一个仅在训练阶段可用、具备特权信息且具备“随时可行性”（anytime-feasible）的规划器智能体来提升学习效果。我们将该问题形式化为一个部分可观测马尔可夫决策过程（POMDP）：其中规划器智能体能够访问近似动力学模型与特权状态信息，用于指导仅能观测到真实状态有损投影的学习智能体。为实现该框架，本文提出一种具备随时可行性的模型预测控制（MPC）算法作为规划器；同时针对学习智能体，提出 Planner-to-Policy Soft Actor-Critic（P2P-SAC）方法，将规划器的特权知识蒸馏到策略中，以缓解部分可观测性带来的不利影响，从而提升样本效率与最终策略性能。我们对该框架进行了严格的理论分析，并在 NVIDIA Isaac Lab 仿真环境中完成验证，最终成功部署于真实的 Unitree Go2 四足机器人，在复杂、障碍密集的环境中实现稳定导航。"
+ },
+ {
+  "line": 2086,
+  "title": "Artificial plateau neurons with in-situ spike-malleability for rhythmic quadrupedal locomotion",
+  "text": "面向全身协同的智能运动系统长期面临执行冗余与能效低下的问题，制约了其在真实场景中的应用。受生物启发的中央模式发生器（CPG）为节律控制提供了有前景的框架，但其硬件实现往往难以兼顾生物系统所具备的高效率与自适应能力。本文提出一种原位“脉冲可塑”人工平台神经元，将双稳态平台门与瞬态阈值开关相结合。该神经元能够生成振幅可编程的节律性脉冲簇，通过由两个配对单元（平台门与阈值开关）构成的可扩展电路，实现对伸肌与屈肌的对抗式、低能耗激活。该设计采用分布式编码以支持协调的“肌肉”控制，单脉冲能耗低至 141.37 pJ。进一步扩展为四单元电路后，可增强脉冲的动态可塑性，从而支持多关节协调的并行处理。在四足机器人（Unitree Go2）上，这些分布式电路通过对节律脉冲进行高斯滤波，直接驱动关节级比例-微分（PD）控制器，实现无需集中式计算的高能效小跑运动。实验结果表明，该系统不仅能够实现稳定的地面行走，还可在真实环境中完成自适应步态切换。该方法将超紧凑硬件设计与仿生架构相结合，为面向高能效自主机器人的类脑计算系统提供了新的发展路径。"
+ },
+ {
+  "line": 2090,
+  "title": "Quadruped Parkour Learning: Sparsely Gated Mixture of Experts with Visual Input",
+  "text": "机器人跑酷为推进复杂地形下的运动能力提供了具有挑战性的基准任务，尤其涉及跨越高台阶等大尺度不连续地形。近年来的方法虽已展示出动态攀爬与跳跃等出色能力，但通常依赖于顺序结构的多层感知机（MLP），且各层为密集激活。相比之下，稀疏门控的专家混合（MoE）架构在大语言模型领域已被证明是一种有效范式，可通过在推理时仅激活部分参数来提升可扩展性与性能。本文探索将稀疏门控 MoE 架构应用于基于视觉的机器人跑酷任务，并在控制变量实验中，对标准 MLP 与 MoE 控制策略在“推理时激活参数量相同”的条件下进行对比。在真实的 Unitree Go2 四足机器人实验中，结果显示 MoE 策略具有显著性能优势：在跨越大型障碍任务中，其成功次数达到标准 MLP 基线的两倍。进一步分析表明，若要使标准 MLP 达到相当性能，需要将其参数规模扩展至与 MoE 模型总参数量相当，从而导致计算时间增加约 14.3%。这些结果表明，稀疏门控 MoE 架构在性能与计算效率之间提供了更优权衡，为视觉驱动的机器人跑酷控制策略的规模化发展提供了有效路径。"
+ },
+ {
+  "line": 2094,
+  "title": "Will People Enjoy a Robot Trainer? A Case Study with Snoopie the Pacerbot",
+  "text": "运动的身体性使得体育教练这一角色具有独特优势：其实体在场能够引导学习者完成动作、示范练习，并提供直观反馈。四足机器人同样属于具身智能体，具备良好的机动性与“运动能力”。在本研究中，我们探讨四足机器人是否可以作为一种高效且有趣的个人训练设备。我们以跑步间歇训练为案例进行研究——这是一类重复性强、时间跨度长且对节奏精度与一致性要求较高的任务。为应对这一挑战，我们提出 SNOOPIE：一种基于 Unitree Go2 改造的四足机器人“配速员”，能够根据用户的个体能力定制并执行间歇训练任务。我们通过用户实验，将该机器人教练与可穿戴训练设备 Apple Watch 进行对比，以评估实体具身形态在运动交互中的优势。结果表明，相较于可穿戴设备，使用四足机器人训练可将配速遵从度提升 60.6%，并使跑步速度一致性提高 45.9%。主观评价结果亦显示，参与者在多个维度上明显更偏好机器人教练，包括易用性（+56.7%）、交互趣味性（+60.6%）以及实用性（+39.1%）。这些结果表明，具身四足机器人在运动训练场景中具有显著潜力。"
+ },
+ {
+  "line": 2098,
+  "title": "Toward Empathetic Robotic Dogs for Joint Attention Support in Autism Intervention",
+  "text": "共同注意是社会交往中的核心能力之一，但在自闭症人群中常常受损。本文对一款具备情感表达能力的四足机器人狗进行了平台验证：该机器人配备定制的云台式头部（pan–tilt）以及设备端人脸情绪识别功能，并探讨相比仅依赖注视行为，基于情绪驱动的反应是否能够使共同注意线索更加清晰且更具吸引力。在一项包含六名神经典型成人的被试内初步实验中，我们对比了两种条件：（A）仅进行人脸跟踪；（B）在人脸跟踪基础上加入情绪识别与共情反应。结果表明，参与者普遍认为机器人的方向性提示易于理解，能够产生有效的情绪感染，并表现出较强的再次交互意愿，尽管其拟真度评价较低。部分用户在安全感与舒适度方面反馈不一，而主观“共同注意”体验在不同参与者之间也存在差异，这表明需要进一步优化注视与运动时序，使其更加平滑且可预测。该研究在涉及自闭症人群的后续实验之前，有助于揭示关键设计约束与潜在失效模式。实验基于 Unitree Go2 平台完成。"
+ },
+ {
+  "line": 2102,
+  "title": "Learning Task-Invariant Properties via Dreamer: Enabling Efficient Policy Transfer for Quadruped Robots",
+  "text": "在多样且动态变化的地形上实现四足机器人稳定运动面临显著挑战，其核心在于仿真环境与现实世界之间的差异。传统的 sim-to-real 迁移方法通常依赖人工特征设计或代价高昂的真实环境微调。为此，本文提出 DreamTIP 框架，在 Dreamer 世界模型架构中引入任务不变属性（Task-Invariant Properties）学习，以提升跨域迁移能力。在大语言模型的引导下，DreamTIP 自动识别并利用如接触稳定性与地形间隙等任务不变属性，这些属性对动态变化具有鲁棒性，并在不同任务间具备良好的可迁移性。通过将这些属性作为辅助预测目标融入世界模型，策略能够学习对底层动力学变化不敏感的表征。此外，本文设计了一种高效的自适应策略，结合混合经验回放缓冲区与正则化约束，实现对真实动力学的快速校准，同时有效缓解表征坍塌与灾难性遗忘问题。在包括楼梯（Stair）、攀爬（Climb）、倾斜（Tilt）与匍匐（Crawl）等复杂地形上的大量实验表明，DreamTIP 在仿真与现实环境中均显著优于当前先进方法：在八个仿真迁移任务中平均性能提升 28.1%；在真实世界的攀爬任务中，基线方法成功率仅为 10%，而本文方法达到 100%。在 Unitree Go2 机器人的实测中亦得到验证：面对 53 cm 高度的攀爬任务，成功率同样由基线的 10% 提升至 100%。这些结果表明，将任务不变属性引入 Dreamer 学习框架，为实现鲁棒且具备良好迁移性的机器人运动控制提供了一种有效的新路径。"
+ },
+ {
+  "line": 2106,
+  "title": "Learning Tactile-Aware Quadrupedal Loco-Manipulation Policies",
+  "text": "四足机器人的行走—操作（loco-manipulation）通常依赖视觉感知与本体感觉，但在接触密集型操作中仍面临显著挑战：仅凭视觉与本体感觉难以准确刻画与环境之间不确定且不断变化的接触过程。触觉感知能够直接提供接触信息，但面向四足机器人行走—操作的一体化、可扩展触觉学习框架仍有待深入研究。本文提出一种分层结构的触觉感知行走—操作策略学习管线。该方法包含两个关键组成部分：首先，利用真实世界的人类示范数据训练一个以触觉为条件的视觉-触觉高层策略，该策略不仅预测操作所需的末端执行器轨迹，还能预测随时间演化的触觉交互特征，从而刻画接触应如何逐步形成；其次，在仿真环境中开展大规模强化学习，训练一个具备触觉感知能力的全身控制策略，用于跟踪多样化的轨迹指令与触觉交互信号，并实现零样本迁移到真实环境。两者结合，使系统能够在接触密集场景中实现协调的运动与操作。我们在多项真实任务中对系统进行了评估，包括手内重定向与插入操作、阀门旋紧以及精细物体操控等。与仅依赖视觉或基础视觉-触觉方法相比，本文方法在这些任务上的平均性能提升达 28.54%。实验平台由一台 12 自由度的 Unitree Go2 四足机器人与一台 6 自由度的 D1 机械臂组成，二者均由 Go2 电池供电。"
+ },
+ {
+  "line": 2110,
+  "title": "Simulator Adaptation for Sim-to-Real Learning of Legged Locomotion via Proprioceptive Distribution Matching",
+  "text": "在仿真中训练得到的足式机器人运动策略在真实硬件上往往出现性能下降，这主要源于仿真与现实之间的动力学差异，因此亟需能够“反向校准”仿真器以贴近真实行为的方法。以往研究通常通过对关节与机体轨迹进行精确、时间对齐的匹配来量化这种差异，但该过程依赖动作捕捉、特权传感信息以及严格控制的初始条件，实施成本较高。本文提出一种更为实用的替代方案——基于本体感觉分布匹配的方法，将真实硬件与仿真运行结果视为关节观测与动作的概率分布进行比较，从而无需时间对齐或外部传感。以该分布差异作为黑盒优化目标，我们进一步探索通过参数辨识、动作增量模型以及执行器残差模型来调整仿真动力学。实验表明，在 Go2 四足机器人上的大规模仿真对仿真（sim-to-sim）消融实验中，该方法在参数恢复精度与策略性能提升方面均可达到依赖特权状态匹配方法的水平。真实世界实验显示，仅需不到五分钟的硬件数据，即可显著减少策略漂移，即便是在双足行走这一具有挑战性的行为上亦如此。结果表明，本体感觉分布匹配为实现从仿真到现实的高效迁移提供了一条切实可行且效果显著的路径。"
+ },
+ {
+  "line": 2118,
+  "title": "FSUNav: A Cerebrum-Cerebellum Architecture for Fast, Safe, and Universal Zero-Shot Goal-Oriented Navigation",
+  "text": "当前视觉-语言导航方法在异构机器人适配性、实时性能以及导航安全性方面仍存在显著瓶颈，同时也难以支持开放词汇语义泛化与多模态任务输入。为解决上述问题，本文提出 FSUNav：一种用于快速、安全且通用的零样本目标导向导航的“脑-小脑”（Cerebrum–Cerebellum）架构，并创新性地将视觉语言模型（VLMs）融入该体系。该框架中，“小脑”模块作为高频率端到端执行单元，基于深度强化学习构建通用局部规划器，实现跨异构平台（如人形、四足及轮式机器人）的统一导航控制，从而提升导航效率并显著降低碰撞风险。“大脑”模块则构建三层推理结构，利用 VLMs 建立端到端的检测与验证机制，使系统能够在无需预定义类别 ID 的情况下实现零样本开放词汇目标导航，从而提升仿真与真实环境中的任务成功率。此外，该框架支持文本、目标描述与图像等多模态输入，进一步增强系统的泛化能力、实时性、安全性与鲁棒性。在 MP3D、HM3D 及 OVON 等基准测试中的实验结果表明，FSUNav 在物体导航、实例图像导航及任务导航等任务上均达到当前最优性能，并显著优于现有方法。在多种机器人平台上的真实部署进一步验证了其鲁棒性与工程适用性，其中包括 Unitree Go2 EDU 四足机器人平台。"
+ },
+ {
+  "line": 2122,
+  "title": "AnchorVLA: Anchored Diffusion for Efficient End-to-End Mobile Manipulation",
+  "text": "移动操作中的一个核心挑战，是在执行过程中同时保留多种合理动作模型，并维持对环境变化的快速反应能力。在复杂场景中，例如瓶子可能以多种有效方式被接近与抓取，系统需要在保持动作多样性的同时，对动态变化保持敏感。扩散策略（diffusion policy）因能够建模多模态动作分布而具有吸引力，避免了单一解的塌缩。然而在实际应用中，完整的迭代去噪过程在控制时刻计算成本较高。动作分块（action chunking）虽然可以摊销推理开销，但也会引入一定的开环特性，使得微小误差逐步累积并导致轨迹漂移。为此，本文提出 AnchorVLA：一种基于扩散模型的视觉-语言-动作（VLA）移动操作策略。其核心思想是：当采样从一个接近合理解流形的锚点开始时，无需完整去噪过程即可恢复高质量的多模态动作解。AnchorVLA 结合轻量级 VLA 适配骨干网络与锚定扩散动作头，在锚定轨迹附近进行局部去噪，并采用截断扩散调度，从而在保留多模态生成能力的同时降低推理成本，实现闭环控制。此外，为缓解动作分块带来的漂移问题，我们引入测试时自校正机制：通过轻量残差修正模块在执行过程中进行高频逐步调整，从而增强系统的稳定性与鲁棒性。在多种移动操作任务中，AnchorVLA 在扰动与分布偏移条件下均显著提升成功率与稳定性，同时保持低延迟推理能力。在真实机器人实验中，我们使用 Unitree Go2 四足机器人作为移动底座，并搭载 SO101 机械臂作为操作执行器，验证了该方法在实际移动操作场景中的有效性。"
+ },
+ {
+  "line": 2126,
+  "title": "RoboHaptics: Designing Haptic Interactions for Lower Body withQuadruped Robot Dogs",
+  "text": "扩展现实（XR）已在视听沉浸方面取得显著进展，但触觉反馈尤其是下肢触觉仍然受到明显限制。本文提出 RoboHaptics，这是首个基于商用四足机器人探索下肢触觉反馈的系统。RoboHaptics 利用四足机器人可自由移动与可重构的特性，在无需穿戴设备的情况下同时提供主动与被动触觉反馈。我们贡献了一个面向四足机器人媒介触觉的设计空间，开发了一套可编程触觉效果软件工具，并通过实验验证了系统能力：四足机器人可提供 3–28 N 的安全力反馈（低于痛觉阈值），能够以 2.1–5.1 mm 的精度与 3.7–17 mm 的准确度触达下肢位置，并支持多种触觉效果的生成。在包含 12 名参与者的用户研究中，结果进一步表明，该系统在通过提供下肢触觉反馈增强真实感与沉浸感方面具有显著潜力。总体而言，本研究确立了四足机器人作为一种用于 XR 的移动式、非穿戴触觉平台的可行性与多功能性。系统基于 Unitree Go2 EDU 四足机器人构建。"
+ },
+ {
+  "line": 2130,
+  "title": "Learning from Demonstration with Failure Awareness for Safe Robot Navigation",
+  "text": "学习示范（Learning from Demonstration）已被广泛用于机器人导航任务，但其存在一个根本性局限：示范数据主要由成功轨迹构成，对危险状态的覆盖极为有限。这一问题使得机器人在面对分布外场景时容易产生安全性下降。相较之下，失败经验（如碰撞）包含了对危险区域的重要信息，但长期未被充分利用。其关键困难在于：失败数据无法直接提供有效的动作模仿信号，若将其简单纳入策略学习过程，往往会导致性能退化。为解决这一问题，本文提出一种“失败感知学习框架”，显式解耦成功与失败数据的作用。在该框架中，失败经验用于塑造危险区域的价值估计，而策略学习仅依赖成功示范进行，从而避免失败数据对行为克隆过程的干扰。这种分离机制使得失败数据能够被有效利用，同时不破坏策略稳定性。我们在离线强化学习（offline RL）框架下实现该方法，并在仿真与真实环境中进行评估。实验结果表明，该框架在保持任务成功率的同时，持续降低碰撞率，并在不同环境与机器人平台之间展现出良好的泛化能力。真实系统实验基于 Unitree Go2 四足机器人平台（图 4b），并搭载 Livox MID-360 三维激光雷达传感器完成验证。"
+ },
+ {
+  "line": 2134,
+  "title": "Safe Large-Scale Robust Nonlinear MPC in Milliseconds via Reachability-Constrained System Level Synthesis on the GPU",
+  "text": "我们提出 GPU-SLS，这是一个面向安全、鲁棒非线性模型预测控制（MPC）的 GPU 并行化框架，能够扩展至高维不确定机器人系统以及长时域规划问题。该方法在实时条件下联合优化三部分内容：满足不等式约束且动力学可行的名义轨迹、轨迹跟踪控制器，以及在扰动作用下的闭环可达集。为高效计算名义轨迹，我们设计了一种基于顺序二次规划（SQP）的求解流程，并提出一种新型 GPU 加速二次规划（QP）求解器，该求解器在交替方向乘子法（ADMM）框架下结合并行关联扫描与自适应缓存机制。同时，该 GPU QP 内核也被用于通过系统级综合（SLS）优化鲁棒跟踪控制器与闭环可达集，从而在固定时域与滚动时域设置中实现具备可达性约束的控制。实验结果显示，该方法在性能上显著优于现有方法：名义轨迹求解时间相较最先进 CPU 求解器降低 97.7%，相较 GPU 求解器降低 71.8%，同时 SLS 控制与可达性计算加速达 237 倍。尽管问题规模巨大，该方法仍实现 100% 的经验安全性，而高维学习型可达性基线方法无法达到这一水平。我们在复杂非线性系统上进行了验证，包括 61 维全身四足机器人与 75 维人形机器人，并能够在 GPU 上以平均 20 毫秒的延迟在线合成鲁棒控制策略，问题规模可扩展至 2×10^5 个决策变量与 8×10^4 个约束。为验证该方法在真实四足机器人上的可用性，我们在 Unitree Go2 EDU（61 维）实体平台上进行了全身约束 NMPC 与 SLS 实验。"
+ },
+ {
+  "line": 2138,
+  "title": "SpaAct: Spatially-Activated Transition Learning with Curriculum Adaptation for Vision-Language Navigation",
+  "text": "Vision-and-Language Navigation (VLN) aims to enable an embodied agent to follow natural-language instructions and navigate to a target location in unseen 3D environments. We argue that adapting VLMs to VLN requires endowing them with two complementary capabilities for acquiring such awareness, namely backward action reasoning (why) and forward transition prediction~(how). Based on this insight, we propose SpaAct, a simple yet effective training framework that activates the dynamic spatial awareness in VLMs. Specifically, SpaAct introduces two spatial activation tasks: Action Retrospection, which asks the model to infer the executed action sequence from visual transitions, and Future Frame Selection, which forces the model to predict the visual transitions conditioned on history and action. These two objectives provide lightweight supervision on both backward action reasoning and forward transition prediction, encouraging the model to build dynamic spatial awareness in a VLM-friendly way. To further stabilize adaptation, we design TriPA, a Tri-factor Progressive Adaptive curriculum learning method that organizes training samples from easy to hard, allowing the model to gradually acq"
+ },
+ {
+  "line": 2142,
+  "title": "CMP Robust Whole-Body Tracking for Loco-Manipulation via Competence Manifold Projection",
+  "text": "虽然分离式控制方案在足式移动操作机器人中已展现出较强鲁棒性，但在学习整体式全身控制策略以跟踪全局末端执行器位姿时，系统仍然容易受到分布外（Out-of-Distribution, OOD）输入的影响，例如传感器噪声或不可行的用户指令，从而导致性能不稳定。为在不牺牲任务性能与连续性的前提下提升对这些扰动的鲁棒性，本文提出 Competence Manifold Projection（CMP）方法。具体而言，我们设计了帧级安全机制（Frame-Wise Safety Scheme），将无限时域的安全约束转化为计算高效的单步流形包含问题，从而降低在线计算复杂度。为构建该“能力流形”，我们引入下界安全估计器（Lower-Bounded Safety Estimator），用于区分训练分布之外尚未掌握的意图与已具备能力覆盖的状态。进一步地，我们提出同构潜空间（Isomorphic Latent Space, ILS），将流形几何结构与安全概率对齐，使系统能够以 O(1) 复杂度对任意OOD意图进行高效防御。实验结果表明，在典型OOD场景中，CMP相较基线方法可将“存活率”提升至约10倍，同时末端跟踪性能退化控制在10%以内。值得注意的是，该系统还展现出一种“渐进式最优尝试”（best-effort）泛化行为，即在遵守能力边界约束的前提下逐步逼近并完成OOD目标任务。实验平台由 Unitree Go2 四足机器人搭载 Hexfellow Saber 执行器构成。"
+ },
+ {
+  "line": 2146,
+  "title": "MEMOR-E In-Context and Fine-Tuned LLM Personalization for Alzheimer’s Assistive Robotics",
+  "text": "阿尔茨海默病是一种神经退行性疾病，其特征是记忆与语言能力逐步衰退，进而降低患者在日常生活中的独立性，这也推动了社会辅助型机器人支持系统的发展。本文提出 MEMOR-E，一种基于 Unitree Go2 四足机器人的移动平台系统，该机器人配备交互式平板界面，可通过用药提醒、日常流程引导、记忆辅助交互以及陪伴功能来支持患者与护理人员。我们评估了对大语言模型（LLM）进行微调以模拟不同疾病阶段一致的认知行为的可行性，并利用来自235名阿尔茨海默病患者的语音转写数据以及合成健康对照数据，在标准神经心理语言任务中对模型输出进行解释与分析。此外，我们进一步研究了上下文学习（in-context learning, ICL）的应用，即由第二个LLM生成与认知错误相关的领域与严重程度总结。实验结果表明，MEMOR-E能够生成具有疾病阶段感知能力的非诊断性认知摘要，从而支持个性化辅助交互；同时，可解释人工智能机制将模型输出转化为透明、可读的人类证据，以支持护理人员监督并提升人机交互的可信度。"
+ },
+ {
+  "line": 2155,
+  "title": "SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM",
+  "text": "We introduce a data-efficient distributed Simultaneous Localization and Mapping (SLAM) framework designed for a team of robotsequipped with LiDAR, cameras, and inertial sensors. Our framework uses scene graph matching to identify inter-robot measure-ment constraints. Unlike prior approaches that rely on feature-level matching, our framework is the first to perform scene graphmatching using only object labels and centroids. Our approach constructs a scene graph by using fused RGB-LiDAR point cloudsto generate both a semantically segmented point cloud layer, and a layer of discrete bounded objects, to accompany estimated robottrajectories. Scene graph matching is performed collaboratively through exchanging and matching object data with neighboringrobots. To maximize communication efficiency, we utilize a multi-step data exchange and optimization process. We demonstratethe effectiveness and efficiency of our approach using both simulation and real-world datasets collected by legged robots Unitree Go2 in indoorand outdoor environments."
+ },
+ {
+  "line": 2159,
+  "title": "Think before Go: Hierarchical Reasoning for Image-goal Navigation",
+  "text": "Image-goal navigation steers an agent to a target location specified by an image in unseen environments. Existing methods primarily handle this task by learning an end-to-end navigation policy, which compares the similarities of target and observation images and directly predicts the actions. However, when the target is distant or lies in another room, such methods fail to extract informative visual cues, leading the agent to wander around. Motivated by the human cognitive principle that deliberate, high-level reasoning guides fast, reactive execution in complex tasks, we propose Hierarchical Reasoning Navigation (HRNav), a framework that decomposes image-goal navigation into high-level planning and low-level execution. In high-level planning, a vision-language model is trained on a self-collected dataset to generate a short-horizon plan, such as whether the agent should walk through the door or down the hallway. This downgrades the difficulty of the long-horizon task, making it more amenable to the execution part. In low-level execution, an online reinforcement learning policy is utilized to decide actions conditioned on the short-horizon plan. We also devise a novel Wandering Sup"
+ },
+ {
+  "line": 2163,
+  "title": "Take the Dog to the Park: Quadruped Robot for Joint Attention Training with Autistic Children in Naturalistic Settings",
+  "text": "Robot-supported interventions for joint attention (JA) in autistic children have shown encouraging outcomes, yet most remain confined to stationary robots in indoor settings, limiting opportunities for skill generalization and broader developmental benefits. We introduce an intervention that employs a quadruped robot dog as a peer-like partner for JA training across both indoor and outdoor environments. In this intervention, the robot dog directs children’s attention to distributed targets in the environment and initiates JA trials. A four-week pre-post exploratory study with six autistic children demonstrated improvements in JA performance and indications of transfer to daily social communication. Spontaneous behaviors such as motor imitation (crawling) and novel social interactions with the robot also emerged, suggesting potential for broader developmental gains. These findings provide initial evidence for the efficacy of mobile robot-supported JA interventions in naturalistic contexts and offer implications for future design. The physical foundation of our system is a Unitree Go2 quadruped robot."
+ },
+ {
+  "line": 2166,
+  "title": "ANCHOR: A Physically Grounded Closed-Loop Framework for Robust Home-Service Mobile Manipulation",
+  "text": "近年来，开放词汇（open-vocabulary）移动操作技术的进展推动机器人逐步进入真实家庭环境。在此类场景中，机器人不仅需要理解开放集合中的目标指代，还必须在频繁扰动条件下实现可靠的长时序任务执行。然而，当前系统仍然存在大量失败案例，而这些失败并非源于语义理解错误，而更多来自符号规划与不断变化的物理世界之间的不一致性，具体表现为三类反复出现的问题：（i）现有系统通常依赖预先扫描生成的语义地图，但在场景变化或受到扰动后，这些地图会迅速失效并与真实环境不一致；（ii）系统在选择导航终点时缺乏对后续操作可行性的考虑，从而导致“虽然到达目标位置，但无法执行操作”的问题；以及（iii）系统往往通过无差别的全局重规划来处理异常情况，难以有效隔离局部错误，并容易引发级联失败。为解决上述执行一致性问题，我们提出了 ANCHOR——一种基于物理锚定（physical grounding）的闭环框架，其核心目标是在执行过程中实现符号推理与可验证物理状态之间的持续对齐。ANCHOR 集成了三项关键机制：（i）基于物理锚点的任务规划机制，将符号谓词绑定到可观测的几何锚点之上，并在每次动作执行后重新验证其有效性；（ii）面向可操作性的底盘位姿对齐机制，确保导航终点同时满足运动学可达性与局部避碰可行性；以及（iii）“最小责任层级”分层恢复机制，通过在感知层、底盘—机械臂协同层以及执行层之间精确定位故障来源，防止错误在系统内部级联传播。在此前从未见过的真实环境中进行的60次机器人实验表明，ANCHOR 将任务成功率从53.3%提升至71.7%，并在受到扰动的情况下实现了71.4%的恢复成功率。这些结果表明，显式的物理锚定机制与结构化的故障隔离策略，对于实现鲁棒的移动操作系统至关重要。我们基于由宇树（Unitree）Go2 四足机器人与 ARX X5 六自由度机械臂组成的移动操作平台，对 ANCHOR 系统进行了验证。"
+ },
+ {
+  "line": 2170,
+  "title": "F2F-AP: Flow-to-Future Asynchronous Policy for Real-time Dynamic Manipulation",
+  "text": "异步推理（Asynchronous Inference）已逐渐成为机器人操作领域中的主流范式，并在提升轨迹平滑性与执行效率方面取得了显著进展。然而，一个系统性挑战仍未得到有效解决：由于推理过程本身存在固有时延，生成的动作不可避免地会滞后于实时环境状态。在动态场景中，这种时间错位问题尤为严重，会显著削弱策略对快速变化环境的理解与响应能力。为此，本文提出了一种新的框架，通过利用预测目标流（predicted object flow）生成未来观测结果，并引入一种基于流的对比学习目标，使预测观测的视觉特征表示能够与真实未来状态保持一致。在这种“预期视觉上下文”（anticipated visual context）的支持下，我们的异步策略获得了主动规划与前瞻运动能力，从而能够显式补偿系统时延，并在目标持续运动的动态操作任务中实现鲁棒执行。实验结果表明，所提出的方法在复杂动态操作任务中显著提升了系统的响应能力与任务成功率。针对移动操作场景中的挑战，我们进一步基于宇树（Unitree）Go2 四足机器人与 Hexfellow Saber 机械臂构建实验平台，对该方法进行了验证。"
+ },
+ {
+  "line": 2175,
+  "title": "AsyncShield: A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation",
+  "text": "While Vision-Language-Action (VLA) models have been demonstrated possessing strong zero-shot generalization for robot control, their massive parameter sizes typically necessitate cloud-based deployment. However, cloud deployment introduces network jitter and inference latency, which can induce severe spatiotemporal misalignment in mobile navigation under continuous displacement, so that the stale intents expressed in past ego frames may become spatially incorrect in the current frame and lead to collisions. To address this issue, we propose AsyncShield, a plug-and-play asynchronous control framework. AsyncShield discards traditional black-box time-series prediction in favor of a deterministic physical white-box spatial mapping. By maintaining a temporal pose buffer and utilizing kinematic transformations, the system accurately converts temporal lag into spatial pose offsets to restore the VLA's original geometric intent. To balance intent restoration fidelity and physical safety, the edge adaptation is formulated as a constrained Markov decision process (CMDP). Solved via the PPO-Lagrangian algorithm, a reinforcement learning adapter dynamically trades off between tracking the VLA "
+ },
+ {
+  "line": 2178,
+  "title": "Cognitive Trust in HRI: “Pay Attention to Me and I’ll Trust You Even If You Are Wrong”",
+  "text": "认知信任（cognitive trust）是指个体认为机器人能够准确执行任务的信念，是实现有效人机交互的关键基础。尽管既有研究普遍认为机器人的能力与可靠性是建立认知信任的核心因素，但近期研究表明，诸如“注意力”等情感性因素同样在其中发挥重要作用。本研究进一步探讨能力与注意力之间的交互关系，重点考察二者是否存在相互补偿效应。参与者在一项基于宇树（Unitree）Go2 四足机器人的搜索任务中完成实验，采用2×2实验设计，分别操控机器人能力水平（高/低）与注意力水平（高/低）。结果显示，高注意力能够有效补偿低能力的不足：当参与者与一个注意力表现较高但任务执行能力较弱的机器人互动时，其信任水平与使用高能力机器人时相当。研究结果表明，认知信任的形成不仅依赖传统的能力维度，还受到情感与社会认知过程的显著影响，从而对以能力为中心的传统信任模型提出了重要补充与拓展。"
+ },
+ {
+  "line": 2182,
+  "title": "Safe Navigation in Unknown and Cluttered Environments via Direction-Aware Convex Free-Region Generation",
+  "text": "凸自由区域（Convex Free Regions）为机器人在未知且拥挤环境中的导航提供了一种结构化且便于优化的无碰撞空间表示。然而，现有方法通常主要依据周围障碍物的几何分布来扩展局部无碰撞区域。在复杂拥挤环境中，这类策略往往难以生成既能够容纳机器人自身几何形态、又能够沿候选运动方向保持可通行扩展性的自由区域，从而限制后续路径穿越能力，尤其在狭窄通道场景中表现更为明显。即便已经获得可行自由区域，安全运动生成仍然具有挑战性，因为基于离散轨迹采样点的安全检测，并不能在显式建模机器人几何形态的情况下，保证运动过程始终连续无碰撞。为解决上述问题，我们提出了一种导航框架，将候选运动方向与机器人几何信息共同纳入凸自由区域生成过程，并通过连续安全轨迹生成机制实现全程连续无碰撞运动。在每个自由区域内部，框架进一步执行面向机器人几何结构的目标位姿选择与轨迹生成，同时结合基于 Lipschitz 条件的连续安全性认证与局部优化机制。生成的自由区域及候选运动被维护在一个基于区域的图结构中，以支持增量式规划。二维拥挤导航场景中的定量实验结果表明，所提出方法能够生成更符合后续通行需求的自由区域，并实现稳定可靠的无碰撞导航。此外，在宇树（Unitree）Go2 四足机器人与无人机平台上的三维与真实环境实验进一步验证了该框架的可扩展性与实际应用价值。"
+ },
+ {
+  "line": 2186,
+  "title": "Inverse Safety Filtering: Inferring Constraints from Safety Filters for Decentralized Coordination",
+  "text": "在不确定环境中，实现安全的多智能体协同可以从其他智能体的行为中学习安全约束信息。通过动作隐式传递安全约束是一种具有潜力的方法，它能够在无需高成本通信通道的情况下，实现智能体之间的协同与安全维持。本文提出了一种在线约束推断方法，通过观察其他智能体经过安全过滤（safety-filtered）的动作来推断其安全约束。我们的方法基于安全过滤器实现前向安全保证，并进一步利用其结构特性反向推导潜在约束条件。针对该方法，我们给出了能够成功推断约束的充分条件，并证明了所提出约束推断算法的收敛性。该约束推断机制进一步与一种去中心化规划方法相结合，在约束激活距离足够大的条件下能够保证系统整体安全性。最后，我们通过蒙特卡洛仿真以及基于宇树（Unitree）Go2 四足机器人的真实硬件实验，对所提出方法进行了实证验证。"
+ },
+ {
+  "line": 2190,
+  "title": "Collaborative Map-based and Route-based Policy Learning for Continuous Vision-and-Language Navigation",
+  "text": "连续环境中的视觉—语言导航（Vision-and-Language Navigation in Continuous Environments, VLN-CE）要求智能体依据自然语言指令，在未知三维环境中导航至目标位置。一个高性能的VLN-CE智能体在跨模态规划过程中需要具备两项关键能力：其一是在部分可观测环境中进行空间推理，从而有效探索目标位置；其二是实现程序性对齐（procedural alignment），即将导航路径与语言指令进行匹配，以完成顺序化引导。现有跨模态规划策略主要分为两类，并分别侧重于上述能力之一：基于地图（map-based）的策略通过在图结构表示上对语言指令进行空间锚定，从而强化空间推理能力；而基于路径（route-based）的策略则通过将连续观测与语言指令进行对齐，更强调程序性引导能力。然而，这两类策略通常被独立研究，导致仅依赖单一能力的智能体难以在复杂场景中实现有效规划。受人类导航行为启发，我们提出了一种协同策略学习框架，用于融合两类策略在跨模态规划中的优势。该框架包括三个核心过程：（1）“时空—程序拓扑建图”（Spatio-Procedural Topological Mapping），通过构建多层图结构，为基于地图与基于路径的策略学习提供统一支撑；（2）“双流编码”（Dual-Stream Encoding），并行执行两类策略的跨模态编码；以及（3）“层级策略融合”（Hierarchical Policy Integration），通过特征级协同与logit级融合实现双策略整合。在VLN-CE数据集上的大量实验结果验证了该框架的有效性。我们在单目视觉感知配置下，基于 g3D-LF 主干网络实现 CoMaR，并将跨模态规划管线部署于云端服务器，同时在宇树（Unitree）Go2 四足机器人平台上完成实验验证。"
+ },
+ {
+  "line": 2194,
+  "title": "Dynamic Legged Ball Manipulation on Rugged Terrains with Hierarchical Reinforcement Learning",
+  "text": "提升四足机器人在复杂地形中的动态运动—操作（loco-manipulation）能力，对于执行多样化任务具有重要意义。其中，在崎岖环境下实现动态控球任务面临两项关键挑战：其一，是如何协调不同运动模态，从而实现复杂地形穿越与球体操控之间的无缝融合；其二，是端到端强化学习中普遍存在的稀疏奖励问题，这会严重阻碍策略的高效收敛。为解决上述问题，我们提出了一种分层强化学习框架。其中，高层策略基于本体感知信息与球体位置，自适应切换多个预训练低层技能，包括控球运球与复杂地形导航等。与此同时，我们进一步提出了一种“动态技能聚焦策略优化”（Dynamic Skill-Focused Policy Optimization）方法，通过抑制非激活技能产生的梯度干扰，强化关键技能的学习效果。仿真与真实环境实验结果均表明，所提出方法在崎岖地形中的动态控球任务上显著优于基线方法，展现出其在复杂环境下的有效性与鲁棒性。我们基于宇树（Unitree）Go2 四足机器人平台对该方法进行了验证。"
+ },
+ {
+  "line": 2202,
+  "title": "Efficient On-policy Visual-RL via Stochastic Decoupled Policy Gradient",
+  "text": "我们提出了一种名为“随机解耦策略梯度”（SDPG）的轻量级视觉强化学习（RL）方法。该方法能够在单块 NVIDIA RTX 4080 GPU 上，仅用数小时便实现多种视觉运动控制策略的端到端训练。SDPG 通过对轨迹采样的随机扰动来估算策略梯度，从而将批量渲染环境的需求降低了几个数量级，并大幅削减了计算与内存开销。在视觉 MuJoCo 基准测试中，SDPG 在训练耗时、内存占用及获得的奖励方面，均持续优于各类基线方法。此外，为了助力未来的相关研究，我们引入了一套逼真的视觉机器人基准测试集，涵盖了灵巧操作及极具挑战性的步态控制任务；同时，我们还成功展示了该方法在物理硬件上的高效“仿真到现实”（sim-to-real）迁移能力。我们在 Unitree Go2 机器人硬件平台上对 SDPG 进行了验证。该机器人利用机载的 RealSense 深度相机感知周围环境，并在包括崎岖地面、箱体障碍及楼梯在内的复杂地形中进行导航。其控制策略完全在仿真环境中进行训练，仅需单块 GPU 且耗时不足两小时，随后便通过“零样本”（zero-shot）的方式直接迁移至现实世界中应用。"
+ },
+ {
+  "line": 2206,
+  "title": "MUJICA: Multi-skill Unified Joint Integration of Control Architecture for Wheeled-Legged Robots",
+  "text": "轮足机器人有望在复杂地形中实现高效穿越，且相比纯足式机器人，其机动性更为优越。然而，轮足机器人必须在轮式驱动与足式控制之间实现有效的平衡。此外，受限于本体感知信号的噪声干扰以及现实世界中电机性能的约束，要在电机性能极限下实现鲁棒且自适应的运动控制，依然面临巨大挑战。为此，我们提出了一种名为“多技能统一联合控制架构”（MUJICA）的方案。这是一个专为轮足机器人设计的统一且完全基于本体感知的控制框架，它将全向移动、高台攀爬以及跌倒恢复等多种低层级技能整合于单一的控制策略之中。所有技能均通过独特的指示变量加以区分，并在结合精确的直流电机约束模型的基础上进行联合训练。此外，我们还训练了一个高层级技能选择器，使其能够仅依据本体感知信息动态选取最优技能，从而实现对周围环境的自适应响应。因此，MUJICA显著增强了从仿真到现实（Sim-to-Real）迁移的鲁棒性，并实现了不同运动模式间的无缝切换，从而助力机器人实现对环境的自主适应与调整。我们在 Unitree Go2-W 机器人平台上，通过仿真与实物实验对该框架进行了全面验证，结果表明，在非结构化环境中，该框架在环境适应性与任务成功率方面均取得了显著提升。"
+ },
+ {
+  "line": 2222,
+  "title": "TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3-D Planning",
+  "text": "零样本物体导航（ZSON）在未知环境中进行开放词汇目标搜索方面已展现出巨大潜力，然而，大多数现有系统仍受限于平面表征和单层楼假设。在真实的建筑环境中，这些假设显得捉襟见肘，因为实际导航往往涉及楼层、楼梯、楼梯平台以及垂直重叠的空间。本文提出了一种名为 TravExplorer 的跨楼层具身探索框架，该框架将零样本语义引导与感知可通行性的三维规划相结合。TravExplorer 维护着一张统一的体素地图，该地图能够区分被占据的结构体与机器人可触达的支撑表面，并从相互连通的支撑表面（包括地面、楼梯和楼梯平台）中提取出可通行的边界。此外，一种感知视场（FOV-aware）的主动感知策略进一步解决了跨楼层穿越过程中因视角受限而导致的观测不完整问题。为了降低语义推理的延迟，一个轻量级的引导模块将来自在线开放词汇分割的概率实例地图，与来自快速图像-文本匹配的空间价值地图进行了对齐。基于这些几何与语义记忆，一个分层规划器针对物体假设、可通行边界以及楼梯地标，执行了以目标为导向的边界巡游；并通过落足点引导的三维搜索以及受垂直方向约束的局部轨迹优化，生成了可执行的跨楼层运动指令。在 HM3D 和 MP3D 数据集上进行的 4195 次模拟实验表明，TravExplorer 相较于具有代表性的 ObjectNav 基线方法，展现出了持续且显著的优势。此外，在 Unitree Go2 机器人上进行的 50 次真实世界实验进一步验证了该框架在单层及跨楼层室内环境中，无需预先地图或人工干预即可实现开放词汇目标搜索的能力。"
+ },
+ {
+  "line": 2294,
+  "title": "A Taxonomy of Environmental Cues for Quadruped Robot Navigation in Construction Environments Informed by Human Operator Behavior",
+  "text": "Kine2Go: Kinematic dataset for the Unitree Go2 robot with diverse gaits and motions"
+ },
+ {
+  "line": 2295,
+  "title": "Kine2Go: Kinematic dataset for the Unitree Go2 robot with diverse gaits and motions",
+  "text": "Kine2Go：包含多种步态与动作的 Unitree Go2 机器人运动学数据集"
+ },
+ {
+  "line": 2299,
+  "title": "Autonomous Navigation System for Library Service Robot Based on Unitree Go2 Edu",
+  "text": "基于 Unitree Go2 Edu 的图书馆服务机器人自主导航系统"
+ },
+ {
+  "line": 2304,
+  "title": "Racing a Wheeled Quadruped: Active Load Transfer Mitigation via Model Predictive Control",
+  "text": "本文提出了一种结合模型预测控制（MPC）与强化学习（RL）的分层控制框架，用于轮式四足机器人在自动驾驶竞速过程中的主动侧倾控制，旨在管理横向载荷转移。该框架集成了离线生成时间最优赛车路线、在线MPC规划器（主动最小化横向载荷转移率，即LTR）以及直接部署于机器人16个执行器上的底层全身RL策略。MPC基于Unitree Go2-W平台的车辆动力学自行车模型构建。机器人的腿部执行器充当主动悬架，通过膝关节产生抗侧倾力矩，使车身在过弯时向内侧倾斜。实地赛道实验表明，该主动侧倾控制方案使平均LTR降低了高达44%，最快单圈时间缩短了8.7%，并将峰值横向加速度能力提升了21.3%（达到1.98 m/s²），从而在非倾斜基准控制器无法胜任的工况下，依然保持了稳健的高速行驶稳定性。"
+ },
+ {
+  "line": 2307,
+  "title": "Long-Distance Real-World Navigation of the Legged-Wheeled Robot Go2-W Using Deep Reinforcement Learning",
+  "text": "基于深度强化学习的足轮式机器人 Go2-W 长距离真实环境导航"
+ },
+ {
+  "line": 2312,
+  "title": "ForEnt: A Multi-Modal Dataset for Characterizing Quadruped Robot Entrapments in Forest Environments",
+  "text": "足式机器人正越来越多地应用于森林生态调查与监测，但在穿越森林环境时，其自主运行常因各种挑战而中断。例如，当机器人腿部被藤蔓或其他植被缠绕导致“森林环境中的被困”（forest entrapment）时，往往会引发失稳甚至倾倒。此类事故不仅会打断任务并需要人工干预，还可能导致机器人硬件受损。为填补针对森林环境中此类故障模式研究缺乏专用数据集的空白，我们推出了 ForEnt——这是一个多模态数据集，由低成本 Unitree Go2 四足机器人在英国南安普顿公地林区（Southampton Common Woodlands）的八个森林站点采集而成。该数据集涵盖了 11 个序列、总计约 1.7 公里的穿越行程，记录了 69 起被困事件。ForEnt 包含时间同步的 RGB-D 图像、激光雷达（LiDAR）扫描数据、本体感知数据以及第三人称视角视频，既支持分析导致被困的地形因素，又能提供用于可复现基准测试的标注传感器数据流。通过支持对被困检测策略的评估，ForEnt 降低了开发能够在复杂森林环境中稳健运行的四足机器人的技术门槛。"
+ },
+ {
+  "line": 2316,
+  "title": "StairMaster: Learning to Conquer Risky Hollow Stairs for Agile Quadrupedal Robots",
+  "text": "对于四足机器人而言，攀爬镂空楼梯仍是一项极具挑战性的任务，这主要归因于腿部被卡住的高风险、深度数据的严重稀疏性以及高频深度感知噪声。本文提出了 StairMaster，这是一个新颖的三阶段强化学习框架，旨在实现机器人在此类极端不连续地形上的稳定运动。该架构集成了交叉注意力（Cross-Attention）机制，用于从含噪深度数据中提取结构特征；同时引入了空间感知循环单元（SRU），通过维持稳健的时空记忆来缓解感知盲区问题。为了弥合深度感知领域的“仿真到现实”（sim-to-real）差距，我们提出了一种高保真的深度传感器建模流程，能够真实复现现实世界中的传感器伪影。此外，我们采用了基于三维航点引导的主动感知奖励机制以实现前瞻性感知，并结合针对镂空缝隙的运动学惩罚及针对楼梯边缘的惩罚项，从而确保落脚点的精确性。我们将 StairMaster 成功部署在 Unitree Go2 机器人上，并通过零样本迁移（zero-shot transfer）验证了其攀爬镂空楼梯的能力，成功应对了高达 55° 的前所未有的坡度。据我们所知，这是首个在现实环境中实现如此陡峭镂空楼梯攀爬的基于强化学习的控制策略。"
+ },
+ {
+  "line": 2320,
+  "title": "Continual Quadruped Robots Coordination via Semantic Skill Discovery",
+  "text": "多足式机器人（四足机器人）协同因其更高的负载能力、更广的接触覆盖范围以及对复杂任务的更强适应性，正日益受到关注。现有的多足机器人协同操作方法通常针对预定义或封闭的任务集，多依赖多智能体强化学习（MARL）来训练特定任务的协同策略。然而，这些方法在开放式持续学习场景下往往难以应对——在此类场景中，任务按顺序到来，机器人既需掌握新的协同技能，又要复用既有技能，同时避免发生“灾难性遗忘”。为应对这一挑战，我们提出了 Conquer 框架，这是一个基于语义技能库的框架，将多足机器人持续协同过程建模为“检索-适应-更新”的循环。首先，为适应不同任务中变化的团队规模，我们设计了一种具有团队结构的“自我-队友-目标”（SAG）骨干网络；该网络通过显式建模每个机器人的自身状态、队友上下文信息及任务目标，支持不同数量成员构成的机器人团队。针对每个新任务，Conquer 利用执行前的信息构建任务级语义描述符，并从技能库中检索相关技能进行适应性调整。任务成功执行后，Conquer 通过提取轨迹级语义描述符并根据语义距离进行组织，从而更新技能库，进而实现技能的持续积累与跨任务知识迁移。仿真实验表明，Conquer 最终平均成功率达到 95.6%，展现出强大的前向迁移能力，且几乎未发生灾难性遗忘。基于 Unitree Go2 机器人团队的实地部署测试，进一步验证了 Conquer 在实际多足机器人协同场景中的部署可行性。"
+ },
+ {
+  "line": 2324,
+  "title": "SLowRL: Safe Low-Rank Adaptation for Bridging the Sim-to-Real Gap in Legged Locomotion",
+  "text": "仿真器充其量只是智能体最终将在其中行动的真实世界的一个粗略、低保真的模型。在硬件上弥合这一残余差距，是“在广阔世界（big-world）中运行”这一典型场景的体现：真实环境呈现出的接触动力学、延迟和扰动，是智能体在预训练阶段未曾获得建模能力（即参数或数据）去处理的。直接在硬件上进行简单的微调风险很高——策略在改进之前可能会损坏机器人——而全参数更新则需要极长的交互时间。我们提出了 SLowRL，这是一个持续微调框架，通过两种互补的容量限制形式来应对这种“广阔世界”适应问题：(i) 在 Actor 和 Critic 网络的每一层应用秩为 1（rank-1）的 LoRA 适配器，将每一层的更新限制在其值域空间内的单一方向上（基于冻结的仿真训练策略），以及 (ii) 采用一种与任务无关的恢复策略，该策略由离散安全滤波器控制，一旦本体感知限值被突破，便将机器人拉回正常状态。在针对 Unitree Go2 四足机器人的“仿真到仿真（sim-to-sim）”及“仿真到现实（sim-to-real）”微调实验中，SLowRL 仅需全参数微调所需时间的一小部分即可达到预训练阶段的奖励水平，消除了绝大部分跌倒情况，并且在动态跳跃任务中表现与全参数基线相当甚至更优——这有力地证明了在面对“广阔世界”分布偏移时，更小的模型规模意味着更快的速度与更高的安全性。"
+ },
+ {
+  "line": 2334,
+  "title": "Bayesian Optimization for Learning Nonlinear MPC in Autonomous Agent Navigation",
+  "text": "The proposed framework is robot-agnostic and is evaluated on the Unitree Go2 quadruped in simulation using Gazebo, followed by deployment on the physical robot. Experimental results show that parameters tuned in simulation transfer effectively to hardware, maintaining comparable performance without additional tuning. The full system achieves up to a 90.0\\% navigation success rate when deployed, along with a 38.9\\% average improvement in the evaluation metrics across simulated environments."
+ },
+ {
+  "line": 2337,
+  "title": "Deskewed LiDAR Odometry for Quadruped Robots in Environments with Varying Elevation",
+  "text": "随着机器人技术的进步，四足机器人已经能够在具有不同海拔的复杂环境中操作，包括对传统轮式平台具有挑战性的坡道和水平变化。虽然这种地形适应性为检查、救援和探索任务带来了新的机会，但腿部运动固有的重复性影响、频繁的地面接触转变和突然的姿势变化对激光雷达测距提出了重大挑战。高频步态振动和突然的姿态变化会导致扫描内运动失真，而传统的单扭转校正无法充分抑制这种失真。此外，高程变化环境中稀疏的垂直几何约束削弱了 Z 轴可观测性，允许垂直漂移通过 Hessian 耦合破坏水平姿态估计。为了在仅 LiDAR 框架内解决这些故障模式，我们提出了一种分段恒速偏移校正方案，该方案将每次扫描划分为多个时间段，并在垂直和姿态分量上进行安全钳位，以及将 SE(3) 优化解耦为水平（x、y、偏航）和垂直（z、滚动、俯仰）阶段的两阶段 ICP，并在垂直更新中应用可观测性加权。所提出的里程计前端根据配备 Velodyne VLP-16 LiDAR 的 Unitree Go2 四足机器人收集的四个现实世界序列进行评估。实验结果表明，所有序列的绝对位姿误差 (APE) 始终低于 ICP、KISS-ICP 和 F-LOAM。垂直漂移抑制在包含斜坡的序列中最为明显，其中基线方法表现出显着的 Z 轴发散。"
+ },
+ {
+  "line": 2341,
+  "title": "SemGeoNav:A Safety-Guided Visual Navigation Approach with Semantic Reasoning and Geometric Planning",
+  "text": "基于学习的视觉导航技术提升了实现语义目标的能力。然而，纯端到端模型因其“黑盒”特性，往往缺乏明确的几何约束，导致在开放环境中出现不可预测且不可靠的避障行为。相比之下，传统的几何规划方法虽能确保安全性，却难以应对高维视觉目标。为克服这些局限，我们提出了一种名为 SemGeoNav 的新型分层视觉导航框架。该框架将端到端模型的高层语义推理能力与基于几何的方法可靠的局部规划能力紧密结合，在实现稳健的视觉导航的同时，显著提升了避障性能。此外，我们引入了时序轨迹平滑机制，以确保机器人运动的连续性与稳定性。我们在真实环境中使用 Unitree Go2 四足机器人对 SemGeoNav 进行了评估。实验结果表明，SemGeoNav 优于 ViNT 和 NoMaD 等现有代表性方法，实现了更高的任务成功率和更短的导航耗时。"
+ },
+ {
+  "line": 2346,
+  "title": "LoComposition: Terrain-Adaptive Energy-Efficient Quadruped Locomotion without Gait Priors",
+  "text": "Learning-based quadrupedal locomotion typically relies on complex reward formulations that entangle task specification, operational limits, gait preference, and terrain adaptation within a single optimization objective. We instead treat these functions through distinct mechanisms: rewards for task specification, constraints for operational limits, energy minimization for gait preference, and exteroceptive perception for adapting energy use to terrain difficulty. We show that these components jointly enable efficient, terrain-adaptive locomotion, and that removing each component exposes a distinct failure mode. Our formulation removes explicit gait priors (including air-time, contact-count, and foot-clearance targets) in favor of emergent behavior. Compared to a conventional complex-reward baseline, our formulation achieves comparable terrain traversal while reducing cost of transport by 56% and operational-limit violations by 96%. The resulting policies transfer zero-shot to a physical Unitree Go2 using LiDAR-based elevation mapping."
+ },
+ {
+  "line": 2349,
+  "title": "FlashNav: Ultra-Fast Policy Training for Robot Navigation within 20 Seconds",
+  "text": "深度强化学习在机器人导航领域展现出巨大潜力，但其在实际应用中的部署仍受限于策略训练所需的长耗时。本文提出了 FlashNav，这是一个专为基于测距（range-based）的机器人导航任务设计的超快速训练框架，该框架优先利用 GPU 算力。据我们所知，FlashNav 是首个实现秒级策略训练的基于深度强化学习（DRL）的机器人导航框架，其训练出的可部署策略耗时不到 20 秒。其核心思想是将仿真过程与导航马尔可夫决策过程（MDP）相匹配：FlashNav 保留了速度级导航的关键要素——包括占用几何信息、测距感知、目标条件控制、机器人运动动力学、碰撞处理、终止与重置机制——同时剔除了训练循环中不必要的渲染和高保真物理细节。FlashNav 基于批处理位图仿真器和完全驻留于 GPU 的训练流水线（采用 FastDSAC 学习算法）构建，能够完全在 GPU 上生成海量的并行导航转换数据。在 TurtleBot2 和 Unitree Go2 机器人上的实验表明，该框架在 RTX 5090 显卡上能在 20 秒内实现 100% 的导航成功率，且在各类桌面级 GPU 上均能保持在数十秒的训练时长内。训练所得策略可进一步迁移至室内静态及动态场景中的轮式和足式实体机器人，这证明了基于 DRL 的导航策略既能以秒级速度完成训练，又能保持有效的避障行为。"
+ },
+ {
+  "line": 2353,
+  "title": "MPC-Injection: Biasing Off-Policy Locomotion RL Toward Controller-Induced Behavior Basins",
+  "text": "用于运动控制的强化学习（RL）往往会收敛到局部最优但无法实际部署的行为（例如肢体高频抖动或躯干拖地滑行），这些行为虽然能最大化累积回报，却无法形成可用的步态。我们提出了一种名为 MPC-Injection 的低开销方法，通过将模型预测控制器（MPC，求解同一马尔可夫决策过程）生成的轨迹片段插入经验回放缓冲区，引导强化学习策略向设计者期望的步态收敛。与奖励塑形（reward shaping）不同，MPC-Injection 无需重新设计任务奖励函数；与对抗式模仿学习相比，它也不需要引入判别器、运动学重定向或辅助目标函数。相反，该方法纯粹通过经验回放中的状态分布，将控制器的期望行为特征迁移给强化学习策略。通过二维仿真行走器实验以及 Go2 四足机器人的“虚实迁移”（sim-to-real）评估，我们证明了 MPC-Injection 仅需包含一两项的任务奖励，即可引导策略进入控制器期望的行为区域；其生成的步态质量可与包含二十一项经精细调优项的奖励塑形方法，以及对抗式运动先验方法相媲美，且无需后者所需的判别器和重定向开销。此外，我们还分析了注入的轨迹片段如何引导 Actor-Critic 算法的更新过程偏向控制器所访问的状态，从而使策略能够学习到纯强化学习在简单奖励函数下难以触及的行为模式。"
+ },
+ {
+  "line": 2357,
+  "title": "High-Load-Density Electro-Permanent Magnetic Foot with Controllable Adhesion for Quadruped Wall-Climbing Robots",
+  "text": "为了实现四足机器人于铁磁性表面上的可靠攀爬运动，本文提出了一种具有可控吸附能力的高负载密度电永磁足，该足集成了具备力反馈功能的环形Halbach阵列电永磁（CHN-EPM）吸附单元及相应的磁化控制系统。凭借其三维磁路结构与磁通汇聚效应，CHN-EPM构建了分布式的并行磁通路径，提高了磁通利用率，从而降低了对气隙变化的敏感度，即便在部分接触的情况下也能保持有效的吸附力。该CHN-EPM产生的最大吸附力超过1000 N，负载自重比超过200:1。研究还开发了磁化驱动器及两级脉冲电流控制策略，用于调节励磁电流的幅值与持续时间，从而实现精确可靠的磁化操作。通过集成柔性压力传感器以获取接触力反馈，该系统能够有效监测吸附与脱离状态，确保在不确定接触条件下实现稳健的吸附切换。该系统被集成于商用四足机器人（Unitree GO2）上，验证了其在天花板及垂直墙面上的高负载吸附能力，以及在涂漆、穿孔及曲面等铁磁性表面上的稳定运动性能。"
+ },
+ {
+  "line": 2361,
+  "title": "fARfetch: Enabling Collocated AR-HRC in Large Visually Diverse Environments with VLM-Driven AR Content Adaptation",
+  "text": "增强现实（AR）技术能够通过可视化机器人的状态与意图并实现直观控制，从而提升人机共处环境下的协作效率；然而，户外等视觉环境复杂多变的大型场景，给交互操作及虚拟内容的可视认性（legibility）带来了挑战，尤其是在远距离或超出视线范围的情况下。为此，我们提出了 fARfetch——一种 AR 人机协作（AR-HRC）系统，该系统集成了以下功能：(i) AR 头显与机器人之间共享的语义环境映射，通过在 AR 中可视化检测到的地标，支持基于地标的“前往”指令；(ii) 针对共享环境的上下文感知“微缩世界”（world-in-miniature）表征，用于精细化的路径规划与设定；以及 (iii) 由视觉-语言模型驱动的 AR 视图管理机制，通过动态调整虚拟内容的颜色、尺寸和朝向，确保其在视觉环境复杂多变的大型场景中保持良好的可视认性。我们基于 Meta Quest 3 头显和 Unitree Go2 四足机器人实现了 fARfetch 系统，并针对一项真实世界中的大规模（30.5米）户外巡检任务开展了受试者内设计（within-subjects）的用户研究（N=13）。实验结果显示，与非 AR 对照组相比，使用 fARfetch 完成任务的速度显著更快（提升 66%），且在心理需求（降低 43%）、时间压力（降低 34%）和挫败感（降低 66%）方面的负荷显著降低。针对可视认性的专项问卷调查表明，fARfetch 在大型户外环境中有效地维持了虚拟内容的可视认性。"
+ },
+ {
+  "line": 2365,
+  "title": "MSTR-PPO: A Multi-Scale Temporal Residual PPO Controller for Freeze-Prone Indoor Navigation",
+  "text": "在受限的室内环境中，当狭窄的几何结构和移动障碍物压缩了可行的局部运动空间时，局部导航控制器可能会陷入停滞（即“冻结”现象）。这种冻结事件会触发重复的恢复行为，并导致原本有效的全局路径无法执行。本文将冻结现象视为局部控制的失效，并归因于三种可观测机制：路径视界（path horizo​​n）不足、单帧感知中的运动歧义性，以及学习到的速度指令不稳定。我们提出了 MSTR-PPO（多尺度时序残差近端策略优化），这是一种具备冻结感知能力的残差局部控制器，定义在标准的“传感器-路径-速度指令”接口之上。MSTR-PPO 并非用无约束的端到端策略取代几何控制器，而是学习针对“纯追踪”（Pure Pursuit）标称动作的有界修正量。该控制器采用了多尺度路径 Transformer 来获取近、中、远视界的路径上下文信息，利用一阶时序高通滤波器获取低成本激光雷达（LiDAR）的测距变化线索，并基于纯追踪算法实施有界残差动作。我们在包含动态障碍物的九个 Gazebo 仿真环境中评估了八种局部控制变体（所有方法共计 2,880 次试验），并通过 ROS 2（机器人操作系统 2）的 Nav2（导航 2）C++ 控制器接口部署了训练好的策略，作为具有代表性的评估架构。在两个容易发生冻结的目标环境中，MSTR-PPO 在全部 80 次评估试验中均成功到达目标，且未触发任何系统级的恢复事件；相比之下，表现最好的默认参数经典基准方法在同一子集上的成功率为 86.2%。在包含七个环境的主评估集（W1–W7）中，MSTR-PPO 取得了 91.1% 的平均成功率，且 CPU 控制周期延迟在 5 到 10 毫秒之间。压力测试揭示了其在连续曲率路径上的局限性，而在针对 Unitree Go2 机器人的初步测试中，该方法在 30 次试验中成功了 27 次。"
+ },
+ {
+  "line": 2478,
+  "title": "Beyond Transformers: Linear Attention Policy for Open-Vocabulary Object Goal Navigation",
+  "text": "为了进一步提高状态更新的有效性，我们引入了加权状态扩展线性注意力（Weighted State-Expansion Linear Attention, WSLA），它将每个注意力头的状态扩展为多个子状态，并使用可学习的加权读出（Weighted readout）来聚合扩展后的子状态。装备 WSLA 的 LANav 在 HM3D-OVON 基准上实现了 36.4% 的平均成功率（SR），在宏观平均成功率上超越基于 Transformer 的同行 6.3 个百分点，同时保持了高效的计算效率。按距离分层的实验结果表明，在长距离 Episode 中增益更为显著，而 HSSD 迁移与微调则展示了对不同场景分布的鲁棒性。在宇树（Unitree）Go2 机器人的真实世界部署中，LANav 在 50 次实验中取得了 82% 的成功率，进一步验证了其工程可行性与仿真到真实世界（Sim-to-Real）的迁移能力。"
+ },
+ {
+  "line": 2501,
+  "title": "Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors",
+  "text": "为此，我们提出了 Uni-Mo——一个全自动流水线，通过将数据匮乏重构为一个生成问题，彻底将“动物”排除在循环之外：由大语言模型（LLM）提出运动提示词（Motion prompts），视频扩散模型合成相应的机器人行为，随后生成的视频被提升（Lifted）为 3D 参考轨迹，用于训练并部署于真实宇树（Unitree）Go2 机器人上的跟踪策略。"
+ },
+ {
+  "line": 2508,
+  "title": "From Language to Navigation Goals: A Vision-Language Approach for Semantic Navigation of Mobile Robots Using RGB-D Perception",
+  "text": "我们在仿真与真实世界场景中，分别使用 TurtleBot3 Waffle 以及搭载 RealSense 摄像头的宇树（Unitree）Go2 机器人对系统进行了评估。实验结果表明，该框架成功地理解了直接指令与上下文请求，合成了具备实际意义的自然语言反馈，并成功导航至期望目标。这些结果验证了结合语义感知与自主导航以提供直观人机交互范式的可行性。代码将在论文被接收后开源。"
+ },
+ {
+  "line": 2516,
+  "title": "Towards Platform-Agnostic Geospatial Awareness: Fusing Satellite Priors with LiDAR Laser Point cloud for Seamless Indoor-Outdoor Navigation",
+  "text": "我们使用宇树（Unitree）Go2 EDU 作为移动平台对该系统进行了验证，机器人遵循一条由手动选择坐标构成的轨迹运行，该轨迹包含了室内外穿梭过渡以及因接入斜坡产生的海拔高度变化。"
+ },
+ {
+  "line": 2522,
+  "title": "Predictive Training with Latent Imagination for Visual Quadruped Navigation",
+  "text": "在包含动态障碍物的仿真与真实世界导航基准测试中，我们的方法仅凭预测性训练信号，在不增加推理期参数的前提下，显著提升了导航成功率并降低了碰撞率。在宇树（Unitree）Go2 机器人上的真实部署展示了零样本仿真到真实世界（Zero-shot Sim-to-Real）的迁移能力：控制器在未经微调的情况下，即可在拥挤的室内以及动态的室外环境中成功导航，其回避行为与仿真中观察到的碰撞减少现象保持一致。"
+ },
+ {
+  "line": 2528,
+  "title": "Learning Agile Navigation in Crowded Environments for Quadruped Robots",
+  "text": "在 Isaac Gym 中的评估表明，VOP-Nav 取得了比所有基线更高的成功率，同时平衡了移动速度与避障能力。在宇树（Unitree）Go2 四足机器人上的真实世界部署，进一步验证了该系统在复杂的室内与室外动态环境中的鲁棒性与高效性。"
+ },
+ {
+  "line": 2534,
+  "title": "TypeGo: An OS Runtime for Embodied Agents",
+  "text": "我们在名为 Kalos 的宇树（Unitree）Go2 四足机器人原型上验证了该设计：在当前的任务集测试中，与逐步规划相比，它将每步延迟降低了 50%；与单体式（Monolithic）规划相比，将首次动作响应时间缩短了 73%，同时以极低的调度开销支持了并发任务的执行。"
+ },
+ {
+  "line": 2540,
+  "title": "Milo, a Fully Autonomous Indoor/Outdoor Robotic Guide Dog",
+  "text": "我们的系统包含一台改装后的宇树（Unitree）Go2 机器人（配备板载计算单元、传感器及拉手）、一套结合体素映射与地面、障碍物和行人检测的感知堆栈，以及一套基于在自定义鸟瞰图（BEV）仿真器中训练的避障策略构成的导航堆栈。我们在真实的室内外障碍赛道中对 Milo 进行了评估，并将其与基于代价图（Costmap）的基线进行了对比，展示出了更平滑的导航性能和更少的使用者碰撞。为了最大化 BLV 用户的可及性，我们将机器人硬件构建指南和完整的软件堆栈全部予以开源。"
+ },
+ {
+  "line": 2546,
+  "title": "TAC-LOCO: Unified Whole-Body Control for Quadrupedal TACtile-Informed LOCO-Manipulation",
+  "text": "我们将该策略零样本部署于配备 Interbotix WidowX 250 机械臂和触觉夹爪的宇树（Unitree）Go2 机器人上，展示了在不同外部交互下由触觉感知的动态移动操作，实现了抓握力降低 47% 且掉落率低于 1% 的卓越表现。"
+ },
+ {
+  "line": 2552,
+  "title": "MIRROR: Multisensory Implicit Rejection-sampled RObotic policy",
+  "text": "我们在多样化的真实世界硬件套件上证明了 MIRROR 的有效性，包括使用搭载 7 自由度 D1 机械臂的宇树（Unitree）Go2 进行的移动操作，以及使用 UR5 机械臂进行的桌面级操作。在诸如操作前停靠（Pre-manipulation parking）、高精度插入以及多物体抓取与放置等具备挑战性的物理任务中，MIRROR 在保持高频（30–50 Hz）闭环控制的同时，成功率超越了最先进的扩散策略 10–25%。"
+ },
+ {
+  "line": 2559,
+  "title": "NavCMPO: Critic-Guided MeanFlow Policy Optimization for Adaptive Navigation",
+  "text": "在 InternVLA-N1 基准测试的相同训练预算下，NavCMPO 取得了 74.7% 的平均成功率，超越重新训练的 NavDP 基线 6.4 个百分点，同时将推理延迟从 85 ms 降低至 60 ms。在宇树（Unitree）Go2 机器人上的实验进一步证明了其有效的仿真到真实世界（Sim-to-Real）迁移能力。"
+ },
+ {
+  "line": 2675,
+  "title": "Rapid Embodiment Adaptation for Quadrupedal Locomotion",
+  "text": "在仿真中，该模块能够准确估计这些变化，并实现闭环控制，其性能显著优于直接以交互历史为条件的策略。在真实世界的 Unitree Go2 机器人上，我们的系统在所评估的严苛变化场景下（包括单腿完全锁定以及搭载 5 kg 负载）仍能保持稳定的运动，而非自适应方法在这些场景下均告失败。这些结果证明了显式在线具身识别在快速适应关节极限和负载质量变化方面的实用性，并为处理更广泛形式的不确定、退化或变化的机器人硬件迈出了重要一步。"
+ },
+ {
+  "line": 2693,
+  "title": "Learning to Walk With Less: A Dyna-Style Approach to Quadrupedal Locomotion",
+  "text": "最后，我们在 Unitree Go1 机器人仿真环境中验证了该方法：在不降低策略性能或收敛性的前提下，以显著减少的仿真步数（19.64M 对比 27.53M）和 12.24% 的训练实际时间（Wall-clock time）缩减实现了收敛。在 ANYmal 和 Unitree Go2 上的跨平台实验进一步证实，尽管在复杂形态上存在奖励权衡，该框架仍具备以大幅减少的仿真经验学习高维运动控制的能力。"
+ },
+ {
+  "line": 2698,
+  "title": "Residual-Based Adaptive Kalman Filtering for Legged Robot State Estimation",
+  "text": "我们提出了一套针对过程噪声协方差矩阵 Q 与测量噪声协方差矩阵 R 的在线自适应策略。具体而言，我们引入了一种基于滤波器残差（Residual）与创新（Innovation）的协方差自适应方法，用于足式机器人状态估计，并将其与依赖惯性测量单元（IMU）和足端力测量的基线方法进行了评估对比。所提自适应机制在融合 IMU 与腿部运动学的不变扩展卡尔曼滤波器（Invariant Extended Kalman Filter, InEKF）中实现。在 Unitree Go2 四足机器人上进行的室内与室外数据集实验表明，仅对 R 进行自适应便已足够，且在小跑（Trotting）步态下，相比固定参数调校的 InEKF，估计精度提升了 25%。最后，所提基于残差的自适应方法在无需足端力传感器或额外参数调校的情况下，取得了与足端力方法相当的性能。"
+ },
+ {
+  "line": 2703,
+  "title": "Vision-Based Autonomous Quadrupedal Robot for Rapid Post-Earthquake Crack-Based Building Damage Detection",
+  "text": "本研究提出了一套用于强化混凝土结构地震后基于裂缝的快速视觉损伤检测的四足机器人巡检系统。一台配备 Intel RealSense D435i RGB-D 相机的 Unitree Go2 机器人从野外现场和公开来源收集了包含 3255 张带标注裂缝图像的数据集。在 NVIDIA Jetson AGX Xavier 上训练并部署的 YOLOv8n 模型，在强化混凝土试件的实验室测试中展现出了出色的检测性能，精确率（Precision）、召回率（Recall）以及 mAP@50 值均超过了 85%。该系统提供了快速、准确且自动化的结构健康评估，降低了人员风险并提升了危险灾后环境下的巡检效率。"
+ },
+ {
+  "line": 2722,
+  "title": "SCAPE: Scenario-Conditioned Simulation-Augmented Policy Evaluation",
+  "text": "我们在自动驾驶和四足机器人速度跟踪任务上验证了 SCAPE。在仿真到仿真（Sim-to-Sim）研究中，相较于场景条件神经网络和聚合统计基线，SCAPE 将场景层面的预测误差平均降低了 4.9%/34.7%（驾驶）和 14.5%/27.7%（四足）。我们进一步评估了部署在物理 Unitree Go2 机器人上的速度跟踪策略。SCAPE 还提升了测试样本效率，产生了更窄且经过校准的预测区间，能更好地泛化到域外（Out-of-distribution）场景，并支持细粒度的部署策略。"
+ },
+ {
+  "line": 2728,
+  "title": "OccPlanner: Goal-Aware Occupancy-Conditioned Diffusion Planner for Pixel-Goal Navigation",
+  "text": "我们在 InternData-N1 上训练了 OccPlanner，并在 InternScenes 的四个未见场景类别和两个目标距离范围内进行了闭环仿真评估。在 5-8 米的设定下，OccPlanner 在四个类别中将相比 NavDP 的平均成功率（SR）从 20.81% 提升至 71.55%，并在“易杂乱（Cluttered-easy）”和“难杂乱（Cluttered-hard）”场景中分别达到了 86.20% 和 84.92%。在 Unitree Go2 上进行的真实世界开环实验进一步提供了 Sim-to-Real 迁移以及利用 L3ROcc 生成的监督进行自适应的初步证据。"
+ },
+ {
+  "line": 2734,
+  "title": "Semantic-Geometric Fusion NMPC for Executable Mapless Quadruped Navigation on Tactile Paving",
+  "text": "在配备 RGB-D 与 LiDAR 传感器的 Unitree Go2 四足机器人上进行的实验表明，与传统的路径提取和局部规划基线相比，该框架提升了路径覆盖率、缺口修复精度、无碰撞穿越能力，并降低了指令振荡。结果表明，所提框架提升了四足机器人在盲道环境中导航的鲁棒性与可执行性。"
+ },
+ {
+  "line": 2740,
+  "title": "Learning-Based Measurement-Robust Control Barrier Functions for Obstacle Avoidance under State Estimation Error",
+  "text": "我们提供了 DMR-CBF 的理论分析，并在平面双积分器（Planar double integrator）和 12 维四旋翼无人机（12D Quadrotor）上进行了数值实验，结果表明，在我们提出的方法成功防止碰撞的同时，其他鲁棒方法要么失败，要么过于保守。最后，我们将 NMR-CBF 部署于 Unitree Go2 机器人上，实现在导致标准 CBF 发生碰撞的里程计误差下，成功完成了障碍物区域的导航。"
+ },
+ {
+  "line": 2744,
+  "title": "CompCPZ: Preserving Multi-Modal Intent in Language-Guided Robot Manipulation",
+  "text": "当收到“将杯子放在红盘子或蓝盘子附近”的指令时，机器人可能会到达两者之间的质心位置，在几何形态上看似成功，却未能满足指令中的任何一个析取分支（Disjunct）。这种隐蔽的语义失败暴露了语言条件机器人策略（Language-conditioned robot policies）的结构性局限：将析取指令折叠为单个连通集的表示方式无法保留所有可行的模态（Feasible modes），而在运行时面对模态不确定性时盲目承诺单一动作的规划器性能会严重退化。为了解决这一局限，我们提出了 CompCPZ——一套完备的代数层，语言条件学习系统可以通过包裹该代数层来恢复多模态析取表示。它沿着语言语法解析树，递归组合每个原语的约束多项式 Zonotope 包络（Constrained polynomial zonotope enclosures），具备无分布符合性覆盖能力且运行时间达到毫秒级以下（Sub-millisecond）。在闭环 ManiSkill3 桌面操作基准测试中，CompCPZ 击败了凸集基线、多峰解码器以及零样本视觉-语言-动作（VLA）模型（取得 1,900/1,918 次成对胜出，p << 10^(-30)）；该编译器还在无需重新调校的情况下，成功迁移到了在运动捕捉系统下运行的 Unitree Go2 四足机器人的平面真实世界实验中。这些结果表明，组合式语言接地不仅应通过是否到达解码目标来评估，更应通过所表示的可行集是否保持了用户意图的连通分量结构来评估。"
+ },
+ {
+  "line": 2768,
+  "title": "Robot-Body-Aware Traversal Risk Graph Planning for Wheeled-Legged Robots in Complex Terrain",
+  "text": "我们在四个扫描地形环境的同图对比实验以及成对的闭环 MuJoCo 仿真试验中对 RB-TRG 进行了评估。RB-TRG 降低了三项核心几何机体放置指标，并将端到端成功率从 51.5% 提高至 68.5%，同时平均路径长度仅增加 2.3%。在 Go2-W 机器人上的部署进一步展示了 RB-TRG 与完整 LiDAR 导航栈的结合，该成果在 IEEE ICRA 2026 足式机器人挑战赛中荣获最佳自主奖（Best Autonomy）与最佳移动力奖（Best Mobility）。"
+ },
+ {
+  "line": 2879,
+  "title": "Accelerating Visual Policy Learning with Sampling-Based Model Predictive Control",
+  "text": "在单张 GPU 上，SGPS 为仿真环境中的宇树（Unitree）Go2 和 G1 机器人学习到了用于运动、障碍穿越、推箱子以及双手携物的策略。我们的实验进一步表明，精炼机制对策略学习的提升超出了单纯的初始化与跟踪。在硬件部署方面，蒸馏后的策略零样本（zero-shot）迁移至真实 Go2 机器人上，能够利用机载深度信息自主实现小跑（trot）、爬行（crawl）、跨越障碍，并在这些行为之间灵活切换。"
+ },
+ {
+  "line": 2903,
+  "title": "Contact as a Decision Variable: Capability-Tradeoff Contact Selection for Legged Loco-Manipulation",
+  "text": "研究团队在包含 AgileX NERO 机械臂的 Unitree Go2 四足机器人平台上，针对 392 种任务条件和 9 个可选支撑表面进行了仿真与硬件验证。评估结果表明，CTCS 显著优于纯地面支撑以及固定接触支撑的基线方法，能够根据任务需求灵活选择具备最佳能力权衡的环境支撑面。与对所有候选点进行逐一精确评估相比，CTCS 实现了约 3 倍的计算加速，同时保持了几乎一致的平均目标优化指标，为复杂环境下的即时全身接触规划与高负载移动操控提供了高效的算法支撑。"
+ },
+ {
+  "line": 2909,
+  "title": "Talk2Escape: Conversational Grounding for Vision-and-Language Navigation",
+  "text": "在包括 R2R-CE、RxR-CE 和 VLNVerse 在内的高保真模拟器中的广泛评估表明，Talk2Escape 能够在各种基础智能体上实现持续的性能提升。实证结果显示，Talk2Escape 在 R2R-CE 上取得了 66.0% 的成功率（Success Rate），超越了当前最新的监督式与零样本先进方法。此外，研究团队在 Unitree Go2 四足机器人上成功验证了其 Sim-to-Real 迁移能力，充分证明了主动式对话干预机制能够显著提升物理环境中导航的鲁棒性。"
+ },
+ {
+  "line": 2922,
+  "title": "ROOT: Discovering Rewards for User-Specified Embodied Behaviors",
+  "text": "研究团队在涵盖模拟 Hopper、HalfCheetah、Ant、Unitree Go2 以及真实世界 Unitree Go2 等 4 种机器人形态的 7 项复杂任务上对 ROOT 进行了全面评估。实验结果表明，ROOT 生成的行为较现有 LLM 奖励生成方法更能深度贴合用户意图，实现了高达 86.8% 的移动完整性准确率，并将 Vid-LLM 的行为对齐得分从 3.56 分提升至 4.14 分（实现了 16.5% 的显著提升）；广泛的人类主观盲评进一步验证了其优越性，在各项成对比较中获得了 51% 至 63% 的高偏好选择率，为具身智能中视觉一致性与策略优化的对齐提供了一种高效且具扩展性的全新路径。"
+ },
+ {
+  "line": 2936,
+  "title": "GG-Nav: Goal-oriented Grounding Chain-of-Thought Elicits Reasoning in Navigation Foundation Models",
+  "text": "在多项权威基准测试中，GG-Nav 展现出了显著的性能优势，在 HM3D ObjectNav、VL-LN 和 CoIN 基准上的成功率分别较现有最先进方法提升了 3.1%、16.6% 和 5.3%。消融实验进一步证实，累积中间观测证据使证据缺失导致的失败率降低了 11.6%，显式证据定位则将停止误差大幅减少了 49.4%。此外，研究团队将 GG-Nav 成功部署于 Unitree Go2 四足机器人上，充分验证了其在未见真实世界环境中的零样本泛化能力。"
+ },
+ {
+  "line": 2942,
+  "title": "SHOES: Sim-to-real Hardware-adaptation via On-policy Expansion of Skills for Legged Robots",
+  "text": "在配备不同鞋履的 Unitree Go2 四足机器人上的仿真实验表明，在极少的自适应预算下，SHOES 能够大幅恢复因形态变化而退化的移动性能；在相同的自适应开销下，其表现显著优于纯 FiLM、纯线性适配器（Linear Adapter）以及残差强化学习（Residual RL）等主流基线方法。进一步的真实世界硬件实验在穿戴真实人类鞋履的 Unitree Go2 上展开，全面验证了 SHOES 在面对物理装具变更时极佳的 Sim-to-Real 自适应能力与部署效率。"
+ },
+ {
+  "line": 2948,
+  "title": "Anticipatory Gait Switching for Quadrupeds via Look-Ahead MDP Planning",
+  "text": "研究团队在 Unitree Go2 四足机器人平台上开展了详尽的室内与室外实地实验。评估结果表明，与经过精心调参的被动反应式基线相比，该方法显著减少了晚期切换现象，大幅降低了机器人在粗糙地形上使用无效步态的时间，并明显改善了机器人的横滚轴稳定性。该基于 MDP 的前瞻性约束感知步态切换框架在无需针对特定场地进行繁琐重新调参的前提下，有效增强了四足机器人在复杂多变环境中的运动鲁棒性。"
+ },
+ {
+  "line": 2953,
+  "title": "Taming an End-to-End Autonomous Driving Policy for Urban Navigation of Quadruped Robots",
+  "text": "为此，本文提出了 Go2-DrivoR——一个将经典的端到端自主驾驶轨迹规划框架 DrivoR 进行目标条件化适配的创新系统。该方法通过引入目标 Token（goal token）将局部坐标系下的子目标显式地融入轨迹生成流程，并在不重新设计核心解码器的前提下对车辆中心评分机制进行了精细化适配；同时，针对人行道导航特性重新定义了可行驶区域的合规性约束，并将原有的自我进展项（ego progress term）演化为目标条件化的自我进展度量，从而高效支撑了四足机器人的短视界局部轨迹规划。"
+ },
+ {
+  "line": 2960,
+  "title": "Feedback-Modulated Harmonic Policies for Quadruped Locomotion",
+  "text": "通过将仿真中训练完成的谐波控制器部署至 Unitree Go2 四足机器人硬件平台上，研究团队对其极限运行性能与负载能力进行了实地验证。实验结果表明，该控制器在独立测试中记录了高达每秒 3.67 米的机载估计峰值速度，并成功在背部承载高达 5.883 公斤的额外负载。这一成果充分证明了显式傅里叶级数表征与在线状态反馈相结合的控制策略，在实现高速奔跑及强大负载适应性方面的卓越效能。"
+ },
+ {
+  "line": 2966,
+  "title": "PROOF: Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion",
+  "text": "研究团队在配备 RealSense D435 深度相机的 Unitree Go2 四足机器人上对 PROOF 进行了真实世界的全面验证。在正常视觉条件下，该方法使机器人能够流畅执行高动态的跑酷机动，包括精准跨越大型鸿沟、登上高架平台以及在狭窄独木桥地形上平稳穿行；而在遭遇重度遮挡、强光突变等严重视觉退化场景时，机器人依然能够维持稳定、可靠的移动性能，有效解决了视觉感知失效带来的安全隐患。"
+ },
+ {
+  "line": 2972,
+  "title": "SG-CPG: Severity-Gated Central Pattern Generators for Adaptive Quadruped Locomotion under Continuous Actuator Degradation",
+  "text": "在 Unitree Go2 四足机器人上的仿真实验表明，在经历高达 95% 的关节力量损失且全向指令调度下，SG-CPG 依然保持了 100% 的小跑步态（trot）生存率，同时将指令跟踪误差控制在 8% 以内。在扭矩上限降低的场景下，若移除残差门中的严重程度观测或振幅门，当力量损失达到 80% 时，受损关节的饱和限幅比例将分别从 4.4% 飙升至 13.6% 和 26.3%。此外，在真实的 Unitree Go2 硬件平台上，面对高达 93% 的小腿扭矩退化，SG-CPG 在 29 次前向与转向测试中成功完成了 28 次。这些实验结果充分证明，基于严重程度门控的自适应策略能够将健康的运动控制能力无缝扩展至执行器渐进式衰退的场景中，避免了将故障视为离散失效的传统弊端。"
+ },
+ {
+  "line": 2984,
+  "title": "Deformable Object Manipulation under Partial Observability via Real-Time Full-Shape Estimation",
+  "text": "在针对绳索与织物的仿真评估中，cRVAE 在保持与参数辨识后的 XPBD 模型相媲美精度的同时，展现出了压倒性的计算效率优势：其单步前向推理速度在绳索任务中比 XPBD 快约 350 倍，在织物任务中更是超过 1500 倍，从而将时域规划控制稳稳维持在 100 毫秒的严格控制预算之内（而 XPBD 在短时域内即告超时）。这种在控制循环内实现全形态高速估计的能力，为其在真实硬件上的落地铺平了道路，研究团队最终在 Unitree Go2 四足机器人平台上成功验证了该算法在真实世界的协同操控效能。"
+ },
+ {
+  "line": 2990,
+  "title": "Transporting Unsecured Stacked Payloads with a Quadrupedal Robot via Multi-Objective Reinforcement Learning",
+  "text": "在仿真实验中，PAMORT 在多种负载配置下展现出了卓越的泛化能力，不仅在常规任务中表现优异，甚至在仅使用两箱配置训练的情况下，实现了向未见的三箱堆叠任务的零样本泛化，整体运输成功率显著优于单一目标的对比基线。研究团队将该算法零样本部署至真实的 Unitree Go2 四足机器人硬件平台上，在难度达到或超过训练水平的坡道与台阶场景中进行了严苛测试。在涵盖八项任务的真实世界评估中，PAMORT 的平均成功率达到了 0.850，而对照基线仅为 0.675，充分证明了基于本体感觉的在线移动-负载权衡自适应机制在无固定载荷运输中的强大鲁棒性。"
+ },
+ {
+  "line": 2996,
+  "title": "E2DRL: End-to-End Differentiable Reinforcement Learning for 3D Obstacle Avoidance in Quadruped Robots",
+  "text": "在仿真评估中，E2DRL 展现出远超传统 PPO 的样本效率，并在速度跟踪性能以及三维障碍物规避能力上全面优于 PPO 与基于对偶的 DCBF NMPC 基线方法。研究团队在 Unitree Go2 四足机器人上完成了动静态环境下的实地测试，实现了端到端可微分强化学习在三维障碍物规避任务中的首次仿真到真实世界（sim-to-real）的成功验证，显著拓展了可微分控制在复杂具身智能场景中的应用边界。"
+ },
+ {
+  "line": 3001,
+  "title": "Walking on Roofs: Exploring the Potential of Walking Robots for Construction Work on Roofs",
+  "text": "为了科学评估机器人的基准性能，研究团队搭建了一个专属的屋顶表面物理测试台，并以商用四足机器人 Unitree Go2 作为实验平台进行系统性测试。实验重点考察了机器人在不同倾斜角度下的移动基准，深入分析了足端与屋顶建筑材质之间的接触力学、起立与躺下等基础姿态转换的可行性，以及滑动动力学特征。通过精确隔离标准移动基元在屋顶材料上的失效模式，该研究揭示了通用室内外控制范式在面对极端摩擦变化和重力偏置时的局限性，为理解足式机器人在非结构化建筑外立面上的动力学交互提供了重要数据支撑。"
+ },
+ {
+  "line": 3008,
+  "title": "On-Device Vision-Language Reasoning for Context-Aware Event Verification and Label-Free Detector Training on an Assistive Quadruped",
+  "text": "研究团队以人类跌倒检测这一安全关键型案例来验证这种上下文依赖的推理能力，并在 UR-Fall 数据集以及真实硬件平台——Unitree Go2 四足机器人上开展了系统的评估，充分证明了该方法在实际复杂具身环境中的可行性。"
+ },
+ {
+  "line": 3013,
+  "title": "LocoPilot: Single-Operator Bilateral Teleoperation for Loco-Manipulation Policy Learning",
+  "text": "为此，本文提出了 LocoPilot——一个专为四足移动操作设计的单操作员双边遥操作与数据收集框架。该系统在一个 12 自由度的 Unitree Go2 四足机器人平台上进行实现，该平台集成了 6 自由度的 AgileX Piper L 机械臂、Intel RealSense D435 腕部相机以及 Intel RealSense D405 头部相机。系统通过第二个 6 自由度 Piper L 机械臂作为主端（leader）并配合两个手持控制器，实现对移动底座、躯干姿态、机械臂及夹爪的并发控制；随动臂的交互力在无需专用力/力矩传感器的前提下进行估计，并通过受无源性约束的触觉通道渲染给操作员。同时，一个 ROS 2 管道负责记录同步的多模态观测数据，并提供了一个统一的 11 维动作空间，贯穿遥操作与策略部署的全过程。"
+ },
+ {
+  "line": 3020,
+  "title": "LLA-MPPI: Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations",
+  "text": "在四项模拟任务的综合评估中，LLA-MPPI 取得了 97.5% 的成功率，而最强对比基线仅为 74%，逼近拥有真实模型信息的理想预言机（oracle）所达到的 98.5%。研究团队在 Unitree Go2 四足机器人硬件平台上对该系统进行了严格的物理验证，实验表明机器人成功实现了在运行中途添加负载、单条腿失效后继续正常行走，以及在动态增加质量的同时推动箱子到达目标位置等高难度任务，充分彰显了该方法在应对复杂环境突变时的卓越鲁棒性与在线自适应能力。"
+ },
+ {
+  "line": 3026,
+  "title": "Efficient Test-Time Adaptation For Robot Policies",
+  "text": "在 MuJoCo Playground 仿真环境中针对 Go1、Go2 和 G1 机器人在四种代表性环境偏移及多种架构下进行的评估表明，TEMPO 实现了稳定的性能增益，在单设备设置下取得了高达 80% 的性能提升。此外，研究人员在搭载了额外小腿负载的真实 Unitree Go2 硬件平台上进行了实地验证，完全机载的自适应策略在真实世界的多次测试中均显著优于未经自适应的基线。"
+ },
+ {
+  "line": 3032,
+  "title": "Unified Whole-Body Control for Quadrupedal Tactile-Informed Loco-Manipulation",
+  "text": "研究团队将该策略零样本（zero-shot）部署至搭载了 Interbotix WidowX 250 机械臂及触觉夹爪的 Unitree Go2 四足机器人平台上。实验结果表明，TAC-LOCO 在面对多变的外界物理交互时展现出了卓越的动态触觉感知移动操作能力，成功实现了抓握力降低 47% 且物体跌落率低于 1% 的优异性能，显著提升了移动操作系统的智能化水平与鲁棒性。"
+ },
+ {
+  "line": 3038,
+  "title": "MagGAT: Structure-Aware Spatiotemporal Graph Attention for Motor-Induced Magnetic Interference Compensation in Quadruped Robots",
+  "text": "研究团队在室内外环境中利用 Unitree Go2 四足机器人采集了同步的近场与远场测量数据、关节角度、角速度以及指令力矩，对 MagGAT 进行了系统性评估。实验结果表明，在采用不同随机种子进行的多次运行中，MagGAT 的三轴磁场残余均方根误差（RMSE）均保持在 87.72–89.41 nT 之间，全面超越了基于物理的固定参数模型、静态神经网络方法以及时间卷积基线；消融实验进一步证实了空间图建模与时间建模对于提升补偿精度的关键作用，为抑制紧凑型足式机器人上的电机感应磁干扰提供了高效的结构感知时空学习方案。"
+ },
+ {
+  "line": 3044,
+  "title": "CMP-IRRT*: A Perception-Assisted Height-Adaptive Planner for Quadruped Robots",
+  "text": "在二维规划基准测试中，CMP-IRRT* 相比传统与神经引导的基线方法显著减少了探索节点数与迭代次数，且控制消融实验充分证实了基于 Mamba 的引导模块的核心贡献。在构建的可通行性感知场景中，当低矮障碍物允许通行时，该规划器将路径长度缩短了高达 16.3%；研究团队进一步在 Unitree Go2 四足机器人平台上完成了实地部署，成功验证了该系统在真实物理环境中执行绕行与跨越行为的卓越可行性。"
+ },
+ {
+  "line": 3050,
+  "title": "A Model-Based Approach to Security Assessment of Robotic Systems in Healthcare: The Case of a Quadruped Robot",
+  "text": "研究团队以部署在康复中心中的 Unitree Go2 Air 机器人狗为例，展示了该方法的各个方面。文章详细展示了为 LLM 创建提示词模板的初步步骤，并通过实例验证了通用指导词与基于模型的指导词在帮助非专家构建更具相关性的攻击树过程中的重要实用价值。"
+ },
+ {
+  "line": 3056,
+  "title": "PROMO: Preference-conditioned Multi-Objective Reinforcement Learning for Quadrupedal Robots",
+  "text": "在仿真环境对 100 种采样偏好的评估中，有 67 种行为在精确帕累托优势（Pareto dominance）下达成了非支配解，其平均偏好-目标相关性高达 0.843，充分证明了该方法具备广泛的帕累托前沿覆盖率与高度可预测的偏好响应特性。研究团队将该策略零样本（zero-shot）部署至真实的 Unitree Go2 四足机器人平台上，实验结果表明，仅通过动态改变偏好设置，即可使机器人的特定能耗降低高达 30.4%、位置误差减少 38.7%、峰值躯干姿态偏差降低 59.0%（相对于平衡偏好），确立了偏好条件化多目标强化学习作为自适应足式移动实用运行时接口的核心价值。"
+ },
+ {
+  "line": 3062,
+  "title": "Weakly Supervised Discovery of Motion Styles for Compositional Robot Control",
+  "text": "研究团队在两个仿真器以及真实物理硬件平台上，以 Unitree Go2 四足机器人为对象对 CODES 进行了全面评估。实验结果表明，与传统基线方法相比，CODES 显著提升了运动学连贯性（kinematic coherence）。此外，该控制器能够成功跟踪超出录制数据支持范围的速度指令，在跨仿真器与真实世界的硬件部署中均展现出鲁棒且清晰可辨的风格特征。"
+ },
+ {
+  "line": 3068,
+  "title": "EIDA: Execution-Interface Dynamics Adaptation for Real-to-Sim-to-Real Robot Navigation",
+  "text": "在 Jackal 和 Go2 的完整验证集上，EIDA 拟合模型相比模拟器预定义的运动模型显著降低了位置和偏航预测误差。在包含 100 个基准导航环境的独立基于物理的模拟器评估中，EIDA 在有或无全局引导的情况下均取得了最高的成功率与导航得分，而反馈消融实验则进一步验证了匹配策略端速度估计的必要性。在真实的 Unitree Go2 硬件平台测试中，EIDA 在全部 20 次静态场景试验中均实现了无碰撞到达目标（相比之下基线方法仅为 4/20），充分证明了执行-接口自适应在无需详细执行器模拟的情况下大幅提升导航迁移性能的卓越效能。"
+ },
+ {
+  "line": 3073,
+  "title": "Navigation Explainability for Object Avoidance with LLMs for Assistive Robots",
+  "text": "该系统将视觉/环境感知上下文与规划的未来运动轨迹进行深度融合，从而生成针对机器人行为的自然语言解释，提升人机交互中的透明度。研究团队将该框架部署于 Unitree Go2 四足机器人平台上，并在室内导航场景中开展了系统评估，重点探究了不同的解释上下文配置（context configurations）对用户信任度（trust）与解释满意度（explanation satisfaction）的具体影响。"
+ },
+ {
+  "line": 3080,
+  "title": "Predict Before You Step: Auditable Occupancy Forecasting for Dynamic Obstacle Avoidance under Sparse Guidance",
+  "text": "在同步交会的 Isaac Lab 仿真评估中，LOOP 在 2.5–3.2 m/s 的障碍物速度下取得了 57.1% 的正面交会成功率，超越了重新训练的反应式基线 8.2 个百分点；与无展开（rollout-free）的 BEV 策略相比，它在最高正面交会速度下表现出更优的跨越成功率以及更低的训练种子变异性。研究团队将该算法适配器成功部署在 Unitree Go2 真实硬件上，单步执行耗时仅为 14.5 毫秒，并在全部 16 次真实世界的交叉穿行试验中均实现了零碰撞通过，充分验证了其出色的实时部署可行性与鲁棒性。"
+ },
+ {
+  "line": 3086,
+  "title": "CAST: Alternating State-Value Targets and Expanded Policy Gradients for Model-Based Reinforcement Learning",
+  "text": "研究团队在 DeepMind Control 和 HumanoidBench 基准测试集上将 CAST 与多种最先进的方法进行了全面对比评估，并成功将其迁移至真实的 Unitree Go2 四足机器人硬件平台上，使其完成了高动态的倒立（dynamic handstand）动作，充分验证了该方法在处理复杂、高动态控制任务中的优越性能与强大鲁棒性。"
+ },
+ {
+  "line": 3092,
+  "title": "SparseNav: Instruction-conditioned Sparse Semantic Perception for Training-Free Vision-Language Navigation",
+  "text": "在没有任何额外训练的情况下，SparseNav 在 R2R-CE 和 RxR-CE 的 Val-Unseen 验证集上分别取得了 42.8% 和 40.7% 的成功率，受控消融实验也深入探讨了语义感知策略与各框架组件的具体贡献。研究团队进一步将 SparseNav 部署在搭载了 Intel RealSense D455 RGB-D 相机（用于几何建图与地标定位）和 Livox MID-360 LiDAR（用于定位）的 Unitree Go2 四足机器人平台上，在没有预建地图的真实条件下，通过指令条件航点导航在多个室内环境中成功验证了该系统的强大泛化能力与实际有效性。"
+ },
+ {
+  "line": 3098,
+  "title": "AVALON: Zero-Shot Indoor Navigation with Human-Seeded Topological Memory",
+  "text": "研究团队在 Unitree Go2 四足机器人平台上开展了广泛的实验。结果表明，搭载 X-NavDP 的 AVALON 仅用 46.4 秒便成功完成了 12.81 米的“十字路口到餐厅（Intersection-to-Dining）”导航任务（成功率 5/5 且无需任何预先建图），耗时比 DimOS-Go2（78.5 秒，成功率 4/5）减少了 40.9%，而纯策略（policy-only）的 X-NavDP 在所有 5 次运行中均宣告超时，充分证明了该拓扑导航框架在应对非结构化人类熟悉环境时的卓越优越性与鲁棒性。"
+ },
+ {
+  "line": 3103,
+  "title": "VAMPS: Visual and Motor Policies from Sampling-Based Planning",
+  "text": "VAMPS 灵活支持两种核心训练模式。首先，针对单步本体感觉策略，系统在仿真环境中进行迭代运行：策略为 MPPI 提供温启动（warm-start），经精炼的轨迹不断反馈新的监督信号，并引入学习得到的终点价值与隐式 Q 学习（IQL）评论家共同指导策略更新，这种迭代精炼机制显著优于传统单次训练，并成功迁移至真实的 Unitree Go2 四足机器人上。其次，针对视觉运动策略，系统直接从真实机器人数据中学习，利用 MPPI 在 Flexiv Rizon 10S 机械臂上规划执行轨迹并记录多模态观测，同时采用带 Transformer 的动作分块（Action Chunking with Transformers, ACT）技术离线训练以缩短有效预测时域。"
+ },
+ {
+  "line": 3110,
+  "title": "Have You Seen It Clearly? Uncertainty-Guided Belief Refinement for Zero-Shot Object Navigation",
+  "text": "在 HM3D 和 MP3D 数据集上的评估实验表明，RefBeliefMap 与 RefBeliefNav 在受评的零样本基线方法中取得了最先进的性能表现（SOTA），消融实验进一步证实了各个核心模块的具体贡献；研究团队还在 Unitree Go2 四足机器人平台上开展了真实世界实验，成功验证了该方法卓越的仿真到现实（sim-to-real）迁移能力。"
+ },
+ {
+  "line": 3116,
+  "title": "InsightMap: Structured Spatial Modeling for Embodied Multimodal Reasoning",
+  "text": "在 R2R-CE 和 RxR-CE 的 Val-Unseen 验证集上，InsightMap 分别取得了 56.9% 和 54.9% 的成功率（SR），加入地图预测监督使 R2R-CE 的 SR 提升了 4.3、SPL 提升了 3.2 个百分点，并在多个静态空间基准任务中表现优异。研究团队进一步将 InsightMap 部署在 Unitree Go2 四足机器人平台上，在走廊、实验室和办公室等真实环境中展现出全面超越 NaVid 与 NaVILA 的卓越性能。"
+ },
+ {
+  "line": 3122,
+  "title": "Reliability-Aware Sparse Route Memory for Round-Trip Vision-Language Navigation",
+  "text": "研究团队基于 NaVILA 框架并在模拟的 Unitree Go2 四足机器人平台上开展了成对返程测试。实验结果表明，该在线系统显著提升了返程成功率，清晰地揭示了信息质量、行为一致性与在线可靠性是制约长视野往返导航性能的三个独立关键边界。"
+ },
+ {
+  "line": 3128,
+  "title": "Scaffolding Foundation Models into Physical-World Agents Pushes the Frontier of Long-Horizon Navigation",
+  "text": "在具身问答（Embodied Question Answering, EQA）基准测试中，NavMCP 在 HM-EQA、MT-HM3D 和 EXPRESS-Bench 上均取得了最先进的性能（SOTA），在匹配的智能体与执行器骨干网络下，其性能在 HM-EQA 上超越剧集式接口 14.9 个百分点。研究团队进一步将其部署在真实的 Unitree Go2 四足机器人平台上，NavMCP 达到了 78.3% 的导航成功率，且随着任务视野（task horizon）的不断扩大，其相比最强基线的领先优势从 10 个百分点大幅扩大至 45 个百分点，充分展现了将互补基础模型通过脚手架机制整合为长视野物理世界智能体的巨大潜力。"
+ },
+ {
+  "line": 3134,
+  "title": "Structure over Reasoning: Unified Zero-Shot Navigation with a Small Vision-Language Model",
+  "text": "在 VLNVerse 子集的统一安装与预算基准重测中，该智能体在两种粒度的平均成功率上均超越了全部四个零样本基线（尽管针对最强粗粒度基线的成对区间包含零）。消融实验表明终止机制是核心支配杠杆，且尝试赋予模型更多导航任务的十三次尝试均未建立可靠收益；研究团队最终在搭载离线推理的 Unitree Go2 四足机器人平台上成功部署并验证了该系统。"
+ },
+ {
+  "line": 3140,
+  "title": "MSR-SLAM: A Multi-Stage Map-Refinement Framework for Reliable LiDAR–Inertial SLAM in GPS-Denied Environments",
+  "text": "研究团队利用搭载 16 线激光雷达的 Unitree Go2 四足机器人，在室内、室外及地下等多种复杂场景进行了系统性的实测评估。实验结果表明，在无回环的隧道场景中，全部 310 个检索到的候选回环均在几何验证阶段被成功剔除，轨迹保持完好；而在 KITTI 00 序列的基准测试中，MSR-SLAM 将 RKO-LIO 的绝对轨迹误差（ATE RMSE）从 9.5525 米大幅降低至 4.9322 米（降幅达 48.4%），同时保持了短期的相对姿态误差不变，充分证明了该框架在复杂重复环境中保持全局一致性与鲁棒性的卓越性能。"
+ },
+ {
+  "line": 3323,
+  "title": "RecMorph: Topology-Guided Spatial Recurrence for Generalized Morphology Control",
+  "text": "Generalized morphology control requires a single policy to transform information across limbs with different physical roles, coordinate whole-body motion, and remain efficient as body size grows. Existing communication mechanisms address these requirements only partially. We introduce RecMorph, a topology-guided spatial recurrent architecture that uses recurrent sequence computation to jointly perform cross-limb communication and representation transformation. A depth-first traversal converts the kinematic tree into a morphology-derived sequence, along which shared bidirectional transitions progressively transform limb information before action decoding. Residual preservation, RMS normalization, and input-dependent channel modulation stabilize this repeated spatial transformation, yielding linear token complexity at fixed model width and depth. Across five UNIMAL tasks, RecMorph achieves the strongest mean final training performance among the evaluated generalized morphology controllers and the highest measured inference throughput on FT, while generalizing to unseen variations and bodies with up to 30 limbs. We further migrate representative generalized controllers from UNIMAL ben"
+ },
+ {
+  "line": 3381,
+  "title": "PRISM: Bridging Multimodality and Real-Time Control in Multisensory Policies",
+  "text": "在真实世界实验中，PRISM 应用于 Unitree Go2 四足机器人搭载七自由度机械臂的移动操作任务，以及 UR5 机械臂的桌面操作任务。与扩散策略相比，PRISM 的任务成功率提高了 10–25 个百分点，同时能够维持 30–50 Hz 的闭环控制频率。在语言条件控制的 CALVIN ABCD 基准测试中，PRISM 相较于扩散方法的成功率提高约 31 个百分点，相较于流匹配方法提高约 24 个百分点，同时将轨迹急动度（Trajectory Jerk）降低了 20–70 倍。"
+ },
+ {
+  "line": 3399,
+  "title": "CoSMO Conformal Semantic Mapping for Open-World Safe Robot Navigation",
+  "text": "在 Matterport3D（MP3D）数据集上的实验表明，与仅基于几何信息的基线方法相比，CoSMO 将语义碰撞减少了 61.6%，同时即使在专家反馈存在延迟的情况下，仍能保持形式化覆盖率保证。在 Unitree Go2 机器人上开展的真实世界实验进一步验证了该方法在仿真环境之外的泛化能力：在检测器反馈延迟的条件下，其长期实测覆盖率达到 90.73%，高于 90% 的目标覆盖率。"
+ }
+]

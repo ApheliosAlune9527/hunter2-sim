@@ -1,0 +1,3794 @@
+[
+ {
+  "id": "1pmKknqDL3FCc27krQdFTjtqJqCXoeag8",
+  "url": "https://drive.google.com/drive/folders/1pmKknqDL3FCc27krQdFTjtqJqCXoeag8",
+  "kind": "Folder",
+  "title": "1.Expressive Whole-Body Control for Humanoid Robots"
+ },
+ {
+  "id": "1bHPImKxATyYajtvGd9S5Ew_2mcge09B_",
+  "url": "https://drive.google.com/drive/folders/1bHPImKxATyYajtvGd9S5Ew_2mcge09B_",
+  "kind": "Folder",
+  "title": "10.Design and Control of a Bipedal Robotic Character"
+ },
+ {
+  "id": "1FGQgsRYydTCNEMhcmL9NZYqsYPvXFxcV",
+  "url": "https://drive.google.com/drive/folders/1FGQgsRYydTCNEMhcmL9NZYqsYPvXFxcV",
+  "kind": "Folder",
+  "title": "100.Gallant Voxel Grid-based Humanoid Locomotion and Local-navigation across 3D Constrained Terrains"
+ },
+ {
+  "id": "1UafWBrzaQrF2uzcbUMwxNrShQ-mEi9FA",
+  "url": "https://drive.google.com/drive/folders/1UafWBrzaQrF2uzcbUMwxNrShQ-mEi9FA",
+  "kind": "Folder",
+  "title": "101.TWIST2 Scalable, Portable, and Holistic Humanoid Data Collection System"
+ },
+ {
+  "id": "1df19WJXoADbTsFIGe6ZwIPiCjr4o2N4v",
+  "url": "https://drive.google.com/drive/folders/1df19WJXoADbTsFIGe6ZwIPiCjr4o2N4v",
+  "kind": "Folder",
+  "title": "102.SENTINEL A Fully End-to-End Language-Action Model for Humanoid Whole Body Control"
+ },
+ {
+  "id": "1mYvUVvy-o3QC9i8X2yTHT997SNLztjw8",
+  "url": "https://drive.google.com/drive/folders/1mYvUVvy-o3QC9i8X2yTHT997SNLztjw8",
+  "kind": "Folder",
+  "title": "103.Towards Adaptive Humanoid Control via Multi-Behavior Distillation and Reinforced Fine-Tuning"
+ },
+ {
+  "id": "1ND7oNOsEpLMLoVRo_WaqlVNup2aAMo5q",
+  "url": "https://drive.google.com/drive/folders/1ND7oNOsEpLMLoVRo_WaqlVNup2aAMo5q",
+  "kind": "Folder",
+  "title": "104.Humanoid Everyday A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation"
+ },
+ {
+  "id": "1O-EGkclfSqg6jBEqxyWNBt1BPf6Gncxl",
+  "url": "https://drive.google.com/drive/folders/1O-EGkclfSqg6jBEqxyWNBt1BPf6Gncxl",
+  "kind": "Folder",
+  "title": "105.SPIDER Scalable Physics-Informed Dexterous Retargeting"
+ },
+ {
+  "id": "1t7CSvYl_jfIEHb541zfRWTwD_Zc_xghd",
+  "url": "https://drive.google.com/drive/folders/1t7CSvYl_jfIEHb541zfRWTwD_Zc_xghd",
+  "kind": "Folder",
+  "title": "106.BFM-Zero A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning"
+ },
+ {
+  "id": "1cr-olwyQ4iwCrGTNoPig7-767nPmeBWZ",
+  "url": "https://drive.google.com/drive/folders/1cr-olwyQ4iwCrGTNoPig7-767nPmeBWZ",
+  "kind": "Folder",
+  "title": "107.In-N-On Scaling Egocentric Manipulation with in-the-wild and on-task Data"
+ },
+ {
+  "id": "1Q2pCWIYRlO1ofj21cH8TH_7IusheA4wy",
+  "url": "https://drive.google.com/drive/folders/1Q2pCWIYRlO1ofj21cH8TH_7IusheA4wy",
+  "kind": "Folder",
+  "title": "108.ToggleMimic A Two-Stage Policy for Text-Driven Humanoid Whole-Body Control"
+ },
+ {
+  "id": "1TLRrGsGluLq3RtB6yRBxYQXbNRxhuLQi",
+  "url": "https://drive.google.com/drive/folders/1TLRrGsGluLq3RtB6yRBxYQXbNRxhuLQi",
+  "kind": "Folder",
+  "title": "109.SONIC Supersizing Motion Tracking for Natural Humanoid Whole-Body Control"
+ },
+ {
+  "id": "1fYlOEjcIcR6ziQGpyucJNeCOo55T4AcR",
+  "url": "https://drive.google.com/drive/folders/1fYlOEjcIcR6ziQGpyucJNeCOo55T4AcR",
+  "kind": "Folder",
+  "title": "11.SkillMimic： Learning Reusable Basketball Skills from Demonstrations"
+ },
+ {
+  "id": "1zyS1Qv5uE0zvnhOaFDq-Pav0LSgzq1o6",
+  "url": "https://drive.google.com/drive/folders/1zyS1Qv5uE0zvnhOaFDq-Pav0LSgzq1o6",
+  "kind": "Folder",
+  "title": "110.Switch-JustDance Benchmarking Whole Body Motion Tracking Policies Using a Commercial Console Game"
+ },
+ {
+  "id": "1wCK5ncyodpLVwxG95w14h-qpnMQ_akZB",
+  "url": "https://drive.google.com/drive/folders/1wCK5ncyodpLVwxG95w14h-qpnMQ_akZB",
+  "kind": "Folder",
+  "title": "111.HMC Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation"
+ },
+ {
+  "id": "1zJHaAgC31HexxRoQfONV_-gqdWmknhFi",
+  "url": "https://drive.google.com/drive/folders/1zJHaAgC31HexxRoQfONV_-gqdWmknhFi",
+  "kind": "Folder",
+  "title": "112.RoboCOIN An Open-Sourced Bimanual Robotic Data COllection for INtegrated Manipulation"
+ },
+ {
+  "id": "1gbHEvNuYoln8ZE0c_9PYDfVNUqBzWvRz",
+  "url": "https://drive.google.com/drive/folders/1gbHEvNuYoln8ZE0c_9PYDfVNUqBzWvRz",
+  "kind": "Folder",
+  "title": "113.From Power to Precision Learning Fine-grained Dexterity for Multi-fingered Robotic Hands"
+ },
+ {
+  "id": "1OQ3IYuCCo0xcZ1mVObydmKB0spp-8gM0",
+  "url": "https://drive.google.com/drive/folders/1OQ3IYuCCo0xcZ1mVObydmKB0spp-8gM0",
+  "kind": "Folder",
+  "title": "114.CLONE Closed-Loop Whole-Body Humanoid"
+ },
+ {
+  "id": "15fQd625ug3rMTyTJMIghHnBmICueT80g",
+  "url": "https://drive.google.com/drive/folders/15fQd625ug3rMTyTJMIghHnBmICueT80g",
+  "kind": "Folder",
+  "title": "115.Humanoid Goalkeeper Learning from Position Conditioned Task-Motion Constraints"
+ },
+ {
+  "id": "10kVBOMTdNrvYUWm6Zk6yx0RMaaNO8bX5",
+  "url": "https://drive.google.com/drive/folders/10kVBOMTdNrvYUWm6Zk6yx0RMaaNO8bX5",
+  "kind": "Folder",
+  "title": "116.METIS Multi-Source Egocentric Training for Integrated Dexterous Vision-Language-Action Model"
+ },
+ {
+  "id": "1-cLaAmeIotlvKx-few1HvEoES_JSOEeQ",
+  "url": "https://drive.google.com/drive/folders/1-cLaAmeIotlvKx-few1HvEoES_JSOEeQ",
+  "kind": "Folder",
+  "title": "117.Unveiling the Impact of Data and Model Scaling on High-Level Control for Humanoid Robots"
+ },
+ {
+  "id": "1dC1w7bOwoDJPsn2h2hB6cLUc8aHr92tr",
+  "url": "https://drive.google.com/drive/folders/1dC1w7bOwoDJPsn2h2hB6cLUc8aHr92tr",
+  "kind": "Folder",
+  "title": "118.HAFO Humanoid Force-Adaptive Control for Intense External Force Interaction Environments"
+ },
+ {
+  "id": "1vyJukx7Hac1xxCvk-K3d5wo8RLkbIabL",
+  "url": "https://drive.google.com/drive/folders/1vyJukx7Hac1xxCvk-K3d5wo8RLkbIabL",
+  "kind": "Folder",
+  "title": "119.Stylized Locomotion Control for Bipedal Humanoid Robots with Adversarial Motion Priors"
+ },
+ {
+  "id": "1dqIzaMEUp5uJjXX3w2cztdVjbqGARzrF",
+  "url": "https://drive.google.com/drive/folders/1dqIzaMEUp5uJjXX3w2cztdVjbqGARzrF",
+  "kind": "Folder",
+  "title": "12.ACE： A Cross-Platform Visual-Exoskeletons System for Low-Cost Dexterous Teleoperation"
+ },
+ {
+  "id": "1v_wm0FEQ1DXRayChF6pT6QZjL3LVqdk5",
+  "url": "https://drive.google.com/drive/folders/1v_wm0FEQ1DXRayChF6pT6QZjL3LVqdk5",
+  "kind": "Folder",
+  "title": "120.Being-0 A Humanoid Robotic Agent with Vision-Language Models and Modular Skills"
+ },
+ {
+  "id": "1N2rAV2NQ-dNzZEaPI3v7PDiM2aFaZjL8",
+  "url": "https://drive.google.com/drive/folders/1N2rAV2NQ-dNzZEaPI3v7PDiM2aFaZjL8",
+  "kind": "Folder",
+  "title": "121.Commanding Humanoid by Free-form Language A Large Language Action Model with Unified Motion Vocabulary"
+ },
+ {
+  "id": "1ojmIEXTk_WbeUSD2IKmx175IqkbQjLMu",
+  "url": "https://drive.google.com/drive/folders/1ojmIEXTk_WbeUSD2IKmx175IqkbQjLMu",
+  "kind": "Folder",
+  "title": "122.Semantic Co-Speech Gesture Synthesis and Real-Time Control for Humanoid Robots"
+ },
+ {
+  "id": "1939FEdI-SSzzi8fJY-UPUa3JQsq_YzJ4",
+  "url": "https://drive.google.com/drive/folders/1939FEdI-SSzzi8fJY-UPUa3JQsq_YzJ4",
+  "kind": "Folder",
+  "title": "123.Learning Sim-to-Real Humanoid Locomotion in 15 Minutes"
+ },
+ {
+  "id": "1boprLf9_Xg02DuvHXN4ScQ0Qvo4KK4QG",
+  "url": "https://drive.google.com/drive/folders/1boprLf9_Xg02DuvHXN4ScQ0Qvo4KK4QG",
+  "kind": "Folder",
+  "title": "124.SafeHumanoid VLM-RAG-driven Control of Upper Body Impedance for Humanoid Robot"
+ },
+ {
+  "id": "1LkZREi2WvbicoSiqrMZcOcuYVW7F9xtm",
+  "url": "https://drive.google.com/drive/folders/1LkZREi2WvbicoSiqrMZcOcuYVW7F9xtm",
+  "kind": "Folder",
+  "title": "125.From Generated Human Videos to Physically Plausible Robot Trajectories"
+ },
+ {
+  "id": "1n-BCo_axpwMIGwkjEYMBNzTaiTvP6YDk",
+  "url": "https://drive.google.com/drive/folders/1n-BCo_axpwMIGwkjEYMBNzTaiTvP6YDk",
+  "kind": "Folder",
+  "title": "126.H-Zero Cross-Humanoid Locomotion Pretraining Enables Few-shot Novel Embodiment Transfer"
+ },
+ {
+  "id": "1IHW1_s83azzlx98ConTwzOb_hTufAh4G",
+  "url": "https://drive.google.com/drive/folders/1IHW1_s83azzlx98ConTwzOb_hTufAh4G",
+  "kind": "Folder",
+  "title": "127.Arcadia Toward a Full-Lifecycle Framework for Embodied Lifelong Learning"
+ },
+ {
+  "id": "1f6b7GvWUz383J52y9RVRnUVKiR4qvRfW",
+  "url": "https://drive.google.com/drive/folders/1f6b7GvWUz383J52y9RVRnUVKiR4qvRfW",
+  "kind": "Folder",
+  "title": "128.LoGoPlanner Localization Grounded Navigation Policy with Metric-aware Visual Geometry"
+ },
+ {
+  "id": "11Bt-kRgye4CR3crditVUR7wV_4sXG02q",
+  "url": "https://drive.google.com/drive/folders/11Bt-kRgye4CR3crditVUR7wV_4sXG02q",
+  "kind": "Folder",
+  "title": "129.Robots Watching Robots – Human Pose Estimation Applied to Humanoid Robots"
+ },
+ {
+  "id": "1MlFHgo8mlf1XYsiEixEQuWL0ZnliWRRQ",
+  "url": "https://drive.google.com/drive/folders/1MlFHgo8mlf1XYsiEixEQuWL0ZnliWRRQ",
+  "kind": "Folder",
+  "title": "13.BiGym：A Demo-Driven Mobile Bi-Manual Manipulation Benchmark"
+ },
+ {
+  "id": "1cTNgzvvYOWuhnjZFnc4wXLubJB6y9_Jy",
+  "url": "https://drive.google.com/drive/folders/1cTNgzvvYOWuhnjZFnc4wXLubJB6y9_Jy",
+  "kind": "Folder",
+  "title": "130.CHIP Adaptive Compliance for Humanoid Control through Hindsight Perturbation"
+ },
+ {
+  "id": "1TUETZWePmZtPD_G6w26vgKlhocVTj2MP",
+  "url": "https://drive.google.com/drive/folders/1TUETZWePmZtPD_G6w26vgKlhocVTj2MP",
+  "kind": "Folder",
+  "title": "131.GROUND SLOW, MOVE FAST A DUAL-SYSTEM FOUNDATION MODEL FOR GENERALIZABLE VISION-AND-LANGUAGE NAVIGATION"
+ },
+ {
+  "id": "1R9efvSXjJSi2bJN5FNA2CI-fMslHwENI",
+  "url": "https://drive.google.com/drive/folders/1R9efvSXjJSi2bJN5FNA2CI-fMslHwENI",
+  "kind": "Folder",
+  "title": "132.Discovering Self-Protective Falling Policy for Humanoid Robot via Deep Reinforcement Learning"
+ },
+ {
+  "id": "1cMqNZC22pXOkQgfvqNtw-VO9Z_UAv5pS",
+  "url": "https://drive.google.com/drive/folders/1cMqNZC22pXOkQgfvqNtw-VO9Z_UAv5pS",
+  "kind": "Folder",
+  "title": "133.CycleManip Enabling Cyclic Task Manipulation via Effective Historical Perception and Understanding"
+ },
+ {
+  "id": "11_D7Fr_fWG_N8JH_Oc_Ppg-94cB1Lfi3",
+  "url": "https://drive.google.com/drive/folders/11_D7Fr_fWG_N8JH_Oc_Ppg-94cB1Lfi3",
+  "kind": "Folder",
+  "title": "134.Opening the Sim-to-Real Door for Humanoid Pixel-to-Action Policy Transfer"
+ },
+ {
+  "id": "1fwhPOA_yjba7kvqonhvdpZkR9dIOWuC2",
+  "url": "https://drive.google.com/drive/folders/1fwhPOA_yjba7kvqonhvdpZkR9dIOWuC2",
+  "kind": "Folder",
+  "title": "135.HUMANOID-LLA OPEN-VOCABULARY HUMANOID WHOLE-BODY CONTROL WITH LARGE LANGUAGE ACTION MODEL"
+ },
+ {
+  "id": "1Ii7kRpc3PhG_vexuj2wzeTGHhFE5hu8_",
+  "url": "https://drive.google.com/drive/folders/1Ii7kRpc3PhG_vexuj2wzeTGHhFE5hu8_",
+  "kind": "Folder",
+  "title": "136.World-Coordinate Human Motion Retargeting via SAM 3D Body"
+ },
+ {
+  "id": "13yDdLFFZ9h1TZTS_551KIhJpto0GT8HU",
+  "url": "https://drive.google.com/drive/folders/13yDdLFFZ9h1TZTS_551KIhJpto0GT8HU",
+  "kind": "Folder",
+  "title": "137.Do You Have Freestyle Expressive Humanoid Locomotion via Audio Control"
+ },
+ {
+  "id": "1chABVI4FcM07cXGEQeJ0gVDq7Skq-u1s",
+  "url": "https://drive.google.com/drive/folders/1chABVI4FcM07cXGEQeJ0gVDq7Skq-u1s",
+  "kind": "Folder",
+  "title": "138.RoboMirror Understand Before You Imitate for Video to Humanoid Locomotion"
+ },
+ {
+  "id": "1d5xDkmFV7-B4iOEBj5LGUz5wLKcabrSd",
+  "url": "https://drive.google.com/drive/folders/1d5xDkmFV7-B4iOEBj5LGUz5wLKcabrSd",
+  "kind": "Folder",
+  "title": "139.RANGER A Monocular Zero-Shot Semantic Navigation Framework through Contextual Adaptation"
+ },
+ {
+  "id": "1EIsnJxr-BGMCMJmeabiV5-3i6UDiMhoM",
+  "url": "https://drive.google.com/drive/folders/1EIsnJxr-BGMCMJmeabiV5-3i6UDiMhoM",
+  "kind": "Folder",
+  "title": "14.Learning Smooth Humanoid Locomotion through Lipschitz-Constrained Policies"
+ },
+ {
+  "id": "1ltBlidHhLSVfOcfEvELuwa9aONU9oSYe",
+  "url": "https://drive.google.com/drive/folders/1ltBlidHhLSVfOcfEvELuwa9aONU9oSYe",
+  "kind": "Folder",
+  "title": "140.A Hierarchical Framework for Humanoid Locomotion with Supernumerary Limbs"
+ },
+ {
+  "id": "15F1FhaFYX7lmRP6oa2vhKBHoAzTWhu0Z",
+  "url": "https://drive.google.com/drive/folders/15F1FhaFYX7lmRP6oa2vhKBHoAzTWhu0Z",
+  "kind": "Folder",
+  "title": "141.Mobile-TeleVision Predictive Motion Priors for Humanoid Whole-Body Control"
+ },
+ {
+  "id": "14wIB5RDYEa19iUCyutJlFMTUmV9DMKAh",
+  "url": "https://drive.google.com/drive/folders/14wIB5RDYEa19iUCyutJlFMTUmV9DMKAh",
+  "kind": "Folder",
+  "title": "142.UniAct Unified Motion Generation and Action Streaming for Humanoid Robots"
+ },
+ {
+  "id": "1TGj1gqtUAb-93NTPwijyy8g0Bif3AU-s",
+  "url": "https://drive.google.com/drive/folders/1TGj1gqtUAb-93NTPwijyy8g0Bif3AU-s",
+  "kind": "Folder",
+  "title": "143.Humanoid Robot Control by Nonlinear Model"
+ },
+ {
+  "id": "1TTz-0orCy4nZ0VQy2h1yIULl6KojQVkG",
+  "url": "https://drive.google.com/drive/folders/1TTz-0orCy4nZ0VQy2h1yIULl6KojQVkG",
+  "kind": "Folder",
+  "title": "144.FRoM-W1 Towards General Humanoid Whole-Body Control with Language Instructions"
+ },
+ {
+  "id": "1cZ1Zr6EKk2VybgzYya-j67FfKl9__8DS",
+  "url": "https://drive.google.com/drive/folders/1cZ1Zr6EKk2VybgzYya-j67FfKl9__8DS",
+  "kind": "Folder",
+  "title": "145.UniCon A Unified System for Efficient Robot Learning Transfers"
+ },
+ {
+  "id": "1ECuMyxfR1UlnsU6N1lGTGOX1Qy5daLgX",
+  "url": "https://drive.google.com/drive/folders/1ECuMyxfR1UlnsU6N1lGTGOX1Qy5daLgX",
+  "kind": "Folder",
+  "title": "146.PILOT A Perceptive Integrated Low-level Controller for Loco-manipulation over Unstructured Scenes"
+ },
+ {
+  "id": "1qIYaJ2s3uR5S9GiKgIGs8eClX2q2TFT3",
+  "url": "https://drive.google.com/drive/folders/1qIYaJ2s3uR5S9GiKgIGs8eClX2q2TFT3",
+  "kind": "Folder",
+  "title": "147.Deep Reinforcement Learning for Real-World Humanoid Robot Locomotion Control with Automatic Reward Learning"
+ },
+ {
+  "id": "173KWvQJKBCUZ9AB8-AJyFd4UdYjVuNUW",
+  "url": "https://drive.google.com/drive/folders/173KWvQJKBCUZ9AB8-AJyFd4UdYjVuNUW",
+  "kind": "Folder",
+  "title": "148.VDoF-MPC Variable Degrees-of-Freedom Whole-Body Model Predictive Control"
+ },
+ {
+  "id": "1lLo4pvkQOt5d5ofklEaoexigXYlCI8Bl",
+  "url": "https://drive.google.com/drive/folders/1lLo4pvkQOt5d5ofklEaoexigXYlCI8Bl",
+  "kind": "Folder",
+  "title": "149.Vision-Language Models on the Edge for Real-Time Robotic Perception"
+ },
+ {
+  "id": "1T2V9shFp-2xrxwY5LMk9PTu8fFkSGM7N",
+  "url": "https://drive.google.com/drive/folders/1T2V9shFp-2xrxwY5LMk9PTu8fFkSGM7N",
+  "kind": "Folder",
+  "title": "15.Learning Getting-Up Policies for Real-World Humanoid Robots"
+ },
+ {
+  "id": "12802N9A8aCKgRMcf-BjRc8uU61iZPN7R",
+  "url": "https://drive.google.com/drive/folders/12802N9A8aCKgRMcf-BjRc8uU61iZPN7R",
+  "kind": "Folder",
+  "title": "150.HumanoidVLM Vision-Language-Guided Impedance Control for Contact-Rich Humanoid Manipulation"
+ },
+ {
+  "id": "1DC7Z6aDchtmwvqVamBP6zRCyboB4BjC-",
+  "url": "https://drive.google.com/drive/folders/1DC7Z6aDchtmwvqVamBP6zRCyboB4BjC-",
+  "kind": "Folder",
+  "title": "151.FocusNav Spatial Selective Attention with Waypoint Guidance for Humanoid Local Navigation"
+ },
+ {
+  "id": "1E31ViLX41HYdeDZPh0C_kxXOkugeXyM9",
+  "url": "https://drive.google.com/drive/folders/1E31ViLX41HYdeDZPh0C_kxXOkugeXyM9",
+  "kind": "Folder",
+  "title": "152.AdaMorph Unified Motion Retargeting via Embodiment-Aware Adaptive Transformers"
+ },
+ {
+  "id": "1oYSEIPVZdyPXYzwUWUG_DCNDQ4B77yKI",
+  "url": "https://drive.google.com/drive/folders/1oYSEIPVZdyPXYzwUWUG_DCNDQ4B77yKI",
+  "kind": "Folder",
+  "title": "153.Deep Whole-body Parkour"
+ },
+ {
+  "id": "1h63VOAQrXEqwSpSVuac7je-reAmlVxiw",
+  "url": "https://drive.google.com/drive/folders/1h63VOAQrXEqwSpSVuac7je-reAmlVxiw",
+  "kind": "Folder",
+  "title": "154.Learning Whole-Body Human-Humanoid Interaction from Human-Human Demonstrations"
+ },
+ {
+  "id": "1ZaHLwpl5O_rylNcIXLcfqHbATnNU2tus",
+  "url": "https://drive.google.com/drive/folders/1ZaHLwpl5O_rylNcIXLcfqHbATnNU2tus",
+  "kind": "Folder",
+  "title": "155.Walk the PLANC Physics-Guided RL for Agile Humanoid Locomotion on Constrained Footholds"
+ },
+ {
+  "id": "1f0foiTns0KrqlPlbPm7gOYODRotS4_fw",
+  "url": "https://drive.google.com/drive/folders/1f0foiTns0KrqlPlbPm7gOYODRotS4_fw",
+  "kind": "Folder",
+  "title": "156.NAVIDA Vision-Language Navigation with Inverse Dynamics Augmentation"
+ },
+ {
+  "id": "1_vGShExwbqQB5RWgC4h2-0iXg8_tshii",
+  "url": "https://drive.google.com/drive/folders/1_vGShExwbqQB5RWgC4h2-0iXg8_tshii",
+  "kind": "Folder",
+  "title": "157.WaveMan mmWave-Based Room-Scale Human Interaction Perception for Humanoid Robots"
+ },
+ {
+  "id": "1Py_MkwouB0o0MWMun52gt0VykzsX3ocZ",
+  "url": "https://drive.google.com/drive/folders/1Py_MkwouB0o0MWMun52gt0VykzsX3ocZ",
+  "kind": "Folder",
+  "title": "158.Hiking in the Wild A Scalable Perceptive Parkour Framework for Humanoids"
+ },
+ {
+  "id": "1kKKobt_aLmXj7XKlFgTAe_RZgLGhxuOI",
+  "url": "https://drive.google.com/drive/folders/1kKKobt_aLmXj7XKlFgTAe_RZgLGhxuOI",
+  "kind": "Folder",
+  "title": "159.Being-H0.5 Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization"
+ },
+ {
+  "id": "1DNYaLEuG-_zIgoGTc9XrhC9Bi736R4Wk",
+  "url": "https://drive.google.com/drive/folders/1DNYaLEuG-_zIgoGTc9XrhC9Bi736R4Wk",
+  "kind": "Folder",
+  "title": "16.Learning Humanoid Standing-up Control across Diverse Postures"
+ },
+ {
+  "id": "1rIdhBWs-fYqtkgoUh7YQBiS6NgVcRzXJ",
+  "url": "https://drive.google.com/drive/folders/1rIdhBWs-fYqtkgoUh7YQBiS6NgVcRzXJ",
+  "kind": "Folder",
+  "title": "160.Off-Policy Actor-Critic with Sigmoid-Bounded Entropy for Real-World Robot Learning"
+ },
+ {
+  "id": "1Qj0gy0DtU1JcYp72XG8Ajvh7EjpyY3wA",
+  "url": "https://drive.google.com/drive/folders/1Qj0gy0DtU1JcYp72XG8Ajvh7EjpyY3wA",
+  "kind": "Folder",
+  "title": "161.Collision-Free Humanoid Traversal in Cluttered Indoor Scenes"
+ },
+ {
+  "id": "16jQjt8CkbR508A5dML2YzmH_BEjlY8Ff",
+  "url": "https://drive.google.com/drive/folders/16jQjt8CkbR508A5dML2YzmH_BEjlY8Ff",
+  "kind": "Folder",
+  "title": "162.Making Infeasible Tasks Feasible Planning to Reconfigure Disconnected 3D Environments with Movable Objects"
+ },
+ {
+  "id": "1rCSVKZVMNMN4bzrI9T9qSnI2i85LTzaJ",
+  "url": "https://drive.google.com/drive/folders/1rCSVKZVMNMN4bzrI9T9qSnI2i85LTzaJ",
+  "kind": "Folder",
+  "title": "163.Bridging the Sim-to-Real Gap in Humanoid Dynamics via Learned Nonlinear Operators"
+ },
+ {
+  "id": "1UVcGhn32HORl-1c31of82ObjDysHqEbB",
+  "url": "https://drive.google.com/drive/folders/1UVcGhn32HORl-1c31of82ObjDysHqEbB",
+  "kind": "Folder",
+  "title": "164.Task-Centric Policy Optimization from Misaligned Motion Priors"
+ },
+ {
+  "id": "1m-OqOFW6MuWSEL_CIr-XiYsxXy3dPMaS",
+  "url": "https://drive.google.com/drive/folders/1m-OqOFW6MuWSEL_CIr-XiYsxXy3dPMaS",
+  "kind": "Folder",
+  "title": "165.HumanoidTurk Expanding VR Haptics with Humanoids for Driving Simulations"
+ },
+ {
+  "id": "176kyNWIjg_2yMSmiJjUkIzLn3MsHTSpE",
+  "url": "https://drive.google.com/drive/folders/176kyNWIjg_2yMSmiJjUkIzLn3MsHTSpE",
+  "kind": "Folder",
+  "title": "166.Olaf Bringing an Animated Character to Life in the Physical World"
+ },
+ {
+  "id": "1dx_C0W1yYaea4yXuCpQPvgTdqE5OemeH",
+  "url": "https://drive.google.com/drive/folders/1dx_C0W1yYaea4yXuCpQPvgTdqE5OemeH",
+  "kind": "Folder",
+  "title": "167.HumanX Toward Agile and Generalizable Humanoid Interaction Skills from Human Videos"
+ },
+ {
+  "id": "1bZli0dTTpPHQV2zBvmmj0DM2DuVfeUpM",
+  "url": "https://drive.google.com/drive/folders/1bZli0dTTpPHQV2zBvmmj0DM2DuVfeUpM",
+  "kind": "Folder",
+  "title": "168.AgentRob From Virtual Forum Agents to Hijacked Physical Robots"
+ },
+ {
+  "id": "10HS4HO19ut_QT-U4m2TGcu9okIJTrjTI",
+  "url": "https://drive.google.com/drive/folders/10HS4HO19ut_QT-U4m2TGcu9okIJTrjTI",
+  "kind": "Folder",
+  "title": "169.Flow Policy Gradients for Robot Control"
+ },
+ {
+  "id": "1le9CZrpBypsX_BxlCmN4VSXrKZYm_4za",
+  "url": "https://drive.google.com/drive/folders/1le9CZrpBypsX_BxlCmN4VSXrKZYm_4za",
+  "kind": "Folder",
+  "title": "17.SPARK ：A Modular Benchmark for Humanoid Robot Safety"
+ },
+ {
+  "id": "1q1MzCdVjCT816ns9-2W5CZr8ZrZbouoo",
+  "url": "https://drive.google.com/drive/folders/1q1MzCdVjCT816ns9-2W5CZr8ZrZbouoo",
+  "kind": "Folder",
+  "title": "170.APEX Learning Adaptive High-Platform Traversal for Humanoid Robots"
+ },
+ {
+  "id": "1vNPech-htihk2Pj_S22HAAkFPCCq1YPl",
+  "url": "https://drive.google.com/drive/folders/1vNPech-htihk2Pj_S22HAAkFPCCq1YPl",
+  "kind": "Folder",
+  "title": "171.Perceptive Humanoid Parkour Chaining Dynamic Human Skills via Motion Matching"
+ },
+ {
+  "id": "1f3t08Hc3WMhH7k467bSEArOWoG6d9DV9",
+  "url": "https://drive.google.com/drive/folders/1f3t08Hc3WMhH7k467bSEArOWoG6d9DV9",
+  "kind": "Folder",
+  "title": "172.A Kung Fu Athlete Bot That Can Do It All Day Highly Dynamic, Balance-Challenging Motion Dataset and Autonomous Fall-Resilient Tracking"
+ },
+ {
+  "id": "1_N7z3OLDFS2K19xA7dQBiUGlBtiS4uPB",
+  "url": "https://drive.google.com/drive/folders/1_N7z3OLDFS2K19xA7dQBiUGlBtiS4uPB",
+  "kind": "Folder",
+  "title": "173.ZEST Zero-shot Embodied Skill Transfer for Athletic Robot Control"
+ },
+ {
+  "id": "1MoiwxrM_Ey7Tq3Wka7zFy0Fkd8P9rbH8",
+  "url": "https://drive.google.com/drive/folders/1MoiwxrM_Ey7Tq3Wka7zFy0Fkd8P9rbH8",
+  "kind": "Folder",
+  "title": "174.Learning Soccer Skills for Humanoid Robots A Progressive Perception-Action Framework"
+ },
+ {
+  "id": "1LxtlE7QioTOxFVhRFFcHTglJ1PWFXzB5",
+  "url": "https://drive.google.com/drive/folders/1LxtlE7QioTOxFVhRFFcHTglJ1PWFXzB5",
+  "kind": "Folder",
+  "title": "175.RPL Learning Robust Humanoid Perceptive Locomotion on Challenging Terrains"
+ },
+ {
+  "id": "1bwdiCXXVPVRhd8exaZ0GSIgM5h2RwSfv",
+  "url": "https://drive.google.com/drive/folders/1bwdiCXXVPVRhd8exaZ0GSIgM5h2RwSfv",
+  "kind": "Folder",
+  "title": "176.Scalable and General Whole-Body Control for Cross-Humanoid Locomotion"
+ },
+ {
+  "id": "1e0JBoFNhoX7F9AekS7RO779UaswhBEuB",
+  "url": "https://drive.google.com/drive/folders/1e0JBoFNhoX7F9AekS7RO779UaswhBEuB",
+  "kind": "Folder",
+  "title": "177.ProAct A Dual-System Framework for Proactive Embodied Social Agents"
+ },
+ {
+  "id": "1KA4SmvmFRP3NUjyLmtKxhdLR-SbkKs_Z",
+  "url": "https://drive.google.com/drive/folders/1KA4SmvmFRP3NUjyLmtKxhdLR-SbkKs_Z",
+  "kind": "Folder",
+  "title": "178.DECO Decoupled Multimodal Diffusion Transformer for Bimanual Dexterous Manipulation with a Plugin Tactile Adapter"
+ },
+ {
+  "id": "1NsTwLDr3CRMA2mIbBALtJEc3kUmzizlH",
+  "url": "https://drive.google.com/drive/folders/1NsTwLDr3CRMA2mIbBALtJEc3kUmzizlH",
+  "kind": "Folder",
+  "title": "179.mjlab A Lightweight Framework for GPU-Accelerated Robot Learning"
+ },
+ {
+  "id": "10J6Xn6uY4qE_ogoAmj_RKyHL2rd7tTsC",
+  "url": "https://drive.google.com/drive/folders/10J6Xn6uY4qE_ogoAmj_RKyHL2rd7tTsC",
+  "kind": "Folder",
+  "title": "18.Dexterous Safe Control for Humanoids in Cluttered Environments via Projected Safe Set Algorithm"
+ },
+ {
+  "id": "1Y9TjD9QMlhmhC5fFNQ0zDNrEGGpSLc80",
+  "url": "https://drive.google.com/drive/folders/1Y9TjD9QMlhmhC5fFNQ0zDNrEGGpSLc80",
+  "kind": "Folder",
+  "title": "180.MeshMimic Geometry-Aware Humanoid Motion Learning through 3D Scene Reconstruction"
+ },
+ {
+  "id": "1mH15V6uW4TWW1QnRCTmlUT3_mhvEUEyL",
+  "url": "https://drive.google.com/drive/folders/1mH15V6uW4TWW1QnRCTmlUT3_mhvEUEyL",
+  "kind": "Folder",
+  "title": "181.Biomechanical Comparisons Reveal Divergence of Human and Humanoid Gaits"
+ },
+ {
+  "id": "1VZEY4Hv2KQVhLudnzfhGnfkWqC2uTLxB",
+  "url": "https://drive.google.com/drive/folders/1VZEY4Hv2KQVhLudnzfhGnfkWqC2uTLxB",
+  "kind": "Folder",
+  "title": "182.ExtremControl Low-Latency Humanoid Teleoperation with Direct Extremity Control"
+ },
+ {
+  "id": "19iv4FIelad_vG4yEEAO3zPCLjNHA_AXd",
+  "url": "https://drive.google.com/drive/folders/19iv4FIelad_vG4yEEAO3zPCLjNHA_AXd",
+  "kind": "Folder",
+  "title": "183.HUSKY Humanoid Skateboarding System via Physics-Aware Whole-Body Control"
+ },
+ {
+  "id": "1HxoSgLl1P3Qj8GGE02kPxIBaY6o1DeB8",
+  "url": "https://drive.google.com/drive/folders/1HxoSgLl1P3Qj8GGE02kPxIBaY6o1DeB8",
+  "kind": "Folder",
+  "title": "184.RAPT Model-Predictive Out-of-Distribution Detection and Failure Diagnosis for Sim-to-Real Humanoid Robots"
+ },
+ {
+  "id": "1mPSRiWpABGwWV3DhxNha4csl3I6nIy0o",
+  "url": "https://drive.google.com/drive/folders/1mPSRiWpABGwWV3DhxNha4csl3I6nIy0o",
+  "kind": "Folder",
+  "title": "185.CLF-RL Control Lyapunov Function Guided Reinforcement Learning"
+ },
+ {
+  "id": "1clhV8PwBy2q5bChTOndOWk3lJi79NB_b",
+  "url": "https://drive.google.com/drive/folders/1clhV8PwBy2q5bChTOndOWk3lJi79NB_b",
+  "kind": "Folder",
+  "title": "186.LDA-1B Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion"
+ },
+ {
+  "id": "1XMBRZRj-IMCOX57xDz4Tjd-TEo-e0tvY",
+  "url": "https://drive.google.com/drive/folders/1XMBRZRj-IMCOX57xDz4Tjd-TEo-e0tvY",
+  "kind": "Folder",
+  "title": "187.Robust and Generalized Humanoid Motion Tracking"
+ },
+ {
+  "id": "1Wj8Y5KqOUr2eRTCL-kjYuTb9pseNk-H2",
+  "url": "https://drive.google.com/drive/folders/1Wj8Y5KqOUr2eRTCL-kjYuTb9pseNk-H2",
+  "kind": "Folder",
+  "title": "188.Generalizing from References using a Multi-Task Reference and Goal-Driven RL Framework"
+ },
+ {
+  "id": "1Qd8gqry9faCkTIsXWzqKBpv7pef8HpaA",
+  "url": "https://drive.google.com/drive/folders/1Qd8gqry9faCkTIsXWzqKBpv7pef8HpaA",
+  "kind": "Folder",
+  "title": "189.HiWET Hierarchical World-Frame End-Effector Tracking for Long-Horizon Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1_zbTMRkENtkqL_Y6aOWmuEiMIJR5xbts",
+  "url": "https://drive.google.com/drive/folders/1_zbTMRkENtkqL_Y6aOWmuEiMIJR5xbts",
+  "kind": "Folder",
+  "title": "19.ASAP：Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills"
+ },
+ {
+  "id": "1K8bDhJ2CdppphO4UmxyfIVcxK4M-wKok",
+  "url": "https://drive.google.com/drive/folders/1K8bDhJ2CdppphO4UmxyfIVcxK4M-wKok",
+  "kind": "Folder",
+  "title": "190.EgoActor Grounding Task Planning into Spatial-aware Egocentric Actions for Humanoid Robots via Visual-Language Models"
+ },
+ {
+  "id": "1OrACHEUkqspalJvw8jVtaCs7cLZWS-Si",
+  "url": "https://drive.google.com/drive/folders/1OrACHEUkqspalJvw8jVtaCs7cLZWS-Si",
+  "kind": "Folder",
+  "title": "191.EgoHumanoid Unlocking In-the-Wild Loco-Manipulation with Robot-Free Egocentric Demonstration"
+ },
+ {
+  "id": "1WL2kvFYEY5lMTm5IqyYEiJHZTWaSinrQ",
+  "url": "https://drive.google.com/drive/folders/1WL2kvFYEY5lMTm5IqyYEiJHZTWaSinrQ",
+  "kind": "Folder",
+  "title": "192.MOSAIC Bridging the Sim-to-Real Gap in Generalist Humanoid Motion Tracking and Teleoperation with Rapid Residual Adaptation"
+ },
+ {
+  "id": "1kxTeO8poaeCui1bABBpMRSEq_V2p9bkV",
+  "url": "https://drive.google.com/drive/folders/1kxTeO8poaeCui1bABBpMRSEq_V2p9bkV",
+  "kind": "Folder",
+  "title": "193.AdaptManip Learning Adaptive Whole-Body Object Lifting and Delivery with Online Recurrent State Estimation"
+ },
+ {
+  "id": "1JA0d-dr3I9ILim0TCeD4Q0voZWdtDTn-",
+  "url": "https://drive.google.com/drive/folders/1JA0d-dr3I9ILim0TCeD4Q0voZWdtDTn-",
+  "kind": "Folder",
+  "title": "194.PDF-HR Pose Distance Fields for Humanoid Robots"
+ },
+ {
+  "id": "1_-wD8urpSB_98XpnvCzzOp4-4H8Fu98D",
+  "url": "https://drive.google.com/drive/folders/1_-wD8urpSB_98XpnvCzzOp4-4H8Fu98D",
+  "kind": "Folder",
+  "title": "195.General Humanoid Whole-Body Control via Pretraining and Fast Adaptation"
+ },
+ {
+  "id": "1_XG_MbqnOgIhMdQQVpJ6ftJ1abAhhf6Z",
+  "url": "https://drive.google.com/drive/folders/1_XG_MbqnOgIhMdQQVpJ6ftJ1abAhhf6Z",
+  "kind": "Folder",
+  "title": "196.TextOp Real-time Interactive Text-Driven Humanoid Robot Motion Generation and Control"
+ },
+ {
+  "id": "1gl_LrnupeHDUpgEKp-hdFdXbyxd75ar_",
+  "url": "https://drive.google.com/drive/folders/1gl_LrnupeHDUpgEKp-hdFdXbyxd75ar_",
+  "kind": "Folder",
+  "title": "197.RoboStriker Hierarchical Decision-Making for Autonomous Humanoid Boxing"
+ },
+ {
+  "id": "1y0ei4jNaPpkcCctWjC1vKgeoUz0zhPVi",
+  "url": "https://drive.google.com/drive/folders/1y0ei4jNaPpkcCctWjC1vKgeoUz0zhPVi",
+  "kind": "Folder",
+  "title": "198.TTT-Parkour Rapid Test-Time Training for Perceptive Robot Parkour"
+ },
+ {
+  "id": "1quMj2dSbPMCMrsFTrrdROl9zadI8mzWF",
+  "url": "https://drive.google.com/drive/folders/1quMj2dSbPMCMrsFTrrdROl9zadI8mzWF",
+  "kind": "Folder",
+  "title": "199.MapDream Task-Driven Map Learning for Vision-Language Navigation"
+ },
+ {
+  "id": "1SRGM4IKIl5jBUR9MW9w6KEBLcQ_KGlZr",
+  "url": "https://drive.google.com/drive/folders/1SRGM4IKIl5jBUR9MW9w6KEBLcQ_KGlZr",
+  "kind": "Folder",
+  "title": "2.Learning Human-to-Humanoid Real-Time Whole-Body Teleoperation"
+ },
+ {
+  "id": "1tQeWuOOHTOl4YjEq6m5aE9oyrd2bANQ_",
+  "url": "https://drive.google.com/drive/folders/1tQeWuOOHTOl4YjEq6m5aE9oyrd2bANQ_",
+  "kind": "Folder",
+  "title": "20.Continual Learning and Lifting of Koopman Dynamics for Linear Control of Legged Robots"
+ },
+ {
+  "id": "1vtJcgJjtD1MIo60A0nRxQftBEeWGodSC",
+  "url": "https://drive.google.com/drive/folders/1vtJcgJjtD1MIo60A0nRxQftBEeWGodSC",
+  "kind": "Folder",
+  "title": "200.OmniXtreme Breaking the Generality Barrier in High-Dynamic Humanoid Control"
+ },
+ {
+  "id": "1xAd_CXq2ikNpSWjPZBf5oCqzIJ39632O",
+  "url": "https://drive.google.com/drive/folders/1xAd_CXq2ikNpSWjPZBf5oCqzIJ39632O",
+  "kind": "Folder",
+  "title": "201.Articulated-Body Dynamics Network Dynamics-Grounded Prior for Robot Learning"
+ },
+ {
+  "id": "19Dqkd6xY-gLne3nhkJYE8qmxlOJHvZ2l",
+  "url": "https://drive.google.com/drive/folders/19Dqkd6xY-gLne3nhkJYE8qmxlOJHvZ2l",
+  "kind": "Folder",
+  "title": "202.SysNav Multi-Level Systematic Cooperation Enables Real-World, Cross-Embodiment Object Navigation"
+ },
+ {
+  "id": "1cc2xJwd_CPlqdKicLcfdP4sfmMuJZtfj",
+  "url": "https://drive.google.com/drive/folders/1cc2xJwd_CPlqdKicLcfdP4sfmMuJZtfj",
+  "kind": "Folder",
+  "title": "203.Can a Robot Walk the Robotic Dog Triple-Zero Collaborative Navigation for Heterogeneous Multi-Agent Systems"
+ },
+ {
+  "id": "1jjjx8YIivHASUXeJqaVmMP80H-croa3F",
+  "url": "https://drive.google.com/drive/folders/1jjjx8YIivHASUXeJqaVmMP80H-croa3F",
+  "kind": "Folder",
+  "title": "204.Safe-SAGE Social-Semantic Adaptive Guidance for Safe Engagement through Laplace-Modulated Poisson Safety Functions"
+ },
+ {
+  "id": "1QIwQxAaqTHwVl9vWk-WgM-dcc8aTjbyr",
+  "url": "https://drive.google.com/drive/folders/1QIwQxAaqTHwVl9vWk-WgM-dcc8aTjbyr",
+  "kind": "Folder",
+  "title": "205.Layered Safety Enhancing Autonomous Collision Avoidance via Multistage CBF Safety Filters"
+ },
+ {
+  "id": "1PAt51xJ4TX_sxsmJ8V8UCjL0DBiFenKJ",
+  "url": "https://drive.google.com/drive/folders/1PAt51xJ4TX_sxsmJ8V8UCjL0DBiFenKJ",
+  "kind": "Folder",
+  "title": "206.NFPO Stabilized Policy Optimization of Normalizing Flow for Robotic Policy Learning"
+ },
+ {
+  "id": "1PO6nNYL_GdBeiPm-Tx7hIjL9wZn-4Gx8",
+  "url": "https://drive.google.com/drive/folders/1PO6nNYL_GdBeiPm-Tx7hIjL9wZn-4Gx8",
+  "kind": "Folder",
+  "title": "207.HumDex Humanoid Dexterous Manipulation Made Easy"
+ },
+ {
+  "id": "1tvtqw76sfwAJbxlS-FcYV9cyZJHOHRTt",
+  "url": "https://drive.google.com/drive/folders/1tvtqw76sfwAJbxlS-FcYV9cyZJHOHRTt",
+  "kind": "Folder",
+  "title": "208.Ψ0 An Open Foundation Model Towards Universal Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1vG-P5LmWS1f9nFeSasKdPcN8B1oXG-rj",
+  "url": "https://drive.google.com/drive/folders/1vG-P5LmWS1f9nFeSasKdPcN8B1oXG-rj",
+  "kind": "Folder",
+  "title": "209.Task-Specified Compliance Bounds for Humanoids via Lipschitz-Constrained Policies"
+ },
+ {
+  "id": "1YVfV5b3I64X6EceIoTWwez6ravOqe414",
+  "url": "https://drive.google.com/drive/folders/1YVfV5b3I64X6EceIoTWwez6ravOqe414",
+  "kind": "Folder",
+  "title": "21.GRUtopia Dream General Robots in a City at Scale"
+ },
+ {
+  "id": "1JuvyA76l7CxsXTBvxurMd6OJ5OH8LdRH",
+  "url": "https://drive.google.com/drive/folders/1JuvyA76l7CxsXTBvxurMd6OJ5OH8LdRH",
+  "kind": "Folder",
+  "title": "210.ULTRA Unified Multimodal Control for Autonomous Humanoid Whole-Body Loco-Manipulation"
+ },
+ {
+  "id": "1rOmoorFTHjmdkpLrzyJHE56B4okzNRql",
+  "url": "https://drive.google.com/drive/folders/1rOmoorFTHjmdkpLrzyJHE56B4okzNRql",
+  "kind": "Folder",
+  "title": "211.SteadyTray Learning Object Balancing Tasks in Humanoid Tray Transport via Residual Reinforcement Learning"
+ },
+ {
+  "id": "1o7onLj1IpHLaTg9NK6Pvo9s-WpzHWwb3",
+  "url": "https://drive.google.com/drive/folders/1o7onLj1IpHLaTg9NK6Pvo9s-WpzHWwb3",
+  "kind": "Folder",
+  "title": "212.GeoLoco Leveraging 3D Geometric Priors from Visual Foundation Model for Robust RGB-Only Humanoid Locomotion"
+ },
+ {
+  "id": "1redtLHx_aBO8CpLJ0T16I3RG9kz8maco",
+  "url": "https://drive.google.com/drive/folders/1redtLHx_aBO8CpLJ0T16I3RG9kz8maco",
+  "kind": "Folder",
+  "title": "213.STRIDE Structured Lagrangian and Stochastic Residual Dynamics via Flow Matching"
+ },
+ {
+  "id": "1y5lV6Gzg1X3m0y48bfLIiaVBcgr96t0H",
+  "url": "https://drive.google.com/drive/folders/1y5lV6Gzg1X3m0y48bfLIiaVBcgr96t0H",
+  "kind": "Folder",
+  "title": "214.SafeFlow Real-Time Text-Driven Humanoid Whole-Body Control via Physics-Guided Rectified Flow and Selective Safety Gating"
+ },
+ {
+  "id": "1fuhjCby4OlLb6B7VWwjoN-R088AJsyd4",
+  "url": "https://drive.google.com/drive/folders/1fuhjCby4OlLb6B7VWwjoN-R088AJsyd4",
+  "kind": "Folder",
+  "title": "215.ADAPT Adaptive Dual-projection Architecture for Perceptive Traversal"
+ },
+ {
+  "id": "1BzntbWwn-WzFqKHaiGk5jGIn2RwPZ61M",
+  "url": "https://drive.google.com/drive/folders/1BzntbWwn-WzFqKHaiGk5jGIn2RwPZ61M",
+  "kind": "Folder",
+  "title": "216.Designing for Transparency in Human–Robot InteractionA Dashboard and Custom Hardware for Mechanistic Interpretability"
+ },
+ {
+  "id": "15sd4x27c4wW7ZiPRTzG9_1nPVZDnffvH",
+  "url": "https://drive.google.com/drive/folders/15sd4x27c4wW7ZiPRTzG9_1nPVZDnffvH",
+  "kind": "Folder",
+  "title": "217.RoboForge Physically Optimized Text-guided Whole-Body Locomotion for Humanoids"
+ },
+ {
+  "id": "1BCkWGwS8LGOMdIhnnCuyuvIyeTXDLPyW",
+  "url": "https://drive.google.com/drive/folders/1BCkWGwS8LGOMdIhnnCuyuvIyeTXDLPyW",
+  "kind": "Folder",
+  "title": "218.Humanoid Robots as First Assistants in Endoscopic Surgery"
+ },
+ {
+  "id": "11Y8RTT80HA69G1BZaj7KrGer0NBejbwp",
+  "url": "https://drive.google.com/drive/folders/11Y8RTT80HA69G1BZaj7KrGer0NBejbwp",
+  "kind": "Folder",
+  "title": "219.CyboRacket A Perception-to-Action Framework for Humanoid Racket Sports"
+ },
+ {
+  "id": "1nzAX0X0aL7UAooDDoxzEwSVxcny1ufnz",
+  "url": "https://drive.google.com/drive/folders/1nzAX0X0aL7UAooDDoxzEwSVxcny1ufnz",
+  "kind": "Folder",
+  "title": "22. Humanoids in Hospitals A Technical Study of Humanoid Surrogates"
+ },
+ {
+  "id": "1wkX1nbtclBLNMGqG0o4XChQPsMdY60SF",
+  "url": "https://drive.google.com/drive/folders/1wkX1nbtclBLNMGqG0o4XChQPsMdY60SF",
+  "kind": "Folder",
+  "title": "220.Pro-HOI Perceptive Root-guided Humanoid-Object Interaction"
+ },
+ {
+  "id": "1dtymDH8X4rbgtLJgukXd7N9gp5ZbIvAo",
+  "url": "https://drive.google.com/drive/folders/1dtymDH8X4rbgtLJgukXd7N9gp5ZbIvAo",
+  "kind": "Folder",
+  "title": "221.ZeroWBC Learning Natural Visuomotor Humanoid Control Directly from Human Egocentric Video"
+ },
+ {
+  "id": "1Q4erynJG3SwH1A657hiHKsBNb_KO3wfT",
+  "url": "https://drive.google.com/drive/folders/1Q4erynJG3SwH1A657hiHKsBNb_KO3wfT",
+  "kind": "Folder",
+  "title": "222.Learning Athletic Humanoid Tennis Skills from Imperfect Human Motion Data"
+ },
+ {
+  "id": "12n9hsvjZekFOAnxm1SeAi1s-GhjRzS0o",
+  "url": "https://drive.google.com/drive/folders/12n9hsvjZekFOAnxm1SeAi1s-GhjRzS0o",
+  "kind": "Folder",
+  "title": "223.PhysMoDPO Physically-Plausible Humanoid Motion with Preference Optimization"
+ },
+ {
+  "id": "10h-lzC7Zd7FfFeThLWST0ARmf_yqFEaK",
+  "url": "https://drive.google.com/drive/folders/10h-lzC7Zd7FfFeThLWST0ARmf_yqFEaK",
+  "kind": "Folder",
+  "title": "224.CMoE Contrastive Mixture of Experts for Motion Control and Terrain Adaptation of Humanoid Robots"
+ },
+ {
+  "id": "11E65WlxRAB0ZfqozSfj88W9biZJ98ZdN",
+  "url": "https://drive.google.com/drive/folders/11E65WlxRAB0ZfqozSfj88W9biZJ98ZdN",
+  "kind": "Folder",
+  "title": "225.DiT4DiT Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control"
+ },
+ {
+  "id": "1uygsOkqm9bScnshl1lScDP-h0gq-iXAr",
+  "url": "https://drive.google.com/drive/folders/1uygsOkqm9bScnshl1lScDP-h0gq-iXAr",
+  "kind": "Folder",
+  "title": "226.Coordinated Humanoid Robot Locomotion with Symmetry Equivariant Reinforcement Learning Policy"
+ },
+ {
+  "id": "1Ue-SVEuTU6CKX4OkZ6aPPdrktfW56YUL",
+  "url": "https://drive.google.com/drive/folders/1Ue-SVEuTU6CKX4OkZ6aPPdrktfW56YUL",
+  "kind": "Folder",
+  "title": "227.OmniDP Beyond-FOV Large-Workspace Humanoid Manipulation with Omnidirectional 3D Perception"
+ },
+ {
+  "id": "1l_wAT4XY_dmIulCJG-Ap1GYlN5J0wNC-",
+  "url": "https://drive.google.com/drive/folders/1l_wAT4XY_dmIulCJG-Ap1GYlN5J0wNC-",
+  "kind": "Folder",
+  "title": "228.Make Tracking Easy Neural Motion Retargeting for Humanoid Whole-body Control"
+ },
+ {
+  "id": "1ixFyS74gMKLqcFlBkATW9rGMC-6uSIkJ",
+  "url": "https://drive.google.com/drive/folders/1ixFyS74gMKLqcFlBkATW9rGMC-6uSIkJ",
+  "kind": "Folder",
+  "title": "229.Active Stereo-Camera Outperforms Multi-Sensor Setup in ACT Imitation Learning for Humanoid Manipulation"
+ },
+ {
+  "id": "15LNJkgU1PrwcKfqHBPSi6rI0SIi8pMIq",
+  "url": "https://drive.google.com/drive/folders/15LNJkgU1PrwcKfqHBPSi6rI0SIi8pMIq",
+  "kind": "Folder",
+  "title": "23. HOMIE Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit"
+ },
+ {
+  "id": "1Q1SwCnkopjsFrpSp-cQQMt8RC3vgUgGl",
+  "url": "https://drive.google.com/drive/folders/1Q1SwCnkopjsFrpSp-cQQMt8RC3vgUgGl",
+  "kind": "Folder",
+  "title": "230.Chasing Autonomy Dynamic Retargeting and Control Guided RL for Performant and Controllable Humanoid Running"
+ },
+ {
+  "id": "1qdKLbHuUiWg9JYgwmMHz_kd-QlmJ71xe",
+  "url": "https://drive.google.com/drive/folders/1qdKLbHuUiWg9JYgwmMHz_kd-QlmJ71xe",
+  "kind": "Folder",
+  "title": "231.Learning Humanoid Navigation from Human Data"
+ },
+ {
+  "id": "1uAWdRPH3yrMxm4Xvx7yXJ5T00J89mAuB",
+  "url": "https://drive.google.com/drive/folders/1uAWdRPH3yrMxm4Xvx7yXJ5T00J89mAuB",
+  "kind": "Folder",
+  "title": "232.PhysiFlow Physics-Aware Humanoid Whole-Body VLA via Multi-Brain Latent Flow Matching and Robust Tracking"
+ },
+ {
+  "id": "1KvWH2CuiBiZWXGLNLZqAr_NVhrX8r7Ic",
+  "url": "https://drive.google.com/drive/folders/1KvWH2CuiBiZWXGLNLZqAr_NVhrX8r7Ic",
+  "kind": "Folder",
+  "title": "233.DreamControl-v2 Simpler and Scalable Autonomous Humanoid Skills via Trainable Guided Diffusion Priors"
+ },
+ {
+  "id": "1YiBl7k8d_HnZFMdVUZ63YpSCWChbs8W1",
+  "url": "https://drive.google.com/drive/folders/1YiBl7k8d_HnZFMdVUZ63YpSCWChbs8W1",
+  "kind": "Folder",
+  "title": "234.Towards Adaptive Humanoid Control via Multi-Behavior Distillation and Reinforced Fine-Tuning"
+ },
+ {
+  "id": "11FijZQLO3gsZSKFTb-ZJhBPKgqXcy_Ln",
+  "url": "https://drive.google.com/drive/folders/11FijZQLO3gsZSKFTb-ZJhBPKgqXcy_Ln",
+  "kind": "Folder",
+  "title": "235.BAT Balancing Agility and Stability via Online Policy Switching for Long-Horizon Whole-Body Humanoid Control"
+ },
+ {
+  "id": "1oG6MFMgj9ZjOw_PIyjGQrITdnRVIAwyd",
+  "url": "https://drive.google.com/drive/folders/1oG6MFMgj9ZjOw_PIyjGQrITdnRVIAwyd",
+  "kind": "Folder",
+  "title": "236.InterReal A Unified Physics-Based Imitation Framework for Learning Human-Object Interaction Skills"
+ },
+ {
+  "id": "1Rw4s4tFSl2HrvtmmYIWeNBsHrr8HqjJT",
+  "url": "https://drive.google.com/drive/folders/1Rw4s4tFSl2HrvtmmYIWeNBsHrr8HqjJT",
+  "kind": "Folder",
+  "title": "237.ECHO Edge-Cloud Humanoid Orchestration for Language-to-Motion Control"
+ },
+ {
+  "id": "1gx-6jBi2dAyPArg-y795EHBte5iNBLgd",
+  "url": "https://drive.google.com/drive/folders/1gx-6jBi2dAyPArg-y795EHBte5iNBLgd",
+  "kind": "Folder",
+  "title": "238.SCDP Learning Humanoid Locomotion from Partial Observations via Mixed-Observation Distillation"
+ },
+ {
+  "id": "10iJiT24tbejkBOzwXIh7M7fInRyECbAd",
+  "url": "https://drive.google.com/drive/folders/10iJiT24tbejkBOzwXIh7M7fInRyECbAd",
+  "kind": "Folder",
+  "title": "239.HSImul3R Physics-in-the-Loop Reconstruction of Simulation-Ready Human-Scene Interactions"
+ },
+ {
+  "id": "1vdN-bE48aZQ_5VFHOoPGabrzeSi4wYk-",
+  "url": "https://drive.google.com/drive/folders/1vdN-bE48aZQ_5VFHOoPGabrzeSi4wYk-",
+  "kind": "Folder",
+  "title": "24. ExBody2 Advanced Expressive Humanoid Whole-Body Control"
+ },
+ {
+  "id": "1WpCch5X9ErB0z_pQxGxBod66PryG7mA9",
+  "url": "https://drive.google.com/drive/folders/1WpCch5X9ErB0z_pQxGxBod66PryG7mA9",
+  "kind": "Folder",
+  "title": "240.ROSClaw An OpenClaw ROS 2 Framework for Agentic Robot Control and Interaction"
+ },
+ {
+  "id": "12D6zMm0lW9fO6X3eJq8D7TFt-rJd4sBY",
+  "url": "https://drive.google.com/drive/folders/12D6zMm0lW9fO6X3eJq8D7TFt-rJd4sBY",
+  "kind": "Folder",
+  "title": "241.LooperMuscle Fast and Stable Learning of Humanoid Whole-Body Tracking via Structured Mixture-of-Experts"
+ },
+ {
+  "id": "1wySY4Soeh2V3lXqodoB6uGxExxSz24Iq",
+  "url": "https://drive.google.com/drive/folders/1wySY4Soeh2V3lXqodoB6uGxExxSz24Iq",
+  "kind": "Folder",
+  "title": "242.SPARK Skeleton-Parameter Aligned Retargeting on Humanoid Robots with Kinodynamic Trajectory Optimization"
+ },
+ {
+  "id": "1iqWjbSylG9Ta40vUgW-M6XszXnfaooqd",
+  "url": "https://drive.google.com/drive/folders/1iqWjbSylG9Ta40vUgW-M6XszXnfaooqd",
+  "kind": "Folder",
+  "title": "243.DiffusionAnything End-to-End In-context Diffusion Learning for Unified Navigation and Pre-Grasp Motion"
+ },
+ {
+  "id": "1ta_j8QXwphuoNdfDhxW-ollG29UTTv40",
+  "url": "https://drive.google.com/drive/folders/1ta_j8QXwphuoNdfDhxW-ollG29UTTv40",
+  "kind": "Folder",
+  "title": "244.PCHC Enabling Preference Conditioned Humanoid Control via Multi-Objective Reinforcement Learning"
+ },
+ {
+  "id": "1L7JQ4dHhaGxK5GhdlC0jp4Q2EEykAtu4",
+  "url": "https://drive.google.com/drive/folders/1L7JQ4dHhaGxK5GhdlC0jp4Q2EEykAtu4",
+  "kind": "Folder",
+  "title": "245.Learning Safe-Stoppability Monitors for Humanoid Robots"
+ },
+ {
+  "id": "1FpXZacyG3CForL4HVTEZ1vzg80a3Vvm-",
+  "url": "https://drive.google.com/drive/folders/1FpXZacyG3CForL4HVTEZ1vzg80a3Vvm-",
+  "kind": "Folder",
+  "title": "246.Cognition to Control - Multi-Agent Learning for Human-Humanoid Collaborative Transport"
+ },
+ {
+  "id": "1_bsfKvsU24dXScTBzmZZKS-32iIa9B7f",
+  "url": "https://drive.google.com/drive/folders/1_bsfKvsU24dXScTBzmZZKS-32iIa9B7f",
+  "kind": "Folder",
+  "title": "247.OmniTrack General Motion Tracking via Physics-Consistent Reference"
+ },
+ {
+  "id": "1U0AFrPqXF3FESEMj_q3zCewdLxebLdU6",
+  "url": "https://drive.google.com/drive/folders/1U0AFrPqXF3FESEMj_q3zCewdLxebLdU6",
+  "kind": "Folder",
+  "title": "248.Omnidirectional Humanoid Locomotion on Stairs via Unsafe Stepping Penalty and Sparse LiDAR Elevation Mapping"
+ },
+ {
+  "id": "1AEdPaHE1fsnfGMmyAABH99g7pbiddH5v",
+  "url": "https://drive.google.com/drive/folders/1AEdPaHE1fsnfGMmyAABH99g7pbiddH5v",
+  "kind": "Folder",
+  "title": "249.Fast SAM 3D Body Accelerating SAM 3D Body for Real-Time Full-Body Human Mesh Recovery"
+ },
+ {
+  "id": "1oeWEjauzQ7CDacx0fJMmdpnUo4w10smI",
+  "url": "https://drive.google.com/drive/folders/1oeWEjauzQ7CDacx0fJMmdpnUo4w10smI",
+  "kind": "Folder",
+  "title": "25. COMPASS Cross-embOdiment Mobility Policy via ResiduAl RL and Skill Synthesis"
+ },
+ {
+  "id": "1y3MsHoKxAl3GVZss6zQvhDDu5EepVM84",
+  "url": "https://drive.google.com/drive/folders/1y3MsHoKxAl3GVZss6zQvhDDu5EepVM84",
+  "kind": "Folder",
+  "title": "250.Kimodo Scaling Controllable Human Motion Generation"
+ },
+ {
+  "id": "1vsOcfxIM3rGrUayBwxV6S1eKK3HBcMxa",
+  "url": "https://drive.google.com/drive/folders/1vsOcfxIM3rGrUayBwxV6S1eKK3HBcMxa",
+  "kind": "Folder",
+  "title": "251.Heracles Bridging Precise Tracking and Generative Synthesis for General Humanoid Control"
+ },
+ {
+  "id": "1ErYhNSIMcVCabo7urLWkCcM-fSWsLz0q",
+  "url": "https://drive.google.com/drive/folders/1ErYhNSIMcVCabo7urLWkCcM-fSWsLz0q",
+  "kind": "Folder",
+  "title": "252.DRIVE-Nav Directional Reasoning, Inspection, and Verification for Efficient Open-Vocabulary Navigation"
+ },
+ {
+  "id": "17a_K8-1Wa8AbGU_gaZUplLkCs39tq4sZ",
+  "url": "https://drive.google.com/drive/folders/17a_K8-1Wa8AbGU_gaZUplLkCs39tq4sZ",
+  "kind": "Folder",
+  "title": "253.X-Loco Towards Generalist Humanoid Locomotion Control via Synergetic Policy Distillation"
+ },
+ {
+  "id": "1_1MEsy6dp6ukedyzHgBZTui8hHoFnz3s",
+  "url": "https://drive.google.com/drive/folders/1_1MEsy6dp6ukedyzHgBZTui8hHoFnz3s",
+  "kind": "Folder",
+  "title": "254.Interaction-Aware Whole-Body Control for Compliant Object Transport"
+ },
+ {
+  "id": "10qkz0donfKnNWOdiLvhNWUjyKdsYAxGH",
+  "url": "https://drive.google.com/drive/folders/10qkz0donfKnNWOdiLvhNWUjyKdsYAxGH",
+  "kind": "Folder",
+  "title": "255.Cross-Hand Latent Representation for Vision-Language-Action Models"
+ },
+ {
+  "id": "15xYbVn1RaJOkITpgNTfw1Pp2pZbiYf6o",
+  "url": "https://drive.google.com/drive/folders/15xYbVn1RaJOkITpgNTfw1Pp2pZbiYf6o",
+  "kind": "Folder",
+  "title": "256.SMASH Mastering Scalable Whole-Body Skills for Humanoid Ping-Pong with Egocentric Vision"
+ },
+ {
+  "id": "1oBjUoy6OF0etZUxeFHEsUrhxmcSYz0bJ",
+  "url": "https://drive.google.com/drive/folders/1oBjUoy6OF0etZUxeFHEsUrhxmcSYz0bJ",
+  "kind": "Folder",
+  "title": "257.Cybo-Waiter A Physical Agentic Framework for Humanoid Whole-Body Locomotion-Manipulation"
+ },
+ {
+  "id": "1AIqYbA-tuJ4Tsmf23mUz868YPsREmhz9",
+  "url": "https://drive.google.com/drive/folders/1AIqYbA-tuJ4Tsmf23mUz868YPsREmhz9",
+  "kind": "Folder",
+  "title": "258.SaPaVe Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics"
+ },
+ {
+  "id": "1L1jLAJdeYCEQDaASaIxsMtksgZPYR6yM",
+  "url": "https://drive.google.com/drive/folders/1L1jLAJdeYCEQDaASaIxsMtksgZPYR6yM",
+  "kind": "Folder",
+  "title": "259.HALOClosing Sim-to-Real Gap for Heavy-loaded Humanoid Agile Motion Skills via Differentiable Simulation"
+ },
+ {
+  "id": "1c9KRvtbJMXqsfYC0QlHlZYL1nvRHVL7k",
+  "url": "https://drive.google.com/drive/folders/1c9KRvtbJMXqsfYC0QlHlZYL1nvRHVL7k",
+  "kind": "Folder",
+  "title": "26. HumanoidOlympics Sports Environments for Physically Simulated Humanoids"
+ },
+ {
+  "id": "1yY0zkgA01b3Wj_TGcQafA84ydBPKCGGW",
+  "url": "https://drive.google.com/drive/folders/1yY0zkgA01b3Wj_TGcQafA84ydBPKCGGW",
+  "kind": "Folder",
+  "title": "260.OmniClone Engineering a Robust, All-Rounder Whole-Body Humanoid Teleoperation System"
+ },
+ {
+  "id": "1eOHNp8l8Zro8aXqaqdwxXpPXjf4BPhSc",
+  "url": "https://drive.google.com/drive/folders/1eOHNp8l8Zro8aXqaqdwxXpPXjf4BPhSc",
+  "kind": "Folder",
+  "title": "261.PhyGile Physics-Prefix Guided Motion Generation for Agile General Humanoid Motion Tracking"
+ },
+ {
+  "id": "1c6GDp-e3C2sPaX1XOjQ3n1n2mOjReGEL",
+  "url": "https://drive.google.com/drive/folders/1c6GDp-e3C2sPaX1XOjQ3n1n2mOjReGEL",
+  "kind": "Folder",
+  "title": "262.Controllable Egocentric Video Generation via Occlusion-Aware Sparse 3D Hand Joints"
+ },
+ {
+  "id": "1dH9QsuZQjnVzmnhqLlfS-VuDpDp5AnPY",
+  "url": "https://drive.google.com/drive/folders/1dH9QsuZQjnVzmnhqLlfS-VuDpDp5AnPY",
+  "kind": "Folder",
+  "title": "263.HALyPO Heterogeneous-Agent Lyapunov Policy Optimization for Human-Robot Collaboration"
+ },
+ {
+  "id": "1QbE-F2OVeKwAO76CeP1nmRYjoO6HHg-c",
+  "url": "https://drive.google.com/drive/folders/1QbE-F2OVeKwAO76CeP1nmRYjoO6HHg-c",
+  "kind": "Folder",
+  "title": "264.Embedding Classical Balance Control Principles in Reinforcement Learning for Humanoid Recovery"
+ },
+ {
+  "id": "1gvyD1MOfl3xnG0Q1sAY6_Tgui4v9FhDW",
+  "url": "https://drive.google.com/drive/folders/1gvyD1MOfl3xnG0Q1sAY6_Tgui4v9FhDW",
+  "kind": "Folder",
+  "title": "265.Expert-Guided Imitation for Learning Humanoid Loco-Manipulation from Motion Capture"
+ },
+ {
+  "id": "1MA4bB_pm_6omJTkCq_uYjdF2lz7n3-Dg",
+  "url": "https://drive.google.com/drive/folders/1MA4bB_pm_6omJTkCq_uYjdF2lz7n3-Dg",
+  "kind": "Folder",
+  "title": "266.Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control"
+ },
+ {
+  "id": "1u_LsqnWoN74FVD2gAEaYuUArLjXPRDmI",
+  "url": "https://drive.google.com/drive/folders/1u_LsqnWoN74FVD2gAEaYuUArLjXPRDmI",
+  "kind": "Folder",
+  "title": "267.FlashSAC Fast and Stable Off-Policy Reinforcement Learning for High-Dimensional Robot Control"
+ },
+ {
+  "id": "1-chabKGJEKTStKZ5_iiN_3KEt2BaVcLp",
+  "url": "https://drive.google.com/drive/folders/1-chabKGJEKTStKZ5_iiN_3KEt2BaVcLp",
+  "kind": "Folder",
+  "title": "268.ABot-Claw A Foundation for Persistent, Cooperative, and Self-Evolving Robotic Agents"
+ },
+ {
+  "id": "1uUiunrB_L5runZJ9OyXS9OnHFhsZitQh",
+  "url": "https://drive.google.com/drive/folders/1uUiunrB_L5runZJ9OyXS9OnHFhsZitQh",
+  "kind": "Folder",
+  "title": "269.Learning Model Predictive Control for a Humanoid Robotic Arm via Neural Approximation of Optimal Trajectories"
+ },
+ {
+  "id": "1KpPnWa_0valuD-eZ397n5TkLSskIA5kv",
+  "url": "https://drive.google.com/drive/folders/1KpPnWa_0valuD-eZ397n5TkLSskIA5kv",
+  "kind": "Folder",
+  "title": "27. Post-Convergence Sim-to-Real Policy Transfer A Principled Alternative to Cherry-Picking"
+ },
+ {
+  "id": "1jSVNABiDixxFXcabIkRpWJyF1h4k-LAL",
+  "url": "https://drive.google.com/drive/folders/1jSVNABiDixxFXcabIkRpWJyF1h4k-LAL",
+  "kind": "Folder",
+  "title": "270.Learn Weightlessness Imitate Non-Self-Stabilizing Motions on Humanoid Robot"
+ },
+ {
+  "id": "1ZBcX8ON6gEnF27CQjbB0hjeROAT64-sn",
+  "url": "https://drive.google.com/drive/folders/1ZBcX8ON6gEnF27CQjbB0hjeROAT64-sn",
+  "kind": "Folder",
+  "title": "271.Humanoid Robot Control by Nonlinear Model Predictive Controller with Adaptive Weight Whole Body Controller"
+ },
+ {
+  "id": "1ib7jve83tDP0IyBGLGrxXUdyr1zoiWTi",
+  "url": "https://drive.google.com/drive/folders/1ib7jve83tDP0IyBGLGrxXUdyr1zoiWTi",
+  "kind": "Folder",
+  "title": "272.A Rapid Deployment Pipeline for Autonomous Humanoid Grasping Based on Foundation Models"
+ },
+ {
+  "id": "1p9cYPxh-s2RpINsstuUJbBcinaPjxSK7",
+  "url": "https://drive.google.com/drive/folders/1p9cYPxh-s2RpINsstuUJbBcinaPjxSK7",
+  "kind": "Folder",
+  "title": "273.Learning Whole-Body Humanoid Locomotion via Motion Generation and Motion Tracking"
+ },
+ {
+  "id": "1wK80_wi1GfPePqG2rd_OyWMBlRMFa2wL",
+  "url": "https://drive.google.com/drive/folders/1wK80_wi1GfPePqG2rd_OyWMBlRMFa2wL",
+  "kind": "Folder",
+  "title": "274.Deep Reinforcement Learning for Real-World Humanoid Robot Locomotion Control with Automatic Reward Learning"
+ },
+ {
+  "id": "11hQdwlghuWpPz5Hf_UQIYOWnLSXopUtv",
+  "url": "https://drive.google.com/drive/folders/11hQdwlghuWpPz5Hf_UQIYOWnLSXopUtv",
+  "kind": "Folder",
+  "title": "275.Humanoid Robot Navigation in Shared Care Spaces A Human-Aware Navigation Framework and Implementation"
+ },
+ {
+  "id": "1ePWaZY3Uup_2zqnNAN1bP0ebW1lpmmkn",
+  "url": "https://drive.google.com/drive/folders/1ePWaZY3Uup_2zqnNAN1bP0ebW1lpmmkn",
+  "kind": "Folder",
+  "title": "276.Cognitive Models as Evaluation Primitives in Humanoid Factors"
+ },
+ {
+  "id": "1DGyRS5DA3NNY4Rjq_PirzSeI9fbqpTah",
+  "url": "https://drive.google.com/drive/folders/1DGyRS5DA3NNY4Rjq_PirzSeI9fbqpTah",
+  "kind": "Folder",
+  "title": "277.RPG Robust Policy Gating for Smooth Multi-Skill Transitions in Humanoid Fighting"
+ },
+ {
+  "id": "1VbiZdy30yaqewegcZM-YnRgmcTjqrRRS",
+  "url": "https://drive.google.com/drive/folders/1VbiZdy30yaqewegcZM-YnRgmcTjqrRRS",
+  "kind": "Folder",
+  "title": "278.Action Agent Agentic Video Generation Meets Flow-Constrained Diffusion"
+ },
+ {
+  "id": "1cC0CDgBySbLX_tJi0B4ZVybLxnL-WvP7",
+  "url": "https://drive.google.com/drive/folders/1cC0CDgBySbLX_tJi0B4ZVybLxnL-WvP7",
+  "kind": "Folder",
+  "title": "279.Yet Another Humanoid Motion Tracking Policy"
+ },
+ {
+  "id": "1mc2bdSLYebvFc8txckKI4mmQpn-Rgt6u",
+  "url": "https://drive.google.com/drive/folders/1mc2bdSLYebvFc8txckKI4mmQpn-Rgt6u",
+  "kind": "Folder",
+  "title": "28. I-CTRL Imitation to Control Humanoid Robots Through Bounded Residual Reinforcement Learning"
+ },
+ {
+  "id": "1wrZeRM5df-w1nNXbrfNd3gCbaIoeWv9X",
+  "url": "https://drive.google.com/drive/folders/1wrZeRM5df-w1nNXbrfNd3gCbaIoeWv9X",
+  "kind": "Folder",
+  "title": "280.LiveVLN Breaking the Stop-and-Go Loop in Vision-Language Navigation"
+ },
+ {
+  "id": "1CAHgN4dEqocahqnTjMXsqByssKmss9WE",
+  "url": "https://drive.google.com/drive/folders/1CAHgN4dEqocahqnTjMXsqByssKmss9WE",
+  "kind": "Folder",
+  "title": "281.ExoActor Exocentric Video Generation as Generalizable Interactive Humanoid Control"
+ },
+ {
+  "id": "1TUgu5p98nymbCDcbMNl_su8orm8x89nu",
+  "url": "https://drive.google.com/drive/folders/1TUgu5p98nymbCDcbMNl_su8orm8x89nu",
+  "kind": "Folder",
+  "title": "282.GazeVLA Learning Human Intention for Robotic Manipulation"
+ },
+ {
+  "id": "1nztTzYoPDCiOgAkIRBs4H3Htpx_R396J",
+  "url": "https://drive.google.com/drive/folders/1nztTzYoPDCiOgAkIRBs4H3Htpx_R396J",
+  "kind": "Folder",
+  "title": "283.SixthSense Task-Agnostic Proprioception-Only Whole-Body Wrench Estimation for Humanoids"
+ },
+ {
+  "id": "1XkTaQHpLoMm7xqeFHW1nhfi3FgN9FQCR",
+  "url": "https://drive.google.com/drive/folders/1XkTaQHpLoMm7xqeFHW1nhfi3FgN9FQCR",
+  "kind": "Folder",
+  "title": "284.RoSHI A Versatile Robot-oriented Suit for Human Data In-the-Wild"
+ },
+ {
+  "id": "1lV_T7CmzI3nMnG1VVPd87aOGVTE_Kc5D",
+  "url": "https://drive.google.com/drive/folders/1lV_T7CmzI3nMnG1VVPd87aOGVTE_Kc5D",
+  "kind": "Folder",
+  "title": "285.Switch Learning Agile Skills Switching for Humanoid Robots"
+ },
+ {
+  "id": "1O7TtRYCzLIo-6yiOHUTrkeaG3QWo94lY",
+  "url": "https://drive.google.com/drive/folders/1O7TtRYCzLIo-6yiOHUTrkeaG3QWo94lY",
+  "kind": "Folder",
+  "title": "286.HALO Hybrid Auto-encoded Locomotion with Learned Latent Dynamics, Poincaré Maps, and Regions of Attraction"
+ },
+ {
+  "id": "12k867XwVvzZABsT0DOadn-zpf6SkIor3",
+  "url": "https://drive.google.com/drive/folders/12k867XwVvzZABsT0DOadn-zpf6SkIor3",
+  "kind": "Folder",
+  "title": "287.HumanoidTurk Expanding VR Haptics with Humanoids for Driving Simulations"
+ },
+ {
+  "id": "16-JWmBBphwaPbLkb17rvZlzVCyTNErw6",
+  "url": "https://drive.google.com/drive/folders/16-JWmBBphwaPbLkb17rvZlzVCyTNErw6",
+  "kind": "Folder",
+  "title": "288.Toward next-generation autonomous structural health monitoring and inspection with humanoid robots"
+ },
+ {
+  "id": "1h40YpaCsv1Gp-1N1CBoaDf5zDextb87u",
+  "url": "https://drive.google.com/drive/folders/1h40YpaCsv1Gp-1N1CBoaDf5zDextb87u",
+  "kind": "Folder",
+  "title": "289.EgoVerse An Egocentric Human Dataset for Robot Learning from Around the World"
+ },
+ {
+  "id": "1Urx573r0J2452e-_ny0faEkyk9EIRora",
+  "url": "https://drive.google.com/drive/folders/1Urx573r0J2452e-_ny0faEkyk9EIRora",
+  "kind": "Folder",
+  "title": "29. UMC Unified Resilient Controller for Legged Robots with Joint Malfunctions"
+ },
+ {
+  "id": "1x9_4V2j55souY2RgxkUPK4j_dJShBbxL",
+  "url": "https://drive.google.com/drive/folders/1x9_4V2j55souY2RgxkUPK4j_dJShBbxL",
+  "kind": "Folder",
+  "title": "290.QuietWalk Physics-Informed Reinforcement Learning for Ground Reaction Force-Aware Humanoid Locomotion Under Diverse Footwear"
+ },
+ {
+  "id": "1jvBA_RbU6zRqscrAkaB54gZ1FtU_5SQb",
+  "url": "https://drive.google.com/drive/folders/1jvBA_RbU6zRqscrAkaB54gZ1FtU_5SQb",
+  "kind": "Folder",
+  "title": "291.A Rapid Instrument Exchange System for Humanoid Robots in Minimally Invasive Surgery"
+ },
+ {
+  "id": "1VXgeHdz22mlKeDgdMZu2eLqA2wbEvr5_",
+  "url": "https://drive.google.com/drive/folders/1VXgeHdz22mlKeDgdMZu2eLqA2wbEvr5_",
+  "kind": "Folder",
+  "title": "292.BiDexGrasp Coordinated Bimanual Dexterous Grasps across Object Geometries and Sizes"
+ },
+ {
+  "id": "18s7t0CyE57YAv50cit7CsVntAzW9XnNo",
+  "url": "https://drive.google.com/drive/folders/18s7t0CyE57YAv50cit7CsVntAzW9XnNo",
+  "kind": "Folder",
+  "title": "293.MuGen Multi-Skill Generative Locomotion Controller for Humanoid Robots"
+ },
+ {
+  "id": "1A2t7i0Y7BzrrE2NE9w17ropHZUtLy0lB",
+  "url": "https://drive.google.com/drive/folders/1A2t7i0Y7BzrrE2NE9w17ropHZUtLy0lB",
+  "kind": "Folder",
+  "title": "294.Direct Dynamic Retargeting for Humanoid Imitation Learning from Videos"
+ },
+ {
+  "id": "1EsjIDKvRqC5-wyFsFQZgOqdF_TezuIzm",
+  "url": "https://drive.google.com/drive/folders/1EsjIDKvRqC5-wyFsFQZgOqdF_TezuIzm",
+  "kind": "Folder",
+  "title": "295.HAML Humanoid Adversarial Multi-Skill Learning via a Single Policy"
+ },
+ {
+  "id": "1zbLRLWv3YC3EyLdHKcna75iChHoOXNuU",
+  "url": "https://drive.google.com/drive/folders/1zbLRLWv3YC3EyLdHKcna75iChHoOXNuU",
+  "kind": "Folder",
+  "title": "296.Nautilus From One Prompt to Plug-and-Play Robot Learning"
+ },
+ {
+  "id": "1ap6XtWc1CHrf1DDldt7g8z4rL3294QWO",
+  "url": "https://drive.google.com/drive/folders/1ap6XtWc1CHrf1DDldt7g8z4rL3294QWO",
+  "kind": "Folder",
+  "title": "297.Real-Time Whole-Body Teleoperation of a Humanoid Robot Using IMU-Based Motion Capture with Sim2Sim and Sim2Real Validation"
+ },
+ {
+  "id": "1MbWaT6eDevN7jrvzJJ9_0TPXosq2lhHt",
+  "url": "https://drive.google.com/drive/folders/1MbWaT6eDevN7jrvzJJ9_0TPXosq2lhHt",
+  "kind": "Folder",
+  "title": "298.Contact-Staged Stand-up Learning for Humanoids under Shifted Center-of-Mass Conditions"
+ },
+ {
+  "id": "1NABvmuyG7QRf_BpGkM4EnwkawGxPb7LG",
+  "url": "https://drive.google.com/drive/folders/1NABvmuyG7QRf_BpGkM4EnwkawGxPb7LG",
+  "kind": "Folder",
+  "title": "299.PRIME Physically-consistent Robotic Inertial and Motion Estimation for Legged and Humanoid Robots"
+ },
+ {
+  "id": "1-4n1bhrqKEH4es3VvRcAiHtSeC9SmJyB",
+  "url": "https://drive.google.com/drive/folders/1-4n1bhrqKEH4es3VvRcAiHtSeC9SmJyB",
+  "kind": "Folder",
+  "title": "3.HumanoidBench：用于全身运动和操纵的模拟人形基准"
+ },
+ {
+  "id": "1NtTzj9uaDZIQaE3ovHeNmtwsuMURXJf5",
+  "url": "https://drive.google.com/drive/folders/1NtTzj9uaDZIQaE3ovHeNmtwsuMURXJf5",
+  "kind": "Folder",
+  "title": "30.VR-Robo A Real-to-Sim-to-Real Framework for Visual Robot Navigation and Locomotion"
+ },
+ {
+  "id": "1olfSkNlYUBXSpHrI9XrY0V52G5pJVxUp",
+  "url": "https://drive.google.com/drive/folders/1olfSkNlYUBXSpHrI9XrY0V52G5pJVxUp",
+  "kind": "Folder",
+  "title": "300.Unified Walking, Running, and Recovery for Humanoids via State-Dependent Adversarial Motion Priors"
+ },
+ {
+  "id": "1mJsrAodZMh8UgsBAN4QQ4LO8exu4-Soe",
+  "url": "https://drive.google.com/drive/folders/1mJsrAodZMh8UgsBAN4QQ4LO8exu4-Soe",
+  "kind": "Folder",
+  "title": "301.Terrain Consistent Reference-Guided RL for Humanoid Navigation Autonomy"
+ },
+ {
+  "id": "1b957MXmYlCexUdbQRWodlOAaaRdqZmUC",
+  "url": "https://drive.google.com/drive/folders/1b957MXmYlCexUdbQRWodlOAaaRdqZmUC",
+  "kind": "Folder",
+  "title": "302.A Hardware-Accelerated Stereoscopic VR Teleoperation Interface for Humanoid Robots"
+ },
+ {
+  "id": "1dOIbchw8S5pOJqEBSv1OdSoslItPw-P-",
+  "url": "https://drive.google.com/drive/folders/1dOIbchw8S5pOJqEBSv1OdSoslItPw-P-",
+  "kind": "Folder",
+  "title": "303.SPRINT Efficient Spectral Priors for Humanoid Athletic Sprints"
+ },
+ {
+  "id": "1wSRyZZANV6hAAv7HAjAZo87JCF6H-4ah",
+  "url": "https://drive.google.com/drive/folders/1wSRyZZANV6hAAv7HAjAZo87JCF6H-4ah",
+  "kind": "Folder",
+  "title": "304.Explicit Stair Geometry Conditioning for Robust Humanoid Locomotion"
+ },
+ {
+  "id": "1Zx-gjkaVHAI1YHeuu7GUgfmU0zxPALU8",
+  "url": "https://drive.google.com/drive/folders/1Zx-gjkaVHAI1YHeuu7GUgfmU0zxPALU8",
+  "kind": "Folder",
+  "title": "305.UniTracker Learning Universal Whole-Body Motion Tracker for Humanoid Robots"
+ },
+ {
+  "id": "1InrqhyYuCeH5R6Wk21zuOV3a8_7T3i8I",
+  "url": "https://drive.google.com/drive/folders/1InrqhyYuCeH5R6Wk21zuOV3a8_7T3i8I",
+  "kind": "Folder",
+  "title": "306.Uni-LaViRA Language-Vision-Robot Actions Translation for Unified Embodied Navigation"
+ },
+ {
+  "id": "1BAKC3s8Gkv7ZXKUKYueFY9q6ztmJEL5g",
+  "url": "https://drive.google.com/drive/folders/1BAKC3s8Gkv7ZXKUKYueFY9q6ztmJEL5g",
+  "kind": "Folder",
+  "title": "307.Humanoid Generative Pre-Training for Zero-Shot Motion Tracking"
+ },
+ {
+  "id": "1CW_YE0KBy0etUHBUTwbBx8cVzU4eOsaM",
+  "url": "https://drive.google.com/drive/folders/1CW_YE0KBy0etUHBUTwbBx8cVzU4eOsaM",
+  "kind": "Folder",
+  "title": "308.HAIC Humanoid Agile Object Interaction Control via Dynamics-Aware World Model"
+ },
+ {
+  "id": "1gxXNmWmt6Z041wZkgcWg_ETTktWlrXIv",
+  "url": "https://drive.google.com/drive/folders/1gxXNmWmt6Z041wZkgcWg_ETTktWlrXIv",
+  "kind": "Folder",
+  "title": "309.Gaze2Act Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation"
+ },
+ {
+  "id": "1pMEWfVViSmXUwdztUTmYfQ_rAr9HV7BL",
+  "url": "https://drive.google.com/drive/folders/1pMEWfVViSmXUwdztUTmYfQ_rAr9HV7BL",
+  "kind": "Folder",
+  "title": "31. Guiding Collision-Free Humanoid Multi-Contact Locomotion using Convex Kinematic Relaxations and Dynamic Optimization"
+ },
+ {
+  "id": "1jjTxHXM8eL_RksNt-G5TAQp2dQG6TPMy",
+  "url": "https://drive.google.com/drive/folders/1jjTxHXM8eL_RksNt-G5TAQp2dQG6TPMy",
+  "kind": "Folder",
+  "title": "310.Beyond Mimicry Learning Whole-Body Human-Humanoid Interaction from Human-Human Demonstrations"
+ },
+ {
+  "id": "1LVDC91k35v9oO5V4Pwa1eaF04ktA1Myd",
+  "url": "https://drive.google.com/drive/folders/1LVDC91k35v9oO5V4Pwa1eaF04ktA1Myd",
+  "kind": "Folder",
+  "title": "311.End-to-End Language-Action Model for Humanoid Whole Body Control"
+ },
+ {
+  "id": "1OdjYp8qVckbWJh05uPqmBSy2YBLC8hLV",
+  "url": "https://drive.google.com/drive/folders/1OdjYp8qVckbWJh05uPqmBSy2YBLC8hLV",
+  "kind": "Folder",
+  "title": "312.LiteViLNet Lightweight Vision-LiDAR Fusion Network for Efficient Road Segmentation"
+ },
+ {
+  "id": "1WnB31rVwsK3VfgPO-D80cxVVVO9hgZyv",
+  "url": "https://drive.google.com/drive/folders/1WnB31rVwsK3VfgPO-D80cxVVVO9hgZyv",
+  "kind": "Folder",
+  "title": "313.BifrostUMI Bridging Robot-Free Demonstrations and Humanoid Whole-Body Manipulation"
+ },
+ {
+  "id": "1IJZu0T0NaEufeSgmvMpiYxSv7_tAC_8G",
+  "url": "https://drive.google.com/drive/folders/1IJZu0T0NaEufeSgmvMpiYxSv7_tAC_8G",
+  "kind": "Folder",
+  "title": "314.ParkourFormer Integrating Predictive Supervision and Sequence Modeling into Parkour Locomotion"
+ },
+ {
+  "id": "1hb2NJLaKhm91pDhZSVSvcHl4RfauSmv7",
+  "url": "https://drive.google.com/drive/folders/1hb2NJLaKhm91pDhZSVSvcHl4RfauSmv7",
+  "kind": "Folder",
+  "title": "315.Closing the Loop in Teleoperation Episode-Level Data Quality Assessment and Feedback for High-Quality Demonstration Collection"
+ },
+ {
+  "id": "1478aqWXXIuBZOWumAAmUfyiBe_a1Rl8R",
+  "url": "https://drive.google.com/drive/folders/1478aqWXXIuBZOWumAAmUfyiBe_a1Rl8R",
+  "kind": "Folder",
+  "title": "316.Switch-JustDance Benchmarking Whole-Body Motion Tracking Controllers Using a Commercial Console Game"
+ },
+ {
+  "id": "1ocltm1RtVhmGvcxPCA9j08e54G4Gsdyv",
+  "url": "https://drive.google.com/drive/folders/1ocltm1RtVhmGvcxPCA9j08e54G4Gsdyv",
+  "kind": "Folder",
+  "title": "317.Towards Data-Efficient VLA Post-Training a case study of an industrial task"
+ },
+ {
+  "id": "1noGu5vdVq1x-KIDXKGrgqS8D6UrKihpG",
+  "url": "https://drive.google.com/drive/folders/1noGu5vdVq1x-KIDXKGrgqS8D6UrKihpG",
+  "kind": "Folder",
+  "title": "318.HoloMotion-1 Technical Report"
+ },
+ {
+  "id": "1F0pAA4JXiqfHuL5t2whHgNQBvuVZ8kLj",
+  "url": "https://drive.google.com/drive/folders/1F0pAA4JXiqfHuL5t2whHgNQBvuVZ8kLj",
+  "kind": "Folder",
+  "title": "319.Humanoid Whole-Body Manipulation via Active Spatial Brain and Generalizable Action Cerebellum"
+ },
+ {
+  "id": "1QEwwAA9P5CzHa0oI64t0DeqvpsAEbtre",
+  "url": "https://drive.google.com/drive/folders/1QEwwAA9P5CzHa0oI64t0DeqvpsAEbtre",
+  "kind": "Folder",
+  "title": "32. Toward Task Generalization via Memory Augmentation in Meta-Reinforcement Learning"
+ },
+ {
+  "id": "1O9sIK90o16iANEbskRhd8yc0JqZitmMA",
+  "url": "https://drive.google.com/drive/folders/1O9sIK90o16iANEbskRhd8yc0JqZitmMA",
+  "kind": "Folder",
+  "title": "320.AoE Always-on Egocentric Human Video Collection for Embodied AI"
+ },
+ {
+  "id": "1Qj-u73KbmlLcWMBp6IU-9WEYMBUwHy33",
+  "url": "https://drive.google.com/drive/folders/1Qj-u73KbmlLcWMBp6IU-9WEYMBUwHy33",
+  "kind": "Folder",
+  "title": "321.CEER Compliant End-Effector and Root Control as a Unified Interface for Hierarchical Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1uWnTePc1gDx3lqtvN3gYTv45JzBo2ra0",
+  "url": "https://drive.google.com/drive/folders/1uWnTePc1gDx3lqtvN3gYTv45JzBo2ra0",
+  "kind": "Folder",
+  "title": "322.Imagine2Real Towards Zero-shot Humanoid-Object Interaction via Video Generative Priors"
+ },
+ {
+  "id": "1K-dQ_oqJoqxhU3Dc0W69qWthMUivq9iS",
+  "url": "https://drive.google.com/drive/folders/1K-dQ_oqJoqxhU3Dc0W69qWthMUivq9iS",
+  "kind": "Folder",
+  "title": "323.Steering Generative Reinforcement Learning into Stable Robotic Controller"
+ },
+ {
+  "id": "1hjqXT-TAcb54dn7yED34Y-uxIylE-LQL",
+  "url": "https://drive.google.com/drive/folders/1hjqXT-TAcb54dn7yED34Y-uxIylE-LQL",
+  "kind": "Folder",
+  "title": "324.IntentNav Learning Spatial-Visual Object Navigation from Human Demonstrations"
+ },
+ {
+  "id": "1qykFIVxTjGKld4ZUsODlnFN6ALkGO4vX",
+  "url": "https://drive.google.com/drive/folders/1qykFIVxTjGKld4ZUsODlnFN6ALkGO4vX",
+  "kind": "Folder",
+  "title": "325.Identification of a Physics-Based Electrical Power Consumption Model for the Unitree G1 Humanoid Arm"
+ },
+ {
+  "id": "160kf6HCqkQmKqqGl19SB-4qTA39yHpbM",
+  "url": "https://drive.google.com/drive/folders/160kf6HCqkQmKqqGl19SB-4qTA39yHpbM",
+  "kind": "Folder",
+  "title": "326.From Remote Control to Vision-Language-Action Initial Deployment of the Humanoid Robot Unitree G1 with Tactile Hands"
+ },
+ {
+  "id": "1OhRgWEt_W2vdG9LQzyTxX1tbQB5AN0yz",
+  "url": "https://drive.google.com/drive/folders/1OhRgWEt_W2vdG9LQzyTxX1tbQB5AN0yz",
+  "kind": "Folder",
+  "title": "327.Global-Local Attention Decomposition for Terrain Encoding in Humanoid Perceptive Locomotion"
+ },
+ {
+  "id": "1ks-wgO3qrA4diSzfplS8V1T40hKJqArk",
+  "url": "https://drive.google.com/drive/folders/1ks-wgO3qrA4diSzfplS8V1T40hKJqArk",
+  "kind": "Folder",
+  "title": "328.Energy-Efficient Arm Reaching for a Humanoid Robot via Deep Reinforcement Learning with Identified Power Models"
+ },
+ {
+  "id": "1OP_uraY7cd9wwSntKcSIc_w0YxaTBgw8",
+  "url": "https://drive.google.com/drive/folders/1OP_uraY7cd9wwSntKcSIc_w0YxaTBgw8",
+  "kind": "Folder",
+  "title": "329.ReactiveBFM Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control"
+ },
+ {
+  "id": "1pXfpkouY7lG_L0PFmAojltegDiLSWdIa",
+  "url": "https://drive.google.com/drive/folders/1pXfpkouY7lG_L0PFmAojltegDiLSWdIa",
+  "kind": "Folder",
+  "title": "33. Physically Consistent Humanoid Loco-Manipulation using Latent Diffusion Models"
+ },
+ {
+  "id": "1vN0LUCB8DCLxwAZcizUN7_cE0885-0c6",
+  "url": "https://drive.google.com/drive/folders/1vN0LUCB8DCLxwAZcizUN7_cE0885-0c6",
+  "kind": "Folder",
+  "title": "330.MotionWAM Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1K4cv4OqevNNHIO1Bhvz-WCXM_1J4WtlN",
+  "url": "https://drive.google.com/drive/folders/1K4cv4OqevNNHIO1Bhvz-WCXM_1J4WtlN",
+  "kind": "Folder",
+  "title": "331.Bionic Human-Motion Style Transfer for Physically Executable Whole-Body Control of Humanoid Robots"
+ },
+ {
+  "id": "1dD7rIvNmlfUew2lwoJ3DGJdJBdn_A67b",
+  "url": "https://drive.google.com/drive/folders/1dD7rIvNmlfUew2lwoJ3DGJdJBdn_A67b",
+  "kind": "Folder",
+  "title": "332.Humanoid-OmniOcc Stereo-Based Full-View Occupancy Dataset for Embodied AI"
+ },
+ {
+  "id": "1emnAyDGT2-gfaoW08uo6e5JqVbXOLro3",
+  "url": "https://drive.google.com/drive/folders/1emnAyDGT2-gfaoW08uo6e5JqVbXOLro3",
+  "kind": "Folder",
+  "title": "333.ADAPT Analytical Disturbance-Aware Policy Training for Humanoid Locomotion"
+ },
+ {
+  "id": "1NXn3t9sRnYcaDTk4tKtrIp-cgBE7VMQI",
+  "url": "https://drive.google.com/drive/folders/1NXn3t9sRnYcaDTk4tKtrIp-cgBE7VMQI",
+  "kind": "Folder",
+  "title": "334.GRAIL Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors"
+ },
+ {
+  "id": "1Q1fr9BsBtvdQ8aOSYLgCNVI1hjeO8bEL",
+  "url": "https://drive.google.com/drive/folders/1Q1fr9BsBtvdQ8aOSYLgCNVI1hjeO8bEL",
+  "kind": "Folder",
+  "title": "335.LEGS Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World"
+ },
+ {
+  "id": "1nUVSBuhzOULZ247IT2pCBJ0b3UVTObZo",
+  "url": "https://drive.google.com/drive/folders/1nUVSBuhzOULZ247IT2pCBJ0b3UVTObZo",
+  "kind": "Folder",
+  "title": "336.VLK Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes"
+ },
+ {
+  "id": "1iBXaa1OUwm-MCeZvEWXVmccaMGoGwB0M",
+  "url": "https://drive.google.com/drive/folders/1iBXaa1OUwm-MCeZvEWXVmccaMGoGwB0M",
+  "kind": "Folder",
+  "title": "337.TEXEDO  Test Time Scaling for Controller-aware Language-conditioned Humanoid Motion Generation"
+ },
+ {
+  "id": "1MKVJ_mOGE7eghmRLrtE0HcHlYBf7qMgr",
+  "url": "https://drive.google.com/drive/folders/1MKVJ_mOGE7eghmRLrtE0HcHlYBf7qMgr",
+  "kind": "Folder",
+  "title": "338.MARCH Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds"
+ },
+ {
+  "id": "1nCXwnoNI5qsocHBRPs6V6nU0SuXUj4k8",
+  "url": "https://drive.google.com/drive/folders/1nCXwnoNI5qsocHBRPs6V6nU0SuXUj4k8",
+  "kind": "Folder",
+  "title": "339.CG-MuTra Continuously-Gated Multi-Terrain Adaptive Recovery for Unified Humanoid Fall Recovery and Locomotion"
+ },
+ {
+  "id": "1xISmjHxvLw93KbSYtzRrUrbJQY_KDjun",
+  "url": "https://drive.google.com/drive/folders/1xISmjHxvLw93KbSYtzRrUrbJQY_KDjun",
+  "kind": "Folder",
+  "title": "34. InterMimic Towards Universal Whole-Body Control for Physics-Based Human-Object Interactions"
+ },
+ {
+  "id": "1Yy9y532Zy0e9PIknXBq_rkHEr_SYfo6b",
+  "url": "https://drive.google.com/drive/folders/1Yy9y532Zy0e9PIknXBq_rkHEr_SYfo6b",
+  "kind": "Folder",
+  "title": "340.Predictive Style Matching Natural and Robust Humanoid Locomotion"
+ },
+ {
+  "id": "1obBQMkf6zSd78xU80FAUY6mcEb7W-OS3",
+  "url": "https://drive.google.com/drive/folders/1obBQMkf6zSd78xU80FAUY6mcEb7W-OS3",
+  "kind": "Folder",
+  "title": "341.RoboNaldo Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning"
+ },
+ {
+  "id": "1iHOBvQZeyPd5zqvyoZoWGGh_-rdvs8X2",
+  "url": "https://drive.google.com/drive/folders/1iHOBvQZeyPd5zqvyoZoWGGh_-rdvs8X2",
+  "kind": "Folder",
+  "title": "342.CoRe-MoE Contrastive Reweighted Mixture of Experts for Multi-Terrain Humanoid Locomotion with Gait Adaptation"
+ },
+ {
+  "id": "1SsCLLd4SApU3OdmcoPqEYIt8-D8Cw_5h",
+  "url": "https://drive.google.com/drive/folders/1SsCLLd4SApU3OdmcoPqEYIt8-D8Cw_5h",
+  "kind": "Folder",
+  "title": "343.OASIS From Simulation Data Collection to Real-World Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1CVmXkFFrcI5v8Lea7bFl3J7ok9I-XQot",
+  "url": "https://drive.google.com/drive/folders/1CVmXkFFrcI5v8Lea7bFl3J7ok9I-XQot",
+  "kind": "Folder",
+  "title": "344.Cooperative Long Rope Skipping via Multi-Agent Reinforcement Learning"
+ },
+ {
+  "id": "1XHfMiOyQkP-Usdr1q4rmWYVqWMaxsj4O",
+  "url": "https://drive.google.com/drive/folders/1XHfMiOyQkP-Usdr1q4rmWYVqWMaxsj4O",
+  "kind": "Folder",
+  "title": "345.CoorDex Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1k8PbhqBYHIUleK9Vv0XMVuVlBzbiRtsV",
+  "url": "https://drive.google.com/drive/folders/1k8PbhqBYHIUleK9Vv0XMVuVlBzbiRtsV",
+  "kind": "Folder",
+  "title": "346.Learning Asynchronous Upper-body Task-space Trajectory Tracking Policy for Humanoid Robots"
+ },
+ {
+  "id": "1FZmA0_IEN1EueySrJ5sNPEB4iu-zWnDi",
+  "url": "https://drive.google.com/drive/folders/1FZmA0_IEN1EueySrJ5sNPEB4iu-zWnDi",
+  "kind": "Folder",
+  "title": "347.PhysDrift Bridging the Embodiment Gap in Humanoid Co-Speech Motion Generation"
+ },
+ {
+  "id": "12K0TiFWv3zE1ThfZGFOM0zi468ywMJGC",
+  "url": "https://drive.google.com/drive/folders/12K0TiFWv3zE1ThfZGFOM0zi468ywMJGC",
+  "kind": "Folder",
+  "title": "348.HANDOFF Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers"
+ },
+ {
+  "id": "1v7D9CoR6TUVz0G0cOfXZdPyshH7rMG6U",
+  "url": "https://drive.google.com/drive/folders/1v7D9CoR6TUVz0G0cOfXZdPyshH7rMG6U",
+  "kind": "Folder",
+  "title": "349.M3imic Learning a Versatile Whole-Body Controller for Multimodal Motion Mimicking"
+ },
+ {
+  "id": "1XD8BiIVPvlq8QRtMm-9UWbIfXQQwC-6j",
+  "url": "https://drive.google.com/drive/folders/1XD8BiIVPvlq8QRtMm-9UWbIfXQQwC-6j",
+  "kind": "Folder",
+  "title": "35. Humanoid-VLA Towards Universal Humanoid Control with Visual Integration"
+ },
+ {
+  "id": "1kN6Yc3nRO39pxOogmacoXZGZCkCZIg_7",
+  "url": "https://drive.google.com/drive/folders/1kN6Yc3nRO39pxOogmacoXZGZCkCZIg_7",
+  "kind": "Folder",
+  "title": "350.LP-NavOA Integrated Local Navigation and Obstacle Avoidance for Humanoid Robots under Limited Perception"
+ },
+ {
+  "id": "1-GwPbdS2LxX68XQBYpUWqwsnrlvN70Zg",
+  "url": "https://drive.google.com/drive/folders/1-GwPbdS2LxX68XQBYpUWqwsnrlvN70Zg",
+  "kind": "Folder",
+  "title": "351.DGV Fusing Dynamic Graphs and Vision-Language Models for Collaborative Dual-Arm Task Planning"
+ },
+ {
+  "id": "1JaWEO6oxgDOiBIOKMQbeNRZKejN88Dt1",
+  "url": "https://drive.google.com/drive/folders/1JaWEO6oxgDOiBIOKMQbeNRZKejN88Dt1",
+  "kind": "Folder",
+  "title": "352.TaskNPoint How to Teach Your Humanoid to Hit a Backhand in Minutes"
+ },
+ {
+  "id": "1nI8L56rjieGqvtmyyOPSdNeAp6TBhsqb",
+  "url": "https://drive.google.com/drive/folders/1nI8L56rjieGqvtmyyOPSdNeAp6TBhsqb",
+  "kind": "Folder",
+  "title": "353.Flash-WAM Modality-Aware Distillation for World Action Models"
+ },
+ {
+  "id": "1JzCW2spKrkR9isp-qxdbJqDynPmRNdQ2",
+  "url": "https://drive.google.com/drive/folders/1JzCW2spKrkR9isp-qxdbJqDynPmRNdQ2",
+  "kind": "Folder",
+  "title": "354.Stubborn A Streamlined and Unified Reinforcement Learning Framework for Robust Motion Tracking and Fall Recovery for Humanoids"
+ },
+ {
+  "id": "1exblaSuY8jtSDpULIWISLvrlSAdosc_7",
+  "url": "https://drive.google.com/drive/folders/1exblaSuY8jtSDpULIWISLvrlSAdosc_7",
+  "kind": "Folder",
+  "title": "355.Wh0 Generative World Models as Scalable Sources of Egocentric Human Hand Manipulation Data"
+ },
+ {
+  "id": "15VsKCaV0ZzGn9ntHe9B0LlDVacrzM1m3",
+  "url": "https://drive.google.com/drive/folders/15VsKCaV0ZzGn9ntHe9B0LlDVacrzM1m3",
+  "kind": "Folder",
+  "title": "356.OMG Omni-Modal Motion Generation for Generalist Humanoid Control"
+ },
+ {
+  "id": "12SZcanUcT1uxEBuECbCRPQJVEOCCKDTb",
+  "url": "https://drive.google.com/drive/folders/12SZcanUcT1uxEBuECbCRPQJVEOCCKDTb",
+  "kind": "Folder",
+  "title": "357.Humanoid-DART Humanoid Loco-Manipulation using Diffusion-guided Augmentation through Relabeling and Tracking"
+ },
+ {
+  "id": "11pxkCbSSHtQ9vCrLGjnDms1nYhEPlL5T",
+  "url": "https://drive.google.com/drive/folders/11pxkCbSSHtQ9vCrLGjnDms1nYhEPlL5T",
+  "kind": "Folder",
+  "title": "358.AnyBody Free-Form Whole-Body Humanoid Control from Arbitrary Keypoint Guidance"
+ },
+ {
+  "id": "1CWx3YPwen2P2vVVAKc0Hcf3vZQKBflRT",
+  "url": "https://drive.google.com/drive/folders/1CWx3YPwen2P2vVVAKc0Hcf3vZQKBflRT",
+  "kind": "Folder",
+  "title": "359.Current as Touch Proprioceptive Contact Feedback for Compliant Dexterous Manipulation"
+ },
+ {
+  "id": "1hH_yOOQn9ym0VnzUGOgVgZb1wAQrWWnZ",
+  "url": "https://drive.google.com/drive/folders/1hH_yOOQn9ym0VnzUGOgVgZb1wAQrWWnZ",
+  "kind": "Folder",
+  "title": "36. Variations of Augmented Lagrangian for Robotic Multi-Contact Simulation"
+ },
+ {
+  "id": "1z3fmElUn3dAr4flvaQBC0Tnain_JxvCG",
+  "url": "https://drive.google.com/drive/folders/1z3fmElUn3dAr4flvaQBC0Tnain_JxvCG",
+  "kind": "Folder",
+  "title": "360.Humanoid-GPT Scaling Data and Structure for Zero-Shot Motion Tracking"
+ },
+ {
+  "id": "1S_pt6A7s4e1vvNkXMIF1ict4dqoRT9cU",
+  "url": "https://drive.google.com/drive/folders/1S_pt6A7s4e1vvNkXMIF1ict4dqoRT9cU",
+  "kind": "Folder",
+  "title": "361.Bridging the Loco-Manipulation Disconnect A Framework for Dynamic Whole-Body Impulse Control on Floating-Base Robots"
+ },
+ {
+  "id": "11bAQUHSFN7bmdsAmE2VO6F32aXSSomkN",
+  "url": "https://drive.google.com/drive/folders/11bAQUHSFN7bmdsAmE2VO6F32aXSSomkN",
+  "kind": "Folder",
+  "title": "362.SplitAdapter Load-Aware Humanoid Loco-Manipulation via Factorized Adaptation"
+ },
+ {
+  "id": "1CkYft7plaHSoI3ta0daxa8psCnZsUBDC",
+  "url": "https://drive.google.com/drive/folders/1CkYft7plaHSoI3ta0daxa8psCnZsUBDC",
+  "kind": "Folder",
+  "title": "363.LARA Latent Action Representation Alignment for Vision-Language-Action Models"
+ },
+ {
+  "id": "16vBNULr20GoJN_WurcVgobYtqLtRKvLO",
+  "url": "https://drive.google.com/drive/folders/16vBNULr20GoJN_WurcVgobYtqLtRKvLO",
+  "kind": "Folder",
+  "title": "364.LadderMan Learning Humanoid Perceptive Ladder Climbing"
+ },
+ {
+  "id": "1txFtFJ0q4LLhtwORXku5qupYprvdEOJf",
+  "url": "https://drive.google.com/drive/folders/1txFtFJ0q4LLhtwORXku5qupYprvdEOJf",
+  "kind": "Folder",
+  "title": "365.VGP-Nav Metric-Aware Visual Geometric Perception for Robot Navigation"
+ },
+ {
+  "id": "1lDXZL7hQzJCw97C4idtNJP2_Z_-fy_HX",
+  "url": "https://drive.google.com/drive/folders/1lDXZL7hQzJCw97C4idtNJP2_Z_-fy_HX",
+  "kind": "Folder",
+  "title": "366.OpenHLM An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1qfEP_Ir8R57I9mcOHk8C-oQoPo1KNagP",
+  "url": "https://drive.google.com/drive/folders/1qfEP_Ir8R57I9mcOHk8C-oQoPo1KNagP",
+  "kind": "Folder",
+  "title": "367.USS Unified Spatial-Semantic Prompts for Embodied Visual Tracking with Latent Dynamics Learning"
+ },
+ {
+  "id": "1RZRdZH5Dc5l-JLbuEjHPj1Q8DkE4KTbF",
+  "url": "https://drive.google.com/drive/folders/1RZRdZH5Dc5l-JLbuEjHPj1Q8DkE4KTbF",
+  "kind": "Folder",
+  "title": "368.λ -Reachability Geometric-Horizon Safety Bellman Equations for Humanoid Safety"
+ },
+ {
+  "id": "1YBrpw7evbllBqoJ6x3FlOXR998fUJohT",
+  "url": "https://drive.google.com/drive/folders/1YBrpw7evbllBqoJ6x3FlOXR998fUJohT",
+  "kind": "Folder",
+  "title": "369.WAM-Nav Asymmetric Latent World-Action Modeling for Unified Visual Navigation"
+ },
+ {
+  "id": "1vQ-OBOpiAcFqwN9_0X1ik0FlDbTX2bg6",
+  "url": "https://drive.google.com/drive/folders/1vQ-OBOpiAcFqwN9_0X1ik0FlDbTX2bg6",
+  "kind": "Folder",
+  "title": "37. Embrace Collisions Humanoid Shadowing for Deployable Contact-Agnostics Motions"
+ },
+ {
+  "id": "1NgPb9CaaMmGVhBjzwSijuO03GoqQhydk",
+  "url": "https://drive.google.com/drive/folders/1NgPb9CaaMmGVhBjzwSijuO03GoqQhydk",
+  "kind": "Folder",
+  "title": "370.SceneBot Contact-Prompted General Humanoid Whole Body Tracking with Scene-Interaction"
+ },
+ {
+  "id": "1bk4cMexBz6q-pAti8ejrAUYhRxbo9myx",
+  "url": "https://drive.google.com/drive/folders/1bk4cMexBz6q-pAti8ejrAUYhRxbo9myx",
+  "kind": "Folder",
+  "title": "371.PressMimic Pressure-Guided Motion Capture and Control for Humanoid Robot Imitation"
+ },
+ {
+  "id": "18G_L3VmgLjvTwm9UlfEUmQiaUTd4yeiY",
+  "url": "https://drive.google.com/drive/folders/18G_L3VmgLjvTwm9UlfEUmQiaUTd4yeiY",
+  "kind": "Folder",
+  "title": "372.EgoAERO Learning Dexterous Manipulation from a Single Egocentric Video without Object Assets"
+ },
+ {
+  "id": "1wRNr60tD_UbMIQVhbZ5ziSBFqPcZ6Vtj",
+  "url": "https://drive.google.com/drive/folders/1wRNr60tD_UbMIQVhbZ5ziSBFqPcZ6Vtj",
+  "kind": "Folder",
+  "title": "373.ADP Adversarial Dynamics Priors for Physically Grounded Humanoid Locomotion"
+ },
+ {
+  "id": "1KTNn49XbQLmcDZ6H4vy2Dxbeu-O3ATFz",
+  "url": "https://drive.google.com/drive/folders/1KTNn49XbQLmcDZ6H4vy2Dxbeu-O3ATFz",
+  "kind": "Folder",
+  "title": "374.WT-UMI Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning"
+ },
+ {
+  "id": "1jhH0hUp3CXGxs4IKZLtwTShW0AbJTZDC",
+  "url": "https://drive.google.com/drive/folders/1jhH0hUp3CXGxs4IKZLtwTShW0AbJTZDC",
+  "kind": "Folder",
+  "title": "375.Transferring Contact, Not Just Motion Compliant Grasping Across Dexterous Hands"
+ },
+ {
+  "id": "1ztE2k6UOFYjfMbqgt06riOQ9sD3AYKE3",
+  "url": "https://drive.google.com/drive/folders/1ztE2k6UOFYjfMbqgt06riOQ9sD3AYKE3",
+  "kind": "Folder",
+  "title": "376.Proprioceptive-visual correspondence enables self-other distinction in humanoid robots"
+ },
+ {
+  "id": "1rCJXrKHnR5bGY-p-dhaX2008amJKC9SI",
+  "url": "https://drive.google.com/drive/folders/1rCJXrKHnR5bGY-p-dhaX2008amJKC9SI",
+  "kind": "Folder",
+  "title": "377.EM-Fall Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots"
+ },
+ {
+  "id": "1zCQSYXTasbvnyJYKxfQs6-LZzmWb4mOh",
+  "url": "https://drive.google.com/drive/folders/1zCQSYXTasbvnyJYKxfQs6-LZzmWb4mOh",
+  "kind": "Folder",
+  "title": "378.GenHOI Contact-Aware Humanoid-Object Interaction by Imitating Generated Videos without Task-Specific Training"
+ },
+ {
+  "id": "1Ddo-QWmHXnXxeidY-2ME_Z71PyW0WKiA",
+  "url": "https://drive.google.com/drive/folders/1Ddo-QWmHXnXxeidY-2ME_Z71PyW0WKiA",
+  "kind": "Folder",
+  "title": "379.HoloAgent-0 A Unified Embodied Agent Framework with 3D Spatial Memory"
+ },
+ {
+  "id": "1OWX7eBO9Ds2nmPlFR8Z3krXvG0nFET83",
+  "url": "https://drive.google.com/drive/folders/1OWX7eBO9Ds2nmPlFR8Z3krXvG0nFET83",
+  "kind": "Folder",
+  "title": "38.Towards Dynamical Safety on Humanoids with Stochastic Controllers with"
+ },
+ {
+  "id": "1KZV__HtcF5crxipTkVpzGjncAgcoaalI",
+  "url": "https://drive.google.com/drive/folders/1KZV__HtcF5crxipTkVpzGjncAgcoaalI",
+  "kind": "Folder",
+  "title": "380.ActProbe Action-Space Probe for Early Failure Detection of Generative Robot Policies"
+ },
+ {
+  "id": "1jOrsV2nVOOyjZiOHOzUc5-SxCxIcdFdg",
+  "url": "https://drive.google.com/drive/folders/1jOrsV2nVOOyjZiOHOzUc5-SxCxIcdFdg",
+  "kind": "Folder",
+  "title": "381.OmniContact Chaining Meta-Skills via Contact Flow for Generalizable Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1A9_iHwvUt9hLaOy2-BWeauCtTodGgSwc",
+  "url": "https://drive.google.com/drive/folders/1A9_iHwvUt9hLaOy2-BWeauCtTodGgSwc",
+  "kind": "Folder",
+  "title": "382.SIMPLE Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation"
+ },
+ {
+  "id": "1TBI-Yjx8DqVi-WzuVVgk4nQx-uRgqtXt",
+  "url": "https://drive.google.com/drive/folders/1TBI-Yjx8DqVi-WzuVVgk4nQx-uRgqtXt",
+  "kind": "Folder",
+  "title": "383.Semantic Audio-driven Understanding for Dynamic Humanoid Whole Body Control"
+ },
+ {
+  "id": "1x6dqT8rGpk42kQth3eCzuwDwW5CPkBmA",
+  "url": "https://drive.google.com/drive/folders/1x6dqT8rGpk42kQth3eCzuwDwW5CPkBmA",
+  "kind": "Folder",
+  "title": "384.Hear-to-Act Spatial Audio-Guided Robot Control on Humanoid and Manipulator Platforms"
+ },
+ {
+  "id": "1nbD5ANxoc1u5IHe18Dn8wtyAhBiZ9rdO",
+  "url": "https://drive.google.com/drive/folders/1nbD5ANxoc1u5IHe18Dn8wtyAhBiZ9rdO",
+  "kind": "Folder",
+  "title": "385.EgoHTR Egocentric 4D Demonstrations of Human Terrain Traversal"
+ },
+ {
+  "id": "1O_1bx650DjmuOcW4PD2d1yoQEf2BGvPa",
+  "url": "https://drive.google.com/drive/folders/1O_1bx650DjmuOcW4PD2d1yoQEf2BGvPa",
+  "kind": "Folder",
+  "title": "386.Closing the Loop in Humanoid VLA Persistent 3D Object Tokens for Verifiable Loco-Manipulation"
+ },
+ {
+  "id": "1xvOiVscJ6igvUUxfWuuJXLRmtu0XPp2k",
+  "url": "https://drive.google.com/drive/folders/1xvOiVscJ6igvUUxfWuuJXLRmtu0XPp2k",
+  "kind": "Folder",
+  "title": "387.Closing the Lab-to-Store Gap A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids"
+ },
+ {
+  "id": "1GhDCR69Ommo7LVAjz6HotfBtxndxA9Ur",
+  "url": "https://drive.google.com/drive/folders/1GhDCR69Ommo7LVAjz6HotfBtxndxA9Ur",
+  "kind": "Folder",
+  "title": "388.Learning Adaptive Safety Margins for Visual Navigation"
+ },
+ {
+  "id": "1LfeFGmxzKD_br2I_4wW1VnBWxvXgbLkV",
+  "url": "https://drive.google.com/drive/folders/1LfeFGmxzKD_br2I_4wW1VnBWxvXgbLkV",
+  "kind": "Folder",
+  "title": "389.Humanoid robots in the operating room a framework for staged integration of embodied AI in surgery"
+ },
+ {
+  "id": "16BpMOh4aaX1k8m7AYYpmDlDL3GuL9bcN",
+  "url": "https://drive.google.com/drive/folders/16BpMOh4aaX1k8m7AYYpmDlDL3GuL9bcN",
+  "kind": "Folder",
+  "title": "39. Adversarial Locomotion and Motion Imitation for Humanoid Policy Learning"
+ },
+ {
+  "id": "1ubwjbn-yk735vYeTDILUpCJY6xdISS_d",
+  "url": "https://drive.google.com/drive/folders/1ubwjbn-yk735vYeTDILUpCJY6xdISS_d",
+  "kind": "Folder",
+  "title": "390.Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains"
+ },
+ {
+  "id": "19PbwGxVdJW6O4_ZT_XfPYzrqNMddVOrs",
+  "url": "https://drive.google.com/drive/folders/19PbwGxVdJW6O4_ZT_XfPYzrqNMddVOrs",
+  "kind": "Folder",
+  "title": "391.Can We Tune Humanoid Behavior Foundation Models for Dynamic and Contact-Rich Tasks"
+ },
+ {
+  "id": "1eqeEnDar-K2mTs99YCULtcz5lM0353XY",
+  "url": "https://drive.google.com/drive/folders/1eqeEnDar-K2mTs99YCULtcz5lM0353XY",
+  "kind": "Folder",
+  "title": "392.ReferTrack Referring Then Tracking for Embodied Visual Tracking"
+ },
+ {
+  "id": "1OMc4khf1dY18OpEB-a7I3so9jCoxg3Go",
+  "url": "https://drive.google.com/drive/folders/1OMc4khf1dY18OpEB-a7I3so9jCoxg3Go",
+  "kind": "Folder",
+  "title": "393.Learning Reusable Hybrid Motion Priors for Humanoid Locomotion from Motion Imitation"
+ },
+ {
+  "id": "10d_Cx6lWD0GkSG_jBUjDLxiWgGMsbQwl",
+  "url": "https://drive.google.com/drive/folders/10d_Cx6lWD0GkSG_jBUjDLxiWgGMsbQwl",
+  "kind": "Folder",
+  "title": "394.What Matters in Humanoid General Motion Tracking An Empirical Study"
+ },
+ {
+  "id": "15k65NW9nTmlq1idgpt2a1POM8HOZiAff",
+  "url": "https://drive.google.com/drive/folders/15k65NW9nTmlq1idgpt2a1POM8HOZiAff",
+  "kind": "Folder",
+  "title": "395.Extreme-RGMT Continual Learning of Highly Dynamic Skills for Robust Generalist Humanoid Control"
+ },
+ {
+  "id": "13cnnHz5UJL2Ephoi2Bmx-vjNRdjAIAPG",
+  "url": "https://drive.google.com/drive/folders/13cnnHz5UJL2Ephoi2Bmx-vjNRdjAIAPG",
+  "kind": "Folder",
+  "title": "396.Agentic Real2Sim Physics-based World Modeling with Vision-Language Agents"
+ },
+ {
+  "id": "1BP2DIbaLQA4G2pbWpnpe-0-GKW6US5TN",
+  "url": "https://drive.google.com/drive/folders/1BP2DIbaLQA4G2pbWpnpe-0-GKW6US5TN",
+  "kind": "Folder",
+  "title": "397.In vivo feasibility study of humanoid robots in surgery"
+ },
+ {
+  "id": "1S5DjULAwMmKLy00EVInNuHBL60aXZeMd",
+  "url": "https://drive.google.com/drive/folders/1S5DjULAwMmKLy00EVInNuHBL60aXZeMd",
+  "kind": "Folder",
+  "title": "398.Open-AoE An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning"
+ },
+ {
+  "id": "1Z8iChRJsjnpFMwIVw_fYS9Trkja50JB0",
+  "url": "https://drive.google.com/drive/folders/1Z8iChRJsjnpFMwIVw_fYS9Trkja50JB0",
+  "kind": "Folder",
+  "title": "399.Contact-UAN Unsupervised Actuator Networks as a Residual World Model for Humanoid Control"
+ },
+ {
+  "id": "1p8GzWeDflWDowm5Da7Few3cN66FF9r2h",
+  "url": "https://drive.google.com/drive/folders/1p8GzWeDflWDowm5Da7Few3cN66FF9r2h",
+  "kind": "Folder",
+  "title": "4.Humanoid Parkour Learning"
+ },
+ {
+  "id": "18Ent6ahgIyEObF-t2EgzqJ_11r9fpH6V",
+  "url": "https://drive.google.com/drive/folders/18Ent6ahgIyEObF-t2EgzqJ_11r9fpH6V",
+  "kind": "Folder",
+  "title": "40. FALCON Learning Force-Adaptive Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1ZNougeL4ObM67ZtlfcUFzESgIYYRe2zu",
+  "url": "https://drive.google.com/drive/folders/1ZNougeL4ObM67ZtlfcUFzESgIYYRe2zu",
+  "kind": "Folder",
+  "title": "400.From Language to Locomotion Retargeting-free Humanoid Control via Motion Latent Guidance"
+ },
+ {
+  "id": "1eKWUsGorOaprBvsS_Ayve-9qKRC4t2yx",
+  "url": "https://drive.google.com/drive/folders/1eKWUsGorOaprBvsS_Ayve-9qKRC4t2yx",
+  "kind": "Folder",
+  "title": "401.Scaling Behavior Foundation Model for Humanoid Robots"
+ },
+ {
+  "id": "1EjZF-pY5dvRZYi2k9JP9HhNEMigLpq8A",
+  "url": "https://drive.google.com/drive/folders/1EjZF-pY5dvRZYi2k9JP9HhNEMigLpq8A",
+  "kind": "Folder",
+  "title": "402.Counterfactual Video Generation for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1hPDyUhpJHn1cv3eU2EWm-t-FW6Wodsgc",
+  "url": "https://drive.google.com/drive/folders/1hPDyUhpJHn1cv3eU2EWm-t-FW6Wodsgc",
+  "kind": "Folder",
+  "title": "403.MEMORA Embodied Action Memory from Egocentric Videos for Reasoning and Planning"
+ },
+ {
+  "id": "1jCTMLnEJM154JDU-JfXBw9l_VC_2YOaY",
+  "url": "https://drive.google.com/drive/folders/1jCTMLnEJM154JDU-JfXBw9l_VC_2YOaY",
+  "kind": "Folder",
+  "title": "404.P3 Probabilistic Policy Propagation for Stable VAE-Based Robot Learning"
+ },
+ {
+  "id": "1GvVTSii85IidXrv32dJnVj7UvfHxPshk",
+  "url": "https://drive.google.com/drive/folders/1GvVTSii85IidXrv32dJnVj7UvfHxPshk",
+  "kind": "Folder",
+  "title": "405.Perceptive Behavior Foundation Model Adapting Human Motion Priors to Robot-Centric Terrain"
+ },
+ {
+  "id": "1FbFXVgf8g732yUq2dBeuzYgn3gtsBsxH",
+  "url": "https://drive.google.com/drive/folders/1FbFXVgf8g732yUq2dBeuzYgn3gtsBsxH",
+  "kind": "Folder",
+  "title": "406.PhiZero A World Model Built Around Physical Language"
+ },
+ {
+  "id": "1MYyfHXBLsMLvYY2qouRQOt9Eoq5wlA8o",
+  "url": "https://drive.google.com/drive/folders/1MYyfHXBLsMLvYY2qouRQOt9Eoq5wlA8o",
+  "kind": "Folder",
+  "title": "407.Visual Safe Human-to-Humanoid Motion Imitation"
+ },
+ {
+  "id": "1J_NfGwbCDrtyRvvOsqNNjGQEO8yUm_9N",
+  "url": "https://drive.google.com/drive/folders/1J_NfGwbCDrtyRvvOsqNNjGQEO8yUm_9N",
+  "kind": "Folder",
+  "title": "408.X-NavDP Generalizing Navigation Diffusion Policy to Novel Behavior and Embodiments with Group Q-score Reweighted Matching"
+ },
+ {
+  "id": "1PRh3sgKhmurLNDwzHXWPI8Q9kfj2DlJ0",
+  "url": "https://drive.google.com/drive/folders/1PRh3sgKhmurLNDwzHXWPI8Q9kfj2DlJ0",
+  "kind": "Folder",
+  "title": "409.Calibration-Free Floor Detection via Gravity-Aware SOAP Descriptors Theory and Embedded Deployment for Reactive Humanoid Locomotion and Obstacle Avoidance"
+ },
+ {
+  "id": "1R9Sm6_q9yVZfU9FqSgMPqxlbgzFDaXtE",
+  "url": "https://drive.google.com/drive/folders/1R9Sm6_q9yVZfU9FqSgMPqxlbgzFDaXtE",
+  "kind": "Folder",
+  "title": "41. StyleLoco Generative Adversarial Distillation for Natural Humanoid Robot Locomotion"
+ },
+ {
+  "id": "1piMPWH3hZiZFE86ilBAmisXZA-8VARCM",
+  "url": "https://drive.google.com/drive/folders/1piMPWH3hZiZFE86ilBAmisXZA-8VARCM",
+  "kind": "Folder",
+  "title": "410.Physical Agentic AI An Architecture for Orchestrating a Robot Crew with LLMs"
+ },
+ {
+  "id": "1gggVg0VZ4CBjPH-t2B8mVNwEoCkSjAVU",
+  "url": "https://drive.google.com/drive/folders/1gggVg0VZ4CBjPH-t2B8mVNwEoCkSjAVU",
+  "kind": "Folder",
+  "title": "411.Betting for Sim-to-Real Performance Certificates"
+ },
+ {
+  "id": "1BOB90T7aNUB3vDBPnnjRVlJH_PWJrFsi",
+  "url": "https://drive.google.com/drive/folders/1BOB90T7aNUB3vDBPnnjRVlJH_PWJrFsi",
+  "kind": "Folder",
+  "title": "412.Throwing a Tight Spiral American Football by a Humanoid Robot"
+ },
+ {
+  "id": "1QoMgt_1f2AqVmsAyhJoKCWmMDBdmn_KC",
+  "url": "https://drive.google.com/drive/folders/1QoMgt_1f2AqVmsAyhJoKCWmMDBdmn_KC",
+  "kind": "Folder",
+  "title": "413.R2S-EGO Dual-Proxy Refinement for Sparse-Capture Real-to-Sim"
+ },
+ {
+  "id": "1iWEbgalWK9nyILiaXuLskKuBxrz71h6I",
+  "url": "https://drive.google.com/drive/folders/1iWEbgalWK9nyILiaXuLskKuBxrz71h6I",
+  "kind": "Folder",
+  "title": "414.PAC Bench Do Foundation Models Understand Prerequisites for Executing Manipulation Policies"
+ },
+ {
+  "id": "1-Kj5OyWhGY2QacCxoOKWM0nqNPULvkdk",
+  "url": "https://drive.google.com/drive/folders/1-Kj5OyWhGY2QacCxoOKWM0nqNPULvkdk",
+  "kind": "Folder",
+  "title": "415.A Change of Frame Makes Balance Observable Distillation-Free Humanoid Single-Leg Stance"
+ },
+ {
+  "id": "1q8sahd3nRSg4bP7b0CFR0PT4HaI81OEx",
+  "url": "https://drive.google.com/drive/folders/1q8sahd3nRSg4bP7b0CFR0PT4HaI81OEx",
+  "kind": "Folder",
+  "title": "416.Human Motion as Humanoid Robot Data A Scalable Whole-body Motion Transfer via Implicit Kinodynamic Motion Retargeting"
+ },
+ {
+  "id": "1LKxDcNGLFk0OB4SQSgjPcxOw62pUgane",
+  "url": "https://drive.google.com/drive/folders/1LKxDcNGLFk0OB4SQSgjPcxOw62pUgane",
+  "kind": "Folder",
+  "title": "417.GenTrack Physical Alignment for Robot-Native Motion Generation and Zero-Shot Humanoid Tracking"
+ },
+ {
+  "id": "19dMTvr0Su-zAs8k41JTLX3kOv1IxGfom",
+  "url": "https://drive.google.com/drive/folders/19dMTvr0Su-zAs8k41JTLX3kOv1IxGfom",
+  "kind": "Folder",
+  "title": "418.StableMimic Smooth Human-Like Recovery for Humanoid Motion Tracking - Learning Beyond the Tracking Distribution for Structured Post-Fall Behavior"
+ },
+ {
+  "id": "1yROkRUGfeBcKzVYLFDb-H95LaP08uj-N",
+  "url": "https://drive.google.com/drive/folders/1yROkRUGfeBcKzVYLFDb-H95LaP08uj-N",
+  "kind": "Folder",
+  "title": "419.RoboStriker Latent-Space Strategic Games for Autonomous Humanoid Boxing"
+ },
+ {
+  "id": "1JehwjZvO4Vlevkfd8NoqLRxRbC6VwoiE",
+  "url": "https://drive.google.com/drive/folders/1JehwjZvO4Vlevkfd8NoqLRxRbC6VwoiE",
+  "kind": "Folder",
+  "title": "42.Gait-Conditioned Reinforcement Learning with Multi-Phase Curriculum for Humanoid Locomotion"
+ },
+ {
+  "id": "1OfEtK8tfzEshn6L9h-d5QsveyKerMeI7",
+  "url": "https://drive.google.com/drive/folders/1OfEtK8tfzEshn6L9h-d5QsveyKerMeI7",
+  "kind": "Folder",
+  "title": "420.Shooting for Contact Contact-Implicit Multiple Shooting for Dynamic Motion Retargeting"
+ },
+ {
+  "id": "1w1lqFzIrbXsNqX4Ojl7zosFVm0MsoFBt",
+  "url": "https://drive.google.com/drive/folders/1w1lqFzIrbXsNqX4Ojl7zosFVm0MsoFBt",
+  "kind": "Folder",
+  "title": "421.Ludi0.1 An Agentic System for Socially Intelligent Robots"
+ },
+ {
+  "id": "1EhfcfwufSGdO6bNqhzNyIIvJbCdjKZND",
+  "url": "https://drive.google.com/drive/folders/1EhfcfwufSGdO6bNqhzNyIIvJbCdjKZND",
+  "kind": "Folder",
+  "title": "422.RobotDancing Residual-Action Reinforcement Learning Enables Robust Long-Horizon Humanoid Motion Tracking"
+ },
+ {
+  "id": "1pjXyn5H3FU0lBl9KkXw30CuY5sbc2yL3",
+  "url": "https://drive.google.com/drive/folders/1pjXyn5H3FU0lBl9KkXw30CuY5sbc2yL3",
+  "kind": "Folder",
+  "title": "423.Toward Certified Functional Safety for Industrial Humanoid Robots The Fail-Passive Gap and a Feasibility Study"
+ },
+ {
+  "id": "1PY2LGj0HHK6TP8yu08_IhIBWANXIWM8A",
+  "url": "https://drive.google.com/drive/folders/1PY2LGj0HHK6TP8yu08_IhIBWANXIWM8A",
+  "kind": "Folder",
+  "title": "424.OpenBelief-Nav Evidence-Preserving Object Memory for Open-Vocabulary Language-Guided Navigation"
+ },
+ {
+  "id": "1Ipw8WFzVEXy0PIziD1bK0LuOm7hlkCCH",
+  "url": "https://drive.google.com/drive/folders/1Ipw8WFzVEXy0PIziD1bK0LuOm7hlkCCH",
+  "kind": "Folder",
+  "title": "425.WarpSAC Towards the Pinnacle of Scalable Off-policy RL by Rethinking Exploration and Exploitation"
+ },
+ {
+  "id": "1PZZGJExssrgWusbH-ANbYn0hGbnyS2hR",
+  "url": "https://drive.google.com/drive/folders/1PZZGJExssrgWusbH-ANbYn0hGbnyS2hR",
+  "kind": "Folder",
+  "title": "426.Tac4Loco Learning Spatiotemporal Plantar Pressure Representations for Humanoid Locomotion"
+ },
+ {
+  "id": "1GBv0f0HjU3Z7KGHpGQuq17-axHgA_TGb",
+  "url": "https://drive.google.com/drive/folders/1GBv0f0HjU3Z7KGHpGQuq17-axHgA_TGb",
+  "kind": "Folder",
+  "title": "427.CLIFT Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning"
+ },
+ {
+  "id": "1jb7mvtIY7gUVEu0dfru_Fe_erLnY72AT",
+  "url": "https://drive.google.com/drive/folders/1jb7mvtIY7gUVEu0dfru_Fe_erLnY72AT",
+  "kind": "Folder",
+  "title": "428.LAC Linear and Angular Compliance for Humanoid Whole-body Control"
+ },
+ {
+  "id": "1LFiRV3rwY1bb-us310jqJ-Itp2u2mjVX",
+  "url": "https://drive.google.com/drive/folders/1LFiRV3rwY1bb-us310jqJ-Itp2u2mjVX",
+  "kind": "Folder",
+  "title": "429.LooperMuscle Fast and Stable Learning of Humanoid Whole-Body Tracking via Structured Mixture-of-Experts"
+ },
+ {
+  "id": "1Mg7g0LTNScYJQuFDwxZ-4TE2YueBsmWW",
+  "url": "https://drive.google.com/drive/folders/1Mg7g0LTNScYJQuFDwxZ-4TE2YueBsmWW",
+  "kind": "Folder",
+  "title": "43.AMO Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control"
+ },
+ {
+  "id": "1voJ8r8gVuewCsDlGPznOV1_ccauufIsf",
+  "url": "https://drive.google.com/drive/folders/1voJ8r8gVuewCsDlGPznOV1_ccauufIsf",
+  "kind": "Folder",
+  "title": "430.DyPES-VLA Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation"
+ },
+ {
+  "id": "11OOF3-iWh4Z52D86c2CFP5yY6IbdAVtC",
+  "url": "https://drive.google.com/drive/folders/11OOF3-iWh4Z52D86c2CFP5yY6IbdAVtC",
+  "kind": "Folder",
+  "title": "431.KILVO Kinematic–Inertial–LiDAR–Visual Odometry With Robust Multimodal Adaptation for Humanoid Robots"
+ },
+ {
+  "id": "1owLPZuicm4JKVC4qIuSWjL2UKO5twgPC",
+  "url": "https://drive.google.com/drive/folders/1owLPZuicm4JKVC4qIuSWjL2UKO5twgPC",
+  "kind": "Folder",
+  "title": "432.Walking on Ice Adaptive Gait Control of Humanoid Robots Based on Visual Prediction and Proprioceptive Estimation for Variable Friction Environments"
+ },
+ {
+  "id": "1LVZfydwQ8u_AK3ayRXHeBkw-ueNmadL5",
+  "url": "https://drive.google.com/drive/folders/1LVZfydwQ8u_AK3ayRXHeBkw-ueNmadL5",
+  "kind": "Folder",
+  "title": "433.C2Dex Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video"
+ },
+ {
+  "id": "1BevKFa5u3kPJYUuB_EyvFyEagkAeO6_Z",
+  "url": "https://drive.google.com/drive/folders/1BevKFa5u3kPJYUuB_EyvFyEagkAeO6_Z",
+  "kind": "Folder",
+  "title": "434.From Experts to a Generalist Toward General Whole-Body Control for Humanoid Robots"
+ },
+ {
+  "id": "1FKUM4E5D9TFB5pO9CkGjKLjqC4ihuoUB",
+  "url": "https://drive.google.com/drive/folders/1FKUM4E5D9TFB5pO9CkGjKLjqC4ihuoUB",
+  "kind": "Folder",
+  "title": "435.RoboReact Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation"
+ },
+ {
+  "id": "1e-y5sLIpUrmAuuu6cEzbt9UdAOQV7POt",
+  "url": "https://drive.google.com/drive/folders/1e-y5sLIpUrmAuuu6cEzbt9UdAOQV7POt",
+  "kind": "Folder",
+  "title": "436.DeepInsight II One Trace from Benchmark to Robot"
+ },
+ {
+  "id": "1NMcmHXKQWY7Xt4yl1Vj82JLtox6LXjxS",
+  "url": "https://drive.google.com/drive/folders/1NMcmHXKQWY7Xt4yl1Vj82JLtox6LXjxS",
+  "kind": "Folder",
+  "title": "437.Teleopit A Full-Embodiment Humanoid Teleoperation System"
+ },
+ {
+  "id": "1-14n-S685ZQ4W0KgJG0xa4g41gPgv-JL",
+  "url": "https://drive.google.com/drive/folders/1-14n-S685ZQ4W0KgJG0xa4g41gPgv-JL",
+  "kind": "Folder",
+  "title": "438.From Remote Control to Vision-Language-Action Initial Deployment of the Humanoid Robot Unitree G1 with Tactile Hands"
+ },
+ {
+  "id": "13ffN7FwimkvdrOPXxhB3E6P_cMSbWhhj",
+  "url": "https://drive.google.com/drive/folders/13ffN7FwimkvdrOPXxhB3E6P_cMSbWhhj",
+  "kind": "Folder",
+  "title": "439.Feasibility-aware whole-body control for terrain-adaptive humanoid locomotion"
+ },
+ {
+  "id": "1BNzOnQ4VxA1O9KgndHUqGbCwo_gf2UDp",
+  "url": "https://drive.google.com/drive/folders/1BNzOnQ4VxA1O9KgndHUqGbCwo_gf2UDp",
+  "kind": "Folder",
+  "title": "44. LangWBC Language-directed Humanoid Whole-Body Control via End-to-end Learning"
+ },
+ {
+  "id": "1BpwR5xnk-ludEYpKpjEMAGaialxolPQM",
+  "url": "https://drive.google.com/drive/folders/1BpwR5xnk-ludEYpKpjEMAGaialxolPQM",
+  "kind": "Folder",
+  "title": "440.Passive-Dynamic-Walking-Inspired Dynamics Guidance for Energy-Efficient Humanoid Locomotion"
+ },
+ {
+  "id": "1_e89nJug9smF2S0yfisNcME9p3otQSMB",
+  "url": "https://drive.google.com/drive/folders/1_e89nJug9smF2S0yfisNcME9p3otQSMB",
+  "kind": "Folder",
+  "title": "441.Learning Slope-Adaptive Whole-Body Locomotion for Humanoid Robots in Roofing Construction"
+ },
+ {
+  "id": "1cprMIZF7TI2T5jZFn_DwVhYCnpX-qwoe",
+  "url": "https://drive.google.com/drive/folders/1cprMIZF7TI2T5jZFn_DwVhYCnpX-qwoe",
+  "kind": "Folder",
+  "title": "442.World-Model-Augmented Visual Locomotion for Humanoids on Foothold-Constrained Terrain"
+ },
+ {
+  "id": "1OGZXG9gD4qSkJJSlW75q2Fp1McPf9csd",
+  "url": "https://drive.google.com/drive/folders/1OGZXG9gD4qSkJJSlW75q2Fp1McPf9csd",
+  "kind": "Folder",
+  "title": "443.Toward Humanoid Robots in Construction A Teleoperation Feasibility Study"
+ },
+ {
+  "id": "1dJfgNB-GfCF_3nR9obz0wRCBGIGCaUZK",
+  "url": "https://drive.google.com/drive/folders/1dJfgNB-GfCF_3nR9obz0wRCBGIGCaUZK",
+  "kind": "Folder",
+  "title": "444.FootQuery Future-Touchdown-Guided Retrieval from Depth History for Perceptive Humanoid Locomotion"
+ },
+ {
+  "id": "1wklJfaK610jl5fdUf-ew7Tb5wrhMgT7n",
+  "url": "https://drive.google.com/drive/folders/1wklJfaK610jl5fdUf-ew7Tb5wrhMgT7n",
+  "kind": "Folder",
+  "title": "445.Introducing Humanoid Robots into Architectural Education"
+ },
+ {
+  "id": "1JfaDvyNBGMB-Zf1TjK3sAa2uAy89lr3E",
+  "url": "https://drive.google.com/drive/folders/1JfaDvyNBGMB-Zf1TjK3sAa2uAy89lr3E",
+  "kind": "Folder",
+  "title": "446.Blind Dexterity Whole-Body Humanoid Manipulation via Pure Proprioception"
+ },
+ {
+  "id": "1giz_-xMsUKVPZ821hzUolarc6K8bDyMt",
+  "url": "https://drive.google.com/drive/folders/1giz_-xMsUKVPZ821hzUolarc6K8bDyMt",
+  "kind": "Folder",
+  "title": "447.Keep the Flow Continuous High-Precision Bimanual Manipulation in Constrained Spaces"
+ },
+ {
+  "id": "12Jr4TTpM18s3Vt1EGgxDvr9LTlkiGg8b",
+  "url": "https://drive.google.com/drive/folders/12Jr4TTpM18s3Vt1EGgxDvr9LTlkiGg8b",
+  "kind": "Folder",
+  "title": "448.Dense Temporal Motion Retargeting for Legged Robots"
+ },
+ {
+  "id": "1b_jacSl3taFp4kqhEv7Y5vzAzSnW5lZx",
+  "url": "https://drive.google.com/drive/folders/1b_jacSl3taFp4kqhEv7Y5vzAzSnW5lZx",
+  "kind": "Folder",
+  "title": "449.GLoRI Closed-Loop Whole-Body Tracking with Global-Local Reference Interaction for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1XY0WbxmfSc0yTZR8oORjS__WNiKK4BfU",
+  "url": "https://drive.google.com/drive/folders/1XY0WbxmfSc0yTZR8oORjS__WNiKK4BfU",
+  "kind": "Folder",
+  "title": "45.H2-COMPACT Human-Humanoid Co-Manipulation via Adaptive Contact Trajectory Policies"
+ },
+ {
+  "id": "1K6mjPCvGpfseVVpUT0s4MgsDsV3m6wx4",
+  "url": "https://drive.google.com/drive/folders/1K6mjPCvGpfseVVpUT0s4MgsDsV3m6wx4",
+  "kind": "Folder",
+  "title": "450.Generate, Track, Improve Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators"
+ },
+ {
+  "id": "1sllgQogNGrAmfqfxPiJaQO-9jHJnSAxZ",
+  "url": "https://drive.google.com/drive/folders/1sllgQogNGrAmfqfxPiJaQO-9jHJnSAxZ",
+  "kind": "Folder",
+  "title": "451.Smoothness as a Constraint for Stable Humanoid Locomotion"
+ },
+ {
+  "id": "1840yqMiSL7Zs0Ba_R8f6vl6ewklDWvFL",
+  "url": "https://drive.google.com/drive/folders/1840yqMiSL7Zs0Ba_R8f6vl6ewklDWvFL",
+  "kind": "Folder",
+  "title": "452.RoboAssist Interactive Human-Humanoid Planning for Long-Horizon Surgical Assistance"
+ },
+ {
+  "id": "1UHzLO5Mes1SNun9yAppMIQTaADkwEhlN",
+  "url": "https://drive.google.com/drive/folders/1UHzLO5Mes1SNun9yAppMIQTaADkwEhlN",
+  "kind": "Folder",
+  "title": "453.Continual Humanoid Motion Learning"
+ },
+ {
+  "id": "147IZQDu30QxKMzNS6fKq_vMe-I9BGkHT",
+  "url": "https://drive.google.com/drive/folders/147IZQDu30QxKMzNS6fKq_vMe-I9BGkHT",
+  "kind": "Folder",
+  "title": "454.GAE General Action Expert for Real-Time Humanoid Teleoperation"
+ },
+ {
+  "id": "1xBk6EMrsdCn5-6NYDc0Lu80FF0zOyj7C",
+  "url": "https://drive.google.com/drive/folders/1xBk6EMrsdCn5-6NYDc0Lu80FF0zOyj7C",
+  "kind": "Folder",
+  "title": "455.ViLoMan Learning Visual-Proprioceptive Whole-Body Loco-Manipulation Skills for Humanoid Robots"
+ },
+ {
+  "id": "1Kexy4hG_zDgslo6XkczIvdvKer3atFyM",
+  "url": "https://drive.google.com/drive/folders/1Kexy4hG_zDgslo6XkczIvdvKer3atFyM",
+  "kind": "Folder",
+  "title": "456.PGMT Perceptive General Motion Tracking for Humanoid Robots"
+ },
+ {
+  "id": "1Evz8ZKaZvdHTpORB7P9jeOSj3Bpd7Cm0",
+  "url": "https://drive.google.com/drive/folders/1Evz8ZKaZvdHTpORB7P9jeOSj3Bpd7Cm0",
+  "kind": "Folder",
+  "title": "457.TactileStep Sole Tactile Learning for Regulating Foot-Terrain Interaction in Humanoid Locomotion"
+ },
+ {
+  "id": "1yAKp6BgejwMdUtWZlP724S2VNu6SHD9W",
+  "url": "https://drive.google.com/drive/folders/1yAKp6BgejwMdUtWZlP724S2VNu6SHD9W",
+  "kind": "Folder",
+  "title": "458.Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence"
+ },
+ {
+  "id": "15I3w00-1mjw6Ogi7v1JwZIHhwaaM_Af8",
+  "url": "https://drive.google.com/drive/folders/15I3w00-1mjw6Ogi7v1JwZIHhwaaM_Af8",
+  "kind": "Folder",
+  "title": "459.Locomotion-Grounded Humanoid Soccer Task-Gated Reinforcement Learning of a Multi-Directional Kicking Library"
+ },
+ {
+  "id": "1MsLBr9PDpZPjKTRWcv67wgA2PPiFR2hj",
+  "url": "https://drive.google.com/drive/folders/1MsLBr9PDpZPjKTRWcv67wgA2PPiFR2hj",
+  "kind": "Folder",
+  "title": "46. HuB Learning Extreme Humanoid Balance"
+ },
+ {
+  "id": "1H0c3zECGxv9dv_vPXaANaXrdZaomKn8F",
+  "url": "https://drive.google.com/drive/folders/1H0c3zECGxv9dv_vPXaANaXrdZaomKn8F",
+  "kind": "Folder",
+  "title": "460.HumanoidToolBench Benchmarking Humanoid Tool Use from Selection to Mobile Execution"
+ },
+ {
+  "id": "1f5rlWl_5ljlMQ7ZT-r_CKcX8htUMiRV4",
+  "url": "https://drive.google.com/drive/folders/1f5rlWl_5ljlMQ7ZT-r_CKcX8htUMiRV4",
+  "kind": "Folder",
+  "title": "461.HOTICE Whole-Body Humanoid Object Transportation in Cluttered Environments"
+ },
+ {
+  "id": "1RqUobRJzTP5OhZ4oAnTX26wSdMyv58gD",
+  "url": "https://drive.google.com/drive/folders/1RqUobRJzTP5OhZ4oAnTX26wSdMyv58gD",
+  "kind": "Folder",
+  "title": "462.Learning Scene-Aware Humanoid Locomotion through 3D Clutter from Immersive Human Demonstrations"
+ },
+ {
+  "id": "1twI9g87sP57KqBPnobI5NH_X06eJAIXJ",
+  "url": "https://drive.google.com/drive/folders/1twI9g87sP57KqBPnobI5NH_X06eJAIXJ",
+  "kind": "Folder",
+  "title": "463.Brace Yourself Task-Conditioned Environmental Bracing for Forceful Humanoid Manipulation"
+ },
+ {
+  "id": "1pJ7tFdG1bVB-wvbY4QgZlm0j30XuBIGV",
+  "url": "https://drive.google.com/drive/folders/1pJ7tFdG1bVB-wvbY4QgZlm0j30XuBIGV",
+  "kind": "Folder",
+  "title": "464.DexWeave Learning Dexterous Humanoid Loco-Manipulation from Human Demonstrations"
+ },
+ {
+  "id": "1RSmYL7OwOFVcF2wsHNsWUPIzk78LQwU4",
+  "url": "https://drive.google.com/drive/folders/1RSmYL7OwOFVcF2wsHNsWUPIzk78LQwU4",
+  "kind": "Folder",
+  "title": "465.Bundled Contact Gradients Stabilizing Differentiable Simulation for Deployable Dynamic Tasks"
+ },
+ {
+  "id": "1ikE2seiSG8cJTIkzl57GlER1A4A2xIF2",
+  "url": "https://drive.google.com/drive/folders/1ikE2seiSG8cJTIkzl57GlER1A4A2xIF2",
+  "kind": "Folder",
+  "title": "466.CoPRE Improving Sensitivity in Proprioceptive Contact Detection for Low-Cost Robot Arms"
+ },
+ {
+  "id": "1HplTerHcezVBLtYjcRzdIgwc2ztZGcy8",
+  "url": "https://drive.google.com/drive/folders/1HplTerHcezVBLtYjcRzdIgwc2ztZGcy8",
+  "kind": "Folder",
+  "title": "467.RoboDreamer Anticipatory Humanoid Locomotion with Predictive State-Space Models"
+ },
+ {
+  "id": "1udxurQQF1eRGBUAQbR39cH_ehx7GMgIJ",
+  "url": "https://drive.google.com/drive/folders/1udxurQQF1eRGBUAQbR39cH_ehx7GMgIJ",
+  "kind": "Folder",
+  "title": "468.ForgetMimic Motion Unlearning for Reinforcement Learning Humanoid Control"
+ },
+ {
+  "id": "1HNmC7ogbs-k9sqKApn3QyaHHRdiTVncI",
+  "url": "https://drive.google.com/drive/folders/1HNmC7ogbs-k9sqKApn3QyaHHRdiTVncI",
+  "kind": "Folder",
+  "title": "469.Sample, Simulate, Select Physics-in-the-Loop Text-to-Motion for Humanoids Without Training"
+ },
+ {
+  "id": "1KdAtACK2WzkzIuPfB01zzbPoXajVjrl3",
+  "url": "https://drive.google.com/drive/folders/1KdAtACK2WzkzIuPfB01zzbPoXajVjrl3",
+  "kind": "Folder",
+  "title": "47.KungfuBot Physics-Based Humanoid Whole-Body Control for Learning Highly-Dynamic Skills"
+ },
+ {
+  "id": "1_ewZjy5McLWWIxlHtWuu_rCSqyJx7G4e",
+  "url": "https://drive.google.com/drive/folders/1_ewZjy5McLWWIxlHtWuu_rCSqyJx7G4e",
+  "kind": "Folder",
+  "title": "470.X-WBC A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control"
+ },
+ {
+  "id": "1wlnJiIlNWVGPPAjTYfNAyS8TownC8fMK",
+  "url": "https://drive.google.com/drive/folders/1wlnJiIlNWVGPPAjTYfNAyS8TownC8fMK",
+  "kind": "Folder",
+  "title": "471.TANGO Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model"
+ },
+ {
+  "id": "15St7_RYA8MRBHmWsSXkx3RQoGHYuKrXD",
+  "url": "https://drive.google.com/drive/folders/15St7_RYA8MRBHmWsSXkx3RQoGHYuKrXD",
+  "kind": "Folder",
+  "title": "472.ASENA Self-evolving Agents for Embodied Navigation"
+ },
+ {
+  "id": "1i0UA80EiQ0MnBe0J34ItWNVJLzMypT9O",
+  "url": "https://drive.google.com/drive/folders/1i0UA80EiQ0MnBe0J34ItWNVJLzMypT9O",
+  "kind": "Folder",
+  "title": "473.Assisted exploration of difficult transitions in humanoid motion tracking"
+ },
+ {
+  "id": "10DVqFfvwv4hUuUSOF9FCBhzensrN3Lc_",
+  "url": "https://drive.google.com/drive/folders/10DVqFfvwv4hUuUSOF9FCBhzensrN3Lc_",
+  "kind": "Folder",
+  "title": "474.PAMoR Parameterized Affective Motion Generation in Real Time for Humanoid Robots"
+ },
+ {
+  "id": "1Iu3i8n9P2NeaUwLPigz7js_Sd5URZaKS",
+  "url": "https://drive.google.com/drive/folders/1Iu3i8n9P2NeaUwLPigz7js_Sd5URZaKS",
+  "kind": "Folder",
+  "title": "475.Learning Safe Humanoid Navigation from Reduced Order Models"
+ },
+ {
+  "id": "1Cp7WR5FomDYU-Zh3y7MWHWqU8-OdLGdq",
+  "url": "https://drive.google.com/drive/folders/1Cp7WR5FomDYU-Zh3y7MWHWqU8-OdLGdq",
+  "kind": "Folder",
+  "title": "476.Rolling-WAM World Action Models with Rolling Imagination"
+ },
+ {
+  "id": "1ciPtA3NcKXU9rhjDoYJ9RMCqwV5vxms9",
+  "url": "https://drive.google.com/drive/folders/1ciPtA3NcKXU9rhjDoYJ9RMCqwV5vxms9",
+  "kind": "Folder",
+  "title": "477.PLAT Sparse Timed Keyframe Motion Tracking for Humanoid Control via Privileged Latent Transition Learning"
+ },
+ {
+  "id": "1fkjyZ6xv8ZPu3yW6xjRuiptnEZEQiaro",
+  "url": "https://drive.google.com/drive/folders/1fkjyZ6xv8ZPu3yW6xjRuiptnEZEQiaro",
+  "kind": "Folder",
+  "title": "478.PredActor Predictive Action Diffusion for Steerable Onboard Humanoid Control"
+ },
+ {
+  "id": "15xg7zAKTKClSNN_88dxlrRV5B42f2-Gx",
+  "url": "https://drive.google.com/drive/folders/15xg7zAKTKClSNN_88dxlrRV5B42f2-Gx",
+  "kind": "Folder",
+  "title": "479.How Long Until Your Robot Ignores You A Safety Benchmark for LLM Orchestrators in Human-Humanoid Collaboration"
+ },
+ {
+  "id": "1qvKtZArVfFBzkNo_jvARIP3ISbz4TirM",
+  "url": "https://drive.google.com/drive/folders/1qvKtZArVfFBzkNo_jvARIP3ISbz4TirM",
+  "kind": "Folder",
+  "title": "48.Hierarchical Vision-Language Planning for Multi-Step Humanoid Manipulation"
+ },
+ {
+  "id": "14CWhRjZ6cHibD8CDB9NNwgVbaT1OPs6L",
+  "url": "https://drive.google.com/drive/folders/14CWhRjZ6cHibD8CDB9NNwgVbaT1OPs6L",
+  "kind": "Folder",
+  "title": "480.BeyondRetarget Learning Executable Humanoid Motions Directly from Monocular Video"
+ },
+ {
+  "id": "1pupe6DuEgOLP-KmDMAOGufY7VS8Xx2CF",
+  "url": "https://drive.google.com/drive/folders/1pupe6DuEgOLP-KmDMAOGufY7VS8Xx2CF",
+  "kind": "Folder",
+  "title": "481.SocialVLA A Social Perception Gateway for Human-Reaction-Based Failure Detection and Recovery in VLA Manipulation"
+ },
+ {
+  "id": "1_xrnemJeDeGGZ09bXWfEqorUv_OlJep9",
+  "url": "https://drive.google.com/drive/folders/1_xrnemJeDeGGZ09bXWfEqorUv_OlJep9",
+  "kind": "Folder",
+  "title": "482.EmoPose Vision-Language Model Guided Emotion-Aware Gesture Generation for Humanoid Robots"
+ },
+ {
+  "id": "1rA6F8wBRuekI0vqDHc4_QzLXnPrptxcQ",
+  "url": "https://drive.google.com/drive/folders/1rA6F8wBRuekI0vqDHc4_QzLXnPrptxcQ",
+  "kind": "Folder",
+  "title": "483.AgenticTactileVLA Contact-Guided Execution-Time Supervision for Generalizable Dexterous Manipulation without VLA Retraining"
+ },
+ {
+  "id": "1EuyZUUZlMlzgK3mwldC-lgSLUryWDpXw",
+  "url": "https://drive.google.com/drive/folders/1EuyZUUZlMlzgK3mwldC-lgSLUryWDpXw",
+  "kind": "Folder",
+  "title": "484.KINO A Keyframe Interface for VLM Planning and Whole-Body Control in Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1Z_s9XSH6Oz9oBQlFRRo-SqZlBA1tIR0b",
+  "url": "https://drive.google.com/drive/folders/1Z_s9XSH6Oz9oBQlFRRo-SqZlBA1tIR0b",
+  "kind": "Folder",
+  "title": "485.I-BFM Reward-Conditioned Robust Humanoid Interaction via Unsupervised Reinforcement Learning"
+ },
+ {
+  "id": "1XRLw2RrPumbRr24vpDCy1FcS6LNmqPqi",
+  "url": "https://drive.google.com/drive/folders/1XRLw2RrPumbRr24vpDCy1FcS6LNmqPqi",
+  "kind": "Folder",
+  "title": "486.Learning Expressive and Compositional Motion Representation via Spectral Skills"
+ },
+ {
+  "id": "1kU9qtUGxOvJPbt7Q896RO25QqGySBSJd",
+  "url": "https://drive.google.com/drive/folders/1kU9qtUGxOvJPbt7Q896RO25QqGySBSJd",
+  "kind": "Folder",
+  "title": "487.DASH A da Vinci Adapter for Serial-link and Humanoid Robots as an Accessible Platform for Surgical Robotics Research"
+ },
+ {
+  "id": "12dw9VP_hAvITsDpVKenFnOd5s9sTLM1E",
+  "url": "https://drive.google.com/drive/folders/12dw9VP_hAvITsDpVKenFnOd5s9sTLM1E",
+  "kind": "Folder",
+  "title": "488.InterEvolve Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1RiUG6aR3fkYR7bdpZ07axeOfFGthRpFO",
+  "url": "https://drive.google.com/drive/folders/1RiUG6aR3fkYR7bdpZ07axeOfFGthRpFO",
+  "kind": "Folder",
+  "title": "489.Understanding the Impact of Geometric Foundation Models on Vision-Language-Action Models"
+ },
+ {
+  "id": "19NZaL936_MrJQ1-xBGAlS6fX89Vy0pDf",
+  "url": "https://drive.google.com/drive/folders/19NZaL936_MrJQ1-xBGAlS6fX89Vy0pDf",
+  "kind": "Folder",
+  "title": "49.Preferenced Oracle Guided Multi-mode Policies for Dynamic Bipedal Loco-Manipulation"
+ },
+ {
+  "id": "1JRJmw0nCzfruXBTMtqa25_EQh_Eu8wET",
+  "url": "https://drive.google.com/drive/folders/1JRJmw0nCzfruXBTMtqa25_EQh_Eu8wET",
+  "kind": "Folder",
+  "title": "490.Q-WAM 4-Bit Quantization of World Action Models with Action-Subspace Protection"
+ },
+ {
+  "id": "1CZqpBhE-05xvRPf_wG-1LnE5aK8HlOw0",
+  "url": "https://drive.google.com/drive/folders/1CZqpBhE-05xvRPf_wG-1LnE5aK8HlOw0",
+  "kind": "Folder",
+  "title": "491.DODGER Safety-Guided Reinforcement Learning for Robot Navigation Among Dynamic Obstacles"
+ },
+ {
+  "id": "11YlDbIPo4hA0vItyrGOXRmTbsopxy-1H",
+  "url": "https://drive.google.com/drive/folders/11YlDbIPo4hA0vItyrGOXRmTbsopxy-1H",
+  "kind": "Folder",
+  "title": "492.CORNAV Construction-Aware Reasoning for Robot Navigation on Active Worksites"
+ },
+ {
+  "id": "1y9X7PAh1asBFo08YrGvXp8YjuNEoYFfC",
+  "url": "https://drive.google.com/drive/folders/1y9X7PAh1asBFo08YrGvXp8YjuNEoYFfC",
+  "kind": "Folder",
+  "title": "493.ECHO-G Embodied Co-speech Humanoid mOtion Generation"
+ },
+ {
+  "id": "1sr0i1oAQnVVWDvMaOTLP8sLDQjMYoYN9",
+  "url": "https://drive.google.com/drive/folders/1sr0i1oAQnVVWDvMaOTLP8sLDQjMYoYN9",
+  "kind": "Folder",
+  "title": "494.KPI A Promptable Kernel for Physical Interaction on Humanoids"
+ },
+ {
+  "id": "1Ur6gfQudn9i5MfcCDOCHV0RemIrL3rU5",
+  "url": "https://drive.google.com/drive/folders/1Ur6gfQudn9i5MfcCDOCHV0RemIrL3rU5",
+  "kind": "Folder",
+  "title": "495.StageVLN Spatial and Trajectory Auxiliary Guidance for Efficient Vision-Language Navigation"
+ },
+ {
+  "id": "1jrlGSoTVUVMo_I8Zb7uLtDtr2kF_25ki",
+  "url": "https://drive.google.com/drive/folders/1jrlGSoTVUVMo_I8Zb7uLtDtr2kF_25ki",
+  "kind": "Folder",
+  "title": "496.From Gameplay to Policy Towards Scalable Robot Data Collection via Gamified Robot-Free Interaction"
+ },
+ {
+  "id": "1SnGMpaBnELSxlM8LJcmpd1rFW4OKd28W",
+  "url": "https://drive.google.com/drive/folders/1SnGMpaBnELSxlM8LJcmpd1rFW4OKd28W",
+  "kind": "Folder",
+  "title": "497.AdaGeoVLN Selective Geometry Across Representation Depth and Navigation Time for Vision-Language Navigation"
+ },
+ {
+  "id": "1ixUeHpkDMOQFpneiaOcR56frZZgUg_po",
+  "url": "https://drive.google.com/drive/folders/1ixUeHpkDMOQFpneiaOcR56frZZgUg_po",
+  "kind": "Folder",
+  "title": "498.WB-WAM Heterogeneous Body-Hand Pre-training for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1Zy0Z7B6cXifbgpKUu7iDttitrStkinve",
+  "url": "https://drive.google.com/drive/folders/1Zy0Z7B6cXifbgpKUu7iDttitrStkinve",
+  "kind": "Folder",
+  "title": "499.Uni-VLaT Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1Vou6klfXeeD9S_5xGQWxWhgu4OyhJNLJ",
+  "url": "https://drive.google.com/drive/folders/1Vou6klfXeeD9S_5xGQWxWhgu4OyhJNLJ",
+  "kind": "Folder",
+  "title": "5.OmniH2O ：Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning"
+ },
+ {
+  "id": "1wb_Jj6P4h4aGsFnj0TC_UNpm_siO1lzB",
+  "url": "https://drive.google.com/drive/folders/1wb_Jj6P4h4aGsFnj0TC_UNpm_siO1lzB",
+  "kind": "Folder",
+  "title": "50.DoublyAware Dual Planning and Policy Awareness for Temporal Difference Learning in Humanoid Locomotion"
+ },
+ {
+  "id": "1D5-I5dVq2dsjAeDZFUbqEOKuKYptmbsI",
+  "url": "https://drive.google.com/drive/folders/1D5-I5dVq2dsjAeDZFUbqEOKuKYptmbsI",
+  "kind": "Folder",
+  "title": "500.BT-Planner A Hierarchical Task Planning Framework for Robot using Large Language Models and Behavior Trees"
+ },
+ {
+  "id": "17l5eoGB_zsN8MvPl0eBglehm5FR6aGad",
+  "url": "https://drive.google.com/drive/folders/17l5eoGB_zsN8MvPl0eBglehm5FR6aGad",
+  "kind": "Folder",
+  "title": "501.One from Infinity Actualizing Futures from Pretrained World Models into Robot Actions"
+ },
+ {
+  "id": "1qT-THYGBek03XZ1datROz5pAh9h56cCU",
+  "url": "https://drive.google.com/drive/folders/1qT-THYGBek03XZ1datROz5pAh9h56cCU",
+  "kind": "Folder",
+  "title": "502.ResSafe Learning Safety Filtering with Residual Reinforcement Learning for Humanoids"
+ },
+ {
+  "id": "1wXSQ9HtDT7RLeBMEFMfatOh0pPnL94o8",
+  "url": "https://drive.google.com/drive/folders/1wXSQ9HtDT7RLeBMEFMfatOh0pPnL94o8",
+  "kind": "Folder",
+  "title": "503.Humanoid Safe Stop via Learned Stoppability Value"
+ },
+ {
+  "id": "1-wJdvRHItDvRpd8sw9UJqsLORlOSjxUR",
+  "url": "https://drive.google.com/drive/folders/1-wJdvRHItDvRpd8sw9UJqsLORlOSjxUR",
+  "kind": "Folder",
+  "title": "504.Echo in the Steps Learning Perceptive Humanoid Parkour with Gated Memory"
+ },
+ {
+  "id": "1TfYoOxLBFEYVimbVVBw9aXLGVshNhOwA",
+  "url": "https://drive.google.com/drive/folders/1TfYoOxLBFEYVimbVVBw9aXLGVshNhOwA",
+  "kind": "Folder",
+  "title": "505.ADAPT Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control"
+ },
+ {
+  "id": "1BdLrRlJ00uhKSMEH3hzsId7C3Jh3tAZE",
+  "url": "https://drive.google.com/drive/folders/1BdLrRlJ00uhKSMEH3hzsId7C3Jh3tAZE",
+  "kind": "Folder",
+  "title": "506.EgoHumanoid-V2 Human-to-Humanoid Transfer of Coordinated Whole-Body Skills for Loco-Manipulation"
+ },
+ {
+  "id": "1p9vS_oRCaoXbDLLuNBfbN4H9X0DrNfVk",
+  "url": "https://drive.google.com/drive/folders/1p9vS_oRCaoXbDLLuNBfbN4H9X0DrNfVk",
+  "kind": "Folder",
+  "title": "507.Humanoid Loco-Manipulation With Discrete VLA Model"
+ },
+ {
+  "id": "16SiF1261YuJ_BUrOQfFyoK6AQfVRRqD7",
+  "url": "https://drive.google.com/drive/folders/16SiF1261YuJ_BUrOQfFyoK6AQfVRRqD7",
+  "kind": "Folder",
+  "title": "508.HuGo LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1FUJfguEe1zdGNSyeFCXCULrRCfwzONQj",
+  "url": "https://drive.google.com/drive/folders/1FUJfguEe1zdGNSyeFCXCULrRCfwzONQj",
+  "kind": "Folder",
+  "title": "509.RoboFoundry System-as-Policy Evolution for Self-Learning Embodied Agents"
+ },
+ {
+  "id": "1v9bCHLzryWlCdb8-Bvm8HtD4G_1Qd-dD",
+  "url": "https://drive.google.com/drive/folders/1v9bCHLzryWlCdb8-Bvm8HtD4G_1Qd-dD",
+  "kind": "Folder",
+  "title": "51.Hold My Beer Learning Gentle Humanoid Locomotion and End-Effector Stabilization Control"
+ },
+ {
+  "id": "1ePn0F0C-gtVLN9QsDfZeqRW9r7GA7fEE",
+  "url": "https://drive.google.com/drive/folders/1ePn0F0C-gtVLN9QsDfZeqRW9r7GA7fEE",
+  "kind": "Folder",
+  "title": "510.SocioGesture Real-Time and Adaptive Social Gesture Perception for Human-Robot Interaction"
+ },
+ {
+  "id": "1KJ2v-MwH2VfrODxQcPyQPw3a16NX1iej",
+  "url": "https://drive.google.com/drive/folders/1KJ2v-MwH2VfrODxQcPyQPw3a16NX1iej",
+  "kind": "Folder",
+  "title": "511.Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1DVdAwQyUOStaeSf2JRdzydQJ7w-9S9hi",
+  "url": "https://drive.google.com/drive/folders/1DVdAwQyUOStaeSf2JRdzydQJ7w-9S9hi",
+  "kind": "Folder",
+  "title": "512.Betting for Sim-to-Real Performance Testing"
+ },
+ {
+  "id": "1AenrlmPardCA_RDt8vBIRPKZklFmhUHe",
+  "url": "https://drive.google.com/drive/folders/1AenrlmPardCA_RDt8vBIRPKZklFmhUHe",
+  "kind": "Folder",
+  "title": "513.EWAM Emergent Depth-Wise Specialization in a Unified Embodied Model -- From Semantic Understanding through Visual Foresight to Action"
+ },
+ {
+  "id": "1L9dhph6mZk9XQR5XminiWSV-7y2FUXaP",
+  "url": "https://drive.google.com/drive/folders/1L9dhph6mZk9XQR5XminiWSV-7y2FUXaP",
+  "kind": "Folder",
+  "title": "514.SAGE Safety-Aligned Gradient Enforcement for Human--Robot Collaboration"
+ },
+ {
+  "id": "1ADZNQ8lp4dV2pOihrk7XXAatPQiI5GJ3",
+  "url": "https://drive.google.com/drive/folders/1ADZNQ8lp4dV2pOihrk7XXAatPQiI5GJ3",
+  "kind": "Folder",
+  "title": "515.Can People Distinguish Human and AI Agency in Humanoid Teleoperation A Preliminary Study of Agency Perception"
+ },
+ {
+  "id": "1BCxNzioygwx9czoMj9nIDmGKQfx2nzFZ",
+  "url": "https://drive.google.com/drive/folders/1BCxNzioygwx9czoMj9nIDmGKQfx2nzFZ",
+  "kind": "Folder",
+  "title": "516.WholeBodyWAM Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination"
+ },
+ {
+  "id": "1bMFiwxIdEnq2R4s8ta5l-1_kG4BcxVgM",
+  "url": "https://drive.google.com/drive/folders/1bMFiwxIdEnq2R4s8ta5l-1_kG4BcxVgM",
+  "kind": "Folder",
+  "title": "517.CoDance Learning Reactive and Compliant Human-Humanoid Interaction from Video"
+ },
+ {
+  "id": "1L0YCyYzoAAY2UGOHP1Dc4IorEflJLXVI",
+  "url": "https://drive.google.com/drive/folders/1L0YCyYzoAAY2UGOHP1Dc4IorEflJLXVI",
+  "kind": "Folder",
+  "title": "518.GM-Loco Terrain-Adaptive Humanoid Locomotion on Granular Media"
+ },
+ {
+  "id": "1jgZlgAlAPOqn5uzpsLewwM5KSqzbDjCM",
+  "url": "https://drive.google.com/drive/folders/1jgZlgAlAPOqn5uzpsLewwM5KSqzbDjCM",
+  "kind": "Folder",
+  "title": "519.ViBe Visual Behavior Adaptation for Perceptive Humanoid Whole-Body Control"
+ },
+ {
+  "id": "1syc5knIO5YW4dDzy8pICwAO2zHI7Xxvv",
+  "url": "https://drive.google.com/drive/folders/1syc5knIO5YW4dDzy8pICwAO2zHI7Xxvv",
+  "kind": "Folder",
+  "title": "52.Learning Robust Motion Skills via Critical Adversarial Attacks for Humanoid Robots"
+ },
+ {
+  "id": "1XmNXh44i7uWeZJO7R_QXpRwdNx5qXy90",
+  "url": "https://drive.google.com/drive/folders/1XmNXh44i7uWeZJO7R_QXpRwdNx5qXy90",
+  "kind": "Folder",
+  "title": "520.Praxis Distilling Physical Interaction Priors from Egocentric Videos for Generalizable Whole-Body Manipulation"
+ },
+ {
+  "id": "16xob1l32G8he9HlWzQrVHVKZ7-0sWBAG",
+  "url": "https://drive.google.com/drive/folders/16xob1l32G8he9HlWzQrVHVKZ7-0sWBAG",
+  "kind": "Folder",
+  "title": "521.Open-Set Ego-Noise Separation for Legged-Robot Audition via Annotation-Free Adaptation and Pretrained-Model Transfer"
+ },
+ {
+  "id": "1-QiMHD-0QO4uwANn1DExnpaTlxcnuCx3",
+  "url": "https://drive.google.com/drive/folders/1-QiMHD-0QO4uwANn1DExnpaTlxcnuCx3",
+  "kind": "Folder",
+  "title": "522.HumanoidTTT Test-Time Capability Reuse for Efficient Humanoid Control"
+ },
+ {
+  "id": "1Nx5VQ6f2bxtXxxcg_vCsWCKaWBZ_LGRJ",
+  "url": "https://drive.google.com/drive/folders/1Nx5VQ6f2bxtXxxcg_vCsWCKaWBZ_LGRJ",
+  "kind": "Folder",
+  "title": "523.Humanoid Badminton Learning Dynamic Racket Skills from Limited Human Motion Data"
+ },
+ {
+  "id": "11lswQaCU9ZPLK2EBu3RczjzZEXq_AKNh",
+  "url": "https://drive.google.com/drive/folders/11lswQaCU9ZPLK2EBu3RczjzZEXq_AKNh",
+  "kind": "Folder",
+  "title": "524.EgoAlign Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation"
+ },
+ {
+  "id": "1ItgM6yTdUUc0DjS79NLA65_sPNDm-iLi",
+  "url": "https://drive.google.com/drive/folders/1ItgM6yTdUUc0DjS79NLA65_sPNDm-iLi",
+  "kind": "Folder",
+  "title": "525.EMoG Emotion-Modulated Gait Generation for Expressive Humanoid Locomotion"
+ },
+ {
+  "id": "1U_mmeabV-03drhu5DTCkS-ANsOyggbEt",
+  "url": "https://drive.google.com/drive/folders/1U_mmeabV-03drhu5DTCkS-ANsOyggbEt",
+  "kind": "Folder",
+  "title": "526.Bi-manual Stabilization of the Cervical Spine for Safe Physical Human-Robot Interaction in Rolling Maneuvers"
+ },
+ {
+  "id": "1WVAoneld5snjCohmO0gTaK9uWyYRiPHD",
+  "url": "https://drive.google.com/drive/folders/1WVAoneld5snjCohmO0gTaK9uWyYRiPHD",
+  "kind": "Folder",
+  "title": "527.OTRetarget Joint Robot and Object Motion Retargeting via Optimal Transport"
+ },
+ {
+  "id": "1pK3uXOeOfV-UdrgsN7-7xFMnz8fpUdi5",
+  "url": "https://drive.google.com/drive/folders/1pK3uXOeOfV-UdrgsN7-7xFMnz8fpUdi5",
+  "kind": "Folder",
+  "title": "528.NEXUS Perceptive Whole-Body Control for Terrain-Adaptive Teleoperation"
+ },
+ {
+  "id": "1UtSyhKL1A4L_XXu-T2RER_rluLWJJSqF",
+  "url": "https://drive.google.com/drive/folders/1UtSyhKL1A4L_XXu-T2RER_rluLWJJSqF",
+  "kind": "Folder",
+  "title": "529.Banana Kick Response-Informed Skill Evolution for Humanoid Soccer"
+ },
+ {
+  "id": "1Fg2t23EkQAnkQxOogpDM1-o1tUhFNtxC",
+  "url": "https://drive.google.com/drive/folders/1Fg2t23EkQAnkQxOogpDM1-o1tUhFNtxC",
+  "kind": "Folder",
+  "title": "53.ULC A Unified and Fine-Grained Controller for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1QS4pfzafjD7xJ_-cgePdJVxbpxh2C3nj",
+  "url": "https://drive.google.com/drive/folders/1QS4pfzafjD7xJ_-cgePdJVxbpxh2C3nj",
+  "kind": "Folder",
+  "title": "530.CEER2 Directional and Tunable End-Effector and Root Compliance for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1kh8lM9-whZw_ILykKLWLe0rPQS2IMCy-",
+  "url": "https://drive.google.com/drive/folders/1kh8lM9-whZw_ILykKLWLe0rPQS2IMCy-",
+  "kind": "Folder",
+  "title": "531.Learning Distance-Conditioned Object Transport for Humanoid Loco-Manipulation from a Single Motion Clip"
+ },
+ {
+  "id": "14QOiPh5_KhPklmTD-vNDDcx5kzDluszu",
+  "url": "https://drive.google.com/drive/folders/14QOiPh5_KhPklmTD-vNDDcx5kzDluszu",
+  "kind": "Folder",
+  "title": "532.Traceable Human-to-Humanoid Sign Language Benchmarking"
+ },
+ {
+  "id": "1yXt2ewR6jZOHgdGk4pSYU4SRa6ar4KhL",
+  "url": "https://drive.google.com/drive/folders/1yXt2ewR6jZOHgdGk4pSYU4SRa6ar4KhL",
+  "kind": "Folder",
+  "title": "533DexForge High-Fidelity Physics-Informed Dexterous Retargeting"
+ },
+ {
+  "id": "1uSnTSTZoVIcZm9Y1OXa5HfPr-00gWzgc",
+  "url": "https://drive.google.com/drive/folders/1uSnTSTZoVIcZm9Y1OXa5HfPr-00gWzgc",
+  "kind": "Folder",
+  "title": "534.SocialHumanoid Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation"
+ },
+ {
+  "id": "13X7nPcq3RMkbQqY5w03Ekl2fSFUvKbq6",
+  "url": "https://drive.google.com/drive/folders/13X7nPcq3RMkbQqY5w03Ekl2fSFUvKbq6",
+  "kind": "Folder",
+  "title": "535.RoboSTAR Next-Scale Autoregressive Sign Language Translation for Humanoid Robots"
+ },
+ {
+  "id": "1gDgs2QIi1TQCFlBX_1UdWeRFqB8vr-KB",
+  "url": "https://drive.google.com/drive/folders/1gDgs2QIi1TQCFlBX_1UdWeRFqB8vr-KB",
+  "kind": "Folder",
+  "title": "536.LIMBO Learning and Internalizing Model-Free Barrier Objectives for Agile and Safe Whole-Body Control"
+ },
+ {
+  "id": "1m_r6eQKog6199vM70RMMJYOODJRsH26s",
+  "url": "https://drive.google.com/drive/folders/1m_r6eQKog6199vM70RMMJYOODJRsH26s",
+  "kind": "Folder",
+  "title": "537.ω -0 A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "128_3jOYYoKl10qKbKj3nS8welUdSliYp",
+  "url": "https://drive.google.com/drive/folders/128_3jOYYoKl10qKbKj3nS8welUdSliYp",
+  "kind": "Folder",
+  "title": "538.PFM-HR Pose Flow Matching for Humanoid Robots"
+ },
+ {
+  "id": "1eQsZlVdlp3_g1iap5YJa8jxnNhkXdK05",
+  "url": "https://drive.google.com/drive/folders/1eQsZlVdlp3_g1iap5YJa8jxnNhkXdK05",
+  "kind": "Folder",
+  "title": "539.Stay Seated Learning Omnidirectional Humanoid Locomotion on a Passive Mobile Chair with Casters"
+ },
+ {
+  "id": "1N1OoV6zhUZG_KFgsfO8aKQYkDkUb5bVt",
+  "url": "https://drive.google.com/drive/folders/1N1OoV6zhUZG_KFgsfO8aKQYkDkUb5bVt",
+  "kind": "Folder",
+  "title": "54.Learning Whole-body Motion Control through Instruction Learning and Human Motion Data"
+ },
+ {
+  "id": "18s-uoBPdkjVSWTAGGCqdwUhJhSVP40U6",
+  "url": "https://drive.google.com/drive/folders/18s-uoBPdkjVSWTAGGCqdwUhJhSVP40U6",
+  "kind": "Folder",
+  "title": "540.Locomotion-Grounded Humanoid Soccer Task-Gated Reinforcement Learning of a Multi-Directional Kicking Library"
+ },
+ {
+  "id": "19HCYSlyJNiMS_Osgh0Qz3Y2akc_29zEi",
+  "url": "https://drive.google.com/drive/folders/19HCYSlyJNiMS_Osgh0Qz3Y2akc_29zEi",
+  "kind": "Folder",
+  "title": "541.PAC-MAN Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball"
+ },
+ {
+  "id": "1b2U59kFYO-_x76lmgvDKjqIZmqCsU793",
+  "url": "https://drive.google.com/drive/folders/1b2U59kFYO-_x76lmgvDKjqIZmqCsU793",
+  "kind": "Folder",
+  "title": "542.Motion Retargeting with Spatiotemporal Preferences for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "18r_AbteeWPgF1-R3A4DBMVYrYlmk2C4e",
+  "url": "https://drive.google.com/drive/folders/18r_AbteeWPgF1-R3A4DBMVYrYlmk2C4e",
+  "kind": "Folder",
+  "title": "543.HumanoidNDM Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model"
+ },
+ {
+  "id": "1soCq72bL3kGOFFDMjjhF8WDuqCTpFBww",
+  "url": "https://drive.google.com/drive/folders/1soCq72bL3kGOFFDMjjhF8WDuqCTpFBww",
+  "kind": "Folder",
+  "title": "544.KinoGen Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation"
+ },
+ {
+  "id": "1wICfHiYwJeVF2ZqpLHcoRWm1z1CngBIX",
+  "url": "https://drive.google.com/drive/folders/1wICfHiYwJeVF2ZqpLHcoRWm1z1CngBIX",
+  "kind": "Folder",
+  "title": "545.TRACE Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion"
+ },
+ {
+  "id": "1QdcJkr1qbSOlbE7dqrDvQUB_lPztHjb5",
+  "url": "https://drive.google.com/drive/folders/1QdcJkr1qbSOlbE7dqrDvQUB_lPztHjb5",
+  "kind": "Folder",
+  "title": "546.TAPNAV Humanoid Navigation through Tactile Active Perception"
+ },
+ {
+  "id": "1uOwgvSo3dOkEM2M8Z4k0x1Lhr48lAVaZ",
+  "url": "https://drive.google.com/drive/folders/1uOwgvSo3dOkEM2M8Z4k0x1Lhr48lAVaZ",
+  "kind": "Folder",
+  "title": "547.HLO-AMP Hierarchical Loco-Manipulation from Object-Aware Motion Priors"
+ },
+ {
+  "id": "1vc6NZJDVvJIbnHzKysTUhJL64Y2_S2TI",
+  "url": "https://drive.google.com/drive/folders/1vc6NZJDVvJIbnHzKysTUhJL64Y2_S2TI",
+  "kind": "Folder",
+  "title": "548.EVOLVE Egocentric Vision-based Humanoid Loco-Manipulation via Demonstration Editing"
+ },
+ {
+  "id": "1u1APtFFPAbO1SYzkwQJFMVGf_89Ka8U4",
+  "url": "https://drive.google.com/drive/folders/1u1APtFFPAbO1SYzkwQJFMVGf_89Ka8U4",
+  "kind": "Folder",
+  "title": "549.RFPO Rectified Flow Policy Optimization for Embodied Control"
+ },
+ {
+  "id": "1tEftopePZ7W9va9vzL-A1uxBV8oA1YWs",
+  "url": "https://drive.google.com/drive/folders/1tEftopePZ7W9va9vzL-A1uxBV8oA1YWs",
+  "kind": "Folder",
+  "title": "55.Online Energy-efficient Push Recovery Control for Biped Robot Using a Variational-based Stepping Approach"
+ },
+ {
+  "id": "1L3Qb-IaVVsNeG2S9fSicCFIuDL2a03P9",
+  "url": "https://drive.google.com/drive/folders/1L3Qb-IaVVsNeG2S9fSicCFIuDL2a03P9",
+  "kind": "Folder",
+  "title": "550.METATRON A Promptable Whole-Body Execution Layer for Humanoids"
+ },
+ {
+  "id": "14Fd-4ZoSUU2AAvYkpTBzKe7Z1M2W5odJ",
+  "url": "https://drive.google.com/drive/folders/14Fd-4ZoSUU2AAvYkpTBzKe7Z1M2W5odJ",
+  "kind": "Folder",
+  "title": "551.ViT-H Generative Video-To-Humanoid Control with Motion Tracking Feedback"
+ },
+ {
+  "id": "1dhZUAkOeVom4JhJoYGTdkfh4W2B9cLZP",
+  "url": "https://drive.google.com/drive/folders/1dhZUAkOeVom4JhJoYGTdkfh4W2B9cLZP",
+  "kind": "Folder",
+  "title": "552.What Should a Navigator Remember Spatiotemporal Memory for Zero-Shot Vision-Language Navigation"
+ },
+ {
+  "id": "1Pc6fXWnDsc9MBFAZaF7JXnwg2g8-HnFE",
+  "url": "https://drive.google.com/drive/folders/1Pc6fXWnDsc9MBFAZaF7JXnwg2g8-HnFE",
+  "kind": "Folder",
+  "title": "553.DiPLO Self-distilled Diffusion Planning for Loco-manipulation"
+ },
+ {
+  "id": "1gBwASqEvB8GBEJ7HKyVehnTEh2OA6to7",
+  "url": "https://drive.google.com/drive/folders/1gBwASqEvB8GBEJ7HKyVehnTEh2OA6to7",
+  "kind": "Folder",
+  "title": "554.OmniInteract Towards Unified Whole-Body Interaction Control for Dual Humanoids"
+ },
+ {
+  "id": "1JorbWZ5S3g4l2HLHH3Rs9Al7YkHiGPye",
+  "url": "https://drive.google.com/drive/folders/1JorbWZ5S3g4l2HLHH3Rs9Al7YkHiGPye",
+  "kind": "Folder",
+  "title": "555.InfiniDanceRobot A Streaming and Closed-Loop Music-driven Dance Generation for Humanoid Robot"
+ },
+ {
+  "id": "1adzrNTuNR5YmVi56ueDVTxtTb0JMcWfl",
+  "url": "https://drive.google.com/drive/folders/1adzrNTuNR5YmVi56ueDVTxtTb0JMcWfl",
+  "kind": "Folder",
+  "title": "556.FORGE Feasible Online Reduced-Order Reference Generation and Whole-Body Execution for Agile Humanoid Locomotion"
+ },
+ {
+  "id": "1Nti4v7oeNjVBVTJNir1xyVQfV4dKqfIC",
+  "url": "https://drive.google.com/drive/folders/1Nti4v7oeNjVBVTJNir1xyVQfV4dKqfIC",
+  "kind": "Folder",
+  "title": "557.Adaptive Traversal Tubes for Posture-Aware Navigation of Bipedal Humanoids"
+ },
+ {
+  "id": "1xyWW1WpzjDBLccbRXtzD3Tsj7fmJaHWp",
+  "url": "https://drive.google.com/drive/folders/1xyWW1WpzjDBLccbRXtzD3Tsj7fmJaHWp",
+  "kind": "Folder",
+  "title": "558.Dataset-Free Compliant Humanoid Loco-Manipulation with Dynamic Online Posture"
+ },
+ {
+  "id": "1drhjisj8qiFEmQ9pRhJWLNMJikakq8TT",
+  "url": "https://drive.google.com/drive/folders/1drhjisj8qiFEmQ9pRhJWLNMJikakq8TT",
+  "kind": "Folder",
+  "title": "559.Humanoid Rickshaw Pulling Whole-Body Locomotion under Coupled Wheeled Loads"
+ },
+ {
+  "id": "1WUDb2kqe01O-CZAViYipGewDrDdeMh8Y",
+  "url": "https://drive.google.com/drive/folders/1WUDb2kqe01O-CZAViYipGewDrDdeMh8Y",
+  "kind": "Folder",
+  "title": "56.Traversing the Narrow Path A Two-Stage Reinforcement Learning"
+ },
+ {
+  "id": "1ZvDBzO7B3r9Dl5KijNb2lJ6jECJTBsSk",
+  "url": "https://drive.google.com/drive/folders/1ZvDBzO7B3r9Dl5KijNb2lJ6jECJTBsSk",
+  "kind": "Folder",
+  "title": "560.BRACE Adapting Whole-Body References for Force and Terrain Aware Humanoid Motion Tracking"
+ },
+ {
+  "id": "1fdwQ-QY1UmU90ikqgM7xrHJv8cCXO25Q",
+  "url": "https://drive.google.com/drive/folders/1fdwQ-QY1UmU90ikqgM7xrHJv8cCXO25Q",
+  "kind": "Folder",
+  "title": "561.GRAIL Generating Humanoid Loco-Manipulation from World Models"
+ },
+ {
+  "id": "1Ok1KI5HN-amE-Epbp7ZaOgG2dfLoBlJO",
+  "url": "https://drive.google.com/drive/folders/1Ok1KI5HN-amE-Epbp7ZaOgG2dfLoBlJO",
+  "kind": "Folder",
+  "title": "562.REACH An RL-based Hierarchical Humanoid Crawling Framework for Adaptable Confined Space Traversal"
+ },
+ {
+  "id": "1aoP6GZgsDZtBNnOT7mMWEvrMVWgv-7HQ",
+  "url": "https://drive.google.com/drive/folders/1aoP6GZgsDZtBNnOT7mMWEvrMVWgv-7HQ",
+  "kind": "Folder",
+  "title": "563.Whole-Body Humanoid Control via Stochastic Motion Tokenization"
+ },
+ {
+  "id": "1aA2_3FiWf1aqYY8Q_xQ6MdbQ_evWR9Pr",
+  "url": "https://drive.google.com/drive/folders/1aA2_3FiWf1aqYY8Q_xQ6MdbQ_evWR9Pr",
+  "kind": "Folder",
+  "title": "564.Fast Motion Retargeting Pipeline for Scalable Humanoid Robot Learning"
+ },
+ {
+  "id": "1XjrwmZHgvMNBqwjy034JUYBYiQ3xmEe3",
+  "url": "https://drive.google.com/drive/folders/1XjrwmZHgvMNBqwjy034JUYBYiQ3xmEe3",
+  "kind": "Folder",
+  "title": "565.Precise SE(3) End-Effector Tracking in Whole-Body Humanoid Control"
+ },
+ {
+  "id": "1x5NuLP2Zdoh_WfnWazXXlyB8WZWR_Wdm",
+  "url": "https://drive.google.com/drive/folders/1x5NuLP2Zdoh_WfnWazXXlyB8WZWR_Wdm",
+  "kind": "Folder",
+  "title": "566.TRACE Efficient Transfer Learning for Neural Whole-Body Control Across Humanoid Embodiments"
+ },
+ {
+  "id": "1AhIfYzgGVCiRlRMtkMRMP8T_w-7m9sX5",
+  "url": "https://drive.google.com/drive/folders/1AhIfYzgGVCiRlRMtkMRMP8T_w-7m9sX5",
+  "kind": "Folder",
+  "title": "567.Workhorse Learning Robust Whole-Body Humanoid Loco-Manipulation from Human Data"
+ },
+ {
+  "id": "1ICbMLt72LZmUG6zFyrT2CRoQ2q-R4r4U",
+  "url": "https://drive.google.com/drive/folders/1ICbMLt72LZmUG6zFyrT2CRoQ2q-R4r4U",
+  "kind": "Folder",
+  "title": "568.HuMiT Low-Latency Whole-Body Humanoid Teleoperation via Compact Reference Tracking"
+ },
+ {
+  "id": "1Yo9CDiwN8WJ7VYsFf5h3ADERWAgDuJCo",
+  "url": "https://drive.google.com/drive/folders/1Yo9CDiwN8WJ7VYsFf5h3ADERWAgDuJCo",
+  "kind": "Folder",
+  "title": "569.Watch Your Step Anticipated Perception for Humanoid Locomotion"
+ },
+ {
+  "id": "1nTziZTWmmipRK536hcbUQbXPuKlEk5fL",
+  "url": "https://drive.google.com/drive/folders/1nTziZTWmmipRK536hcbUQbXPuKlEk5fL",
+  "kind": "Folder",
+  "title": "57.Switch4EAI Leveraging Console Game Platform for Benchmarking Robotic Athletics"
+ },
+ {
+  "id": "1UzJk9w9hBgnZq7vTKXTCdE3Fugp0Psqe",
+  "url": "https://drive.google.com/drive/folders/1UzJk9w9hBgnZq7vTKXTCdE3Fugp0Psqe",
+  "kind": "Folder",
+  "title": "570.SMR Learning streaming motion retargeting for humanoids from human semantic"
+ },
+ {
+  "id": "1zu5YDGF7AindU_Ua-PvFD9yVsdBR_At9",
+  "url": "https://drive.google.com/drive/folders/1zu5YDGF7AindU_Ua-PvFD9yVsdBR_At9",
+  "kind": "Folder",
+  "title": "571.Whole-Body Dexterity"
+ },
+ {
+  "id": "1PTDs62GMQo_j7bfS0ofMnVVlF0c27QzL",
+  "url": "https://drive.google.com/drive/folders/1PTDs62GMQo_j7bfS0ofMnVVlF0c27QzL",
+  "kind": "Folder",
+  "title": "572.Compositional Humanoid Manipulation through Isomorphic Teleoperation and Independent Skill Routing"
+ },
+ {
+  "id": "1wV9Iy0cmpOjh4Ie7_kP6OEwn79krWKiH",
+  "url": "https://drive.google.com/drive/folders/1wV9Iy0cmpOjh4Ie7_kP6OEwn79krWKiH",
+  "kind": "Folder",
+  "title": "573.λ0 Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1vhAJG6XWckTfJV_GEP79TWyp6l1T7jan",
+  "url": "https://drive.google.com/drive/folders/1vhAJG6XWckTfJV_GEP79TWyp6l1T7jan",
+  "kind": "Folder",
+  "title": "574.Test-Time Motion Steering for Perceptive Humanoid Fall Recovery"
+ },
+ {
+  "id": "1H-_RgB8OXgB1Uiw4D4XYUlJ9_zcYigiA",
+  "url": "https://drive.google.com/drive/folders/1H-_RgB8OXgB1Uiw4D4XYUlJ9_zcYigiA",
+  "kind": "Folder",
+  "title": "575.Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion"
+ },
+ {
+  "id": "1CmyDY8-zBFP9g_pDPfmbeLGDkn_lDkVb",
+  "url": "https://drive.google.com/drive/folders/1CmyDY8-zBFP9g_pDPfmbeLGDkn_lDkVb",
+  "kind": "Folder",
+  "title": "576.PriMoRetarget Humanoid Motion Transfer Through Prioritized Motion Retargeting"
+ },
+ {
+  "id": "1C7OfYw_DxBf9yANr0UHDs_1X4lLgGvSb",
+  "url": "https://drive.google.com/drive/folders/1C7OfYw_DxBf9yANr0UHDs_1X4lLgGvSb",
+  "kind": "Folder",
+  "title": "577.SuperMimic Scaling Humanoid Whole-Body Control with One Differentiable World Model"
+ },
+ {
+  "id": "13-J5EtjnwilrINbKml97e67r5D2cSvyH",
+  "url": "https://drive.google.com/drive/folders/13-J5EtjnwilrINbKml97e67r5D2cSvyH",
+  "kind": "Folder",
+  "title": "578.HumanoidNDM Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model"
+ },
+ {
+  "id": "1z3qO-3pYMpXdra3RdeFsF0dI7fzbgSAM",
+  "url": "https://drive.google.com/drive/folders/1z3qO-3pYMpXdra3RdeFsF0dI7fzbgSAM",
+  "kind": "Folder",
+  "title": "579.SWAP Test-Time Steerable Humanoid Whole-Body Collision Avoidance"
+ },
+ {
+  "id": "1c3YFup2D8iEtWwdL4OlbZWUUCW7tMBKN",
+  "url": "https://drive.google.com/drive/folders/1c3YFup2D8iEtWwdL4OlbZWUUCW7tMBKN",
+  "kind": "Folder",
+  "title": "58.CLF-RL Control Lyapunov Function Guided Reinforcement Learning"
+ },
+ {
+  "id": "1sMQWllardq0NltReRtaqu-1Ub6YBOUGK",
+  "url": "https://drive.google.com/drive/folders/1sMQWllardq0NltReRtaqu-1Ub6YBOUGK",
+  "kind": "Folder",
+  "title": "580.Zero-HLM Generalizable Humanoid Loco-Manipulation without Real Robot Data"
+ },
+ {
+  "id": "1DokNHnwkWWbdXMacBpw8KkA46miys26l",
+  "url": "https://drive.google.com/drive/folders/1DokNHnwkWWbdXMacBpw8KkA46miys26l",
+  "kind": "Folder",
+  "title": "581.PanTact Teaching Whole-Body Dexterity with a Wearable Contact Interface"
+ },
+ {
+  "id": "1LCzqc-Nl9Rj2UX_G9QzGjqZncDsP8euG",
+  "url": "https://drive.google.com/drive/folders/1LCzqc-Nl9Rj2UX_G9QzGjqZncDsP8euG",
+  "kind": "Folder",
+  "title": "582.What the Elevation Map Cannot See Semantic-Aware Locomotion and Execution-Aware Navigation for Humanoid Robot"
+ },
+ {
+  "id": "1MBfx8yw-P90ICsDffHEkPTSAZwQzmF67",
+  "url": "https://drive.google.com/drive/folders/1MBfx8yw-P90ICsDffHEkPTSAZwQzmF67",
+  "kind": "Folder",
+  "title": "583.Reflex Visually Grounded Reactive Humanoid Control"
+ },
+ {
+  "id": "1cvoFkUxHT3Zn5pi790I9hPgg-AjTirL0",
+  "url": "https://drive.google.com/drive/folders/1cvoFkUxHT3Zn5pi790I9hPgg-AjTirL0",
+  "kind": "Folder",
+  "title": "584.Demo Vision-Language Model-Guided Online Calibration of an Electromagnetic Digital Twin"
+ },
+ {
+  "id": "148SzGfZx22lPLyCFUt2u0LEXDKlfJjrr",
+  "url": "https://drive.google.com/drive/folders/148SzGfZx22lPLyCFUt2u0LEXDKlfJjrr",
+  "kind": "Folder",
+  "title": "585.PartiGen Part-Aware Representations for Language-Conditioned Humanoid Motion Generation"
+ },
+ {
+  "id": "1v4_4_O2RK2JM14ao9IHumOVl0tPrrL9O",
+  "url": "https://drive.google.com/drive/folders/1v4_4_O2RK2JM14ao9IHumOVl0tPrrL9O",
+  "kind": "Folder",
+  "title": "586.CSF Contextual Safety Filtering for Motion Generators"
+ },
+ {
+  "id": "1p5gU49JtoqDwiEa4KFcUdFdA9sA36jX9",
+  "url": "https://drive.google.com/drive/folders/1p5gU49JtoqDwiEa4KFcUdFdA9sA36jX9",
+  "kind": "Folder",
+  "title": "587.iGPC Generative Motion Priors for Object-Aware Humanoid Interaction"
+ },
+ {
+  "id": "1pzg2uc54rKkOxFsQBGiqyswTMbp6P05V",
+  "url": "https://drive.google.com/drive/folders/1pzg2uc54rKkOxFsQBGiqyswTMbp6P05V",
+  "kind": "Folder",
+  "title": "588.ActiveAlign Aligning Egocentric Manipulation via Active Perception"
+ },
+ {
+  "id": "1gKcQdTxTMLfbFEuuFhl-taZGplstBTC4",
+  "url": "https://drive.google.com/drive/folders/1gKcQdTxTMLfbFEuuFhl-taZGplstBTC4",
+  "kind": "Folder",
+  "title": "589.HuGe Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience"
+ },
+ {
+  "id": "1FBEWVaHFEP4WNjfjAXhO_ivLxZfaPvMX",
+  "url": "https://drive.google.com/drive/folders/1FBEWVaHFEP4WNjfjAXhO_ivLxZfaPvMX",
+  "kind": "Folder",
+  "title": "59. Coordinated Humanoid Robot Locomotion with Symmetry Equivariant Reinforcement Learning Policy"
+ },
+ {
+  "id": "1ClIBxf2qTPFzHhYMUrV5dpft3lh-iz_Z",
+  "url": "https://drive.google.com/drive/folders/1ClIBxf2qTPFzHhYMUrV5dpft3lh-iz_Z",
+  "kind": "Folder",
+  "title": "590.HULK Learning Whole-Body Forceful Loco-Manipulation for Humanoids"
+ },
+ {
+  "id": "1fvhngm1afhHpsbu-d3Vlu2Tr3Q-s4nku",
+  "url": "https://drive.google.com/drive/folders/1fvhngm1afhHpsbu-d3Vlu2Tr3Q-s4nku",
+  "kind": "Folder",
+  "title": "591.VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction"
+ },
+ {
+  "id": "1k92J1CDnpOYM4rlAjp8pPacJMvE5UBWV",
+  "url": "https://drive.google.com/drive/folders/1k92J1CDnpOYM4rlAjp8pPacJMvE5UBWV",
+  "kind": "Folder",
+  "title": "592.Being-M0.7 A Latent World-Action Model for Humanoid Robots"
+ },
+ {
+  "id": "1cmjJ2o1XG_3S-n1D_GVfx9-HrvHqylz-",
+  "url": "https://drive.google.com/drive/folders/1cmjJ2o1XG_3S-n1D_GVfx9-HrvHqylz-",
+  "kind": "Folder",
+  "title": "593.Memory before Goal Role of Pre-History Memory for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1b5FrXrZ1Sn7aCSWSmS6vzH4fydwlP53n",
+  "url": "https://drive.google.com/drive/folders/1b5FrXrZ1Sn7aCSWSmS6vzH4fydwlP53n",
+  "kind": "Folder",
+  "title": "594.P-BFM Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning"
+ },
+ {
+  "id": "1iBehKauLbKUMxePKe3AQ2F5tf4FBZVuD",
+  "url": "https://drive.google.com/drive/folders/1iBehKauLbKUMxePKe3AQ2F5tf4FBZVuD",
+  "kind": "Folder",
+  "title": "595.Active Reachability Learning for Humanoid Recoverability Monitoring"
+ },
+ {
+  "id": "16FvB1-URp3fN0asNeHpvxBJAstOaodaP",
+  "url": "https://drive.google.com/drive/folders/16FvB1-URp3fN0asNeHpvxBJAstOaodaP",
+  "kind": "Folder",
+  "title": "596.Explaining Navigation Decisions Stage-Aware Visual Attribution for Vision-Language Navigation"
+ },
+ {
+  "id": "1clQKX-EHajli2l6HyG3iFQ1lttipgCBT",
+  "url": "https://drive.google.com/drive/folders/1clQKX-EHajli2l6HyG3iFQ1lttipgCBT",
+  "kind": "Folder",
+  "title": "597.Learning Force-Reactive Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "18QYDABiBH5tB0A10gC7Sm66V1ojF1sN7",
+  "url": "https://drive.google.com/drive/folders/18QYDABiBH5tB0A10gC7Sm66V1ojF1sN7",
+  "kind": "Folder",
+  "title": "598.Beyond Retargeting Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives"
+ },
+ {
+  "id": "1ADhbgFGTdy83UoiemGIN5Fr-W81u6RfH",
+  "url": "https://drive.google.com/drive/folders/1ADhbgFGTdy83UoiemGIN5Fr-W81u6RfH",
+  "kind": "Folder",
+  "title": "599.MIND Instruction-Conditioned Incremental Grounding for Robots"
+ },
+ {
+  "id": "1d8hntTeQ95rJM_jGPWncV9WuSiF4Janq",
+  "url": "https://drive.google.com/drive/folders/1d8hntTeQ95rJM_jGPWncV9WuSiF4Janq",
+  "kind": "Folder",
+  "title": "6.HumanPlus： Humanoid Shadowing and Imitation from Humans"
+ },
+ {
+  "id": "1MFDZIBecz3Bo03eoThadULp7jhWzIioJ",
+  "url": "https://drive.google.com/drive/folders/1MFDZIBecz3Bo03eoThadULp7jhWzIioJ",
+  "kind": "Folder",
+  "title": "60. HITTER A HumanoId Table TEnnis Robot via Hierarchical Planning and Learning"
+ },
+ {
+  "id": "1q_1njMwX05QggiMxEdvaEnELv19eZdbd",
+  "url": "https://drive.google.com/drive/folders/1q_1njMwX05QggiMxEdvaEnELv19eZdbd",
+  "kind": "Folder",
+  "title": "600.FAITH Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems"
+ },
+ {
+  "id": "1WqVbDsumUoD0mz9i-ctGIzMrnqFR7ImE",
+  "url": "https://drive.google.com/drive/folders/1WqVbDsumUoD0mz9i-ctGIzMrnqFR7ImE",
+  "kind": "Folder",
+  "title": "601.AutodidactWAM Cross-Modal Self-Distillation from Generated Video to Robot Actions"
+ },
+ {
+  "id": "1IEBe872NbYgrHYgG2gWNaa8NekS0pxV3",
+  "url": "https://drive.google.com/drive/folders/1IEBe872NbYgrHYgG2gWNaa8NekS0pxV3",
+  "kind": "Folder",
+  "title": "602.Action-Aligned Latent Planning for Versatile Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1LrzXgOOc9Cv0PHY7mqg5-pRpuR3rsbyg",
+  "url": "https://drive.google.com/drive/folders/1LrzXgOOc9Cv0PHY7mqg5-pRpuR3rsbyg",
+  "kind": "Folder",
+  "title": "603.DUET Decoupled Upper- and Lower-Body Execution for Task-Agnostic Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1uWMOjWjMpEXP2QgtuZBFw3kZZRL4a7GR",
+  "url": "https://drive.google.com/drive/folders/1uWMOjWjMpEXP2QgtuZBFw3kZZRL4a7GR",
+  "kind": "Folder",
+  "title": "604.CIRRA Dual-Level Continual Instruction Reconciliation with Ongoing Execution for Embodied Robot Agents in Interactive Household Tasks"
+ },
+ {
+  "id": "1C_H11OO9tmyodNZucbglTo0FRnlMdflP",
+  "url": "https://drive.google.com/drive/folders/1C_H11OO9tmyodNZucbglTo0FRnlMdflP",
+  "kind": "Folder",
+  "title": "605.BeJEPA A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL"
+ },
+ {
+  "id": "16G-_1rEsefx7wEcN5UHsaVebOn7i8zqO",
+  "url": "https://drive.google.com/drive/folders/16G-_1rEsefx7wEcN5UHsaVebOn7i8zqO",
+  "kind": "Folder",
+  "title": "606.Catch It All! Generalizable Dynamic Catching with a Dexterous Hand"
+ },
+ {
+  "id": "1VfGkYWC4qhUJ20j8IP4gfiqpnJrb-81y",
+  "url": "https://drive.google.com/drive/folders/1VfGkYWC4qhUJ20j8IP4gfiqpnJrb-81y",
+  "kind": "Folder",
+  "title": "607.VICAR Video Imitation with Contact-Aware Retargeting for Humanoid Interactive Skills"
+ },
+ {
+  "id": "1tu9c-8ZCfGOushaYcIjQpThdaoSta2za",
+  "url": "https://drive.google.com/drive/folders/1tu9c-8ZCfGOushaYcIjQpThdaoSta2za",
+  "kind": "Folder",
+  "title": "608.KODA Kinematics--Observation Data Alignment for Humanoid Learning from Human Egocentric Demonstration"
+ },
+ {
+  "id": "1_fftFMeYagiCscAVBxsVEFCXyPEpeMG0",
+  "url": "https://drive.google.com/drive/folders/1_fftFMeYagiCscAVBxsVEFCXyPEpeMG0",
+  "kind": "Folder",
+  "title": "609.Evaluating Lightweight Contact Feedback in Dual-Operator Collaborative Humanoid Teleoperation"
+ },
+ {
+  "id": "1vY52PkiR50TWDiGtZ2QNac_Ns58XOMnV",
+  "url": "https://drive.google.com/drive/folders/1vY52PkiR50TWDiGtZ2QNac_Ns58XOMnV",
+  "kind": "Folder",
+  "title": "61. BeyondMimic From Motion Tracking to Versatile Humanoid Control via Guided Diffusion"
+ },
+ {
+  "id": "1eOefD-GMcBQ6MiaVetcQeiDIN82dDogA",
+  "url": "https://drive.google.com/drive/folders/1eOefD-GMcBQ6MiaVetcQeiDIN82dDogA",
+  "kind": "Folder",
+  "title": "610.HC2Robot Hyper-Connection Transformers with Predicted Foresight for Multi-Terrain Humanoid Parkour"
+ },
+ {
+  "id": "1ZHJoZI4tk8Om--dMplyw8ARNMxCXBX1m",
+  "url": "https://drive.google.com/drive/folders/1ZHJoZI4tk8Om--dMplyw8ARNMxCXBX1m",
+  "kind": "Folder",
+  "title": "611.Warping the Workspace Expanding Visual Access with Adjustable Reach Mapping for Humanoid Teleoperation"
+ },
+ {
+  "id": "1ABTPyInJuL2ywS5x8d_eJIZtzkkiDTJv",
+  "url": "https://drive.google.com/drive/folders/1ABTPyInJuL2ywS5x8d_eJIZtzkkiDTJv",
+  "kind": "Folder",
+  "title": "612.Towards Path-Creative Navigation Robot Navigation through Embodied Interaction"
+ },
+ {
+  "id": "1ie70khy3o6m0WwYw1RaP1CfWqkLwp2Fx",
+  "url": "https://drive.google.com/drive/folders/1ie70khy3o6m0WwYw1RaP1CfWqkLwp2Fx",
+  "kind": "Folder",
+  "title": "613.GentleHumanoid Learning Upper-Body Compliance for Contact-Rich Human and Object Interaction"
+ },
+ {
+  "id": "1ojVIGSOULrVOrALfRYXH7P6f6TA06ZSG",
+  "url": "https://drive.google.com/drive/folders/1ojVIGSOULrVOrALfRYXH7P6f6TA06ZSG",
+  "kind": "Folder",
+  "title": "614.Compliant GMT Making General Motion Tracking Compliant via Residual Reference Adaptation"
+ },
+ {
+  "id": "1ZFON3G09YVZzGAgimDVCzPXuK-yAIHC4",
+  "url": "https://drive.google.com/drive/folders/1ZFON3G09YVZzGAgimDVCzPXuK-yAIHC4",
+  "kind": "Folder",
+  "title": "615.VioLA Learning Generalist Humanoid Control Policies from Human Data"
+ },
+ {
+  "id": "1l8IT4V34wMpYT0AZfeZ5BxcTZwfJVG6Z",
+  "url": "https://drive.google.com/drive/folders/1l8IT4V34wMpYT0AZfeZ5BxcTZwfJVG6Z",
+  "kind": "Folder",
+  "title": "616.QF3 Fast Flow RL with Filtered Q-Gradients"
+ },
+ {
+  "id": "1NQK15G6RtOTZxN-ja33lPtB3P7S44xAq",
+  "url": "https://drive.google.com/drive/folders/1NQK15G6RtOTZxN-ja33lPtB3P7S44xAq",
+  "kind": "Folder",
+  "title": "617.CoHuB A Simulation Benchmark for Multi-Humanoid Collaboration"
+ },
+ {
+  "id": "1IP1-nxwvGhBHchfCnKc9Lj7J7lwczo2c",
+  "url": "https://drive.google.com/drive/folders/1IP1-nxwvGhBHchfCnKc9Lj7J7lwczo2c",
+  "kind": "Folder",
+  "title": "618.From Hitter to Player Separating Motor Execution and Strategy in Competitive Humanoid Table Tennis"
+ },
+ {
+  "id": "11vNWmsGA7l2Qjt4Plzeg_C_XnLeNgInE",
+  "url": "https://drive.google.com/drive/folders/11vNWmsGA7l2Qjt4Plzeg_C_XnLeNgInE",
+  "kind": "Folder",
+  "title": "619.DEX-PHD A Dexterous Portable Handheld Device for Multimodal Data Collection"
+ },
+ {
+  "id": "1PTEtjkDkj5igxAT2ZBk_IhYL73SierV8",
+  "url": "https://drive.google.com/drive/folders/1PTEtjkDkj5igxAT2ZBk_IhYL73SierV8",
+  "kind": "Folder",
+  "title": "62.MoRE Mixture of Residual Experts for Humanoid Lifelike Gaits Learning on Complex Terrains"
+ },
+ {
+  "id": "1J5Y5SI4iYSwSh2Jq7tWUFhvHapYq_r-8",
+  "url": "https://drive.google.com/drive/folders/1J5Y5SI4iYSwSh2Jq7tWUFhvHapYq_r-8",
+  "kind": "Folder",
+  "title": "620.Not an Accident Exploiting Safety Filter Inadequacy in Humanoid Robots"
+ },
+ {
+  "id": "1bwzaAK5ZuRpLuLNGG0UCh5gS6h9ROoMl",
+  "url": "https://drive.google.com/drive/folders/1bwzaAK5ZuRpLuLNGG0UCh5gS6h9ROoMl",
+  "kind": "Folder",
+  "title": "621.Humanoid Mobility via Attention-based Contacts"
+ },
+ {
+  "id": "1ZWRoZ5p_sEsnuX09BrP3UKRMu2hi-b5Q",
+  "url": "https://drive.google.com/drive/folders/1ZWRoZ5p_sEsnuX09BrP3UKRMu2hi-b5Q",
+  "kind": "Folder",
+  "title": "622.Learning Tactile-Aware Hand Representations from Human Hand-Object Interaction Data"
+ },
+ {
+  "id": "1jUvchKAVYQYvVMHRMZef4QRmNvJv1U9m",
+  "url": "https://drive.google.com/drive/folders/1jUvchKAVYQYvVMHRMZef4QRmNvJv1U9m",
+  "kind": "Folder",
+  "title": "623.SP-HLM Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "10koQi_8zKijhIv7Ew6a7lzNiY8piqRgl",
+  "url": "https://drive.google.com/drive/folders/10koQi_8zKijhIv7Ew6a7lzNiY8piqRgl",
+  "kind": "Folder",
+  "title": "624.HIPC Humanoid Iterative Planning and Control via Goal-Conditioned Motion Closure"
+ },
+ {
+  "id": "1sWtyR8PuY9vZfw86d0sWQ9ueJGqUGqho",
+  "url": "https://drive.google.com/drive/folders/1sWtyR8PuY9vZfw86d0sWQ9ueJGqUGqho",
+  "kind": "Folder",
+  "title": "625.MAPO Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking"
+ },
+ {
+  "id": "1XB6SdKp4q_J_5pQYHHNdlR8EJ18qKYeG",
+  "url": "https://drive.google.com/drive/folders/1XB6SdKp4q_J_5pQYHHNdlR8EJ18qKYeG",
+  "kind": "Folder",
+  "title": "626.Walk Like This Stylized Locomotion for Physics-Based Characters through Example-Driven Diffusion"
+ },
+ {
+  "id": "16wboqOqaRl5b1Kv95Li-otOzbA6aBcvc",
+  "url": "https://drive.google.com/drive/folders/16wboqOqaRl5b1Kv95Li-otOzbA6aBcvc",
+  "kind": "Folder",
+  "title": "627.Immiscible Diffusion Policy Preserving Multimodal Robot Actions through Label-Free Noise Assignment"
+ },
+ {
+  "id": "1RVuGHBy3B0zRdT7jhAjb3JXrcHVn8fsu",
+  "url": "https://drive.google.com/drive/folders/1RVuGHBy3B0zRdT7jhAjb3JXrcHVn8fsu",
+  "kind": "Folder",
+  "title": "628.HumiMimic Mimetic Embodiment Transfer of Human-Humanoid Interaction from In-the-Wild Videos"
+ },
+ {
+  "id": "1VaZiIfu2Jja-K9gRkIXKoPia6qzrTJWl",
+  "url": "https://drive.google.com/drive/folders/1VaZiIfu2Jja-K9gRkIXKoPia6qzrTJWl",
+  "kind": "Folder",
+  "title": "629.ReGATE Recurrent Gated Visual Fusion for Reactive Humanoid-Object Interaction"
+ },
+ {
+  "id": "1EH0qQknpjzTaG8BH0-jB5CyF6e2_Uym9",
+  "url": "https://drive.google.com/drive/folders/1EH0qQknpjzTaG8BH0-jB5CyF6e2_Uym9",
+  "kind": "Folder",
+  "title": "63.UniTracker Learning Universal Whole-Body Motion Tracker for Humanoid Robots"
+ },
+ {
+  "id": "1f0FjayUZsLrEyHuxSUBQxkYEr2ZsEd1a",
+  "url": "https://drive.google.com/drive/folders/1f0FjayUZsLrEyHuxSUBQxkYEr2ZsEd1a",
+  "kind": "Folder",
+  "title": "630.HuG Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception"
+ },
+ {
+  "id": "1ODx5ESx5lG3y1SgcMBIR1QGYqaSKP5yb",
+  "url": "https://drive.google.com/drive/folders/1ODx5ESx5lG3y1SgcMBIR1QGYqaSKP5yb",
+  "kind": "Folder",
+  "title": "631.Perceptive Humanoid Motion from Simulation"
+ },
+ {
+  "id": "1gGnpAVMdYNCJ7SddGCj6OFnEhyt2S8ai",
+  "url": "https://drive.google.com/drive/folders/1gGnpAVMdYNCJ7SddGCj6OFnEhyt2S8ai",
+  "kind": "Folder",
+  "title": "632.Learning Versatile Humanoid Manipulation with Touch Dreaming"
+ },
+ {
+  "id": "1OuvcivelR3pl4j0BnAXBuSzKEggkO5KC",
+  "url": "https://drive.google.com/drive/folders/1OuvcivelR3pl4j0BnAXBuSzKEggkO5KC",
+  "kind": "Folder",
+  "title": "64. CHILD (Controller for Humanoid Imitation and Live Demonstration) a Whole-Body Humanoid Teleoperation System"
+ },
+ {
+  "id": "1dqFJO6tCPz3bBhwEOKrMm9H9uGW6y6Ms",
+  "url": "https://drive.google.com/drive/folders/1dqFJO6tCPz3bBhwEOKrMm9H9uGW6y6Ms",
+  "kind": "Folder",
+  "title": "65.RL from Physical Feedback Aligning Large Motion Models with Humanoid Control"
+ },
+ {
+  "id": "1_YPsvjUuP_FCqEeTOyoBGBuwqMNO2jw_",
+  "url": "https://drive.google.com/drive/folders/1_YPsvjUuP_FCqEeTOyoBGBuwqMNO2jw_",
+  "kind": "Folder",
+  "title": "66. RobotDancing： Residual-Action Reinforcement Learning Enables Robust Long-Horizon Humanoid Motion Tracking"
+ },
+ {
+  "id": "1vrK_qNdPH1DPFjW64Ky3SczwtdXoH4mV",
+  "url": "https://drive.google.com/drive/folders/1vrK_qNdPH1DPFjW64Ky3SczwtdXoH4mV",
+  "kind": "Folder",
+  "title": "67.RuN ：Residual Policy for Natural Humanoid Locomotion"
+ },
+ {
+  "id": "1Sqh46t5UE53VurA7ypc_2O-CARL6OO_Q",
+  "url": "https://drive.google.com/drive/folders/1Sqh46t5UE53VurA7ypc_2O-CARL6OO_Q",
+  "kind": "Folder",
+  "title": "68.RoMoCo ：Robotic Motion Control Toolbox for Reduced-Order Model-Based Locomotion on Bipedal and Humanoid Robots"
+ },
+ {
+  "id": "1rxfgOKbvt-prR_amVttX5ceTEjNqKTXE",
+  "url": "https://drive.google.com/drive/folders/1rxfgOKbvt-prR_amVttX5ceTEjNqKTXE",
+  "kind": "Folder",
+  "title": "69.HDMI ：Learning Interactive Humanoid Whole-Body Control from Human Videos"
+ },
+ {
+  "id": "1EV4Hib9SrYjUFSzx8HzhEzr5yr0tiGxf",
+  "url": "https://drive.google.com/drive/folders/1EV4Hib9SrYjUFSzx8HzhEzr5yr0tiGxf",
+  "kind": "Folder",
+  "title": "7.Blind Walking Balance Control and Disturbance Rejection of the Bipedal Humanoid Robot Xiao-Man via Reinforcement Learning"
+ },
+ {
+  "id": "1ptWixmNK4CuoWz81Sz8-BgmLxAs5VqtI",
+  "url": "https://drive.google.com/drive/folders/1ptWixmNK4CuoWz81Sz8-BgmLxAs5VqtI",
+  "kind": "Folder",
+  "title": "70.DreamControl： Human-Inspired Whole-Body Humanoid Control for Scene Interaction via Guided Diffusion"
+ },
+ {
+  "id": "1KCyYmvf07G1A8ERutSdyUUcEH7qa2J4c",
+  "url": "https://drive.google.com/drive/folders/1KCyYmvf07G1A8ERutSdyUUcEH7qa2J4c",
+  "kind": "Folder",
+  "title": "71.Cybersecurity AI ：Humanoid Robots as Attack Vectors"
+ },
+ {
+  "id": "1ziZDpmD5On2CWC_LPTDpVkeNwrSvDCma",
+  "url": "https://drive.google.com/drive/folders/1ziZDpmD5On2CWC_LPTDpVkeNwrSvDCma",
+  "kind": "Folder",
+  "title": "72.The Cybersecurity of a Humanoid Robot"
+ },
+ {
+  "id": "1pfm97Y8HKDYDiMaTLedW0XkygslGMNxm",
+  "url": "https://drive.google.com/drive/folders/1pfm97Y8HKDYDiMaTLedW0XkygslGMNxm",
+  "kind": "Folder",
+  "title": "73.PhysicalAgent： Towards General Cognitive Robotics with Foundation World Models"
+ },
+ {
+  "id": "1F7imBHEik0wifdMFVzciZ2W2Ia-9WO-n",
+  "url": "https://drive.google.com/drive/folders/1F7imBHEik0wifdMFVzciZ2W2Ia-9WO-n",
+  "kind": "Folder",
+  "title": "74.Track Any Motions under Any Disturbances"
+ },
+ {
+  "id": "19BCBnHcyY0ZM7Zcva8ZKmwGs_fekgv__",
+  "url": "https://drive.google.com/drive/folders/19BCBnHcyY0ZM7Zcva8ZKmwGs_fekgv__",
+  "kind": "Folder",
+  "title": "75.FSR-VLN ：Fast and Slow Reasoning for Vision-Language Navigation with Hierarchical Multi-modal Scene Graph"
+ },
+ {
+  "id": "1jaRfapFHLoGy2tpPOlZdGhqbCMU3CcsX",
+  "url": "https://drive.google.com/drive/folders/1jaRfapFHLoGy2tpPOlZdGhqbCMU3CcsX",
+  "kind": "Folder",
+  "title": "76.TrajBooster：Boosting Humanoid Whole-Body Manipulation via Trajectory-Centric Learning"
+ },
+ {
+  "id": "1MnEPmh9Evp7B7W-tHqltSQnTDiibvXs8",
+  "url": "https://drive.google.com/drive/folders/1MnEPmh9Evp7B7W-tHqltSQnTDiibvXs8",
+  "kind": "Folder",
+  "title": "77.Hierarchical Reduced-Order Model Predictive Control for Robust Locomotion on Humanoid Robots"
+ },
+ {
+  "id": "1UM-6-3r3tJGO5qQ-HzU_8WgP2GHZVKAV",
+  "url": "https://drive.google.com/drive/folders/1UM-6-3r3tJGO5qQ-HzU_8WgP2GHZVKAV",
+  "kind": "Folder",
+  "title": "78.Traversing Narrow Paths ： A Two -Stage Reinforcement Learning Framework for Robust and Safe Humanoid Walking"
+ },
+ {
+  "id": "1vuObQoVWZu_7tA5KsH2HnAmMDefEv_l1",
+  "url": "https://drive.google.com/drive/folders/1vuObQoVWZu_7tA5KsH2HnAmMDefEv_l1",
+  "kind": "Folder",
+  "title": "79.Switch4EAI ：Leveraging Console Game Platform for Benchmarking Robotic Athletics"
+ },
+ {
+  "id": "1zb0VRAgY_vjXu-pJEBJriKnX_PdfR-k7",
+  "url": "https://drive.google.com/drive/folders/1zb0VRAgY_vjXu-pJEBJriKnX_PdfR-k7",
+  "kind": "Folder",
+  "title": "8.WoCoCo ：Learning Whole-Body Humanoid Control with Sequential Contacts"
+ },
+ {
+  "id": "1bXCvaH-zoxRJk9oSB2_bM3Z2dB2gmSLH",
+  "url": "https://drive.google.com/drive/folders/1bXCvaH-zoxRJk9oSB2_bM3Z2dB2gmSLH",
+  "kind": "Folder",
+  "title": "80.Visual Imitation Enables Contextual Humanoid Control"
+ },
+ {
+  "id": "1OGzz-Zw2ABrqz-JlLfEaZ6oioaheph_v",
+  "url": "https://drive.google.com/drive/folders/1OGzz-Zw2ABrqz-JlLfEaZ6oioaheph_v",
+  "kind": "Folder",
+  "title": "81.Towards Adaptable Humanoid Control via Adaptive Motion Tracking"
+ },
+ {
+  "id": "1KpMhhNDbyx8SLJ_-4jAWkRpKQb12Gmgu",
+  "url": "https://drive.google.com/drive/folders/1KpMhhNDbyx8SLJ_-4jAWkRpKQb12Gmgu",
+  "kind": "Folder",
+  "title": "82.CBF-RL ：Safety Filtering Reinforcement Learning in Training with Control Barrier Functions"
+ },
+ {
+  "id": "1VCmHGI3uNNGp_3wG507sHVp7mb2BiAyq",
+  "url": "https://drive.google.com/drive/folders/1VCmHGI3uNNGp_3wG507sHVp7mb2BiAyq",
+  "kind": "Folder",
+  "title": "83.Architecture Is All You Need ：Diversity-Enabled Sweet Spots for Robust Humanoid Locomotion"
+ },
+ {
+  "id": "19gHa4r4cU5C1OqAH3M8ffmewMnXYa0pC",
+  "url": "https://drive.google.com/drive/folders/19gHa4r4cU5C1OqAH3M8ffmewMnXYa0pC",
+  "kind": "Folder",
+  "title": "84.ResMimic ：From General Motion Tracking to Humanoid Whole-body Loco-Manipulation via Residual Learning"
+ },
+ {
+  "id": "1dQ0kgVvXb-lRs6O0O7Ax_G14nocmpHy9",
+  "url": "https://drive.google.com/drive/folders/1dQ0kgVvXb-lRs6O0O7Ax_G14nocmpHy9",
+  "kind": "Folder",
+  "title": "85.OmniRetarget：Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction"
+ },
+ {
+  "id": "1umJXol9Cpy9fEyD03MtTOAAf3R3p6xKL",
+  "url": "https://drive.google.com/drive/folders/1umJXol9Cpy9fEyD03MtTOAAf3R3p6xKL",
+  "kind": "Folder",
+  "title": "86.VisualMimic ：Visual Humanoid Loco-Manipulation via Motion Tracking and Generation"
+ },
+ {
+  "id": "1KSZ76yRrT_S4VkwUt5uIOu6PkNHyFfHK",
+  "url": "https://drive.google.com/drive/folders/1KSZ76yRrT_S4VkwUt5uIOu6PkNHyFfHK",
+  "kind": "Folder",
+  "title": "87.Thor ：Towards Human-Level Whole-Body Reactions for Intense Contact-Rich Environments"
+ },
+ {
+  "id": "1j1AWMI3fYZ7NHctxeTqEGvkSKhslLwoN",
+  "url": "https://drive.google.com/drive/folders/1j1AWMI3fYZ7NHctxeTqEGvkSKhslLwoN",
+  "kind": "Folder",
+  "title": "88.PolySim ：Bridging the Sim-to-Real Gap for Humanoid Control via Multi-Simulator Dynamics Randomization"
+ },
+ {
+  "id": "18Xz_jbZuiSpXP94GZE8Kskyn_jmOoJaU",
+  "url": "https://drive.google.com/drive/folders/18Xz_jbZuiSpXP94GZE8Kskyn_jmOoJaU",
+  "kind": "Folder",
+  "title": "89. SafeFall Learning Protective Control for Humanoid Robots"
+ },
+ {
+  "id": "1bmwB8yTV7hdAVREYehoWByRjsRLWu0Te",
+  "url": "https://drive.google.com/drive/folders/1bmwB8yTV7hdAVREYehoWByRjsRLWu0Te",
+  "kind": "Folder",
+  "title": "9.Open-TeleVision Teleoperation with Immersive Active Visual Feedback"
+ },
+ {
+  "id": "1G2mAYqEZYYFDfI2vim3cLX7uWtlaCNNg",
+  "url": "https://drive.google.com/drive/folders/1G2mAYqEZYYFDfI2vim3cLX7uWtlaCNNg",
+  "kind": "Folder",
+  "title": "90.Robotic World Model A Neural Network Simulator for Robust Policy Optimization in Robotics"
+ },
+ {
+  "id": "1i5iFt_EgSVTQ329Yw-wqeFJfaMSVOpoO",
+  "url": "https://drive.google.com/drive/folders/1i5iFt_EgSVTQ329Yw-wqeFJfaMSVOpoO",
+  "kind": "Folder",
+  "title": "91.DemoHLM From One Demonstration to Generalizable"
+ },
+ {
+  "id": "1zTVn1wkXjPLueiWCd6jMGRw0i2giZQJK",
+  "url": "https://drive.google.com/drive/folders/1zTVn1wkXjPLueiWCd6jMGRw0i2giZQJK",
+  "kind": "Folder",
+  "title": "92.A Comparative Study of Floating-Base Space Parameterizations"
+ },
+ {
+  "id": "1Y5_Oxe0EZb2YF0Ao2KEp1ogdXOO-QAN6",
+  "url": "https://drive.google.com/drive/folders/1Y5_Oxe0EZb2YF0Ao2KEp1ogdXOO-QAN6",
+  "kind": "Folder",
+  "title": "93.Unified Humanoid Fall-Safety Policy from a Few Demonstrations"
+ },
+ {
+  "id": "1pVpEWWDEreIH-xehtY1MbdR2JyAl13HZ",
+  "url": "https://drive.google.com/drive/folders/1pVpEWWDEreIH-xehtY1MbdR2JyAl13HZ",
+  "kind": "Folder",
+  "title": "94.Agility Meets Stability Versatile Humanoid Control with Heterogeneous Data"
+ },
+ {
+  "id": "1KntyFPMnTNNk6CSVXEPhZhLSunAEcxHp",
+  "url": "https://drive.google.com/drive/folders/1KntyFPMnTNNk6CSVXEPhZhLSunAEcxHp",
+  "kind": "Folder",
+  "title": "95.Learning Adaptive Neural Teleoperation for Humanoid Robots From Inverse Kinematics to End-to-End Control"
+ },
+ {
+  "id": "1co_SX6RnP8GQif-90wQUZR2p9YX1pvrz",
+  "url": "https://drive.google.com/drive/folders/1co_SX6RnP8GQif-90wQUZR2p9YX1pvrz",
+  "kind": "Folder",
+  "title": "96.VIRAL Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "131FcjUcdVXktp1YCeCnY0UvLaBQc_xFc",
+  "url": "https://drive.google.com/drive/folders/131FcjUcdVXktp1YCeCnY0UvLaBQc_xFc",
+  "kind": "Folder",
+  "title": "97.Kinematics-Aware Multi-Policy Reinforcement Learning for Force-Capable Humanoid Loco-Manipulation"
+ },
+ {
+  "id": "1MNYmoZOnnhOEJav0G9D2ozTY4E0yx1W3",
+  "url": "https://drive.google.com/drive/folders/1MNYmoZOnnhOEJav0G9D2ozTY4E0yx1W3",
+  "kind": "Folder",
+  "title": "98.HumanoidExo Scalable Whole-Body Humanoid Manipulation via Wearable Exoskeleton"
+ },
+ {
+  "id": "1_pXcPrkAGrBm_82USap4coSZrv4sfuOC",
+  "url": "https://drive.google.com/drive/folders/1_pXcPrkAGrBm_82USap4coSZrv4sfuOC",
+  "kind": "Folder",
+  "title": "99.GentleHumanoid Learning Upper-body Compliance for Contact-rich"
+ }
+]
