@@ -1,0 +1,194 @@
+建图
+
+终端 1：底盘。
+
+sudo systemctl restart hunter-can.service
+use_robot
+source ~/hunter_nav_odom_ws/install/setup.bash
+ros2 launch robot_bringup hunter.launch.py
+
+终端 2：XT32 雷达。
+
+use_robot
+source ~/hunter_nav_odom_ws/install/setup.bash
+ros2 launch robot_bringup xt32.launch.py
+
+终端 3：小车模型与 RViz。
+
+use_robot
+source ~/hunter_nav_odom_ws/install/setup.bash
+ros2 launch hunter_description display.launch.py
+
+终端 4：点云转二维 /scan。这是目前确认不会扫到车载小模块的最终参数。
+
+use_robot
+source ~/hunter_nav_odom_ws/install/setup.bash
+ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r cloud_in:=/lidar_points -r scan:=/scan -p target_frame:=base_link -p min_height:=0.10 -p max_height:=0.85 -p angle_min:=-3.14159 -p angle_max:=3.14159 -p angle_increment:=0.00872665 -p scan_time:=0.10 -p range_min:=0.50 -p range_max:=20.0 -p use_inf:=true
+
+终端 5：在线建图。
+
+use_robot
+source ~/hunter_nav_odom_ws/install/setup.bash
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=/home/car/hunter_nav_odom_ws/src/hunter_nav_odom/config/mapper_params_online_sync.yaml
+
+RViz 中设置：
+
+Fixed Frame：map
+Map：/map
+LaserScan：/scan
+RobotModel：robot_description
+
+终端 6：建图完成后保存地图。每次换一个地图名即可。
+
+use_robot
+source ~/hunter_nav_odom_ws/install/setup.bash
+ros2 run nav2_map_server map_saver_cli -f ~/hunter_nav_odom_ws/src/hunter_nav_odom/maps/lab_odom_02
+
+
+
+
+
+导航
+
+终端 1：Hunter 底盘。
+
+sudo systemctl restart hunter-can.service
+use_robot
+source ~/hunter_nav_odom_ws/install/setup.bash
+ros2 launch robot_bringup hunter.launch.py
+
+终端 2：XT32 雷达。
+
+use_robot
+source ~/hunter_nav_odom_ws/install/setup.bash
+ros2 launch robot_bringup xt32.launch.py
+
+终端 3：车体模型。
+
+use_robot
+source ~/hunter_nav_odom_ws/install/setup.bash
+ros2 launch hunter_description display.launch.py
+
+终端 4：点云转导航激光 /scan。
+
+use_robot
+source ~/hunter_nav_odom_ws/install/setup.bash
+ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r cloud_in:=/lidar_points -r scan:=/scan -p target_frame:=base_link -p min_height:=0.10 -p max_height:=0.85 -p angle_min:=-3.14159 -p angle_max:=3.14159 -p angle_increment:=0.00872665 -p scan_time:=0.10 -p range_min:=0.50 -p range_max:=20.0 -p use_inf:=true
+
+终端 5：Nav2 导航，加载已保存地图。
+
+use_robot
+source ~/hunter_nav_odom_ws/install/setup.bash
+ros2 launch nav2_bringup bringup_launch.py map:=/home/car/hunter_nav_odom_ws/src/hunter_nav_odom/maps/lab_odom_01.yaml params_file:=/home/car/hunter_nav_odom_ws/src/hunter_nav_odom/config/nav2_params.yaml autostart:=true
+
+终端 6：配置好的 Nav2 RViz。
+
+use_robot
+source ~/hunter_nav_odom_ws/install/setup.bash
+rviz2 -d /opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz
+
+
+
+Fastlivo2
+
+终端1：雷达
+use_robot
+source ~/xt32_direct_ros2_ws/install/setup.bash
+
+export ROS_DOMAIN_ID=88
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+export ROS_LOCALHOST_ONLY=0
+unset CYCLONEDDS_URI
+
+ros2 run xt32_direct_driver xt32_direct_node
+
+
+终端2：D435i
+use_robot
+source ~/robot_bringup_ws/install/setup.bash
+
+export ROS_DOMAIN_ID=88
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+export ROS_LOCALHOST_ONLY=0
+unset CYCLONEDDS_URI
+
+ros2 launch robot_bringup d435i.launch.py
+
+
+终端3：IMU转换
+use_robot
+
+export ROS_DOMAIN_ID=88
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+export ROS_LOCALHOST_ONLY=0
+unset CYCLONEDDS_URI
+
+/usr/bin/python3 ~/fastlivo2_ws/imu_optical_to_body.py
+
+终端4：FAST-LIVO2
+use_robot
+source ~/fastlivo2_ws/install/setup.bash
+
+export ROS_DOMAIN_ID=88
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+export ROS_LOCALHOST_ONLY=0
+unset CYCLONEDDS_URI
+
+ros2 launch fast_livo \
+mapping_xt32_direct_d435i_body_livo_save.launch.py \
+rviz:=true
+
+
+rviz
+
+~/bin/start_fastlivo_rviz
+
+查看文件
+__NV_PRIME_RENDER_OFFLOAD=1 \
+__GLX_VENDOR_LIBRARY_NAME=nvidia \
+pcl_viewer \
+~/fastlivo2_ws/src/fast_livo/Log/PCD/all_downsampled_points.pcd
+
+
+
+立即备份本次地图
+
+下次保存会覆盖同名文件，完成后立即执行：
+
+BACKUP=~/fastlivo2_maps/map_$(date +%Y%m%d_%H%M%S)
+
+mkdir -p "$BACKUP"
+
+cp \
+~/fastlivo2_ws/src/fast_livo/Log/PCD/all_raw_points.pcd \
+~/fastlivo2_ws/src/fast_livo/Log/PCD/all_downsampled_points.pcd \
+"$BACKUP"/
+
+echo "地图已备份到：$BACKUP"
+ls -lh "$BACKUP"
+
+
+
+--------
+ 已保存的三维点云地图在：
+
+  /home/car/fastlivo2_ws/src/fast_livo/Log/PCD/all_downsampled_points.pcd（较
+  小，适合查看）
+
+  /home/car/fastlivo2_ws/src/fast_livo/Log/PCD/all_raw_points.pcd（原始点云，约
+  523 MB）
+
+  文件管理器路径是：
+
+  主文件夹 → fastlivo2_ws → src → fast_livo → Log → PCD
+
+  可在终端查看简化地图：
+
+  pcl_viewer ~/fastlivo2_ws/src/fast_livo/Log/PCD/all_downsampled_points.pcd
+
+  注意它们是 .pcd 点云地图，不是 JPG/PNG 图片。当前配置的 colmap_output_en:
+  false，所以 D435i 的原始相机照片没有被保存。并且每次正常结束建图时，这两个固定
+  文件名会被覆盖；建议每次采集完就复制或改名保存。
+
+
+
