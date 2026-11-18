@@ -46,6 +46,7 @@ tmp/floral-ring-tools/
 *.dae
 *.glb
 *.npz
+*.npy
 *.pyc
 *.pyd
 *.so
